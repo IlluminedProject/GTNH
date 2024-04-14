@@ -1,7 +1,7 @@
 {
   "_README": "https://gitlab.com/CDAGaming/CraftPresence/-/wikis/home",
   "_SOURCE": "https://gitlab.com/CDAGaming/CraftPresence",
-  "_schemaVersion": 6,
+  "_schemaVersion": 5,
   "_lastMCVersionId": 5,
   "generalSettings": {
     "detectATLauncherInstance": true,
@@ -9,7 +9,6 @@
     "detectMultiMCManifest": false,
     "detectMCUpdaterInstance": false,
     "detectTechnicPack": false,
-    "detectModrinthPack": true,
     "detectBiomeData": false,
     "detectDimensionData": true,
     "detectWorldData": true,
@@ -247,10 +246,13 @@
     "enablePerGui": false,
     "enablePerItem": false,
     "enablePerEntity": false,
+    "renderTooltips": true,
     "formatWords": true,
     "debugMode": false,
     "verboseMode": false,
     "refreshRate": 2,
+    "roundSize": 3,
+    "includeExtraGuiClasses": false,
     "allowPlaceholderPreviews": false,
     "guiSettings": {
       "fallbackGuiIcon": "unknown",
@@ -278,9 +280,7 @@
     },
     "allowEndpointIcons": true,
     "serverIconEndpoint": "https://api.mcsrvstat.us/icon/{server.address.short}",
-    "playerSkinEndpoint": "https://mc-heads.net/avatar/{getOrDefault(player.uuid.short, player.name)}",
-    "allowDuplicatePackets": false,
-    "maxConnectionAttempts": 10
+    "playerSkinEndpoint": "https://mc-heads.net/avatar/{getOrDefault(player.uuid.short, player.name)}"
   },
   "accessibilitySettings": {
     "tooltipBackground": {
@@ -328,10 +328,19 @@
         "alpha": 208
       }
     },
+    "buttonBackground": {
+      "start": {
+        "red": 255,
+        "green": 255,
+        "blue": 255,
+        "alpha": 255
+      },
+      "texLocation": "minecraft:textures/gui/widgets.png"
+    },
     "languageId": "en_US",
     "stripTranslationColors": false,
+    "showLoggingInChat": false,
     "stripExtraGuiElements": false,
-    "renderTooltips": true,
     "configKeyCode": 0
   },
   "displaySettings": {
@@ -356,10 +365,7 @@
     "dynamicIcons": {
       "boubou_19": "https://mc-heads.net/avatar/d28e5f134b8444ce9d3251f1b569adda",
       "zeta.gtnewhorizons.com": "https://api.mcsrvstat.us/icon/zeta.gtnewhorizons.com",
-      "default": "https://via.placeholder.com/256.png",
-      "SKProCH": "https://mc-heads.net/avatar/9c8e16470ad943b6abd15a3ee3b50b02",
-      "mc1.illumined.ru": "https://api.mcsrvstat.us/icon/mc1.illumined.ru",
-      "AsyaTrey": "https://mc-heads.net/avatar/86a2489e84d549988c9a8d960cbbd310"
+      "default": "https://via.placeholder.com/256.png"
     },
     "dynamicVariables": {
       "default": "Example Text",

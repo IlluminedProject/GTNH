@@ -1,0 +1,140 @@
+# Items
+tile.architecturecraft:sawbench.name=建筑师锯台
+tile.architecturecraft:shape.name=构件
+tile.architecturecraft:shapeSE.name=构件（发光）
+item.architecturecraft:largePulley.name=大轮
+item.architecturecraft:sawblade.name=圆锯片
+item.architecturecraft:chisel.name=建筑师凿
+item.architecturecraft:hammer.name=建筑师锤
+item.architecturecraft:cladding.name=覆盖板
+
+# Container
+gui.architecturecraft.Sawbench=锯台
+gui.architecturecraft.Makes=制造
+
+# Gui Colors
+gui.architecturecraft.FontColor=404040
+gui.architecturecraft.SelectedBgColor=66CCFF
+
+# Pages
+gui.architecturecraft.Roofing=屋顶
+gui.architecturecraft.Rounded=Rounded
+gui.architecturecraft.Classical=古典
+gui.architecturecraft.Window=窗户
+gui.architecturecraft.Arches=拱门
+gui.architecturecraft.Railings=栏杆
+gui.architecturecraft.Other=其他
+
+# Shapes
+gui.architecturecraft.RoofTile=屋顶瓦片
+gui.architecturecraft.RoofOuterCorner=屋顶外角
+gui.architecturecraft.RoofInnerCorner=屋顶内角
+gui.architecturecraft.RoofRidge=屋脊
+gui.architecturecraft.RoofSmartRidge=坡屋脊
+gui.architecturecraft.RoofValley=屋谷
+gui.architecturecraft.RoofSmartValley=坡屋谷
+
+gui.architecturecraft.RoofOverhang=垂悬屋顶
+gui.architecturecraft.RoofOverhangOuterCorner=垂悬屋顶外角
+gui.architecturecraft.RoofOverhangInnerCorner=垂悬屋顶内角
+
+gui.architecturecraft.Cylinder=圆柱
+gui.architecturecraft.CylinderHalf=半圆柱
+gui.architecturecraft.CylinderQuarter=四分之一圆柱
+gui.architecturecraft.CylinderLargeQuarter=外圆角
+gui.architecturecraft.AnticylinderLargeQuarter=内圆角
+gui.architecturecraft.Pillar=圆梁
+gui.architecturecraft.Post=圆柱
+gui.architecturecraft.Pole=圆杆
+
+gui.architecturecraft.BevelledOuterCorner=外斜角
+gui.architecturecraft.BevelledInnerCorner=内斜角
+
+gui.architecturecraft.PillarBase=圆梁基座
+gui.architecturecraft.DoricCapital=多立克式柱头
+gui.architecturecraft.IonicCapital=爱奥尼克式柱头
+gui.architecturecraft.CorinthianCapital=科林斯式柱头
+gui.architecturecraft.DoricTriglyph=Triglyph
+gui.architecturecraft.DoricTriglyphCorner=Triglyph Corner
+gui.architecturecraft.DoricMetope=Metope
+gui.architecturecraft.Architrave=Architrave
+gui.architecturecraft.ArchitraveCorner=Architrave Corner
+
+gui.architecturecraft.WindowFrame=Window Frame
+gui.architecturecraft.WindowCorner=Window Corner
+gui.architecturecraft.WindowMullion=Window Mullion
+
+gui.architecturecraft.SphereFull=Sphere
+gui.architecturecraft.SphereHalf=Hemisphere
+gui.architecturecraft.SphereQuarter=Quarter Sphere
+gui.architecturecraft.SphereEighth=Quarter Hemisphere
+gui.architecturecraft.SphereEighthLarge=Round Outer Corner Cap
+gui.architecturecraft.SphereEighthLargeRev=Round Inner Corner Cap
+
+gui.architecturecraft.RoofOverhangGableLH=Gable Overhang LH
+gui.architecturecraft.RoofOverhangGableRH=Gable Overhang RH
+gui.architecturecraft.RoofOverhangGableEndLH=Gable Overhang LH End
+gui.architecturecraft.RoofOverhangGableEndRH=Gable Overhang RH End
+gui.architecturecraft.RoofOverhangRidge=Ridge Overhang
+gui.architecturecraft.RoofOverhangValley=Valley Overhang
+
+gui.architecturecraft.CorniceLH=Cornice LH
+gui.architecturecraft.CorniceRH=Cornice RH
+gui.architecturecraft.CorniceEndLH=Cornice LH End
+gui.architecturecraft.CorniceEndRH=Cornice RH End
+gui.architecturecraft.CorniceRidge=Cornice Ridge
+gui.architecturecraft.CorniceValley=Cornice Valley
+gui.architecturecraft.CorniceBottom=Cornice Bottom
+
+gui.architecturecraft.CladdingSheet=Cladding
+
+gui.architecturecraft.ArchD1=Arch Diameter 1
+gui.architecturecraft.ArchD2=Arch Diameter 2
+gui.architecturecraft.ArchD3A=Arch Diameter 3 Part A
+gui.architecturecraft.ArchD3B=Arch Diameter 3 Part B
+gui.architecturecraft.ArchD3C=Arch Diameter 3 Part C
+gui.architecturecraft.ArchD4A=Arch Diameter 4 Part A
+gui.architecturecraft.ArchD4B=Arch Diameter 4 Part B
+gui.architecturecraft.ArchD4C=Arch Diameter 4 Part C
+
+gui.architecturecraft.BanisterPlainBottom=Plain Banister Bottom Transition
+gui.architecturecraft.BanisterPlain=Plain Banister
+gui.architecturecraft.BanisterPlainTop=Plain Banister Top Transition
+
+gui.architecturecraft.BalustradeFancy=Fancy Balustrade
+gui.architecturecraft.BalustradeFancyCorner=Fancy Corner Balustrade
+gui.architecturecraft.BalustradeFancyWithNewel=Fancy Balustrade with Newel
+gui.architecturecraft.BalustradeFancyNewel=Fancy Newel
+
+gui.architecturecraft.BalustradePlain=Plain Balustrade
+gui.architecturecraft.BalustradePlainOuterCorner=Plain Outer Corner Balustrade
+gui.architecturecraft.BalustradePlainWithNewel=Plain Balustrade with Newel
+
+gui.architecturecraft.BanisterPlainEnd=Plain Banister End
+
+gui.architecturecraft.BanisterFancyNewelTall=Tall Fancy Newel
+
+gui.architecturecraft.BalustradePlainInnerCorner=Plain Inner Corner Balustrade
+gui.architecturecraft.BalustradePlainEnd=Plain Balustrade End
+
+gui.architecturecraft.BanisterFancyBottom=Fancy Banister Bottom Transition
+gui.architecturecraft.BanisterFancy=Fancy Banister
+gui.architecturecraft.BanisterFancyTop=Fancy Banister Top Transition
+gui.architecturecraft.BanisterFancyEnd=Fancy Banister End
+
+gui.architecturecraft.BanisterPlainInnerCorner=Plain Banister Inner Corner
+
+gui.architecturecraft.Slab=Slab
+gui.architecturecraft.Stairs=Stairs
+gui.architecturecraft.StairsOuterCorner=Stairs Outer Corner
+gui.architecturecraft.StairsInnerCorner=Stairs Inner Corner
+
+gui.architecturecraft.SlopeTileA1=Slope A Start
+gui.architecturecraft.SlopeTileA2=Slope A End
+gui.architecturecraft.SlopeTileB1=Slope B Start
+gui.architecturecraft.SlopeTileB2=Slope B Middle
+gui.architecturecraft.SlopeTileB3=Slope B End
+gui.architecturecraft.SlopeTileC1=Slope C 1
+gui.architecturecraft.SlopeTileC2=Slope C 2
+gui.architecturecraft.SlopeTileC3=Slope C 3
+gui.architecturecraft.SlopeTileC4=Slope C 4
