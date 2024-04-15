@@ -1,9 +1,0 @@
-{
-  "useURL": true,
-  "allowDeletions": true,
-  "url": "https://raw.githubusercontent.com/GTNewHorizons/GT-New-Horizons-Modpack/master/servers.json",
-  "servers": {
-    "Illumined": "mc1.illumined.ru"
-  },
-  "DO_NOT_EDIT_prevDefaultServers": []
-}

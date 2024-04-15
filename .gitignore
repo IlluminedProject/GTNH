@@ -1,0 +1,13 @@
+/*
+!.gitignore
+!libraries
+!patches
+!mmc-pack.json
+
+!.minecraft
+.minecraft/*
+!.minecraft/config
+!.minecraft/mods
+!.minecraft/resourcepacks
+!.minecraft/serverutilities
+!.minecraft/*.lang
