@@ -3,6 +3,7 @@
 !libraries
 !patches
 !mmc-pack.json
+!12788076.png
 
 !.minecraft
 .minecraft/*
