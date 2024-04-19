@@ -42,6 +42,7 @@
 .minecraft/config/splash.properties
 .minecraft/config/wailaplugins.cfg
 .minecraft/config/InfernalMobs.cfg
+.minecraft/config/buildcraft
 .minecraft/mods/carpentersblocks/CarpentersBlocksCachedResources.zip
 
 *.disabled
