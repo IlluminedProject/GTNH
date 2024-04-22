@@ -43,6 +43,10 @@
 .minecraft/config/wailaplugins.cfg
 .minecraft/config/InfernalMobs.cfg
 .minecraft/config/buildcraft
+.minecraft/config/GregTech
+.minecraft/config/angelica-options.json
+.minecraft/config/MouseTweaks.cfg
+.minecraft/config/betterquesting*
 .minecraft/mods/carpentersblocks/CarpentersBlocksCachedResources.zip
 
 *.disabled
