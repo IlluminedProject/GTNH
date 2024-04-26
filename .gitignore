@@ -15,6 +15,7 @@
 .minecraft/config/*
 !.minecraft/config/betterquesting
 !.minecraft/config/Betterloadingscreen
+!.minecraft/config/txloader
 
 .minecraft/mods/carpentersblocks/CarpentersBlocksCachedResources.zip
 
