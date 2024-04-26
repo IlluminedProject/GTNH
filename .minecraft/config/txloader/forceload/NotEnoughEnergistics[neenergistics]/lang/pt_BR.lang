@@ -1,0 +1,20 @@
+neenergistics.gui.tooltip.helper.crafting.text1=clique para solicitar itens faltantes
+neenergistics.gui.tooltip.helper.crafting.text2=clique para solicitar o resultado da receita
+neenergistics.gui.tooltip.missing=Itens Faltantes
+neenergistics.gui.tooltip.helper.pattern=Criação automática disponível
+
+nei.options.keys.nee=NotEnoughEnergistics
+nei.options.keys.nee.count=Alterar Contagem de Itens
+nei.options.keys.nee.ingredient=Escolher o Ingrediente
+nei.options.keys.nee.preview=Ajuda para Criação
+nei.options.keys.nee.nopreview=Ajuda para Criação(Sem Vizualização)
+
+gui.neenergistics.button.title.combination=Combinar Itens
+gui.neenergistics.button.tooltip.combination=Modo Atual: %s
+gui.neenergistics.button.name.enabled=Ativado
+gui.neenergistics.button.name.disabled=Desabilitado
+gui.neenergistics.button.name.whitelist=Lista de permissões
+gui.neenergistics.button.title.remove=Remover
+gui.neenergistics.button.tooltip.remove=Remover e cancelar a receita atual
+
+tile.neenergistics.pattern_interface.name=Interface Padrão

@@ -1,0 +1,20 @@
+neenergistics.gui.tooltip.helper.crafting.text1=Kliknij, aby zamówić brakujące przedmioty
+neenergistics.gui.tooltip.helper.crafting.text2=kliknij, aby zamówić wynik receptury.
+neenergistics.gui.tooltip.missing=Brakujące Przedmioty
+neenergistics.gui.tooltip.helper.pattern=Dostępne Auto-wytwarzanie
+
+nei.options.keys.nee=NotEnoughEnergistics
+nei.options.keys.nee.count=Zmiana Liczby Przedmiotów
+nei.options.keys.nee.ingredient=Wybierz składnik
+nei.options.keys.nee.preview=Pomoc w Wytwarzaniu
+nei.options.keys.nee.nopreview=Pomoc w Wytwarzaniu (bez podglądu)
+
+gui.neenergistics.button.title.combination=Łączenie Przedmiotów
+gui.neenergistics.button.tooltip.combination=Bieżący Tryb: %s
+gui.neenergistics.button.name.enabled=Włączone
+gui.neenergistics.button.name.disabled=Wyłączone
+gui.neenergistics.button.name.whitelist=Biała lista
+gui.neenergistics.button.title.remove=Usuń
+gui.neenergistics.button.tooltip.remove=Usuń i anuluj bieżącą recepturę
+
+tile.neenergistics.pattern_interface.name=Interfejs Wzorców
