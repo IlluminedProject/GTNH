@@ -4,7 +4,7 @@ tc.research_category.THAUMICBASES=사우밍 베이스
 enchantment.elderKnowledge=지혜의 장로
 enchantment.eldritchBane=엘드리치 베인
 enchantment.magicTouch=마법에 걸린
-enchantment.Tainted=테인트
+enchantment.tainted=Tainted
 enchantment.vaporising=기화
 tb.rec.enchantments.magictouched=Magic Touched가 인첸드된 무기를 사용하면 살해된 생물에게서 더 많은 위상 구체가 떨어집니다.
 tb.rec.enchantments.vaporising=Weapons enchanted with Vaporising enchantment have a chance to drop corresponding crystallised essentia of creatures slain by it.
@@ -282,6 +282,7 @@ tb.rec.lazullia.page.0=Sometimes a thaumaturge needs some lapis for his... thaum
 tc.research_name.TB.RainbowCacti=Rainbow Cacti
 tc.research_text.TB.RainbowCacti=Grow the rainbow, taste the rainbow!
 tb.rec.rainCacti.page.0=Magic is not always strict and logical - it is magic, after all. The same goes to life - it can take various shapes, sometimes shocking, sometimes funny. Well, you have managed to create a plant, that, pretty much, is a definition of the word 'funny'. This plant functions just like the regular cacti - must be placed on sand and grows up to 3 blocks. However, once broken it will only drop itself it it is the last cacti block left. Otherwise it will drop all kinds of dyes. however, cacti can't create certain dye types, like bonemeal and Lapis. It is also more likely to drop green dye than other dyes.
+tb.rec.rainCacti.page.0.gt=Magic is not always strict and logical - it is magic, after all. The same goes to life - it can take various shapes, sometimes shocking, sometimes funny. Well, you have managed to create a plant, that, pretty much, is a definition of the word 'funny'. This plant functions just like the regular cacti - must be placed on sand and grows up to 3 blocks. However, once broken it will only drop itself it it is the last cacti block left. Otherwise it will drop all kinds of dyes.
 
 tc.research_name.TB.Metalleat=Metalleat
 tc.research_text.TB.Metalleat=Iron is good for your health
