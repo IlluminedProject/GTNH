@@ -23,7 +23,7 @@
         },
         {
             "cachedName": "LWJGL3ify Early Classpath",
-            "cachedVersion": "2.0.4",
+            "cachedVersion": "2.0.7",
             "uid": "me.eigenraven.lwjgl3ify.forgepatches"
         },
         {
@@ -40,7 +40,7 @@
         },
         {
             "cachedName": "LWJGL3ify launch args",
-            "cachedVersion": "2.0.4",
+            "cachedVersion": "2.0.7",
             "uid": "me.eigenraven.lwjgl3ify.launchargs"
         }
     ],
