@@ -12,6 +12,10 @@
 !.minecraft/resourcepacks
 !.minecraft/serverutilities
 
+!.minecraft/visualprospecting
+.minecraft/visualprospecting/*
+!.minecraft/visualprospecting/veintypesLUT
+
 .minecraft/config/draconicevolution/contributors.json
 .minecraft/config/INpureProjects/logs/debug.log
 .minecraft/config/fw.cfg
