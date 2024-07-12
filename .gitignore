@@ -4,6 +4,7 @@
 !patches
 !mmc-pack.json
 !12788076.png
+*.bak
 
 !.minecraft
 .minecraft/*
