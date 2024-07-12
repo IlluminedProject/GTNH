@@ -17,10 +17,13 @@
     "Hitechmine.ru  GT New Horizons": "hitechmine.ru",
     "Modded Minecraft Club  (Eu-Asia)": "gtnh.moddedminecraft.club",
     "MMC No TP (Eu+Asia2)": "gtnh-im.moddedminecraft.club",
-    "Earthquake GTNH (US West)": "aragil.ddns.net",
+    "Earthquake GTNH (US West)": "flancat.ddns.net",
     "MineYourMind GTNH (EU)": "horizons.mineyourmind.net",
     "Arcturus Network GTNH (EU)": "play.arcturus-official.eu",
-    "ValhallaMC (EU)": "gtnh.valhallamc.io"
+    "ValhallaMC (EU)": "gtnh.valhallamc.io",
+    "Truth of Horizons (EU Paris)": "truthofhorizons.us.to",
+    "Iron Fox Nexus (US)": "23.139.82.94",
+    "The Hive Challenge Run Public SMP (US)": "publichivesmp.paradiseisland.gg"
   },
   "DO_NOT_EDIT_prevDefaultServers": [
     "delta.gtnewhorizons.com",
@@ -36,9 +39,12 @@
     "hitechmine.ru",
     "gtnh.moddedminecraft.club",
     "gtnh-im.moddedminecraft.club",
-    "aragil.ddns.net",
+    "flancat.ddns.net",
     "horizons.mineyourmind.net",
     "play.arcturus-official.eu",
-    "gtnh.valhallamc.io"
+    "gtnh.valhallamc.io",
+    "truthofhorizons.us.to",
+    "23.139.82.94",
+    "publichivesmp.paradiseisland.gg"
   ]
 }
