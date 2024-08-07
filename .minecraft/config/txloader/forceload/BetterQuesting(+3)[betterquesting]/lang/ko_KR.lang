@@ -19,6 +19,9 @@ betterquesting.title.select_theme=Select Theme
 betterquesting.title.importers=Importers
 betterquesting.title.submit_station=Submit Station
 betterquesting.title.completion=Completion: %d/%d
+betterquesting.title.choose_image.src=Select Image to Add
+betterquesting.title.choose_image.dst=Select destination
+betterquesting.title.choose_image_swing=Please select an image in the opened file chooser
 
 betterquesting.btn.rewards=Rewards
 betterquesting.btn.tasks=Tasks
@@ -58,6 +61,8 @@ betterquesting.btn.always_draw_implicit=Always Draw Implicit Dependency
 betterquesting.btn.prereq_visbility.normal=Normal Visibility
 betterquesting.btn.prereq_visbility.implicit=Hidden unless hovering over or holding shift
 betterquesting.btn.prereq_visbility.hidden=Hidden regardless of user input
+betterquesting.btn.bookmark_quest=Bookmark
+betterquesting.btn.unbookmark_quest=Unbookmark
 betterquesting.btn.share_quest=Share to Chat
 betterquesting.btn.copy_quest=Copy Quest ID
 
@@ -72,6 +77,7 @@ betterquesting.gui.quest_line=Quest Line
 betterquesting.gui.database=Database
 betterquesting.gui.selection=Selection
 betterquesting.gui.search=Search
+betterquesting.gui.bookmarks=Bookmarks
 betterquesting.gui.folder=Folder
 betterquesting.gui.party_invites=Invites
 betterquesting.gui.party_members=Members
@@ -85,6 +91,10 @@ betterquesting.gui.key=Key Name
 betterquesting.gui.no_key=No Key
 betterquesting.gui.duplicate_key=Duplicate Key
 betterquesting.gui.yes_always=Yes, always
+betterquesting.gui.sp_only=This feature does not work when playing on dedicated server
+betterquesting.gui.not_correct_dir=Target location must be under %s, and must not be an immediate child of it
+betterquesting.gui.overwrite_file=Target file already exists. Confirm overwrite?
+betterquesting.gui.logic.or=OR
 
 betterquesting.tooltip.tasks_complete=%s/%s Tasks Complete
 betterquesting.tooltip.complete=완료
@@ -106,6 +116,7 @@ betterquesting.tooltip.repeat_with_edit_mode=Edit mode enabled, repeatable quest
 betterquesting.tooltip.update_quests=Update Available!%n§7A new quest line version is available.%nClick to install and migrate progress.
 betterquesting.tooltip.cycle.true=Click to disable
 betterquesting.tooltip.cycle.false=Click to enable
+betterquesting.tooltip.image_file_type=Images
 
 betterquesting.notice.complete=Quest Complete
 betterquesting.notice.update=Quest Updated

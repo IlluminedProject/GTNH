@@ -2,12 +2,8 @@
   "questIDHigh:4": 4492407415263742930,
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 54
-    },
-    "1:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 890
+      "questIDHigh:4": -6133074755109896107,
+      "questIDLow:4": -6003979525766501212
     }
   },
   "questIDLow:4": -5991978432068446918,
@@ -29,11 +25,11 @@
       "globalShare:1": 0,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "More Steam, More Pressure!",
+      "name:8": "More steam, more pressure!",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "How do you compress things in the Steam Age? Simple, putting a lot of steam in one place, under high pressure, can apply a force to compress things...\n\nLet\u0027s just make it bigger. With the Steam Squasher, you can have a Compressor in a much larger scale, similarly to the Steam Macerator multiblock, which processes 8 recipes at the same time. If you feel like compressing recipes are taking too long, which they probably are, this is a good solution to your problems.\n\nPay close attention to the hatches used for this multi. If they are not the exact ones in this quest, the multi will not form! Once the multi forms, provide lots of steam to get lots of compressed items."
+      "desc:8": "How do you compress things in the Steam Age? Simple, putting a lot of steam in one place, under high pressure, can apply a force to compress things...\n\nLet\u0027s just make it bigger. With the Steam Squasher, you can have a Compressor in a much larger scale, similarly to the other Steam Multiblocks. If you feel like compressing recipes are taking too long, which they probably are, this is a good solution to your problems.\n\nOnce the multi forms, provide lots of steam to get lots of compressed items."
     }
   },
   "tasks:9": {
@@ -47,7 +43,7 @@
       "requiredItems:9": {
         "0:10": {
           "id:8": "gregtech:gt.blockcasings",
-          "Count:3": 30,
+          "Count:3": 34,
           "Damage:2": 10,
           "OreDict:8": ""
         },

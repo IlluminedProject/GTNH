@@ -1,0 +1,35 @@
+ic2.itemEnergeticRotor=Кинетический редуктор ротора  (Энергетический сплав)
+ic2.itemTungstenSteelRotor=Kinetic Gearbox Rotor (TungstenSteel)
+ic2.itemVibrantRotor=Кинетический редуктор ротора (Вибрирующий сплав)
+ic2.itemIridiumRotor=Kinetic Gearbox Rotor (Iridium)
+
+ic2.itemMagnaliumRotor=Kinetic Gearbox Rotor (Magnalium)
+ic2.itemUltimetRotor=Kinetic Gearbox Rotor (Ultimet)
+
+ic2.blockGenerator=RTG POWARZ
+ic2.blockGenerator.0=RTG POWA
+ic2.blockGenerator.1=Кинетический генератор
+ic2.blockGenerator.2=ERROR POWA
+ic2.blockGenerator.3=MOAR ERROR POWA
+
+ic2.blockRTGenerator2=RTG POWARZ 2
+ic2.blockKineticGenerator2=Кинетический генератор 2
+
+ic2.HydrofluoricAcid=Капсула промышленной концентрированной плавиковой кислоты
+ic2.SulfurDioxide=Капсула диоксида серы
+ic2.SulfuricApatite=Капсула серного апатита
+ic2.SulfurousAcid=Капсула сернистой кислоты
+
+ic2.HydrogenChloride=Капсула промышленного концентрированного хлороводорода
+ic2.LithiumHydroxide=Капсула гидроксида лития
+ic2.SulfuricLithium=Капсула серного лития
+
+ic2.UraniumHexaFluoride=Капсула гексафторида урана
+ic2.ThoriumTetraFluoride=Капсула тетрафторида тория
+ic2.UraniumTetraFluoride=Капсула тетрафторида урана
+
+
+ic2.itemArmorHazmatHelmetEx=Улучшенный Шлем-акваланг
+ic2.itemArmorHazmatChestplateEx=Улучшенная Защитная куртка
+ic2.itemArmorHazmatLeggingsEx=Улучшенные Защитные поножи
+ic2.itemArmorRubBootsEx=Улучшенные Резиновые ботинки

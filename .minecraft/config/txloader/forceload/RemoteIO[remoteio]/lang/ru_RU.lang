@@ -1,15 +1,15 @@
 # Misc
 itemGroup.rio=RemoteIO
 inhibitor.tooltip=Interaction Inhibitor:
-inhibitor.block=Block
-inhibitor.item=Item
-inhibitor.inactive=Inactive
-inhibitor.active=Active
+inhibitor.block=Блок
+inhibitor.item=Предмет
+inhibitor.inactive=Выключен
+inhibitor.active=Активен
 
 #Documentation
-documentation.category.block=Block
-documentation.category.item=Item
-documentation.category.other=Other
+documentation.category.block=Блок
+documentation.category.item=Предмет
+documentation.category.other=Другие
 
 documentation.block.remoteInterface=Remote Interface
 documentation.block.remoteInventory=Remote Inventory
@@ -48,7 +48,7 @@ container.remoteio.rfconfig_desc=RF by default relies on energy sources to push 
 
 # Tooltip
 tooltip.bound=Bound to: %s
-tooltip.dimension=Dimension: %s
+tooltip.dimension=Измерение: %s
 tooltip.coords=X: %s Y: %s Z: %s
 tooltip.inventory.creative=Right-click with bound Wireless Transmitter to link this Remote Inventory
 

@@ -2,12 +2,8 @@
   "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 1162181130482500484,
-      "questIDLow:4": -8199803816494517045
-    },
-    "1:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 1493
+      "questIDLow:4": 1416
     }
   },
   "questIDLow:4": 2035,
@@ -35,7 +31,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "I\u0027m so cold... You\u0027ll need a constant supply of Cryotheum to use it.\n\n§3This multi is LuV."
+      "desc:8": "I\u0027m so cold... You\u0027ll need a constant supply of Cryotheum to use it.\n\n[note]This multi is LuV.[/note]"
     }
   },
   "tasks:9": {

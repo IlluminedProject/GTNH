@@ -26,12 +26,12 @@
       "globalShare:1": 1,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "§4§3§lRepairing Your Hazmat Suit",
+      "name:8": "§3§lRepairing Your Hazmat Suit",
       "isGlobal:1": 0,
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Be careful when wearing your hazmat suit all the time. The duarbility is not very high. Even just falling a few blocks will damage the boots quickly.\n\nYou can repair your suit long before you can craft a new one in late LV Age, using some rubber sheets and a glue bucket."
+      "desc:8": "Be careful when wearing your hazmat suit all the time. The durability is not very high. Even just falling a few blocks will damage the boots quickly.\n\nYou can repair your suit long before you can craft a new one in late LV Age, using some rubber sheets and a glue bucket."
     }
   },
   "tasks:9": {

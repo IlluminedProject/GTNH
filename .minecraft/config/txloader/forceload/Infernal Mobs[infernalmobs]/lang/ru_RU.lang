@@ -1,5 +1,5 @@
 translation.infernalmobs:rareClass=Rare
-translation.infernalmobs:infernalClass=Infernal
+translation.infernalmobs:infernalClass=Инфернальный
 translation.infernalmobs:ultraClass=Ultra
 
 
@@ -181,5 +181,5 @@ translation.infernalmobs:mod.Wither=Wither
 translation.infernalmobs:entity.Creeper=Creeper
 translation.infernalmobs:entity.Zombie=Zombie
 translation.infernalmobs:entity.Skeleton=Skeleton
-translation.infernalmobs:entity.Spider=Spider
+translation.infernalmobs:entity.Spider=Паук
 translation.infernalmobs:entity.Enderman=Enderman

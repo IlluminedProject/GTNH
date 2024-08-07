@@ -78,10 +78,10 @@ tile.laboratoryStairs.name=Лабораторные ступеньки
 tile.laboratoryGlass.name=Лабораторное стекло
 tile.sacredStone.name=Священный камень
 tile.flowerPot.name=Цветочный горшок
-tile.biomeIslandCore.name=Biome Island Core
+tile.biomeIslandCore.name=Ядро биома острова
 tile.brewingStand.name=Улучшенная варочная стойка
-tile.templeEndPortal.name=End Portal
-tile.laserBeam.name=Laser Beam
+tile.templeEndPortal.name=Портал в Край
+tile.laserBeam.name=Лазерный луч
 
 item.essence.dragon.name=Драконья эссенция
 item.essence.dragon.bacon.name=Эссенция бекона
@@ -209,7 +209,7 @@ item.charm.lastresort.name=Амулет последней надежды
 item.charm.lastresort.tooltip=Телепортирует на $0 блоков после получения удара, с задержкой в $1 секунд
 item.charm.cannotstack=Эффект от этого амулета не складывается с амулетами такого же типа
 
-item.curse.eternal=Вечное
+item.curse.eternal=Вечность
 item.curse.teleportation.name=Проклятие телепортации
 item.curse.confusion.name=Проклятие смятения
 item.curse.tranquility.name=Проклятие спокойствия
@@ -258,7 +258,7 @@ energy.status.weakened=СЛАБОСТЬ
 energy.status.tired=УТОМЛЕНИЕ
 energy.status.unstable=НЕСТАБИЛЬНОСТЬ
 
-namegenerator.middle=, the 
+namegenerator.middle=, 
 
 container.enhancedBrewing=Улучшенная варочная стойка
 container.voidChest=Пустотный сундук
@@ -293,14 +293,14 @@ compendium.smoothText.line1=Включите, если Вы испытывает
 compendium.smoothText.line2=плохое масштабирование текста (экспериментально)
 compendium.smoothText.mode=Режим
 compendium.smoothText.disabled=Выкл.
-compendium.crafting.changed=Recipe was modified by another mod
-compendium.crafting.removed=Recipe was removed by another mod
+compendium.crafting.changed=Рецепт изменен другим модом
+compendium.crafting.removed=Рецепт удален другим модом
 
 key.openCompendium=Компендиум Края
 key.openCompendium.bacon=Компендиум Бекона
 key.openCompendium.conflict=Клавиша компендиума Края конфликтует с $, пожалуйста, исправьте это в настройках управления.
 
-music.notEnabled=Cannot play Hardcore Ender Expansion music disc, custom music is not enabled.
+music.notEnabled=Невозможно воспроизвести музыкальный диск Hardcore Ender Expansion, пользовательская музыка не включена.
 music.missingResourcePack=Ресурспак не установлен
 
 achievement.viewAchievements=Просмотреть достижения

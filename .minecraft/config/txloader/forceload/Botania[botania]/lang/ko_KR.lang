@@ -50,6 +50,7 @@ botaniamisc.clickToSee=클릭시 해당페이지 이동
 botaniamisc.shiftToRemove=쉬프트클릭시 삭제
 botaniamisc.clickToAdd=이곳을 누르면 북마크가 추가됩니다.
 botaniamisc.ratio=확대: %sx
+botaniamisc.neiratio=Zoom (shift to zoom out)
 botaniamisc.bottleTooltip=It has an acquired taste
 botaniamisc.coarseDirt0=거친 흙과 잔디 위에서는
 botaniamisc.coarseDirt1=아무것도 자랄 수 없습니다
@@ -456,7 +457,7 @@ item.dice.poem2=그럴 듯한 결과의 숨겨진 규칙,
 item.dice.poem3=숫자들은 춤을 추는 군요.
 
 # DEATH MESSAGES
-death.attack.botania-relic=%s은(는) 타인 소유의 유물에 욕심을 내 천벌이 내려졌습니다.
+death.attack.botania-relic=%s 은(는) 타인 소유의 유물에 욕심을 내 천벌이 내려졌습니다.
 
 # ENTITY NAMES
 entity.Botania.botania:manaBurst.name=Mana Burst
@@ -1051,7 +1052,7 @@ tile.botania:mushroom10.name=보라색 반짝이는 버섯
 tile.botania:mushroom11.name=파랑색 반짝이는 버섯
 tile.botania:mushroom12.name=갈색 반짝이는 버섯
 tile.botania:mushroom13.name=초록색 반짝이는 버섯
-tile.botania:mushroom14.name=빨강색 반짝이는 버섯
+tile.botania:mushroom14.name=빨간색 반짝이는 버섯
 tile.botania:mushroom15.name=검은색 반짝이는 버섯
 tile.botania:pump.name=마나 펌프
 tile.botania:doubleFlower10.name=신비로운 하얀색 꽃

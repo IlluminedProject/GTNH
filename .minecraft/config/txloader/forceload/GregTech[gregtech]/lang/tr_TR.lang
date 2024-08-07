@@ -46,14 +46,14 @@ GT5U.cracker.io_side=Input/Output Hatches must be on opposite sides!
 
 GT5U.turbine.running.true=Türbin çalışıyor
 GT5U.turbine.running.false=Türbin durdu
-GT5U.turbine.maintenance.false=No Maintenance issues
-GT5U.turbine.maintenance.true=Needs Maintenance
+GT5U.turbine.maintenance.false=Bakım sorunu yok
+GT5U.turbine.maintenance.true=Bakım Gerekiyor
 GT5U.turbine.efficiency=Mevcut Hız
 GT5U.turbine.flow=İdeal Akış
 GT5U.turbine.fuel=Kalan Yakıt
 GT5U.turbine.dmg=Türbin Hasarı
-GT5U.turbine.loose=Loose
-GT5U.turbine.tight=Tight
+GT5U.turbine.loose=Gevşek
+GT5U.turbine.tight=Sıkı
 
 GT5U.engine.output=Current Output
 GT5U.engine.consumption=Fuel Consumption
@@ -432,6 +432,10 @@ GT5U.gui.button.drone_outofrange=§4Machine is too far, drone control system not
 GT5U.gui.button.drone_open_list=Makine Listesini Aç
 GT5U.gui.button.drone_poweron_all=Turn ON ALL machines, no matter how remote
 GT5U.gui.button.drone_poweroff_all=Turn OFF ALL machines, no matter how remote
+GT5U.gui.button.drone_name=Sort by §3name
+GT5U.gui.button.drone_distance=Sort by §3distance
+GT5U.gui.button.drone_error=Sort by §3shutdown status
+GT5U.gui.button.drone_showLocalName=Show localized name
 GT5U.gui.text.success=Tarif işleniyor
 GT5U.gui.text.generating=Güç üretiliyor
 GT5U.gui.text.no_recipe=Geçerli tarif bulunamadı
@@ -489,12 +493,12 @@ GT5U.gui.text.drone_custom_name=Custom Machine Name
 GT5U.gui.text.drone_search=Search machine name
 GT5U.gui.text.out_of_fluid=§4Aşağıdaki sıvılar sağlanmadı: §b%s§f x §6%s L
 GT5U.gui.text.out_of_item=§4Aşağıdaki eşyalar sağlanmadı: §b%s§f x §6%s
-GT5U.gui.text.out_of_stuff=§4No following stuffs supplied: §b%s§f x §6%s
-GT5U.gui.text.power_loss=§4Shut down due to power loss.
-GT5U.gui.text.pollution_fail=§4Failed to output the pollution.
-GT5U.gui.text.structure_incomplete=§4Shut down due to incomplete structure.
-GT5U.gui.text.no_repair=§4Shut down due to machine damage.
-GT5U.gui.text.no_machine_part=No correct machine part in controller slot.
+GT5U.gui.text.out_of_stuff=§cNo following stuffs supplied: §b%s§f x §6%s
+GT5U.gui.text.power_loss=§cShut down due to power loss.
+GT5U.gui.text.pollution_fail=§cFailed to output the pollution.
+GT5U.gui.text.structure_incomplete=§7Shut down due to incomplete structure.
+GT5U.gui.text.no_repair=§7Shut down due to machine damage.
+GT5U.gui.text.no_machine_part=§7No correct machine part in controller slot.
 
 GT5U.item.programmed_circuit.select.header=Reprogram Circuit
 
@@ -1048,7 +1052,7 @@ achievement.gt.blockcasings.13=Dimensional Injection Casing
 achievement.gt.blockcasings.13.desc=Pickup this item to see the recipe in NEI
 achievement.gt.blockcasings.14=Boyutsal Köprü
 achievement.gt.blockcasings.14.desc=Pickup this item to see the recipe in NEI
-achievement.gt.blockmachines.multimachine.plasmaforge=Dimensionally Transcendent Plasma Forge
+achievement.gt.blockmachines.multimachine.plasmaforge=Boyutları Aşan Plazma Ocağı
 achievement.gt.blockmachines.multimachine.plasmaforge.desc=Pickup this item to see the recipe in NEI
 achievement.gt.blockcasings5.11=Sonsuz Bobin
 achievement.gt.blockcasings5.11.desc=Pickup this item to see the recipe in NEI
@@ -1319,8 +1323,6 @@ for.bees.species.silverfish=Gümüş Balığı
 for.mutation.condition.biomeid=Gerekli Biyom
 for.mutation.condition.dim=Gerekli Boyut
 
-for.flowers.flaming=Fire
-
 itemGroup.GTtools=Önyapı Aletleri
 
 gregtech.fertilitySterile=Steril
@@ -1334,7 +1336,6 @@ gregtech.speedAccelerated=Accelerated
 gregtech.lifeBlink=Sinyal
 gregtech.lifeEon=Eon
 gregtech.effectTreetwister=Treetwister
-gregtech.effectMachineBoost=Machine Booster
 
 entity.gregtech.GT_Entity_Arrow.name= a GregTech arrow
 

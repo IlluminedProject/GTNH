@@ -236,7 +236,7 @@ enderio.darkGrindingBall.name=Шарик тёмной стали
 enderio.electricalGrindingBall.name=Шарик наэлектризованной стали
 enderio.energeticGrindingBall.name=Шарик энергетического сплава
 enderio.vibrantGrindingBall.name=Шарик вибрирующего сплава
-enderio.redstoneGrindingBall.name=Шарик сплава из красного камня
+enderio.redstoneGrindingBall.name=Шарик сплава красного камня
 enderio.conductiveGrindingBall.name=Шарик проводящего железа
 enderio.pulsatingGrindingBall.name=Шарик пульсирующего железа
 enderio.soulariumGrindingBall.name=Шарик призрачного сплава
@@ -268,7 +268,7 @@ enderio.itemAlloy.name=Сплав
 enderio.electricalSteel.name=Наэлектризованная сталь
 enderio.energeticAlloy.name=Энергетический сплав
 enderio.phasedGold.name=Вибрирующий сплав
-enderio.redstoneAlloy.name=Сплав из красного камня
+enderio.redstoneAlloy.name=Сплав красного камня
 enderio.conductiveIron.name=Проводящее железо
 enderio.phasedIron.name=Пульсирующее железо
 enderio.vibrantNugget.name=Самородок вибрирующего сплава
@@ -315,7 +315,7 @@ tile.blockIngotStorage.name=Хранилище слитков
 tile.enderio.electricalSteel.name=Блок наэлектризованной стали
 tile.enderio.energeticAlloy.name=Блок энергетического сплава
 tile.enderio.phasedGold.name=Блок вибрирующего сплава
-tile.enderio.redstoneAlloy.name=Блок сплава из красного камня
+tile.enderio.redstoneAlloy.name=Блок сплава красного камня
 tile.enderio.conductiveIron.name=Блок проводящего железа
 tile.enderio.phasedIron.name=Блок пульсирующего железа
 tile.enderio.vibrantNugget.name=Блок самородка вибрирующего сплава
@@ -339,7 +339,7 @@ enderio.powderCopper.name=Медный порошок
 enderio.powderTin.name=Оловянный порошок
 enderio.powderEnder.name=Порошок из жемчуга Края
 enderio.powderObsidian.name=Обсидиановый порошок
-enderio.ingotEnderiumBase.name=Основа Края
+enderio.ingotEnderiumBase.name=Основа эндерия
 
 #Capacitors
 enderio.itemBasicCapacitor.name=Конденсатор
@@ -533,7 +533,7 @@ enderio.killerJoe.fuelTank=Питательный резервуар
 enderio.killerJoe.giveXp.tooltip=Использует опыт
 enderio.killerJoe.giveXp10.tooltip=Использует 10 уровней опыта
 
-tile.blockSliceAndSplice.name=«Отрубатель и сращиватель»
+tile.blockSliceAndSplice.name="Отрубатель и сращиватель"
 tile.blockSliceAndSplice.tooltip.detailed.line1=Отрубает головы и превращает их
 tile.blockSliceAndSplice.tooltip.detailed.line2=во всякие полезные вещи
 
@@ -1201,8 +1201,8 @@ enderio.gui.edit_item_filter=Edit Filter Settings
 enderio.gui.item_filter.close=Close Filter
 enderio.gui.item_filter.close2=Go back to previous inventory
 
-enderio.gui.item_filter.whitelist=Whitelist
-enderio.gui.item_filter.blacklist=Blacklist
+enderio.gui.item_filter.whitelist=Белый список
+enderio.gui.item_filter.blacklist=Черный список
 enderio.gui.item_filter.match_meta=Match Metadata
 enderio.gui.item_filter.ignore_meta=Ignore Metadata
 enderio.gui.item_filter.sticky_enabled=Sticky Mode Enabled
@@ -1224,7 +1224,7 @@ enderio.gui.existing.item_filter.show2=Show the current snapshot
 enderio.item.item_existing_item_filter.filter_not_updated=Filter not updated
 enderio.item.item_existing_item_filter.filter_updated=Filter updated
 
-enderio.gui.basic_item_filter=Basic Item Filter
+enderio.gui.basic_item_filter=Основной предметный фильтр
 enderio.gui.advanced_item_filter=Advanced Item Filter
 enderio.gui.limited_item_filter=Limited Item Filter
 enderio.gui.big_item_filter=Big Item Filter
@@ -1239,7 +1239,7 @@ enderio.gui.soul_filter_big=Big Soul Item Filter
 enderio.gui.enchantment_filter_normal=Enchantment Item Filter
 enderio.gui.enchantment_filter_big=Big Enchantment Item Filter
 
-enderio.gui.fluid_filter=Basic Fluid Filter
+enderio.gui.fluid_filter=Основной фильтр жидкости
 
 enderio.gui.redstone_filter.and=Redstone AND Filter
 enderio.gui.redstone_filter.or=Redstone OR Filter

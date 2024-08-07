@@ -135,6 +135,7 @@ option.bcapi.consump=Показывать макс. энергию
 option.bcapi.trigger=Показывать энергию активации
 option.pr.showio=Показывать ввод/вывод схем
 option.pr.showdata=Показывать данные о схемах
+option.pr.showsignal=Show wire signal strength
 option.extrautilities.fluidamount=Показывать кол-во жидкости
 option.openblocks.fluidamount=Показывать кол-во жидкости
 option.railcraft.fluidamount=Показывать кол-во жидкости

@@ -81,7 +81,7 @@ for.flowers.end=Край
 for.flowers.gourd=Бахчевые
 for.flowers.jungle=Лианы и папоротники
 for.flowers.mushrooms=Грибы
-for.flowers.nether=Нарост Нижнего мира
+for.flowers.nether=Адский нарост
 for.flowers.vanilla=Цветы
 for.flowers.wheat=Пшеница
 for.flowers.snow=Зимние
@@ -93,7 +93,7 @@ fluid.for.honey=Мёд
 fluid.ice=Молотый лёд
 fluid.juice=Фруктовый сок
 fluid.short.mead=Питный мёд
-fluid.mead=Mead
+fluid.mead=Мёд
 fluid.milk=Молоко
 fluid.seedoil=Растительное масло
 tile.forestry.fluid.bioethanol.name=Этанол
@@ -103,7 +103,7 @@ tile.forestry.fluid.for.honey.name=Мёд
 tile.forestry.fluid.ice.name=Молотый лёд
 tile.forestry.fluid.juice.name=Фруктовый сок
 tile.forestry.fluid.short.mead.name=Питный мёд
-tile.forestry.fluid.mead.name=Mead
+tile.forestry.fluid.mead.name=Мёд
 tile.forestry.fluid.milk.name=Молоко
 tile.forestry.fluid.seedoil.name=Растительное масло
 
@@ -242,6 +242,11 @@ for.gui.nocturnal=Ночная
 for.gui.noeffect=Нет эффекта
 for.gui.owner=Владелец
 for.gui.page=Страница
+
+for.gui.search_ingredients=Search Items
+for.gui.search_ingredients.internal_inventory=Internal Inventory
+for.gui.search_ingredients.player_inventory=Player Inventory
+for.gui.search_ingredients.all_inventories=All Inventories
 
 for.gui.pipe.filter.anything=Всё
 for.gui.pipe.filter.bee=Любые пчелы
@@ -384,7 +389,7 @@ for.hints.enginetinchoke.desc=Электродвигатели могут быт
 for.hints.enginetinchoke.tag=Контролируйте выходную мощность
 for.hints.flowerjungle.desc=К цветам джунглей относится папоротник и лоза.
 for.hints.flowerjungle.tag=Что за цветы джунглей?
-for.hints.flowernether.desc=К цветам Нижнего мира относится нарост Нижнего мира.
+for.hints.flowernether.desc=К цветам Нижнего мира относится адский нарост.
 for.hints.flowernether.tag=Что за цветы Нижнего мира?
 for.hints.forcedcooldown.desc=Двигатели могут перегреться, если производимая ими энергия не потребляется. Достигнув температуры плавления, они войдут в режим принудительного охлаждения.
 for.hints.forcedcooldown.tag=Остерегайтесь перегрева!
@@ -469,6 +474,9 @@ item.for.adventurerBag.name=Рюкзак авантюриста
 item.for.adventurerBagT2.name=Тканый рюкзак авантюриста
 item.for.ambrosia.name=Амброзия
 item.for.apatite.name=Апатит
+
+item.for.coinBag.name=Coiner's Backpack
+item.for.coinBagT2.name=Coiner's Woven Backpack
 
 item.for.apiaristBag.name=Рюкзак пчеловода
 item.for.apiaristBoots.name=Ботинки пчеловода
@@ -568,11 +576,11 @@ item.for.frameImpregnated.name=Пропитанная рамка
 item.for.frameProven.name=Проверенная рамка
 item.for.frameUntreated.name=Необработанная рамка
 
-for.frame.tooltip.durability=Durability:
-for.frame.tooltip.territory=Territory:
+for.frame.tooltip.durability=Прочность:
+for.frame.tooltip.territory=Территория:
 for.frame.tooltip.mutationRate=Mutation Rate:
 for.frame.tooltip.lifespan=Lifespan:
-for.frame.tooltip.production=Production:
+for.frame.tooltip.production=Производство:
 for.frame.tooltip.flowering=Flowering:
 for.frame.tooltip.geneticDecay=Genetic Decay:
 
@@ -889,11 +897,11 @@ for.errors.noFarmland.desc=No Farmland
 for.errors.noFarmland.help=Smooth sandstone, bricks or stone bricks create a platform the farm will build on.
 for.errors.noFertilizer.desc=No Fertilizer
 for.errors.noFertilizer.help=Farms require fertilizer for function. Compost is insufficient.
-for.errors.noLiquid.desc=No Water
+for.errors.noLiquid.desc=Нет воды
 for.errors.noLiquid.help=Depending on rainfall, temperature and humidity farms need to be supplied with varying amounts of water.
 
 # DEPRECATED
-for.errors.invalidBiome.desc=Hostile environment
+for.errors.invalidBiome.desc=Враждебная среда
 for.errors.invalidBiome.help=Machine or inhabitants cannot work in this biome.
 for.errors.noDisposal.desc=Waste not disposable
 for.errors.noDisposal.help=Insufficient space to dispose of waste products.
@@ -1622,7 +1630,7 @@ for.config.tweaks.gui.tabs.energy.comment=Display the energy statistics tab on e
 for.config.tweaks.gui.tooltip.liquidamount=Liquid Tooltip
 for.config.tweaks.gui.tooltip.liquidamount.comment=Display liquid amounts in tank tooltips.
 
-for.config.tweaks.permissions=Permissions
+for.config.tweaks.permissions=Разрешения
 for.config.tweaks.permissions.comment=Enables access restrictions on forestry machines.
 for.config.tweaks.version.check=Version Check
 for.config.tweaks.version.check.comment=Enables update and version check notice.
@@ -1636,7 +1644,7 @@ for.config.tweaks.farms.enderlily.comment=Enables farm support for ExtraUtilitie
 for.config.tweaks.farms.magicalcrops=Magical Crops Farm Support
 for.config.tweaks.farms.magicalcrops.comment=Enables farm support for Magical Crops.
 
-for.config.genetics=Genetics
+for.config.genetics=Генетика
 for.config.genetics.clear.invalid.chromosomes=Clear Invalid Chromosomes
 for.config.genetics.clear.invalid.chromosomes.comment=Clears chromosomes which contain invalid alleles. Might rescue your save if it is crashing after the removal of a bee addon.
 for.config.genetics.pollinate.vanilla.trees=Pollinate Vanilla Trees
@@ -1646,7 +1654,7 @@ for.config.genetics.research.boost.multiplier.comment=Multiplies the chance of a
 for.config.genetics.research.boost.max.percent=Research Mutation Max
 for.config.genetics.research.boost.max.percent.comment=The maximum percentage boost that can be applied by researching a mutation in the Escritoire.
 
-for.config.difficulty=Difficulty
+for.config.difficulty=Сложность
 for.config.difficulty.game.mode=Game Mode
 for.config.difficulty.game.mode.comment=Set to your preferred game mode. Mismatch with the server may cause visual glitches with recipes.
 for.config.difficulty.recreate.definitions=Recreate Definitions
@@ -1663,7 +1671,7 @@ for.config.fluids.enable.format=Enables %s fluid.
 for.config.fluid.blocks=Fluid Blocks
 for.config.fluid.blocks.enable.format=Enables %s in-world fluid block.
 
-for.config.debug.enabled=Debug Mode
+for.config.debug.enabled=Отладочный режим
 for.config.debug.enabled.comment=Enable Debug mode (only useful to developers).
 
 for.config.beekeeping.mode=Beekeeping Mode
@@ -1698,7 +1706,7 @@ for.config.gamemode.farms.fertilizer.value.comment=Modifies the time a piece of 
 for.config.gamemode.fuel.ethanol.generator.comment=modifies the energy provided by ethanol in a Bio Generator.
 for.config.gamemode.fuel.ethanol.combustion.comment=modifies the energy provided by ethanol in Buildcraft Combustion Engines.
 for.config.gamemode.fuel.biomass.generator.comment=modifies the energy provided by Biomass in a Bio Generator.
-for.config.gamemode.fuel.biomass.biogas.comment=modifies the energy provided by Biomass in Biogas Engines.
+for.config.gamemode.fuel.biomass.biogas.comment=изменяет энергию, обеспечиваемую биомассой в биогазовых двигателях.
 
 for.config.gamemode.recipe.output.fertilizer.apatite.comment=amount of fertilizer yielded by the recipe using apatite.
 for.config.gamemode.recipe.output.fertilizer.ash.comment=amount of fertilizer yielded by the recipe using ash.

@@ -19,7 +19,7 @@ item.gendustry.PowerModule.name=Модуль энергии
 item.gendustry.GeneticsProcessor.name=Генетический процессор
 item.gendustry.EnvProcessor.name=Экологический процессор
 item.gendustry.UpgradeFrame.name=Рамка улучшения
-item.gendustry.ClimateModule.name=Модуль «Климатический контроль»
+item.gendustry.ClimateModule.name=Модуль "Климатический контроль"
 item.gendustry.Labware.name=Генетическая лабораторная посуда
 item.gendustry.GeneSample.name=Образец гена
 item.gendustry.GeneTemplate.name=Генетический шаблон
@@ -27,8 +27,8 @@ item.gendustry.GeneSampleBlank.name=Образец пустого гена
 item.gendustry.Waste.name=Генетические отходы
 item.gendustry.grafter.name=Промышленный садовый нож
 item.gendustry.scoop.name=Скупоратор MX200 турбо
-item.gendustry.ImportCover.name=Item Import Cover
-item.gendustry.EjectCover.name=Item Eject Cover
+item.gendustry.ImportCover.name=Модуль импорта предметов
+item.gendustry.EjectCover.name=Модуль извлечения предметов
 item.gendustry.ErrorSensorCover.name=Error Sensor Cover
 item.gendustry.PollenKit.name=Набор для сбора пыльцы
 item.gendustry.HiveSpawnDebugger.name=Hive Spawning Debugger
@@ -55,26 +55,26 @@ item.gendustry.protein.can.name=Банка протеина
 
 # ==== UPGRADES ====
 
-gendustry.upgrades.prod.name=Улучшение «Производство»
-gendustry.upgrades.life.name=Улучшение «Продолжительность жизни»
-gendustry.upgrades.flowering.name=Улучшение «Цветение»
-gendustry.upgrades.territory.name=Улучшение «Территория»
-gendustry.upgrades.sealing.name=Улучшение «Уплотнение»
-gendustry.upgrades.light.name=Улучшение «Свет»
-gendustry.upgrades.sky.name=Улучшение «Открытое небо»
-gendustry.upgrades.hell.name=Улучшение «Эмуляция Ада»
-gendustry.upgrades.winter.name=Улучшение «Эмуляция зимы»
-gendustry.upgrades.auto.name=Улучшение «Автоматизация»
-gendustry.upgrades.humidifier.name=Улучшение «Увлажнение»
-gendustry.upgrades.dryer.name=Улучшение «Сушка»
-gendustry.upgrades.heater.name=Улучшение «Нагревание»
-gendustry.upgrades.sieve.name=Улучшение «Сито»
-gendustry.upgrades.cooler.name=Улучшение «Охлаждение»
-gendustry.upgrades.desert.name=Улучшение «Эмуляция пустыни»
-gendustry.upgrades.plains.name=Улучшение «Эмуляция равнин»
-gendustry.upgrades.jungle.name=Улучшение «Эмуляция джунглей»
-gendustry.upgrades.ocean.name=Ocean Emulation Upgrade
-gendustry.upgrades.stabilizer.name=Улучшение «Генетическая стабилизация»
+gendustry.upgrades.prod.name=Улучшение "Производство"
+gendustry.upgrades.life.name=Улучшение "Продолжительность жизни"
+gendustry.upgrades.flowering.name=Улучшение "Цветение"
+gendustry.upgrades.territory.name=Улучшение "Территория"
+gendustry.upgrades.sealing.name=Улучшение "Уплотнение"
+gendustry.upgrades.light.name=Улучшение "Свет"
+gendustry.upgrades.sky.name=Улучшение "Открытое небо"
+gendustry.upgrades.hell.name=Улучшение "Эмуляция Ада"
+gendustry.upgrades.winter.name=Улучшение "Эмуляция зимы"
+gendustry.upgrades.auto.name=Улучшение "Автоматизация"
+gendustry.upgrades.humidifier.name=Улучшение "Увлажнение"
+gendustry.upgrades.dryer.name=Улучшение "Сушка"
+gendustry.upgrades.heater.name=Улучшение "Нагревание"
+gendustry.upgrades.sieve.name=Улучшение "Сито"
+gendustry.upgrades.cooler.name=Улучшение "Охлаждение"
+gendustry.upgrades.desert.name=Улучшение "Эмуляция пустыни"
+gendustry.upgrades.plains.name=Улучшение "Эмуляция равнин"
+gendustry.upgrades.jungle.name=Улучшение "Эмуляция джунглей"
+gendustry.upgrades.ocean.name=Улучшение "Эмуляция океана"
+gendustry.upgrades.stabilizer.name=Улучшение "Генетическая стабилизация"
 gendustry.upgrades.scrubber.name=Pollen Scrubber Upgrade
 
 # ==== GUI AND TOOLTIPS ====
@@ -135,7 +135,7 @@ gendustry.label.template.chromosomes=Хромосомы: %s/%s
 gendustry.rsmode.always=Всегда ВКЛ.
 gendustry.rsmode.never=Отключен
 gendustry.rsmode.rs_on=Включен по сигналу красного камня
-gendustry.rsmode.rs_off=Выключен  по сигналу красного камня
+gendustry.rsmode.rs_off=Выключен по сигналу красного камня
 
 gendustry.label.items=%s Items
 
@@ -227,7 +227,7 @@ gendustry.bees.species.gray=Серая
 gendustry.bees.species.pink=Розовая
 gendustry.bees.species.lime=Лаймовая
 gendustry.bees.species.yellow=Жёлтая
-gendustry.bees.species.lightblue=Светло-синяя
+gendustry.bees.species.lightblue=Светло-синий
 gendustry.bees.species.magenta=Сиреневая
 gendustry.bees.species.orange=Оранжевая
 gendustry.bees.species.white=Белая
@@ -238,7 +238,7 @@ gendustry.bees.species.derpious.description=A curious specimen, seems to be most
 # ==== COMBS ====
 
 gendustry.honeycomb.black.name=Чёрная сота
-gendustry.honeycomb.red.name=Красная  сота
+gendustry.honeycomb.red.name=Красная соты
 gendustry.honeycomb.green.name=Зелёная сота
 gendustry.honeycomb.brown.name=Коричневая сота
 gendustry.honeycomb.blue.name=Синяя сота

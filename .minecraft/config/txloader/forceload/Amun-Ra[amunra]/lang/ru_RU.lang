@@ -132,7 +132,7 @@ tile.isotopeGeneratorAdvanced.name=Продвинутый радиоизотоп
 tile.isotopeGenerator.description=Генерирует електрическую енергию из тепла, которая выделяется при распаде радиоактивного материала. Скорость продукции енергии зависет от температуры среды генератора. Из-за высокого периода полураспада использованного материала, этот генератор можно считать бесконечным.
 
 
-item.baseItem.compressedGold.name=Сжатое золото
+item.baseItem.compressedGold.name=Сжатое Золото
 item.baseItem.goldFoil.name=Золотая фольга
 item.baseItem.transformer.name=Трансформатор
 item.baseItem.waferEnder.name=Полупроводниковая пластина края
@@ -178,7 +178,7 @@ entity.porcodon.name=Поркодон
 entity.sentryRobot.name=Часовой
 entity.osirisBoss.name=Босс-мумия
 entity.alienVillagerAR.name=Инопланетный житель
-entity.alienBug.name=Pincer Bug
+entity.alienBug.name=Жук-щипач
 entity.GalacticraftAmunRa.Shuttle.name=Шаттл
 item.itemShuttle.name=Шаттл
 item.thermalSuit.thermalLevel.name=Уровень тепла: %s
@@ -252,7 +252,7 @@ gui.message.mothership.totalMass=Масса
 gui.message.mothership.totalBlocks=Количество блоков
 gui.message.mothership.numEngineParts=Размер двигателя
 gui.message.mothership.status.name=Статус
-gui.message.mothership.status.idle=Наготове
+gui.message.mothership.status.idle=Простой
 gui.message.mothership.status.disabled=Отключено
 gui.message.mothership.status.active=Активно
 gui.message.mothership.status.obstructed=Блокированно

@@ -61,6 +61,8 @@ betterquesting.btn.always_draw_implicit=Always Draw Implicit Dependency
 betterquesting.btn.prereq_visbility.normal=Normal Visibility
 betterquesting.btn.prereq_visbility.implicit=Hidden unless hovering over or holding shift
 betterquesting.btn.prereq_visbility.hidden=Hidden regardless of user input
+betterquesting.btn.bookmark_quest=Bookmark
+betterquesting.btn.unbookmark_quest=Unbookmark
 betterquesting.btn.share_quest=Share to Chat
 betterquesting.btn.copy_quest=Copy Quest ID
 
@@ -75,6 +77,7 @@ betterquesting.gui.quest_line=Quest Line
 betterquesting.gui.database=Database
 betterquesting.gui.selection=Selection
 betterquesting.gui.search=Search
+betterquesting.gui.bookmarks=Bookmarks
 betterquesting.gui.folder=Folder
 betterquesting.gui.party_invites=Invites
 betterquesting.gui.party_members=Members
@@ -91,6 +94,7 @@ betterquesting.gui.yes_always=Yes, always
 betterquesting.gui.sp_only=This feature does not work when playing on dedicated server
 betterquesting.gui.not_correct_dir=Target location must be under %s, and must not be an immediate child of it
 betterquesting.gui.overwrite_file=Target file already exists. Confirm overwrite?
+betterquesting.gui.logic.or=OR
 
 betterquesting.tooltip.tasks_complete=%s/%s Tasks Complete
 betterquesting.tooltip.complete=COMPLETE
