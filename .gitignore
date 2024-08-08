@@ -21,9 +21,7 @@
 .minecraft/config/fw.cfg
 .minecraft/config/mcpatcherforge.cfg
 .minecraft/GregTech.lang
-.minecraft/config/AppliedEnergistics2/CustomRecipes.cfg
-.minecraft/config/AppliedEnergistics2/Facades.cfg
-.minecraft/config/AppliedEnergistics2/recipes/items.csv
+.minecraft/config/AppliedEnergistics2/**
 .minecraft/config/DreamCoreMod.properties
 .minecraft/config/EnderStorage.cfg
 .minecraft/config/GregTech/Recipes.cfg
@@ -53,5 +51,6 @@
 .minecraft/config/findit.cfg
 .minecraft/config/lwjgl3ify*
 .minecraft/config/modularui*
+.minecraft/config/shaders.properties
 
 *.disabled
