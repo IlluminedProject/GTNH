@@ -48,12 +48,10 @@
 .minecraft/config/buildcraft
 .minecraft/config/angelica-options.json
 .minecraft/config/MouseTweaks.cfg
-.minecraft/config/betterquesting*
 .minecraft/mods/carpentersblocks/CarpentersBlocksCachedResources.zip
 .minecraft/config/StevesFactoryManagerInside.dat
 .minecraft/config/findit.cfg
 .minecraft/config/lwjgl3ify*
-.minecraft/config/NEI
 .minecraft/config/modularui*
 
 *.disabled
