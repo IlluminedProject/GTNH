@@ -3,6 +3,7 @@
   "allowModifications": true,
   "url": "https://raw.githubusercontent.com/GTNewHorizons/GT-New-Horizons-Modpack/master/servers.json",
   "servers": {
+    "Illumined Project": "mc1.illumined.ru",
     "Official GTNH Server 1 EU": "delta.gtnewhorizons.com",
     "Official GTNH Server 2 EU": "epsilon.gtnewhorizons.com",
     "Official GTNH Server 3 EU": "eta.gtnewhorizons.com",
