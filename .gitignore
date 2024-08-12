@@ -52,5 +52,6 @@
 .minecraft/config/lwjgl3ify*
 .minecraft/config/modularui*
 .minecraft/config/shaders.properties
+.minecraft/config/mobsinfo/
 
 *.disabled
