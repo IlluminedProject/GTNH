@@ -53,5 +53,7 @@
 .minecraft/config/modularui*
 .minecraft/config/shaders.properties
 .minecraft/config/mobsinfo/
+.minecraft/config/betterquesting.cfg
+.minecraft/config/enderio/EnderIO.cfg
 
 *.disabled
