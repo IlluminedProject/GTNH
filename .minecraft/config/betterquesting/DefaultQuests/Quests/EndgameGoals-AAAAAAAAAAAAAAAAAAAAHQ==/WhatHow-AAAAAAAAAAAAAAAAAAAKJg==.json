@@ -70,19 +70,13 @@
           "OreDict:8": ""
         },
         "4:10": {
-          "id:8": "SGCraft:stargateController",
+          "id:8": "SGCraft:ocInterface",
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": ""
         },
         "5:10": {
           "id:8": "SGCraft:sgChevronUpgrade",
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "6:10": {
-          "id:8": "SGCraft:sgIrisUpgrade",
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": ""

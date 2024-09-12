@@ -1,9 +1,8 @@
 {
-  "useURL": false,
-  "allowDeletions": true,
+  "useURL": true,
+  "allowModifications": true,
   "url": "https://raw.githubusercontent.com/GTNewHorizons/GT-New-Horizons-Modpack/master/servers.json",
   "servers": {
-    "Illumined Project": "mc1.illumined.ru",
     "Official GTNH Server 1 EU": "delta.gtnewhorizons.com",
     "Official GTNH Server 2 EU": "epsilon.gtnewhorizons.com",
     "Official GTNH Server 3 EU": "eta.gtnewhorizons.com",
@@ -22,9 +21,28 @@
     "Earthquake GTNH (US West)": "flancat.ddns.net",
     "MineYourMind GTNH (EU)": "horizons.mineyourmind.net",
     "ValhallaMC (EU)": "gtnh.valhallamc.io",
-	"Truth of Horizons (EU Paris)": "truthofhorizons.us.to",
-	"Iron Fox Nexus (US)" : "23.139.82.94",
-	"The Hive Challenge Run Public SMP (US)" : "publichivesmp.paradiseisland.gg"
+    "Truth of Horizons (EU Paris)": "truthofhorizons.us.to",
+    "Iron Fox Nexus (US)": "23.139.82.94",
+    "The Hive Challenge Run Public SMP (US)": "publichivesmp.paradiseisland.gg",
+    "Arcturus Network GTNH (EU)": "play.arcturus-official.eu"
   },
-  "DO_NOT_EDIT_prevDefaultServers": []
+  "DO_NOT_EDIT_prevDefaultServers": [
+    "delta.gtnewhorizons.com",
+    "epsilon.gtnewhorizons.com",
+    "eta.gtnewhorizons.com",
+    "zeta.gtnewhorizons.com",
+    "newhorizonsold.prospercraft.com",
+    "mc.stonelegion.com",
+    "gtnh.stonehuts.net",
+    "gtnh.114-7.com",
+    "hitechmine.ru",
+    "gtnh.moddedminecraft.club",
+    "gtnh-im.moddedminecraft.club",
+    "flancat.ddns.net",
+    "play.arcturus-official.eu",
+    "gtnh.valhallamc.io",
+    "truthofhorizons.us.to",
+    "23.139.82.94",
+    "publichivesmp.paradiseisland.gg"
+  ]
 }
