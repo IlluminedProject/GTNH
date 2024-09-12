@@ -32,8 +32,8 @@ message.levelup.21=Эпические моменты с инструментом
 message.levelup.22=Грандмастер, инструмента %s? Всё еще может быть лучше.
 message.levelup.23=Ничто не может пойти не так, если у вас есть инструмент %s.
 message.levelup.24=Герои хотели бы украсть у вас инструмент %s.
-message.levelup.25=Ваш инструмент %s — живая легенда.
-message.levelup.26=Этот инструмент %s — лучшая добыча на свете.
+message.levelup.25=Ваш инструмент %s - живая легенда.
+message.levelup.26=Этот инструмент %s - лучшая добыча на свете.
 message.levelup.27=Ваш инструмент %s делает чудеса реальностью.
 message.levelup.28=Похоже, какой-то Бог выковал твой инструмент %s.
 message.levelup.29=Вы и инструмент %s избраны. 
@@ -262,7 +262,7 @@ item.iguana.tcon.sawCobalt.name=Кобальтовая пила
 item.iguana.tcon.sawManyullyn.name=Мануллиновая пила
 
 item.iguana.tcon.skull.enderman.name=Голова странника Края
-item.iguana.tcon.skull.pigman.name=Голова свиночеловека
+item.iguana.tcon.skull.pigman.name=Голова свинозомби
 item.iguana.tcon.skull.blaze.name=Голова ифрита
 item.iguana.tcon.skull.blizz.name=Голова бурана
 

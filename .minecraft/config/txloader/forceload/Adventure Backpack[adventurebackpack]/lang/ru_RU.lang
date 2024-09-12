@@ -48,10 +48,10 @@ blockCampFire.name=Костёр
 blockSleepingBag.name=Спальный мешок
 
 ## CreativeTab
-itemGroup.adventurebackpack=Рюкзак путешественника
+itemGroup.adventurebackpack=Adventure Backpack Mod
 
 ## Keybindings
-keys.adventureBackpack.category=Рюкзак путешественника
+keys.adventureBackpack.category=Adventure Backpack
 keys.adventureBackpack.openInventory=Открыть инвентарь
 keys.adventureBackpack.toggleActions=Переключить режим
 
@@ -175,7 +175,7 @@ adventurebackpack:skin.name.ocelot=Кошачий
 adventurebackpack:skin.name.orange=Оранжевый
 adventurebackpack:skin.name.overworld=Обычный мир
 adventurebackpack:skin.name.pig=Свинья
-adventurebackpack:skin.name.pigman=Свино-Зомби
+adventurebackpack:skin.name.pigman=Свинозомби
 adventurebackpack:skin.name.pink=Розовый
 adventurebackpack:skin.name.pumpkin=Тыква
 adventurebackpack:skin.name.purple=Фиолетовый

@@ -112,6 +112,8 @@ chat.appliedenergistics2.PriorityReadout=Current priority is %d
 chat.appliedenergistics2.PriorityConfigured=Updated priority to %d
 chat.appliedenergistics2.DriveLocked=Digital Singularity cells in drive were locked to the current item on them
 chat.appliedenergistics2.ChestLocked=Digital Singularity cell in chest was locked to the current item on it
+chat.appliedenergistics2.FinishCraftingRemind=Job for crafting %s * %s is finished, total used %s.
+
 # Creative Tabs
 itemGroup.appliedenergistics2=Energística Aplicada 2
 itemGroup.appliedenergistics2.facades=Applied Energistics 2 - Fachadas
@@ -316,6 +318,8 @@ gui.appliedenergistics2.Orange=Orange
 gui.appliedenergistics2.Red=Red
 gui.appliedenergistics2.TypesInfo=Types
 gui.appliedenergistics2.BytesInfo=Bytes
+gui.appliedenergistics2.ToFollow=Follow
+gui.appliedenergistics2.ToUnfollow=Unfollow
 
 # GUI Colors - ARGB
 gui.color.appliedenergistics2.SearchboxFocused=6E000000
@@ -335,7 +339,7 @@ gui.tooltips.appliedenergistics2.StashDesc=Retorna itens na grade de fabricaçã
 gui.tooltips.appliedenergistics2.Substitutions=Substituições do Ore-Dict
 gui.tooltips.appliedenergistics2.SubstitutionsDescEnabled=Possibilitar substituição para componentes de entrada.
 gui.tooltips.appliedenergistics2.SubstitutionsDescDisabled=Impedir substituição para componentes de entrada.
-gui.tooltips.appliedenergistics2.BeSubstitutions=Use as substitution
+gui.tooltips.appliedenergistics2.BeSubstitutions=Use como substituto
 gui.tooltips.appliedenergistics2.BeSubstitutionsDescEnabled=Allow crafting as substitutions of input components.
 gui.tooltips.appliedenergistics2.BeSubstitutionsDescDisabled=Prevent crafting as substitutions of input components. If all patterns available for a ingredient are disabled to be substitutions, crafting simulator will treat them as if they're enabled to be substitutions.
 
@@ -451,7 +455,7 @@ gui.tooltips.appliedenergistics2.OreFilter=Ore Dictionary Filter
 gui.tooltips.appliedenergistics2.SearchStringTooltip=Right click to clear the search bar
 gui.tooltips.appliedenergistics2.SaveSearchString=Save Search String
 gui.tooltips.appliedenergistics2.SaveSearchStringYes=Sim
-gui.tooltips.appliedenergistics2.SaveSearchStringNo=No
+gui.tooltips.appliedenergistics2.SaveSearchStringNo=Não
 gui.tooltips.appliedenergistics2.DoublePattern=Double pattern
 gui.tooltips.appliedenergistics2.DoublePatternHint=Double stack sizes of pattern inputs and output(s) if it can. x8 when shift is held. Right click to divide instead. Click the middle mouse button to customize the multiplier.
 gui.tooltips.appliedenergistics2.DoublePatterns=Double patterns
@@ -520,6 +524,8 @@ gui.tooltips.appliedenergistics2.PriorityCardMode_Dec=Apply priority to targets 
 gui.tooltips.appliedenergistics2.MultiplyPattern=Multiply
 gui.tooltips.appliedenergistics2.DividePattern=Divide
 gui.tooltips.appliedenergistics2.MultiplyOrDividePatternHint=If it's positive, it's multiplying by that number. If it's negative, it's dividing by that number. It will not work if it is not divisible.
+gui.tooltips.appliedenergistics2.ToFollow=Click to follow this craft and receive message when it is complete\nYou are not following this crafting job right now
+gui.tooltips.appliedenergistics2.ToUnfollow=Click to stop following this craft\nYou are following this crafting job and will receive chat message when it's complete
 
 # Units
 gui.appliedenergistics2.units.appliedenergstics=AE
@@ -537,7 +543,7 @@ gui.appliedenergistics2.Yellow=Amarelo
 gui.appliedenergistics2.Lime=Verde Limão
 gui.appliedenergistics2.Pink=Rosa
 gui.appliedenergistics2.Gray=Cinza
-gui.appliedenergistics2.LightGray=Cinza Claro
+gui.appliedenergistics2.LightGray=Cinza-claro
 gui.appliedenergistics2.Cyan=Ciano
 gui.appliedenergistics2.Purple=Lilás
 gui.appliedenergistics2.Blue=Azul

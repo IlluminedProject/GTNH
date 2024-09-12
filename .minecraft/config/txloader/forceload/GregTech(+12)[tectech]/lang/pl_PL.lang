@@ -763,13 +763,14 @@ gt.blockmachines.multimachine.em.scanner.hint.2=3 - Elemental Output Hatches or 
 gt.blockmachines.multimachine.em.scanner.hint.3=4 - Elemental Overflow Hatches or Molecular Casing
 gt.blockmachines.multimachine.em.scanner.desc.0=Controller block of the Elemental Scanner
 
-gt.blockmachines.multimachine.em.research.name=Research Station
+gt.blockmachines.multimachine.em.research.type=Research Station, Scanner
 gt.blockmachines.multimachine.em.research.hint.0=1 - Classic/Data Hatches or Computer casing
 gt.blockmachines.multimachine.em.research.hint.1=2 - Holder Hatch
 gt.blockmachines.multimachine.em.research.desc.0=Controller block of the Research Station
 gt.blockmachines.multimachine.em.research.desc.1=Used to scan Data Sticks for Assembling Line Recipes
 gt.blockmachines.multimachine.em.research.desc.2=Needs to be fed with computation to work
 gt.blockmachines.multimachine.em.research.desc.3=Does not consume the item until the Data Stick is written
+gt.blockmachines.multimachine.em.research.desc.4=Use screwdriver to change mode
 gt.blockmachines.multimachine.em.research.mode.Assembly_line=Mode: Research Station
 gt.blockmachines.multimachine.em.research.mode.Scanner=Mode: Scanner
 
@@ -1081,6 +1082,10 @@ gt.blockmachines.pipe.energystream.desc.1=Bright Vacuum!!!
 gt.blockmachines.pipe.energystream.desc.2=Must be painted to work
 gt.blockmachines.pipe.energystream.desc.3=Do not split or turn
 
+gt.blockmachines.pipe.energymirror.name=Laser Vacuum Mirror
+gt.blockmachines.pipe.energymirror.desc.0=Laser reflection device.
+gt.blockmachines.pipe.energymirror.desc.1=Can turn but not split
+
 gt.blockmachines.pipe.datastream.name=Optical Fiber Cable
 gt.blockmachines.pipe.datastream.desc.0=Advanced data transmission
 gt.blockmachines.pipe.datastream.desc.1=Don't stare at the beam!
@@ -1174,6 +1179,8 @@ GT5U.gui.text.insufficient_power_no_val=§7Insufficient power
 GT5U.gui.text.missing_upgrades=§7Missing upgrades
 GT5U.gui.text.waiting_for_inputs=§7Waiting for inputs
 GT5U.gui.text.computation_loss=§4Shut down due to computation loss.
+GT5U.gui.text.researching_item=§fResearching: §b%s
+GT5U.gui.text.research_progress=§fComputation: %d/%d (%s%%)
 
 # RecipeMaps
 gt.recipe.eyeofharmony=Eye of Harmony

@@ -150,7 +150,7 @@ enderio.silicon.name=Кремний
 enderio.conduitBinder.name=Связующий элемент труб
 enderio.binderComposite.name=Составной связующий элемент
 enderio.phasedIronNugget.name=Пульсирующий железный самородок
-tile.blockDarkIronBars.name=Решётка из тёмного железа
+tile.blockDarkIronBars.name=Решётка из тёмной стали
 tile.blockSoulariumBars.name=Решётка из призрачного сплава
 tile.blockEndSteelBars.name=Решётка из стали Энда
 tile.blockEndermanSkull.name=Череп странника Края
@@ -337,7 +337,7 @@ enderio.powderIron.name=Железный порошок
 enderio.powderGold.name=Золотой порошок
 enderio.powderCopper.name=Медный порошок
 enderio.powderTin.name=Оловянный порошок
-enderio.powderEnder.name=Порошок из жемчуга Края
+enderio.powderEnder.name=Пыль из жемчуга Края
 enderio.powderObsidian.name=Обсидиановый порошок
 enderio.ingotEnderiumBase.name=Основа эндерия
 
@@ -1205,11 +1205,11 @@ enderio.gui.item_filter.whitelist=Белый список
 enderio.gui.item_filter.blacklist=Черный список
 enderio.gui.item_filter.match_meta=Match Metadata
 enderio.gui.item_filter.ignore_meta=Ignore Metadata
-enderio.gui.item_filter.sticky_enabled=Sticky Mode Enabled
+enderio.gui.item_filter.sticky_enabled=Включён "липкий" режим
 enderio.gui.item_filter.sticky_enabled2=Selected items will only be sent to this or other sticky outputs
-enderio.gui.item_filter.sticky_disabled=Sticky Mode Disabled
-enderio.gui.item_filter.ore_dic_enabled=Ore Dictionary Enabled
-enderio.gui.item_filter.ore_dic_disabled=Ore Dictionary Disabled
+enderio.gui.item_filter.sticky_disabled=Выключен "липкий" режим
+enderio.gui.item_filter.ore_dic_enabled=Использовать словарь руд
+enderio.gui.item_filter.ore_dic_disabled=Игнорировать словарь руд
 enderio.gui.item_filter.match_nbt=Match NBT
 enderio.gui.item_filter.ignore_nbt=Ignore NBT
 
@@ -1253,7 +1253,7 @@ enderio.gui.redstone_filter.timer=Redstone Timer Filter
 enderio.gui.mod.item_filter.delete=Delete
 enderio.gui.mod.item_filter.slot=Input Slot
 
-enderio.gui.power.item_filter.compare=Comparison Mode
+enderio.gui.power.item_filter.compare=Режим сравнения
 enderio.gui.power.item_filter.percent=Power Percentage
 
 enderio.gui.redstone_filter.signal_color=Redstone Signal Color
