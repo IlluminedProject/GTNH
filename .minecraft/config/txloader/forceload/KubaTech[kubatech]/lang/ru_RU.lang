@@ -1,7 +1,7 @@
 #This file is a translation file for KubaTech
 
 #RecipeMaps
-kubatech.defusioncrafter=Draconic Evolution Fusion Crafter
+kubatech.defusioncrafter=Draconic Evolution термоядерный крафтер
 
 #NEI
 kubatech.defusioncrafter.tier=Tier Casing: %s
@@ -27,12 +27,12 @@ kubatech.command.tea.success_add=Player %s now has %d Tea
 kubatech.command.tea.usage=<username> get/set/add (<amount>)
 
 #GUI
-GT5U.gui.text.EEC_nospawner=No powered spawner!
-GT5U.gui.text.EEC_invalidspawner=Invalid spawner!
-GT5U.gui.text.EEC_peaceful=Inserted mob cannot spawn on peaceful mode!
+GT5U.gui.text.EEC_nospawner=Нет электрического спаунера!
+GT5U.gui.text.EEC_invalidspawner=Неверный спаунер!
+GT5U.gui.text.EEC_peaceful=Вставленный моб не может заспавнится в мирном режиме!
 GT5U.gui.text.MegaApiary_slotoverflow=Внутри слишком много пчёл!
 GT5U.gui.text.MegaApiary_noflowers=Отсутствуют цветы!
-GT5U.gui.text.EIG_slotoverflow=Внутри слишком много семян!
+GT5U.gui.text.EIG_slotoverflow=Внутри слишком много crop!
 GT5U.gui.text.EIG_missingwater=Нет воды!
 GT5U.gui.text.EIG_ic2glass=Недостаточный уровень стекла!
 
@@ -48,7 +48,7 @@ kubaitem.fromcollection=This item is from
 kubaitem.notyours=It looks like that item is not yours
 kubaitem.defc_schematic_t1.name=Схема: ядро дракона
 kubaitem.defc_schematic_t1.tip=Эту схему можно найти в Подземельях Плутона
-kubaitem.defc_schematic_t2.name=Схема: ядро виверны 
+kubaitem.defc_schematic_t2.name=Схема: ядро виверны
 kubaitem.defc_schematic_t3.name=Схема: пробуждённое ядро
 kubaitem.defc_schematic_t4.name=Схема: ядро хаоса
 

@@ -1,67 +1,67 @@
-item.kekztech_error_item.name=KekzTech Error Coin
+item.kekztech_error_item.name=Ошибка KekzTech Coin
 
 # -------- Multiblock Tooltip Builder Keywords
 # -------- Context can be found in the class util.MultiBlockTooltipBuilder
 mbdesc.beginStructureBlock.Dimensions=Размеры
 mbdesc.beginStructureBlock.Structure=Структура
 mbdesc.addController.Controller=Контроллер
-mbdesc.addCasing.atleast=(at least)
+mbdesc.addCasing.atleast=(не меньше)
 mbdesc.addEnergyHatch.EnergyHatch=Энерговвод
 mbdesc.addDynamoHatch.DynamoHatch=Энерговывод
 mbdesc.addMaintenanceHatch.MaintenanceHatch=Люк техобслуживания
-mbdesc.addIOHatches.IOHatches=I/O Hatches
+mbdesc.addIOHatches.IOHatches=Шлюзы ввода/вывода
 mbdesc.addInputBus.InputBus=Входной люк/и
 mbdesc.addInputHatch.InputHatch=Входной шлюз/ы
 mbdesc.addOutputBus.OutputBus=Выходной люк/и
 mbdesc.addOutputHatch.OutputHatch=Выходной шлюз/ы
-mbdesc.signAndFinalize.Hold=Hold
-mbdesc.signAndFinalize.todisplay=to display structure guidelines
-mbdesc.signAndFinalize.createdby=Created by
+mbdesc.signAndFinalize.Hold=Держать
+mbdesc.signAndFinalize.todisplay=для отображения структурных рекомендаций
+mbdesc.signAndFinalize.createdby=Создано
 
 # -------- Fuel Cell: Structure Blocks
-tile.kekztech_gdcceramicelectrolyteunit_block.name=GDC Ceramic Electrolyte Unit
-tile.kekztech_yszceramicelectrolyteunit_block.name=YSZ Ceramic Electrolyte Unit
+tile.kekztech_gdcceramicelectrolyteunit_block.name=Керамический электролитный блок GDC
+tile.kekztech_yszceramicelectrolyteunit_block.name=Керамический электролитный блок YSZ
 
 # -------- Fuel Cell: Crafting Components
-item.kekztech_crafting_item.9.name=YSZ Ceramic Dust
-item.kekztech_crafting_item.10.name=GDC Ceramic Dust
-item.kekztech_crafting_item.11.name=Yttria Dust
-item.kekztech_crafting_item.12.name=Пыль циркония
-item.kekztech_crafting_item.13.name=Ceria Dust
-item.kekztech_crafting_item.14.name=YSZ Ceramic Plate
-item.kekztech_crafting_item.15.name=GDC Ceramic Plate
+item.kekztech_crafting_item.9.name=YSZ Керамическая пыль
+item.kekztech_crafting_item.10.name=GDC Керамическая пыль
+item.kekztech_crafting_item.11.name=Иттриевая пыль
+item.kekztech_crafting_item.12.name=Циркониевая пыль 
+item.kekztech_crafting_item.13.name=Цериевая пыль 
+item.kekztech_crafting_item.14.name=YSZ Керамическая пластина
+item.kekztech_crafting_item.15.name=GDC Керамическая пластина
 
 # -------- TFFT: Structure Blocks
-tile.kekztech_tfftstoragefield_block.0.name=T.F.F.T Casing
-tile.kekztech_tfftstoragefield_block.1.name=T.F.F.T Storage Field Block (Tier I)
-tile.kekztech_tfftstoragefield_block.2.name=T.F.F.T Storage Field Block (Tier II)
-tile.kekztech_tfftstoragefield_block.3.name=T.F.F.T Storage Field Block (Tier III)
-tile.kekztech_tfftstoragefield_block.4.name=T.F.F.T Storage Field Block (Tier IV)
-tile.kekztech_tfftstoragefield_block.5.name=T.F.F.T Storage Field Block (Tier V)
-tile.kekztech_tfftstoragefield_block.6.name=T.F.F.T Storage Field Block (Tier VI)
-tile.kekztech_tfftstoragefield_block.7.name=T.F.F.T Storage Field Block (Tier VII)
-tile.kekztech_tfftstoragefield_block.8.name=T.F.F.T Storage Field Block (Tier VIII)
-tile.kekztech_tfftstoragefield_block.9.name=T.F.F.T Storage Field Block (Tier IX)
-tile.kekztech_tfftstoragefield_block.10.name=T.F.F.T Storage Field Block (Tier X)
-tile.kekztech_tfftstoragefield_block.desc=This is not a fluid tank
-tile.kekztech_tfftstoragefield_block.hint.1=Hint 1 Dot: T.F.F.T Casing
-tile.kekztech_tfftstoragefield_block.hint.2=Hint 2 Dot: T.F.F.T Casing, Maintenance Hatch, T.F.F.T Multi I/O Hatch, Input/Output Hatch, Energy Hatch
-tile.kekztech_tfftstoragefield_block.hint.3=Hint 3 Dot: EV+ Tier Glass, T.F.F.T Multi I/O Hatch, Input/Output Hatch
-tile.kekztech_tfftstoragefield_block.hint.4=Hint 4 Dot: EV+ Tier Glass
+tile.kekztech_tfftstoragefield_block.0.name=T.F.F.T Корпус
+tile.kekztech_tfftstoragefield_block.1.name=T.F.F.T Блок хранения жидкостей T1
+tile.kekztech_tfftstoragefield_block.2.name=T.F.F.T Блок хранения жидкостей T2
+tile.kekztech_tfftstoragefield_block.3.name=T.F.F.T Блок хранения жидкостей T3
+tile.kekztech_tfftstoragefield_block.4.name=T.F.F.T Блок хранения жидкостей T4
+tile.kekztech_tfftstoragefield_block.5.name=T.F.F.T Блок хранения жидкостей T5
+tile.kekztech_tfftstoragefield_block.6.name=T.F.F.T Блок хранения жидкостей T6
+tile.kekztech_tfftstoragefield_block.7.name=T.F.F.T Блок хранения жидкостей T7
+tile.kekztech_tfftstoragefield_block.8.name=T.F.F.T Блок хранения жидкостей T8
+tile.kekztech_tfftstoragefield_block.9.name=T.F.F.T Блок хранения жидкостей T9
+tile.kekztech_tfftstoragefield_block.10.name=T.F.F.T Блок хранения жидкостей T10
+tile.kekztech_tfftstoragefield_block.desc=Это не резервуар для жидкости.
+tile.kekztech_tfftstoragefield_block.hint.1=Подсказка 1 точка: T.F.F.T Корпус
+tile.kekztech_tfftstoragefield_block.hint.2=Подсказка 2 точки: T.F.F.T Корпус, Люк техобслуживания, T.F.F.T Мульти I/O шлюз, Входной/Выходной шлюз, Энерговвод
+tile.kekztech_tfftstoragefield_block.hint.3=Подсказка 3 точки: EV+ тировое стекло, T.F.F.T Мульти I/O шлюз, Входной/Выходной шлюз
+tile.kekztech_tfftstoragefield_block.hint.4=Подсказка 4 точки: EV+ тировое стекло
 
 # -------- Lapotronic Super Capacitor: Structure Blocks
-tile.kekztech_lapotronicenergyunit_block.0.name=Lapotronic Super Capacitor Casing
+tile.kekztech_lapotronicenergyunit_block.0.name=Корпус суперконденсатора Lapotronic
 tile.kekztech_lapotronicenergyunit_block.1.name=Лазуротроновый конденсатор (IV)
 tile.kekztech_lapotronicenergyunit_block.2.name=Лазуротроновый конденсатор (LuV)
 tile.kekztech_lapotronicenergyunit_block.3.name=Лазуротроновый конденсатор (ZPM)
 tile.kekztech_lapotronicenergyunit_block.4.name=Лазуротроновый конденсатор (UV)
-tile.kekztech_lapotronicenergyunit_block.5.name=Ultimate Capacitor (UHV)
-tile.kekztech_lapotronicenergyunit_block.6.name=Empty Capacitor (-)
+tile.kekztech_lapotronicenergyunit_block.5.name=Совершенный конденсатор (UHV)
+tile.kekztech_lapotronicenergyunit_block.6.name=Пустой конденсатор (-)
 tile.kekztech_lapotronicenergyunit_block.7.name=Лазуротроновый конденсатор (EV)
 tile.kekztech_lapotronicenergyunit_block.8.name=UEV Конденсатор
 tile.kekztech_lapotronicenergyunit_block.9.name=UIV Конденсатор
 tile.kekztech_lapotronicenergyunit_block.10.name=UMV Конденсатор
-tile.kekztech_lapotronicenergyunit_block.desc=Part of the Lapotronic Super Capacitor
+tile.kekztech_lapotronicenergyunit_block.desc=Часть суперконденсатора Lapotronic
 
 # -------- Thaumium Reinforced Jar: Block
 tile.kekztech_thaumiumreinforcedjar_block.0.name=Укреплённая банка из таум-металла
@@ -71,10 +71,10 @@ tile.kekztech_thaumiumreinforcedjar_block.3.name=Укреплённая пуст
 # This is the name of the research
 tc.research_name.THAUMIUMREINFORCEDJAR=Укреплённая банка из таум-металла
 # This is the subtext for the research note
-tc.research_text.THAUMIUMREINFORCEDJAR=Slightly better jars
+tc.research_text.THAUMIUMREINFORCEDJAR=Немного лучше банки
 # Lore text for the research pages
-kekztech.research_page.THAUMIUMREINFORCEDJAR.0=You have heard your fellow Thaumaturges talk about the benefits of digitized Essentia Storage.<BR><BR>Storing enough Essentia for your advanced infusions has indeed been an issue for you too. However those jars are simply too pleasing to look at to even consider the idea of replacing them with some compact technological construct.<BR><BR>Thanks to this new discovery, you have managed to quadruple the capacity of your jars by improving them with a thick Thaumium lining. This should buy you some more time to come up with a better solution.
-kekztech.research_page.THAUMIUMREINFORCEDJAR.1=Compressing this much Essentia in such a tiny space causes some volatility. Picking up reinforced jars is probably a bad idea...<BR><BR>You imagine that you could get even more out of your jars if only you had some kind of material harder than even diamond or any of the other magical metal you have seen so far.
+kekztech.research_page.THAUMIUMREINFORCEDJAR.0=Вы слышали, как ваши коллеги-тауматурги говорили о преимуществах оцифрованного хранения эссенции.<BR><BR>Хранение достаточного количества эссенции для ваших продвинутых инфузий действительно было проблемой и для вас. Однако эти банки просто слишком приятны на вид, чтобы даже рассматривать идею замены их на какую-то компактную технологическую конструкцию.<BR><BR>Благодаря этому новому открытию вам удалось увеличить вместимость ваших банок в четыре раза, улучшив их с помощью толстой подкладки из таумия. Это должно дать вам немного больше времени, чтобы придумать лучшее решение.
+kekztech.research_page.THAUMIUMREINFORCEDJAR.1=Сжатие такого количества эссенции в таком маленьком пространстве вызывает некоторую нестабильность. Подбирать усиленные банки, вероятно, плохая идея...<BR><BR>Вы представляете, что вы могли бы получить еще больше из своих банок, если бы у вас был какой-то материал, который тверже алмаза или любого другого магического металла, который вы видели до сих пор.
 
 # -------- Ichor Jar: Block
 tile.kekztech_ichorjar_block.0.name=Ихоровая банка
@@ -82,11 +82,11 @@ tile.kekztech_ichorjar_block.3.name=Ихоровая пустотная банк
 
 # -------- Ichor Jar: Research
 tc.research_name.ICHORJAR=Ихоровая банки
-tc.research_text.ICHORJAR=Much better jars
-kekztech.research_page.ICHORJAR.0=This is it!<BR><BR>By infusing a jar with just a single piece of Ichor you have created something to rival digitized Essentia storage without sacrificing any of the beauty of Warded Jars.<BR><BR>Ichor Jars can hold an astounding 4096 Essentia and fit nicely into your recently aquired set of Ichor based achievements.<BR><BR>You definitely don't want to disturb these jars. Luckily Ichor is resilient enough to make accidentially destroying one unlikely.
+tc.research_text.ICHORJAR=Гораздо лучше банки
+kekztech.research_page.ICHORJAR.0=Вот оно!<BR><BR>Добавив в банку всего один кусочек Ихора, вы создали нечто, способное соперничать с оцифрованным хранилищем Эссенции, не жертвуя при этом красотой защищенных банок.<BR><BR>Ихоровые банки могут вместить поразительные 4096 Эссенции и прекрасно впишутся в ваш недавно приобретенный набор достижений на основе Ихора.<BR><BR>Вы определенно не захотите тревожить эти банки. К счастью, Ихор достаточно устойчив, чтобы случайное уничтожение одной из них было маловероятным.
 
 # -------- Cosmetic Blocks
-tile.kekztech_largehextile_block.name=Large Hex Tile
+tile.kekztech_largehextile_block.name=Большая шестигранная плитка
 
 # -------- Achievements
 achievement.tile.kekztech_lapotronicenergyunit_block.2.desc=Проcто посмотри рецепт в NEI
@@ -96,12 +96,12 @@ achievement.tile.kekztech_lapotronicenergyunit_block.3=Лазуротронов�
 achievement.tile.kekztech_lapotronicenergyunit_block.4.desc=Проcто посмотри рецепт в NEI
 achievement.tile.kekztech_lapotronicenergyunit_block.4=Лазуротроновый конденсатор (UV)
 achievement.tile.kekztech_lapotronicenergyunit_block.5.desc=Проcто посмотри рецепт в NEI
-achievement.tile.kekztech_lapotronicenergyunit_block.5=Ultimate Capacitor (UHV)
-achievement.tile.kekztech_lapotronicenergyunit_block.8.desc=Beyond the ranks of Gods
+achievement.tile.kekztech_lapotronicenergyunit_block.5=Совершенный конденсатор (UHV)
+achievement.tile.kekztech_lapotronicenergyunit_block.8.desc=За гранью богов 
 achievement.tile.kekztech_lapotronicenergyunit_block.8=UEV Конденсатор
-achievement.tile.kekztech_lapotronicenergyunit_block.9.desc=Insanity ensues!
+achievement.tile.kekztech_lapotronicenergyunit_block.9.desc=Безумие продолжается! 
 achievement.tile.kekztech_lapotronicenergyunit_block.9=UIV Конденсатор
-achievement.tile.kekztech_lapotronicenergyunit_block.10.desc=How far can we go?
+achievement.tile.kekztech_lapotronicenergyunit_block.10.desc=Как далеко мы можем зайти?
 achievement.tile.kekztech_lapotronicenergyunit_block.10=UMV Конденсатор
 
 

@@ -33,7 +33,7 @@ item.universalSingularities.general.quicksilver.name=Сингулярность 
 item.universalSingularities.general.blackSteel.name=Сингулярность из чёрной стали
 item.universalSingularities.general.damascusSteel.name=Сингулярность из дамасской стали
 item.universalSingularities.general.tricalciumphosphate.name=Сингулярность из трикальций-фосфата
-item.universalSingularities.general.shadowSteel.name=Сингулярность из мрачной стали
+item.universalSingularities.general.shadowSteel.name=Сингулярность из теневой стали
 item.universalSingularities.general.sulfur.name=Сингулярность из серы
 item.universalSingularities.general.iridium.name=Сингулярность из иридия
 item.universalSingularities.general.netherstar.name=Сингулярность из адской звезды
@@ -71,16 +71,16 @@ item.universalSingularities.enderIO.vibrantAlloy.name=Сингулярность
 //Ender IO
 
 //ExtraPlanets
-item.universalSingularities.extraPlanets.blueGem.name=Blue Gem Singularity
+item.universalSingularities.extraPlanets.blueGem.name=Сингулярность из синего самоцвета
 item.universalSingularities.extraPlanets.carbon.name=Сингулярность из углерода
-item.universalSingularities.extraPlanets.crystal.name=Crystal Singularity
-item.universalSingularities.extraPlanets.redGem.name=Red Gem Singularity
-item.universalSingularities.extraPlanets.whiteGem.name=White Gem Singularity
+item.universalSingularities.extraPlanets.crystal.name=Сингулярность из кристалла
+item.universalSingularities.extraPlanets.redGem.name=Сингулярность из красного самоцвета
+item.universalSingularities.extraPlanets.whiteGem.name=Сингулярность из белого самоцвета
 //ExtraPlanets
 
 //ExtraTiC
-item.universalSingularities.extraTiC.fairy.name=Fairy Singularity
-item.universalSingularities.extraTiC.pokefennium.name=Pokefennium Singularity
+item.universalSingularities.extraTiC.fairy.name=Сингулярность Феи
+item.universalSingularities.extraTiC.pokefennium.name=Сингулярность из покефенниума
 //ExtraTiC
 
 //Extra Utilities
@@ -88,14 +88,14 @@ item.universalSingularities.extraUtilities.unstable.name=Сингулярнос�
 //Extra Utilities
 
 //Mekanism
-item.universalSingularities.mekanism.refinedGlowstone.name=Refined Glowstone Singularity
-item.universalSingularities.mekanism.refinedObsidian.name=Refined Obsidian Singularity
+item.universalSingularities.mekanism.refinedGlowstone.name=Cингулярность из очищенного светокамня
+item.universalSingularities.mekanism.refinedObsidian.name=Сингулярность из очищенного обсидиана
 //Mekanism
 
 //Metallurgy 4
 //Utility
 item.universalSingularities.metallurgy.bitumen.name=Сингулярность из битума
-item.universalSingularities.metallurgy.potash.name=Potash Singularity
+item.universalSingularities.metallurgy.potash.name=Сингулярность из оксида калия
 //Alloys - Base
 item.universalSingularities.metallurgy.angmallen.name=Сингулярность из ангмалленна
 item.universalSingularities.metallurgy.hepatizon.name=Сингулярность из гепатизона
@@ -119,7 +119,7 @@ item.universalSingularities.projectRed.electrotine.name=Сингулярност
 //ProjectRed
 
 //Redstone Arsenal
-item.universalSingularities.redstoneArsenal.crystalFlux.name=Flux Crystal Singularity
+item.universalSingularities.redstoneArsenal.crystalFlux.name=Сингулярность из флюсового кристалла
 //Redstone Arsenal
 
 //Tinkers' Construct
@@ -127,13 +127,13 @@ item.universalSingularities.tinkersConstruct.aluminumBrass.name=Сингуляр
 item.universalSingularities.tinkersConstruct.alumite.name=Сингулярность из алюмита
 item.universalSingularities.tinkersConstruct.ardite.name=Сингулярность из ардита
 item.universalSingularities.tinkersConstruct.cobalt.name=Сингулярность из кобальта
-item.universalSingularities.tinkersConstruct.ender.name=Ender Singularity
-item.universalSingularities.tinkersConstruct.glue.name=Glue Singularity
+item.universalSingularities.tinkersConstruct.ender.name=Эндер Сингулярность
+item.universalSingularities.tinkersConstruct.glue.name=Сингулярность из клея
 item.universalSingularities.tinkersConstruct.manyullyn.name=Сингулярность из мануллина
 //item.universalSingularities.tinkersConstruct.pigIron.name=Сингулярность из свиного железа
 //Tinkers' Construct
 
 /*Removed
  * item.universalSingularities.general.salt.name=Сингулярность из соли
- * item.universalSingularities.extraTiC.red_aurum.name=RedAurum Singularity
+ * item.universalSingularities.extraTiC.red_aurum.name=RedAurum Сингулярность
  */

@@ -145,7 +145,7 @@ item.baseItem.rubyGem.name=Рубин
 item.baseItem.lithiumGem.name=Сподумен
 item.baseItem.lithiumMesh.name=Литиевая сеть
 item.baseItem.alienBook.name=Инопланетная книга
-item.baseItem.leadIngot.name=Свинцовый Слиток
+item.baseItem.leadIngot.name=Свинцовый слиток
 item.baseItem.uraniumIngot.name=Урановой слиток
 item.baseItem.steelIngot.name=Стальной слиток
 item.baseItem.ancientRebar.name=Древная арматура
@@ -292,7 +292,7 @@ gui.message.misc.mothership=Космический корабль
 gui.message.misc.n_a=n/a
 gui.message.misc.yes=да
 gui.message.misc.no=нет
-gui.message.misc.unit.ticks=Такт
+gui.message.misc.unit.ticks=Тик
 
 
 mothership.default.name=Корабль %s

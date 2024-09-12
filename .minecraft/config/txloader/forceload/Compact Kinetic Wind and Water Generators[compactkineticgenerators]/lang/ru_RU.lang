@@ -16,13 +16,13 @@ tile.ckg:BlockCkg10.name=Высококинетический Генератор
 tile.ckg:BlockCkg11.name=Экстремальный кинетический Генератор
 
 # Item
-item.compactkineticgenerators:IridiumRotor.name=Кинетический редуктор ротора (Иридий)
+item.compactkineticgenerators:IridiumRotor.name=Кинетический ротор (Иридий)
 item.compactkineticgenerators:IridiumBlade.name=Иридиевая лопасть ротора
 
 # tooltip
 tooltip.ckg.eu=Выход Энергии: 0-%s EU/t макс
 tooltip.ckg.ku=Выход Энергии: 0-%sx KU/t макс
-tooltip.ckg.capacity0=Емкость: 1m EU
-tooltip.ckg.capacity1=Емкость: 4m EU
-tooltip.ckg.capacity2=Емкость: 10m EU
-tooltip.ckg.capacity3=Емкость: 40m EU
+tooltip.ckg.capacity0=Ёмкость: 1m EU
+tooltip.ckg.capacity1=Ёмкость: 4m EU
+tooltip.ckg.capacity2=Ёмкость: 10m EU
+tooltip.ckg.capacity3=Ёмкость: 40m EU

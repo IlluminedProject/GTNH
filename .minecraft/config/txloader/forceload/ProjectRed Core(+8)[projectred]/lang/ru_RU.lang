@@ -37,13 +37,13 @@ item.projectred.core.part.illumar13.name=Зелёная светопыль
 item.projectred.core.part.illumar14.name=Красная светопыль
 item.projectred.core.part.illumar15.name=Чёрная светопыль
 
-item.projectred.core.part.cloth.name=Woven Cloth
+item.projectred.core.part.cloth.name=Тканая ткань
 item.projectred.core.part.sail.name=Sail
 item.projectred.core.part.gemruby.name=Рубин
 item.projectred.core.part.gemsapphire.name=Сапфир
 item.projectred.core.part.gemperidot.name=Хризолит
-item.projectred.core.part.red_iron_comp.name=Red Iron Compound
-item.projectred.core.part.sand_coal_comp.name=Sandy Coal Compound
+item.projectred.core.part.red_iron_comp.name=Красный сплав железа
+item.projectred.core.part.sand_coal_comp.name=Песчаноугольный сплав
 item.projectred.core.part.red_silicon_comp.name=Красный сплав кремния
 item.projectred.core.part.glow_silicon_comp.name=Светящийся сплав кремния
 
@@ -58,7 +58,7 @@ item.projectred.core.part.upgrd_rz.name=Улучшение RZ
 
 item.projectred.core.part.copper_ingot.name=Медный слиток
 item.projectred.core.part.tin_ingot.name=Оловянный слиток
-item.projectred.core.part.silver_ingot.name=Серебряный Слиток
+item.projectred.core.part.silver_ingot.name=Серебряный слиток
 item.projectred.core.part.electrotine_ingot.name=Слиток электротинового сплава
 item.projectred.core.part.electrotine_dust.name=Электротин
 item.projectred.core.part.electrotine_iron_comp.name=Электротиновый сплав железа
@@ -76,14 +76,14 @@ item.projectred.core.datacard.name=Карта памяти
 
 itemGroup.expansion=Project Red: Расширеное
 
-item.projectred.expansion.emptybattery.name=Battery
-item.projectred.expansion.battery.name=Battery
+item.projectred.expansion.emptybattery.name=Батарейка
+item.projectred.expansion.battery.name=Батарейка
 item.projectred.expansion.electric_screwdriver.name=Электрическая отвёртка
 item.projectred.expansion.jetpack.name=Джетпак
 item.projectred.expansion.infused_ender_pearl.name=Infused Ender Pearl
 item.projectred.expansion.plan.name=Recipe Plan
 tile.projectred.expansion.machine1|0.name=Inductive Furnace
-tile.projectred.expansion.machine1|1.name=Electrotine Generator
+tile.projectred.expansion.machine1|1.name=Электротиновый генератор
 tile.projectred.expansion.machine2|0.name=Разрушитель блоков
 tile.projectred.expansion.machine2|1.name=Импортер предметов
 tile.projectred.expansion.machine2|2.name=Установщик

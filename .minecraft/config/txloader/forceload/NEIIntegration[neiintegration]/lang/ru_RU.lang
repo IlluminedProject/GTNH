@@ -8,10 +8,10 @@ neiintegration.chance=Шанс: %s
 neiintegration.chance.never=Нулевой
 neiintegration.chance.lessThan1=<1%
 
-neiintegration.ticks=тактов
+neiintegration.ticks=тиков
 
 neiintegration.tooltip.internalName=ID:
-neiintegration.tooltip.unlocalizedName=Unloc. name:
+neiintegration.tooltip.unlocalizedName=Разбл. название:
 neiintegration.tooltip.maxstack=Макс. размер стака:
 neiintegration.tooltip.burntime=Время горения:
 neiintegration.tooltip.oredict=Имена словаря руд:
@@ -19,8 +19,8 @@ neiintegration.tooltip.fluidreg=Информация о реестре жидк�
 neiintegration.tooltip.fluidreg.empty=Пустой контейнер
 
 neiintegration.config.title=Конфигурация NEI Integration
-neiintegration.config.integrations=Mod Integrations settings
-neiintegration.config.integrations.tooltip=Enable or disable all recipe handlers for certain mods.
+neiintegration.config.integrations=Настройки интеграции модов
+neiintegration.config.integrations.tooltip=Включите или отключите все обработчики рецептов для определенных модов.
 neiintegration.config.handlers=Настройки обработчика рецептов
 neiintegration.config.handlers.tooltip=Включает или отключает обработчики рецептов этого мода.
 neiintegration.config.tooltips=Настройки подсказок предметов
@@ -73,7 +73,7 @@ neiintegration.handler.electricalage.magnetizer=Намагничиватель
 neiintegration.handler.electricalage.plateMachine=Производитель пластин
 
 # Forestry
-neiintegration.handler.forestry.shaped=Forestry Shaped
+neiintegration.handler.forestry.shaped=Forestry: форменное
 neiintegration.handler.forestry.fabricator.worth=Стоимость:
 
 # MineFactory Reloaded

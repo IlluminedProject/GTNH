@@ -112,6 +112,8 @@ chat.appliedenergistics2.PriorityReadout=Текущий приоритет: %d
 chat.appliedenergistics2.PriorityConfigured=Приоритет обновлен до %d
 chat.appliedenergistics2.DriveLocked=Digital Singularity cells in drive were locked to the current item on them
 chat.appliedenergistics2.ChestLocked=Digital Singularity cell in chest was locked to the current item on it
+chat.appliedenergistics2.FinishCraftingRemind=Работа по крафту %s * %s завершена, всего использовано %s.
+
 # Creative Tabs
 itemGroup.appliedenergistics2=Applied Energistics 2
 itemGroup.appliedenergistics2.facades=Applied Energistics 2 - Фасады
@@ -125,7 +127,7 @@ gui.appliedenergistics2.RedstoneTunnel=Красный камень
 gui.appliedenergistics2.EUTunnel=EU
 gui.appliedenergistics2.RFTunnel=RF
 gui.appliedenergistics2.LightTunnel=Свет
-gui.appliedenergistics2.SoundTunnel=Sound
+gui.appliedenergistics2.SoundTunnel=Звук
 gui.appliedenergistics2.OCTunnel=OpenComputers
 gui.appliedenergistics2.PressureTunnel=Давление
 gui.appliedenergistics2.GTTunnel=GT EU
@@ -160,7 +162,7 @@ gui.appliedenergistics2.EnergyDrain=Пассивное потребление
 gui.appliedenergistics2.Installed=Установлено
 gui.appliedenergistics2.NetworkTool=Сетевой инструмент
 gui.appliedenergistics2.AdvancedNetworkTool=Улучшенный сетевой инструмент
-gui.appliedenergistics2.PowerUsageRate=Потребление энергии
+gui.appliedenergistics2.PowerUsageRate=Энергопотребление
 gui.appliedenergistics2.PowerInputRate=Выработка энергии
 gui.appliedenergistics2.PortableCell=Переносная ячейка
 gui.appliedenergistics2.Security=Терминал безопасности
@@ -287,7 +289,7 @@ gui.appliedenergistics2.Fuzzy=нечёткая
 gui.appliedenergistics2.Filter=Фильтр
 gui.appliedenergistics2.SmallFontCraft=+
 gui.appliedenergistics2.LargeFontCraft=+
-gui.appliedenergistics2.Renamer=Пользовательское имя: (Введите, чтобы установить)
+gui.appliedenergistics2.Renamer=Пользовательское имя: (Enter, чтобы установить)
 gui.appliedenergistics2.OreFilterLabel=Фильтр Ore dictionary
 gui.appliedenergistics2.PriorityCard=Карта приоритета
 gui.appliedenergistics2.PriorityCardTooltip=Всё что нужно для приоритетов!
@@ -316,6 +318,8 @@ gui.appliedenergistics2.Orange=Orange
 gui.appliedenergistics2.Red=Red
 gui.appliedenergistics2.TypesInfo=типов
 gui.appliedenergistics2.BytesInfo=Байты
+gui.appliedenergistics2.ToFollow=Подписаться
+gui.appliedenergistics2.ToUnfollow=Отписаться
 
 # GUI Colors - ARGB
 gui.color.appliedenergistics2.SearchboxFocused=6E000000
@@ -342,7 +346,7 @@ gui.tooltips.appliedenergistics2.BeSubstitutionsDescDisabled=Запретить 
 gui.tooltips.appliedenergistics2.PatternSlotConfigTitle=Переключить режим терминала
 gui.tooltips.appliedenergistics2.PatternSlotConfigInfo=Переключить режим слота шаблона между (16 -> 4) и (4 -> 16)
 gui.tooltips.appliedenergistics2.Encode=Закодировать шаблон
-gui.tooltips.appliedenergistics2.EncodeDescription=Напишите введённый шаблон к текущему закодированному шаблону, или к доступному чистому шаблону.
+gui.tooltips.appliedenergistics2.EncodeDescription=Запиши введённый шаблон в текущий закодированный шаблон или в доступный пустой шаблон. Удерживай Shift, чтобы сразу перенести его в инвентарь. Удерживай Shift+Ctrl, чтобы закодировать весь стак.
 
 gui.tooltips.appliedenergistics2.FuzzyMode=Нечёткое сравнение
 gui.tooltips.appliedenergistics2.FZPercent_25=Разделять урон с 25%
@@ -520,6 +524,8 @@ gui.tooltips.appliedenergistics2.PriorityCardMode_Dec=Применить при�
 gui.tooltips.appliedenergistics2.MultiplyPattern=Умножить
 gui.tooltips.appliedenergistics2.DividePattern=Делить
 gui.tooltips.appliedenergistics2.MultiplyOrDividePatternHint=Если число положительное - шаблоны умножаются на это число. Если число отрицательное - шаблоны делятся на это число. Не будет работать, если шаблоны не делятся на это число.
+gui.tooltips.appliedenergistics2.ToFollow=Click to follow this craft and receive message when it is complete\nYou are not following this crafting job right now
+gui.tooltips.appliedenergistics2.ToUnfollow=Click to stop following this craft\nYou are following this crafting job and will receive chat message when it's complete
 
 # Units
 gui.appliedenergistics2.units.appliedenergstics=AE
@@ -579,7 +585,7 @@ item.appliedenergistics2.ItemAdvancedStorageCell.16384k.name=16384К МЭ яче
 item.appliedenergistics2.ItemExtremeStorageCell.Container.name=МЭ ячейка хранения под блоки
 item.appliedenergistics2.ItemExtremeStorageCell.Quantum.name=МЭ квантовая ячейка хранения
 item.appliedenergistics2.ItemExtremeStorageCell.Singularity.name=МЭ сингулярная ячейка хранения
-item.appliedenergistics2.ItemExtremeStorageCell.Universe.name=Artificial Universe Cell
+item.appliedenergistics2.ItemExtremeStorageCell.Universe.name=МЭ искусственная ячейка хранения
 item.appliedenergistics2.ItemCreativeStorageCell.name=МЭ творческая ячейка хранения
 item.appliedenergistics2.ItemVoidStorageCell.name=МЭ пустотная ячейка хранения
 item.appliedenergistics2.ItemEncodedPattern.name=Закодированный шаблон
