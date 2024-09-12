@@ -4,6 +4,18 @@
     "0:10": {
       "questIDHigh:4": -3865909675079480350,
       "questIDLow:4": -7095756151271155560
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2582
+    },
+    "2:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2665
+    },
+    "3:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2588
     }
   },
   "questIDLow:4": -7261779885652482879,
@@ -30,7 +42,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "You\u0027ve probbaly drained quite a few of them at this point\n\n[note]Have you heard about YOTTanks?[/note]"
+      "desc:8": "You\u0027ve probably drained quite a few of them at this point.\n\n[note]Have you heard about YOTTanks?[/note]"
     }
   },
   "tasks:9": {
