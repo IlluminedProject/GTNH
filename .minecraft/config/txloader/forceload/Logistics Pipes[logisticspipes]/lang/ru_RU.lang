@@ -428,7 +428,7 @@ gui.securitystation.popup.ccAccess.Remove=Удалить
 gui.securitystation.popup.ccAccess.Add=Добав.
 gui.securitystation.popup.player.Close=Закр.
 gui.securitystation.popup.player.Player=Полномочия
-gui.securitystation.popup.player.ConfigureSettings=Настр. парам.
+gui.securitystation.popup.player.ConfigureSettings=Настроить параметры
 gui.securitystation.popup.player.ActiveRequesting=Актив. запрашивание
 gui.securitystation.popup.player.UpgradePipes=Улучш. труб
 gui.securitystation.popup.player.CheckNetwork=Проверка системы
@@ -454,7 +454,7 @@ gui.pipecontroller.Recieved=Получ.
 gui.pipecontroller.Relayed=Перед.
 gui.pipecontroller.RoutingTableSize=Разм. табл. маршрут.
 
-gui.networkstatistics.amount=Кол-во путей
+gui.networkstatistics.amount=Количество путей
 gui.networkstatistics.crafting=Выполняющ. задачи крафта
 gui.networkstatistics.gettasks=Поручить задачу
 gui.networkstatistics.add.alreadytracked=Тип предмета уже отслеж.

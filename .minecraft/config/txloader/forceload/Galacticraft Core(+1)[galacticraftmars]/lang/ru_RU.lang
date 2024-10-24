@@ -49,7 +49,7 @@ tile.marsMachine.1.name=Криогенная камера
 tile.marsMachine.2.name=Контроллер запуска
 tile.marsMachine.4.name=Сжижитель газа
 tile.marsMachine.5.name=Синтезатор метана
-tile.marsMachine.6.name=Электролизёр воды
+tile.marsMachine.6.name=Электролизер воды
 tile.hydrogenPipe.name=Труба для водорода
 tile.sludge.name=Бактериальный осадок
 tile.creeperEgg.name=Яйцо крипера
@@ -99,7 +99,7 @@ gui.message.zeroWater.name=Нет воды!
 # Dollar sign ($) will split text onto a new line
 gui.launchController.desc.0=Это уникальная частота$контроллера запуска
 gui.launchController.desc.1=Частота для запуска ракет по направлению
-gui.launchController.desc.2=Взлётная площадка должна быть$удалена при запуске
+gui.launchController.desc.2=Пусковая площадка должна быть$удалена при запуске
 gui.launchController.desc.3=Когда это условие выполняется,$ракета запускается
 gui.launchController.desc.4=Hide destination frequency$from other players ##NEEDS TRANSLATE##
 gui.terraformer.desc.0=Водный резервуар

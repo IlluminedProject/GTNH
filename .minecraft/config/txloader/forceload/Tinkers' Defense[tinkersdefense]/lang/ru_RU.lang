@@ -4,10 +4,10 @@ tile.AeonSteelBlock.name=Блок стали вечности
 tile.MoltenAeonSteel.name=Расплавленная сталь вечности
 material.aeonsteel=Сталь вечности
 
-item.QueensGoldIngot.name=Слиток золота королевы
-tile.QueensGoldBlock.name=Блок золота королевы
-tile.MoltenQueensGold.name=Расплавленное золото королевы
-material.queensgold=Золото королевы
+item.QueensGoldIngot.name=Слиток королевского золота
+tile.QueensGoldBlock.name=Блок королевского золота
+tile.MoltenQueensGold.name=Расплавленное королевское золото
+material.queensgold=Королевское золото
 
 item.DogbeariumIngot.name=Догбериевый слиток
 tile.DogbeariumBlock.name=Догбериевый блок
@@ -15,15 +15,15 @@ tile.MoltenDogbearium.name=Расплавленный догберий
 material.dogbearium=Догберий
 material.dogbearium.ability=Зазубренность
 
-tile.CrestMount.name=Crest Mount
-tile.ArmorAnvil.name=Armor Anvil
-tile.JewelersBench.name=Jeweler's Bench
+tile.CrestMount.name=Крепление на гребне
+tile.ArmorAnvil.name=Наковальня для доспехов
+tile.JewelersBench.name=Ювелирный верстак
 
 tool.roundshield=Круглый щит
 tool.heatershield=Рыцарский щит
 
 fluid.moltenAeonsteel.name=Расплавленная сталь вечности
-fluid.moltenQueensGold.name=Расплавленное золото королевы
+fluid.moltenQueensGold.name=Расплавленное королевское золото
 fluid.moltenDogbearium.name=Расплавленный догберий
 
 gui.toolstation.roundshield.name=Круглый щит

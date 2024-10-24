@@ -5,7 +5,7 @@ tile.signalterminal.name=Сигнальный терминал
 tile.tmechworks.dynamo.name=Двигатель
 tile.tmechworks.meshFilter.empty.name=Пустая фильтровальная сетка
 tile.tmechworks.meshFilter.wide.name=Широкая фильтровальная сетка
-tile.tmechworks.meshFilter.slat.name=Slat Mesh Filter
+tile.tmechworks.meshFilter.slat.name=Плоский сетчатый фильтр
 tile.tmechworks.meshFilter.mesh.name=Фильтровальная сетка
 tile.tmechworks.meshFilter.fine.name=Тонкая фильтровальная сетка
 
@@ -17,8 +17,8 @@ block.firestarter.name=Воспламенитель
 block.advdrawbridge.name=Продвинутый разводной мост
 block.extdrawbridge.name=Расширенный разводной мост
 
-tooltip.spoolofwire=Wirey!
-tooltip.spoolofwire.connecting=Connecting (X:%d, Y:%d, Z:%d, Dim:%d)
+tooltip.spoolofwire=Проволока!
+tooltip.spoolofwire.connecting=Подключение (X:%d, Y:%d, Z:%d, Измерение:%d)
 tooltip.drawbridge.inventory=Инвентарь: 
 tooltip.drawbridge.amount=Количество: 
 tooltip.drawbridge.slot=Слот

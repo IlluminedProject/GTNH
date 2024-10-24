@@ -86,7 +86,7 @@ item.itemExistingItemFilter.name=Существующий предметный �
 item.itemExistingItemFilter.tooltip.basic.line1=Улучшение для предметных труб
 item.itemExistingItemFilter.tooltip.detailed.line1=Выбирает предметы только
 item.itemExistingItemFilter.tooltip.detailed.line2=в инвентаре
-item.itemExistingItemFilter.tooltip.detailed.line3=Right click while sneaking
+item.itemExistingItemFilter.tooltip.detailed.line3=ПКМ с зажатым Shift
 item.itemExistingItemFilter.tooltip.detailed.line4=по инвентарю, чтобы добавить
 item.itemExistingItemFilter.tooltip.detailed.line5=содержимое в фильтр
 
@@ -94,7 +94,7 @@ enderio.item.itemExistingItemFilter.filterUpdated=Новые предметы д
 enderio.item.itemExistingItemFilter.filterNotUpdated=Список уже содержит все предметы инвентаря
 
 item.itemLimitedItemFilter.name=Limited Item Filter
-item.itemLimitedItemFilter.tooltip.basic.line1=Upgrade for item conduits
+item.itemLimitedItemFilter.tooltip.basic.line1=Улучшение для предметных труб
 item.itemLimitedItemFilter.tooltip.detailed.line1=Filters items based on
 item.itemLimitedItemFilter.tooltip.detailed.line2=their stack size
 
@@ -136,7 +136,7 @@ enderio.itemGasConduit.tooltip.detailed.line1=Передаёт газы совм
 
 enderio.itemMEConduit.name=МЭ труба
 enderio.itemMEConduitDense.name=Плотная МЭ труба
-enderio.itemMEConduitDenseUltra.name=Ultra Dense ME Conduit
+enderio.itemMEConduitDenseUltra.name=Ультра Плотная МЭ труба
 enderio.itemMEConduit.channelsUsed=Каналы: {0,number} из {1,number}
 
 enderio.itemOCConduit.name=Системная труба (OC)
@@ -150,9 +150,9 @@ enderio.silicon.name=Кремний
 enderio.conduitBinder.name=Связующий элемент труб
 enderio.binderComposite.name=Составной связующий элемент
 enderio.phasedIronNugget.name=Пульсирующий железный самородок
-tile.blockDarkIronBars.name=Решётка из тёмной стали
-tile.blockSoulariumBars.name=Решётка из призрачного сплава
-tile.blockEndSteelBars.name=Решётка из стали Энда
+tile.blockDarkIronBars.name=Прутья из тёмной стали
+tile.blockSoulariumBars.name=Прутья из призрачного сплава
+tile.blockEndSteelBars.name=Прутья из стали Энда
 tile.blockEndermanSkull.name=Череп странника Края
 tile.blockEndermanSkull.base.name=Голова странника Края
 tile.blockEndermanSkull.reanimated.name=Реанимированная голова странника Края
@@ -395,7 +395,7 @@ item.itemElectricLight.name=Электрический светильник
 item.itemElectricLight.tooltip.detailed.line1=Освещает большую площадь при подаче
 item.itemElectricLight.tooltip.detailed.line2=энергии и сигнала красного камня.
 
-item.itemElectricLightInverted.name=Электрический светильник (Перевёрнутый)
+item.itemElectricLightInverted.name=Электрический светильник (Инвертированный)
 item.itemElectricLightInverted.tooltip.detailed.line1=Освещает большую площадь при подаче
 item.itemElectricLightInverted.tooltip.detailed.line2=энергии.
 item.itemElectricLightInverted.tooltip.detailed.line3=Выключается по сигналу красного камня.
@@ -404,7 +404,7 @@ item.itemLight.name=Светильник
 item.itemLight.tooltip.detailed.line1=Излучает свет по
 item.itemLight.tooltip.detailed.line2=сигналу красного камня
 
-item.itemLightInverted.name=Светильник (Перевёрнутый)
+item.itemLightInverted.name=Светильник (Инвертированный)
 item.itemLightInverted.tooltip.detailed.line1=Излучает свет, отключается по
 item.itemLightInverted.tooltip.detailed.line2=сигналу красного камня
 
@@ -413,7 +413,7 @@ item.itemWirelessLight.tooltip.detailed.line1=Освещает большую п
 item.itemWirelessLight.tooltip.detailed.line2=энергии и сигнала красного камня.
 item.itemWirelessLight.tooltip.detailed.line3=Может получать энергию от беспроводных зарядников.
 
-item.itemWirelessLightInverted.name=Беспроводной электрический светильник (Перевёрнутый)
+item.itemWirelessLightInverted.name=Беспроводной электрический светильник (Инвертированный)
 item.itemWirelessLightInverted.tooltip.detailed.line1=Освещает большую площадь при подаче
 item.itemWirelessLightInverted.tooltip.detailed.line2=энергии.
 item.itemWirelessLightInverted.tooltip.detailed.line3=Выключается по сигналу красного камня.
@@ -649,17 +649,17 @@ enderio.gui.inventorypanel.tooltip.storage.line3=Click to change into return are
 enderio.gui.inventorypanel.tooltip.filterslot.line1=Filter card slot
 enderio.gui.inventorypanel.tooltip.filterslot.line2=Place configured item filters in
 enderio.gui.inventorypanel.tooltip.filterslot.line3=here to select which items to show.
-enderio.gui.inventorypanel.tooltip.sort.name_down.line1=Sort items by name
-enderio.gui.inventorypanel.tooltip.sort.name_up.line1=Sort items by name
+enderio.gui.inventorypanel.tooltip.sort.name_down.line1=Сортировать предметы по имени
+enderio.gui.inventorypanel.tooltip.sort.name_up.line1=Сортировать предметы по имени
 enderio.gui.inventorypanel.tooltip.sort.name_up.line2=Starting at the end of the alphabet
-enderio.gui.inventorypanel.tooltip.sort.mod_down.line1=Sort items by mod ID
-enderio.gui.inventorypanel.tooltip.sort.mod_down.line2=Items from the same mod are sorted by name
-enderio.gui.inventorypanel.tooltip.sort.mod_up.line1=Sort items by mod ID
-enderio.gui.inventorypanel.tooltip.sort.mod_up.line2=Items from the same mod are sorted by name
+enderio.gui.inventorypanel.tooltip.sort.mod_down.line1=Сортировать предметы по моду ID
+enderio.gui.inventorypanel.tooltip.sort.mod_down.line2=Предметы из одного мода, сортируя по названию
+enderio.gui.inventorypanel.tooltip.sort.mod_up.line1=Сортировать предметы по моду ID
+enderio.gui.inventorypanel.tooltip.sort.mod_up.line2=Предметы из одного мода, сортируя по названию
 enderio.gui.inventorypanel.tooltip.sort.mod_up.line3=Starting at the end of the alphabet
-enderio.gui.inventorypanel.tooltip.sort.count_down.line1=Sort items by their quantity
+enderio.gui.inventorypanel.tooltip.sort.count_down.line1=Сортировать предметы по их количеству
 enderio.gui.inventorypanel.tooltip.sort.count_down.line2=Starting with the highest quantity
-enderio.gui.inventorypanel.tooltip.sort.count_up.line1=Sort items by their quantity
+enderio.gui.inventorypanel.tooltip.sort.count_up.line1=Сортировать предметы по их количеству
 enderio.gui.inventorypanel.tooltip.sort.count_up.line2=Starting with the lonely ones
 enderio.gui.inventorypanel.tooltip.refill.line1=Refills the crafting grid
 enderio.gui.inventorypanel.tooltip.refill.line2=A normal click puts items
@@ -733,7 +733,7 @@ item.itemTravelStaff.tooltip.detailed.line5=игрока на короткую �
 enderio.itemTravelStaff.notEnoughPower=Недостаточно энергии
 enderio.travelStaffKeybind.isDisabled=Travel Staff Blink Keybind Disabled!
 
-item.itemTeleportStaff.name=Staff of Teleportation
+item.itemTeleportStaff.name=Посох Телепортации
 item.itemTeleportStaff.tooltip.detailed.line1=R-Click to teleport wherever you are looking
 item.itemTeleportStaff.tooltip.detailed.line2=Shift-R-Click to teleport to Travel Anchors
 item.itemTeleportStaff.tooltip.detailed.line3=R-Click on a nearby block to try to teleport
@@ -1171,7 +1171,7 @@ enderio.gui.travelAccessable.ok=Авторизироваться
 enderio.gui.travelAccessable.skipLocked=Закрытый якорь пропущен, используйте целевую телепортацию.
 enderio.gui.travelAccessable.skipObstructed=Заблокированный якорь пропущен.
 enderio.gui.travelAccessable.skipPrivate=Личный якорь пропущен.
-enderio.gui.travelAccessable.tooltip.visible=Visibility
+enderio.gui.travelAccessable.tooltip.visible=Видимость
 enderio.gui.travelAccessable.tooltip.visible.desc1=When off, you cannot see this block through other blocks.
 enderio.gui.travelAccessable.tooltip.visible.desc2=Handy for use as elevators.
 
@@ -1185,7 +1185,7 @@ enderio.gui.spawnGurad.hideRange=Спрятать дальность
 enderio.gui.spawnGurad.range=Дальность:
 
 # Filters
-enderio.gui.item_filter.damage.disabled=Ignore Damage
+enderio.gui.item_filter.damage.disabled=Игнорировать Урон
 enderio.gui.item_filter.damage.damage_00_25=Up to 25% Damaged
 enderio.gui.item_filter.damage.damage_25_00=More than 25% Damaged
 enderio.gui.item_filter.damage.damage_00_50=Up to 50% Damaged
@@ -1203,19 +1203,19 @@ enderio.gui.item_filter.close2=Go back to previous inventory
 
 enderio.gui.item_filter.whitelist=Белый список
 enderio.gui.item_filter.blacklist=Черный список
-enderio.gui.item_filter.match_meta=Match Metadata
-enderio.gui.item_filter.ignore_meta=Ignore Metadata
+enderio.gui.item_filter.match_meta=Соблюдать метаданные
+enderio.gui.item_filter.ignore_meta=Игнорировать метаданные
 enderio.gui.item_filter.sticky_enabled=Включён "липкий" режим
 enderio.gui.item_filter.sticky_enabled2=Selected items will only be sent to this or other sticky outputs
 enderio.gui.item_filter.sticky_disabled=Выключен "липкий" режим
 enderio.gui.item_filter.ore_dic_enabled=Использовать словарь руд
 enderio.gui.item_filter.ore_dic_disabled=Игнорировать словарь руд
-enderio.gui.item_filter.match_nbt=Match NBT
-enderio.gui.item_filter.ignore_nbt=Ignore NBT
+enderio.gui.item_filter.match_nbt=Соблюдать NBT
+enderio.gui.item_filter.ignore_nbt=Игнорировать NBT
 
 enderio.gui.existing.item_filter.snapshot=Snapshot
 enderio.gui.existing.item_filter.merge=Merge
-enderio.gui.existing.item_filter.clear=Clear
+enderio.gui.existing.item_filter.clear=Очистить
 enderio.gui.existing.item_filter.show=Show
 enderio.gui.existing.item_filter.snapshot2=Optional: If no snapshot is set, the inventory content will be used as filter
 enderio.gui.existing.item_filter.merge2=Merge the current snapshot with a new one
@@ -1227,11 +1227,11 @@ enderio.item.item_existing_item_filter.filter_updated=Filter updated
 enderio.gui.basic_item_filter=Основной предметный фильтр
 enderio.gui.advanced_item_filter=Advanced Item Filter
 enderio.gui.limited_item_filter=Limited Item Filter
-enderio.gui.big_item_filter=Big Item Filter
+enderio.gui.big_item_filter=Большой предметный фильтр
 # Note big_advanced_item_filter doesn't have enough space for the full name
-enderio.gui.big_advanced_item_filter=Filter
-enderio.gui.existing_item_filter=Existing Item Filter
-enderio.gui.mod_item_filter=Mod Item Filter
+enderio.gui.big_advanced_item_filter=Фильтр
+enderio.gui.existing_item_filter=Существующий предметный фильтр
+enderio.gui.mod_item_filter=Фильтр по предметам модификаций
 enderio.gui.power_item_filter=Power Item Filter
 enderio.gui.species_item_filter=Species Item Filter
 enderio.gui.soul_filter_normal=Soul Item Filter

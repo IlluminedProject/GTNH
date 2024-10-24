@@ -10,7 +10,7 @@ tile.draconicevolution:particleGenerator.name=Генератор частиц
 tile.draconicevolution:playerDetector.name=Детектор игроков
 tile.draconicevolution:playerDetectorAdvanced.name=Улучшенный детектор игроков
 tile.draconicevolution:energyInfuser.name=Наполнитель энергии
-tile.draconicevolution:earth.name=Earth
+tile.draconicevolution:earth.name=Земля
 tile.draconicevolution:customSpawner.name=Стабилизированный спаунер
 tile.draconicevolution:longRangeDislocator1.name=Телепортер администратора
 tile.draconicevolution:longRangeDislocator0.name=Телепортер дальнего действия
@@ -111,8 +111,8 @@ item.draconicevolution:magnet.wyvern.name=Телепортационный ма�
 item.draconicevolution:magnet.draconic.name=Пробуждённый телепортационный магнит
 
 //Item Groups ----------------------------------------------------------------------------------------------------------------------------------------
-itemGroup.toolsAndWeapons=DE: Инструменты и оружие
-itemGroup.blocksAndItems=DE: Блоки и предметы
+itemGroup.toolsAndWeapons=Draconic Evolution: Инструменты и оружие
+itemGroup.blocksAndItems=Draconic Evolution: Блоки и предметы
 
 //Chat Messages ----------------------------------------------------------------------------------------------------------------------------------------
 msg.size0.txt=Режим инструмента: Один блок
@@ -269,7 +269,7 @@ info.de.manual.introTxt.txt=Вся нужная информация в одно
 info.de.manual.indexButton.txt=Оглавление
 info.de.manual.indexButtonTip.txt=Перейти к оглавлению
 info.de.manual.contributors.txt=Авторы Draconic Evolution
-info.de.manual.name.txt=Name
+info.de.manual.name.txt=Имя 
 info.de.manual.contribution.txt=Вклад
 info.de.manual.clickToGoToSite.txt=(Кликните на имя, чтобы открыть сайт)
 info.de.manual.contributorsButton.txt=Авторы
@@ -426,7 +426,7 @@ key.placeItem=Положить предмет в мир
 key.toolConfig=Изменение настроек GUI предмета
 key.toolProfileChange=Смена режима настроек инструмента
 key.toggleFlight=Включить творческий полёт
-key.toggleMagnet=Toggle Magnet
+key.toggleMagnet=Переключить магнит 
 
 //Damage ----------------------------------------------------------------------------------------------------------------------------------------
 death.attack.chaos=%1$s был разорван Хранителем Хаоса
@@ -483,9 +483,9 @@ button.de.AxeTreeMode.name=Режим "Дерево"
 button.de.BaseSafeAOE.name=Безопасный режим
 button.de.VerticalAcceleration.name=Вертикальное ускорение
 button.de.EffectiveOnSprint.name=Активация верт. ускор. кнопкой "Бег"
-button.de.GogglesOfRevealing.name=Magical Sense
-button.de.ApiaristArmor.name=Apiarist's Protection
-button.de.NaturalistArmor.name=Naturalist's Vision
+button.de.GogglesOfRevealing.name=Магическое чутье 
+button.de.ApiaristArmor.name=Защита пчеловода
+button.de.NaturalistArmor.name=Очки Натуралиста
 button.de.BowArrowSpeedModifier.name=Модификатор скорости стрелы
 button.de.BowAutoFire.name=Автоматическая стрельба
 button.de.BowArrowDamage.name=Основной урон
@@ -527,14 +527,14 @@ gui.de.genRate.name=Выработка энергии:
 gui.de.fieldInputRate.name=Энергия для Сдерж. поля:
 gui.de.fuelConversion.name=Преобразование топлива:
 
-gui.de.particleGenerator.random.name=Random:
+gui.de.particleGenerator.random.name=Случайный:
 gui.de.particleGenerator.red.name=Красный:
 gui.de.particleGenerator.green.name=Зелёный:
 gui.de.particleGenerator.blue.name=Синий:
 gui.de.particleGenerator.motionX.name=Motion X:
 gui.de.particleGenerator.motionY.name=Motion Y:
 gui.de.particleGenerator.motionZ.name=Motion Z:
-gui.de.particleGenerator.scale.name=Scale:
+gui.de.particleGenerator.scale.name=Размер:
 gui.de.particleGenerator.life.name=Life (T):
 gui.de.particleGenerator.spawnX.name=Spawn X:
 gui.de.particleGenerator.spawnY.name=Spawn Y:
@@ -547,7 +547,7 @@ gui.de.particleGenerator.yaw.name=Yaw:
 gui.de.particleGenerator.rotation.name=Rotation:
 gui.de.particleGenerator.length.name=Length:
 
-gui.de.particleGenerator.main.title=Particle Generator
+gui.de.particleGenerator.main.title=Генератор частиц
 gui.de.particleGenerator.beam.title=Beam Generator
 gui.de.particleGenerator.info.title=Информация
 
@@ -565,10 +565,10 @@ gui.de.particleGenerator.info.1=  The Particle Generator is a decorative device 
 gui.de.particleGenerator.info.2=  The first thing to note is that most fields have a random modifier which will add a random number between 0 and whatever max (or min) value you give it to the field.\n  - The first 3 fields (Red, Green & Blue) control the colour of the particle. Most people should be familiar with this colour system if not google RGB colours. Note: the max value for each colour can not go higher then 255 so the colour field limits the random modifier e.g. if the colour field is set to 255 and the random modifier is set to 20 the result will always be 255.
 gui.de.particleGenerator.info.3=  - The next 3 fields (Motion X, Y & Z) control the direction and speed of the particle.\n  - The "Life" field sets how long (in ticks) before the particle despawns.\n  - The "Scale" field sets the size of the particle.\n  - The next 3 fields (Spawn X, Y & Z) Sets the spawn location of the particle (relative to the location of the particle generator).
 gui.de.particleGenerator.info.4=  - The "Delay" field sets the delay (in ticks) between each particle spawn e.g. 1=20/s, 20=1/s, 100=1/5s.\n  - The "Fade" field sets how long (in ticks) it takes the particle to fade out of existance. Note: This adds to the life of the particle.\n  - The "Gravity" field sets how the particle is affected by gravity.\n  - "Block Collision" Toggles weather or not the particle will collide with blocks.\n  - "Particle Selected" switches between the different particles available.
-gui.de.particleGenerator.info.5.title=Redstone Control\n\n
-gui.de.particleGenerator.info.5=  By default a redstone signal is required for the generator to run.\n  However if you shift right click the generator with an empty hand it will switch to inverted mode.\n  The redstone mode is indicated by the 8 cubes at the corners of the block.
-gui.de.particleGenerator.info.6.title=Computer Control\n\n
-gui.de.particleGenerator.info.6=  The Generator can be controlled via a computer.\n  It exposes a relatively straight forward API:\n\n  setGeneratorProperty(property, value)\n  getGeneratorState()\n  resetGeneratorState()
+gui.de.particleGenerator.info.5.title=Контроль сигналом красного камня\n\n
+gui.de.particleGenerator.info.5=Изначально сигнал красного камня нужен, чтобы запустить генератор.\nОднако нажав Shift+ПКМ по генератору с пустой рукой он переключится в инвертированный режим.\nРежим красного камня отображается 8 кубами по углам блока.
+gui.de.particleGenerator.info.6.title=Контроль компьютером\n\n
+gui.de.particleGenerator.info.6=Генератор может контроллироваться компьютером.\nОн предоставляет относительно простой API:\n\nsetGeneratorProperty(property, value)\ngetGeneratorState()\nresetGeneratorState()
 gui.de.particleGenerator.info.7=  Generator state is obtained as a whole from getGeneratorState, whereas properties are modified one at a time using setGeneratorProperty. Property names are strings and mostly correspond to button labels in the GUI.
 
 gui.de.insert.txt=Вставить
@@ -621,7 +621,7 @@ gui.de.profile.txt=Режим
 gui.de.maxDamage.txt=Макс. урон
 gui.de.rfPerShot.txt=RF за выстрел
 
-gui.de.RFCapacity.txt=Емкость RF
+gui.de.RFCapacity.txt=Ёмкость RF
 gui.de.DigSpeed.txt=Скорость копания
 gui.de.DigAOE.txt=Область копания
 gui.de.DigDepth.txt=Глубина копания
@@ -630,7 +630,7 @@ gui.de.AttackAOE.txt=Область атаки
 gui.de.ArrowDamage.txt=Основной урон
 gui.de.DrawSpeed.txt=Скорость натяжения
 gui.de.ArrowSpeed.txt=Скорость стрелы
-gui.de.ShieldCapacity.txt=Емкость щита
+gui.de.ShieldCapacity.txt=Ёмкость щита
 gui.de.ShieldRecovery.txt=Восстановление щита
 gui.de.MoveSpeed.txt=Скорость передвижения
 gui.de.JumpBoost.txt=Увеличение прыжка

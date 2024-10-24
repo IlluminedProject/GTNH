@@ -83,7 +83,7 @@ config.general=Общие
 config.general.pipes=Трубы
 config.blueprints=Строительные проекты
 config.builders=Строители
-config.power=Потребление энергии
+config.power=Энергопотребление
 config.experimental=Экспериментальные
 config.display=Отображение
 config.worldgen=Генерации мира
@@ -127,8 +127,8 @@ config.general.markerRange=Диапазон маркеров
 config.general.miningDepth=Максимальная относительная глубина добычи
 config.general.pumpDimensionControl=Контроль измерений помпы
 
-config.network.longUpdateFactor=Множитель синхронизации клиента (в тактах)
-config.network.updateFactor=Множитель отправки пакетов (в тактах)
+config.network.longUpdateFactor=Множитель синхронизации клиента (в тиках)
+config.network.updateFactor=Множитель отправки пакетов (в тиках)
 
 config.power.miningUsageMultiplier=Потребление мощности буровой установкой
 config.power.chipsetCostMultiplier=Энергоёмкость производства микросхемы
@@ -391,11 +391,11 @@ item.debugger.name=Отладчик
 item.debugger.warning=Используйте только для тестирования! Раскрывает секреты.
 item.package.name=Пакет
 
-itemGroup.buildcraft.boards=BuildCraft Robots
+itemGroup.buildcraft.boards=BuildCraft Роботы
 itemGroup.buildcraft.main=BuildCraft
-itemGroup.buildcraft.pipes=BuildCraft Pipes
-itemGroup.buildcraft.facades=BuildCraft Facades
-itemGroup.buildcraft.gates=BuildCraft Gates
+itemGroup.buildcraft.pipes=BuildCraft Трубы
+itemGroup.buildcraft.facades=BuildCraft Фасады
+itemGroup.buildcraft.gates=BuildCraft Гейты
 
 tile.architectBlock.name=Стол архитектора
 tile.assemblyTableBlock.name=Сборочный стол

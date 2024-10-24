@@ -41,8 +41,8 @@ item.avaritia_fracturedore.name=Неизвестная сломанная руд
 item.avaritia_fracturedore.prefix=Сломана
 item.avaritia_mattercluster.name=Кластер материи
 item.avaritia_mattercluster.full.name=Критический кластер материи
-item.morvinabox.name=Morv-In-A-Box (WIP)(WILL LIGHT YOU ON FIRE)
-item.avaritia.comb.nerfed.name=Nerfed Comb
+item.morvinabox.name=Морв-в-коробке (WIP) (ПОДОЖЖЕТ ТЕБЯ)
+item.avaritia.comb.nerfed.name=Понёрфленные соты
 item.avaritia.comb.cosmic.name=Космические соты
 item.avaritia_beesource.infinity_drop.name=Капля бесконечности
 item.avaritia_beesource.dust.name=Пыль
@@ -58,12 +58,12 @@ tile.block_gaia.name=Гайя блок
 tile.dire_crafting.name=Ужасный верстак
 tile.neutron_collector.name=Сборщик нейтронов
 tile.neutronium_compressor.name=Компрессор нейтрония
-tile.infinitato.name=Infinitato
+tile.infinitato.name=Картошка Бесконечности
 tile.alfheim_deadrock0.name=Мёртвый камень
-tile.alfheim_deadrock1.name=Deadrock Brick
-tile.alfheim_deadrock2.name=Mossy Deadrock Brick
-tile.alfheim_deadrock3.name=Cracked Deadrock Brick
-tile.alfheim_deadrock4.name=Chiselled Deadrock
+tile.alfheim_deadrock1.name=Кирпич из мёртвого камня
+tile.alfheim_deadrock2.name=Замшелый мёртвый камень
+tile.alfheim_deadrock3.name=Потрескавшийся мёртвый камень
+tile.alfheim_deadrock4.name=Окаймлённый мёртвый камень
 #
 # Tooltips
 tooltip.armok.desc=Может хранить неограниченное количество жизненной эссенции
@@ -74,14 +74,14 @@ tooltip.neutronium_ingot.desc=Плотное сердце звезды в удо
 tooltip.infinity_catalyst.desc=Всё в одном и одно во всём.
 tooltip.infinity_ingot.desc=Вся мощь вселенной в твоей руке.
 tooltip.record_fragment.desc=Кто-то любит верить в чистоту музыки~
-tooltip.starfuel.desc=The light of the cosmos in a convenient chunk of earth
+tooltip.starfuel.desc=Свет космоса на удобном клочке земли
 tooltip.skullfire_sword.desc=Иссушает скелетов и обезглавливает их.
 tooltip.matter_cluster.desc=ПКМ для раскрытия.
 tooltip.matter_cluster.desc2=Зажмите SHIFT для подробностей.
 tooltip.matter_cluster.counter=предметов
-tooltip.morvinabox.desc=Instant housing
-tooltip.morvinabox.subdesc=In Canada, Morvy comes in bags.
-tooltip.claybalance.desc=UNLIMITED BALANCE!!!!
+tooltip.morvinabox.desc=Мгновенное размещение
+tooltip.morvinabox.subdesc=В Канаде Морви продается в пакетиках.
+tooltip.claybalance.desc=НЕОГРАНИЧЕННЫЙ БАЛАНС!!!!
 #
 # Achievements
 achievement.avaritia:crystal_matrix=Первая печать
@@ -124,18 +124,18 @@ death.attack.infinity.4=%1$s был уничтожен %2$s
 # Botania
 avaritia.flower.asgardandelion.name=Асгард одуванчик
 tile.botania:flower.asgardandelion.name=Асгард одуванчик
-tile.avaritia.flower.asgardandelion.lore=Watered with Vazkii's tears :c
+tile.avaritia.flower.asgardandelion.lore=Полито слёзами Vazkii! :c
 avaritia.lexicon.asgardandelion=Асгард одуванчик
-avaritia.lexicon.asgardandelion.0=Rumors abound about some kind of godlike flower that can produce a never-ending torrent of mana. If such a mythical flower were to exist, it would probably require wealth and resources beyond mortal reckoning.<BR>&oStill not a SAO reference.&r
-avaritia.lexicon.infinitato=Infinitato
-avaritia.lexicon.infinitato.0=Imprinting the essence of everything onto objects can have interesting results, and the Infinitato is no exception.<BR>Somewhat larger than its tiny sibling, and infused with the can-do attitude of a whole crowd of &1Tiny Potatoes&0 plus an &1Infinity Catalyst&0, the &1Infinitato&0 believes that you can do all the things, forever.
-avaritia.lexicon.infinitato.1=Trust me, &oit'll fit.&r
-avaritia.flower.soarleander.name=Soarleander
-tile.botania:flower.soarleander.name=Soarleander
-tile.avaritia.flower.soarleander.lore=Just hook it up to my &oveeeeins!&r
-avaritia.lexicon.soarleander=Soarleander
-avaritia.lexicon.soarleander.0=If you have a surfeit of chicken or chicken by-products, look no further!<BR>The Soarleander will devour any and all things chicken in the vicinity (chickens themselves included) while remaining totally disinterested in everything else.
-avaritia.lexicon.soarleander.1=&oAny random chests are an unintended side-effect.&r
+avaritia.lexicon.asgardandelion.0=Ходят слухе о цветке, который способен наделить своего владельца бесконечной маной. Если бы существовал такой цветок, он наверняка бы стоил несмертных богатсв.<BR>&oДо сих пор не ссылался.&r
+avaritia.lexicon.infinitato=Картошка Бесконечности
+avaritia.lexicon.infinitato.0=Исследуя эффект наполнения вещей свойствами бесконечности, вы нашли новые интересные инструменты: Картошка Бесконечности - не исключение.<BR>Нечто большее, чем его родословная, и наделённый вниманием к &1Крошечной картофелине&0 и &1Катализатору бесконечности&0, &1Картошка Бесконечности&0 верит, что ты всегда сможешь сделать всё, что угодно.
+avaritia.lexicon.infinitato.1=Поверь мне, &oэто подойдет.&r
+avaritia.flower.soarleander.name=Парящая земля
+tile.botania:flower.soarleander.name=Парящая земля
+tile.avaritia.flower.soarleander.lore=Просто подключи его к моим &oжииииииииииииииилам!&r
+avaritia.lexicon.soarleander=Парящая земля
+avaritia.lexicon.soarleander.0=Если у вас избыток курицы или куриных продуктов, не читайте дальше!<BR>Парящая земля будет пожирать любую курятину (даже самих куриц), не трогая при этом никого другого.
+avaritia.lexicon.soarleander.1=&oЛюбой случайный сундук содержит побочные эффекты.&r
 #
 # Thaumcraft
 item.Wand.infinity.rod=нейтрониевый
@@ -149,26 +149,26 @@ material.avaritia_infinitymetal.ability=Космический
 #
 # Beeeeeeeeeeeees
 avaritia.bee.annoying=Раздражающий
-avaritia.bee.annoying.desc="How long can it take to build a single honeycomb?!"|Note found in an ancient time capsule
-avaritia.bee.tedious=Tedious
-avaritia.bee.tedious.desc=Their hives are actually built out of smaller hives, which are themselves built out of smaller hives...
-avaritia.bee.insufferable=Insufferable
-avaritia.bee.insufferable.desc=They often sabotage other bees they perceive as having any advantages or improper vocabulary.
-avaritia.bee.trippy=Trippy
-avaritia.bee.trippy.desc="Dude. Like... bees. Man. They're like... whoa."|SpitefulFox, Unlicensed Apiarist
+avaritia.bee.annoying.desc="Да сколько можно уже ждать эту соту?!"|Записка в капсуле времени
+avaritia.bee.tedious=Утомительный
+avaritia.bee.tedious.desc=Их ульи сделанны из меньших ульев - те в свою очередь сделанны из ещё меньших ульев...
+avaritia.bee.insufferable=Невыносимый
+avaritia.bee.insufferable.desc=Они часто саботируют других пчел, которых они воспринимают их как имеющих какие-либо преимущества или неправильный словарь.
+avaritia.bee.trippy=Триповая
+avaritia.bee.trippy.desc="Чувак. Люби... пчёл. Чувак. Они прям как... ух!"|SpitefulFox, нелицензированный пчеловод
 avaritia.bee.cosmic=Космический
 avaritia.bee.cosmic.desc=
 avaritia.bee.neutronium=Нейтроний
-avaritia.bee.neutronium.desc=Small objects can often by found orbiting their hives.
+avaritia.bee.neutronium.desc=На орбите ульев часто летает космический мусор.
 avaritia.bee.infinite=Бесконечная
 avaritia.bee.infinite.desc=
 
 classification.balanced=Сбалансирована
-classification.balanced.desc=These bees get bored and drop dead the moment they complete whatever they're working on. They take the most long, convoluted routes and methods in order to keep themselves entertained.
+classification.balanced.desc=Эти пчёлы умирают от скуки в тот момент, когда они свершили предначертанное. Они берут самые длинные, запутанные методы, чтобы развлекать себя.
 classification.infinite=Бесконечный
-classification.infinite.desc=They gather pranic energy from the hidden ley-lines and arcane geometries of the universe itself.
+classification.infinite.desc=Они собирают энергию из невидимых энергетический линий из самой Вселенной.
 
-avaritia.allele.speedNerfed=Nerfed
+avaritia.allele.speedNerfed=Понёрфленная
 avaritia.allele.lifespanArtificial=Искусственный
 #
 # Research
@@ -177,4 +177,4 @@ avaritia.research_text.BIG_PEARL=Потому что вы всегда може�
 avaritia.research_page.BIG_PEARL.1=Конечно, сингулярная жемчужина довольно мощная, но вы думаете, что она может быть еще более мощной.<BR><BR>Соединив несколько сингулярных жемчужин вместе на алтаре инфузии, вы создадите еще более мощный предмет: Первозданную жемчужину.<BR><BR>Она гарантированно будет еще более первозданной, чем обычная первозданная жемчужина!
 avaritia.research_name.AKASHIC=Хроники Акаши
 avaritia.research_text.AKASHIC=Больше знаний, чем вам может понадобится
-avaritia.research_page.AKASHIC.1=Вы достаточно изучили мир, чтобы разорвать ткань реальности и войти во Внешние земли, но, конечно, всегда есть место для более глубоких исследований, верно? <BR><BR>Хроники Акаши дадут вам все аспекты мира для исследований и еще немного больше.
+avaritia.research_page.AKASHIC.1=Вы достаточно изучили мир, чтобы разорвать ткань реальности и войти во Внешние земли, но, конечно, всегда есть место для более глубоких исследований, верно?<BR><BR>Хроники Акаши дадут вам все аспекты мира для исследований и еще немного больше.
