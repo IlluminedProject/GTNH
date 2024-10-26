@@ -55,5 +55,6 @@
 .minecraft/config/mobsinfo/
 .minecraft/config/betterquesting.cfg
 .minecraft/config/enderio/EnderIO.cfg
+.minecraft/config/adventurebackpack.cfg
 
 *.disabled
