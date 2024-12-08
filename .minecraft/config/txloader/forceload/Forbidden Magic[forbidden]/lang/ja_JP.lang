@@ -1,0 +1,390 @@
+#
+# Aspects
+tc.aspect.infernus=ネザー、悪魔、獄炎
+tc.aspect.ira=憤怒、怒り、激情
+tc.aspect.gula=大食、消費、耽溺
+tc.aspect.invidia=嫉妬、羨望、不安定
+tc.aspect.superbia=高慢、傲慢、軽蔑
+tc.aspect.desidia=怠惰、無精、遅延
+tc.aspect.luxuria=色欲、願望、過剰
+#
+# Items
+item.NetherShard.wrath.name=憤怒の結晶片
+item.NetherShard.envy.name=嫉妬の結晶片
+item.NetherShard.gluttony.name=貪食の結晶片
+item.NetherShard.pride.name=傲慢の結晶片
+item.NetherShard.lust.name=色欲の結晶片
+item.NetherShard.sloth.name=怠惰の結晶片
+item.NetherShard.greed.name=貪欲の結晶片
+item.NetherShard.taint.name=汚染の結晶片
+item.NetherShard.despair.name=絶望の結晶片
+item.SkullAxe.name=頭蓋落としの斧
+item.ArcaneCake.name=魔導ケーキ
+item.TaintShovel.name=浄化のシャベル
+item.TaintPickaxe.name=歪曲のつるはし
+item.MorphPickaxe.name=変化のつるはし
+item.MorphSword.name=変化の剣
+item.MorphShovel.name=変化のシャベル
+item.MorphAxe.name=変化の斧
+item.FMResource.0.name=エメラルドの欠片
+item.FMResource.1.name=影の墨
+item.FMResource.2.name=マナスチールナゲット
+item.FMResource.3.name=汚染された血の欠片
+item.FMResource.4.name=エレメンチウムナゲット
+item.MobCrystalEmpty.name=空白の刻印水晶
+item.MobCrystal.name=刻印水晶
+item.DiabolistFork.name=悪魔のフォーク
+item.DiabolistSpork.name=運命の先割れスプーン
+item.GluttonyShard.name=貪食の結晶片
+item.Bloodwell.name=血の筆記具
+item.EldritchOrb.name=エルドリッチのブラッドオーブ
+item.Crystalwell.name=結晶の筆記具
+item.Primewell.name=始原の筆記具
+item.RidingCrop.name=乗馬鞭
+item.BoundShears.name=拘束のハサミ
+item.BloodRapier.name=ストリックスのレイピア
+item.Boundwell.name=血の筆記具
+item.SubCollar.name=苦痛の首輪
+item.RingNutrition.name=暴食の指輪
+item.TaintFruit.name=汚染された果実
+item.TaintCoal.name=ヘキサコール
+item.Sword_Dragonslayer.name=ドラゴンスレイヤーの剣
+#
+# Wand components
+item.Wand.tainted.rod=汚染された
+item.Wand.infernal.rod=地獄の
+item.Wand.neutronium.rod=コズミックニュートロニウムの
+item.Wand.blood.rod=血の
+item.Wand.witchwood.rod=ウィッチウッドの
+item.Wand.livingwood.rod=リビングウッドの
+item.Wand.dreamwood.rod=ドリームウッドの
+item.Wand.equivalent.rod=§kAlchemical§r
+item.Wand.profane.rod=冒涜的な
+item.Wand.profaned.rod=冒涜的な
+item.Wand.orichalcum.cap=オリハルコンで装飾された
+item.Wand.alchemical.cap=錬金加工された
+item.Wand.vinteum.cap=ヴィンテウム鋼留めの
+item.Wand.manasteel.cap=マナスチール留めの
+item.Wand.elementium.cap=エレメンチウム留めの
+item.Wand.terrasteel.cap=テラスチールでナーフされた
+item.WandCores.tainted.name=汚染された杖身
+item.WandCores.infernal.name=地獄の杖身
+item.WandCores.soul.name=エルドリッチの杖身
+item.WandCores.blood.name=血の染み込んだ杖身
+item.WandCores.witchwood.name=ウィッチウッドの杖身
+item.WandCores.profane.name=冒涜的な杖身
+item.WandCores.blood_inert.name=不活性な血の染み込んだ杖身
+item.WandCores.livingwood.name=リビングウッドの杖身
+item.WandCores.livingwood_inert.name=覚醒していないリビングウッドの杖身
+item.WandCores.blood_staff.name=血の染み込んだ上級杖身
+item.WandCores.witchwood_staff.name=ウィッチウッドの上級杖身
+item.WandCores.dreamwood.name=ドリームウッドの杖身
+item.WandCores.dreamwood_inert.name=沈黙するドリームウッドの杖身
+item.WandCores.dreamwood_staff.name=ドリームウッドの上級杖身
+item.WandCaps.alchemical.name=錬金加工された石突
+item.WandCaps.vinteum.name=ヴィンテウムの石突
+item.WandCaps.soul.name=エンダーの石突
+item.WandCaps.manasteel.name=マナスチールの石突
+item.WandCaps.manasteel_inert.name=不活性なマナスチールの石突
+item.WandCaps.elementium.name=エレメンチウムの石突
+item.WandCaps.elementium_inert.name=不活性なエレメンチウムの石突
+item.WandCaps.terrasteel.name=テラスチールの石突
+item.BlinkFocus.name=瞬きの杖星
+#
+# Blocks
+tile.ArcaneCake.name=魔導ケーキ
+tile.InkFlower.name=影のバラ
+tile.WrathCage.name=憤怒の檻
+tile.StarBlock.name=ネザースターブロック
+tile.blackRoseBush.name=影のバラの茂み
+tile.TaintLog.name=汚染された原木
+tile.TaintPlank.name=汚染された木材
+tile.TaintLeaves.name=汚染された葉
+tile.TaintSapling.name=汚染された苗木
+tile.TaintStone_Smooth.name=汚染された石
+tile.TaintStone_Brick.name=汚染された石レンガ
+darkflower.euclidaisy.name=ユークリデイジー
+darkflower.whisperweed.name=ウィスパーウィード
+darkflower.tainthistle.name=テインティストル
+darkflower.bloodthorn.name=血の茨
+tile.botania:flower.euclidaisy.name=ユークリデイジー
+tile.botania:flower.whisperweed.name=ウィスパーウィード
+tile.botania:flower.tainthistle.name=テインティストル
+tile.botania:flower.bloodthorn.name=ブラッドソーン
+#
+# Enchantments
+enchantment.cluster=火の核
+enchantment.wrath=激怒
+enchantment.greedy=成金
+enchantment.consuming=消費
+enchantment.educational=教育的
+enchantment.corrupting=堕落
+enchantment.voidtouched=虚無再生
+enchantment.impact=衝撃
+#
+# Potions
+potion.blood_seal=血判
+potion.dragonwrack=竜の崩壊
+#
+# Focus Upgrades
+forbidden.upgrade.hellfire.name=獄炎
+forbidden.upgrade.hellfire.text=テレポートの際に炸裂弾を放つ。
+forbidden.upgrade.pandemonium.name=修羅場
+forbidden.upgrade.pandemonium.text=ある場所にテレポートする際、周囲にいるすべての敵を元の場所にテレポートさせる。
+#
+# Tooltips
+tooltip.currentowner=現在の所有者: 
+tooltip.divineorb=本来のライフエッセンスを貯蔵する
+tooltip.creativeonly=クリエイティブ限定
+tooltip.collar.owner=所有者: 
+#
+# Messages
+message.collar.alreadywearing=%sは既に首に何かを着けています！
+message.collar.placescollar=%sがあなたの首にカラーを巻きつけた。
+message.collar.youplacecollar=あなたは%sの首にカラーを巻きつける。
+#
+# Misc
+itemGroup.forbidden=Forbidden Magic
+itemGroup.mobcrystal=Forbidden Magic (刻印水晶)
+tc.research_category.FORBIDDEN=外典
+description.villager.profession.forbidden.heretic=異端者
+death.attack.blooderp=%1$sは出血多量で干からびた
+death.attack.dragonslayer=%1$sは%2$sに殺害された
+death.attack.dragonwrack=%1$sは致命傷を負って死んだ
+#
+# Research
+forbidden.research_name.NETHERSHARDS=ネザーの結晶片
+forbidden.research_text.NETHERSHARDS=お行儀悪く行こう。
+forbidden.research_page.NETHERSHARDS.1=ネザーには奇妙なエネルギーが渦巻いている。時に、特定の共鳴的な事象が起こると、そのエネルギーは結晶片へと固化することが知られている。
+forbidden.research_page.NETHERSHARDS.2=これらの結晶片にはさまざまな悪徳が染み込んでおり、不徳な魔導師にとっては多くの使い道がある。<BR>ネザーの結晶片にはには7つの種類があり、それぞれが異なる "大罪 "に同調する。<BR><BR><IMG>forbidden:textures/misc/research.png:0:0:111:16:1</IMG><BR>
+forbidden.research_page.NETHERSHARDS.2b=これらの結晶片にはさまざまな悪徳が染み込んでおり、不徳な魔導師にとっては多くの使い道がある。<BR>ネザーの結晶片にはには6つの種類があり、それぞれが異なる "大罪 "に同調する。<BR><BR><IMG>forbidden:textures/misc/research.png:0:16:95:16:1</IMG><BR>
+forbidden.research_page.NETHERSHARDS.3=憤怒の結晶片は、暴力行為の周囲で結晶化する。物理的な力が過剰であるほど、憤怒の結晶片は出現しやすくなる。<BR><BR>怠惰の結晶片は、努力しないで資源を集めるために、身代わりや事故を利用すると凝結する。<BR><BR>嫉妬の結晶片は、それを欲する者がそれを持つものから奪い取る。<BR><BR>傲慢の結晶片は、真に偉大な力を持つ生物が小さく切り刻まれると出現する。<BR><BR>貪食の結晶片は、何者かがごちそうを食べると結晶化する。<BR><BR>貪欲の結晶片は、エンチャントが利益を生み出すために使われると現れる。
+#
+forbidden.research_name.SKULLAXE=頭蓋落としの斧
+forbidden.research_text.SKULLAXE=首をはねよ!
+forbidden.research_page.SKULLAXE.1=何とも腸が煮え返るようなモンスターがいる。スケルトン！いつもカチャカチャと音を立て、こちらを練習台にしてくる。あるいはクリーパー！我が物顔で物を吹き飛ばしに忍び寄ってくる！奴らの気障な頭を全て切り落として、杭に刺してやりたいものだ。<BR><BR>幸運なことに、それを可能にするアイテムを発見した。頭蓋落としの斧は、倒したモンスターの首を切り落とすことができる。他の人間にも効くかもしれない！ただ残念なことに、この斧は注入の影響で血に飢えているため、つまらない植物を効率的に切り裂くことはできない。
+#
+forbidden.research_name.RINGFOOD=暴食の指輪
+forbidden.research_text.RINGFOOD=チーズパフは壊血病を予防するんだろ？
+forbidden.research_page.RINGFOOD.1=人々に叱られ続ける。一日中クッキーを食べているわけにはいかないとか、もしくは「栄養学上そうはいかない 」などと言われる。ああ、こういう否定ばかりの奴らにはもううんざりだ。<BR><BR>暴食の指輪は、指にはめている間、ほとんどの食べ物の満腹度を高める。<BR><BR>(副作用として、吐き気、頭痛、けいれん、めまい、糖尿病、またホメオパシーへの突然の興味などがあるかもしれない。)
+#
+forbidden.research_name.ARCANECAKE=魔導ケーキ
+forbidden.research_text.ARCANECAKE=ケーキを食べさせてあげよう。
+forbidden.research_page.ARCANECAKE.1=大好きなものをひとつ挙げるとするなら、ケーキだ。できることなら一日中そのおいしさを味わいたいものだが、最後にはいつもなくなってしまう。<BR><BR>この状況を改善するために、ケーキに長持ちする魔法を注入するレシピを考案した。 魔導ケーキは普通のものよりかなり長持ちし、少なくとも一片でも残っている限り、ゆっくりと自己修復する。 ただし魔法は不安定で、一度ケーキを置くと通常の方法では再び移動させることができない。
+#
+forbidden.research_name.FOCUSBLINK=瞬きの杖星
+forbidden.research_text.FOCUSBLINK=バカなエンダーパールよりマシ
+forbidden.research_page.FOCUSBLINK.1=うおっ。<BR><BR>朝起きること以上に最悪なのは、歩かなければならないことだ。とっっっっっても大変だ。他の皆と同じように足を動かさねばならないならば、ビッグで派手な魔術師である意味などないだろう？<BR><BR>瞬きの杖星は片足をもう片足の前に出す苦労を解消する。杖を遠くの場所に向けて振るだけで、そこに自分をテレポートさせることができる。<BR><BR>あとはシャワーの杖星があれば完璧だ...。
+#
+forbidden.research_name.TAINTSHOVEL=浄化のシャベル
+forbidden.research_text.TAINTSHOVEL=熱いナイフで、マジでグロいバターを切るように
+forbidden.research_page.TAINTSHOVEL.1=汚染を取り除く最も簡単な方法は、物理的に取り除くことである場合もある。<BR><BR>魔導金属のシャベルをシルバーウッドと秩序の結晶片で強化することで、汚染に対抗しうる道具を生み出した。 浄化のシャベルは、通常の土を掘るのと同じように、ぐちゃぐちゃに汚染された地を効率的に掘ることができる。<BR><BR>このシャベルを手に持って右クリックすると、耐久力を消費して、狭い範囲の液体フラックスやフラックスガスを浄化することができる。もう丸石で注入の失敗を片付ける必要はない！
+forbidden.research_page.TAINTSHOVEL.2=シャベルで汚染を掘ると、放出される歪んだエネルギーが結晶化して汚染の結晶片になることがある。 この結晶片は他の汚染されたアイテムとは異なり、その結晶パターンゆえに持ち運べるほど安定している。
+#
+forbidden.research_name.TAINTPICK=歪曲のつるはし
+forbidden.research_text.TAINTPICK=黒曜石バスター
+forbidden.research_page.TAINTPICK.1=魔導金属のツルハシに汚染を注入することで、硬い素材を自在に削り取るツールを生み出せる。<BR><BR>歪曲のつるはしは硬いものに汚染を伝播させ、その強度を弱める。このツルハシは対象が硬ければ硬いほど、より効果的にその対象を破壊することができる。残念なことに、柔らかいものを採掘する際には、汚染の影響は逆効果となり、ただ素手でブロックを破壊するよりも非効率的になる。
+#
+forbidden.research_name.ROD_tainted=汚染された杖身
+forbidden.research_text.ROD_tainted=ぐにゃぐにゃのVis貯蔵庫
+forbidden.research_page.ROD_tainted.1=それを活用する方法を知っている魔導師にとって、汚染された地は偉大で恐るべき力を持った場所だ。<BR><BR>汚染された杖身は150Visを貯めることができ、汚染された地の中で所持している限り、それぞれの相について最大10%までVisがゆっくりと自然回復する。杖を手に持っている間、杖は血管を流れる汚染を吸い上げることができ、フラックス汚染によるダメージを受けるたびにランダムにVisを回復する。
+#
+forbidden.research_name.TAINTTREE=汚染された木
+forbidden.research_text.TAINTTREE=フラックスの根は醜い実を結ぶ
+forbidden.research_page.TAINTTREE.1=魔法の実験でできた病的でねじ曲がった廃液は、それ自体が奇妙な命を持ちうる。ほとんどの植物は汚染された地で生き残ることができないが、それが可能な植物を育てる方法を見つけた。苗木を汚染に浸すことで、汚染された地で成長できる木を生み出せる。<BR><BR>この木は繊維状の汚染に耐性を持った木材にも加工することができ、汚染の拡大を防ぐ安全な建造物を建てることができる。<BR><BR>この木には実もなるようだが、それを食べるのはお勧めしない...。
+#
+forbidden.research_name.TAINTSTONE=汚染された石
+forbidden.research_text.TAINTSTONE=汚染に立ち向かいし石
+forbidden.research_page.TAINTSTONE.1=汚染された地はあまり安全な場所ではない。繊維状の汚染は貪欲に広がり、ほとんどのものの表層を這い、いずれはそれらを包み込んで安全に歩けない状態にしてしまう。しかしながら、この繊維は汚染された生物や物質には無害なようだ。<BR><BR>普通の石に汚染を混ぜることで、構造的に安定、それでいて繊維状の汚染の伝播に耐性を持つ魔法の素材を作ることができる。汚染された石は、汚染された地の地表に、安全に歩ける場所を造るのに使うことができる。<BR><BR>汚染された地での建築を勧めるわけではないが...
+#
+forbidden.research_name.ROD_infernal=地獄の杖身
+forbidden.research_text.ROD_infernal=悪魔のVis貯蔵庫
+forbidden.research_page.ROD_infernal.1=自分のように偉大で強力な魔導師には、その地位にふさわしい強力で堂々とした杖がふさわしい。その辺のヒッピーみたいなシルバーウッドの杖では駄目だ。権威の王笏となる杖が必要なのだ。<BR><BR>ネザーの力を注入した杖を作る方法を発見した。 地獄の杖身は150Visを保持でき、イグニスのVisが20％までゆっくりと自然回復する。 ネザーにいる間は、他の相のVisも10％まで自然回復する。
+forbidden.research_page.ROD_infernal.2=この杖にはネザーの危険から身を守る効果もあり、インベントリにある限り、火に包まれたときに消火したり、衰弱の効果から身を守ったりする。 杖を手に持っている間は、すべての火によるダメージから完全に身を守ることができる。
+#
+forbidden.research_name.ROD_profane=冒涜的な杖
+forbidden.research_text.ROD_profane=点線の上に署名して
+forbidden.research_page.ROD_profane.1=奇妙な村人たちは、この冒涜的なシンボルが刻まれた木の杖を仕入れていることが知られている。冒涜的な杖は、普通のVisプールからVisを引き出せるが、不可視の源から非常に素早くVisを補充することができるようだ。<BR><BR>そのルーンは時として変化し、滲み出、そして杖自体が悪魔との契約や卑劣な行為を囁くこともある。<BR><BR>長時間の使用は望ましくない。
+#
+forbidden.research_name.ROD_soul=エルドリッチの杖身
+forbidden.research_text.ROD_soul=堕落のVis貯蔵庫
+forbidden.research_page.ROD_soul.1=プレイヤービーコンを流れるエネルギーを利用し、それをVisに変える方法を発見した。自身と同調させたプレイヤービーコンと同じディメンションにいる限り、エルドリッチの杖身はゆっくりと充填され、100のVisを保持することができる。<BR><BR>しかしながら、そのような大量のエネルギーを魂に流すのには、代償が伴う。Visの各ポイントは自身の魂に大きな堕落を生み出す。再充填能力に頼りすぎないのが身のためだ...
+#
+forbidden.research_name.ROD_blood=血の染み込んだ杖身
+forbidden.research_text.ROD_blood=錬金術のVis貯蔵庫
+forbidden.research_page.ROD_blood.1=魔導学と錬金術的魔術の橋渡しをした。血の杖身は100Visを貯蔵することができ、ライフポイントを使ってゆっくりとVisを充填する。<BR><BR>杖は最初に手に取ったプレイヤーに紐付けされる。杖が空である限り、杖は所持者のネットワークのLPを使ってVisを満たそうとする。もし燃料となるライフポイントが足りなければ、それを持っているプレイヤーから体力を引き出そうとするが、この変換はあまり効率的ではない。もし引き出せるLPがなく、持ち主のハートが3つ以下になると、杖はVisの充填を止める。
+forbidden.research_page.ROD_blood.2=血の杖を完成させるには、注入作業だけでは不十分だ。完成させるには、不活性な血の杖が注入されたら、血の祭壇でそれにライフエッセンスを染み込ませなければならない。
+#
+forbidden.research_name.ROD_blood_staff=血の染み込んだ上級杖身
+forbidden.research_text.ROD_blood_staff=血魔術師の上級杖
+forbidden.research_page.ROD_blood_staff.1=血の杖は便利だが、いかんせん充填が遅い。継続的な戦闘に耐えうる魔道具を作る時が来た。<BR><BR>100Visを保持できる大半の上級杖とは異なり、血の上級杖は50Visしか保持できない。この杖が真に優れているのは、急速にVisを充填できる点である。血の上級杖がホットバーにある限り、持ち主のLPネットワークから血の杖の4倍の速さでVisを充填する。しかし、この貪欲さには代償が伴う。血の杖と違い、血の上級杖はLPが足りなければ所持者を殺すことができる。
+#
+forbidden.research_name.ROD_witchwood=ウィッチウッドの杖身
+forbidden.research_text.ROD_witchwood=マナ変換器
+forbidden.research_page.ROD_witchwood.1=ウィッチウッドから杖身を作ることで、マナをVisに変換する方法を発見した。 ウィッチウッドの杖身は最大100Visを保持し、1Visにつき140マナのコストで徐々に充填される。<BR><BR>さらなる研究により、この対価を下げる方法が見つかるかもしれない。
+#
+forbidden.research_name.ROD_witchwood_staff=ウィッチウッドの上級杖身
+forbidden.research_text.ROD_witchwood_staff=古魔術師の杖
+forbidden.research_page.ROD_witchwood_staff.1=ウィッチウッドの杖は、継続的な戦闘に耐えるにはあまりにも多すぎる魔力を消費し、充填も遅すぎる。魔力を流すのに、もう少し効率的なものを作る時が来た。。<BR><BR>100Visを保持できる大半の上級杖とは異なり、ウィッチウッドの上級杖は50Visしか保持できない。この杖の真の強みは、Vis充填の速さにある。ウィッチウッドの上級杖はウィッチウッドの杖と比べて2倍以上の速度でVisを回復する。さらに、この上級杖はウィッチウッドの杖よりもかなり少ない魔力しか使わず、適切な石突なしで使用した場合でも、1Visにつき100マナしか必要としない。
+#
+forbidden.research_name.ROD_livingwood=Livingwood Wand Core
+forbidden.research_text.ROD_livingwood=Botanical vis storage
+forbidden.research_page.ROD_livingwood.1=Livingwood has the fantastic ability to manipulate mana. When combined with the right reagents, it can even convert mana into vis.<BR><BR>The Livingwood Wand will quickly draw mana from storage items in your inventory in order to charge itself.<BR><BR>The infusion process burns the livingwood out, unfortunately. Once infused, the wand rod must be charged in a mana pool in order to be re-awakened.
+#
+forbidden.research_name.ROD_dreamwood_staff=Dreamwood Staff
+forbidden.research_text.ROD_dreamwood_staff=Sweet dreams are made of these
+forbidden.research_page.ROD_dreamwood_staff.1=Livingwood is a useful material, but it can't seem to withstand the amount of arcane power needed to make a staff. The elves' dreamwood seems to be up to task, however.<BR><BR>Staves made of dreamwood hold significantly more vis than the equivalent wand and are able to apply more potent power when using foci.<BR><BR>As with livingwood, dreamwood rods must be infused in a mana pool to fully awaken.
+#
+forbidden.research_name.CAP_alchemical=Alchemical Caps
+forbidden.research_text.CAP_alchemical=When Thaumium isn't bloody enough
+forbidden.research_page.CAP_alchemical.1=You've developed a wand cap that merges Thaumaturgy and Alchemical Wizardry.  Alchemical Caps are very effective at channeling Aqua, only using 80% of the normal vis cost.  For everything else, they offer only a 90% rate.<BR><BR>If combined with a Bloody Wand Core, Alchemical Caps discount the amount of LP consumed by the wand, costing only 900 LP per vis.  The caps also cause all attacks from a blood wand to inflict Weakness.
+#
+forbidden.research_name.CAP_vinteum=Vinteum Caps
+forbidden.research_text.CAP_vinteum=Magical wand caps
+forbidden.research_page.CAP_vinteum.1=By infusing a Thaumium cap with Vinteum, you create a cap that, when combined with a Witchwood Wand Core, lowers its mana cost to only 80 per point of vis.<BR><BR>The Thaumium cap seems to meld well with Vinteum, offering the same 90% vis rate.
+#
+forbidden.research_name.CAP_soul=Ender Caps
+forbidden.research_text.CAP_soul=Protection for your soul
+forbidden.research_page.CAP_soul.1=You've created a wand cap that can safely channel the destructive energy of The End.  Ender Caps have an 80% vis rate on Perditio, but only 90% for other aspects.<BR><BR>When combined with an Eldritch Wand Core, Ender Caps also reduce the amount of corruption your soul suffers from channeling vis out of the End.
+#
+forbidden.research_name.CAP_manasteel=Manasteel Caps
+forbidden.research_text.CAP_manasteel=The secret of mana
+forbidden.research_page.CAP_manasteel.1=Manasteel has very useful properties when it comes to mana manipulation. When crafted into a wand cap, it offers a 90% vis rate. If combined with a wand that can consume mana, it also makes the mana conversion process more efficient.<BR><BR>In order to be used in the creation of a wand, the Inert Manasteel Caps must be infused in a Mana Pool.
+#
+forbidden.research_name.CAP_elementium=Elementium Caps
+forbidden.research_text.CAP_elementium=Eco Friendly Wand Caps
+forbidden.research_page.CAP_elementium.1=Alfheim seems to be a world steeped in magical power, and Elementium is no exception. When crafted into a wand cap and treated with the right materials, Elementium Caps have an exceptional ability to channel vis. When combined with a wand or staff that uses mana, they'll also reduce the mana conversion rate.<BR><BR>Elementium's pretty pink color is just icing on the cake.
+#
+forbidden.research_name.CAP_terrasteel=Terrasteel Caps
+forbidden.research_text.CAP_terrasteel=Completion!
+forbidden.research_page.CAP_terrasteel.1=Sweet Baby Haruhi, this was a terrible idea. What were you thinking?<BR><BR>Terrasteel's oversaturation of mana gives it many of the qualities of the earth it's named after: Strength, durability, density, and... extreme resistance to energy. Terrasteel's sheer inability to channel vis causes most vis to just dissipate harmlessly against it instead of being focused out of the wand.<BR><BR>Apparently just making caps out of every material under the sun isn't a great idea.
+#
+forbidden.research_name.TRANSEMERALD=Emerald Transmutation
+forbidden.research_text.TRANSEMERALD=Transformation of valuables into emerald
+forbidden.research_page.TRANSEMERALD.1=You have discovered a way to multiply emeralds by steeping emerald fragments in lucrum harvested from other substances.
+#
+forbidden.research_name.BLACKFLOWER=Umbral Rose
+forbidden.research_text.BLACKFLOWER=Save the squid!
+forbidden.research_page.BLACKFLOWER.1=There's no sight more pathetic than a soggy Thaumaturge.  For all your great and miraculous powers, you still have to go jump in the nearest lake and hunt for squids every time you want to refill your inkwell.<BR><BR>You're done squid hunting.  By infusing a rose with tenebrae and victus, you create a flower that spreads like a weed and whose petals can be crushed for ink.
+#
+forbidden.research_name.WRATHCAGE=Wrath Cage
+forbidden.research_text.WRATHCAGE=Neverending battle
+forbidden.research_page.WRATHCAGE.1=Sometimes, it's not enough to just kill something. Sure, slaying a single monster may be rather cathartic, but imagine just mowing down a crowd of the obnoxious little jerks.<BR><BR>To that end, you've discovered a way to recreate the monster spawners found in the ancient ruins. Unlike the original monster spawners, the Wrath Cage responds to redstone controls instead of the presence of human beings and can run much faster than the ancient devices.
+forbidden.research_page.WRATHCAGE.2=However, you haven't been able to duplicate the original method of infinite creation. For every creature spawned, the Wrath Cage requires a bit of essentia piped into its internal reserves. The device will accept different types of essentia depending on the creature it is attuned to. Alternatively, piping Ira into the cage can serve as a fuel. The cage can also accept Desidia for some reason.<BR><BR>Right-clicking the Wrath Cage with a Diabolist Fork will cycle the cage between the different fuel types, changing which essentia it applies suction to.
+forbidden.research_page.WRATHCAGE.3=To attune a wrath cage to a specific creature, right click on it with an imprinted crystal.  Slaying a compatible creature with a Diabolist Fork while carrying a blank imprinting crystal will attune the crystal to that monster.
+#
+forbidden.research_name.FORK=Diabolist Fork
+forbidden.research_text.FORK=Arcane tinkering tool
+forbidden.research_page.FORK.1=You've created a tool to help you tinker with various infernal contraptions. The quartz prongs on the Diabolist Fork allow it to attune itself to arcane energies.<BR><BR>Along with being used to tune devices, the fork also makes for a functional weapon.<BR><BR>More information should appear in the following pages as you uncover more research.
+forbidden.research_page.FORK.wc=If the Diabolist Fork is used to slay a compatible creature with a Blank Imprinting Crystal in your inventory, it will imprint on the crystal.  The Imprinted Crystal can then be used to attune a Wrath Cage to that monster.<BR><BR>The fork can also be used to adjust which essentia type a Wrath Cage is using for fuel. Simply right click on the Wrath Cage with the Diabolist Fork to cycle between the three different fuel types.
+#
+forbidden.research_name.MORPHTOOLS=Chameleon Tools
+forbidden.research_text.MORPHTOOLS=There's an enchantment for that...
+forbidden.research_page.MORPHTOOLS.1=Chameleon Tools are like three tools in one. When first enchanted, right-clicking while sneaking with the tool in your hand changes it to a blank new enchanting slate, allowing you to enchant it with a completely different set of enchantments. Each tool can hold up to three separate enchantment sets which can be alternated between by right-clicking while sneaking.<BR><BR>The tools have no innate way to remove enchantments once fully enchanted, so make each enchantment count!
+#
+forbidden.research_name.CLUSTER=Enchantment: Fiery Core
+forbidden.research_text.CLUSTER=Chameleon of the Core
+forbidden.research_page.CLUSTER.1=You've discovered an enchantment to allow the Chameleon Pickaxe to imitate the effects of the Pickaxe of the Core.  A Chameleon Pickaxe with the Fiery Core enchantment has a chance of dropping clusters when mining certain ores.  Clusters are a lot purer than raw ore and can be smelted for two of the ore's normal smelting result.  Higher levels of Fiery Core increase the chance of dropping clusters.
+#
+forbidden.research_name.IMPACT=Enchantment: Impact
+forbidden.research_text.IMPACT=Someday that wall is gonna fall.
+forbidden.research_page.IMPACT.1=The Shovel of the Earthmover mines larger areas than most tools. With the Impact enchantment, so can your Chameleon Pickaxe and Shovel.<BR><BR>A Chameleon Tool with the Impact enchantment mines a 3 x 3 area of blocks instead of just one, making exploratory mining and flattening areas much easier.
+#
+forbidden.research_name.GREEDY=Enchantment: Capitalist
+forbidden.research_text.GREEDY=Unregulated enchanting
+forbidden.research_page.GREEDY.1=You've discovered a weapon enchantment that allows you to profit from taking lives. Every time a Capitalist weapon slays a hostile creature, there's a chance to drop an Emerald Fragment. If a Capitalist Weapon is used to kill a villager, it will instead drop one of the villager's emeralds.
+#
+forbidden.research_name.CONSUMING=Enchantment: Consuming
+forbidden.research_text.CONSUMING=Garbage Disposal
+forbidden.research_page.CONSUMING.1=Sick of having to empty your pack of worthless junk, you've devised an enchantment that will automatically destroy common, unwanted materials.  Any Cobblestone, Dirt, Gravel, or Netherrack mined by a Consuming tool will be destroyed instead of falling to the ground.
+#
+forbidden.research_name.WRATH=Enchantment: Wrath
+forbidden.research_text.WRATH=When every problem is a nail, all you want is a bigger hammer.
+forbidden.research_page.WRATH.1=Ugh. You need more excessively violent weapons to kill things with. Enchanting is a good start, but there's only so much Sharpness you can squeeze into a typical sword before it starts to liquefy and sprout daisies instead. Your weapons just aren't killing things hard enough.<BR><BR>To amend this, you've created a special enchantment to force even more violence and death into a weapon. The Wrath enchantment increases the offensive power of a weapon, but is still compatible with Sharpness, Bane of Arthropods, and Smite.
+#
+forbidden.research_name.EDUCATIONAL=Enchantment: Educational
+forbidden.research_text.EDUCATIONAL=You will LEARN!
+forbidden.research_page.EDUCATIONAL.1=You've created an enchantment to infuse a weapon with the very essence of knowledge and learning. Hammering such learning into monsters' heads will result in them dropping more experience than normal, depending on the level of enchantment.
+#
+forbidden.research_name.CORRUPTING=Enchantment: Corrupting
+forbidden.research_text.CORRUPTING=A bad influence on shards
+forbidden.research_page.CORRUPTING.1=The Nether is great and all, but it's also kind of a... Hell Hole.<BR><BR>The Corrupting enchant allows you to harvest Nether Shards without having to be in the Nether.  A pickaxe enchanted with Corrupting will randomly corrupt harvested elemental shards, changing them into nether shards. The shards only seem susceptible while they are encased in infused stone, so corrupting a shard cluster will have no effect.
+#
+forbidden.research_name.VOIDTOUCHED=Enchantment: Voidtouched
+forbidden.research_text.VOIDTOUCHED=Colour Out of Space
+forbidden.research_page.VOIDTOUCHED.1=Voidmetal's ability to flow back into place after being damaged is fascinating. You sure wish your Chameleon Tools had the same properties...<BR><BR>The Voidtouched enchant gives a Chameleon Tool the same regenerating quality as Void Tools.<BR><BR>Chameleon Tools affected by the enchantment appear to be made of living scaled flesh which morphs back into shape when hurt. Just looking at it is disturbing for your sanity.
+#
+forbidden.research_name.TAINTBASICS=Tainted Lands
+forbidden.research_text.TAINTBASICS=Deep Purple
+forbidden.research_page.TAINTBASICS.1=Sometimes, Thaumaturgy goes horribly wrong. Miracles become twisted calamities and the very landscape twists into hideous forms. Tainted Lands are places infected by the sick runoff of magical workings, flux. Local flora and fauna become warped and mutated into forms hostile to normal life and the very ground of a tainted land infects those who tread upon its pulsing fibres.
+forbidden.research_page.TAINTBASICS.2=Tainted Lands can be found naturally in the world, but can also form when a careless Thaumaturge allows flux goo to stagnate for too long. They are recognizable by their telltale purple fibres and bright violet stalks. Left alone, the tainted land will gradually extend its tendrils outwards, infecting more and more of the surrounding land. Dirt becomes thick, pulpy Tainted Soil while trees and other natural materials are slowly covered in fibres and converted into structurally unsound crust which can collapse or melt into flux goo at any moment.
+#
+forbidden.research_name.SCHOOLS=Schools of Magic
+forbidden.research_text.SCHOOLS=There's more than one path to power...
+forbidden.research_page.SCHOOLS.1=Many Thaumaturges scoff at the idea of dabbling in other forms of magic. Who needs anything other than the pure, miraculous power of Thaumaturgy?<BR><BR>Less judgmental Thaumaturges tell a different story, however. The other magical arts have a lot to offer a budding mage if you know where to look...
+#
+forbidden.research_name.BLOODMAGIC=Blood Magic
+forbidden.research_text.BLOODMAGIC=With great sacrifice comes great power
+forbidden.research_page.BLOODMAGIC.1=Blood Magi, or "Alchemical Wizards" as some prefer to call themselves, are a strange, unsavory lot. Building strange ziggurats where they practice their bloody rites, Blood Magi use life energy to imbue items with magical power, or even craft spells.<BR><BR>A more unscrupulous Thaumaturge dabbling in blood magic may be able to get ahead in their studies, but at what cost?
+#
+forbidden.research_name.BOTANY=Botany
+forbidden.research_text.BOTANY=Power sleeps in the earth...
+forbidden.research_page.BOTANY.1=Some mad alchemists say that flowers are the universal language with which the universe was sang into being.<BR><BR>Whether this is true or not, Botanists have discovered a way to harness the energy of flowers and other plant life to accomplish great feats of magic. Some Thaumaturges might scoff at such "filthy hedge wizardry," but there is a lot of power sleeping beneath the earth for those willing to take it.
+#
+forbidden.research_name.BLOODWELL=Bloody Scrivener's Tools
+forbidden.research_text.BLOODWELL="I'll complete this research if it kills me!"
+forbidden.research_page.BLOODWELL.1=There's nothing more frustrating than having to pause your research to refill your inkwell. Sometimes, you're just so desperate to complete a research you'd rather use your own blood as ink than stop to go find a refill.<BR><BR>The Bloody Scrivener's Tools will refill using Life Points from their owner's network, at a rate of 25 LP per point. This ability requires human warmth to activate, requiring you to remove the tools from the research table, but without having to actually leave the research area.
+#
+forbidden.research_name.ELDRITCHORB=Eldritch Blood Orb
+forbidden.research_text.ELDRITCHORB=Orb of Bel-Shamharoth
+forbidden.research_page.ELDRITCHORB.1=Strange whispers speak of power and dark energy in the spaces between the stars where even gods dare not gaze. Whether or not the whispers are telling the truth, it turns out that you can fit a lot of things in those spaces.<BR><BR>By infusing a blood orb with the essence of the void and arcane geometries, you create an orb capable of storing vast amounts of life energy. 80,000,000 LP, to be exact. Storing life energy in a space not bound by Euclidean geometry can't possibly go wrong!
+#
+forbidden.research_name.BLOODRAPIER=Rapier of the Strix
+forbidden.research_text.BLOODRAPIER=Destroyer of Blood Magic
+forbidden.research_page.BLOODRAPIER.1=There's nothing more dangerous than a Blood Magus that is gorged on life essence. As long as they have enough life energy, there's very little that can pierce their defenses.<BR><BR>Until now.<BR><BR>The Rapier of the Strix, upon striking someone, drinks LP directly from their Soul Network and seals it so that they can't regain any more LP for a while. It may not do very much physical damage, but it packs a metaphysical punch against Blood Magi.
+#
+forbidden.research_name.CRYSTALWELL=Crystal Scribing Tools
+forbidden.research_text.CRYSTALWELL=Arcane Research Grant
+forbidden.research_page.CRYSTALWELL.1=Combining elemental shards with your inkwell results in some interesting effects. The Crystal Scribing Tools seem to absorb knowledge as you use them to write. Once the well is empty of ink, you can absorb this knowledge for a small burst of research points by holding the tools in your hand and right clicking. Unfortunately, this burns the tool out and turns it back into a mundane Scribing Tool again.
+forbidden.research_page.CRYSTALWELL.1b=Research can get boring and tedious sometimes. There's only so many hours you can spend taking apart bits of cobblestone in the sad hope of finding esoteric insights before you start considering a change in careers.<BR><BR>Thankfully, you've devised a way to expedite the process. The Crystal Scribing Tools contain a small pool of esoteric knowledge which will slowly be transferred into your mind as you carry them around.<BR><BR>Your chakras are going to be SO aligned!
+#
+forbidden.research_name.PRIMEWELL=Primal Scribing Tools
+forbidden.research_text.PRIMEWELL=Bragging Rights
+forbidden.research_page.PRIMEWELL.1=You've learned things humans weren't meant to know, seen things humans weren't meant to see, and been places humans weren't meant to go.<BR><BR>What these experiences have taught you is how to refill your inkwell.<BR><BR>By utilizing the strange properties of the Primordial Pearl, you can create a set of scribing tools that will never run out of ink. At the cold, dark end of time when the light of a million stars have died out, the Primal Scribing Tools will still be ready to scribble onwards.
+#
+forbidden.research_name.RIDINGCROP=Riding Crop
+forbidden.research_text.RIDINGCROP=Motivating Pain
+forbidden.research_page.RIDINGCROP.1=A riding crop is, as its name suggests, a tool used to motivate mounts to move faster.  Right clicking with it in your hand while riding a horse or other mount will give the mount a quick lash of pain and cause it to move faster for a little while.<BR><BR>You could hit other creatures with the crop too, but what would possess you to do something like that?
+#
+forbidden.research_name.HELLFIRE=Lord of Hellfire
+forbidden.research_text.HELLFIRE=Never get stranded again
+forbidden.research_page.HELLFIRE.1=Getting stranded in the Nether is the worst. You go through all the trouble of grabbing what you need, but before you can go home, some stupid ghast decides to rain on your parade by blasting the portal shut. Sure, this can be amended by carrying a flint and steel around, but who actually walks around with those things?<BR><BR>You've discovered a way to use vis in your wand to light fires on certain materials.  Right click with a focus-less wand in your hand on the top of netherrack or obsidian to light a flame using some Ignis from your wand.
+#
+forbidden.research_name.EUCLIDAISY=Euclidaisy
+forbidden.research_text.EUCLIDAISY=Mai waifu's power level is over 9000 in the name of the moon! Believe it!
+forbidden.research_page.EUCLIDAISY.1=Ethereal Essences are an extremely useful sources of rare Auram essentia. Unfortunately, they can be very difficult to come by. Wisps aren't exactly common, and no self-respecting thaumaturge wants to stoop to smashing open a node.<BR><BR>By combining thaumaturgy and hedge magic, you've created a flower that can use mana to rip open the fabric of reality. The rip isn't stable enough to form a node, but it does stay open long enough to drop a single wispy strand of essence. Applying a redstone signal to the flower causes it to stop.
+#
+forbidden.research_name.WHISPERWEED=Whisperweed
+forbidden.research_text.WHISPERWEED=Dubbed, not Subbed
+forbidden.research_page.WHISPERWEED.1=A busy thaumaturge has better things to do than run around in the field researching things. To save yourself many hours pulling stacks of cobble apart, you've created a flower that's in touch with the supernatural flow of the universe. The Whisperweed is a magical plant which uses mana to whisper scraps of arcane knowledge into the ears of anyone nearby.<BR><BR>Prolonged exposure to its unearthly murmurs may have a negative effect on your psyche, however...
+#
+forbidden.research_name.TAINTHISTLE=Tainthistle
+forbidden.research_text.TAINTHISTLE=It won't clean up your empty pocky containers
+forbidden.research_page.TAINTHISTLE.1=When you have unlimited arcane power at your fingertips, small chores like mopping flux goo off your laboratory floor just seem beneath you.<BR><BR>Fortunately, you now have a helper to clean up for you. The Tainthistle will suck up any flux goo or gas nearby and use it to generate mana.
+#
+forbidden.research_name.SUBCOLLAR=Collar of Pain
+forbidden.research_text.SUBCOLLAR=Pain and Magic
+forbidden.research_page.SUBCOLLAR.1=Sometimes, people just want to get hurt. Especially if there's a benefit...<BR><BR>The Collar of Pain has all the capabilities of an Amulet of Vis Storage with the added bonus that it will generate vis whenever you take damage. The more you get hurt, the more vis it generates.
+#
+# Lexicon
+forbidden.lexicon.euclidaisy=Euclidaisy
+forbidden.lexicon.euclidaisy.0=The eerie, pink &1Euclidaisy&0 is an oddity. It uses large amounts of mana to conjure some sort of ethereal substance that only seems useful to thaumaturges.<br>&oIt doesn't combustion bend.&r
+forbidden.lexicon.whisperweed=Whisperweed
+forbidden.lexicon.whisperweed.0=The &1Whisperweed&0 is an unpleasant plant that whispers secrets into the ears of anyone who'll listen. There doesn't seem to be much point to the plant, since the secrets aren't even relevant to botany.<br>&oMore secrets than Wan Shi Tong&r
+forbidden.lexicon.tainthistle=Tainthistle
+forbidden.lexicon.tainthistle.0=The disgusting &1Tainthistle&0 derives sustenance from the tainted runoff of magical experiments. It'll suck up any such substance it can find and try to turn it into mana. Since Botany is an environmentally friendly practice, there doesn't seem to be much point to it.<br>&oMore intrusive than a Spirit Vine&r
+forbidden.lexicon.bloodthorn=Bloodthorn
+forbidden.lexicon.bloodthorn.0=The results of some sick, twisted Blood Mage's experiments, the &1Bloodthorn&0 is a red mystical flower that has been steeped in blood until it developed a taste for the life force of all things. It uses mana to inflict an extreme level of Weakness on surrounding creatures that is unmatched by any conventional alchemy.<br>&oYakone's legacy&r
+
+# Rituals
+ritual.SpiteSanity.name=Plea of Delayed Insanity

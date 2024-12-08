@@ -64,7 +64,12 @@
                 <str>minecraft:sapling</str>
                 <num>4</num>
             </icon>
-            <str> Biome: {darkaqua}{biome} {gold}{localtemperature}{white}°F {gold}</str>
+            <str> Biome: {darkaqua}{biome} {gold}</str>
+            <round>
+                <var>localtemperature</var>
+                <num>0</num>
+            </round>
+            <str>{white}°F {gold}</str>
             <round>
                 <div>
                     <sub>
@@ -1039,44 +1044,10 @@
                     </equal>
                 </and>
                 <concat>
-                    <if>
-                        <and>
-                            <or>
-                                <equal>
-                                    <modi>
-                                        <var>chunkx</var>
-                                        <num>3</num>
-                                    </modi>
-                                    <num>-1</num>
-                                </equal>
-                                <equal>
-                                    <modi>
-                                        <var>chunkx</var>
-                                        <num>3</num>
-                                    </modi>
-                                    <num>1</num>
-                                </equal>
-                            </or>
-                            <or>
-                                <equal>
-                                    <modi>
-                                        <var>chunkz</var>
-                                        <num>3</num>
-                                    </modi>
-                                    <num>-1</num>
-                                </equal>
-                                <equal>
-                                    <modi>
-                                        <var>chunkz</var>
-                                        <num>3</num>
-                                    </modi>
-                                    <num>1</num>
-                                </equal>
-                            </or>
-                        </and>
-                        <str>      </str>
-                    </if>
-                    <str>   You are at the {darkred}center {white}of the chunk.</str>
+                        <icon>
+                                <str>tinker:textures/items/parts/obsidian_toughbind.png</str>
+                        </icon>
+                <str> You are at the {darkred}center {white}of the chunk.</str>
                 </concat>
             </if>
         </line>

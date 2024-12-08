@@ -33,7 +33,7 @@ tooltip.wawla.tooltype.axe=Топор
 tooltip.wawla.armorprot=Защита
 tooltip.wawla.armor=Очки брони
 tooltip.wawla.progress=Прогресс
-tooltip.wawla.missingEnch=Описание для этого зачарования не найдено.
+tooltip.wawla.missingEnch=Описание для этого зачарования не найдено. 
 tooltip.wawla.tnt.fuse=Время до взрыва
 tooltip.wawla.profession=Профессия
 tooltip.wawla.unknownplayer=Неизвестный игрок
@@ -79,26 +79,26 @@ option.wawla.info.showResistance=Показывать взрывоустойчи
 
 #Vanilla Enchantment Descriptions
 description.enchantment.protect.all=Это зачарование уменьшает наносимый урон владельцу от многих источников. Оно сочетается с такими зачарованиями, как Огнестойкость и Лёгкость, однако можно достичь ограничения по снижению урона. Это зачарование применимо ко всем видам брони.
-description.enchantment.protect.fire=Это зачарование уменьшает получаемый урон от источников огня, таких как огонь, ифриты и лава. Это зачарование также уменьшает общее количество времени, во время которого владелец горит. Это зачарование применимо ко всем видам брони.
+description.enchantment.protect.fire=Это зачарование уменьшает получаемый урон от источников огня, таких как огонь, ифриты и лава. Это зачарование также уменьшает общее количество времени, во время которого владелец горит. Это зачарование применимо ко всем видам брони. 
 description.enchantment.protect.fall=Это зачарование уменьшает получаемый урон от падений, оно также уменьшает получаемый урон от использования жемчуга Края. Это зачарование применимо только к ботинками.
 description.enchantment.protect.explosion=Это зачарование уменьшает получаемый урон от взрывов, таких как динамит и криперы. Это зачарование также уменьшает отдачу от взрывов. Это зачарование применимо ко всем видам брони.
 description.enchantment.protect.projectile=Это зачарование уменьшает получаемый урон от снарядов, таких как стрелы и огненные шары. Это зачарование применимо ко всем видам брони.
 description.enchantment.oxygen=Это зачарование улучшает зрение владельца под водой. Это зачарование также увеличивает общее количество кислорода владельца на 15 секунд за уровень. Время получения урона от удушения также увеличивается на одну секунду за уровень. Это зачарование применимо только к шлемам.
-description.enchantment.waterWorker=Это зачарование увеличивает скорость ломания блоков владельцом, под водой. Это зачарование применимо только к шлемам.
-description.enchantment.thorns=Это зачарование имеет 15% шанс за уровень, нанести урон мобам, которые бьют владельца с уроном в пол сердца до двух сердец. Это зачарование применимо ко всем видам брони.
-description.enchantment.damage.all=Это зачарование увеличивает урон предмета на 1.25 за уровень. Это зачарование применимо ко многим видам инструментов, однако меч основной вид.
+description.enchantment.waterWorker=Это зачарование увеличивает скорость ломания блоков владельцом, под водой. Это зачарование применимо только к шлемам. 
+description.enchantment.thorns=Это зачарование имеет 15% шанс за уровень, нанести урон мобам, которые бьют владельца с уроном в пол сердца до двух сердец. Это зачарование применимо ко всем видам брони. 
+description.enchantment.damage.all=Это зачарование увеличивает урон предмета на 1.25 за уровень. Это зачарование применимо ко многим видам инструментов, однако меч основной вид. 
 description.enchantment.damage.undead=Это зачарование увеличивает наносимый урон мёртвым мобам, таким как скелеты, зомби и иссушителю на 2.5 сердца за уровень. Это зачарование применимо ко многим видам инструментов, однако меч основной вид.
 description.enchantment.damage.arthropods=Это зачарование увеличивает наносимый урон мобам, которые похожи на "паука", таким как пауки, пещерные пауки, чешуйницы и чешуйницы Края на 2.5 сердца за уровень. Это зачарование применимо ко многим видам инструментов, однако меч основной вид.
 description.enchantment.knockback=Это зачарование отбрасывает мобов от игрока. Это зачарование применимо только к мечам.
-description.enchantment.fire=Это зачарование поджигает мобов. Моб получит 3 сердца урона от огня вместе с дополнительными 4 сердцами урона от огня за уровень. Это зачарование применимо только к мечам.
-description.enchantment.lootBonus=Это зачарование заставляет мобов ронять больше предметов. Максимальное количество предметов увеличивается на 1 за уровень. Шанс редких предметов увеличивается на 3% плюс дополнительные .5% за уровень потом. Это зачарование применимо только к мечам.
+description.enchantment.fire=Это зачарование поджигает мобов. Моб получит 3 сердца урона от огня вместе с дополнительными 4 сердцами урона от огня за уровень. Это зачарование применимо только к мечам. 
+description.enchantment.lootBonus=Это зачарование заставляет мобов ронять больше предметов. Максимальное количество предметов увеличивается на 1 за уровень. Шанс редких предметов увеличивается на 3% плюс дополнительные 5% за уровень потом. Это зачарование применимо только к мечам.
 description.enchantment.digging=Это зачарование позволяет ломать блоки быстрее на 30%/69%/120%/186%/271%. Чтобы эффект применился, инструмент должен быть использован на правильном блоке. Этот эффект применяется на кирки, лопаты, топоры и ножницы.
 description.enchantment.untouching=Это зачарование позволяет получить блоки, которые нельзя получить в обычных условиях. Примеры: лёд, трава и блоки руды. Это зачарование применимо к киркам, лопатам, топорам и ножницам.
 description.enchantment.durability=Это зачарование увеличивает среднюю прочность инструмента или части брони. Этот эффект применим ко всем предметам, у которых есть прочность. Примеры: Огниво, удочки, все виды брони и инструментов.
 description.enchantment.lootBonusDigger=Это зачарование даёт шанс получить двойное количество предметов с некоторых блоков. Каждый уровень увеличивает количество шансов. Шансы того, что шанс удастся уменьшаются, однако модификатор выпадения увеличивается. 33%/25%/20% для 2/3/4 предметов. Для блоков, которые дают несколько предметов, таких как арбузы, максимальное количество предметов, которые могут выпасть, увеличивается на 1 за уровень. Шанс получения кремния из гравия также увеличен. Шансы его получения 14%/25/100%. Это зачарование применимо к киркам, лопатам, топорам и ножницам.
 description.enchantment.arrowDamage=Это зачарование увеличивает наносимый урон луком на 25% умноженное на уровень + 1. Урон округляется до ближайшего пол сердца. Это зачарование применимо только к лукам.
 description.enchantment.arrowKnockback=Это зачарование отбрасывает мобов от игрока, при попадании стрелы. Это зачарование применимо только к лукам.
-description.enchantment.arrowFire=Это зачарование поджигает запущенные стрелы. Попадание в мобов поджигает их. Этот огонь поджигает только мобов, игроков и блоки динамита. Это зачарование применимо только к лукам.
+description.enchantment.arrowFire=Это зачарование поджигает запущенные стрелы. Попадание в мобов поджигает их. Этот огонь поджигает только мобов, игроков и блоки динамита. Это зачарование применимо только к лукам. 
 description.enchantment.arrowInfinite=Это зачарование предотвращает затраты стрел, во время выстрела. Этот эффект требует хотябы одну стрелу в инвентаре игрока. Это зачарование применимо только к лукам.
 description.enchantment.lootBonusFishing=Это зачарование увеличивает шансы игроков получения сокровищ, во время рыбалки на 1% за уровень. Это зачарование применимо только к удочкам.
 description.enchantment.fishingSpeed=Это зачарование уменьшает время на поимку рыбы на 5 секунд за уровень. Оно также увеличивает шанс получения хлама и сокровищ на 1% за уровень.
@@ -207,7 +207,7 @@ tooltip.wawla.tinkers.dryness=Вяление
 option.wawla.tinkers.hideLandmine=Спрятать мины?
 option.wawla.tinkers.showDryerTime=Прогресс сушки?
 option.wawla.tinkers.showDryerItem=Предмет на сушильной стойке?
-option.wawla.tinkers.showFurnace=Cодержимое печь-плиты?
+option.wawla.tinkers.showFurnace=Содержимое печь-плиты?
 option.wawla.tinkers.showBurnTime=Время горения?
 
 #AquaCulture Enchantment Descriptions
@@ -347,46 +347,46 @@ description.enchantment.msm.extinction=Это зачарование убьет 
 #Railcraft Enchantments
 description.enchantment.railcraft.crowbar.destruction=Это зачарование предназначено исключительно для монтировки. Разбирает блоки на обширной территории.
 description.enchantment.railcraft.crowbar.implosion=Это зачарование предназначено исключительно для монтировки. Увеличивает урон, наносимый криперам.
-description.enchantment.railcraft.crowbar.wrecking=Это зачарование предназначено исключительно для монтировки. Увеличивает урон (работает так же, как «Острота»).
+description.enchantment.railcraft.crowbar.wrecking=Это зачарование предназначено исключительно для монтировки. Увеличивает урон (работает так же, как "Острота").
 
 #OpenBlocks Enchantments
 description.enchantment.openblocks.explosive=При получении урона порох расходуется, создавая взрыв, который наносит урон мобам и блокам.
-description.enchantment.openblocks.flimflam=Приносит «несчастье» всему, что атакует игрока.
+description.enchantment.openblocks.flimflam=Приносит "несчастье" всему, что атакует игрока.
 description.enchantment.openblocks.laststand=Когда у пользователя остается половина сердца, вместо того чтобы умереть от следующего удара, он использует уровни XP для поглощения урона.
 
 #Forbidden Magic Enchantments
-description.enchantment.cluster=Хамелеоновая кирка с зачарованием «Огненное ядро» имеет шанс выпадения кластеров при добыче определенных руд. Кластеры намного чище сырой руды и могут быть выплавлены за обычный результат плавки руды. Более высокие уровни Огненного ядра увеличивают шанс выпадения кластеров.
-description.enchantment.consuming=Булыжник, земля, гравий или трава, добытые с помощью инструмента «Потребление», будут уничтожены, а не упадут на землю.
-description.enchantment.corrupting=Чары Искажение позволяют вам собирать Адские осколки, не находясь в Аду. Кирка, зачарованная на «Искажение», случайным образом искажает собранные кристаллы элементалей, превращая их в Адские осколки. Кристаллы кажутся уязвимыми только тогда, когда они заключены в камень, поэтому повреждение скопления кристаллов не будет иметь никакого эффекта.
+description.enchantment.cluster=Хамелеоновая кирка с зачарованием "Огненное ядро" имеет шанс выпадения кластеров при добыче определенных руд. Кластеры намного чище сырой руды и могут быть выплавлены за обычный результат плавки руды. Более высокие уровни Огненного ядра увеличивают шанс выпадения кластеров.
+description.enchantment.consuming=Булыжник, земля, гравий или трава, добытые с помощью инструмента "Потребление", будут уничтожены, а не упадут на землю.
+description.enchantment.corrupting=Чары Искажение позволяют вам собирать Адские осколки, не находясь в Аду. Кирка, зачарованная на "Искажение", случайным образом искажает собранные кристаллы элементалей, превращая их в Адские осколки. Кристаллы кажутся уязвимыми только тогда, когда они заключены в камень, поэтому повреждение скопления кристаллов не будет иметь никакого эффекта.
 description.enchantment.educational=Вы создали зачарование, чтобы наделить оружие самой сутью знаний и обучения. Вбивая такое обучение в головы монстров, они будут терять больше опыта, чем обычно, в зависимости от уровня зачарования.
 description.enchantment.greedy=Every time a Capitalist weapon slays a hostile creature, there's a chance to drop Emerald Fragment. If a Capitalist weapon is used to kill a villager, it will instead drop one of the villager's emeralds.
-description.enchantment.impact=Хамелеоновые инструменты с зачарование «Влияние» добывают не один блок, а область 3x3, что ускоряет добычу полезных ископаемых и облегчает выравнивание территорий.
+description.enchantment.impact=Хамелеоновые инструменты с зачарование "Влияние" добывают не один блок, а область 3x3, что ускоряет добычу полезных ископаемых и облегчает выравнивание территорий.
 description.enchantment.voidtouched=Чары Прикосновение пустоты придают Хамелеоновым инструментам те же регенерирующие свойства, что и у пустотных инструментов.
-description.enchantment.wrath=Чары «Гнев» увеличивает атакующую силу оружия, но по-прежнему совместимы с «Остротой», «Бич членистоногих» и «Небесная кара».
+description.enchantment.wrath=Чары "Гнев" увеличивает атакующую силу оружия, но по-прежнему совместимы с "Остротой", "Бич членистоногих" и "Небесная кара".
 
 #BiblioCraft Enchantments
 description.Eternal Compass=Когда игрок умрет, он появится с Вечным компасом, который приведет его обратно к точке смерти.
-description.Reading=When looking at items in BiblioCraft blocks in the world their hover text will be displayed.
+description.Reading=При просмотре предметов в блоках BiblioCraft в мире будет отображаться их всплывающий текст.
 
 #Witching Gadgets Enchantments
-description.enchantment.wg.backstab=Предметы, зачарованные на «Удар в спину» наносят дополнительно 20% урона за уровень при атаке сзади, плюс еще 40% если цель не знает о вас.
+description.enchantment.wg.backstab=Предметы, зачарованные на "Удар в спину" наносят дополнительно 20% урона за уровень при атаке сзади, плюс еще 40% если цель не знает о вас.
 description.enchantment.wg.gemstoneBrittle=Infuse a witchery cut gem with brittleness.
 description.enchantment.wg.gemstonePotency=Infuse a witchery cut gem to make it more potent.
 description.enchantment.wg.invisibleGear=Первый уровень этого зачарования сделает ваше снаряжение полупрозрачным, когда вы сами будете невидимы, второй уровень сделает его невидимым навсегда.
 description.enchantment.wg.rideProtect=Передвигаться невероятно сложно, когда кто-то едет на вас. Зачарование вашего шлема этим заклинанием отталкивания должно решить эту проблему. Каждый, кто попытается на вас наброситься, будет сброшен и поврежден.
-description.enchantment.wg.soulbound=When the player dies the item/tool/armor will be kept in the inventory and not drop on the ground.
+description.enchantment.wg.soulbound=Когда игрок умирает, предмет/инструмент/броня сохраняется в инвентаре, а не падает на землю.
 description.enchantment.wg.stealth=Applying this enchantment to your boots or leggings will give you a chance of staying undetected while you are crouching. The chance rises by 10% with every level, but is diminished by 10% if you are in view of the target in question. Should you be discovered, all enemies in a 5 block radius will be notified.
-description.enchantment.wg.unveiling=This enchantment can be applied to the Goggles of Revealing or other headgear of the same function. While wearing the enchanted item, you will be able to see creatures with the invisibility buff. Furthermore, the Translucency enchantment is rendered ineffective when used by others and users of the spectral mantle are shown more clearly.
+description.enchantment.wg.unveiling=Это зачарование можно применить к Очкам откровения или другим головным уборам с той же функцией. Нося зачарованный предмет, вы сможете видеть существ с баффом невидимости. Кроме того, зачарование Полупрозрачность становится неэффективным, когда его используют другие, а пользователи с Призрачной мантией отображаются более четко.
 
 #Thaumic Exploration Enchantments
-description.enchantment.binding=At level I, slows mobs hit for a few seconds. At level II, prevents Endermen from teleporting and Creepers from exploding for a few seconds.
-description.enchantment.disarm=Attacked enemies have a chance to drop their weapons, does not work on other players. Note: The Thorns enchantment from Vanilla also triggers this.
-description.enchantment.nightVision=Gain a permanent Nightvision potion effect while holding an item with this enchantment.
+description.enchantment.binding=На уровне I замедляет пораженных мобов на несколько секунд. На уровне II не дает Эндерменам телепортироваться, а Криперам взрываться на несколько секунд.
+description.enchantment.disarm=Атакованные враги имеют шанс выронить свое оружие, не действует на других игроков. Примечание: зачарование Шипы из Ванилы также вызывает это.
+description.enchantment.nightVision=Получите постоянный эффект зелья ночного зрения, удерживая предмет с этими чарами.
 
 #EnderIO Enchantments
-description.enchantment.autosmelt=Any block mined by an item enchanted with this will have its drop instantly smelted as if processed by a Furnace.
-description.enchantment.xpboost=This enchantment increases the amount of Experience dropped by killing mobs or players or by breaking blocks by a percentage. 
-description.enchantment.enderio.soulBound=When the player dies the item/tool/armor will be kept in the inventory and not drop on the ground.
+description.enchantment.autosmelt=Любой блок добытый с помощью предмета зачарованного этим чарами будет мгновенно переплавлен, как если бы он был обработан в печи.
+description.enchantment.xpboost=Это зачарование увеличивает количество опыта, получаемого при убийстве мобов или игроков, а также при разрушении блоков, на определенный процент.
+description.enchantment.enderio.soulBound=Когда игрок умирает, предмет/инструмент/броня сохраняется в инвентаре, а не падает на землю.
 
 #EnderZoo Enchantments
 description.enchantment.enderzoo.witherArrow=Применяет эффект Иссушения при попадании на 5 секунд.
@@ -406,13 +406,13 @@ description.enchantment.elderKnowledge=Шанс получить знания о
 description.enchantment.eldritchBane=Наносите больше урона древним существам.
 description.enchantment.magicTouch=Получайте больше Сферы аспектов с убитых врагов.
 description.enchantment.tainted=Наносит Магический яд атакованным врагам.
-description.enchantment.vaporising=Gain Crystalized Essentia of slain mobs.
+description.enchantment.vaporising=Получайте кристаллизованную эссенцию убитых мобов.
 
 #Misc. Enchantments
-description.enchant.cofh.holding=Increases the amount of slots (8-9 per level) of a strongbox or satchel.
-description.enchant.cofh.multishot=Makes bows shoot multiple arrows at 1 arrow cost.
-description.enchantment.draconicevolution.reaperEnchant=Killing a mob has a chance of dropping a corresponding Mob Soul. This bonus chance stacks with the native chance to drop a soul of the various Draconic Evolution weapons.
+description.enchant.cofh.holding=Увеличивает количество слотов (8-9 на уровень) сейфа или сумки.
+description.enchant.cofh.multishot=Позволяет лукам стрелять несколькими стрелами, затратив при этом одну стрелу.
+description.enchantment.draconicevolution.reaperEnchant=Убийство моба имеет шанс выпадения соответствующей Души Моба. Этот бонусный шанс складывается с собственным шансом выпадения души различных оружий Draconic Evolution.
 description.enchantment.damage.endermen=Наносите больше урона мобам Энда и не позволяйте им телепортироваться.
 description.enchantment.damage.radioactivity=Добавьте радиоактивность к своему оружию или броне, заставляя мобов или игроков страдать.
-description.gadomancy.enchantment.revealer=An enchantment for your helmet. When used, it makes nodes visible, just like Thaumcraft's Goggles of Revealing.
+description.gadomancy.enchantment.revealer=Чары для вашего шлема. При использовании они делают узлы видимыми, как Очки откровения Таумкрафта.
 description.enchantment.projectred.expansion.fuel_efficiency=Повышение эффективности топлива для вашего реактивного ранца.

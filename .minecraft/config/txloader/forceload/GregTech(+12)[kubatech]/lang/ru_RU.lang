@@ -5,8 +5,8 @@ kubatech.defusioncrafter=Draconic Evolution термоядерный крафт�
 
 #NEI
 kubatech.defusioncrafter.tier=Тир корпуса: %s
-kubatech.mobhandler.eec_chance=§5Chance to drop in EEC: %.2f%%
-kubatech.mobhandler.eec_disabled=§5Does not drop in EEC
+kubatech.mobhandler.eec_chance=§5Шанс добычи в EEC: %.2f%%
+kubatech.mobhandler.eec_disabled=§5Не падает в EEC
 
 #Commands
 kubatech.commandhandler.invalid=§cНедопустимое использование ! Правильное использование этой команды /%s
@@ -38,8 +38,8 @@ GT5U.gui.text.EIG_missingwater=No water!
 GT5U.gui.text.EIG_ic2glass=Insufficient glass tier!
 
 #Blocks
-kubablock.tea_acceptor.name=§4§lTea Acceptor
-kubablock.tea_storage.name=§4§lTea Storage Extender
+kubablock.tea_acceptor.name=§4§lПриёмщик чая
+kubablock.tea_storage.name=§4§lРасширенное хранилище чая
 
 #DEFC Casings
 defc.casing.tip=Draconic Evolution Fusion Crafter Casing, Tier %d
@@ -64,25 +64,25 @@ kubaitem.tea.peppermint_tea.name=Мятный чай
 kubaitem.tea.pu-erh_tea.name=Pu-erh Tea
 kubaitem.tea.white_tea.name=White Tea
 kubaitem.tea.yellow_tea.name=Yellow Tea
-kubaitem.teaingredient.black_tea_leaf.name=Black Tea Leaf
-kubaitem.teaingredient.green_tea_leaf.name=Green Tea Leaf
-kubaitem.teaingredient.oolong_tea_leaf.name=Oolong Tea Leaf
-kubaitem.teaingredient.pu-erh_tea_leaf.name=Pu-erh Tea Leaf
-kubaitem.teaingredient.white_tea_leaf.name=White Tea Leaf
-kubaitem.teaingredient.yellow_tea_leaf.name=Yellow Tea Leaf
-kubaitem.teaingredient.tea_leaf_dehydrated.name=Dehydrated Tea Leaf
-kubaitem.teaingredient.steamed_tea_leaf.name=Steamed Tea Leaf
-kubaitem.teaingredient.rolled_tea_leaf.name=Rolled Tea Leaf
-kubaitem.teaingredient.oxidized_tea_leaf.name=Oxidized Tea Leaf
-kubaitem.teaingredient.fermented_tea_leaf.name=Fermented Tea Leaf
-kubaitem.teaingredient.bruised_tea_leaf.name=Bruised Tea Leaf
-kubaitem.teaingredient.partially_oxidized_tea_leaf.name=Partially Oxidized Tea Leaf
+kubaitem.teaingredient.black_tea_leaf.name=Лист чёрного чая
+kubaitem.teaingredient.green_tea_leaf.name=Лист зеленого чая
+kubaitem.teaingredient.oolong_tea_leaf.name=Лист чая Улун
+kubaitem.teaingredient.pu-erh_tea_leaf.name=Лист чая Пуэр
+kubaitem.teaingredient.white_tea_leaf.name=Лист белого чая
+kubaitem.teaingredient.yellow_tea_leaf.name=Лист жёлтого чая
+kubaitem.teaingredient.tea_leaf_dehydrated.name=Высушенный чайный лист
+kubaitem.teaingredient.steamed_tea_leaf.name=Заваренный чайный лист
+kubaitem.teaingredient.rolled_tea_leaf.name=Скрученный чайный лист
+kubaitem.teaingredient.oxidized_tea_leaf.name=Окисленный чайный лист
+kubaitem.teaingredient.fermented_tea_leaf.name=Ферментированный чайный лист
+kubaitem.teaingredient.bruised_tea_leaf.name=Поврежденный чайный лист
+kubaitem.teaingredient.partially_oxidized_tea_leaf.name=Частично окисленный чайный лист
 
 #Legendary Tea collection
 kubaitem.teacollection=Turbo Legendary Secret Tea Collection
 kubaitem.teacollection.mmm=Мммм чай
 kubaitem.teacollection.black_tea.name=§6§lЧёрный чай от Кубы
-kubaitem.teacollection.butterfly_tea.name=§1§lKuba's Butterfly Pea Tea
+kubaitem.teacollection.butterfly_tea.name=§1§lСиний чай от Кубы
 kubaitem.teacollection.earl_gray_tea.name=§6§lЧай Эрл Грей от Кубы
 kubaitem.teacollection.green_tea.name=§2§lKuba's Green Tea
 kubaitem.teacollection.lemon_tea.name=§e§lKuba's Lemon Tea
@@ -93,9 +93,9 @@ kubaitem.teacollection.pu-erh_tea.name=§4§lKuba's Pu-erh Tea
 kubaitem.teacollection.red_tea.name=§c§lЧай каркаде от Кубы
 kubaitem.teacollection.white_tea.name=§e§lKuba's White Tea
 kubaitem.teacollection.yellow_tea.name=§6§lЖелтый чай от Кубы
-kubaitem.teacollection.ultimate_tea.name=§6§lKuba's %s §6§lTea
+kubaitem.teacollection.ultimate_tea.name=%s §6§lчай от§6§lКубы
 
-kubaitem.tea_acceptor_research_note.name=Tea Acceptor Research Note
+kubaitem.tea_acceptor_research_note.name=Записки исследования по Приёмщику чая
 
 #Achievements
 achievement.teacollection.black_tea=§6§lЧёрный чай от Кубы

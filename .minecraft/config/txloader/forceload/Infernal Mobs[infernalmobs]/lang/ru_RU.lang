@@ -22,7 +22,7 @@ translation.infernalmobs:prefix.stalking= преследующий
 translation.infernalmobs:prefix.unseen= невидимый 
 translation.infernalmobs:prefix.hunting= охотящийся 
 translation.infernalmobs:prefix.dark= тёмный 
-translation.infernalmobs:prefix.shadowkin=порождение тьмы 
+translation.infernalmobs:prefix.shadowkin= порождение тьмы 
 translation.infernalmobs:prefix.eclipsed= затмевающий 
 translation.infernalmobs:prefix.enderborn= эндер-рождённый 
 translation.infernalmobs:prefix.tricky= хитрый 
@@ -150,9 +150,9 @@ translation.infernalmobs:suffix.theAnaerobic= the Anaerobic
 translation.infernalmobs:suffix.ofDeprivation= of Deprivation
 
 
-translation.infernalmobs:mod.1UP= 1UP 
-translation.infernalmobs:mod.Alchemist= Алхимик 
-translation.infernalmobs:mod.Berserk= Берсерк 
+translation.infernalmobs:mod.1UP=1UP
+translation.infernalmobs:mod.Alchemist=Алхимик
+translation.infernalmobs:mod.Berserk=Берсерк
 translation.infernalmobs:mod.Blastoff=Blastoff
 translation.infernalmobs:mod.Bulwark=Bulwark
 translation.infernalmobs:mod.Choke=Choke
@@ -174,7 +174,7 @@ translation.infernalmobs:mod.Sprint=Sprint
 translation.infernalmobs:mod.Sticky=Sticky
 translation.infernalmobs:mod.Storm=Storm
 translation.infernalmobs:mod.Vengeance=Vengeance
-translation.infernalmobs:mod.Weakness=Слабость
+translation.infernalmobs:mod.Weakness=Weakness
 translation.infernalmobs:mod.Webber=Webber
 translation.infernalmobs:mod.Wither=Иссушитель
 

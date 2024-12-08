@@ -1,0 +1,28 @@
+# Item localizations
+item.irontank:copperIronUpgrade.name=Kupfer zu Eisenbehälter Upgrade
+item.irontank:copperSilverUpgrade.name=Kupfer zu Stahlbehälter Upgrade
+item.irontank:diamondObsidianUpgrade.name=Diamant zu Obsidiantbehälter Upgrade
+item.irontank:diamondEmeraldUpgrade.name=Diamant zu Smaragdbehälter Upgrade
+item.irontank:goldDiamondUpgrade.name=Gold zu Diamantbehälter Upgrade
+item.irontank:ironGoldUpgrade.name=Eisen zu Goldbehälter Upgrade
+item.irontank:silverGoldUpgrade.name=Stahl zu Goldbehälter Upgrade
+item.irontank:glassCopperUpgrade.name=Glas zu Kupferbehälter Upgrade
+item.irontank:glassIronUpgrade.name=Glas zu Eisenbehälter Upgrade
+item.irontank:silverDiamondUpgrade.name=Stahl zu Diamantbehälter Upgrade
+item.irontank:emeraldStainlesssteelUpgrade.name=Upgrade vom Aluminiummtank zum Edelstahltank
+item.irontank:stainlesssteelTitaniumUpgrade.name=Upgrade vom Edelstahltank zum Titantank
+item.irontank:titaniumTungstensteelUpgrade.name=Upgrade vom Titantank zum Wolframstahl-Tank
+# Block localizations
+tile.irontank:ironTank.name=Eisenbehälter
+tile.irontank:goldTank.name=Goldbehälter
+tile.irontank:diamondTank.name=Diamantbehälter
+tile.irontank:emeraldTank.name=Smaragdhälter
+tile.irontank:obsidianTank.name=Obsidiantbehälter
+tile.irontank:copperTank.name=Kupferbehälter
+tile.irontank:silverTank.name=Stahlbehälter
+tile.irontank:stainlesssteelTank.name=Edelstahltank
+tile.irontank:titaniumTank.name=Titantank
+tile.irontank:tungstensteelTank.name=Wolframstahl-Tank
+
+# Misc localizations
+itemGroup.irontank=Eisentanks

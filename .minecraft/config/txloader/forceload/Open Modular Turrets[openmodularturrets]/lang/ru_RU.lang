@@ -16,7 +16,7 @@ item.addonSolar.name=Дополнение - Солнечный генерато�
 item.addonPotentia.name=Дополнение - Преобразователь мощности
 item.addonSerialPort.name=Дополнение - Последовательный порт
 item.addonRecycler.name=Дополнение - Утилизатор
-item.addonConcealer.name=Дополнение - Маскировщик турели 
+item.addonConcealer.name=Дополнение - Маскировщик турели
 item.sensorOne.name=Сенсор (Уровень 1)
 item.sensorTwo.name=Сенсор (Уровень 2)
 item.sensorThree.name=Сенсор (Уровень 3)
@@ -27,26 +27,26 @@ item.chamberTierTwo.name=Патронник (Уровень 2)
 item.chamberTierThree.name=Патронник (Уровень 3)
 item.chamberTierFour.name=Патронник (Уровень 4)
 item.chamberTierFive.name=Патронник (Уровень 5)
-item.barrelTierOne.name=Cтвол (Уровень 1)
-item.barrelTierTwo.name=Cтвол (Уровень 2)
-item.barrelTierThree.name=Cтвол (Уровень 3)
-item.barrelTierFour.name=Cтвол (Уровень 4)
-item.barrelTierFive.name=Cтвол (Уровень 5)
+item.barrelTierOne.name=Ствол (Уровень 1)
+item.barrelTierTwo.name=Ствол (Уровень 2)
+item.barrelTierThree.name=Ствол (Уровень 3)
+item.barrelTierFour.name=Ствол (Уровень 4)
+item.barrelTierFive.name=Ствол (Уровень 5)
 item.ioBus.name=Шина ввода-вывода
-tile.baseTierWood.name=Деревянная основа для турели
-tile.baseTierOneBlock.name=Свинцовая основа для турели
-tile.baseTierTwoBlock.name=Усиленная основа для турели
-tile.baseTierThreeBlock.name=Закалённая основа для турели
-tile.baseTierFourBlock.name=Резонирующая основа для турели
+tile.baseTierWood.name=Деревянная основа для турели 
+tile.baseTierOneBlock.name=Свинцовая основа для турели 
+tile.baseTierTwoBlock.name=Усиленная основа для турели 
+tile.baseTierThreeBlock.name=Закалённая основа для турели 
+tile.baseTierFourBlock.name=Резонирующая основа для турели 
 
-tile.disposeItemTurret.name=Одноразовая турель
-tile.potatoCannonTurret.name=Турель картофельный пушки 
+tile.disposeItemTurret.name=Турель-хламомёт
+tile.potatoCannonTurret.name=Турель-картофелемёт
 tile.rocketTurret.name=Турель с базукой
-tile.teleporterTurret.name=Телепортационная турель 
+tile.teleporterTurret.name=Телепортационная турель
 tile.machineGunTurret.name=Пулемётная турель
 tile.incendiaryTurret.name=Зажигательная турель
 tile.grenadeTurret.name=Турель-гранатомёт
-tile.relativisticTurret.name=Релятивистская турель 
+tile.relativisticTurret.name=Релятивистская турель
 tile.laserTurret.name=Лазерная турель
 tile.railGunTurret.name=Рельсовая турель
 tile.leverBlock.name=Базовая турельная ручка
@@ -67,16 +67,16 @@ tile.fenceTierThree.name=Забор (Уровень 3)
 tile.fenceTierFour.name=Забор (Уровень 4)
 tile.fenceTierFive.name=Забор (Уровень 5)
 
-tile.hardWallTierOne.name=Твердая стена (уровень 1) 
+tile.hardWallTierOne.name=Твердая стена (уровень 1)
 tile.hardWallTierTwo.name=Твердая стена (уровень 2)
 tile.hardWallTierThree.name=Твердая стена (уровень 3)
 tile.hardWallTierFour.name=Твердая стена (уровень 4)
 tile.hardWallTierFive.name=Твердая стена (уровень 5)
 
 #for IGWMod
-tile.turretBase.name=Основание турели 
+tile.turretBase.name=Основание турели
 
-itemGroup.openmodularturrets=Открыть модульные турели 
+itemGroup.openmodularturrets=Открыть модульные турели
 
 tooltip.tier=Уровень
 tooltip.range=Дистанция (в блоках)
@@ -215,10 +215,10 @@ status.warning=Вы вошли в зону действия турелей. Дв
 
 gui.openmodularturrets:owner=Владелец
 gui.openmodularturrets:invert=Инвертированный
-gui.openmodularturrets:active=Active
+gui.openmodularturrets:active=Активный
 gui.openmodularturrets:mode=Режим
-gui.openmodularturrets:true=true
-gui.openmodularturrets:false=false
+gui.openmodularturrets:true=вкл
+gui.openmodularturrets:false=выкл
 
 death.attack.disposable=Very %s, much dead, such wow...
 death.attack.bullet=%s ate some delicious lead.

@@ -137,9 +137,9 @@ ig.text.upgraderequirements=Upgrade requirements weren't met. Missing an upgrade
 ig.text.noproject=Please select a project
 ig.text.finishedproject=Please select an upgrade. The project is already finished
 ig.text.nolocation=Please select a location
-ig.button.travel=Travel
-ig.button.extension=Extension
-ig.button.projects=Projects
+ig.button.travel=Путешествие
+ig.button.extension=Расширение
+ig.button.projects=Проекты
 
 # Planetary Gas Siphon
 gt.blockmachines.multimachine.ig.siphon.name=Планетарный газовый сифон
@@ -206,10 +206,10 @@ gt.blockmachines.multimachine.project.ig.miner.cfgi.0=Дистанция
 gt.blockmachines.multimachine.project.ig.miner.cfgi.1=Макс. параллелей
 gt.blockmachines.multimachine.project.ig.miner.cfgi.2=Overdrive
 gt.blockmachines.multimachine.project.ig.miner.cfgi.4=Режим
-gt.blockmachines.multimachine.project.ig.miner.cfgi.4.1=Static
+gt.blockmachines.multimachine.project.ig.miner.cfgi.4.1=Статичный
 gt.blockmachines.multimachine.project.ig.miner.cfgi.4.2=Цикл
 gt.blockmachines.multimachine.project.ig.miner.cfgi.5=Дальность
-gt.blockmachines.multimachine.project.ig.miner.cfgi.6=Step
+gt.blockmachines.multimachine.project.ig.miner.cfgi.6=Шаг
 gt.blockmachines.multimachine.project.ig.cfgo.0=Энергии накоплено
 gt.blockmachines.multimachine.project.ig.miner.t1.desc1=Great treasures beyond your imagination await!
 gt.blockmachines.multimachine.project.ig.miner.t2.desc1=Does this violate drone rights?
@@ -233,7 +233,7 @@ gt.blockmachines.multimachine.project.ig.pump.desc3=Set Planet and Gas Type dete
 gt.blockmachines.multimachine.project.ig.pump.desc4=Can be void protected by locking output hatches
 gt.blockmachines.multimachine.project.ig.pump.t2.desc5=Processes up to 4 different recipes at once
 gt.blockmachines.multimachine.project.ig.pump.cfgi.0=Тип планеты
-gt.blockmachines.multimachine.project.ig.pump.cfgi.1=Gas Type
+gt.blockmachines.multimachine.project.ig.pump.cfgi.1=Тип газа
 gt.blockmachines.multimachine.project.ig.pump.cfgi.2=Параллелей
 gt.blockmachines.multimachine.project.ig.pump.cfgi.3=Размер партии
 
@@ -276,10 +276,10 @@ ig.siphon.structure.ControllerPos=Спереди внизу
 ig.siphon.structure.AnyAdvMachineFrame=Любой Улучшенный корпус машин
 ig.siphon.structure.PillarMiddle=1x4x1 столб посередине
 ig.siphon.structure.Sides=Сторона каждой колонны и 1x3x1 сверху
-ig.siphon.structure.Base=Основа 3x1x3 (пустой)
+ig.siphon.structure.Base=Основа 3x1x3 (полый)
 ig.siphon.structure.AdvMachineFrame=Улучшенный корпус машин
 ig.siphon.structure.FrameTungstensteel=Каркас из вольфрамовой стали
-ig.siphon.structure.ReboltedRhodiumPalladiumCasing=Переболтованный палладий покрытый родием корпус
+ig.siphon.structure.ReboltedRhodiumPalladiumCasing=Переболтованный корпус из родированного палладия
 ig.elevator.structure.ProjectModule=Проектный модуль
 ig.elevator.structure.Motor=Мотор космического лифта
 ig.elevator.structure.FrameNeutronium=Нейтрониевый каркас
@@ -295,7 +295,7 @@ ig.structure.design=Дизайн
 ig.structure.specialThanks=Special Thanks to
 ig.structure.author=Автор:
 ig.structure.moreContributors=Check controller GUI for all Contributors
-ig.structure.and=и
+ig.structure.and= и
 
 # Space Projects
 ig.spaceproject.asteroidoutpost=Asteroid Outpost

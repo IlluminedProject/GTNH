@@ -1,0 +1,7 @@
+tile.amazingtrophies.trophy.name=Trofeo Desconocido
+tile.amazingtrophies.trophy.name.desc=Otorgado a §3%1$s§7
+tile.amazingtrophies.trophy.time.desc=el §6%1$tF a las %1$tT
+tile.amazingtrophies.trophy.unknownUsername.name.desc=Otorgado a un §cjugador desconocido
+tile.amazingtrophies.trophy.unknownUsername.time.desc=el §6%1$tF a las %1$tT
+
+amazingtrophies.uuid.invalid=§c¡UUID inválida!

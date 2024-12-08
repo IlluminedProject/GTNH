@@ -8,6 +8,10 @@
     "1:10": {
       "questIDHigh:4": -4581646162533137172,
       "questIDLow:4": -5606710145730409374
+    },
+    "2:10": {
+      "questIDHigh:4": 6031686481776429608,
+      "questIDLow:4": -4905890280735412841
     }
   },
   "questIDLow:4": 3296,
@@ -29,7 +33,7 @@
       "globalShare:1": 0,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "You made it!",
+      "name:8": "You Made It!",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,

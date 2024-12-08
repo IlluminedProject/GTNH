@@ -2,9 +2,9 @@
 gtnhlanth.recipe.digester=Дигестер
 gtnhlanth.recipe.disstank=Реактор-разбавитель
 gtnhlanth.recipe.tc=Target Chamber
-gtnhlanth.recipe.sc=Source Chamber
+gtnhlanth.recipe.sc=Источник элементарных частиц
 
-gtnhlanth.tt.beaminfo=Use a §bportable scanner §7for info about the input/output of this multiblock.
+gtnhlanth.tt.beaminfo=Используйте §bпортативный сканер §7для получения информации о входе/выходе этого мультиблока.
 gtnhlanth.tt.blueprint=Следуйте§9Structure§2Lib §7 голограммному проектору для постройки структуры.
 gtnhlanth.tt.pc=§6Partially consumed: §7Takes damage in the process
 
@@ -32,19 +32,19 @@ Digester.hint.3=16x Блок катушек
 Digester.hint.4=Входной люк, Выходной люк, Входной шлюз, Выходной шлюз
 Digester.hint.5=Энерговвод, Люк техобслуживания
 
-SourceChamber.hint.0=56x Shielded Accelerator Casing
-SourceChamber.hint.1=52x Shielded Accelerator Glass
-SourceChamber.hint.2=16x Electrode Casing
+SourceChamber.hint.0=56x Экранированный корпус ускорителя
+SourceChamber.hint.1=52x Экранированное стекло ускорителя
+SourceChamber.hint.2=16x Электродный корпус
 SourceChamber.hint.3=Точка 1: Входной люк
 SourceChamber.hint.4=Точка 2: Выходной люк
 SourceChamber.hint.5=Точка 3: Люк техобслуживания, Энерговвод
 SourceChamber.hint.6=Dot 4: Beamline Output Hatch
 
-LINAC.hint.0=325-1285x Shielded Accelerator Casing
+LINAC.hint.0=325-1285x Экранированный корпус ускорителя
 LINAC.hint.1=148-852x Coolant Delivery Casing
-LINAC.hint.2=127-703x Shielded Accelerator Glass
+LINAC.hint.2=127-703x Экранированное стекло ускорителя
 LINAC.hint.3=56-312x Блок сверхпроводящей катушки
-LINAC.hint.4=156-732x Electrode Casing
+LINAC.hint.4=156-732x Электродный корпус
 LINAC.hint.5=47x Вентиляционный корпус
 LINAC.hint.6=48x Боросиликатное стекло (LuV+)
 LINAC.hint.7=Точка 1: Энерговвод, Люк техобслуживания
@@ -52,7 +52,7 @@ LINAC.hint.8=Точка 2: Входной шлюз, Выходной шлюз
 LINAC.hint.9=Dot 3: Beamline Input Hatch
 LINAC.hint.10=Dot 4: Beamline Output Hatch
 
-Synchrotron.hint.0=676x Shielded Accelerator Casing
+Synchrotron.hint.0=676x Экранированный корпус ускорителя
 Synchrotron.hint.1=90x Блок сверхпроводящей катушки
 Synchrotron.hint.2=64x Niobium Cavity Machine Casing
 Synchrotron.hint.3=28x Coolant Delivery Casing
@@ -65,13 +65,13 @@ Synchrotron.hint.9=Точка 4: Входной шлюз
 Synchrotron.hint.10=Точка 5: Выходной шлюз
 Synchrotron.hint.11=Точка 6: Энерговвод
 
-TargetChamber.hint.0=28x Shielded Accelerator Casing
-TargetChamber.hint.1=34x Shielded Accelerator Glass
+TargetChamber.hint.0=28x Экранированный корпус ускорителя
+TargetChamber.hint.1=34x Экранированное стекло ускорителя
 TargetChamber.hint.2=16x Боросиликатное стекло (любое)
 TargetChamber.hint.3=29x Вентиляционный корпус
-TargetChamber.hint.4=4x Focus Manipulation Casing
-TargetChamber.hint.5=4x Target Receptacle Casing
-TargetChamber.hint.6=1x Focus Holder
+TargetChamber.hint.4=4x Корпус фокуса манипулятора
+TargetChamber.hint.5=4x Корпус целевого приемника
+TargetChamber.hint.6=1x Держатель фокуса
 TargetChamber.hint.7=1x Target Holder
 TargetChamber.hint.8=Dot 1: Focus Input Bus
 TargetChamber.hint.9=Точка 2: Энерговвод, Люк техобслуживания
@@ -86,11 +86,11 @@ fluid.Zirconium Tetrachloride Solution=Раствор тетрахлорида �
 fluid.Iodine=Йод
 fluid.Muddy Monazite Rare Earth Solution=Монацитовый редкоземельный мутный раствор
 fluid.Diluted Monazite Rare Earth Mud=Разбавленная монацитовая редкоземельная взвесь
-fluid.Diluted Monazite Sulfate=Раствор cернокислого монацита
-fluid.Nitrogenated Monazite Rare Earth Concentrate=Азотированный монацитовый редкоземельный концентрат
-fluid.Nitric Monazite Leached Concentrate=Азотированный монацитовый редкоземельный концентрат
+fluid.Diluted Monazite Sulfate=Раствор сернокислого монацита
+fluid.Nitrogenated Monazite Rare Earth Concentrate=Нитрованный монацитовый редкоземельный концентрат
+fluid.Nitric Monazite Leached Concentrate=Выщелоченный нитрованный монацитовый концентрат
 fluid.Ammonium Nitrate Solution=Раствор нитрата аммония
-fluid.Seaweed Concentrate=Экстракт Морских Водорослей
+fluid.Seaweed Concentrate=Экстракт морских водорослей
 fluid.Potassium Permanganate Solution=Раствор перманганата калия
 fluid.Seaweed Byproducts=Побочные продукты переработки водорослей
 fluid.Nitric-Leached Monazite Mixture=Разбавленная нитрованная монацитовая смесь
@@ -100,39 +100,39 @@ fluid.Steam-Cracked Bastnasite Mud=Бастнезитовая взвесь ра�
 fluid.Conditioned Bastnasite Mud=Подготовленная бастнезитовая взвесь
 fluid.Diluted Bastnasite Mud=Разбавленная бастнезитовая взвесь
 fluid.Filtered Bastnasite Mud=Фильтрованная бастнезитовая взвесь
-fluid.Nitrogenated Bastnasite Rarer Earth Oxides=Азотированный оксид редкоземельного бастнезита
-fluid.Bastnasite Rarer Earth Oxide Suspension=Суспензия оксида редкоземельного бастнезита
+fluid.Nitrogenated Bastnasite Rarer Earth Oxides=Нитрованные обогащённые бастназитовые редкие земли
+fluid.Bastnasite Rarer Earth Oxide Suspension=Суспензия обогащённых бастнезитовых редких земель
 fluid.Calcium Fluoride=Фторид кальция
 fluid.Tetrahydrofuran=Тетрагидрофуран
 "fluid.1,4-Butanediol"=1,4-Бутандиол
 "fluid.Acidicised 1,4-Butanediol"="подкисленный 1,4-бутандиол"
 fluid.Polytetrahydrofuran=Политетрагидрофуран
 fluid.Tungstophosphoric Acid=Фосфорновольфрамовая кислота
-fluid.Toluene Diisocyanate=Толуилендиизоцианат
+fluid.Toluene Diisocyanate=Толуолдиизоцианат
 fluid.Dinitrotoluene=Динитротолуол
 fluid.Diaminotoluene=Диаминотолуол
-fluid.Toluene Tetramethyl Diisocyanate=Тетраметилтолуилендиизоцианат
+fluid.Toluene Tetramethyl Diisocyanate=Тетраметилтолуолдиизоцианат
 fluid.Diluted Acetone=Разбавленный ацетон
 
-tile.casing.shielded_accelerator_glass.name=Shielded Accelerator Glass
-casing.electrode.name=Electrode Casing
+tile.casing.shielded_accelerator_glass.name=Экранированное стекло ускорителя
+casing.electrode.name=Электродный корпус
 casing.coolant_delivery.name=Coolant Delivery Casing
 casing.antenna_t1.name=Antenna Casing (T1)
 casing.antenna_t2.name=Antenna Casing (T2)
-casing.niobium_cavity.name=Niobium Cavity Machine Casing
-casing.focus_manipulator.name=Focus Manipulator
-casing.focus_holder.name=Focus Holder
-casing.target_receptacle.name=Target Receptacle
+casing.niobium_cavity.name=Ниобиевый полый корпус
+casing.focus_manipulator.name=Фокус манипулятор
+casing.focus_holder.name=Держатель фокуса
+casing.target_receptacle.name=Целевой приемник
 casing.target_holder.name=Target Holder
-casing.shielded_accelerator.name=Shielded Accelerator Casing
+casing.shielded_accelerator.name=Экранированный корпус ускорителя
 
 item.capillary_exchange.name=Capillary Exchange
 item.mm_lattice.name=Mu-Metal Lattice
-item.iron_quartz_plate.name=Iron Quartz Plate
-item.mask_substrate.name=Mask Substrate
+item.iron_quartz_plate.name=Железо-кварцевая пластина
+item.mask_substrate.name=Маска-субстрат
 item.etched_mask1.name=Etched Mask
 item.substrate_precursor.name=Substrate Precursor
-item.masked_mask_substrate.name=Processed Mask Substrate
+item.masked_mask_substrate.name=Обработанная маска-субстрат
 
 
 
@@ -140,28 +140,28 @@ item.masked_mask_substrate.name=Processed Mask Substrate
 beamline.info=Информация о механизме
 
 beamline.in_pre=Multiblock Beamline Input
-beamline.particle=Particle
-beamline.energy=Energy
-beamline.focus=Focus
+beamline.particle=Частица
+beamline.energy=Энергия
+beamline.focus=Фокус
 beamline.amount=Количество
-beamline.rate=Rate
+beamline.rate=Скорость
 
 beamline.temperature=Температура
 beamline.coolusage=Coolant Usage
 
 beamline.out_pre=Multiblock Beamline Output
 
-beamline.particleinput=Input Particle Info:
+beamline.particleinput=Входная информация о частицах:
 
-beamline.pipe.desc.0=Transport for particles
-beamline.pipe.desc.1=Signal does not cross or bend
+beamline.pipe.desc.0=Транспорт для частиц
+beamline.pipe.desc.1=Сигнал не пересекается и не изгибается
 
 tile.recipe.tc=Target Chamber
-tile.recipe.sc=Source Chamber
+tile.recipe.sc=Источник элементарных частиц
 
 particle.electron=Электрон
 particle.photon=Фотон
-particle.alpha=Альфа
+particle.alpha=Альфа частица
 particle.neutron=Нейтрон
 particle.proton=Протон
 GT5U.gui.text.dissolution_ratio=§7Неверное соотношение исходных жидкостей

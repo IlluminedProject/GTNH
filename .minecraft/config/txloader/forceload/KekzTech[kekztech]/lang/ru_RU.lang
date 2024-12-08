@@ -26,8 +26,8 @@ tile.kekztech_yszceramicelectrolyteunit_block.name=Керамический эл
 item.kekztech_crafting_item.9.name=YSZ Керамическая пыль
 item.kekztech_crafting_item.10.name=GDC Керамическая пыль
 item.kekztech_crafting_item.11.name=Иттриевая пыль
-item.kekztech_crafting_item.12.name=Циркониевая пыль 
-item.kekztech_crafting_item.13.name=Цериевая пыль 
+item.kekztech_crafting_item.12.name=Циркониевая пыль
+item.kekztech_crafting_item.13.name=Цериевая пыль
 item.kekztech_crafting_item.14.name=YSZ Керамическая пластина
 item.kekztech_crafting_item.15.name=GDC Керамическая пластина
 
@@ -50,7 +50,7 @@ tile.kekztech_tfftstoragefield_block.hint.3=Подсказка 3 точки: EV+
 tile.kekztech_tfftstoragefield_block.hint.4=Подсказка 4 точки: EV+ тировое стекло
 
 # -------- Lapotronic Super Capacitor: Structure Blocks
-tile.kekztech_lapotronicenergyunit_block.0.name=Корпус суперконденсатора Lapotronic
+tile.kekztech_lapotronicenergyunit_block.0.name=Лазуротроновый корпус суперконденсатора
 tile.kekztech_lapotronicenergyunit_block.1.name=Лазуротроновый конденсатор (IV)
 tile.kekztech_lapotronicenergyunit_block.2.name=Лазуротроновый конденсатор (LuV)
 tile.kekztech_lapotronicenergyunit_block.3.name=Лазуротроновый конденсатор (ZPM)
@@ -61,7 +61,7 @@ tile.kekztech_lapotronicenergyunit_block.7.name=Лазуротроновый к�
 tile.kekztech_lapotronicenergyunit_block.8.name=UEV Конденсатор
 tile.kekztech_lapotronicenergyunit_block.9.name=UIV Конденсатор
 tile.kekztech_lapotronicenergyunit_block.10.name=UMV Конденсатор
-tile.kekztech_lapotronicenergyunit_block.desc=Часть суперконденсатора Lapotronic
+tile.kekztech_lapotronicenergyunit_block.desc=Часть лазуротронового суперконденсатора
 
 # -------- Thaumium Reinforced Jar: Block
 tile.kekztech_thaumiumreinforcedjar_block.0.name=Укреплённая банка из таум-металла
@@ -89,17 +89,17 @@ kekztech.research_page.ICHORJAR.0=Вот оно!<BR><BR>Добавив в бан
 tile.kekztech_largehextile_block.name=Большая шестигранная плитка
 
 # -------- Achievements
-achievement.tile.kekztech_lapotronicenergyunit_block.2.desc=Проcто посмотри рецепт в NEI
+achievement.tile.kekztech_lapotronicenergyunit_block.2.desc=Просто посмотри рецепт в NEI
 achievement.tile.kekztech_lapotronicenergyunit_block.2=Лазуротроновый конденсатор (LuV)
-achievement.tile.kekztech_lapotronicenergyunit_block.3.desc=Проcто посмотри рецепт в NEI
+achievement.tile.kekztech_lapotronicenergyunit_block.3.desc=Просто посмотри рецепт в NEI
 achievement.tile.kekztech_lapotronicenergyunit_block.3=Лазуротроновый конденсатор (ZPM)
-achievement.tile.kekztech_lapotronicenergyunit_block.4.desc=Проcто посмотри рецепт в NEI
+achievement.tile.kekztech_lapotronicenergyunit_block.4.desc=Просто посмотри рецепт в NEI
 achievement.tile.kekztech_lapotronicenergyunit_block.4=Лазуротроновый конденсатор (UV)
-achievement.tile.kekztech_lapotronicenergyunit_block.5.desc=Проcто посмотри рецепт в NEI
+achievement.tile.kekztech_lapotronicenergyunit_block.5.desc=Просто посмотри рецепт в NEI
 achievement.tile.kekztech_lapotronicenergyunit_block.5=Совершенный конденсатор (UHV)
-achievement.tile.kekztech_lapotronicenergyunit_block.8.desc=За гранью богов 
+achievement.tile.kekztech_lapotronicenergyunit_block.8.desc=За гранью богов
 achievement.tile.kekztech_lapotronicenergyunit_block.8=UEV Конденсатор
-achievement.tile.kekztech_lapotronicenergyunit_block.9.desc=Безумие продолжается! 
+achievement.tile.kekztech_lapotronicenergyunit_block.9.desc=Безумие продолжается!
 achievement.tile.kekztech_lapotronicenergyunit_block.9=UIV Конденсатор
 achievement.tile.kekztech_lapotronicenergyunit_block.10.desc=Как далеко мы можем зайти?
 achievement.tile.kekztech_lapotronicenergyunit_block.10=UMV Конденсатор

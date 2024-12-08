@@ -9,7 +9,7 @@ GT5U.gui.text.no_li2bef4=§7Отсутствует Li2BeF4
 GT5U.gui.text.no_saw=§7Отсутствует пила
 GT5U.gui.text.no_sapling=§7Отсутствует саженец
 GT5U.gui.text.no_oxygen=§7Отсутствует кислород
-GT5U.gui.text.fuel_blacklisted=§7Fuel blacklisted
+GT5U.gui.text.fuel_blacklisted=§7Топливо в черном списке
 GT5U.gui.text.no_catalyst=§7No valid catalyst found
 GT5U.gui.text.no_milling_ball=§7No milling ball found
 GT5U.gui.text.growing_trees=§aGrowing trees
@@ -33,8 +33,8 @@ GTPP.multiblock.progress=Прогресс
 GTPP.multiblock.efficiency=Эффективность
 GTPP.multiblock.problems=Проблемы
 GTPP.multiblock.mei=Max Energy Income
-GTPP.multiblock.usage=Сейчас потребляет
-GTPP.multiblock.generation=Сейчас генерирует
+GTPP.multiblock.usage=Примерное потребление
+GTPP.multiblock.generation=Примерно генерирует
 GTPP.multiblock.specialvalue=Особое значение
 GTPP.multiblock.duration=Длительность
 GTPP.multiblock.multimachine.metal=Metal режим: Компрессор (схема 20), Токарный станок (схема 21) и Электромагнитный поляризатор (схема 22).
@@ -44,9 +44,9 @@ GTPP.multiblock.multimachine.misc=Misc. режим: Точный лазерны�
 
 GTPP.waila.steam.use=Probably uses: §e%s§r L/t Steam
 
-GTPP.CC.machinetier=Control Core Tier
-GTPP.CC.discount=EU Discount
-GTPP.CC.parallel=Maximum Parallel
+GTPP.CC.machinetier=Тир ядра управления
+GTPP.CC.discount=EU Скидка
+GTPP.CC.parallel=Максимум параллелей
 
 //Tooltips for the Charger Packs
 GTPP.battpack.tooltip.1=Носится как пояс в Baubles
@@ -104,7 +104,7 @@ GTPP.info.hidden=Скрывать
 GTPP.time.ticks=Тиков
 GTPP.time.seconds=Секунды
 GTPP.time.minutes=Минуты
-GTPP.time.hours=Часы
+GTPP.time.hours=Hours
 GTPP.time.days=Дни
 GTPP.time.weeks=Недели
 GTPP.time.months=Месяцы
@@ -124,18 +124,18 @@ GTPP.MBTT.SteamOutputBus=Выходной люк (Пар)
 //Achievements
 
 //4/2/19
-achievement.gt.blockmachines.fusioncomputer.tier.09=Компьютер термоядерного реактора Марк IV
+achievement.gt.blockmachines.fusioncomputer.tier.09=Компьютер термоядерного реактора MK IV
 achievement.gtplusplus.blockcasings.3.12=Термоядерный корпус MK III
 achievement.gtplusplus.blockcasings.3.13=Advanced Magnetic Containment!
 achievement.gtplusplus.blockcasings.3.15=Quantum Containment!
-achievement.gt.blockmachines.fusioncomputer.tier.09.desc=[AL] Проcто посмотри рецепт в NEI
-achievement.gtplusplus.blockcasings.3.12.desc=[AL] Проcто посмотри рецепт в NEI
-achievement.gtplusplus.blockcasings.3.13.desc=[AL] Проcто посмотри рецепт в NEI
-achievement.gtplusplus.blockcasings.3.15.desc=[AL] Проcто посмотри рецепт в NEI
+achievement.gt.blockmachines.fusioncomputer.tier.09.desc=[AL] Просто посмотри рецепт в NEI
+achievement.gtplusplus.blockcasings.3.12.desc=[AL] Просто посмотри рецепт в NEI
+achievement.gtplusplus.blockcasings.3.13.desc=[AL] Просто посмотри рецепт в NEI
+achievement.gtplusplus.blockcasings.3.15.desc=[AL] Просто посмотри рецепт в NEI
 achievement.gt.blockmachines.gtplusplus.fusion.single=Alternative Fusion
-achievement.gt.blockmachines.gtplusplus.tank.plasma=Plasma Storage
-achievement.gt.blockmachines.gtplusplus.fusion.single.desc=[AL] Проcто посмотри рецепт в NEI
-achievement.gt.blockmachines.gtplusplus.tank.plasma.desc=[AL] Проcто посмотри рецепт в NEI
+achievement.gt.blockmachines.gtplusplus.tank.plasma=Хранение плазмы
+achievement.gt.blockmachines.gtplusplus.fusion.single.desc=[AL] Просто посмотри рецепт в NEI
+achievement.gt.blockmachines.gtplusplus.tank.plasma.desc=[AL] Просто посмотри рецепт в NEI
 
 
 //5/2/19
@@ -143,28 +143,28 @@ achievement.MU-metaitem.01.32106=Младший физик
 achievement.MU-metaitem.01.32107=Выпускник физик
 achievement.MU-metaitem.01.32108=Ученый физик
 achievement.MU-metaitem.01.32109=Мастер физик
-achievement.MU-metaitem.01.32106.desc=[AL] Проcто посмотри рецепт в NEI
-achievement.MU-metaitem.01.32107.desc=[AL] Проcто посмотри рецепт в NEI
-achievement.MU-metaitem.01.32108.desc=[AL] Проcто посмотри рецепт в NEI
-achievement.MU-metaitem.01.32109.desc=[AL] Проcто посмотри рецепт в NEI
+achievement.MU-metaitem.01.32106.desc=[AL] Просто посмотри рецепт в NEI
+achievement.MU-metaitem.01.32107.desc=[AL] Просто посмотри рецепт в NEI
+achievement.MU-metaitem.01.32108.desc=[AL] Просто посмотри рецепт в NEI
+achievement.MU-metaitem.01.32109.desc=[AL] Просто посмотри рецепт в NEI
 achievement.MU-metaitem.01.32066=Удержание протонов
 achievement.MU-metaitem.01.32068=Удержание электронов
 achievement.MU-metaitem.01.32070=Удержание квароков
 achievement.MU-metaitem.01.32110=Удержание гравтонов
-achievement.MU-metaitem.01.32066.desc=[AL] Проcто посмотри рецепт в NEI
-achievement.MU-metaitem.01.32068.desc=[AL] Проcто посмотри рецепт в NEI
-achievement.MU-metaitem.01.32070.desc=[AL] Проcто посмотри рецепт в NEI
-achievement.MU-metaitem.01.32110.desc=[AL] Проcто посмотри рецепт в NEI
+achievement.MU-metaitem.01.32066.desc=[AL] Просто посмотри рецепт в NEI
+achievement.MU-metaitem.01.32068.desc=[AL] Просто посмотри рецепт в NEI
+achievement.MU-metaitem.01.32070.desc=[AL] Просто посмотри рецепт в NEI
+achievement.MU-metaitem.01.32110.desc=[AL] Просто посмотри рецепт в NEI
 achievement.item.personalHealingDevice=Еда для болванов
 achievement.item.personalHealingDevice.desc=[AL] Вы обновились до нано, будущее за вами
 achievement.item.GTPP.BattPack.06.name=Портативный зарядник MK I
 achievement.item.GTPP.BattPack.07.name=Портативный зарядник MK II
 achievement.item.GTPP.BattPack.08.name=Портативный зарядник MK III
 achievement.item.GTPP.BattPack.09.name=Портативный зарядник MK IV
-achievement.item.GTPP.BattPack.06.name.desc=[AL] Проcто посмотри рецепт в NEI
-achievement.item.GTPP.BattPack.07.name.desc=[AL] Проcто посмотри рецепт в NEI
-achievement.item.GTPP.BattPack.08.name.desc=[AL] Проcто посмотри рецепт в NEI
-achievement.item.GTPP.BattPack.09.name.desc=[AL] Проcто посмотри рецепт в NEI
+achievement.item.GTPP.BattPack.06.name.desc=[AL] Просто посмотри рецепт в NEI
+achievement.item.GTPP.BattPack.07.name.desc=[AL] Просто посмотри рецепт в NEI
+achievement.item.GTPP.BattPack.08.name.desc=[AL] Просто посмотри рецепт в NEI
+achievement.item.GTPP.BattPack.09.name.desc=[AL] Просто посмотри рецепт в NEI
 
 
 
@@ -227,7 +227,7 @@ achievement.casing.containment=What's this for?
 achievement.casing.containment.desc=I should probably try find out.
 achievement.decay.neptunium238=Нептуний-238
 achievement.decay.neptunium238.desc=Продукт циклотрона
-achievement.decay.radium226= Радий-226
+achievement.decay.radium226=Радий-226
 achievement.decay.radium226.desc=Продукт циклотрона
 achievement.decay.molybdenum99=Молибден 99
 achievement.decay.molybdenum99.desc=Продукт циклотрона
@@ -237,17 +237,17 @@ achievement.decay.technetium99=Технеций 99
 achievement.decay.technetium99.desc=Продукт циклотрона
 
 //24/11/19
-achievement.gt.blockmachines.hatch.turbine.input.tier.00=Корпус турбины
-achievement.gt.blockmachines.hatch.turbine.input.tier.00.desc=[AL] Проcто посмотри рецепт в NEI
+achievement.gt.blockmachines.hatch.turbine.input.tier.00=Корпусный люк турбины
+achievement.gt.blockmachines.hatch.turbine.input.tier.00.desc=[AL] Просто посмотри рецепт в NEI
 
 //Added 6/12/21
 achievement.gt.blockmachines.gtpp.multimachine.flotationcell=Флотационная камера
-achievement.gt.blockmachines.gtpp.multimachine.flotationcell.desc=[AL] Проcто посмотри рецепт в NEI
+achievement.gt.blockmachines.gtpp.multimachine.flotationcell.desc=[AL] Просто посмотри рецепт в NEI
 achievement.gt.blockmachines.gtpp.multimachine.isamill=IsaMill
-achievement.gt.blockmachines.gtpp.multimachine.isamill.desc=[AL] Проcто посмотри рецепт в NEI
+achievement.gt.blockmachines.gtpp.multimachine.isamill.desc=[AL] Просто посмотри рецепт в NEI
 
 //2023-1-13
-achievement.gt.blockmachines.industrialalloysmelter.controller.tier.mega=Fast Pikachu-Alloy at last
+achievement.gt.blockmachines.industrialalloysmelter.controller.tier.mega=Наконец-то быстрый Пикачу-сплав
 
 //2023-4-8
 tooltip.flotationCell.lockedTo=Locked to:
@@ -255,29 +255,29 @@ tooltip.large_macerator.tier=Тир: §6%s
 tooltip.large_distill_tower.upgraded=§6Обновлено
 
 //2023-7-12
-achievement.gtplusplus.blockcasings.5.3=Elemental Confinement Shell
-achievement.gtplusplus.blockcasings.5.3.desc=[AL] Проcто посмотри рецепт в NEI
+achievement.gtplusplus.blockcasings.5.3=Элементальный ограничительный корпус
+achievement.gtplusplus.blockcasings.5.3.desc=[AL] Просто посмотри рецепт в NEI
 achievement.gtplusplus.blockcasings.5.7=Нейтронный импульсный манипулятор
-achievement.gtplusplus.blockcasings.5.7.desc=[AL] Проcто посмотри рецепт в NEI
+achievement.gtplusplus.blockcasings.5.7.desc=[AL] Просто посмотри рецепт в NEI
 achievement.gtplusplus.blockcasings.5.8=Космический тканный манипулятор
-achievement.gtplusplus.blockcasings.5.8.desc=[AL] Проcто посмотри рецепт в NEI
+achievement.gtplusplus.blockcasings.5.8.desc=[AL] Просто посмотри рецепт в NEI
 achievement.gtplusplus.blockcasings.5.9=Наполненный бесконечностью манипулятор
-achievement.gtplusplus.blockcasings.5.9.desc=[AL] Проcто посмотри рецепт в NEI
+achievement.gtplusplus.blockcasings.5.9.desc=[AL] Просто посмотри рецепт в NEI
 achievement.gtplusplus.blockcasings.5.10=Пространственно-временной континуум манипулятор
-achievement.gtplusplus.blockcasings.5.10.desc=[AL] Проcто посмотри рецепт в NEI
+achievement.gtplusplus.blockcasings.5.10.desc=[AL] Просто посмотри рецепт в NEI
 achievement.gtplusplus.blockcasings.5.11=Нейтронное защитное ядро
-achievement.gtplusplus.blockcasings.5.11.desc=[AL] Проcто посмотри рецепт в NEI
+achievement.gtplusplus.blockcasings.5.11.desc=[AL] Просто посмотри рецепт в NEI
 achievement.gtplusplus.blockcasings.5.12=Космический тканное защитное ядро
-achievement.gtplusplus.blockcasings.5.12.desc=[AL] Проcто посмотри рецепт в NEI
+achievement.gtplusplus.blockcasings.5.12.desc=[AL] Просто посмотри рецепт в NEI
 achievement.gtplusplus.blockcasings.5.13=Наполненный бесконечностью защитное ядро
-achievement.gtplusplus.blockcasings.5.13.desc=[AL] Проcто посмотри рецепт в NEI
+achievement.gtplusplus.blockcasings.5.13.desc=[AL] Просто посмотри рецепт в NEI
 achievement.gtplusplus.blockcasings.5.14=Пространственно-временное гибкое ядро
-achievement.gtplusplus.blockcasings.5.14.desc=[AL] Проcто посмотри рецепт в NEI
+achievement.gtplusplus.blockcasings.5.14.desc=[AL] Просто посмотри рецепт в NEI
 achievement.gt.blockmachines.sparge.controller.single=Барботажная башня
-achievement.gt.blockmachines.sparge.controller.single.desc=[AL] Проcто посмотри рецепт в NEI
+achievement.gt.blockmachines.sparge.controller.single.desc=[AL] Просто посмотри рецепт в NEI
 achievement.gt.blockmachines.industrialsalloyamelter.controller.tier.mega=Мега плавильная доменная печь
-achievement.gt.blockmachines.industrialsalloyamelter.controller.tier.mega.desc=[AL] Проcто посмотри рецепт в NEI
+achievement.gt.blockmachines.industrialsalloyamelter.controller.tier.mega.desc=[AL] Просто посмотри рецепт в NEI
 achievement.gt.blockmachines.moleculartransformer.controller.tier.single=Молекулярный преобразователь
-achievement.gt.blockmachines.moleculartransformer.controller.tier.single.desc=[AL] Проcто посмотри рецепт в NEI
+achievement.gt.blockmachines.moleculartransformer.controller.tier.single.desc=[AL] Просто посмотри рецепт в NEI
 achievement.gt.blockmachines.gtpp.multimachine.replicator=Элементальный дубликатор
-achievement.gt.blockmachines.gtpp.multimachine.replicator.desc=[AL] Проcто посмотри рецепт в NEI
+achievement.gt.blockmachines.gtpp.multimachine.replicator.desc=[AL] Просто посмотри рецепт в NEI

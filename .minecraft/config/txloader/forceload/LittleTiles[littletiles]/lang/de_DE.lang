@@ -1,0 +1,17 @@
+item.LTHammer.name=Kleiner Hammer
+item.LTMultiTiles.name=Multi-Tile-Structure
+item.LTRecipe.name=Kleines Rezept
+item.LTSaw.name=Kleine Säge
+item.LTContainer.name=Kleine Container
+item.LTWrench.name=Kleiner Schraubenschlüssel
+item.LTChisel.name=Kleiner Meißel
+item.LTScrewdriver.name=Kleiner Schraubenzieher
+item.LTRubberMallet.name=Kleiner Gummihammer
+item.LTColorTube.name=Kleine Farbtube
+key.categories.littletiles=Little Tiles
+key.littletiles.flip=Flip
+key.littletiles.mark=Makierung
+key.littletiles.rotateup=Nach oben drehen
+key.littletiles.rotatedown=Nach unten drehen
+key.littletiles.rotateright=Nach rechts drehen
+key.littletiles.rotateleft=Nach links drehen

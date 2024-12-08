@@ -1,0 +1,17 @@
+item.LTHammer.name=Pequeño Martillo
+item.LTMultiTiles.name=Estructura multibloque
+item.LTRecipe.name=Pequeña Receta
+item.LTSaw.name=Pequeña Sierra
+item.LTContainer.name=Pequeño contenedor
+item.LTWrench.name=Pequeña Llave Inglesa
+item.LTChisel.name=Pequeño Cincel
+item.LTScrewdriver.name=Pequeño Destornillador
+item.LTRubberMallet.name=Pequeña Maceta
+item.LTColorTube.name=Pequeño Tubo de Color
+key.categories.littletiles=Little Tiles
+key.littletiles.flip=Voltear
+key.littletiles.mark=Marcar
+key.littletiles.rotateup=Rotar hacia Arriba
+key.littletiles.rotatedown=Rotar hacia Abajo
+key.littletiles.rotateright=Rotar hacia la Derecha
+key.littletiles.rotateleft=Rotar hacia la Izquierda

@@ -97,9 +97,9 @@ entity.Railcraft.cart.furnace.name=Вагонетка с печью
 entity.Railcraft.cart.gift.name=Вагонетка с подарком
 entity.Railcraft.cart.loco.electric.name=Электровоз
 entity.Railcraft.cart.loco.steam.solid.name=Паровой локомотив
-entity.Railcraft.cart.loco.creative.name=Perpetuum Locomotive
+entity.Railcraft.cart.loco.creative.name=Вечный локомотив
 entity.Railcraft.cart.pumpkin.name=Вагонетка с тыквой
-entity.Railcraft.cart.redstone.flux.name=Redstone Flux Cart
+entity.Railcraft.cart.redstone.flux.name=RF Вагонетка
 entity.Railcraft.cart.tank.name=Вагонетка с цистерной
 entity.Railcraft.cart.tnt.name=Вагонетка с динамитом
 entity.Railcraft.cart.tnt.wood.name=Деревянная вагонетка с динамитом
@@ -347,7 +347,7 @@ railcraft.gui.aspect.yellow.name=Жёлтый
 railcraft.gui.aura.disable=Аура "@s" выключена
 railcraft.gui.aura.enable=Аура "@s" включена
 
-railcraft.gui.blast.furnace=Доменная печь
+railcraft.gui.blast.furnace=Продвинутая коксовая печь
 
 railcraft.gui.bore.ballast=Балласт
 railcraft.gui.bore.fuel=Топливо
@@ -398,7 +398,7 @@ railcraft.gui.detector.tank.tip.most=Подходят более, чем на 3/
 railcraft.gui.detector.tank.tip.not.empty=Подходят непустые цистерны
 railcraft.gui.detector.tank.tip.quarter=Подходят более, чем на четверть полные цистерны
 railcraft.gui.detector.tank.tip.void=Подходит любое количество
-railcraft.gui.detector.train.size=Размер поезда 
+railcraft.gui.detector.train.size=Размер поезда = @d
 railcraft.gui.detector.villager.any=Любой
 railcraft.gui.detector.villager.equals=Равно
 railcraft.gui.detector.villager.none=Никто
@@ -559,7 +559,7 @@ railcraft.gui.surveyor.unloaded=Первый сигнал не в загруже
 railcraft.gui.surveyor.wrong=Неправильный сигнальный блок
 
 railcraft.gui.switch.motor.action=Переключить на аспект
-railcraft.gui.switch.motor.redstone=Ignore Redstone
+railcraft.gui.switch.motor.redstone=Игнорировать редстоун
 
 railcraft.gui.tank.iron=Железный резервуар
 railcraft.gui.tank.steel=Стальной резервуар
@@ -573,17 +573,17 @@ railcraft.gui.tip.button.lock.unlocked=Нажмите, чтобы заблоки
 
 railcraft.gui.track.embarking.radius=Радиус
 railcraft.gui.track.mode.change=Изменён на режим @s
-railcraft.gui.track.coupler.mode.auto.coupler=Auto-Coupler
-railcraft.gui.track.coupler.mode.coupler=Coupler
-railcraft.gui.track.coupler.mode.decoupler=Decoupler
+railcraft.gui.track.coupler.mode.auto.coupler=Автосцепка
+railcraft.gui.track.coupler.mode.coupler=Сцепка
+railcraft.gui.track.coupler.mode.decoupler=Расцепить
 railcraft.gui.track.locking.mode.boarding.train=Посадка поезда
 railcraft.gui.track.locking.mode.boarding=Посадка
 railcraft.gui.track.locking.mode.holding.train=Удерживание поезда
 railcraft.gui.track.locking.mode.holding=Удерживание
 railcraft.gui.track.locking.mode.lockdown.train=Блокировка поезда
 railcraft.gui.track.locking.mode.lockdown=Блокировка
-railcraft.gui.track.priming.fuse=Запал 
-railcraft.gui.track.launcher.force=Сила 
+railcraft.gui.track.priming.fuse=Запал = @d тик(ов)
+railcraft.gui.track.launcher.force=Сила = @d
 
 railcraft.gui.trade.station.dice.tip=Произвольная торговля
 
@@ -738,7 +738,7 @@ tile.railcraft.machine.alpha.anchor.admin.name=Якорь администрат
 tile.railcraft.machine.alpha.anchor.passive.name=Пассивный якорь
 tile.railcraft.machine.alpha.anchor.personal.name=Личный якорь
 tile.railcraft.machine.alpha.anchor.world.name=Мировой якорь
-tile.railcraft.machine.alpha.blast.furnace.name=Доменный кирпич
+tile.railcraft.machine.alpha.blast.furnace.name=Кирпич продвинутой коксовой печи
 tile.railcraft.machine.alpha.blast.furnace.tip=Мульти-блок: 3x4x3 (Полый)
 tile.railcraft.machine.alpha.coke.oven.name=Кирпич коксовой печи
 tile.railcraft.machine.alpha.coke.oven.tip=Мульти-блок: 3x3x3 (Полый)
@@ -960,7 +960,7 @@ tile.railcraft.signal.box.interlock.name=Блокировщик сигнала
 tile.railcraft.signal.box.interlock.tip=Permits only one aspect signal to pass\n§o§9Aerial Linkages:\n§o§9- 1x Controller\n§o§9- 1x Receiver\n§o§9Adjacent Linkages:\n§o§9- Interlock\n§o§9- Listen (Limit Output)\n§o§cRelevant Tools:\n§o§c- Signal Tuner
 tile.railcraft.signal.box.receiver.name=Приёмник сигнала
 tile.railcraft.signal.box.receiver.tip=Listens to Controller signals\n§o§9Aerial Linkages: 1x Receiver\n§o§9Adjacent Linkages: Emit\n§o§9Redstone Linkages: Emit\n§o§cRelevant Tools:\n§o§c- Signal Tuner
-tile.railcraft.signal.box.sequencer.name=Cеквенсор сигнала
+tile.railcraft.signal.box.sequencer.name=Секвенсор сигнала
 tile.railcraft.signal.box.sequencer.tip=Loops through adjacent blocks\n§o§9Adjacent Linkages:\n§o§9- Sequencer\n§o§9- Listen (Clock)\n§o§9- Emit\n§o§9Redstone Linkages:\n§o§9- Listen to Repeater (Clock)\n§o§9- Emit
 tile.railcraft.signal.distant.dual.name=Спаренный удалённый сигналоприёмный блок
 tile.railcraft.signal.distant.dual.tip=Displays aspects of linked Controllers\n§o§9Aerial Linkages: 2x Receiver\n§o§cRelevant Tools:\n§o§c- Signal Tuner
@@ -1175,7 +1175,7 @@ tile.railcraft.track.whistle.name=Свистковый путь
 tile.railcraft.track.whistle.tip=Проходящие локомотивы\n будут дуть в свои свистки\n§o§c- Примените красный камень, чтобы активировать -
 tile.railcraft.track.wye.name=Треугольно-стрелочный путь
 tile.railcraft.track.wye.tip=§o§c- Требуется стрелочный электромотор/рычаг для переключения -
-tile.railcraft.track.autolococoupler.name=Automatic Locomotive Coupler
+tile.railcraft.track.autolococoupler.name=Автоматическая сцепка локомотива
 tile.railcraft.track.autolococoupler.tip=Sets Passing Locomotives To\nLink With First Cart They \nCollide With And Then Automatically\nSwitch To Shunting Speed.\n§o§c- Apply Redstone to enable -
 
 tile.railcraft.wall.abyssal.brick.name=Стена из кирпича бездны
