@@ -56,5 +56,6 @@
 .minecraft/config/betterquesting.cfg
 .minecraft/config/enderio/EnderIO.cfg
 .minecraft/config/adventurebackpack.cfg
+.minecraft/config/matter-manipulator.cfg
 
 *.disabled
