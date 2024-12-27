@@ -7,7 +7,7 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAAAA.desc=第一层：0阶. 本章节
 
 # Quest: Your First Night
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAAA.name=§d§3§2§1§l你的第一个夜晚
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAAA.desc=你好,新员工,欢迎来到GTNH!%n%n先别忙着享受温暖的阳光了,因为大概十分钟之后太阳就会落山,而且和原版Minecraft不同,这里的黑夜伸手不见五指.不过那些恐怖的怪物还是能找到你的. 所以你的第一项任务是寻找食物和避难所,平安度过夜晚. 好在你将在本章任务结束时拥有一张床来改善一下你的生活质量. %n%n至于这本书?你不需要留着这本书,即使没带在身上也可以用"~"键打开任务书...当然先得把那个碍事的键位冲突解决了.%n%n如果你需要进一步帮助,或者只是想找个地方闲逛聊天,都可以到我们的Discord服务器:[url]https://discord.gg/gtnh[/url] -这些链接是可以点击的.请在#role-select频道选择自己的科技等级-这能帮助别人根据你的情况给出合适的建议.%n%n我们的官方wiki上也有许多GTNH的主题帖:[url]https://wiki.gtnewhorizons.com/wiki/Main_Page[/url] 某些机器设备确实非常复杂,仅靠任务书稍显不足,wiki可以提供更加详细的解释,以及图片. 另外,如果你感觉任务书上的指导还不够,可以看一下wiki上的"beginner's-guides"初学者指南. wiki上还有可选mod列表,适用于那些想要玩点花的人.%n%n另外,在这里[url]https://bit.ly/gtnh-datasheets[/url] 还有你所需要的所有数据.%n%n如果你的整合包是通过[warn]CurseForge§r[/warn]的启动器启动,整合包可能无法稳定运行.Curse启动器无法稳定运行整合包内我们修改过的部分mod.所以当你遇到任何问题,最佳解决方式是先尝试换个启动器,比如MultiMC、Prism或是Technic.wiki同样包括这部分教程. 最新整合包版本会在Discord的#announcements频道发布,或带着!download指令.%n%n希望在读这一大段话的时候,你没被怪物嚼碎了.%n%n译者注：汉化包下载地址:§1§n[url]https://github.com/Kiwi233/Translation-of-GTNH[/url]§r%n%nGTNH新手解答群:QQ§686069758§r%n%n关于中文WIKI：%n主页：§1§n[url]https://gtnh.huijiwiki.com[/url]§r %n参与编辑：§1§n[url]https://gtnh.huijiwiki.com/p/111[/url]§r%n可添加MOD：§1§n[url]https://gtnh.huijiwiki.com/p/386[/url]§r%n常见问题解答：§1§n[url]https://gtnh.huijiwiki.com/p/240[/url]§r%n新手建议：§1§n[url]https://gtnh.huijiwiki.com/p/60070[/url]§r%n%n也可以搜索MC模组百科：§1§n[url]https://www.mcmod.cn[/url]§r
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAAA.desc=你好,新员工,欢迎来到GTNH!%n%n先别忙着享受温暖的阳光了,因为大概十分钟之后太阳就会落山,而且和原版Minecraft不同,这里的黑夜伸手不见五指.不过那些恐怖的怪物还是能找到你的. 所以你的第一项任务是寻找食物和避难所,平安度过夜晚. 好在你将在本章任务结束时拥有一张床来改善一下你的生活质量. %n%n至于这本书?你不需要留着这本书,即使没带在身上也可以用"~"键打开任务书...当然先得把那个碍事的键位冲突解决了.%n%n如果你需要进一步帮助,或者只是想找个地方闲逛聊天,都可以到我们的Discord服务器:[url]https://discord.gg/gtnh[/url] -这些链接是可以点击的.请在#role-select频道选择自己的科技等级-这能帮助别人根据你的情况给出合适的建议.%n%n我们的官方wiki上也有许多GTNH的主题帖:[url]https://wiki.gtnewhorizons.com/wiki/Main_Page[/url] 某些机器设备确实非常复杂,仅靠任务书稍显不足,wiki可以提供更加详细的解释,以及图片. 另外,如果你感觉任务书上的指导还不够,可以看一下wiki上的"beginner's-guides"初学者指南. wiki上还有可选mod列表,适用于那些想要玩点花的人.%n%n另外,在这里[url]https://bit.ly/gtnh-datasheets[/url] 还有你所需要的所有数据.%n%n如果你的整合包是通过[warn]CurseForge§r[/warn]的启动器启动,整合包可能无法稳定运行.Curse启动器无法稳定运行整合包内我们修改过的部分mod.所以当你遇到任何问题,最佳解决方式是先尝试换个启动器,比如MultiMC、Prism或是Technic.wiki同样包括这部分教程. 最新整合包版本会在Discord的#announcements频道发布,或带着!download指令.%n%n希望在读这一大段话的时候,你没被怪物嚼碎了.%n%n译者注：汉化包下载地址:§1§n[url]https://github.com/Kiwi233/Translation-of-GTNH[/url]§r%n%nGTNH新手解答群:QQ§686069758§r%n%n关于中文WIKI：%n主页：§1§n[url]https://gtnh.huijiwiki.com[/url]§r %n参与编辑：§1§n[url]https://gtnh.huijiwiki.com/p/111[/url]§r%n可添加MOD：§1§n[url]https://gtnh.huijiwiki.com/p/386[/url]§r%n常见问题解答：§1§n[url]https://gtnh.huijiwiki.com/p/240[/url]§r%n新手建议：§1§n[url]https://gtnh.huijiwiki.com/p/60070[/url]§r%n小技巧：§1§n[url]https://gtnh.huijiwiki.com/p/1357[/url]§r%n%n也可以搜索MC模组百科：§1§n[url]https://www.mcmod.cn[/url]§r
 
 # Quest: Where's the Flint?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAAQ.name=§1§l燧石在哪儿？
@@ -5925,7 +5925,7 @@ betterquesting.quest.-1GoIXIXR029oc0Ge6sRGg.desc=这台机器就像普通油气�
 
 # Quest: Collision Course
 betterquesting.quest.9Pc7p99ASnybsIbWmmg0LQ.name=警告：可能发生撞击（Collision Course）
-betterquesting.quest.9Pc7p99ASnybsIbWmmg0LQ.desc=最后，要实际获得一些 IC，请在靶仓中使用你的光子。%n%n请注意，靶仓配方中列出的 EU/t 值只是一个最小值，因为配方时间完全由你提供给多重光子的数量决定。%n%n更具体地说，你可以通过将配方数量除以输入光束数量，然后乘以 5 秒来获得配方时间。
+betterquesting.quest.9Pc7p99ASnybsIbWmmg0LQ.desc=最后，要实际获得一些 IC，请在靶仓中使用你的光子。%n%n请注意，靶仓配方中列出的 EU/t 值只是一个最小值，因为配方时间完全由你提供给多方块的光子数量决定。%n%n更具体地说，你可以通过将配方所需数量除以输入粒子束的数量，然后乘以 5 秒来获得配方时间。
 
 # Quest: Multiblock Tanks... Railcraft Tanks
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAALQ.name=§6§l多方块储罐...RC蓄水器
@@ -6021,7 +6021,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACLA.desc=孩子们,今天我们将使用
 
 # Quest: Low-Pressure Boiler Tank
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACLw.name=§6§l低压锅炉
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACLw.desc=利用低压锅炉方块配合燃烧室可以说是获取蒸汽最容易的方式了. 低压锅炉需要安装在燃烧室的顶部. 锅炉的体积越大预热越慢,但是之后产生的蒸汽会越多.%n%n将管道连接到低压锅炉以输出蒸汽.%n%n记住,加热锅炉消耗的燃料是保持锅炉最高温的数倍.%n%n注意,低压锅炉在断断续续的工作场景中比较好用.低压锅炉效率更低,但升温速度远远高于高压锅炉,这意味着在刚开机的阶段低压锅炉的效率更高,但缺点在于在最高温度的情况下,低压锅炉的效率只有高压版本的50%.如果你想要一个持续不断的大量蒸汽产能,就用高压锅炉.%n%n%注意燃料消耗速度会根据锅炉尺寸以及当前温度等因素改变,如果你想要知道具体的消耗速度的话,就自己尝试一下吧.n%n%n%n译者注: WIKI 蒸汽机：§1§n[url]https://gtnh.huijiwiki.com/p/875[/url]§r
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACLw.desc=利用低压锅炉方块配合燃烧室可以说是获取蒸汽最容易的方式了. 低压锅炉需要安装在燃烧室的顶部. 锅炉的体积越大预热越慢,但是之后产生的蒸汽会越多.%n%n将管道连接到低压锅炉以输出蒸汽.%n%n记住,加热锅炉消耗的燃料是保持锅炉最高温的数倍.%n%n注意,低压锅炉在断断续续的工作场景中比较好用.低压锅炉效率更低,但升温速度远远高于高压锅炉,这意味着在刚开机的阶段低压锅炉的效率更高,但缺点在于在最高温度的情况下,低压锅炉的效率只有高压版本的50%%.如果你想要一个持续不断的大量蒸汽产能,就用高压锅炉.%n%n%注意燃料消耗速度会根据锅炉尺寸以及当前温度等因素改变,如果你想要知道具体的消耗速度的话,就自己尝试一下吧.n%n%n%n译者注: WIKI 蒸汽机：§1§n[url]https://gtnh.huijiwiki.com/p/875[/url]§r
 
 # Quest: Railcraft Steam Power
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACMA.name=§6§l用RC制造蒸汽
@@ -6292,12 +6292,12 @@ betterquesting.quest.Ds_ok-hRS2ODJNs3LUP9kw.name=藻类池塘
 betterquesting.quest.Ds_ok-hRS2ODJNs3LUP9kw.desc=可持续性。它不是一个游戏术语……但却是可以在这里达成的！%n%n你可能已经尝试过从单一资源中生产多种化学物质了，比如石化或苯产线。但还有藻类农场，它只是一个池塘，所以工作并不耗能。不仅如此它也无法使用常规配方，所以NEI不会显示任何关于藻类的页面。藻类农场会周期性产生藻类。它的等级取决于底层的机械方块，这些一层方块必须全部匹配对应的工作等级（译者：或更高级的仓室）。从超低压（ULV，起始时间为每批次50秒）到高压（IV，每批次25秒），每个等级都会减少生产藻类的时间约5秒，然后在此基础上，每个等级的速度将减半。该装置目前支持到超高压（UHV）外壳，高于此等级的外壳将无法与此机器配合使用。生产速度也有可能随机地加倍或三倍增加所需时间，但这种情况比较罕见。%n%n每次升级还会增加单次产出的藻类量。每个周期会给出一个精确的数量，并且有10%%的机会会额外奖励一定数量。藻类农场还可以用堆肥提高一级农场的等级，同时用藻类就可以生产堆肥。最开始的时候可能很贵，但很建议在大多数情况下这样做。你可以从超低压（ULV）等级开始获得普通藻类和绿藻，高压（HV）等级开始出现褐藻，极高压（EV）等级出现金褐藻，超高压（IV）等级出现红藻，尽管在大多数情况下，它们开始出现时的数量都非常少。%n%n要了解具体的产出数量和时间，请查看维基：[url]https://gtnh.huijiwiki.com/wiki/%E8%97%BB%E7%B1%BB%E5%86%9C%E5%9C%BA[/url]%n%n藻类可以用来生产多种化学制品，例如甲烷、氨气、硫酸、碳酸钠、乙烯、氯化锂，甚至一些产能流体。你通常需要用埃克森美孚化工厂来生产它们。在IV阶段你还可以通过结合绿色藻类和萤石来生产夜光珊瑚，用来生产阳光化合物。如果很好奇整个产线的话，查查NEI：关于它们的任务很快就会上线，可能还会有一些不用化工厂的配方。
 
 # Quest: A Beginner's Guide to Particle Physics
-betterquesting.quest.NGG2rHQ4T4SInwXT8XTGSg.name=A Beginner's Guide to Particle Physics
-betterquesting.quest.NGG2rHQ4T4SInwXT8XTGSg.desc=If you've built the Source Chamber already, you may have noticed that particles aren't produced as items, like GT++ ones are. %n%nInstead they're transmitted through Beamline Pipes from multi to multi, similar to real life.%n%nEach stream of particles transmitted, or "beam", has four properties:%n- §%n§%n§6Particle§r: the type of particle carried by the beam%n- §4Energy§r: the amount of energy the particles have%n§r- §9Focus§r: out of 100, how focused the beam is%n§r- §dAmount§r: a measure of the number of particles in the beam%n%nNote that you can see info about a multi's input and output beams by using a Tricorder on the controller.%n%nFor the recipes you'll be interested in, i.e. the ones that actually produce items, there'll be a threshold for allowed input beam energy, a minimum focus value, and an amount value which determines recipe time (more on that in the Target Chamber quest). %nTake a look some TC recipes for an example of this.%n%n%nHave a photon. To hang on your wall.
+betterquesting.quest.NGG2rHQ4T4SInwXT8XTGSg.name=粒子物理学新手指南
+betterquesting.quest.NGG2rHQ4T4SInwXT8XTGSg.desc=如果您已经搭建了源仓,您可能已经注意到粒子并不像GT++中那样以物品的形式产生.%n%n它们是通过束流管从多方块机器一端传输到另一台多方块机器,与现实生活类似.%n%n传输的每个粒子流,或者说“束流”,有四个属性:%n-§%n§%n§6粒子§r:束流携带的粒子类型%n-§4能量§r:粒子的能量大小%n§r-§9聚焦§r:束流的聚焦程度,幅度为0-100%.%n§r-§d数量§r：光束中粒子数量的测量值%n%n注意,你可以通过三录仪查看多方块机器控制器上的束流IO信息.%n%n对于你感兴趣的配方,也就是真正能生产物品的配方,会有一个允许输入束流能量的临界值、一个最小聚焦值和一个决定配方时间的粒子数量值(更多信息请见靶仓任务).%n%n%n产出一颗光子,挂在你的墙上炫耀吧!
 
 # Quest: Synchrotron (No Relation to the Catalyst)
 betterquesting.quest.QfQHCy0PRn-rABmKuvwQfw.name=同步加速器(和那个催化剂没关系)
-betterquesting.quest.QfQHCy0PRn-rABmKuvwQfw.desc=要实际产生用于光刻的光，你需要在同步加速器中加速电子。与线性加速器（LINAC）一样，提供冷却剂是保持其运行的必要条件。%n%n你可以通过增加 EU/t 或同时提高内部四个天线外壳的等级来增加产生的光子的能量。%n%n为了改善聚焦度，你可以使用更好的冷却剂，而输出量则随着 EU/t 和天线等级的增加而增加。%n%n是的，你需要四个能量仓。
+betterquesting.quest.QfQHCy0PRn-rABmKuvwQfw.desc=要实际产生用于光刻的光，你需要在同步加速器中加速电子。与线性加速器（LINAC）一样，提供冷却剂是保持其运行的必要条件。%n%n你可以通过增加 EU/t 或同时提高内部四个天线机械方块的等级来增加产生的光子的能量。%n%n为了改善聚焦度，你可以使用更好的冷却剂，而输出量则随着 EU/t 和天线等级的增加而增加。%n%n是的，你需要四个能源仓。
 
 # Quest: Neutronium Compressor
 betterquesting.quest.XKKP2E5ORG-ju42dSDd3sw.name=中子态素压缩机
@@ -6305,7 +6305,7 @@ betterquesting.quest.XKKP2E5ORG-ju42dSDd3sw.desc=为了压缩无尽催化剂和�
 
 # Quest: Hundreds of Thousands of eV
 betterquesting.quest.Y1kiJC_kRGKkW7h3qOPI8A.name=成百上千的eV
-betterquesting.quest.Y1kiJC_kRGKkW7h3qOPI8A.desc=线性加速器（LINAC）可以用于提高光束的能量，前提是光束的粒子是带电的。你需要不断地为其提供冷却剂，否则每次冷却剂耗尽时，你都会遇到维护问题。%n%n输出能量可以通过增加 EU/t（随立方根比例增长）或增加长度（线性增长）来提高。然而，增加长度也会降低聚焦度。%n%n聚焦度可以通过使用更好/温度更低的冷却剂来提高（在tooltip中列出了选项）。%n%n请注意，数量一直不变。
+betterquesting.quest.Y1kiJC_kRGKkW7h3qOPI8A.desc=线性加速器（LINAC）可以用于提高粒子束的能量，前提是粒子束的粒子是带电的。你需要不断地为其提供冷却剂，否则每次冷却剂耗尽时，你都会遇到维护问题。%n%n输出能量可以通过增加 EU/t（随立方根比例增长）或增加长度（线性增长）来提高。然而，增加长度也会降低聚焦程度。%n%n聚焦程度可以通过使用更好/温度更低的冷却剂来提高（在tooltip中列出了选项）。%n%n请注意，粒子数量不会改变。
 
 # Quest: Don't Lose That Multiblock Miner!
 betterquesting.quest.b_Ll4zvSRfCMgmqiBa4Xkw.name=别把采矿场弄丢了!
@@ -6497,7 +6497,7 @@ betterquesting.quest.IlCOpa8bR9WbOjSOPxZIlA.name=环保的聚爆?!
 betterquesting.quest.IlCOpa8bR9WbOjSOPxZIlA.desc=向你介绍更大(更好)的聚爆压缩机--电动聚爆压缩机!%n%n电动聚爆压缩机不需要任何爆炸物,是不是很好?%n%n此外,它还能根据中间使用的方块等级来获得额外的并行数(4^(等级 - 1)).%n%n等级1：中子块%n等级2：无尽之块%n等级3：超时空金属块%n等级4：时空块%n等级5：宇宙素块%n%n[note]虽然结构预览显示中间有洞,但它需要完整的 27 个方块才能形成,一旦成型,中间的 5 个方块就会消失,但破坏后会找回来(有时直接消失).[/note]%n%n[note]允许的最低能量仓等级比配方等级低一级,所以我们可以从两个UV能源仓开始.[/note]
 
 # Quest: Extraction Point
-betterquesting.quest.Itn1KOiISHSbXzoDd2BB8w.name=Extraction Point
+betterquesting.quest.Itn1KOiISHSbXzoDd2BB8w.name=我们到撤离(提取)点了!
 betterquesting.quest.Itn1KOiISHSbXzoDd2BB8w.desc=没有什么东西能比大型流体提取机更快地将固体变成液体 - 至少现在没有. 这台机器需要你制作加热和螺线管两种线圈. %n%n[note]理论上这台多方块可以在EV制造, 但它需要大量的钨钢.[/note]
 
 # Quest: More steam, more pressure!
@@ -6509,16 +6509,16 @@ betterquesting.quest.RFgYQ7LAQD-p1gHMaeg5Sg.name=IV阶段多方块机器
 betterquesting.quest.RFgYQ7LAQD-p1gHMaeg5Sg.desc=当你到达IV机械国度,你可以组装更多的多方块机器并加速你的自动化!%n%n从IV阶段开始,大多数多方块机器都需要特殊的合金,像你之前用过的金属(在熔炉或者工业高炉中冶炼),这些特殊的合金也都需要冶炼,但是有些合金必须在合金冶炼炉中制成流体,然后需要固化.%n%n需要合金冶炼炉的多方块机器在更后面. 为了解锁它们的任务,你需要首先合成合金冶炼炉.然而,有不需要合金冶炼炉也能制作许多机器,只需要相应的IV单方块的对应机器以及一些其他资源.%n%n都在这里了...但如果你仔细查看NEI,也许还能找到更多.祝你好运!
 
 # Quest: See You Lather
-betterquesting.quest.VJN1qfd5SjCkm7CXVd9Pag.name=See You Lather
+betterquesting.quest.VJN1qfd5SjCkm7CXVd9Pag.name=我们稍后再见(See You Lather)
 betterquesting.quest.VJN1qfd5SjCkm7CXVd9Pag.desc=一刻也没有为建造AE系统所需的大量石英杆发愁, 立马赶到现场的是工业精密车床!%n%n[note]这台多方块的速度取决于物品管道方块, 且至少需要铂等级的.[/note]
 
 # Quest: Steam Blender?
 betterquesting.quest.WEwrzX4ZRkSxJ3M6cBesfA.name=蒸汽搅拌机?
-betterquesting.quest.WEwrzX4ZRkSxJ3M6cBesfA.desc=既然可以用蒸汽和活塞来混合粉末,为什么还要使用复杂的导线和电路呢?大型蒸汽搅拌机是这些蒸汽多方块中最大的一个,可以满足您一段时间的搅拌需求,比 LV 单方块搅拌机有着更多的并行数.%n%n[note]该多块模块只能处理 LV 级以下的配方并且无法处理流体配方.[/note]
+betterquesting.quest.WEwrzX4ZRkSxJ3M6cBesfA.desc=既然可以用蒸汽和活塞来混合粉末,为什么还要使用复杂的导线和电路呢?大型蒸汽搅拌机是这些蒸汽多方块中最大的一个,可以满足您一段时间的搅拌需求,比LV单方块搅拌机有着更多的并行数.%n%n[note]该多方块机器只能处理LV级以下的配方并且无法处理流体配方.[/note]
 
 # Quest: Taking Things Apart
-betterquesting.quest.XA467S8MQtCEPy6L23eEEA.name=Taking Things Apart
-betterquesting.quest.XA467S8MQtCEPy6L23eEEA.desc=您可能很久没有考虑过提取机了.你的蒸汽提取机还在某个地方积灰吗?好吧.如果你需要快速提取物品.(可能是处理成吨花?)拿起Dissection Apparatus.%n%n[note]根据管道方块的不同等级获取更多的并行,因此使用你能制作的最好的管道方块.[/note]
+betterquesting.quest.XA467S8MQtCEPy6L23eEEA.name=提取万物
+betterquesting.quest.XA467S8MQtCEPy6L23eEEA.desc=您可能很久没有考虑过提取机了.你的蒸汽提取机还在某个地方积灰吗?好吧.如果你需要快速提取物品.(可能是处理成吨花?)拿起物质解剖装置.%n%n[note]根据管道方块的不同等级获取更多的并行,因此使用你能制作的最好的管道方块.[/note]
 
 # Quest: Advanced Assembly Line
 betterquesting.quest.ZIotzqvnRiKu1_1Hb9i1dg.name=进阶装配线
@@ -6533,7 +6533,7 @@ betterquesting.quest.bLAFkZX-RHGRFAz-C93aeQ.name=...借助科学的力量!
 betterquesting.quest.bLAFkZX-RHGRFAz-C93aeQ.desc=这个多方块结构可以让您使用质量发生器制造的所有UU物质，并不是说您没有其他东西可以用它来做...%n%n[note]这是一个UV的多方块结构.[/note]
 
 # Quest: You've Gotta Keep 'Em Separated
-betterquesting.quest.bkEol9zuRiiCMwMUopFHhg.name=You've Gotta Keep 'Em Separated
+betterquesting.quest.bkEol9zuRiiCMwMUopFHhg.name=得把它们分得远远的
 betterquesting.quest.bkEol9zuRiiCMwMUopFHhg.desc=当您需要将你的磁体极化或将带磁性的矿物与其他部分分离时,请使用 MFE！这种多方块机器需要将电磁铁放入其仓室中--更好的电磁铁将带来更强的增益.不过,在 IV 阶段中您将只能使用铁制电磁铁.%n%n[note]在放入最高级电磁铁的时候,你可以在这台机器上使用来自TecTech多安能源仓.在加工某种磁性材料时,不妨记住这一点...[/note]
 
 # Quest: Cracking the World
@@ -6545,15 +6545,15 @@ betterquesting.quest.fLH_QDPRR6mgCK0PL5iWmA.name=滥砍滥伐的终结
 betterquesting.quest.fLH_QDPRR6mgCK0PL5iWmA.desc=这台多方块机器是获取大量木材的完美解决方案.您是否在为木炭或者苯发电时所需的大量木材发愁?您是否苦于无法获取大量坚果来榨取种子油?亦或者因为装饰性树叶的来源而大伤脑筋?踏破铁鞋无觅处,得来全不费工夫!%n%n原木拟生场可以种植游戏内几乎全部种类的树木并且输出你砍树时会获得的正常掉落.这一切都被集成在一个3x3x3的空间中,无需忍受树木真实生长时带来的卡顿.%n%n首先,将任意一种树苗放入控制器GUI中.其次,在输入总线中放入你所需求的产物所对应的工具.最后,给机器通电,并且打开它.接着你就准备好被产物所淹没吧.%n%n树的不同部分需要不同种类的工具.%n - 锯对应木材%n - 剪枝器(GT)对应树苗%n - 剪刀对应树叶%n - 小刀对应水果%n高级工具(链锯,剪枝器(林业),...)会提供更多产出!具体请查看控制器的tooltip%n%n您甚至可以同时使用多个不同的工具,机器就能同时收获多个不同的产品!%n%n请注意,使用的工具会缓慢失去耐久值.因此,为了长期运行,你可能需要设置一些自动更换功能.%n%n[note]虽然这台机器在IV阶段就能制作,但在IV初期却相当昂贵,需要16个 ZPM电路板和一些高级合金.[/note]
 
 # Quest: Can it!
-betterquesting.quest.gMRufFtRRRa30LE21boFNQ.name=Can it!
-betterquesting.quest.gMRufFtRRRa30LE21boFNQ.desc=如果您曾经需要等待装罐机来装满锡罐,或者等待流体灌装机来制造成吨的冷却单元,那么请考虑一下 TurboCan Pro.当您决定需要它时,这款多块罐可以同时充当这两种机器,并具有显著的优势!
+betterquesting.quest.gMRufFtRRRa30LE21boFNQ.name=把它装进罐子里！(Can it!)
+betterquesting.quest.gMRufFtRRRa30LE21boFNQ.desc=如果您曾经需要等待装罐机来装满锡罐,或者等待流体灌装机来制造成吨的冷却单元,那么请考虑下涡轮装罐机Pro.当您决定需要它时,这台多方块机器可以同时充当这两种机器,并具有显著的优势!
 
 # Quest: High Voltage Multiblocks
 betterquesting.quest.pKSx6HEUS0WkL6qkwo742g.name=高压阶段的多方块结构
 betterquesting.quest.pKSx6HEUS0WkL6qkwo742g.desc=是时候扩大生产规模了!在HV阶段中,你可以使用一些新的功能强大的多方块机器.特别是§l大型化学反应釜§r,它总能无损超频.此外还有§l蒸馏塔§r,它能让你从蒸馏中获得所有副产物,而不是仅仅获得一种.
 
 # Quest: Under Pressure
-betterquesting.quest.qDZZLi21TrmdWXwo_KimIw.name=Under Pressure
+betterquesting.quest.qDZZLi21TrmdWXwo_KimIw.name=压力之下
 betterquesting.quest.qDZZLi21TrmdWXwo_KimIw.desc=更大,更好,更快!这台 Large Electric Compressor和你预料的差不多
 
 # Quest: STEAM-POWERED BREAKTHROUGH
@@ -6561,7 +6561,7 @@ betterquesting.quest.quLxATDCQFWsrZRuh_gspA.name=蒸汽动力的突破
 betterquesting.quest.quLxATDCQFWsrZRuh_gspA.desc=您现在应该已经收集了不少单方块蒸汽机器.虽然这些机器可以帮助您处理少量材料,但总有一天您需要处理大量物品.这就是蒸汽多方块机器发挥作用的地方.%n%n虽然多方块蒸汽机器的材料成本远高于单方块,但它们也有一些优势：它们使用的蒸汽更少,而且可以并行处理配方,这意味着如果提供的蒸汽足够,一个配方循环可以同时制作多个物品.%n%n§T不过,它们也有一些需要注意的怪癖：%n%n-这些多方块需要§4§l非常特殊§r的I/O方块,只能使用任务中的显示的那些方块%n%n-它们最多可以加工8件物品,其中基础等级由青铜制成,高压等级由钢铁制成(查看NEI中的多方块预览,它会显示不同的等级)%n-如果你正在查看控制器方块,可以通过WAILA查看机器的等级和并行处理的数量%n%n§W[note]通过这个任务,你已经开始了大规模生产之旅.不过,先别高兴得太早.虽然在蒸汽时代可以获得一些多方块机器,但它们中的大多数只有在EV或更高电压等级才能解锁,包括这些多方块机器的更好版本.
 
 # Quest: Steam stomping!
-betterquesting.quest.s6AEHSKiQe2XveT_oDZbZg.name=Steam stomping!
+betterquesting.quest.s6AEHSKiQe2XveT_oDZbZg.name=蒸汽猛击!
 betterquesting.quest.s6AEHSKiQe2XveT_oDZbZg.desc=锻造锤的速度已经相当快了,为什么不制造这个升级版,让它变得更快?有了大型蒸汽锻造锤,你就可以在任何材料上充分释放蒸汽的力量.你可以看到方块分崩离析,各种杆被挤在一起,速度比以往任何时候都快----至少在你获得更先进的技术之前是这样.%n%n§3这台大型蒸汽锻造锤只能处理LV等级及以下的配方.
 
 # Quest: Superdense
@@ -6569,7 +6569,7 @@ betterquesting.quest.sB_lbhZZRnmZNjJiF8-1Hg.name=极度致密
 betterquesting.quest.sB_lbhZZRnmZNjJiF8-1Hg.desc=您现在正在制造的先进机器需要更高级的材料,以及材料所需要的更先进的加工方法.在ZPM中,您可以建造热等静压装置,它是大型电动压缩机的升级版.这种多方块设备可以在极高的压力下将材料加热到极高的温度,从而制造出瑕疵极少的超致密板材料.%n%n这台机器会在运行时会升温,必须给它一定的时间冷却.如果达到最大热阈值,会大大降低配方处理速度,甚至吞掉输入的物品.使用更好的线圈来延长过热时间,并使用热传感器仓室来自动控制它保持在恰当的温度.%n%n[note]可以运行NEI中标注"需要热等静压装置(HIP)"的压缩配方.[/note]
 
 # Quest: Engraving With Style
-betterquesting.quest.uP_FwHb_QTyAPaoZ80u74A.name=Engraving With Style
+betterquesting.quest.uP_FwHb_QTyAPaoZ80u74A.name=精致蚀刻
 betterquesting.quest.uP_FwHb_QTyAPaoZ80u74A.desc=厌倦了不停更换透镜, 或者往超净间里塞十几台激光蚀刻机? 高强度激光蚀刻机正是你所需要的. 这台多方块能够处理你所有的激光蚀刻需求.%n%n通过在结构中使用更强大的§l激光源仓§r, 你可以获得更多的并行并处理更高等级的配方. %n%n[note]这台多方块§o必须§r使用硼玻璃 - 请阅读tooltip![/note]
 
 # Quest: Extreme Voltage Multiblocks
@@ -6577,12 +6577,12 @@ betterquesting.quest.w5O5rPL_Q_GDp8lxWMd0DQ.name=EV多方块
 betterquesting.quest.w5O5rPL_Q_GDp8lxWMd0DQ.desc=你可能已经用上了蒸汽多方块设备或者工业筛选机.但在EV,IV以及之后的电压等级中,你将解锁许多多方块机器,它们对应几乎所有的GT单方块机器.甚至还有更强大的设备.%n%n它们中的大多数和你之前的GT的处理流程相同,但是速度更快. 多方块机器有三个好处: 节省能源,更快的配方处理时间以及并行, 并行意味着在能量供应足够的情况下, 配方单次的处理时间里一次可以同时合成多个物品.%n%n这些新的多方块机器的多样性和复杂性远远超出了工业高炉、大型化学反应釜或者真空冷冻机等简单的多方块机器. 有些虽然是简单的立方体,但有些则具有更多样化的机制和工作条件.作为回报,它们是非常强大的,因此务必留意他们.
 
 # Quest: Megalomania
-betterquesting.quest.wGINqtSuSQKLI_Yk7hAdcA.name=Megalomania
+betterquesting.quest.wGINqtSuSQKLI_Yk7hAdcA.name=永无止境,大就是好!
 betterquesting.quest.wGINqtSuSQKLI_Yk7hAdcA.desc=在 HV 阶段中,从技术上讲您现在有能力制造某些巨型多方块结构.这些绝对的巨无霸将把您的产能提高到前所未见的水平,但这是有代价的.这些多模块有两大优势：%n-它们天生就有 256 的并行数.%n-它们可以使用 TecTech 多A能源仓和激光仓,让您可以向其中注入巨大的能量。%n%n[note]要想从这些巨型多方块结构获得真正的好处,您需要使用大量的电力来利用其超高并行数的优势--在使用 HV 阶段建造巨型高炉之前,请考虑一下您是否能真正利用这些设备.[/note]%n
 
 # Quest: Pressure washing!
 betterquesting.quest.zorY0c3BQuqLJp7ThOLG-g.name=气压洗涤!
-betterquesting.quest.zorY0c3BQuqLJp7ThOLG-g.desc=如果您一直在处理挖掘到的矿石,那么您一定会遇到各种各样的粉碎的矿石.由于这些矿石比较脏,您必须将其清洗干净,才能获得某些副产物.但如何清洗这些碎矿石呢?当然是使用大型蒸汽洗矿机!只要有稳定的蒸汽供给和少量的水,你就能洗去杂质.并在短时间内得到洗净的矿石.%n%n如果你厌倦了长时间等待洗矿,那么这就是你的解决方案!%n%n§3这个多方块结构有两种模式,默认的洗矿机模式和简易洗矿池模式.简易洗矿池模式处理矿石的速度要快得多,但不会产生副产物.与其他多方块结构一样,可以通过机器控制器 UI 中的相应按钮或用螺丝刀右键单击控制器来切换模式.由于所有洗矿配方都是 LV 电压,因此该多方块结构可以运行所有洗矿配方.
+betterquesting.quest.zorY0c3BQuqLJp7ThOLG-g.desc=如果您一直在处理挖掘到的矿石,那么您一定会遇到各种各样的粉碎的矿石.由于这些矿石比较脏,您必须将其清洗干净,才能获得某些副产物.但如何清洗这些碎矿石呢?当然是使用大型蒸汽洗矿厂!只要有稳定的蒸汽供给和少量的水,你就能洗去杂质.并在短时间内得到洗净的矿石.%n%n如果你厌倦了长时间等待洗矿,那么这就是你的解决方案!%n%n§3这个多方块结构有两种模式,默认的洗矿机模式和简易洗矿池模式.简易洗矿池模式处理矿石的速度要快得多,但不会产生副产物.与其他多方块结构一样,可以通过机器控制器UI中的相应按钮或用螺丝刀右键单击控制器来切换模式.由于所有洗矿配方都是LV电压,因此该多方块结构可以运行所有洗矿配方.
 
 
 ## Quest Line: How to Generate Power
@@ -9027,11 +9027,11 @@ betterquesting.quest.0J3hYoBeTpe_OnXMU9zRDA.name=2阶AE流体存储
 betterquesting.quest.0J3hYoBeTpe_OnXMU9zRDA.desc=通过2阶流体处理器,您可以制作256k,1024k,4096k 和16384k的ME流体存储组件.%n%n这些ME流体存储组件需要与ME高级流体存储外壳合成才能变成ME流体存储元件.
 
 # Quest: Waterproof Tech
-betterquesting.quest.1FFkSYHcQPO_6U185CKBiw.name=Waterproof Tech
+betterquesting.quest.1FFkSYHcQPO_6U185CKBiw.name=防水科技,完美样板
 betterquesting.quest.1FFkSYHcQPO_6U185CKBiw.desc=随着你能随心所欲地弯曲时空,你能防止流体和电子元件发生相互作用.%n%n现在它可以处理包含流体的处理样板.%n%n[note]不然它就像样板输入总线一样工作[/note]
 
 # Quest: Cribs
-betterquesting.quest.4pCol8RvR3G0pS2zVqpY1Q.name=Cribs
+betterquesting.quest.4pCol8RvR3G0pS2zVqpY1Q.name=你这是在作弊!
 betterquesting.quest.4pCol8RvR3G0pS2zVqpY1Q.desc=随着你对"应用格雷"的研究不断深入,你找到了将 ME 接口的样板处理能力与输入总线相结合的方法,即"样板输入总线"!现在,你可以直接将样板放入样板输入总线.然而,样板输入总线缺乏足够的项目空间和计算能力来处理来自 ME 网络的项目.因此,您增加了额外的存储空间和编程电路.%n%n您甚至可以在样板输入总线中放置透镜或模具等在配方中不消耗的物品!但是,你仍然缺乏足够的技术来处理流体,它们对电子产品来说并不好.%n%n样板输入总线与其他总线或仓室完全隔离,所以你可能不得不修改你的样板.%n%n[warn]样板输入镜像[/warn]允许您在不同的多方块结构中共用样板输入总线而无需真正的在结构中共用方块.§lUV级§r%n%n[warn]样板输入总成[/warn]将会§9§o防水§r.§lUIV级§r%n(译注:即为样板输入总成可以放入带流体的处理样板)
 
 # Quest: Need More Information?
@@ -9671,7 +9671,7 @@ betterquesting.quest.auchuNiGTH6NWh_cz8XxcQ.name=ME高级流体存储外壳
 betterquesting.quest.auchuNiGTH6NWh_cz8XxcQ.desc=高阶流体存储组件需要使用此外壳才能制成可用的元件.
 
 # Quest: Slavery is Bad
-betterquesting.quest.cEFNSTdoRvysoNgmtDLdvg.name=Slavery is Bad
+betterquesting.quest.cEFNSTdoRvysoNgmtDLdvg.name=黑奴并不好(Slavery is Bad)
 betterquesting.quest.cEFNSTdoRvysoNgmtDLdvg.desc=你已经掌握了跨维度物流和在多方块结构中共用仓室,为什么不把它们结合起来呢?%n%n你可以将用闪存右键样板输入总线或样板输入总成与它们起来,用它来处理多台机器的处理样板,就像在多方块结构中共用了样板输入总线或样板输入总成一样,虽然物理上没有共享仓室.%n%n[note]或许这能降低卡顿?[/note]
 
 # Quest: 16384k Essentia Storage Cell
@@ -10904,7 +10904,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAA6A.desc=你的法杖在吸收和释放�
 
 # Quest: Getting Shards
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA6Q.name=获得碎片
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA6Q.desc=不管你是如何获得它们的，你已经收集了各种注魔碎片。现在应该考虑如何使用它们…
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA6Q.desc=不管你是如何获得它们的，你已经收集了各种蕴魔石碎片。现在应该考虑如何使用它们…
 
 # Quest: A "Greater" Wand
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA6g.name=一个更"优秀"的法杖
@@ -11176,7 +11176,7 @@ betterquesting.quest.HF-prjNuRP-RUOYzn170cQ.desc=比较器是非常有用的设�
 
 # Quest: Taint Warnings
 betterquesting.quest.JyVKlIbSSiaXjYfQ2FFLhQ.name=腐化警告
-betterquesting.quest.JyVKlIbSSiaXjYfQ2FFLhQ.desc=Now that you have started using Vis in the form of Essentia, a warning about Taint.%n%nVis in the state of Essentia is unstable if not stored properly. Left alone too long, or emptied out of the Crucible, Essentia will break down. But not into Vis. Rather, it will turn into Flux.%n%nFlux manifests as a liquid or a gas, but is, itself, only a nuisance. Thaumaturges exposed to the stuff can end up getting Flux Flue, a condition which makes it harder to channel Vis, but it is only temporary.%n%nLarger concentrations of Flux will solidify into Thaumic Slimes, bizarre creatures that try to merge with each other to grow larger. They can be dangerous, but are no less susceptible to crossbow bolts than most things.%n%nHowever, if too much flux is allowed to linger for too long, it will corrupt the land and solidify into tendrils. This is a manifestation of the blight called Taint. Fibrous Tendrils (as well as condensed blocks thereof) spread the Tainted Lands, feeding on the magic it twists. Nodes are especially vulnerable, becoming Tainted themselves if exposed to this twisted magic.%n%nDestroying the tendrils stops the spread, but unless §oall§r are destroyed this is only temporary. A more effective solution is to destroy the Tainted Land itself, as outside this specific biome tendrils quickly starve and die off.%n%nIf you are §oexceedingly§r careless with your Crucible you can, in fact, create Tainted Lands. So you would be wise to try wasting as little Essentia as possible, and clean up any you do waste.
+betterquesting.quest.JyVKlIbSSiaXjYfQ2FFLhQ.desc=现在你已经能够以源质的形式使用魔力,这里是关于腐化的警告.%n%n如果存储的方法不正确,在源质状态下的魔力是不稳定的.如果放置太久,或者清空坩锅时,源质会分解.但它不是分解为魔力,而是分解为咒波.%n%n咒波可能是液态或者气态,但无论怎样,它的存在只会是个麻烦. 身处于在咒波环境下的神秘使可能会染上咒流,这种状态下引导魔力会更加困难,不过只是暂时的.%n%n更大浓度的咒波会固化成为神秘史莱姆,这些奇异的生物会试图相互融合以变得更大.它们虽然有点危险,但对和大多数怪物一样,他们也无法抵抗弩箭的攻击力.%n%n然而,如果让过多的咒波停留太久,它将腐蚀土地并形成触手.这是所谓的腐化.触手(以及其形成的腐化草丛)会传播并形成腐化之地,扭曲魔法并吞噬之.而节点尤其脆弱,如果节点处于在这种被扭曲的魔法中,它们会变为污染节点.%n%n摧毁触手可以阻止传播,但除非§o所有§r的触手都被摧毁,否则这只是暂时的.更有效的解决方法是摧毁腐化之地本身,因为在这个特定生物群系之外,触手会迅速衰竭并死亡.%n%n如果你在用你的坩埚时§o极其§r粗心,实际上你是可以创造出腐化之地的.因此,你最好尽量减少浪费源质,并清理任何你所浪费的东西.
 
 # Quest: Growing Glowstone the Magical Way
 betterquesting.quest.LUwrS4RnQGilkbdPQ_DrBg.name=用魔法的方式种植萤石
@@ -11187,16 +11187,16 @@ betterquesting.quest.TjJv9pSOSaW1kwzoTZ9qRw.name=更多生命值
 betterquesting.quest.TjJv9pSOSaW1kwzoTZ9qRw.desc=当你射出弩箭时你没来得及注意到你瞄准的是一种背上有着红色线条的特殊蜘蛛,无论你是怎样一个神射手也无济于事.通常,令人难以置信的疼痛会随之而来...%n%n利用你的新法杖,你可以制作红心容器了.你可以最多放10个红心容器到专用的栏位中,每个红心容器能提升一颗心的生命值上限.%n%n这可能并不够,但如果他最终让你好好的站着,而不是横着躺在棺材里,你便会庆幸你制作了这些心之容器.
 
 # Quest: A Pechuliar Merchant
-betterquesting.quest.TvVeFhtYQCSmlekVCdADaQ.name=A Pechuliar Merchant
-betterquesting.quest.TvVeFhtYQCSmlekVCdADaQ.desc=During your travels, you've heard about a forest filled to the brim with magic. In that forest, there is a rumor about an interesting little fellow who can trade magical artifacts, including infused shards! Supposedly, they scour the world for gems and gold, but are cold to wanderers who have no valuables to their name.%n %nYou wonder if you can find this merchant and obtain their wares. If only there was a tool that could help find this... §5§o"Magical Forest"§f§r.%n%n[note]Note: This quest accepts meeting any type of Pech, not just Pech Foragers.[/note]
+betterquesting.quest.TvVeFhtYQCSmlekVCdADaQ.name=古怪商人
+betterquesting.quest.TvVeFhtYQCSmlekVCdADaQ.desc=在你的旅途中,你听说过一个充满魔法的森林.据说在这个森林里,有一个有趣的小家伙可以和他交易魔法物品.包括蕴魔石碎片!据说他们在世界各地搜寻宝石和黄金,但对那些身无分文的流浪者十分冷淡.%n%n你很好奇是否能找到这个商人并购买他的商品.如果有工具可以帮助你找到这个...§5§o“魔法森林”§f§r就好了.%n%n[note]注意：这个任务接受遇见的任何类型的岩精,而不只是岩精强盗.[/note]
 
 # Quest: Need More Sugar?
 betterquesting.quest.UAWjHTM_SAW95_Cji-9PiA.name=需要更多糖?
 betterquesting.quest.UAWjHTM_SAW95_Cji-9PiA.desc=随着你使用治愈草,你可能也想扩大你的糖产能.%n%n芦苇是直接种植在草方块上而不是耕地上的,并且他会自己蔓延繁殖.一旦它完全成熟,你可以同时收获糖和甘蔗.
 
 # Quest: Keeping Out the Riff-Raff
-betterquesting.quest._N4B3gVMTZOoUdf9--7aPQ.name=Keeping Out the Riff-Raff
-betterquesting.quest._N4B3gVMTZOoUdf9--7aPQ.desc=You're starting to get tired of having to build everything like some kind of fortress just to make sure no unwanted guests come in. Sure, that's just the nature of living in a world where infinite hoards of restless undead haunt every other dark corner, but is having a secure entryway that isn't conveniently door-shaped too much to ask?%n%nNot anymore. Paving Stone of Warding, assuming nothing sits on top of it, will project a two block tall invisible forcefield above itself that block non-player mobs from passing through, at least the common riff-raff. As a bonus spiders cannot climb the forcefield, so no need for overhangs to keep them out too.%n%nThat said, since the forcefield cannot tell an arrow fired by you from one fired §oat you§r, mundane objects will still pass through regardless. And the forcefield does as much to block line of sight as the term §oinvisible§r would suggest.%n%nOf course, you're not concerned about that part. Being able to shoot things with your crossbow while they can't reach you is very much in §oyour§r favor, all told.
+betterquesting.quest._N4B3gVMTZOoUdf9--7aPQ.name=将乌合之众拒之门外
+betterquesting.quest._N4B3gVMTZOoUdf9--7aPQ.desc=为了确保没有不速之客入侵,你不得不把一切都造得像堡垒一样,你开始厌倦了.没错,在这个世界上生活的本质就是这样,每个黑暗角落都会徘徊着无尽的、不安分的亡灵.但难道要求有比门更方便的入口是一件很过分的事吗?%n%n现在不再是这样了.在没有任何东西放在其上时,守卫者铺路石将会在其上方投射出一个两格高的隐形力场,阻止非玩家生物通过,至少阻止那些乌合之众通过.它还有一个额外的好处,蜘蛛无法攀爬这个力场,因此也不需要悬挑结构来防止它们进入.%n%n话虽如此,由于力场无法区分你发射的箭和别人§o向你§r发射的箭,普通物体仍然可以穿过力场.此外,力场在阻挡视线方面的效果与§o隐形§r这个词的效果完全一样.%n%n当然,你并不需要担心这一点.能够在敌人无法接近你的情况下用十字弓射击东西,对§o你§r完全是有利的.
 
 # Quest: Pushing Back the Taint
 betterquesting.quest.aWvML-AaSIyjyNj5ElS4VQ.name=赶走腐化
@@ -11207,28 +11207,28 @@ betterquesting.quest.ad_fPxg-ThqyyuppTrG1gQ.name=添加更多功能
 betterquesting.quest.ad_fPxg-ThqyyuppTrG1gQ.desc=其中一种改进就是钝化红晶.%n%n钝化红晶允许你用法杖右击设置一个阈值,这能控制多强的红石信号才能通过.这对检测储罐储量或者电力缓存多少很有帮助.%n%n[note]红石专家需要注意一点： 钝化红晶会检查所在方块的信号强度,而不是像比较器那样检查前一个方块的信号强度.[/note]
 
 # Quest: Understanding Wand Progression
-betterquesting.quest.bfrxXr1iSpGQS8iV95nJeA.name=Understanding Wand Progression
-betterquesting.quest.bfrxXr1iSpGQS8iV95nJeA.desc=More advanced Thaumcraft recipes require larger and larger amounts of vis that your initial wands can't handle. You need to progress bit by bit to increase your capabilities. The progression is two-fold:%n%nFirst, you need to craft more advanced wands, the Greatwood Wand is next. And secondly, you need to improve your crafting discounts. They reduce the vis cost of crafts and thus also let you craft higher vis recipes.%n%nIn your progression you will need to rely on both aspects. Better wands and higher discounts. However, as you progress, there are many different ways on how to procede. Some ways focus more on discounts, others more on wands. Therefore, the questbook can only give you some general advice.%n%nFor example, when making a new wand type, it is always cheapest to first make it with iron caps and then try to improve it afterwards. However, if you are able to obtain enough discounts you can directly make the wand with gold caps or better, skipping the iron capped wand.%n%nBut before all these options really open up, let us work on that Greatwood Wand!
+betterquesting.quest.bfrxXr1iSpGQS8iV95nJeA.name=理解法杖进阶
+betterquesting.quest.bfrxXr1iSpGQS8iV95nJeA.desc=更高级的神秘时代配方需要越来越多的魔力,而你最初的法杖无法满足这些需求.你需要逐步进阶,以提高你的能力.这个进阶有两个方面：%n%n首先,你需要制作更高级的法杖,下一级是宏伟之木法杖.其次,你需要提高你的合成减免.这些减免可以减少合成所需的魔力,从而让你能够合成需要更多魔力的配方.%n%n在你的进阶中,你需要依赖上述这两个方面：更好的法杖和更高的减免.然而,随着你的进阶,有许多不同的方式可以做到这两点.有些方式更侧重于减免,而另一些方式则更侧重于提升法杖.因此,任务书只会给你一些一般性的建议.%n%n例如,在制作新法杖类型时,首先制作最便宜的铁杖端,然后再尝试升级它.然而,如果你能够获得足够的减免,你可以直接用金杖端或更好的材料制作法杖,跳过铁杖端法杖的步骤.%n%n但在所有这些选项真正能用之前,让我们先来制作那根宏伟之木法杖吧!
 
 # Quest: Essentia Storage
-betterquesting.quest.cbv93MoJQESfsccTQMCwUA.name=Essentia Storage
-betterquesting.quest.cbv93MoJQESfsccTQMCwUA.desc=At long last, you have all the tools to smelt items into Essentia, keep it stable, and store it for later use.%n%nThe last step was creating Warded Jars, relatively simple creations that keep Essentia in a quasi-liquid state, which makes it easier to keep Essentia from turning into Flux. Unlike phials, which must hold 8 Essentia exactly to keep it stable, Warded Jars can store anywhere from 1 to 64 Essentia.%n%nThese Warded Jars are safe to pick up and carry around, which you suspect will not be the case for most objects storing much more Essentia than these jars do. Right click them with a label to filter that jar to a specific type of Essentia. Use a preset label if the jar is still empty.%n%nSneak-right click with an empty hand to remove a label from a jar, or void the Essentia it contains if it doesn't have a label. Voiding Essentia from jars will not generate Flux, because... magic, I guess. It's very convenient, so just politely don't question it too much.
+betterquesting.quest.cbv93MoJQESfsccTQMCwUA.name=源质存储
+betterquesting.quest.cbv93MoJQESfsccTQMCwUA.desc=终于,你拥有了所有工具,可以将物品熔炼成源质保持其稳定,并储存以备后用.%n%n最后一步是制作源质罐子,这是一种相对简单的制品,可以将源质保持在准液态状态,这能够防止源质转化为咒波.与必须精确容纳8个源质以保持稳定的安瓿不同,源质罐子可以存储从1到64任意数量的源质.%n%n这些源质罐子可以随意拾取和携带,而大多数比这些罐子能存储更多源质的容器就不能这样了.使用标签右键点击罐子,可以将该罐子过滤为存储特定类型的源质.如果罐子是空的,可以使用预设标签.%n%n潜行状态下空手右键点击可以从罐子上移除标签,或者如果罐子没有标签,则清空其中的源质.从罐子中清空源质不会产生咒波,这是因为……魔法,我猜的.这非常方便,所以请识趣点不要过多质疑.
 
 # Quest: Growing your own Knowledge!
-betterquesting.quest.eWOxG-reT9ewlW0CNXgQNQ.name=Growing your own Knowledge!
-betterquesting.quest.eWOxG-reT9ewlW0CNXgQNQ.desc=Ever thought to yourself "man, why does everything have to use primal aspects so much?" Well now you won't have to worry about that anymore!%n%nMeet the Rosa Mysteria. When the sprout planted on a Crystal Block, it will use that block's essence to grow into an Aspect Shard of the same type! These shards can then be thrown into your Cauldron or Alchemical Furnace, or used as Knowledge Fragments to gain Research Points. Even Mixed Crystals can be used as a catalyst!%n%n[warn]Warning: Planting Rosa Mysteria on Tainted Crystal Blocks will lead to unf§ko§rrs§ke§re§kn   §rco§kn§rs§ke§rq§kue§rnc§ke§r§ks.§r[/warn]
+betterquesting.quest.eWOxG-reT9ewlW0CNXgQNQ.name=种出你的知识!
+betterquesting.quest.eWOxG-reT9ewlW0CNXgQNQ.desc=有没有想过“man,为什么所有东西都要大量依赖基础要素?”好吧,现在你不必再担心这个了!%n%n认识一下神秘玫瑰.当它的芽种植在魔晶块上时,它将利用这个块的源质成长为相同类型的蕴魔碎片!这些碎片可以被扔进你的坩埚或炼金炉中,或者像知识碎片那样使用来获得研究点.甚至复相魔晶也可以用作催化剂!%n%n[warn]警告：在污染魔晶块上种植神秘玫瑰将导致§k不§r良§k后§r果.§r[/warn]
 
 # Quest: Solid, Directional Redstone
-betterquesting.quest.fmeCtrL-SNGqaLb208VSiQ.name=Solid, Directional Redstone
-betterquesting.quest.fmeCtrL-SNGqaLb208VSiQ.desc=Redstone Dust is a wonderful substance, but it has several limitations that only true Minecrafters can handle.%n%nLuckily, with a bit of magic the dust crystallizes and becomes much easier to handle.%n%nRedcrystal can be placed directly against a wall or ceiling, and also allows you to use a wand to toggle whether a given side sends/receives any redstone signals. This allows for nice and compact builds in places regular redstone couldn't even exist in the first place.%n%nMaybe it is possible to improve these redcrystals further to allow them to manipulate or process the signal they're receiving in some way...
+betterquesting.quest.fmeCtrL-SNGqaLb208VSiQ.name=固态定向红石
+betterquesting.quest.fmeCtrL-SNGqaLb208VSiQ.desc=红石粉是一种奇妙的物质,但它有几个限制,只有真正的Minecraft玩家才能应对.%n%n幸运的是,通过一点魔法,红石粉可以结晶变得更容易处理.%n%n红晶可以直接放置在墙壁或天花板上,并且允许你使用法杖切换某一侧是否发送/接收红石信号.这使得在普通红石无法存在的地方进行紧凑的构建成为可能.%n%n也许可以进一步改进这些红水晶,使它们能够以某种方式操控或处理它们接收到的信号...
 
 # Quest: Alleviating Warp
-betterquesting.quest.gVqhKJAoTfudKA5xUWMzMg.name=Alleviating Warp
-betterquesting.quest.gVqhKJAoTfudKA5xUWMzMg.desc=When you get poisoned or withered a bit of milk solves the problem. Why not create something akin to milk, but for Warp effects?%n%nBriar gives a bit of an answer to that. These two block tall plants, which require good light to grow, will produce Briar Seed Bags when harvested. Those can be combined with sugar and a suitable container in an Arcane Workbench to create Rosehip Syrup.%n%nRosehip Syrup stacks up to 16 and can be used the same as milk, also removing some (though not all) Warp effects as well as Flux Flue and Flux Phage.%n%nThe plant has a strange life cycle where the seed pods will first appear as yellow dots, turn pink as they start to mature, then §odisappear§r, only to return fully matured. Still, if it works, it works.
+betterquesting.quest.gVqhKJAoTfudKA5xUWMzMg.name=缓解扭曲
+betterquesting.quest.gVqhKJAoTfudKA5xUWMzMg.desc=当你中毒或被虚弱时,一些牛奶就能解决问题.那么有没有类似于牛奶的东西,可以用来对抗扭曲效果呢?%n%n治愈草给出了答案.这种需要良好光照才能生长的两格高的植物,收获时会产生治愈花种子囊.这些种子囊可以与糖和合适的容器在奥术工作台中合成为玫瑰果浆.%n%n玫瑰果浆最多可以堆叠16个,使用方式与牛奶相同,能够去除一些(但不是全部)扭曲效果,以及咒流和咒喰.%n%n这种植物有一个奇怪的生命周期,种荚最初会以黄色小点的形式出现,随着成熟变成粉色,然后§o消失§r,最后再完全成熟.不过,只要有效,他就能用.
 
 # Quest: Counting Items
-betterquesting.quest.jvbdUzcgTfGX820wUPhxCQ.name=Counting Items
-betterquesting.quest.jvbdUzcgTfGX820wUPhxCQ.desc=The Remote Comparator makes it significantly easier to get comparator signals out of whatever block you want, but looking at your storage chests you can't help but see no reason to bother. So what if they're nearly full? You want to know what they're nearly full §oof§r.%n%nTally Boxes can be pointed at a container - either directly or, using a Remote Comparator, remotely - and given a Runic Whitelist that specifies conditions where you want a Tally Box to send a redstone signal. Quantity, metadata and NBT matching are options, as is using a basic name filter.%n%nNote that the redstone side is always opposite the reading side, and Remote Comparators must be placed on top of Tally Boxes to work together, meaning redstone is always output on the down face in that case.%n%n[note]Runic Whitelists don't let you use NEI ghost items to set their filters, unfortunately.[/note]
+betterquesting.quest.jvbdUzcgTfGX820wUPhxCQ.name=物品计数
+betterquesting.quest.jvbdUzcgTfGX820wUPhxCQ.desc=远程比较器使得从你想要的任何方块中获取比较器信号变得更加容易,但看着你的储物箱,你不禁觉得没有理由去费心.如果它们快满了怎么办?你想知道它们因§o什么§r而满.%n%n计数盒可以指向一个容器——可以是直接指向,也可以通过远程比较器远程指向——并通过符文白名单来指定你希望计数盒发送红石信号的条件.数量、元数据和NBT匹配都是选项,使用基本名称过滤器也是可以的.%n%n请注意,红石侧总是与读取侧相对,远程比较器必须放置在计数盒的顶部才能一起工作,这意味着在这种情况下,红石信号总是从下方输出.%n%n[note]不幸的是,符文白名单不允许使用NEI虚拟物品来设置过滤器.[/note]
 
 # Quest: Tube Madness
 betterquesting.quest.xoH_knd-RV-22QEfLUtuDA.name=我为管道狂
@@ -13603,8 +13603,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALYQ.name=粘性树脂
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALYQ.desc=找不到橡胶树? 造不出集水器? 不想老是搓木龙头?  花点硬币买一组粘性树脂吧.
 
 # Quest: Having trouble finding Botania mushrooms?
-betterquesting.quest.ZW-P5BllSP25hEBQTgEBQQ.name=Having trouble finding Botania mushrooms?
-betterquesting.quest.ZW-P5BllSP25hEBQTgEBQQ.desc=Why not exchange a few coins to save yourself the time of combing the Twilight forest for Shimmering mushrooms.
+betterquesting.quest.ZW-P5BllSP25hEBQTgEBQQ.name=找不到植物魔法的蘑菇?
+betterquesting.quest.ZW-P5BllSP25hEBQTgEBQQ.desc=为什么不花一些硬币来节省你在暮色森林中寻找微光蘑菇的时间呢?
 
 # Quest: More SMD Inductors
 betterquesting.quest.b8oLtR7SS86ItajFCriChw.name=更多贴片电感
@@ -14227,16 +14227,16 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMzw.name=1阶纳米锻炉
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMzw.desc=一定有种方式,可以让纳米机器人,在机器中参与加工.虽说可以在装配线中制造碳纳米蜂群,但效率极低.一定还有更好的方式.%n%n这台纳米锻炉如何,它能够将方块切割成纳米级薄片,然后制成第一个纳米蜂群,而生产出来的纳米蜂群又可以参与制造,几秒内即可造出数以千计的同类.%n%n[note]纳米锻炉是一台庞大的多方块机器,在几分钟内需要消耗更加庞大的能量.支持TecTech的多A能源仓/激光仓.需要在控制器的GUI中放入一个碳纳米蜂群,方可解锁1阶配方.[/note]%n%n[note]另外,NEI中纳米锻炉配方没有最低电压要求.如果你想要让配方正常运行,只需达到其功率即可,不用管电压.[/note]
 
 # Quest: Compact Storage
-betterquesting.quest.QNsm_wc0QO2g9C6_-vj2fA.name=§2§lCompact Storage
-betterquesting.quest.QNsm_wc0QO2g9C6_-vj2fA.desc=Now that you are starting to find more and more copper, you feel your wood chests are too small to hold all the stuff. %n%n[note]It's time to upgrade your wooden chests to copper chests! Higher tiers of chests can be upgraded cheaply by using upgrade items, but not all tier chests can be upgraded directly this way. try the "Wood to Copper Chest Upgrade", upgrade from wood to a tiered chest will not be chaper.[/note]%n%n[note]Upgraded chests cannot be connected into double chests.[/note]
+betterquesting.quest.QNsm_wc0QO2g9C6_-vj2fA.name=§2§l紧凑的存储
+betterquesting.quest.QNsm_wc0QO2g9C6_-vj2fA.desc=现在你已经有了越来越多的铜储备,你感觉你的木箱子太小了,不能存下你的所有东西. %n%n[note]是时候将你的木箱子升级为铜箱子了!更高等级的箱子可以通过升级组件方便地进行升级,但并不是所有等级的箱子都可以通过这种方法直接升级.试试看"升级：木>铜",虽然用这种方式将木箱子升级到高级的箱子并不会更加便宜.[/note]%n%n[note]升级后相邻的箱子不再能连接组成更大的箱子.[/note]
 
 # Quest: Steel Chest?
 betterquesting.quest.V4jinTYRSueIrEqn90dRzQ.name=§3§l钢箱子?
 betterquesting.quest.V4jinTYRSueIrEqn90dRzQ.desc=钢箱子的造价明显高于金箱,容量也更小,但可用于某些特殊合成配方.%n
 
 # Quest: Multiblock Revolution
-betterquesting.quest.hEsmeH74S4aOOrROI1AHxQ.name=§3§lMultiblock Revolution
-betterquesting.quest.hEsmeH74S4aOOrROI1AHxQ.desc=The steam machines you have been using until now have served you well, but there will be a time when you need to process even more items. That's where the so-called multiblocks come in. There’s a variety of steam multiblocks available to you - go have a look at the Mass Processing quest tab! %n%nThis tab introduces you to a wide range of extremely powerful multiblock machines that can replace your old, worn-out singleblocks (and some that can replace your old multiblocks!). Many of these new machines will require you to handle additional mechanics and requirements, but it will be worth it!%n%nHere are some terms you should be familiar with as you enter the world of multiblocks:%n%nOverclock (OC): %nIf a machine can handle at least 4 times the voltage that is required for a recipe, it will overclock - causing it to require 4x the EU/t but also run 2x as fast. This can happen multiple times!%n%nPerfect Overclock (Often phrased as "Does not lose efficiency when overclocked):%nSome machines conditionally (or unconditionally) perform perfect overclocks: in this case, the machine will require 4x the EU/t, but it will run 4x as fast instead, leading to both increased speed and no net increase in the total eu usage!%n%nParallel (Often phrased as "Processes x items"): %nMachines which parallel act as if they are running multiple of themselves - that is to say, they are able to perform multiple of the same recipe at the same time, using the recipe's EU/t multiplied by the number of parallels. Machines which parallel will [warn]PRIORITIZE[/warn] this behavior over overclocking, which is good for you! Parallels are more efficient.%n%n[note]When working with multiblocks, if power is interrupted during operation, your inputs will be lost forever... careful![/note]
+betterquesting.quest.hEsmeH74S4aOOrROI1AHxQ.name=§3§l多方块革命
+betterquesting.quest.hEsmeH74S4aOOrROI1AHxQ.desc=你一直在使用的蒸汽机器表现良好,但总有一天你需要处理更多的物品.这时候,所谓的多方块机器就派上用场了.有多种蒸汽多方块机器可供你选择——快去看看“大规模加工”任务栏吧!%n%n这个任务栏将向你介绍一系列极其强大的多方块机器,它们可以替代你那些陈旧的单方块机器(以及一些旧的多方块机器!).这些新机器中的许多需要你处理额外的机制和要求,但绝对值得一试!%n%n在进入多方块的世界之前,你需要熟悉以下术语:%n%n超频(OC):%n如果一台机器能够处理至少为配方所需电压4倍的电压,它将会超频——导致其需要4倍的EU/t,但运行速度提高到2倍.这种情况可以多次发生!%n%n无损超频(通常表述为“超频时效率不会降低”):%n某些机器在条件允许时(或无条件)执行完美超频:在这种情况下,机器需要4倍的EU/t,但运行速度提高到4倍,从而既增加了速度又没有总EU消耗的净增量!%n%n并行(通常表述为“同时处理x个物品”):%n并行工作的机器就像在运行多个自身——也就是说,它们可以同时执行多个相同的配方,使用配方的EU/t乘以并行数.机器会[warn]优先考虑[/warn]并行这种行为而不是超频,这对你有利!并行更加高效.%n%n[note]当使用多方块机器时,如果运行过程中电力中断,你的输入物品将会永久丢失……小心![/note]
 
 # Quest: Dark Steel Chest
 betterquesting.quest.t6xRGFm_S2SG6_-xNh8mwQ.name=§5§6§l玄钢箱子
@@ -14370,19 +14370,19 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrw.name=工具:不要完成
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrw.desc=这个任务永远不应该完成,它用来隐藏模板和其他必要隐藏的任务.
 
 # Quest: Trigger: Early Scribing Tools
-betterquesting.quest.S8Z31Xp-RrSdc2A6rOvUzg.name=Trigger: Early Scribing Tools
+betterquesting.quest.S8Z31Xp-RrSdc2A6rOvUzg.name=触发:笔与墨
 betterquesting.quest.S8Z31Xp-RrSdc2A6rOvUzg.desc=无描述
 
 # Quest: Trigger:Styrene-Butadiene rubber
-betterquesting.quest.cQkx83QYT4m3mwovgZIKvA.name=Trigger:Styrene-Butadiene rubber
+betterquesting.quest.cQkx83QYT4m3mwovgZIKvA.name=触发:丁苯橡胶
 betterquesting.quest.cQkx83QYT4m3mwovgZIKvA.desc=无描述
 
 # Quest: Trigger: Profane Wand
-betterquesting.quest.kPOfft_mTjqocCR6z9GhVw.name=Trigger: Profane Wand
+betterquesting.quest.kPOfft_mTjqocCR6z9GhVw.name=触发:渎神杖柄
 betterquesting.quest.kPOfft_mTjqocCR6z9GhVw.desc=无描述
 
 # Quest: Trigger:Nether Skip
-betterquesting.quest.qFco17HGS0SxmpVn-uWJZQ.name=Trigger:Nether Skip
+betterquesting.quest.qFco17HGS0SxmpVn-uWJZQ.name=触发:跳过下界
 betterquesting.quest.qFco17HGS0SxmpVn-uWJZQ.desc=无描述
 
 # Quest: Trigger: LV Extruder Skip

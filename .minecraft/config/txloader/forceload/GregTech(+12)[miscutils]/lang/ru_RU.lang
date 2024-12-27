@@ -11,7 +11,7 @@ itemGroup.MiscUtilBOP=[GT++] Biomes O'Plenty Additions
 item.AAA_Broken.name=[Несуществующий предмет] Сообщите об этом рецепте на Github, пожалуйста.
 item.itemBedLocator_Base.name=Bed Locator [NBT Test]
 item.itemBaseItemWithCharge.name=Base Chargeable Item
-item.miscutils_itemDebugShapeSpawner.name=[Debug] Shapes
+item.miscutils_itemDebugShapeSpawner.name=[Отладка] Формы
 
 //Fluids
 tile.fluidSludge.name=Застойная сточная вода
@@ -50,7 +50,7 @@ tile.blockVolumetricFlaskSetter.name=Конфигуратор мерной ко�
 tile.blockSuperLight.name=Сияющая Звезда
 tile.blockPestKiller.name=Уничтожитель вредителей
 tile.blockSuperJukebox.name=Сэр Миксалот [Проигрыватель]
-tile.blockSuperJukebox.deprecated=§cУСТАРЕЛО, используйте вместо этого Электрический проигрыватель
+tile.blockSuperJukebox.deprecated=§cУСТАРЕЛО, Используйте вместо этого Электрический проигрыватель
 
 //Tools
 item.itemBufferCore.name=Энергетическое ядро
@@ -1912,9 +1912,9 @@ item.everglades.trigger.name=§6Alkalus диск [§cАктивирован§6]
 
 
 //Blocks
-tile.blockRainforestOakLog.name=Дуб тропический
+tile.blockRainforestOakLog.name=Тропический дуб
 tile.blockRainforestOakLeaves.name=Дубовые листья
-tile.blockRainforestOakSapling.name=Сажене дуба тропического
+tile.blockRainforestOakSapling.name=Саженец тропического дуба
 tile.blockPineLogLog.name=Сосновая древесина
 tile.blockPineLeaves.name=Сосновая листва
 tile.blockPineSapling.name=Саженец сосны

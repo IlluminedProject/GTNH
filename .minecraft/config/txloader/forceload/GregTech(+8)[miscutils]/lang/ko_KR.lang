@@ -3115,7 +3115,7 @@ item.itemHeavyPlateWhiteMetal.name=Heavy White Metal Plate
 item.itemHeavyPlateBlackMetal.name=Heavy Black Metal Plate
 item.itemHeavyPlateAncientGranite.name=Heavy Ancient Granite Plate
 
-item.GTPP.bauble.fireprotection.0.name=Supreme Pizza Gloves
+item.GTPP.bauble.fireprotection.0.name=오도기합 오븐 장갑
 
 
 //Added 16/5/19
@@ -3248,7 +3248,7 @@ item.CarbonMonoxide.name=Carbon Monoxide Cell
 item.itemCellCarbonMonoxide.name=Carbon Monoxide Cell
 item.acetone.name=Acetone Cell
 item.saltwater.name=Salt Water Cell
-item.BasicAgrichemItem.22.name=Mold (Pellet)
+item.BasicAgrichemItem.22.name=주조용 금형(펠릿)
 item.BasicAgrichemItem.23.name=Clean Aluminium Mix
 
 //Added 12/12/19

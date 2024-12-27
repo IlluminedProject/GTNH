@@ -47,7 +47,7 @@ GT5U.cracker.io_side=Input/Output Hatches must be on opposite sides!
 GT5U.turbine.running.true=Турбина работает
 GT5U.turbine.running.false=Турбина остановлена
 GT5U.turbine.maintenance.false=Механизм исправен
-GT5U.turbine.maintenance.true=Нуждается в обслуживании
+GT5U.turbine.maintenance.true=Нуждается в техобслуживании
 GT5U.turbine.efficiency=Текущая скорость
 GT5U.turbine.flow=Оптимальный поток
 GT5U.turbine.fuel=Остаток топлива
@@ -121,7 +121,7 @@ gt.recipe.chemicalbath.description=Купание руд в химикатах �
 gt.recipe.chemicalreactor=Химический реактор
 gt.recipe.chemicalreactor.description=Позвольте химическим веществам вступать в реакцию друг с другом
 gt.recipe.circuitassembler=Сборщик электросхем
-gt.recipe.circuitassembler.description=Pick-n-Place all over the place
+gt.recipe.circuitassembler.description=Pick-n-Place повсюду
 gt.recipe.compressor=Компрессор
 gt.recipe.compressor.description=Сожми до черной дыры C77
 gt.recipe.cuttingsaw=Режущий станок
@@ -354,6 +354,9 @@ GT5U.GTPP_MULTI_PRECISE_ASSEMBLER.mode.1=Normal
 GT5U.GTPP_MULTI_PACKAGER.mode.0=Упаковщик
 GT5U.GTPP_MULTI_PACKAGER.mode.1=Распаковщик
 GT5U.MULTI_MACHINE_CHANGE=Сейчас работает в режиме %s
+GT5U.MULTI_MACHINE_CONFIG.SAVE=Saved Multiblock Hatch Configuration
+GT5U.MULTI_MACHINE_CONFIG.LOAD=Loaded Multiblock Hatch Configuration
+GT5U.MULTI_MACHINE_CONFIG.LOAD.FAIL=Failed to load Multiblock Hatch Configuration
 GT5U.machines.oreprocessor1=§eРежим работы:
 GT5U.machines.oreprocessor2=§cВремя: %s сек
 GT5U.machines.oreprocessor.void=§eУдаление каменной пыли: %s
@@ -473,6 +476,7 @@ GT5U.gui.button.input_separation=Разделение входов
 GT5U.gui.button.mode_switch=Переключатель режимов
 GT5U.gui.button.batch_mode=Пакетный режим
 GT5U.gui.button.lock_recipe=Зафиксировать рецепт
+GT5U.gui.button.structure_update=Update Structure
 GT5U.gui.button.down_tier=Down Tier
 GT5U.gui.button.tier=Тир:
 GT5U.gui.button.forbidden=§4Нельзя изменить режим для этого механизма
@@ -608,8 +612,13 @@ GT5U.multiblock.problems=Проблемы
 GT5U.multiblock.mei=Max Energy Income
 GT5U.multiblock.maxtier=Макс. Тир
 GT5U.multiblock.usage=Примерное потребление
-GT5U.multiblock.parallelism=Max parallelism
-GT5U.multiblock.curparallelism=Current parallelism
+GT5U.multiblock.parallelism=Max Parallels
+GT5U.multiblock.curparallelism=Current Parallels
+GT5U.multiblock.euModifier=EU Modifier
+GT5U.multiblock.speed=Speed
+GT5U.multiblock.fluidPipeTier=Fluid Pipe Tier
+GT5U.multiblock.itemPipeTier=Item Pipe Tier
+GT5U.multiblock.coilLevel=Heating Coil Level
 
 # NEI recipe handlers
 GT5U.nei.heat_capacity=Теплоёмкость: %s K (%s)
@@ -1400,6 +1409,7 @@ for.bees.species.fireessence=Огненная эссенция
 for.bees.species.unknownwater=Неизвестная вода
 for.bees.species.nethershard=Адский кристалл
 for.bees.species.endshard=Осколок Края
+for.bees.species.dragonblood=Dragonblood
 
 for.mutation.condition.biomeid=Требуемый биом
 for.mutation.condition.dim=Необходимое измерение
@@ -1548,7 +1558,7 @@ gt.solar.system.phobos=Фобос
 
 gt.multiBlock.controller.cokeOven=Коксовая печь
 
-gt.locker.waila_armor_slot_none=Slot %s: §7None
+gt.locker.waila_armor_slot_none=Слот %s: §7Никакой
 gt.locker.waila_armor_slot_generic=Слот %s: §e%s
 gt.locker.waila_armor_slot_charged=Слот %s: §e%s§r (%s%s%%§r)
 
@@ -1569,7 +1579,7 @@ gt.item.adv_sensor_card.error.no_data=Данные не найдены
 gt.cover.info.format.tick_rate=§b%s§r %s
 gt.cover.info.chat.tick_rate=Cover tick rate set to %s
 gt.cover.info.chat.tick_rate_not_allowed=Cannot adjust tick rate of this cover type with a jackhammer
-gt.cover.info.button.tick_rate.1=Current tick rate: Every %s%s
+gt.cover.info.button.tick_rate.1=Текущая тиковая скорость: каждые %s%s
 gt.cover.info.button.tick_rate.2=ЛКМ увеличить, ПКМ уменьшить
 gt.cover.info.button.tick_rate.3=Hold Ctrl to adjust by more steps per click
 gt.cover.info.button.bounds_notification.minimum=§7 (минимум)§r
@@ -1580,7 +1590,7 @@ gt.time.second.singular=секунд
 gt.time.second.plural=секунды
 
 #Tool modes
-gt.wrench.mode.1=Line Mode
+gt.wrench.mode.1=Режим линии
 
 
 # GT++
@@ -1595,8 +1605,8 @@ GT5U.gui.text.no_saw=§7Отсутствует пила
 GT5U.gui.text.no_sapling=§7Отсутствует саженец
 GT5U.gui.text.no_oxygen=§7Отсутствует кислород
 GT5U.gui.text.fuel_blacklisted=§7Топливо в черном списке
-GT5U.gui.text.no_catalyst=§7No valid catalyst found
-GT5U.gui.text.no_milling_ball=§7No milling ball found
+GT5U.gui.text.no_catalyst=§7Катализатор не найден
+GT5U.gui.text.no_milling_ball=§7Измельчающий шарик не найден
 GT5U.gui.text.growing_trees=§aGrowing trees
 GT5U.gui.text.managing_power=§aManaging power
 GT5U.gui.text.no_scrap=§aInput too low quality
@@ -1627,7 +1637,7 @@ GTPP.multiblock.multimachine.fluid=Fluid режим: Ферментер (схе�
 GTPP.multiblock.multimachine.misc=Misc. режим: Точный лазерный гравировщик (схема 20), Автоклав (схема 21) и Жидкостный отвердитель (схема 22).
 
 
-GTPP.waila.steam.use=Probably uses: §e%s§r L/t Steam
+GTPP.waila.steam.use=Примерное потребление: §e%s§r Л/тик пара
 
 GTPP.CC.machinetier=Тир ядра управления
 GTPP.CC.discount=EU Скидка

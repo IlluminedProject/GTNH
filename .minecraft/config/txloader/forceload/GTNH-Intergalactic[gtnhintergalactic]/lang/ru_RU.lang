@@ -75,7 +75,28 @@ achievement.item.MiningDroneUXV=Шахтёрский дрон MK-XIII
 achievement.item.MiningDroneUXV.desc=Пожиратель известной вселенной
 achievement.item.MiningDroneMAX=Шахтёрский дрон MK XIV
 achievement.item.MiningDroneMAX.desc=Пожиратель всего, что было и будет
-
+achievement.tile.DysonSwarmReceiverCasing=Основной корпус приемника энергии дайсон роя
+achievement.tile.DysonSwarmReceiverCasing.desc=Просто посмотри рецепт в NEI
+achievement.tile.DysonSwarmReceiverDish=Блок тарелки приемника энергии дайсон роя
+achievement.tile.DysonSwarmReceiverDish.desc=Просто посмотри рецепт в NEI
+achievement.tile.DysonSwarmDeploymentUnitCore=Ядро модуля группы развертывания дайсон роя
+achievement.tile.DysonSwarmDeploymentUnitCore.desc=Просто посмотри рецепт в NEI
+achievement.tile.DysonSwarmControlSecondary=Вторичная обмотка центра управления дайсон роя
+achievement.tile.DysonSwarmControlSecondary.desc=Просто посмотри рецепт в NEI
+achievement.tile.DysonSwarmControlToroid=Тороидальный корпус центра управления дайсон роя
+achievement.tile.DysonSwarmControlToroid.desc=Просто посмотри рецепт в NEI
+achievement.tile.DysonSwarmControlCasing=Основной корпус центра управления дайсон роя
+achievement.tile.DysonSwarmControlCasing.desc=Просто посмотри рецепт в NEI
+achievement.tile.DysonSwarmDeploymentUnitMagnet=Сверхпроводящий магнит модуля группы развертывания дайсон роя
+achievement.tile.DysonSwarmDeploymentUnitMagnet.desc=Просто посмотри рецепт в NEI
+achievement.tile.DysonSwarmControlPrimary=Первичная обмотка центра управления дайсон роя
+achievement.tile.DysonSwarmControlPrimary.desc=Просто посмотри рецепт в NEI
+achievement.tile.DysonSwarmDeploymentUnitCasing=Основной корпус модуля группы развертывания дайсон роя
+achievement.tile.DysonSwarmDeploymentUnitCasing.desc=Просто посмотри рецепт в NEI
+achievement.gt.blockmachines.dysonswarm=Ядро группы дайсон роя
+achievement.gt.blockmachines.dysonswarm.desc=Просто посмотри рецепт в NEI
+achievement.item.dysonSwarmModule=Модуль дайсон роя
+achievement.item.dysonSwarmModule.desc=Просто посмотри рецепт в NEI
 
 
 # Items
@@ -94,6 +115,12 @@ item.MiningDroneUIV.name=Шахтёрский дрон MK-XI
 item.MiningDroneUMV.name=Шахтёрский дрон MK-XII
 item.MiningDroneUXV.name=Шахтёрский дрон MK-XIII
 item.MiningDroneMAX.name=Шахтёрский дрон MK-XIV
+item.dysonSwarmModule.name=Модуль дайсон роя
+item.TaHfCNanofibers.name=Tantalum Hafnium Carbide Nanofibers
+item.NtNanofibers.name=Нейтрониевые нановолокна
+item.UHTResistantMesh.name=Ultra High Temperature Resistant Mesh
+item.TaHfNanoparticles.name=Tantalum Hafnium Carbide Nanoparticles
+item.NtNanoparticles.name=Neutronium Nanoparticles
 
 # Blocks
 gt.blockcasings.ig.0.name=Основной корпус космического лифта
@@ -120,6 +147,17 @@ gt.blockcasings.ig.motor.t3.desc1=Zooooom
 gt.blockcasings.ig.motor.t4.desc1=Я СКОРОСТЬ
 gt.blockcasings.ig.motor.t5.desc1=Kachow
 gt.blockcasings.ig.motor.desc2=Unlocks %s Module-Slots in the Space Elevator
+tile.DysonSwarmReceiverCasing.name=Основной корпус приемника энергии дайсон роя
+tile.DysonSwarmReceiverDish.name=Блок тарелки приемника энергии дайсон роя
+tile.DysonSwarmDeploymentUnitCasing.name=Основной корпус модуля группы развертывания дайсон роя
+tile.DysonSwarmDeploymentUnitCore.name=Ядро модуля группы развертывания дайсон роя
+tile.DysonSwarmDeploymentUnitMagnet.name=Сверхпроводящий магнит модуля группы развертывания дайсон роя
+tile.DysonSwarmControlCasing.name=Основной корпус центра управления дайсон роя
+tile.DysonSwarmControlPrimary.name=Первичная обмотка центра управления дайсон роя
+tile.DysonSwarmControlSecondary.name=Вторичная обмотка центра управления дайсон роя
+tile.DysonSwarmControlToroid.name=Тороидальный корпус центра управления дайсон роя
+tile.DysonSwarmFloor.name=Сверхвысокопрочный бетонный пол
+tile.GasSiphonCasing.name=Корпус планетарного сифона
 
 # GUI
 GT5U.gui.text.no_space_station=§7Not on a space station
@@ -154,21 +192,36 @@ gt.blockmachines.multimachine.ig.siphon.lore1=333:It's time to SUCC!
 gt.blockmachines.multimachine.ig.siphon.lore2=333:Trading EU -> Fluids
 gt.blockmachines.multimachine.ig.siphon.lore3=The name is wrong by definition...
 
+# Dyson Swarm
+gt.blockmachines.multimachine.ig.dyson.name=Ядро группы дайсон роя
+gt.blockmachines.multimachine.ig.dyson.type=Дайсон рой
+gt.blockmachines.multimachine.ig.dyson.desc1=Put Dyson Swarm Modules in the Input Bus(ses) to send them to the next star.
+gt.blockmachines.multimachine.ig.dyson.desc2=Outputs %s*f EU/t, where f is a dimension-dependent factor.
+gt.blockmachines.multimachine.ig.dyson.desc3=Each second, n of m Dyson Swarm Modules are destroyed according to this formula:
+gt.blockmachines.multimachine.ig.dyson.desc4=Each hour, n of m modules are destroyed according to this formula: n = m * (2 * %s) / (exp(-%s* (m - 1))+exp(%s * cps)), where cps is computation per second.
+gt.blockmachines.multimachine.ig.dyson.desc5=Requires %sL/h of %s.
+gt.blockmachines.multimachine.ig.dyson.desc6=R-Click with a Plunger to extract as many Modules to your inventory as possible.
+gt.blockmachines.multimachine.ig.dyson.desc7=Sneaking will dump the rest on the ground.
+gt.blockmachines.multimachine.ig.dyson.lore0=Wait, this isn't an army of vacuum cleaners?
+gt.blockmachines.multimachine.ig.dyson.lore1=Number 9? Not quite.
+gt.blockmachines.multimachine.ig.dyson.lore2=Not the game.
+gt.blockmachines.multimachine.ig.dyson.lore3=Basically solar panels.
+gt.blockmachines.multimachine.ig.dyson.lore4=Invented by a free man.
+
 # Space Elevator
 gt.blockmachines.multimachine.ig.elevator.name=Космический лифт
-gt.blockmachines.multimachine.ig.elevator.desc0=Блок-контроллер космического лифта
 gt.blockmachines.multimachine.ig.elevator.desc2=Может быть оснащёно до 12 модулей космического лифта
 gt.blockmachines.multimachine.ig.elevator.desc3=Motor tier limits module tier and amount of possible modules
 gt.blockmachines.multimachine.ig.elevator.desc4=Each module has their own space for IO, except energy
 gt.blockmachines.multimachine.ig.elevator.desc5=Energy is supplied to this controller and gets distributed
 gt.blockmachines.multimachine.ig.elevator.desc6=Starting from MK-III Motors the structure can be expanded to fit 24 modules
 gt.blockmachines.multimachine.ig.elevator.desc7=Disabling this controller also pauses all modules
-gt.blockmachines.multimachine.ig.elevator.lore0=10:Elevates to space
-gt.blockmachines.multimachine.ig.elevator.lore1=10:What's your favorite thing about space? Mine is space.
+gt.blockmachines.multimachine.ig.elevator.lore0=10:Поднимает в космос
+gt.blockmachines.multimachine.ig.elevator.lore1=10:Что вам больше всего нравится в космосе? Мне больше всего нравится космос.
 gt.blockmachines.multimachine.ig.elevator.lore2=10:Putting all those VMs out of jobs
-gt.blockmachines.multimachine.ig.elevator.lore3=Envisioned by Konstantin Tsiolkovsky
-gt.blockmachines.multimachine.ig.elevator.lore4=Did you read "The Fountains of Paradise"?
-gt.blockmachines.multimachine.ig.elevator.lore5=Did you read "The Web Between the Worlds"?
+gt.blockmachines.multimachine.ig.elevator.lore3=Представлено Константином Циолковским
+gt.blockmachines.multimachine.ig.elevator.lore4=Вы читали «Фонтаны рая»?
+gt.blockmachines.multimachine.ig.elevator.lore5=Вы читали «Сеть между мирами»?
 gt.blockmachines.multimachine.ig.elevator.gui.numOfModules=Установленно модулей
 gt.blockmachines.multimachine.ig.elevator.gui.ready=Ready for Operation.
 gt.blockmachines.multimachine.ig.elevator.gui.noRecipe=No Operation started.
@@ -192,9 +245,9 @@ gt.blockmachines.multimachine.project.ig.assembler.desc0=Module that adds the Sp
 gt.blockmachines.multimachine.project.ig.assembler.t1.desc1=Why do I need to assemble stuff in space again?
 gt.blockmachines.multimachine.project.ig.assembler.t2.desc1=Is this really necessary?
 gt.blockmachines.multimachine.project.ig.assembler.t3.desc1=I guess we'll never know.
-gt.blockmachines.multimachine.project.ig.assembler.t1.desc2=До 4 параллелей
-gt.blockmachines.multimachine.project.ig.assembler.t2.desc2=До 16 параллелей
-gt.blockmachines.multimachine.project.ig.assembler.t3.desc2=До 64 параллелей
+gt.blockmachines.multimachine.project.ig.assembler.t1.desc2=Работает в UHV до 4 параллелей на рецепт
+gt.blockmachines.multimachine.project.ig.assembler.t2.desc2=Работает в UIV до 16 параллелей на рецепт
+gt.blockmachines.multimachine.project.ig.assembler.t3.desc2=Работает в UXV до 4 параллелей на рецепт
 gt.blockmachines.multimachine.project.ig.assembler.cfgi.0=Макс. параллелей
 
 # Module Miner
@@ -215,11 +268,17 @@ gt.blockmachines.multimachine.project.ig.miner.t1.desc1=Great treasures beyond y
 gt.blockmachines.multimachine.project.ig.miner.t2.desc1=Does this violate drone rights?
 gt.blockmachines.multimachine.project.ig.miner.t3.desc1=This definitely violates drone rights.
 gt.blockmachines.multimachine.project.ig.miner.desc3=Для работы требуется плазма (1000L Гелий / 500L Висмут / 300L Радон).
-gt.blockmachines.multimachine.project.ig.miner.desc4=Higher tier plasmas give bonuses.
-gt.blockmachines.multimachine.project.ig.miner.t1.desc5=До 2 параллелей
-gt.blockmachines.multimachine.project.ig.miner.t2.desc5=До 4 параллелей
-gt.blockmachines.multimachine.project.ig.miner.t3.desc5=До 8 параллелей
+gt.blockmachines.multimachine.project.ig.miner.desc4=Higher tier plasmas increases the chances of mining bigger asteroids, and improves mining operation time.
+gt.blockmachines.multimachine.project.ig.miner.desc5=Needs to be fed with computation to work.
+gt.blockmachines.multimachine.project.ig.miner.t1.desc5=Работает в UV до 2 параллелей на рецепт
+gt.blockmachines.multimachine.project.ig.miner.t2.desc5=Работает в UHV до 4 параллелей на рецепт
+gt.blockmachines.multimachine.project.ig.miner.t3.desc5=Работает в UEV до 8 параллелей на рецепт
 gt.blockmachines.multimachine.project.ig.miner.desc6=Ores can be black-/whitelisted by putting them in an input bus
+gt.blockmachines.multimachine.project.ig.miner.activedronetiers=Active drone tiers
+gt.blockmachines.multimachine.project.ig.miner.asteroidsummaries.0=Possible asteroids for current distance and drones
+gt.blockmachines.multimachine.project.ig.miner.asteroidchance=operation
+gt.blockmachines.multimachine.project.ig.miner.asteroidtimedensity=time
+gt.blockmachines.multimachine.project.ig.miner.asteroidmaxparallels=up to
 
 # Module Pump
 gt.blockmachines.multimachine.project.ig.pump.t1.name=Модуль космической помпы MK-I
@@ -231,7 +290,10 @@ gt.blockmachines.multimachine.project.ig.pump.t2.desc1=Literally sucks
 gt.blockmachines.multimachine.project.ig.pump.t3.desc1=S U C C
 gt.blockmachines.multimachine.project.ig.pump.desc3=Set Planet and Gas Type determine pumped fluid
 gt.blockmachines.multimachine.project.ig.pump.desc4=Can be void protected by locking output hatches
-gt.blockmachines.multimachine.project.ig.pump.t2.desc5=Processes up to 4 different recipes at once
+gt.blockmachines.multimachine.project.ig.pump.t1.desc5=Работает в UHV до 4 параллелей на рецепт
+gt.blockmachines.multimachine.project.ig.pump.t2.desc5=Runs at UEV with up to 4 parallels per recipe
+gt.blockmachines.multimachine.project.ig.pump.t3.desc5=Работает в UXV до 64 параллелей на рецепт
+gt.blockmachines.multimachine.project.ig.pump.t2.desc6=Processes up to 4 different recipes at once
 gt.blockmachines.multimachine.project.ig.pump.cfgi.0=Тип планеты
 gt.blockmachines.multimachine.project.ig.pump.cfgi.1=Тип газа
 gt.blockmachines.multimachine.project.ig.pump.cfgi.2=Параллелей
@@ -273,11 +335,11 @@ ig.nei.siphon.depth=Глубина
 
 # Structure and Tooltip
 ig.siphon.structure.ControllerPos=Спереди внизу
-ig.siphon.structure.AnyAdvMachineFrame=Любой Улучшенный корпус машин
+ig.siphon.structure.AnySiphonCasing=Любой блок Корпуса планетарного сифона
 ig.siphon.structure.PillarMiddle=1x4x1 столб посередине
-ig.siphon.structure.Sides=Сторона каждой колонны и 1x3x1 сверху
+ig.siphon.structure.Sides=По бокам каждой колонны и 1x3x1 сверху
 ig.siphon.structure.Base=Основа 3x1x3 (полый)
-ig.siphon.structure.AdvMachineFrame=Улучшенный корпус машин
+ig.siphon.structure.SiphonCasing=Корпус планетарного сифона
 ig.siphon.structure.FrameTungstensteel=Каркас из вольфрамовой стали
 ig.siphon.structure.ReboltedRhodiumPalladiumCasing=Переболтованный корпус из родированного палладия
 ig.elevator.structure.ProjectModule=Проектный модуль
@@ -288,14 +350,31 @@ ig.elevator.structure.OpticalConnector=Разъем для оптоволокн�
 ig.elevator.structure.AnyBaseCasingWith1Dot=любой Основной корпус космического лифта с 1 точкой
 ig.elevator.structure.AnyBaseCasingWith2Dot=любой Основной корпус космического лифта с 2 точками
 ig.elevator.structure.AnyBaseCasingWith3Dot=любой Основной корпус космического лифта с 3 точками
-ig.elevator.structure.TooComplex=Эта структура слишком сложна!
 ig.structure.contributors=Авторы
 ig.structure.programming=Programming
 ig.structure.design=Дизайн
 ig.structure.specialThanks=Special Thanks to
-ig.structure.author=Автор:
-ig.structure.moreContributors=Check controller GUI for all Contributors
+ig.structure.author=Добавлено
 ig.structure.and= и
+
+ig.dyson.structure.dynamo=Can use Single- and/or Multi-Amp Dynamo Hatches and/or Laser Source Hatches (1 - 12)
+ig.dyson.structure.optical=Оптический входной разъём
+ig.dyson.structure.additionally=Дополнительно необходимо:
+ig.dyson.structure.deployment.core=Ядро модуля группы развертывания
+ig.dyson.structure.deployment.magnet=Сверхпроводящий магнит модуля группы развертывания
+ig.dyson.structure.deployment.base=Основной корпус модуля группы развертывания
+ig.dyson.structure.receiver.base=Основной корпус приемника энергии
+ig.dyson.structure.receiver.dish=Блок тарелки приемника энергии
+ig.dyson.structure.control.base=Основной корпус центра управления
+ig.dyson.structure.control.primary=Первичная обмотка центра управления
+ig.dyson.structure.control.secondary=Вторичная обмотка центра управления
+ig.dyson.structure.control.toroid=Тороидальный корпус центра управления
+ig.dyson.structure.base.floor=Сверхвысокопрочный бетонный пол
+ig.dyson.structure.base.coil=Блок катушки из пробуждённого дракония
+ig.dyson.structure.base.hermetic=Герметичный корпус X
+ig.dyson.structure.base.frameTitanium=Титановый каркас
+ig.dyson.structure.base.frameHSSS=HSS-S каркас
+ig.dyson.structure.base.frameUHVBase=Каркас из основы UHV сверхпроводника=
 
 # Space Projects
 ig.spaceproject.asteroidoutpost=Asteroid Outpost
@@ -306,3 +385,46 @@ ig.sp.upgrade.improvedcomputation=Improved Computation Upgrade
 ig.sp.upgrade.improvedcomputation.description=This upgrade allows the quantum computers on the asteroid outpost to work on a higher frequency and enables a higher protection against cosmic rays
 ig.sp.upgrade.reinforcedstructure=Reinforced Structure Upgrade
 ig.sp.upgrade.reinforcedstructure.description=This upgrade reinforces the structure to survive hits from any fast moving asteroids and protects the drones from accidents
+
+# Asteroids
+ig.asteroid.coalAsteroid=Уголь
+ig.asteroid.saltAsteroid=Соль
+ig.asteroid.ironAsteroid=Железо
+ig.asteroid.copperAsteroid=Медь
+ig.asteroid.tinAsteroid=Олово
+ig.asteroid.aluminiumAsteroid=Алюминий
+ig.asteroid.nickelAsteroid=Никель
+ig.asteroid.chromeAsteroid=Хром
+ig.asteroid.platlineOreAsteroid=Платиновая руда
+ig.asteroid.gemAsteroid=Драгоценные камни
+ig.asteroid.indiumAsteroid=Индий
+ig.asteroid.thaumiumAsteroid=Таум-металл
+ig.asteroid.basicMagicAsteroid=Базовая магия
+ig.asteroid.niobiumAsteroid=Ниобий
+ig.asteroid.quartzAsteroid=Кварц
+ig.asteroid.lutetiumAsteroid=Лютеций
+ig.asteroid.siliconAsteroid=Кремний
+ig.asteroid.phosphateAsteroid=Фосфат
+ig.asteroid.leadAsteroid=Свинец
+ig.asteroid.adamantiumAsteroid=Адамантий
+ig.asteroid.tungstenTitaniumAsteroid=Вольфрам-Титан
+ig.asteroid.blueAsteroid=Синий
+ig.asteroid.aluminiumLanthlineAsteroid=Aluminium-Lanthline
+ig.asteroid.evergladesAsteroid=Everglades
+ig.asteroid.draconicAsteroid=Драконий
+ig.asteroid.cheeseAsteroid=СЫРНЫЙ
+ig.asteroid.arditeCobaltAsteroid=Ардит-Кобальт
+ig.asteroid.europiumAsteroid=Европий
+ig.asteroid.cosmicAsteroid=Космический
+ig.asteroid.infinityCatalystAsteroid=Катализатор бесконечности
+ig.asteroid.ichoriumAsteroid=Ихорий
+ig.asteroid.clayAsteroid=Глина
+ig.asteroid.mysteriousCrystalAsteroid=Таинственный кристалл
+ig.asteroid.uraniumPlutoniumAsteroid=Уран-Плутоний
+ig.asteroid.holmiumSamariumAsteroid=Гольмий-Самарий
+ig.asteroid.platlinePureAsteroid=Платиновая пыль
+ig.asteroid.magnesiumAsteroid=Магний
+ig.asteroid.lanthanumAsteroid=Лантан
+ig.asteroid.tengamAsteroid=Тингам
+ig.asteroid.naquadahAsteroid=Наквадах
+ig.asteroid.draconicCoreRuin=Ядро Дракона

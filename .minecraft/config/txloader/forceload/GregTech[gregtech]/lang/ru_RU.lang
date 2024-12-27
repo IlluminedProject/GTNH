@@ -47,7 +47,7 @@ GT5U.cracker.io_side=Input/Output Hatches must be on opposite sides!
 GT5U.turbine.running.true=Турбина работает
 GT5U.turbine.running.false=Турбина остановлена
 GT5U.turbine.maintenance.false=Механизм исправен
-GT5U.turbine.maintenance.true=Нуждается в обслуживании
+GT5U.turbine.maintenance.true=Нуждается в техобслуживании
 GT5U.turbine.efficiency=Текущая скорость
 GT5U.turbine.flow=Оптимальный поток
 GT5U.turbine.fuel=Остаток топлива
@@ -113,7 +113,7 @@ gt.recipe.chemicalbath.description=Купание руд в химикатах �
 gt.recipe.chemicalreactor=Химический реактор
 gt.recipe.chemicalreactor.description=Позвольте химическим веществам вступать в реакцию друг с другом
 gt.recipe.circuitassembler=Сборщик электросхем
-gt.recipe.circuitassembler.description=Pick-n-Place all over the place
+gt.recipe.circuitassembler.description=Pick-n-Place повсюду
 gt.recipe.compressor=Компрессор
 gt.recipe.compressor.description=Сожми до черной дыры C77
 gt.recipe.cuttingsaw=Режущий станок
@@ -1467,7 +1467,7 @@ gt.solar.system.phobos=Фобос
 
 gt.multiBlock.controller.cokeOven=Коксовая печь
 
-gt.locker.waila_armor_slot_none=Slot %s: §7None
+gt.locker.waila_armor_slot_none=Слот %s: §7Никакой
 gt.locker.waila_armor_slot_generic=Слот %s: §e%s
 gt.locker.waila_armor_slot_charged=Слот %s: §e%s§r (%s%s%%§r)
 
@@ -1488,7 +1488,7 @@ gt.item.adv_sensor_card.error.no_data=Данные не найдены
 gt.cover.info.format.tick_rate=§b%s§r %s
 gt.cover.info.chat.tick_rate=Cover tick rate set to %s
 gt.cover.info.chat.tick_rate_not_allowed=Cannot adjust tick rate of this cover type with a jackhammer
-gt.cover.info.button.tick_rate.1=Current tick rate: Every %s%s
+gt.cover.info.button.tick_rate.1=Текущая тиковая скорость: каждые %s%s
 gt.cover.info.button.tick_rate.2=ЛКМ увеличить, ПКМ уменьшить
 gt.cover.info.button.tick_rate.3=Hold Ctrl to adjust by more steps per click
 gt.cover.info.button.bounds_notification.minimum=§7 (минимум)§r
@@ -1499,4 +1499,4 @@ gt.time.second.singular=секунд
 gt.time.second.plural=секунды
 
 #Tool modes
-gt.wrench.mode.1=Line Mode
+gt.wrench.mode.1=Режим линии
