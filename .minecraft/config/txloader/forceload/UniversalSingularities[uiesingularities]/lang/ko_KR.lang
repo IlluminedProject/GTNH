@@ -11,6 +11,7 @@ item.universalSingularities.vanilla.emerald.name=에메랄드 특이점
 //Vanilla
 
 //General
+item.avaritia_singularity.name=Singularity
 item.universalSingularities.general.aluminum.name=알루미늄 특이점
 item.universalSingularities.general.brass.name=황동 특이점
 item.universalSingularities.general.bronze.name=청동 특이점
@@ -45,6 +46,7 @@ item.universalSingularities.general.desh.name=데쉬 특이점
 item.universalSingularities.general.meteoricIron.name=운천철 특이점
 item.universalSingularities.general.europium.name=유로퓸 특이점
 item.universalSingularities.general.gangue.name=Gangue Singularity
+item.universalSingularities.general.roseGold.name=Rose Gold Singularity
 //General
 
 //Big Reactors

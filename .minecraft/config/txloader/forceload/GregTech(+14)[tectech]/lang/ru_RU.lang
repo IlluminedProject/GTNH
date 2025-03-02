@@ -18,6 +18,11 @@ tile.reactorSim.name=Симулятор реактора
 tile.reactorSim.desc.0=Разрешитель неопределенности в реакциях деления 9001
 tile.reactorSim.desc.1=Взрывается, но не так сильно...
 
+gt.spacetime_compression_field_generator.name=Генератор поля пространственно-временного сжатия
+gt.time_acceleration_field_generator.name=Генератор поля замедления времени
+
+tile.Forge of the Gods Renderer.name=Forge of the Gods Renderer
+
 #Items
 item.em.programmer.name=AVR-программатор
 item.em.programmer.desc.0=Текущий ПК
@@ -66,7 +71,12 @@ item.em.parametrizerMemoryCard.desc.0=Хранит параметры
 item.em.parametrizerMemoryCard.desc.1=Используйте на параметризаторе/контроллере чтобы настроить их конфигурацию
 item.em.parametrizerMemoryCard.desc.2=Используйте на параметризаторе/контроллере чтобы сохранить параметры
 item.em.parametrizerMemoryCard.desc.3=Shift+ПКМ чтобы заблокировать/разблокировать
+item.em.parametrizerMemoryCard.copyMessage=Configuration copied to the card
+item.em.parametrizerMemoryCard.pasteMessage=Configuration pasted from the card
+item.em.parametrizerMemoryCard.controllerMismatch=Can't paste configuration from %s to %s!
+item.em.parametrizerMemoryCard.noConfig=Can't paste from empty card!
 
+item.tm.teslaCoilCapacitor.name=Тесла конденсатор
 item.tm.teslaCoilCapacitor.0.name=LV Тесла конденсатор
 item.tm.teslaCoilCapacitor.1.name=MV Тесла конденсатор
 item.tm.teslaCoilCapacitor.2.name=HV Тесла конденсатор
@@ -80,10 +90,12 @@ item.tm.teslaCoilCapacitor.desc.2=И все же этот сломанный п�
 item.tm.teslaCoilCapacitor.desc.3=Вставьте это в конденсаторный люк Башни Теслы
 item.tm.teslaCoilCapacitor.desc.4=Конденсаторы работают прямо как аккумулятор, так ведь?
 
+item.tm.itemTeslaComponent.name=Обмотки Тесла
 item.tm.itemTeslaComponent.0.name=Электриумная обмотка Тесла
 item.tm.itemTeslaComponent.1.name=Сверхпроводниковая обмотка Тесла
 item.tm.itemTeslaComponent.desc=Теслабои охотятся на это!
 
+item.tm.teslaCover.name=Тесла-покрытие
 item.tm.teslaCover.0.name=Тесла-покрытие
 item.tm.teslaCover.1.name=Тесла-МЕГАпокрытие
 item.tm.teslaCover.desc.0=Заражает механизмы вирусом ТЕСЛА!
@@ -105,11 +117,13 @@ item.tm.powerpassupgradecover.desc.0=Добавляет трансформато
 item.tm.powerpassupgradecover.desc.1=Трансформаторная подстанция у вас в кармане?!
 item.tm.powerpassupgradecover.desc.2=Сделайте из них гирлянду!
 
-item.tm.itemAstralArrayFabricator.name=Astral Array Fabricator
+item.tm.itemAstralArrayFabricator.name=Астральный массив
 item.tm.itemAstralArrayFabricator.desc0=Parallel dimensions?!
 item.tm.itemAstralArrayFabricator.desc1=Device capable of enhancing the Eye of Harmony's spatial compression,
 item.tm.itemAstralArrayFabricator.desc2=reaching into the space beyond.
 item.tm.itemAstralArrayFabricator.desc3=Allows for recipe parallelism.
+
+item.tm.fakeItemQGP.name=Поддельный предмет
 
 #Death Messages
 death.attack.microwaving=%1$s был дегидратирован под действием радиации.
@@ -476,9 +490,9 @@ gt.blockmachines.hatch.dynamotunnel5.tier.13.name=UXV 65,536A/t Источник
 gt.blockmachines.hatch.dynamotunnel6.tier.13.name=UXV 262,144A/t Источник лазера
 gt.blockmachines.hatch.dynamotunnel7.tier.13.name=UXV 1,048,576A/t Источник лазера
 gt.blockmachines.hatch.dynamotunnel.tier.14.name=Легендарный источник лазера
-gt.blockmachines.hatch.dynamotunnel.desc.0=Многоамперный выход из мультиблоков
+gt.blockmachines.hatch.dynamotunnel.desc.0=Терминал вывода энергии из мультиблоков
 gt.blockmachines.hatch.dynamotunnel.desc.1=Пропускная способность
-gt.blockmachines.hatch.screwdrivertooltip=Use screwdriver to adjust amperage
+gt.blockmachines.hatch.screwdrivertooltip=Используйте отвёртку для регулировки ампеража
 
 gt.blockmachines.emin.tier.08.name=UV Элементный входной шлюз
 gt.blockmachines.emin.tier.09.name=UHV Элементный входной шлюз
@@ -497,17 +511,12 @@ gt.blockmachines.emout.tier.13.name=UXV Выходной элементный ш
 gt.blockmachines.emout.desc=Вывод элементной материи в мультиблоки
 
 #TODO change tier.05 to tier.04
-gt.blockmachines.hatch.param.tier.05.name=Параметрайзер
-gt.blockmachines.hatch.param.tier.07.name=Параметрайзер X
-gt.blockmachines.hatch.param.tier.10.name=Параметрайзер tXt
-gt.blockmachines.hatch.param.desc.0=Для параметризации мультиблоков
-gt.blockmachines.hatch.param.desc.1=E=mine*craft
 
-gt.blockmachines.hatch.certain.tier.05.name=Uncertainty Resolver
+gt.blockmachines.hatch.certain.tier.05.name=Разрешитель неопределенности
 gt.blockmachines.hatch.certain.tier.07.name=Разрешитель неопределенности
 gt.blockmachines.hatch.certain.desc.0=Определенно лучше, не так ли?
 gt.blockmachines.hatch.certain.desc.1=Уравнение Шредингера в одном блоке
-gt.blockmachines.hatch.certain.desc.2=Deprecated! Use Uncertainty Resolver X
+gt.blockmachines.hatch.certain.desc.2=Устарело! Используйте разрешитель неопределенности X
 
 gt.blockmachines.hatch.datain.tier.07.name=Оптический входной разъём
 gt.blockmachines.hatch.datain.desc.0=Квантовый ввод данных в мультиблок
@@ -519,20 +528,20 @@ gt.blockmachines.hatch.dataout.desc.0=Квантовый вывод данных
 gt.blockmachines.hatch.dataout.desc.1=Высокоскоростное оптоволоконное соединение.
 gt.blockmachines.hatch.dataout.desc.2=Должно быть окрашено для работы
 
-gt.blockmachines.hatch.datainass.tier.07.name=Входной разъём для оптоволокна Сборочной линии
-gt.blockmachines.hatch.datainass.desc.0=Квантовый ввод данных в Сборочную линию
+gt.blockmachines.hatch.datainass.tier.07.name=Входной разъём для Сборочной линии
+gt.blockmachines.hatch.datainass.desc.0=Квантовый ввод данных в мультиблок
 gt.blockmachines.hatch.datainass.desc.1=Высокоскоростное оптоволоконное соединение.
 gt.blockmachines.hatch.datainass.desc.2=Должно быть окрашено для работы
 
 gt.blockmachines.hatch.datainasswireless.desc.0=Беспроводной квантовый ввод данных в мультиблок
 gt.blockmachines.hatch.datainasswireless.desc.1=Высокоскоростное подключение к интернету
 
-gt.blockmachines.hatch.dataoutass.tier.07.name=Выходной разъём для оптоволокна Банка данных
-gt.blockmachines.hatch.dataoutass.desc.0=Квантовый вывод данных из Банка данных
+gt.blockmachines.hatch.dataoutass.tier.07.name=Разъем передачи банка данных
+gt.blockmachines.hatch.dataoutass.desc.0=Квантовый вывод данных из мультиблока
 gt.blockmachines.hatch.dataoutass.desc.1=Высокоскоростное оптоволоконное соединение.
 gt.blockmachines.hatch.dataoutass.desc.2=Должно быть окрашено для работы
 
-gt.blockmachines.hatch.wirelessdataoutass.desc.0=Беспроводной квантовый вывод данных в мультиблок
+gt.blockmachines.hatch.wirelessdataoutass.desc.0=Беспроводной квантовый вывод данных из мультиблока
 gt.blockmachines.hatch.wirelessdataoutass.desc.1=Высокоскоростное подключение к интернету
 
 gt.blockmachines.hatch.rack.tier.08.name=Стойка квантового компьютера
@@ -546,6 +555,7 @@ gt.blockmachines.hatch.capacitor.desc.0=Для Башни Теслы
 gt.blockmachines.hatch.capacitor.desc.1=Сохраняет энергию (надолго!)
 
 #Casings
+gt.godforgecasing.name=Обшивка механизма
 gt.blockcasingsNH.10.name=UEV Обшивка механизма
 gt.blockcasingsNH.11.name=UIV Обшивка механизма
 gt.blockcasingsNH.12.name=UMV Обшивка механизма
@@ -575,6 +585,7 @@ gt.blockhintTT.desc.4=Убедитесь, что это не содержит в
 gt.blockhintTT.15.name=Ошибочная подсказка
 gt.blockhintTT.desc.5=ОШИБКА (а что вы ожидали?)
 
+gt.blockcasingsTT.name=Обшивка механизма
 gt.blockcasingsTT.0.name=Высокоэнергетический корпус
 gt.blockcasingsTT.0.desc.0=Прекрасно подготовлен для высоких энергий.
 gt.blockcasingsTT.0.desc.1=Энергия растёт!
@@ -624,6 +635,7 @@ gt.blockcasingsTT.15.name=Отладочные стороны
 gt.blockcasingsTT.15.desc.0=Ленивый способ определения сторон
 gt.blockcasingsTT.15.desc.1=0, 1, 2, 3, 4, 5, 6?!
 
+gt.blockcasingsBA0.name=Первичные обмотки Теслы
 gt.blockcasingsBA0.0.name=Первичные обмотки Теслы из сплава красного камня
 gt.blockcasingsBA0.1.name=MV Сверхпроводниковые первичные обмотки Теслы
 gt.blockcasingsBA0.2.name=HV Сверхпроводниковые первичные обмотки Теслы
@@ -649,14 +661,13 @@ gt.blockmachines.multimachine.em.transformer.machinetype=Active Transformer, AT
 gt.blockmachines.multimachine.em.transformer.hint=1 - Энерговывод/вывод и Высокоэнергетический корпус
 gt.blockmachines.multimachine.em.transformer.desc.1=Может преобразовывать в любой вольтаж и обратно
 gt.blockmachines.multimachine.em.transformer.desc.2=Всего 0.004% энергопотерь, ВАУ!!!
-gt.blockmachines.multimachine.em.transformer.desc.3=Взорвется, если сломается во время работы.
 
 gt.blockmachines.multimachine.tm.microwave.name=Совершенная микроволновая печь
 gt.blockmachines.multimachine.tm.microwave.hint.0=1 - Шлюзы или Чистый корпус из нержавеющей стали
 gt.blockmachines.multimachine.tm.microwave.hint.1=Также работает как воронка, так что не забудьте выходной люк
 gt.blockmachines.multimachine.tm.microwave.desc.0=Блок-контроллер Совершенная микроволновая печь
 gt.blockmachines.multimachine.tm.microwave.desc.1=От живого до обугленного за пару секунд!
-gt.blockmachines.multimachine.tm.microwave.desc.2=Я сказала сжечь...Я имела в виду хорошая микроволновка!
+gt.blockmachines.multimachine.tm.microwave.desc.2=Я сказала сжечь... Я имела в виду хорошая микроволновка!
 gt.blockmachines.multimachine.tm.microwave.desc.3=The machine will also collect any items inside of it
 gt.blockmachines.multimachine.tm.microwave.desc.4=Может быть настроен с помощью параметрайзера
 gt.blockmachines.multimachine.tm.microwave.desc.5=(Do not insert a Wither)
@@ -772,8 +783,11 @@ gt.blockmachines.multimachine.em.research.desc.1=Used to scan Data Sticks for As
 gt.blockmachines.multimachine.em.research.desc.2=Needs to be fed with computation to work
 gt.blockmachines.multimachine.em.research.desc.3=Does not consume the item until the Data Stick is written
 gt.blockmachines.multimachine.em.research.desc.4=Используйте отвёртку для смены режима
+gt.blockmachines.multimachine.em.research.desc.5=Computation required in scanner mode follows the formula:
+gt.blockmachines.multimachine.em.research.desc.6=Recipe duration in seconds * (2 ^ (Recipe voltage tier - 1))
 gt.blockmachines.multimachine.em.research.mode.Assembly_line=Режим: Исследовательская станция
 gt.blockmachines.multimachine.em.research.mode.Scanner=Режим: Сканер
+gt.blockmachines.multimachine.em.research.computation=Computation: %,d / %,d
 
 gt.blockmachines.multimachine.em.collider.name=Материальный коллайдер
 gt.blockmachines.multimachine.em.collider.hint.0=1 - Энерговоды или Высокоэнергетические корпуса
@@ -843,7 +857,7 @@ gt.blockmachines.multimachine.em.blackholegenerator.desc.1=Генерация э
 
 # Eye of Harmony
 achievement.gt.blockmachines.multimachine.em.eye_of_harmony=Контроллер глаза гармонии
-achievement.gt.blockcasingsBA0.12=Infinite Spacetime Energy Boundary Casing
+achievement.gt.blockcasingsBA0.12=Граничный корпус бесконечной энергии пространства-времени
 gt.blockcasingsBA0.12.desc.0=Provides a stable bridge between spacetime regions.
 achievement.gt.blockcasingsBA0.11=Укреплённый пространственный структурный корпус
 gt.blockcasingsBA0.11.desc.0=Designed to resist spatial shearing from internal volume expansion.
@@ -892,37 +906,37 @@ achievement.gt.stabilisation_field_generator.8=Галлифрейский ген
 fog.upgrade.confirm=Построить
 fog.upgrade.respec=Respec
 
-fog.upgrade.tt.0=Начать обновление
-fog.upgrade.tt.1=обновление 11
-fog.upgrade.tt.2=обновление 21
-fog.upgrade.tt.3=обновление 22
-fog.upgrade.tt.4=обновление 31
-fog.upgrade.tt.5=обновление 32
-fog.upgrade.tt.6=обновление 33
-fog.upgrade.tt.7=обновление 41
-fog.upgrade.tt.8=обновление 51
-fog.upgrade.tt.9=обновление 52
-fog.upgrade.tt.10=обновление 53
-fog.upgrade.tt.11=обновление 61
-fog.upgrade.tt.12=обновление 71
-fog.upgrade.tt.13=обновление 72
-fog.upgrade.tt.14=обновление 73
-fog.upgrade.tt.15=обновление 74
-fog.upgrade.tt.16=обновление 80
-fog.upgrade.tt.17=обновление 81
-fog.upgrade.tt.18=обновление 82
-fog.upgrade.tt.19=обновление 83
-fog.upgrade.tt.20=обновление 91
-fog.upgrade.tt.21=обновление 92
-fog.upgrade.tt.22=обновление 93
-fog.upgrade.tt.23=обновление 101
-fog.upgrade.tt.24=обновление 111
-fog.upgrade.tt.25=обновление 121
-fog.upgrade.tt.26=обновление 131
-fog.upgrade.tt.27=обновление 141
-fog.upgrade.tt.28=обновление 151
-fog.upgrade.tt.29=обновление 161
-fog.upgrade.tt.30=конец обновления
+fog.upgrade.tt.0=Кузница Богов
+fog.upgrade.tt.1=Improved Gravitational Convection Coils
+fog.upgrade.tt.2=Spacetime Topology Expansion Modulator
+fog.upgrade.tt.3=Cosmic Fuel Chamber Expansion
+fog.upgrade.tt.4=Graviton-Induced Superconductivity System
+fog.upgrade.tt.5=Fluid Dynamics Integration Module
+fog.upgrade.tt.6=Superluminal Amplifier
+fog.upgrade.tt.7=Gravitational Plasma Containment Inductor
+fog.upgrade.tt.8=Relativistic Electron Capacitor
+fog.upgrade.tt.9=Graviton Entanglement Modulator
+fog.upgrade.tt.10=Closed Timelike Curve Disruption Device
+fog.upgrade.tt.11=Quark-Gluon Plasma Isolation Unit
+fog.upgrade.tt.12=Singularity Exposure Fuel Compression Process
+fog.upgrade.tt.13=Transfinite Construction Techniques
+fog.upgrade.tt.14=Gravitationally Guided Electron Beam Emitter
+fog.upgrade.tt.15=Temporal Plasma Transformation Process
+fog.upgrade.tt.16=Duplicity of Potency
+fog.upgrade.tt.17=Critical Neutrino Tunnelling Integration
+fog.upgrade.tt.18=Extreme Pulsar Exposure Chambers
+fog.upgrade.tt.19=Internal Micro-Kugelblitz Generator
+fog.upgrade.tt.20=Neutron Degeneracy Pressure Exposure
+fog.upgrade.tt.21=Parity of Singularity
+fog.upgrade.tt.22=Disparity of Rarity
+fog.upgrade.tt.23=Null-Gravity Modulation Sheath
+fog.upgrade.tt.24=Synthetic Element Decay Stabilization
+fog.upgrade.tt.25=Paradoxical Attainment
+fog.upgrade.tt.26=Cosmically Duplicate
+fog.upgrade.tt.27=Transfinite Stellar Existence
+fog.upgrade.tt.28=The Boundless Flow
+fog.upgrade.tt.29=Effortless Existence
+fog.upgrade.tt.30=Orion’s Arm Genesis Schema
 fog.upgrade.tt.secret=Secret Upgrade
 
 fog.upgrade.tt.short.0=START
@@ -958,39 +972,39 @@ fog.upgrade.tt.short.29=EE
 fog.upgrade.tt.short.30=END
 fog.upgrade.tt.short.secret=SECRET
 
-fog.upgrade.lore.0=The Forge of the Gods is an immensely powerful structure constructed around a stabilized neutron star – it is so advanced that its full capabilities are not yet understood. However, through continued use, one can slowly upgrade and expand the range of abilities of the Forge, and learn the power hidden in the most extreme parts of the universe: graviton shards. This esoteric material can only be found where conventional matter and degenerate neutronium crust matter on the surface of a neutron star meet. At this point in space, gravitons are far more common and irradiate this material mixture to create highly unstable graviton shards, which can be used to internally upgrade the Forge. While these shards cannot yet exist outside the extreme conditions of the Forge, with continued research and utilization it may be possible to eventually isolate and extract them outside the Forge – but for what purpose?
-fog.upgrade.lore.1=The first major upgrade of the Forge of the Gods has allowed for greater processing speeds as the heat increases, thanks to the gravitational warping effects of graviton shards. This is the first of many applications of the shards, which will be discovered through continuous use of the Forge.
-fog.upgrade.lore.2=Graviton shards warp the surface area of fuels used in the Forge, increasing efficiency as more material can be processed per unit of fuel. Graviton shards will prove crucial for further efficiency increases to offset the ever-increasing demands of the Forge.
-fog.upgrade.lore.3=Through use of graviton shards, the space within the Forge’s fuel chambers can be increased, allowing for greater quantities of fuel to be burned, thus reaching higher temperatures. Don’t forget to reserve fuel to keep the star at the centre of the Forge alive.
-fog.upgrade.lore.4=Graviton shards not only affect matter, but also energy: with high enough concentrations of stellar fuel, superconductivity is induced within the Forge purely through gravitational forces. What other properties could these Graviton shards hold?
-fog.upgrade.lore.5=As usage of the Forge continues, more data on graviton shards is gathered. It has been found that they can stabilize the outputs of the Forge, allowing for the direct extraction of molten material while it is still close to the heart of the star.
-fog.upgrade.lore.6=As stellar fuel consumption continues to increase the size and energy of the star, the amount of material that can be processed at once also increases. Graviton shards facilitate the manipulation of increased quantities of materials near the star in the core of the Forge.
-fog.upgrade.lore.7=As understanding of graviton shards continues to improve, better control over the materials they manipulate can be achieved. Graviton shards provide an alternative to electromagnetic containment of plasma using spacetime manipulation instead, allowing the Forge to directly output processed materials as plasma.
-fog.upgrade.lore.8=Adding graviton shards to the Forge’s internal energy storage allows for greater quantities of energy stored in a smaller area. By increasing energy density to relativistic levels, the Forge can be run more efficiently as the electrical potential continues to increase.
-fog.upgrade.lore.9=Simply adding more graviton shards to the fuel chamber continues to amplify the ability for the Forge to consume increased quantities of stellar fuel. It even benefits from graviton shards invested in different parts of the Forge entirely – it seems shards exhibit quantum entanglement-like properties.
-fog.upgrade.lore.10=Increasing the concentration of graviton shards near the material processing regions of the Forge warps spacetime so significantly that it manipulates materials from the causal future and past. This essentially doubles the material input capacity and processing capabilities.
-fog.upgrade.lore.11=Using large quantities of graviton shards creates regions of space so extreme that exotic forms of matter can exist with far greater stability than usual. Unfortunately, this region is so extreme that it is essentially spatially disconnected from the rest of the Forge, unable to utilize existing upgrades to the structure and its other modules.
-fog.upgrade.lore.12=Exposure to graviton-induced micro black holes can further compress stellar fuel, increasing its ability to fuel the star at the centre of the Forge through higher energy fusion reactions than usually possible in a natural star. As a result, greater heat is produced, increasing processing efficiency of the Forge.
-fog.upgrade.lore.13=Increasing the concentration of graviton shards in the fuel chamber begins to exhibit infinite fractal-like properties within finite space, further increasing processing capacity. Though this requires a commensurate increase in stellar fuel to ensure energy reaches matter deep within the chamber.
-fog.upgrade.lore.14=Utilising the unique energy-manipulating properties of graviton shards, electricity can be more efficiently utilised within the Forge. Guiding electrons with gravity rather than matter or electromagnetic forces results in less power loss and thus greater processing speeds.
-fog.upgrade.lore.15=Similar to the Quantum Force Transformer, the quantum-mechanical properties of graviton shards facilitate the ability for the Forge to complete a complex series of nuclear fusion processes in a single event by directly manipulating the subatomic particles of the materials themselves.
-fog.upgrade.lore.16=Another instance of the entanglement-like effects of graviton shards, the simple Power Forge module now also exhibits the improvements made to the Melting Core module of the Forge. This allows for greater efficiency in both processing and allocation of the precious few graviton shards that can be obtained.
-fog.upgrade.lore.17=Typical smelting techniques for exotic materials become too inefficient even at extreme temperatures. Graviton shards facilitate the tunnelling of unprecedented numbers of critically energized neutrinos for vastly improved heat transfer to the target material, one of the most efficient methods of transforming electrical energy into heat for materials.
-fog.upgrade.lore.18=Graviton shards can manipulate not just processing matter, but the star at the centre of the Forge itself. By rotating the star at relativistic speeds, the resulting pulsar bursts can impart more energy per unit of time than mere static exposure. This results in faster processing of larger quantities of materials.
-fog.upgrade.lore.19=Continual improvements to energy storage density using graviton shards improves both the efficiency of the Forge and improvements to heat utilisation for processing. Reaching the singularity threshold of energy has a twofold effect on processing efficiency: the gravitational effects can be used to manipulate the matter itself, while the micro-kugelblitzes paradoxically make their energy more available for use in the Forge.
-fog.upgrade.lore.20=Normally increasing heat indefinitely has extreme diminishing returns when processing materials, but graviton shards allow for other heating options than standard electrically generated heat. Using graviton shards, encasing the target material in extremely degenerate matter compresses it so greatly that it heats up beyond what would be typically possible in the Forge.
-fog.upgrade.lore.21=Using the entanglement-like properties of graviton shards, it is possible to utilize the increasingly extreme differences in spacetime between regions of the Forge to improve the processing capacity of the molten module. As space becomes more warped, more material can be moved closer to the star, increasing production capacity.
-fog.upgrade.lore.22=Returning to the first upgrade of the Forge with the myriad discoveries about graviton shards allows it to run much faster than previously possible. It is sometimes important to review the most basic of assumptions when working outside the known laws of physics, for the simplest facts may be the most powerful.
-fog.upgrade.lore.23=The stress of maintaining such a large structure around such a gravitationally dense object as a neutron star is alleviated through graviton shards. A sheath of gravitational-neutralising material is installed across the Forge to protect the more conventional machinery and only improves efficiency the larger the structure becomes.
-fog.upgrade.lore.24=Improvements in understanding of the gravitational containment effects of graviton shards allow the Forge to process and handle the most exotic of plasmas, including typically nanosecond-lived synthetic transactinide elements. It also extends their lifetime for external usage by stabilizing the atomic nucleus with small quantities of gravitons.
-fog.upgrade.lore.25=Further utilisation of the quantum entanglement-like properties of graviton shards allows the effects of other module upgrades to also apply to the exotic module. However, because of the extreme nature of spacetime within this module and the materials it handles, these benefits are reduced as per the inverse square law.
-fog.upgrade.lore.26=As additional rings are placed closer to the star at the centre of the Forge, the gravitational stress drastically increases on the structure. Graviton shards alleviate these stresses while also creating localized spacetime bridges to link the two rings and their modules’ respective upgrades.
-fog.upgrade.lore.27=A huge development in the capabilities of the Forge has been achieved with the use of large quantities of graviton shards – the ability to indefinitely feed the star with stellar fuel. While this has diminishing returns, the star can exist indefinitely despite the extremely accelerated energy expenditure from endless material processing.
-fog.upgrade.lore.28=The usage of graviton shards in electrical systems to create localised miniature energy wormholes has allowed for such efficient power transfer that effectively unlimited electricity may be utilized by the Forge. More power means faster processing, quicker material movement, and better utilization of graviton shard related upgrades.
-fog.upgrade.lore.29=The final external structural upgrade to the Forge requires the most advanced understanding of graviton shards and their applications in extreme environments. With this, the last 4 module slots of the Forge of the Gods are available to construct, ascending your operation to unseen heights of technological mastery.
-fog.upgrade.lore.30=With total mastery of the Forge of the Gods achieved, it is possible to begin a new universe-spanning initiative. It is now possible to quantize and extract graviton shards for use outside the Forge in powerful new technological endeavours; produce the most exotic plasmas beyond merely periodic elements; and most importantly, begin to understand the immense power of magmatter, a form of matter made entirely of magnetic monopoles with density and stability billions of times that of conventional bosonic matter. It is with this development you realise that the completion of the Forge was not the end goal, but merely a stepping stone to universal transcendence.
+fog.upgrade.lore.0=Кузница богов - это чрезвычайно мощная структура, построенная вокруг стабилизированной нейтронной звезды. Она настолько совершенна, что ее полные возможности еще не изучены. Однако при постоянном использовании можно постепенно улучшать и расширять спектр возможностей Кузницы, а также познать силу, скрытую в самых экстремальных уголках Вселенной: гравитонные осколки. Этот эзотерический материал можно найти только там, где встречаются обычная материя и вырожденная материя нейтронной коры на поверхности нейтронной звезды. В этой точке пространства гравитоны встречаются гораздо чаще и облучают эту материальную смесь, создавая крайне нестабильные гравитонные осколки, которые можно использовать для внутренней модернизации Кузницы. Пока эти осколки не могут существовать вне экстремальных условий Кузницы, но при постоянных исследованиях и использовании их можно будет в конце концов выделить и извлечь за пределы Кузницы - но для чего?
+fog.upgrade.lore.1=Первое крупное улучшение Кузницы Богов позволило увеличить скорость обработки при повышении температуры благодаря эффекту гравитационного искривления гравитонных осколков. Это первое из многих применений осколков, которые будут открыты в ходе постоянного использования Кузницы.
+fog.upgrade.lore.2=Гравитонные осколки деформируют площадь поверхности топлива, используемого в кузнице, повышая эффективность, поскольку на единицу топлива можно переработать больше материала. Гравитонные осколки будут иметь решающее значение для дальнейшего повышения эффективности, чтобы компенсировать постоянно растущие потребности кузницы.
+fog.upgrade.lore.3=С помощью гравитонных осколков можно увеличить пространство в топливных камерах кузницы, что позволяет сжигать большее количество топлива и достигать более высоких температур. Не забудьте запастись топливом, чтобы поддерживать жизнь звезды в центре кузницы.
+fog.upgrade.lore.4=Гравитонные осколки воздействуют не только на материю, но и на энергию: при достаточно высокой концентрации звездного топлива сверхпроводимость в Кузнице возникает исключительно за счет гравитационных сил. Какими еще свойствами могут обладать Гравитонные осколки?
+fog.upgrade.lore.5=По мере использования Кузницы накапливается все больше данных о гравитонных осколках. Выяснилось, что они могут стабилизировать мощность кузницы, позволяя напрямую извлекать расплавленный материал, пока он еще находится вблизи сердца звезды.
+fog.upgrade.lore.6=По мере того как расход звездного топлива увеличивает размер и энергию звезды, растет и количество материалов, которые можно переработать за один раз. Гравитонные осколки позволяют манипулировать большим количеством материалов рядом со звездой в ядре Кузницы.
+fog.upgrade.lore.7=По мере углубления понимания гравитонных осколков можно добиться лучшего контроля над материалами, которыми они манипулируют. Гравитонные осколки представляют собой альтернативу электромагнитному сдерживанию плазмы, используя вместо этого манипуляции с пространством-временем, что позволяет кузнице напрямую выдавать обработанные материалы в виде плазмы.
+fog.upgrade.lore.8=Добавление гравитонных осколков к внутреннему накопителю энергии кузницы позволяет хранить большее количество энергии на меньшей площади. Благодаря увеличению плотности энергии до релятивистских уровней, кузница может работать более эффективно поскольку электрический потенциал продолжает расти.
+fog.upgrade.lore.9=Простое добавление новых гравитонных осколков в топливную камеру усиливает способность кузницы потреблять все большее количество звездного топлива. Этому даже способствуют гравитонные осколки, помещенные в разные части кузницы - похоже, осколки проявляют свойства, сходные с квантовой запутанностью.
+fog.upgrade.lore.10=Увеличение концентрации гравитонных осколков возле областей обработки материалов в Кузнице настолько сильно искривляет пространство-время, что позволяет манипулировать материалами из каузального будущего и прошлого. Это, по сути, удваивает возможности ввода и обработки материалов.
+fog.upgrade.lore.11=Использование большого количества гравитонных осколков создает настолько экстремальные области пространства, что экзотические формы материи могут существовать с гораздо большей стабильностью, чем обычно. К сожалению, эта область настолько экстремальна, что по существу пространственно отделена от остальной части Кузницы, не позволяя использовать существующие улучшения структуры и других ее модулей.
+fog.upgrade.lore.12=Воздействие гравитонно-индуцированных микрочерных дыр может еще больше сжать звездное топливо, увеличивая его способность подпитывать звезду в центре Кузницы за счет реакций синтеза с более высокой энергией, чем это обычно возможно в естественной звезде. В результате выделяется больше тепла, что повышает эффективность работы Кузницы.
+fog.upgrade.lore.13=При увеличении концентрации гравитонных осколков в топливной камере начинают проявляться бесконечные фракталоподобные свойства в ограниченном пространстве, что еще больше повышает производительность. Правда, для этого необходимо соразмерно увеличить количество звездного топлива, чтобы энергия достигла материи в глубине камеры.
+fog.upgrade.lore.14=Используя уникальные свойства гравитонных осколков по управлению энергией, можно более эффективно использовать энергию в кузнице. Управление электронами с помощью гравитации, а не материи или электромагнитных сил приводит к меньшим потерям энергии и, следовательно к большей скорости обработки.
+fog.upgrade.lore.15=Подобно Квантовому силовому преобразователю, квантово-механические свойства гравитонных осколков позволяют Кузнице завершить сложную серию процессов ядерного синтеза за одно событие, напрямую манипулируя субатомными частицами самих материалов.
+fog.upgrade.lore.16=Еще один пример эффекта запутывания гравитонных осколков - простой модуль Power Forge теперь также демонстрирует улучшения, внесенные в модуль Кузницы Melting Core. Это позволяет повысить эффективность обработки и распределения тех немногих гравитонных осколков, которые можно получить.
+fog.upgrade.lore.17=Обычные методы плавки экзотических материалов становятся слишком неэффективными даже при экстремальных температурах. Гравитонные осколки облегчают туннелирование беспрецедентного количества критически заряженных нейтрино, что значительно улучшает теплопередачу к целевому материалу - один из самых эффективных методов преобразования электрической энергии в тепловую для материалов.
+fog.upgrade.lore.18=Гравитонные осколки могут манипулировать не только обрабатываемой материей, но и звездой в центре Кузницы. Вращая звезду на релятивистских скоростях, пульсарные всплески дают больше энергии в единицу времени, чем простое статическое воздействие. Это позволяет быстрее обрабатывать большие объемы материалов.
+fog.upgrade.lore.19=Постоянное улучшение плотности хранения энергии с помощью гравитонных осколков повышает эффективность кузницы и улучшает использование тепла для обработки. Достижение порога энергии сингулярности оказывает двойное влияние на эффективность обработки: гравитационные эффекты можно использовать для манипулирования самой материей, а микро-кугельблицы как ни парадоксально делают энергию более доступной для использования в Кузнице.
+fog.upgrade.lore.20=Обычно неограниченное повышение температуры имеет крайне низкую отдачу при обработке материалов, но гравитонные осколки позволяют использовать другие варианты нагрева, кроме стандартного электрического тепла. Используя гравитонные осколки, заключите целевой материал в крайне вырожденную материю и сожмите его настолько сильно, что он нагреется сверх того, что обычно возможно в Кузнице.
+fog.upgrade.lore.21=Используя свойства гравитонных осколков, подобные запутыванию, можно использовать все более сильные различия в пространственном времени между областями Кузницы для повышения производительности molten module. Поскольку пространство становится более искривленным, можно перемещать больше материала ближе к звезде, увеличивая производственные мощности.
+fog.upgrade.lore.22=Возвращение к первому улучшению Кузницы с многочисленными открытиями о гравитонных осколках позволяет ей работать гораздо быстрее, чем это было возможно ранее. Работая за пределами известных законов физики, иногда важно пересмотреть самые базовые предположения, ведь самые простые факты могут оказаться самыми действенными.
+fog.upgrade.lore.23=Стресс, связанный с поддержанием такой большой структуры вокруг столь гравитационно плотного объекта, как нейтронная звезда, снимается с помощью гравитонных осколков. Для защиты обычных механизмов в кузнице установлена оболочка из гравитационно-нейтрализующего материала, эффективность которой возрастает по мере увеличения размеров конструкции.
+fog.upgrade.lore.24=Улучшение понимания эффектов гравитационного сдерживания гравитонных осколков позволяет Кузнице обрабатывать и обрабатывать самые экзотические плазмы, включая включая обычные наносекундные синтетические трансактинидные элементы. Она также продлевает их срок службы для внешнего использования, стабилизируя атомное ядро ​​небольшими количествами гравитонов.
+fog.upgrade.lore.25=Дальнейшее использование свойств гравитонных осколков, подобных квантовой запутанности, позволяет эффектам других модульных улучшений также применяться к экзотическому модулю. Однако из-за экстремальной природы пространства-времени в этом модуле и материалов, с которыми он работает, эти преимущества уменьшаются по закону обратного квадрата.
+fog.upgrade.lore.26=Когда дополнительные кольца размещаются ближе к звезде в центре Кузницы, гравитационная нагрузка на структуру резко возрастает. Гравитонные осколки снижают это напряжение, а также создают локальные пространственно-временные мосты, соединяющие два кольца и соответствующие им модули улучшений.
+fog.upgrade.lore.27=Огромное развитие возможностей Кузницы было достигнуто благодаря использованию большого количества гравитонных осколков - способность бесконечно подпитывать звезду звездным топливом. Хотя отдача от этого уменьшается, звезда может существовать бесконечно долго, несмотря на чрезвычайно ускоренный расход энергии при бесконечной переработке материалов.
+fog.upgrade.lore.28=Использование гравитонных осколков в электрических системах для создания локализованных миниатюрных энергетических червоточин позволило обеспечить настолько эффективную передачу энергии, что Кузница может использовать фактически неограниченное количество энергии. Больше энергии означает более быструю обработку, более быстрое перемещение материалов и более эффективное использование улучшений, связанных с гравитонными осколками.
+fog.upgrade.lore.29=Последняя внешняя структурная модернизация Кузницы требует наиболее глубокого понимания гравитонных осколков и их применения в экстремальных условиях. После этого станут доступны последние 4 модульных слота Кузницы Богов, которые поднимут вашу операцию до невиданных высот технологического мастерства.
+fog.upgrade.lore.30=После полного овладения Кузницей Богов можно приступить к новой инициативе по расширению вселенной. Теперь можно квантовать и извлекать гравитонные осколки для использования за пределами Кузницы в новых мощных технологических начинаниях; производить самую экзотическую плазму, выходящую за рамки простых периодических элементов; и, что самое важное, начать понимать огромную силу магматерии - формы материи, состоящей исключительно из магнитных монополей, плотность и стабильность которой в миллиарды раз превышает плотность и стабильность обычной бозонной материи. Именно с этим развитием событий вы осознаете, что завершение Кузницы было не конечной целью, а лишь ступенькой на пути к всеобщей трансцендентности.
 
-fog.upgrade.text.0=Разблокирует базовую функциональность Кузни Богов, предоставляя 8 слотов для модулей, 1 кольцо и модуль Кузни Силы Гелиовспышки.
+fog.upgrade.text.0=Unlocks the base functionality of the Forge of the Gods, meaning 8 module slots, 1 ring, the Helioflare Power Forge module, 2 billion EU/t processing voltage and 15,000K heat bonus cap.
 fog.upgrade.text.1=Unlocks a recipe time reduction multiplier based on the current heat the multi is running at. This bonus is calculated via following formula: Multiplier = 1 / (Heat^0.01)
 fog.upgrade.text.2=Increases fuel efficiency by multiplying the actual fuel consumption by 0.8
 fog.upgrade.text.3=Multiplies the maximum fuel consumption by 1.2
@@ -1023,17 +1037,17 @@ fog.upgrade.text.29=Allows construction of the third ring and adds 4 module slot
 fog.upgrade.text.30=Unlocks Magmatter production in the Heliofusion Exoticizer, creation of exotic plasmas in the Heliothermal Plasma Fabricator and Graviton Shard ejection & injection.
 
 fog.debug.resetbutton.text=Сброс
-fog.debug.resetbutton.tooltip=Resets all upgrades to zero
+fog.debug.resetbutton.tooltip=Сбрасывает все улучшения до нуля
 fog.debug.unlockall.text=Unlock all upgrades
 fog.debug.gravitonshardsetter.tooltip=Set the amount of available graviton shards
 
 fog.button.fuelconfig.tooltip=Fuel Configuration Menu
 fog.button.upgradetree.tooltip=Path of Celestial Transcendence
 fog.button.furnacemode.tooltip.01=Blast Mode
-fog.button.furnacemode.tooltip.02=Furnace Mode
-fog.button.magmattermode.tooltip.01=Переключить режим магматерии
-fog.button.magmattermode.tooltip.02=Режим магматерии заблокирован, отсутствует обновление
-fog.button.magmattermode.tooltip.03=Magmatter Mode locked, missing upgrade
+fog.button.furnacemode.tooltip.02=Режим печи
+fog.button.magmattermode.tooltip.01=Режим кварк-глюонная плазма
+fog.button.magmattermode.tooltip.02=Режим магматерии
+fog.button.magmattermode.tooltip.03=Режим магматерии заблокирован, отсутствует улучшение
 fog.button.battery.tooltip.01=Toggle Battery Charging
 fog.button.battery.tooltip.02=Right click to open configuration menu (if unlocked)
 fog.button.voltageconfig.tooltip.01=Open voltage config
@@ -1055,13 +1069,21 @@ fog.button.color.tooltip=Cosmetics Menu
 fog.button.statistics.tooltip=Stats Overview
 fog.text.tooltip.heat=Heat value used for checking if a recipe can run
 fog.text.tooltip.effectiveheat=Heat value used for calculating bonuses
-fog.text.tooltip.parallel=Maximum parallel amount
+fog.text.tooltip.parallel=Максимальное количество параллелей
 fog.text.tooltip.speedbonus=Multiplier for base recipe time, making it shorter
 fog.text.tooltip.energydiscount=Multiplier for base energy usage, reducing it
 fog.text.tooltip.ocdivisor=Divisor for recipe time reduction per overclock (does not affect perfect OCs)
-
+fog.text.tooltip.processingvoltage=Base processing voltage for recipes
+fog.text.tooltip.factorpreview=Enter fuel factor to simulate calculations with
+fog.text.tooltip.applysimulationchanges=Simulate new values
+fog.text.tooltip.voltageadjustment=Because of overflow concerns, actual processing voltage follows this formula:
+fog.text.tooltip.voltageadjustment.1=Voltage = Min(Selected Voltage, 2^63 / Max Parallel)
 
 achievement.gt.blockmachines.multimachine.em.forge_of_gods=Кузница Богов
+achievement.gt.blockmachines.multimachine.em.smelting_module=Helioflare Power Forge
+achievement.gt.blockmachines.multimachine.em.molten_module=Helioflux Melting Core
+achievement.gt.blockmachines.multimachine.em.plasma_module=Heliothermal Plasma Fabricator
+achievement.gt.blockmachines.multimachine.em.exotic_module=Heliofusion Exoticizer
 achievement.gt.godforgecasing.0=Укрепленный сингулярностью звездный экранирующий корпус
 achievement.gt.godforgecasing.1=Направляющий корпус из небесной материи
 achievement.gt.godforgecasing.2=Безграничный гравитационно разорванный структурный корпус
@@ -1070,6 +1092,20 @@ achievement.gt.godforgecasing.4=Корпус сифона звездной эн�
 achievement.gt.godforgecasing.5=Отдалённый гравитонный модулятор потока
 achievement.gt.godforgecasing.6=Медиальный гравитонный модулятор потока
 achievement.gt.godforgecasing.7=Центральный гравитонный модулятор потока
+
+achievement.gt.blockmachines.multimachine.em.forge_of_gods.desc=BEEEEEEEEEAAAAAAM
+achievement.gt.blockmachines.multimachine.em.smelting_module.desc=The one furnace to rule them all.
+achievement.gt.blockmachines.multimachine.em.molten_module.desc=Hope you have good fluid solidifiers!
+achievement.gt.blockmachines.multimachine.em.plasma_module.desc=Fusion? No thanks.
+achievement.gt.blockmachines.multimachine.em.exotic_module.desc=Creating static since 2024!
+achievement.gt.godforgecasing.0.desc=Building block of the Forge of the Gods
+achievement.gt.godforgecasing.1.desc=Building block of the Forge of the Gods
+achievement.gt.godforgecasing.2.desc=Building block of the Forge of the Gods
+achievement.gt.godforgecasing.3.desc=Building block of the Forge of the Gods
+achievement.gt.godforgecasing.4.desc=Building block of the Forge of the Gods
+achievement.gt.godforgecasing.5.desc=Building block of the Forge of the Gods
+achievement.gt.godforgecasing.6.desc=Building block of the Forge of the Gods
+achievement.gt.godforgecasing.7.desc=Building block of the Forge of the Gods
 
 gt.blockmachines.multimachine.FOG.parallel=Параллель
 gt.blockmachines.multimachine.FOG.batch=Размер партии
@@ -1123,7 +1159,7 @@ gt.blockmachines.multimachine.FOG.modules=Модули
 gt.blockmachines.multimachine.FOG.upgrades=Улучшения
 gt.blockmachines.multimachine.FOG.milestones=Milestones
 gt.blockmachines.multimachine.FOG.fuelinfotext=Once the structure of the Forge is built and the multiblock is formed, just simply turning it on is not sufficient to make it functional. The Forge must be supplied with a certain amount of Star Fuel (the item) to actually boot up. The amount of Star Fuel needed depends on the current fuel consumption factor, which can be set in the fuel configuration menu. By default the maximum is 5, but it can be increased later on with upgrades. Star Fuel scaling is as follows: factor*25*1.2^factor. Star Fuel can be supplied via an input bus, it gets consumed periodically and stored internally. Once there is enough Star Fuel stored in the multi, it turns on for real (allowing modules to connect) and converts the consumed Star Fuel into stored Stellar Fuel. From this point onwards, the Forge must be fueled via one of the liquid fuels (type can be selected in the fuel config menu). If there isn't enough of the selected fuel present in the input hatch, the stored fuel amount will decrease and if it reaches 0, the Forge enters the previous 'off' state where modules disconnect and it has to be supplied with Star Fuel again. The amount of internally stored Stellar Fuel (liquid) can be increased by turning on battery charging, this will cause the fuel usage to double, but half of it will be stored in the internal battery.
-gt.blockmachines.multimachine.FOG.moduleinfotext=There are 4 types of modules that can be used in the Forge, the Helioflare Power Forge, Helioflux Melting Core, Heliothermal Plasma Fabricator and Heliofusion Exoticizer. These modules are separate multiblocks that have to be built into the Godforge structure at their designated spots. Once built, these modules have to connect to the Godforge, which happens automatically if all requirements for the respective module are met. Alternatively, there is a button to refresh their status without waiting for the timer. Each of these modules has its specialized functionality & requirements and is affected differently by certain upgrades. The first unlocked module is the §BHelioflare Power Forge§6, which simply put is a blast furnace even more powerful than the mega version. Additionally, this module has a furnace mode, turning it into a hyper powerful multi smelter. This module is unlocked by default and has 1024 base parallel. The second unlock is the §BHelioflux Melting Core§6, which also processes blast furnace recipes, but with a twist, the outputs are ejected in their molten form instead of hot/regular ingots. If an output does not have a molten form, it will output its regular form. This module has to be unlocked by an upgrade to function and has 512 base parallel. The third module is the §BHeliothermal Plasma Fabricator§6, which possesses a unique recipemap featuring direct material to plasma conversion recipes. These recipes are grouped by two properties, fusion tier and steps required, limiting which recipes can be processed before their respective upgrades are unlocked. Unlike regular fusion, these recipes produce the plasma of the input material. This module has 384 base parallel. The fourth and last module is the §BHeliofusion Exoticizer§6, a module capable of producing quark gluon plasma and later on magmatter. This module has unique automation challenges for both materials, so it is recommended to have two of these, as they have to be locked to either one of the materials. The common rule for both modes' automation challenges is as follows: the module outputs materials at the start of a recipe cycle and waits for the correct inputs to arrive before starting the actual processing of the output material. If producing quark-gluon plasma, the module outputs up to 7 different fluids/tiny piles with amounts between 1 and 64, and their corresponding plasmas and amounts have to be returned in order for the recipe to process. For each L of fluid, a bucket of plasma and for each tiny pile an ingot's worth of plasma must be returned for the recipe to work. The tiny piles are always ejected in multiples of 9. If magmatter mode is active, the automation challenge changes. Now the module outputs 1-50L of tachyon rich temporal fluid, 51-100L of spatially enlarged fluid and one tiny pile of a high tier material. The challenge is to return both the tachyon rich and spatially enlarged fluids, plus as much plasma of the tiny pile's material (in ingots) as the difference between the amounts of spatially enlarged and tachyon rich fluid. Once all of these have been returned in the correct amounts, the recipe will start to process and output magmatter. This module has 64 base parallel.
+gt.blockmachines.multimachine.FOG.moduleinfotext=There are 4 types of modules that can be used in the Forge, the Helioflare Power Forge, Helioflux Melting Core, Heliothermal Plasma Fabricator and Heliofusion Exoticizer. These modules are separate multiblocks that have to be built into the Godforge structure at their designated spots. Once built, these modules have to connect to the Godforge, which happens automatically if all requirements for the respective module are met. Alternatively, there is a button to refresh their status without waiting for the timer. Each of these modules has its specialized functionality & requirements and is affected differently by certain upgrades. The first unlocked module is the §BHelioflare Power Forge§6, which simply put is a blast furnace even more powerful than the mega version. Additionally, this module has a furnace mode, turning it into a hyper powerful multi smelter. This module is unlocked by default and has 1024 base parallel. The second unlock is the §BHelioflux Melting Core§6, which also processes blast furnace recipes, but with a twist, the outputs are ejected in their molten form instead of hot/regular ingots. If an output does not have a molten form, it will output its regular form. This module has to be unlocked by an upgrade to function and has 512 base parallel. The third module is the §BHeliothermal Plasma Fabricator§6, which possesses a unique recipemap featuring direct material to plasma conversion recipes. These recipes are grouped by two properties, fusion tier and steps required, limiting which recipes can be processed before their respective upgrades are unlocked. Unlike regular fusion, these recipes produce the plasma of the input material. This module has 384 base parallel. The fourth and last module is the §BHeliofusion Exoticizer§6, a module capable of producing quark gluon plasma and later on magmatter. This module has unique automation challenges for both materials, so it is recommended to have two of these, as they have to be locked to either one of the materials. The common rule for both modes' automation challenges is as follows: the module outputs materials at the start of a recipe cycle and waits for the correct inputs to arrive before starting the actual processing of the output material. If producing quark-gluon plasma, the module outputs up to 7 different fluids/dusts with amounts between 1-64 and 1-7 respectively, and their corresponding plasmas and amounts have to be returned in order for the recipe to process. For each L of fluid, a bucket of plasma and for each dust 9 ingots worth of plasma must be returned for the recipe to work. If magmatter mode is active, the automation challenge changes. Now the module outputs 1-50L of tachyon rich temporal fluid, 51-100L of spatially enlarged fluid and one dust of a high tier material. The challenge is to return both the tachyon rich and spatially enlarged fluids, plus as much plasma of the dust's material (in ingots) as the difference between the amounts of spatially enlarged and tachyon rich fluid. Once all of these have been returned in the correct amounts, the recipe will start to process and output magmatter. This module has 64 base parallel.
 gt.blockmachines.multimachine.FOG.upgradeinfotext=Upgrades are the heart and soul of the Godforge, they unlock most of its functionality and processing power. The upgrade tree can be accessed via its button on the main gui and each upgrade node can be clicked for more information on its effects and unlock requirements. In general, each upgrade can only be unlocked if the prior one is unlocked and there are enough available graviton shards. One exception to this is the first upgrade, as that one has no prior upgrade. Some upgrades can also have extra material costs, which are denoted next to the unlock button if applicable. If an upgrade has more than 1 connected prior upgrade, then there are two options, either the upgrade requires ALL connected prior upgrades or AT LEAST ONE (indicated by the connection's color, red means ALL, blue means AT LEAST ONE). Upgrades can be refunded by simply pressing the unlock button again, but this only works if ALL connected later upgrades are not active/unlocked. The block of upgrades following the unlock of the Heliufusion Exoticizer module are special, as they are what is considered §Bthe Split§6. As the name suggests, only one path out of the three may be chosen at first, and the others will be locked. Each path has specialized buffs that are primarily targeted towards a specific module, and thus affect other module types with reduced effect (unless stated otherwise). The amount of unlockable paths depends on the amount of rings the Godforge has, which in turn are limited by later upgrades.
 gt.blockmachines.multimachine.FOG.milestoneinfotext=Milestones are essential for upgrading the Godforge, as they are the source of graviton shards, the main currency needed for unlocking upgrades. In essence, milestones are just what their name suggests, thresholds that when reached, grant graviton shards. There are four types of milestones, Charge, Conversion, Catalyst and Composition, each referring to a stat of the Godforge. Each milestone has 7 tiers, each being harder to reach than the last, but also granting more graviton shards. The first tier grants 1 graviton shard, the second 2, etc. The §BCharge§6 milestone scales off total power consumption of all modules combined, the first tier being unlocked at 1e15 EU consumed, and each subsequent milestone scaling by 9x. The §BConversion§6 milestone scales off total recipes processed across all modules (excluding the Helioflare Power Forge's furnace mode) and its first tier is unlocked at 10M processed recipes. Following tiers scale by 4x. The §BCatalyst§6 milestone is based on the Forge's fuel consumption, counted in Stellar Fuel units (the number entered in the fuel config menu). Reaching the first tier requires 10,000 fuel units to be consumed, and each tier above scales by 3x. Last but not least, the §BComposition§6 milestone works a bit differently, as it scales off the Forge's structure. Milestone levels are granted for each unique type of module present in the structure (Heliofusion Exoticizer modules on quark-gluon and magmatter mode count as unique) and for each additional ring built. Your research suggests that something strange might happen if all milestones reach their final tier... Make sure to check back!
 gt.blockmachines.multimachine.FOG.contributors=Contributors
@@ -1151,10 +1187,12 @@ gt.blockmachines.multimachine.FOG.effectiveheat=Effective Heat
 gt.blockmachines.multimachine.FOG.speedbonus=Speed Bonus
 gt.blockmachines.multimachine.FOG.energydiscount=Energy Discount
 gt.blockmachines.multimachine.FOG.ocdivisor=OC Divisor
+gt.blockmachines.multimachine.FOG.processingvoltage=Processing Voltage
+gt.blockmachines.multimachine.FOG.factorpreview=Preview Fuel Factor:
 gt.blockmachines.multimachine.FOG.clickstat=Click to view value breakdown
 
-gt.blockmachines.multimachine.FOG.hint.0=1 - Classic Hatches or Transcendentally Amplified Magnetic Confinement Casing
-gt.blockmachines.multimachine.FOG.hint.1=2 - Module Controllers or Singularity Reinforced Stellar Shielding Casing
+gt.blockmachines.multimachine.FOG.hint.0=1 - Классические шлюзы или Трансцендентно усиленный магнитно-удерживающий корпус
+gt.blockmachines.multimachine.FOG.hint.1=2 - Контроллеры модулей или Укрепленный сингулярностью звездный экранирующий корпус
 
 # Godforge Star Cosmetics
 fog.cosmetics.header=Star Cosmetics
@@ -1186,7 +1224,7 @@ fog.cosmetics.resetcolor=Сброс
 fog.cosmetics.resetcolor.tooltip=Reset Current Color
 fog.cosmetics.savecolors=Сохранить
 fog.cosmetics.savecolors.tooltip=Save this Star Color
-fog.cosmetics.deletecolors=Delete
+fog.cosmetics.deletecolors=Удалить
 fog.cosmetics.deletecolors.tooltip=Delete this Star Color
 fog.cosmetics.importcolors=Импорт
 fog.cosmetics.importcolors.tooltip=Import a Star Color from text
@@ -1237,9 +1275,9 @@ gt.blockmachines.pipe.energystream.desc.1=Ярчайший вакуум!!!
 gt.blockmachines.pipe.energystream.desc.2=Должно быть окрашено для работы
 gt.blockmachines.pipe.energystream.desc.3=Не разделяйте и не поворачивайте
 
-gt.blockmachines.pipe.energymirror.name=Laser Vacuum Mirror
-gt.blockmachines.pipe.energymirror.desc.0=Laser reflection device.
-gt.blockmachines.pipe.energymirror.desc.1=Can turn but not split
+gt.blockmachines.pipe.energymirror.name=Лазерное вакуумное зеркало
+gt.blockmachines.pipe.energymirror.desc.0=Лазерное туннелирующее устройство.
+gt.blockmachines.pipe.energymirror.desc.1=Не разделяйте и не поворачивайте
 
 gt.blockmachines.pipe.datastream.name=Оптоволоконный кабель
 gt.blockmachines.pipe.datastream.desc.0=Совершенная передача данных
@@ -1298,13 +1336,13 @@ gt.blockmachines.debug.tt.genny.name=Отладочный генератор э�
 gt.blockmachines.debug.tt.genny.desc.0=Энергия из ниоткуда
 gt.blockmachines.debug.tt.genny.desc.1=Безграничный производитель/потребитель
 gt.blockmachines.debug.tt.genny.desc.2=Просто потому что я хочу...
-gt.blockmachines.debug.tt.genny.desc.3=Change it to Laser mode with a screwdriver.
+gt.blockmachines.debug.tt.genny.desc.3=С помощью отвертки переключите его в режим лазера
 gt.blockmachines.debug.tt.writer.name=Отладочный сканер структуры
 gt.blockmachines.debug.tt.writer.desc.0=Сканирует блоки вокруг
-gt.blockmachines.debug.tt.writer.desc.1=Печатает код не-ТЕ структуры многоблоков
+gt.blockmachines.debug.tt.writer.desc.1=Печатает код не-ТЕ структуры мультиблоков
 gt.blockmachines.debug.tt.writer.desc.2=Оси ABC выровнены относительно лицевой части
-gt.blockmachines.debug.tt.certain.desc.0=Feeling certain, for sure
-gt.blockmachines.debug.tt.certain.desc.1=Schrödinger's cat escaped the box
+gt.blockmachines.debug.tt.certain.desc.0=Чувствуя себя уверенным, наверняка
+gt.blockmachines.debug.tt.certain.desc.1=Кот Шрёдингера сбежал из коробки
 
 GT5U.gui.text.computing=§aComputing
 GT5U.gui.text.providing_data=§aProviding Data
@@ -1328,6 +1366,7 @@ GT5U.gui.text.invalid_hysteresis=§7Неверные настройки гист
 GT5U.gui.text.invalid_transfer_radius=§7Неверные настройки радиуса передачи
 GT5U.gui.text.invalid_voltage_setting=§7Неверная настройка вольтажа
 GT5U.gui.text.invalid_current_setting=§7Неверная текущая настройка
+GT5U.gui.text.invalid_primary_winding=§7Primary winding tier is too low!
 GT5U.gui.text.invalid_time_setting=§7Неверная настройка времени
 GT5U.gui.text.invalid_overdrive_setting=§7Неверная настройка перегрузки
 GT5U.gui.text.insufficient_power_no_val=§7Недостаточно энергии
@@ -1348,7 +1387,7 @@ gt.recipe.upgrade_costs=Godforge Upgrades
 
 # NEI
 tt.nei.eoh.total_items=Всего предметов: %s
-tt.nei.eoh.solid_mass=Percentage of Solid Mass: %s%%
+tt.nei.eoh.solid_mass=Процент твердой массы: %s%%
 tt.nei.eoh.item_count=Количество предметов: %s
 tt.nei.research.max_eu=Макс. EU: %s EU
 tt.nei.research.computation=Вычисление: %s
@@ -1366,9 +1405,9 @@ tt.keyword.Structure.AnyHighPowerCasing1D=Любой Высокоэнергет�
 tt.keyword.Structure.AnyHighPowerCasing2D=Любой Высокоэнергетический корпус с 2 точками
 tt.keyword.Structure.AnyHighPowerCasingFront=Любой Высокоэнергетический корпус на передней стороне
 tt.keyword.Structure.AnyTeslaBaseCasingOuter=Любой внешний Корпус основания Башни Теслы
-tt.keyword.Structure.AnyComputerCasingFirstOrLastSlice=Любой Корпус компьютера на первом или последнем блоке
+tt.keyword.Structure.AnyComputerCasingFirstOrLastSlice=Любой корпус компьютера на первом или последнем срезе
 tt.keyword.Structure.AnyComputerCasingBackMain=Любой корпус компьютера на задней стороне основного корпуса
-tt.keyword.Structure.AnyAdvComputerCasing=Any Advanced Computer Casing
+tt.keyword.Structure.AnyAdvComputerCasing=Любой улучшенный корпус компьютера
 tt.keyword.Structure.AnyAdvComputerCasingExceptOuter=Любой улучшенный корпус компьютера, кроме внешних
 tt.keyword.Structure.AnyMolecularCasing=Любой Молекулярный корпус
 tt.keyword.Structure.AnyMolecularCasing2D=Любой Молекулярный корпус с 2 точками
@@ -1384,7 +1423,7 @@ tt.keyword.Structure.Optional=(Необязательно)
 tt.keyword.Structure.FrontCenter=Спереди в центре
 tt.keyword.Structure.BackCenter=Сзади посередине
 tt.keyword.Structure.SideCenter=Сбоку посередине
-tt.keyword.Structure.FrontCenter3rd=3-ий слой спереди в центре
+tt.keyword.Structure.FrontCenter3rd=3-й слой спереди в центре
 tt.keyword.Structure.CenterPillar=Центр передней стойки
 tt.keyword.Structure.Center=Центр
 # Additional structure components
@@ -1395,8 +1434,8 @@ tt.keyword.Structure.ElementalOverflow=Элементный шлюз переп�
 tt.keyword.Structure.ElementalInput=Элементный входной шлюз
 tt.keyword.Structure.EssentiaStorage=Хранилище Эссенции
 tt.keyword.Structure.DataConnector=Коннектор данных
-tt.keyword.Structure.DataInput=Data Input Hatch
-tt.keyword.Structure.DataOutput=Data Output Hatch
+tt.keyword.Structure.DataInput=Входной шлюз данных
+tt.keyword.Structure.DataOutput=Выходной шлюз данных
 tt.keyword.Structure.SuperconductingCoilBlock=Блок сверхпроводящей катушки
 tt.keyword.Structure.StainlessSteelCasing=Корпус из нержавеющая стали
 tt.wirelessInputData.config.text=Configure how much computation to pull from wireless network
@@ -1440,7 +1479,12 @@ tt.keyphrase.Tier_Rating=Тир вольтажа
 tt.keyphrase.Amp_Rating=Кол-во ампер
 tt.keyphrase.Computation_Available=Доступно вычислений
 tt.keyphrase.Computation_Remaining=Вычислений осталось
-tt.keyphrase.Content_Stack_Count=Содержимое: количество стаков
+tt.keyphrase.AL_Recipe_Providing=Providing §6%s§7 Assembly Line Recipes
+tt.keyphrase.AL_Recipe_Receiving=Receiving §6%s§7 Assembly Line Recipes
+tt.keyphrase.AL_Recipe_Transmitting=Transmitting §6%s§7 Assembly Line Recipes
+tt.keyphrase.AL_Recipe_Header=§7Assembly Line Recipes:
+tt.keyphrase.AL_Recipe_Desc=§7- §a%s§7
+tt.keyphrase.AL_Recipe_None=§7- None
 tt.keyphrase.Base_computation=Базовые вычисления
 tt.keyphrase.After_overclocking=После оверклока
 tt.keyphrase.Heat_Accumulated=Тепла накоплено
@@ -1846,6 +1890,12 @@ tt.IUPAC.E=Enn
 tt.IUPAC.ium=ium
 tt.IUPAC.Anti=Анти
 tt.keyword.Weird=*
+
+tt.tooltip.mark_general=: Interdimensional
+tt.tooltip.mark_em=: Elemental Matter
+tt.tooltip.theta_movement=: Theta Movement
+tt.tooltip.cosmic_mark=: Cosmic
+tt.tooltip.godforge_mark=: Project Godforge
 
 tt.chat.debug.generator=Режим лазера: %s
 

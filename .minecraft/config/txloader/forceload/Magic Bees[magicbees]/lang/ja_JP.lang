@@ -40,6 +40,7 @@ tile.magicApiary.name=魔法の養蜂箱
 tile.visAuraProvider.name=Vis養蜂箱ブースター
 tile.apimancersDrainer.name=魔導養蜂家の排出装置
 tile.manaAuraProvider.name=マナ養蜂箱ブースター
+tile.hive.name=Hive
 tile.hive.curious.name=好奇の蜂巣
 tile.hive.unusual.name=特異な蜂巣
 tile.hive.deep.name=深層の蜂巣
@@ -49,6 +50,7 @@ tile.hive.oblivion.name=忘却の蜂巣
 tile.enchantedEarth.name=魔法がかけられた土
 
 #Combs
+item.comb.name=Comb
 comb.mundane=ありふれた巣板
 comb.molten=溶けた巣板
 comb.occult=超自然の巣板
@@ -78,11 +80,13 @@ comb.TElux=光の巣板
 comb.TEendearing=愛らしい巣板
 
 #Waxes
+item.wax.name=Wax
 wax.magic=魔法の蝋
 wax.soul=魂の蝋
 wax.amnesic=健忘の蝋
 
 #Drops
+item.drop.name=Drop
 drop.enchanting=魔法の滴
 drop.intellect=知性の滴
 drop.destabilized=不安定な滴
@@ -91,10 +95,12 @@ drop.lux=光の滴
 drop.endearing=愛らしい滴
 
 #Pollens
+item.pollen.name=Pollen
 pollen.unusual=特異な花粉
 pollen.phased=段階の花粉
 
 #Nuggets
+item.beeNugget.name=Nugget
 nugget.iron=鉄ナゲット
 nugget.steel=スチールナゲット
 nugget.copper=銅ナゲット
@@ -106,6 +112,7 @@ nugget.emerald=エメラルドの欠片
 nugget.apatite=燐灰石の欠片
 
 #Propolises
+item.propolis.name=Propolis
 propolis.dull=秩序のプロポリス
 propolis.air=微風のプロポリス
 propolis.fire=燃焼のプロポリス
@@ -115,6 +122,7 @@ propolis.magic=混沌のプロポリス
 propolis.unstable=不安定なプロポリス
 
 #Misc resources
+item.miscResources.name=Resource
 resource.fragment=伝承の断片
 resource.lump=芳香の塊
 resource.fertilizer=濃縮された混合物
@@ -151,7 +159,9 @@ item.frenziedFrame.name=狂乱の巣枠
 item.bloodSoakedFrame.name=血の巣枠
 
 #Capsules
+item.capsule.magic.name=Magic Capsule
 capsule.magic=%s入りの魔法のカプセル
+item.capsule.void.name=Void Capsule
 capsule.void=%s入りの虚空のカプセル
 
 #Liquids
@@ -203,6 +213,8 @@ moon.new=新月
 #moon.alt.new=
 
 #Backpack
+item.backpack.thaumaturgeT1.name=Thaumaturge's Backpack
+item.backpack.thaumaturgeT2.name=Thaumaturge's Backpack
 backpack.thaumaturge=魔導師のバックパック
 
 #Itemgroups
@@ -392,13 +404,13 @@ magicbees.speciesCrumbling.description=彼らは周囲を腐食し、急速に�
 magicbees.speciesInvisible=透明
 magicbees.speciesInvisible.description=見失いやすく、そのガラスのような体を山野では見つけることは困難である。|エイピノミコン
 
-magicbees.speciesTCAir=風相
+magicbees.speciesTCAir=風源
 magicbees.speciesTCAir.description="奴らは息をのむほど仕事が速いな。"|Sengir - 狂った養蜂家
-magicbees.speciesTCFire=火相
+magicbees.speciesTCFire=火源
 magicbees.speciesTCFire.description=注意: 巣の中身は非常に熱い。|Azanorの養蜂箱に貼られた警告ラベル
-magicbees.speciesTCWater=水相
+magicbees.speciesTCWater=水源
 magicbees.speciesTCWater.description="一度繁殖を試みたが、水の泡に終わったよ。"|MysteriousAges, 見習い魔導師
-magicbees.speciesTCEarth=地相
+magicbees.speciesTCEarth=地源
 magicbees.speciesTCEarth.description="この蜂を深堀りしたいんだろうが、気を付けてくれ。奴ら、ごく簡単に穴を開けちまう。"|MysteriousAges, 見習い魔導師
 magicbees.speciesTCOrder=秩序
 magicbees.speciesTCOrder.description=彼らの巣板はほぼ完璧で、それぞれの部分が全体の模様を映し出している。|エイピノミコン

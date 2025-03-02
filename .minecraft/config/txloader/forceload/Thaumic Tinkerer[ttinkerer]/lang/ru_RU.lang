@@ -39,7 +39,7 @@ ttmisc.shareTome.notOnline=Игрок, записи которого здесь 
 ttmisc.shareTomb.offlineshare=Оффлайновый обмен
 ttmisc.shareTome.sync=Исследования выучены.
 ttmisc.shareTome.noAssign=Не привязан
-ttmisc.shareTome.playerName=Привязан к исследованиям %s .
+ttmisc.shareTome.playerName=Привязан к исследованиям %s.
 ttmisc.toggleArmor=Режим брони
 
 # KAMI MISC
@@ -101,6 +101,7 @@ item.mobAspect.name=Аспект души
 item.mobAspect.condensed.name=Усиленный аспект души
 item.mobAspect.infused.name=Наполненный аспект души
 item.infusedSeeds.name=Наполненные семена
+item.infusedPotion.name=Зелье
 item.infusedPotion.Aer.name=Зелье Aer
 item.infusedPotion.Ignis.name=Зелье Ignis
 item.infusedPotion.Terra.name=Зелье Terra
@@ -152,7 +153,12 @@ tile.travelSlab.name=Тротуарная плита путешествия
 tile.travelSlabFull.name=Тротуарная плита путешествия
 tile.travelStairs.name=Тротуарные ступеньки путешествия
 tile.wardSlab.name=Тротуарная плита сдерживания
-tile.infusedFarmland.name=Infused Farmland
+tile.wardSlabFull.name=Тротуарная плита сдерживания
+tile.infusedFarmland.name=Наполненная пашня
+tile.gaseousLight.name=Газообразный свет
+tile.gaseousShadow.name=Газообразная тень
+tile.infusedGrainBlock.name=Пропитанные зёрна
+tile.nitorGas.name=Светящийся газ
 
 # Fire
 tile.fireWater.name=Пропитанный Aqua огонь

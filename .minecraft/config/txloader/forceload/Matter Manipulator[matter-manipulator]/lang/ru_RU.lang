@@ -1,0 +1,50 @@
+
+tile.air.name=Воздух
+
+item.itemMatterManipulator0.name=Прототип манипулятора материи
+item.itemMatterManipulator1.name=Манипулятор материи MKI
+item.itemMatterManipulator2.name=Манипулятор материи MKII
+item.itemMatterManipulator3.name=Манипулятор материи MKIII
+
+item.metaitem.0.name=План манипулятора материи
+item.metaitem.1.name=Силовое ядро прототипа манипулятора материи
+item.metaitem.2.name=Компьютерное ядро прототипа манипулятора материи
+item.metaitem.3.name=Ядро телепорта прототипа манипулятора материи
+item.metaitem.4.name=Корпус прототипа манипулятора материи
+item.metaitem.5.name=Сборка линз прототипа манипулятора материи
+item.metaitem.6.name=Силовое ядро манипулятора материи MKI
+item.metaitem.7.name=Компьютерное ядро манипулятора материи MKI
+item.metaitem.8.name=Ядро телепорта манипулятора материи MKI
+item.metaitem.9.name=Корпус манипулятора материи MKI
+item.metaitem.10.name=Сборка линз манипулятора материи MKI
+item.metaitem.11.name=Силовое ядро манипулятора материи MKII
+item.metaitem.12.name=Компьютерное ядро манипулятора материи MKII
+item.metaitem.13.name=Ядро телепорта манипулятора материи MKII
+item.metaitem.14.name=Корпус манипулятора материи MKII
+item.metaitem.15.name=Сборка линз манипулятора материи MKII
+item.metaitem.16.name=Силовое ядро манипулятора материи MKIII
+item.metaitem.17.name=Компьютерное ядро манипулятора материи MKIII
+item.metaitem.18.name=Ядро телепорта манипулятора материи MKIII
+item.metaitem.19.name=Корпус манипулятора материи MKIII
+item.metaitem.20.name=Сборка линз манипулятора материи MKIII
+item.metaitem.21.name=МЭ DownLink манипулятора материи
+item.metaitem.22.name=Квантовый DownLink манипулятора материи
+
+mm.tooltip.voltage=%s / %s EU - Вольтаж: %s
+
+mm.structure.hatch-info=Любой %s корпус
+mm.structure.hatch-dots= (точки %s)
+
+# Keybindings
+key.mm=Манипулятор материи
+key.mm-ctrl=Control
+key.mm-cut=Mark Cut
+key.mm-copy=Mark Copy
+key.mm-paste=Mark Paste
+key.mm-reset=Сбросить координаты
+
+# Config
+interaction=Взаимодействие
+rendering=Отображение
+debug=Отладка
+building=Cтроительство

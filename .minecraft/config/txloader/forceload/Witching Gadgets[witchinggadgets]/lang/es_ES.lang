@@ -1,6 +1,7 @@
 # -- Blocks --
 tile.WG_WallMirror.name=Espejito espejito mágico
 tile.WG_VoidWalkway.name=Pasarela del Vacío
+tile.WG_StoneDevice.name=Stone Device
 tile.WG_StoneDevice.etherealWall.name=Muro Etéreo
 tile.WG_StoneDevice.magicTileLock.name=Cerradura Mágica
 tile.WG_StoneDevice.obsidianPlate.name=Placa de Obsidiana
@@ -11,6 +12,7 @@ tile.WG_StoneDevice.sarcophagus.name=Sarcófago
 tile.WG_StoneDevice.timeStone.name=Piedra de la Edad
 tile.WG_StoneDevice.blastFurnace.name=Alto Horno Infernal
 
+tile.WG_WoodenDevice.name=Wooden Device
 tile.WG_WoodenDevice.spinningWheel.name=Rueca
 tile.WG_WoodenDevice.loom.name=Telar
 tile.WG_WoodenDevice.snowGen.name=Lanzanieve Táumico
@@ -21,6 +23,7 @@ tile.WG_WoodenDevice.cuttingTable.name=Tabla de Cortar
 tile.WG_WoodenDevice.saunaStove.name=Estufa de Sauna Táumica
 tile.WG_WoodenDevice.labelLibrary.name=Biblioteca de Aspectos
 
+tile.WG_MetalDevice.name=Metal Device
 tile.WG_MetalDevice.essentiaPump.name=Bomba de Esencia
 tile.WG_MetalDevice.voidmetalBlock.name=Bloque de Metal del Vacío
 tile.WG_MetalDevice.terraformer.name=Reformador Terrestial Arcano
@@ -41,6 +44,7 @@ tile.WG_CustomAir.name=Destello de Luz
 
 #
 # -- Items --
+item.WG_Material.name=Material
 item.WG_Material.threadSimple.name=Hebra
 item.WG_Material.threadGold.name=Hebra Dorada
 item.WG_Material.threadThaumium.name=Hebra de Taumio
@@ -63,12 +67,14 @@ item.WG_Material.gemstoneDust.name=Polvo de Gema
 
 item.WG_Cluster.name=Cúmulo %1$s natural
 
+item.WG_Bag.name=Bag
 item.WG_Bag.normal.name=Bolsa de Trucos
 item.WG_Bag.void.name=Bolsa Vacuo-enlazada
 item.WG_Bag.ender.name=Bolsa Fin-enlazada
 item.WG_Bag.hungry.name=Bolsa Hambrienta
 
 item.WG_ThaumiumShears.name=Cizallas de Taumio
+item.WG_MagicFood.name=Magic Food
 item.WG_MagicFood.sweetwart.name=Verruga Dulce
 item.WG_MagicFood.nethercake.name=Infratarta
 item.WG_MagicFood.brainjerky.name=Cecina de Cerebro
@@ -77,17 +83,21 @@ item.WG_AdvancedRobeLegs.name=Perneras Embrujadas
 
 item.WG_AdvancedScribingTools.name=Herramientas de Escribano Iluminadas
 
+item.WG_Cloak.name=Cloak
 item.WG_Cloak.standard.name=Capa
 item.WG_Cloak.storage.name=Capa de Amplios Bolsillos
 item.WG_Cloak.raven.name=Manto del Cuervo
 item.WG_Cloak.spectral.name=Manto Espectral
 item.WG_Cloak.wolf.name=Capa Lupina
 
+item.WG_Kama.name=Kama
 item.WG_Kama.standard.name=Kama
 item.WG_Kama.storage.name=Kama de Amplios Bolsillos
 item.WG_Kama.raven.name=Kama del Cuervo
 item.WG_Kama.spectral.name=Kama Espectral
 item.WG_Kama.wolf.name=Kapa Lupino
+
+item.WG_Baubles.name=Bauble
 
 #unused
 item.WG_EliteArmorHelm.ANGELIC_0.name=Yelmo Ofánico
@@ -315,9 +325,9 @@ witchinggadgets_research_page.ADVANCEDROBES.r1=<IMG>witchinggadgets:textures/gui
 witchinggadgets_research_name.WGBAUBLES=Vestibles y Embrujantes
 witchinggadgets_research_text.WGBAUBLES=[WG] Casi casi una boutique mágica
 witchinggadgets_research_page.WGBAUBLES.0=What looks like catalogue pages from a wizarding equipment store actually proved to be arcane schematics for magical garments! §oAll of these are to be equipped in Baubles slots.§r<BR>§lEmpty Leather Charm:§r<BR>This basic leather charm is ready to be enchanted.§r
-witchinggadgets_research_page.WGBAUBLES.1=¡Lo que parece un catálogo de una tienda de equipamiento de hechizería es en realidad esquemas para ropajes mágicos! §0Todos deben ser equipados en ranuras de Baubles o de Traveller's Gear. A este último puedes acceder usando la tecla 'Numpad 7', si no has cambiado los controles.§r<BR>§lHombreras Firmes§r:<BR>Estas hombreras no son muy bonitas, y apenas te protege nada, pero la mágica imbuida en ellas te ancla al suelo y evita que los enemigos te desplacen. §oReduce el retroceso en un 60%.§r
-witchinggadgets_research_page.WGBAUBLES.2=§lBrazales del Berserker§r:<BR>Cubierto en pelaje de lobo, estos brazales no te cubren de las espadas, sino que, gracias a la magia imbuida en ellos, te proporcinan la ferocidad de un lobo. También son muy suaves.<BR>§oAumenta el daño de tus ataques en 2 puntos.§r
-witchinggadgets_research_page.WGBAUBLES.3=§lBrazales del Firme Progreso§r:<BR>Estos brazales diseñados por enanos taumaturgos están diseñados para poder cavar hoyos a velocidad constante y sin interrupción. A fin de conseguirlo reaccionan dinámicante a las condiciones de trabajo, aumentando la velocidad de minería bajo el agua, mientras se está volando o cuando se intenta minar materiales altamente resistentes.<BR>También aumenta la velocidad a la que se suben las escalerillas de mano, para poder escapar de lo que eventualmente despiertes allí abajo.
+witchinggadgets_research_page.WGBAUBLES.1=§lBrazaletes de cuero:§r <BR> Estos brazaletes básicos están preparados para encantamientos adicionales.
+witchinggadgets_research_page.WGBAUBLES.2=§lColgante Firme:§r<BR>Este colgante no está diseñado para ser muy bonito, y su protección es prácticamente nula, pero la magia que posee hace que te pegues al suelo, así que ni siquiera te vas a tambalear cuando seas golpeado por un enemigo. §oTe da 60% de resistencia al retroceso.§r
+witchinggadgets_research_page.WGBAUBLES.3=§lBrazaletes del Berserker:§r<BR>Cubiertos el piel de lobo, estos brazaletes no te van a proteger de sables afilados. Sin embargo la magia que contienen te garantizan la ferocidad de un lobo. Además, son increíblemente suaves.<BR>§oMejora tu daño en 2 puntos.
 witchinggadgets_research_page.WGBAUBLES.4=§lHombreras del Serafín§r:<BR>Volar es el deseo de muchos. Es muy avanzado para incluso para ti, pero dar un pequeño salto es algo dentro de tus posibilidades.<BR>Estas hombreras otorgan unas alas mágicas capaces de permitirte realizar un segundo salto en el aire.
 witchinggadgets_research_page.WGBAUBLES.5=§lAnillo del Tirador§r:<BR>Algunas criaturas de lo oscuro son demasiado fuertes como para ir cuerpo a cuerpo contra ellas—lidiar con ellos a distancia es más recomendable. El Anillo del Tirador facilita esto sustancialmente.<BR>Mientras lo lleves puesto podrás moverte más rápido mientras apuntas con un arco. Además, agacharte con una flecha lista te permitirá centrarte en objetivos lejanos.
 witchinggadgets_research_page.WGBAUBLES.6=§lAnillo de la Moneda Avariciosa§r:<BR>¡Qué suerte es tener suerte! Mas nunca se tiene suficiente, así que a fin de tener más suerte has descubierto que puedes hacerlo echándole magia a una moneda y un anillo.<BR>§oEl anillo aumenta tu fortuna y botín en dos niveles.<BR>Los libros encantados usados para fabricar la moneda pueden tener cualquier encantamiento.§r

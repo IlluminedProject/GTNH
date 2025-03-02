@@ -1,6 +1,7 @@
 # Galacticraft Asteroids Language File = UNITED STATES ENGLISH
 
 # GENERAL ITEMS
+item.itemTier3Rocket.name=Ракета 3-го уровня
 item.itemTier3Rocket.t3Rocket.name=Ракета 3-го уровня
 item.itemAstroMiner.name=Астрономический шахтёр
 item.heavyNoseCone.name=Прочный головной обтекатель
@@ -10,13 +11,14 @@ item.shardTitanium.name=Титановый осколок
 item.shardIron.name=Железный осколок
 item.rocketFinsT2.name=Прочный ракетный стабилизатор
 item.engineT2.name=Прочный ракетный двигатель
+item.itemBasicAsteroids.name=Предмет
 item.reinforcedPlateT3.name=Сверхпрочное покрытие
 item.grapple.name=Крюк
 item.atmosphericValve.name=Атмосферный клапан
 item.thermalCloth.name=Теплоустойчивая ткань
 item.beamCore.name=Лучевое ядро
 item.orionDrive.name=Привод Ориона
-item.tier3.desc=3-ий уровень
+item.tier3.desc=3-й уровень
 
 # TOOLS
 item.titanium_pickaxe.name=Титановая кирка
@@ -26,6 +28,7 @@ item.titanium_shovel.name=Титановая лопата
 item.titanium_sword.name=Титановый меч
 
 # ARMOR
+item.thermalPadding.name=Термозащита
 item.thermalHelm.name=Теплоустойчивый шлем
 item.thermalChestplate.name=Теплоустойчивая кираса
 item.thermalLeggings.name=Теплоустойчивые поножи
@@ -39,9 +42,11 @@ item.titanium_boots.name=Титановые ботинки
 item.methaneCanisterPartial.name=Канистра для метана
 item.methaneCanister.name=Канистра метана
 item.canister.gas.name=Газ
+item.canisterPartialLOX.name=Канистра жидкого кислорода
 item.canister.LOX.partial.name=Канистра жидкого кислорода
 item.canister.LOX.full.name=Заполненная канистра жидкого кислорода
 item.canister.LOX.name=ЖК
+item.canisterPartialLN2.name=Канистра жидкого азота
 item.canister.liquidNitrogen.partial.name=Канистра жидкого азота
 item.canister.liquidNitrogen.full.name=Заполненная канистра жидкого азота
 item.canister.liquidNitrogen.name=Жидкость
@@ -61,11 +66,12 @@ fluid.argon=Аргон
 fluid.atmosphericgases=Атмосферные газы
 fluid.liquidmethane=Жидкий метан
 fluid.liquidoxygen=Жидкий кислород
-fluid.liquidnitrogen=Жидкий Азот
+fluid.liquidnitrogen=Жидкий азот
 fluid.liquidargon=Жидкий аргон
 fluid.fuel=Топливо
 
 # BLOCKS
+tile.asteroidsBlock.0.name=Астероидный камень/руда
 tile.asteroidsBlock.asteroid0.name=Астероидный камень
 tile.asteroidsBlock.asteroid1.name=Астероидный камень
 tile.asteroidsBlock.asteroid2.name=Астероидный камень
@@ -74,12 +80,14 @@ tile.asteroidsBlock.oreIlmenite.name=Ильменитовая руда
 tile.asteroidsBlock.oreAluminum.name=Алюминиевая руда
 tile.beamReflector.name=Лучевой отражатель энергии
 tile.beamReceiver.name=Лучевой приёмник энергии
+tile.telepadFake.name=Короткодистанционный телепорт
 tile.telepadShort.name=Короткодистанционный телепорт
 tile.walkway.name=Дорожки
 tile.walkwayWire.name=Дорожки
 tile.walkwayOxygenPipe.name=Дорожки
 tile.treasureT3.name=Сундук с сокровищами 3-го уровня
 tile.denseIce.name=Плотный лёд
+tile.minerBaseFull.name=Основание астрономического шахтёра
 tile.minerBase.name=Основание астрономического шахтёра
 
 # GUI
@@ -136,11 +144,11 @@ tile.minerBase.description=Основание астрономического �
 schematic.astroMiner.name=Астрономический шахтёр
 
 # ENTITIES
-entity.SmallAsteroidGC.name=Малый астероид
-entity.GrappleHookGC.name=Абордажный крюк
-entity.Tier3RocketGC.name=Ракета 3-го уровня
-entity.EntryPodAsteroids.name=Посадочный модуль
-entity.AstroMiner.name=Астрономический шахтёр
+entity.GalacticraftMars.SmallAsteroidGC.name=Малый астероид
+entity.GalacticraftMars.GrappleHookGC.name=Абордажный крюк
+entity.GalacticraftMars.Tier3RocketGC.name=Ракета 3-го уровня
+entity.GalacticraftMars.EntryPodAsteroids.name=Посадочный модуль
+entity.GalacticraftMars.AstroMiner.name=Астрономический шахтёр
 
 # CONTAINERS
 container.shortRangeTelepad.name=Короткодистанционный телепорт

@@ -6,6 +6,8 @@ wailaharvestability.toolclass.chisel=Стамеска
 wailaharvestability.toolclass.scoop=Сачок
 wailaharvestability.toolclass.crowbar=Монтировка
 wailaharvestability.toolclass.sword=Меч
+wailaharvestability.toolclass.wrench=Ключ
+wailaharvestability.toolclass.cutter=Кусачки
 
 # tooltips
 wailaharvestability.effectivetool=Эффективный инструмент: 

@@ -611,6 +611,9 @@ item.CircuitUXV.name=任意のUXVの電子回路
 item.CircuitMAX.name=任意のMAXの電子回路
 item.RadoxPolymerLens.name=ラドックスポリマーのレンズ
 item.ChromaticLens.name=極彩色のガラスのレンズ
+item.ChromaticGem.name=Chromatic Crystal
+item.ChromaticGemFlawless.name=Flawless Chromatic Crystal
+item.ChromaticGemExquisite.name=Exquisite Chromatic Crystal
 item.Origin.tooltip=The first conquering
 item.Origin.version=(2.1.0.0)
 item.OriginNanoCircuit.name=Nano Circuit of Split Origin
@@ -970,6 +973,9 @@ TConstruct.research_page.YELLOWHEARTCANISTER.1=《黄色のハートの器／Yel
 tc.research_name.GREENHEART=緑色のハート
 tc.research_text.GREENHEART=[TC] 30個のハートじゃ足りない。
 TConstruct.research_page.GREENHEART.1=《小さな緑色のハート／Miniature Green Heart》 は Tinkers' Construct のアイテムだ。注入の儀式での作成でのみ入手が可能である。<BR><BR>主な用途は 《緑色のハートの器／Green Heart Canister》 の作成だが、食べることで体力を30回復させることも可能だ。...オススメはしないが。
+tc.research_name.UNDYINGTOTEM=Totem of Undying
+tc.research_text.UNDYINGTOTEM=Revival of the future
+TConstruct.research_page.UNDYINGTOTEM.1=What is better than having strong health? Reviving from death itself. If the player is holding a totem of undying in their off-hand or main-hand slot and receives otherwise fatal damage, the totem saves the player from death. The totem of undying must be in the player's hand for it to work—it does not work if it is in the hotbar, unless selected. Any mob that can hold a totem of undying, can use it while holding it. The totem can be used only once, it disappears after use. When activated, the totem of undying restores 1♥, removes all existing status effects, then grants 45 seconds of Regeneration II, 40 seconds of Fire Resistance I and 5 seconds of Absorption II.
 tc.research_name.GREENHEARTCANISTER=緑色のハートの器
 tc.research_text.GREENHEARTCANISTER=[TC] 大きな器に紐づいている。
 TConstruct.research_page.GREENHEARTCANISTER.1=《緑色のハートの器／Green Heart Canister》 はプレイヤーの体力を増加させる装飾品だ。使用するには、アーマータブの右側にあるスロットに装備する必要がある。最大で10個スタックでき、最大で10の追加ハート(言い換えると20の体力ポイント)を得ることができる。これは吸収のステータスエフェクトのように、体力バーの上に表示されるのではなく、通常の体力バーの上に、緑色のハートが重なるようにして表示される。
@@ -1714,7 +1720,7 @@ item.tconstruct.manual.smeltery.construction2=製錬炉はある程度自由に�
 item.tconstruct.manual.smeltery.figure1a=動作中の乾式製錬炉
 item.tconstruct.manual.smeltery.alloys=合金とは、2種類以上の金属を正確な割合で混ぜ合わせたものです:
 item.tconstruct.manual.smeltery.bronze=青銅(4)=銅(3)+錫(1)
-item.tconstruct.manual.smeltery.aluminium=アルミ真鍮(4)=アルミニウム(3)+銅(1)
+item.tconstruct.manual.smeltery.brass=Brass, made from Copper(3) and Zinc(1)
 item.tconstruct.manual.smeltery.manyullyn=マニュリン(1)=コバルト(1)+アーダイト(1)
 item.tconstruct.manual.smeltery.alumite=アルマイト(2)=アルミニウム(5)+スチール(2)+黒曜石(2)
 item.tconstruct.manual.smeltery.pigiron=豚鉄(1)=鉄(1)+血液(1)+エメラルド(1)
@@ -1740,6 +1746,8 @@ item.tconstruct.manual.weaponry.crossbow=\n\nクロスボウ:\n金属は弾力�
 item.tconstruct.manual.weaponry.projectiles=射撃武器の弾:\n弾は重ければ重いけど、防具を貫通するダメージが大きくなります。\n\n矢:\n全ての遠距離武器のパンとバター。様々な素材から作ることができます。矢じり、シャフト、矢羽根が必要です。\n素材の選択によりダメージ、矢の本数、正確さ、壊れにくさのバランスを取ることができます。矢じりの素材は重さが重要になります。\n壊れやすい矢は地面にぶつかったとき折れる可能性があります。矢は標的に命中すると必ず折れますが、補強の特性は矢が衝撃に耐えるチャンスを与えます。
 item.tconstruct.manual.weaponry.part_materials=\n\n妥当なシャフトの素材:\n*棒\n*サトウキビ\n*骨\n*ブレイズロッド\n\n妥当な矢羽根の素材:\n*葉\n*《べとつく葉／Slimy Leaves》\n*羽根\n*《スライムクリスタル／Slime Crystal》
 item.tconstruct.manual.weaponry.bolts=\n\nボルト:\nボルトの製造は繊細な作業です。まず持ち手状に加工した芯を用意します。\n次にこの芯を 《製錬炉／Smeltery》 へ持っていき、 《鋳造台／Casting Table》  で溶融金属を流し込み、先端をコーティングします。\nその後矢羽根の取り付けを施せば、ボルトの完成です。\n\nボルトはより硬質な素材で構成されるため、通常の矢より重量があり、防具を持つ敵と戦うのに最適です。
+
+block.ore.gravel.zinc.name=Zinc Gravel Ore
 
 dreamcraft.mobsinfocompat.limitedropcount=Drops only %s times per person
 dreamcraft.gui.quitmessage=Are you sure you want to exit the game?

@@ -1,8 +1,8 @@
 # RecipeMaps
 gtnhlanth.recipe.digester=煮解池
 gtnhlanth.recipe.disstank=溶解罐
-gtnhlanth.recipe.tc=靶仓
-gtnhlanth.recipe.sc=源仓
+gtnhlanth.recipe.tc=高能束流聚焦对撞靶室
+gtnhlanth.recipe.sc=高能粒子辐射激发源室
 
 gtnhlanth.tt.beaminfo=用§b扫描仪§7右键来获取多方块输入输出信息
 gtnhlanth.tt.blueprint=请参考§9Structure§2Lib§7全息投影，构建主体结构
@@ -13,7 +13,7 @@ gtnhlanth.tt.hintdot=提示方块：%s号
 GT5U.gui.text.gtnhlanth.nocoolant=机器内没有冷却液！
 GT5U.gui.text.gtnhlanth.inscoolant=机器内冷却液不足！
 GT5U.gui.text.gtnhlanth.noaccel=该类型粒子无法被加速!
-GT5U.gui.text.gtnhlanth.low_input_rate=输入量太低！
+GT5U.gui.text.gtnhlanth.low_input_eut=输入EU/t太低了,无法产生光子!
 GT5U.gui.text.gtnhlanth.scerror=数学错误，配方损坏？
 
 # NEI
@@ -32,7 +32,7 @@ Digester.hint.3=16x线圈方块
 Digester.hint.4=输入总线、输出总线、输入仓、输出仓
 Digester.hint.5=能源仓、维护仓
 
-SourceChamber.hint.0=56x Shielded Accelerator Casing
+SourceChamber.hint.0=56x 加速器屏蔽机械方块
 SourceChamber.hint.1=52x 加速器屏蔽玻璃
 SourceChamber.hint.2=16x 电极机械方块
 SourceChamber.hint.3=提示方块：1号：输入总线
@@ -41,7 +41,7 @@ SourceChamber.hint.5=提示方块：3号：维护仓、能源仓
 SourceChamber.hint.6=提示方块：4号：束流输出仓
 
 LINAC.hint.0=325-1285x 加速器屏蔽机械方块
-LINAC.hint.1=148-852x Coolant Delivery Casing
+LINAC.hint.1=148-852x 冷却剂转运机械方块
 LINAC.hint.2=127-703x 加速器屏蔽玻璃
 LINAC.hint.3=56-312x 超导线圈方块
 LINAC.hint.4=156-732x 电极机械方块
@@ -54,8 +54,8 @@ LINAC.hint.10=提示方块：4号：束流输出仓
 
 Synchrotron.hint.0=676x 加速器屏蔽机械方块
 Synchrotron.hint.1=90x 超导线圈方块
-Synchrotron.hint.2=64x Niobium Cavity Machine Casing
-Synchrotron.hint.3=28x Coolant Delivery Casing
+Synchrotron.hint.2=64x 铌质腔体机械方块
+Synchrotron.hint.3=28x 冷却剂转运机械方块
 Synchrotron.hint.4=16x 硼玻璃（LuV+）
 Synchrotron.hint.5=4x 天线机械方块
 Synchrotron.hint.6=提示方块：1号：束流输入仓
@@ -69,7 +69,7 @@ TargetChamber.hint.0=28x 加速器屏蔽机械方块
 TargetChamber.hint.1=34x 加速器屏蔽玻璃
 TargetChamber.hint.2=16x 硼玻璃（任意等级）
 TargetChamber.hint.3=29x 格栅机械方块
-TargetChamber.hint.4=4x Focus Manipulation Casing
+TargetChamber.hint.4=4x 核心操纵机械方块
 TargetChamber.hint.5=4x 靶仓插槽
 TargetChamber.hint.6=1x 焦点物品支架
 TargetChamber.hint.7=1x 靶点物品支架
@@ -116,7 +116,7 @@ fluid.Diluted Acetone=稀释丙酮
 
 tile.casing.shielded_accelerator_glass.name=加速器屏蔽玻璃
 casing.electrode.name=电极机械方块
-casing.coolant_delivery.name=Coolant Delivery Casing
+casing.coolant_delivery.name=冷却剂转运机械方块
 casing.antenna_t1.name=天线机械方块(T1)
 casing.antenna_t2.name=天线机械方块(T2)
 casing.niobium_cavity.name=铌质腔体机械方块
@@ -126,13 +126,13 @@ casing.target_receptacle.name=靶仓插槽
 casing.target_holder.name=靶点物品支架
 casing.shielded_accelerator.name=加速器屏蔽机械方块
 
-item.capillary_exchange.name=Capillary Exchange
+item.capillary_exchange.name=毛细管热交换器
 item.mm_lattice.name=μ合金格栅
 item.iron_quartz_plate.name=铁石英板
-item.mask_substrate.name=Mask Substrate
-item.etched_mask1.name=Etched Mask
-item.substrate_precursor.name=Substrate Precursor
-item.masked_mask_substrate.name=Processed Mask Substrate
+item.mask_substrate.name=掩膜基板
+item.etched_mask1.name=刻蚀掩膜
+item.substrate_precursor.name=基板前驱体
+item.masked_mask_substrate.name=处理过的掩膜基板
 
 
 
@@ -142,12 +142,12 @@ beamline.info=机器信息
 beamline.in_pre=多方块束流输入
 beamline.particle=粒子
 beamline.energy=能量
-beamline.focus=Focus
+beamline.focus=聚焦
 beamline.amount=数量
-beamline.rate=Rate
+beamline.rate=速率
 
 beamline.temperature=温度
-beamline.coolusage=Coolant Usage
+beamline.coolusage=冷却剂使用量
 
 beamline.out_pre=多方块束流输出
 
@@ -156,8 +156,8 @@ beamline.particleinput=输入粒子信息：
 beamline.pipe.desc.0=粒子传输管道
 beamline.pipe.desc.1=请勿转弯
 
-tile.recipe.tc=靶仓
-tile.recipe.sc=源仓
+tile.recipe.tc=高能束流聚焦对撞靶室
+tile.recipe.sc=高能粒子辐射激发源室
 
 particle.electron=电子
 particle.photon=光子

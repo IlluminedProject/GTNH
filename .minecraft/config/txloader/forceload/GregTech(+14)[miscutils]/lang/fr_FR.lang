@@ -1,15 +1,15 @@
 # Creative Tabs
-itemGroup.MiscUtilBlockTab=[GT++] Blocks
-itemGroup.MiscUtilMiscTab=[GT++] Items
+itemGroup.MiscUtilBlockTab=[GT++] Blocs
+itemGroup.MiscUtilMiscTab=[GT++] Objets
 itemGroup.MiscUtilCombatTab=[GT++] Combat
-itemGroup.MiscUtilToolsTab=[GT++] Tools
+itemGroup.MiscUtilToolsTab=[GT++] Outils
 itemGroup.MiscUtilMachineTab=[GT++] Machines
-itemGroup.MiscUtilOtherTab=[GT++] Items II
-itemGroup.MiscUtilBOP=[GT++] Biomes O'Plenty Additions
+itemGroup.MiscUtilOtherTab=[GT++] Objets II
+itemGroup.MiscUtilBOP=[GT++] Ajouts Biomes O'Plenty
 
 # Debug
-item.AAA_Broken.name=[Non-existent Item] Report This Recipe On Github, Please.
-item.itemBedLocator_Base.name=Bed Locator [NBT Test]
+item.AAA_Broken.name=[Objet inexistant] Signalez cette recette sur Github, s'il vous plaît.
+item.itemBedLocator_Base.name=Localisateur de lit [Test NBT]
 item.itemBaseItemWithCharge.name=Base Chargeable Item
 item.miscutils_itemDebugShapeSpawner.name=[Debug] Shapes
 
@@ -67,9 +67,9 @@ GTPP.core.GT_Tooltip_Builder=§2Alkalus §7- §c[GT++]
 GTPP.core.GT_Tooltip_Radioactive=§7Warning: §aRadioactive! §6 Avoid direct handling without hazmat protection.
 
 # RecipeMaps
-gtpp.recipe.cokeoven=Coke Oven
-gtpp.recipe.matterfab2=Matter Fabricator
-gtpp.recipe.rocketenginefuel=Rocket Engine Fuel
+gtpp.recipe.cokeoven=Four à coke
+gtpp.recipe.matterfab2=Fabricateur de matière
+gtpp.recipe.rocketenginefuel=Carburant de Moteur fusée
 gtpp.recipe.quantumforcesmelter=Quantum Force Transformer
 gtpp.recipe.chemicaldehydrator=Dehydrator
 gtpp.recipe.vacfurnace=Vacuum Furnace
@@ -2215,7 +2215,6 @@ block.Tantalloy61.frame.name=Tantalloy-61 Frame Box
 block.Tantalloy61.standard.name=Block of Tantalloy-61
 block.TantalumCarbide.frame.name=Tantalum Carbide Frame Box
 block.TantalumCarbide.standard.name=Block of Tantalum Carbide
-block.Teflon.standard.name=Block of Teflon
 block.Thallium.frame.name=Thallium Frame Box
 block.Thallium.standard.name=Block of Thallium
 block.Titansteel.frame.name=Titansteel Frame Box
@@ -3104,15 +3103,6 @@ item.itemPlateNylon.name=Nylon Plate
 item.itemPlateDoubleNylon.name=Double Nylon Plate
 item.itemCellNylon.name=Nylon Cell
 tile.Block of Nylon.name=Block of Nylon
-item.itemIngotTeflon.name=Teflon Ingot
-item.itemDustTeflon.name=Teflon Dust
-item.itemDustTinyTeflon.name=Tiny Pile of Teflon Dust
-item.itemDustSmallTeflon.name=Small Pile of Teflon Dust
-item.itemNuggetTeflon.name=Teflon Nugget
-item.itemPlateTeflon.name=Teflon Plate
-item.itemPlateDoubleTeflon.name=Double Teflon Plate
-item.itemCellTeflon.name=Teflon Cell
-tile.Block of Teflon.name=Block of Teflon
 
 # Added 17/4/19
 # Spelling Corrections
@@ -3694,9 +3684,6 @@ item.BasicMetaFood.6.name=Raw Ocelot Meat
 item.BasicMetaFood.7.name=Cooked Ocelot Meat
 item.BasicMetaFood.8.name=Blaze Flesh
 
-item.itemCellNaquadahFuel.name=Naquadah Fuel Cell
-item.itemCellEnrichedNaquadahFuel.name=Enriched Naquadah Fuel Cell
-item.itemCellNaquadriaFuel.name=Naquadria Fuel Cell
 item.boricacid.name=Boric Acid Cell
 item.hydrochloricacid.name=Hydrochloric Acid Cell
 
@@ -3808,8 +3795,8 @@ item.itemBasicTurbine_2.name=Basic Steel Turbine
 interaction.voidexcess.enabled=Void Excess Enabled
 interaction.voidexcess.disabled=Void Excess Disabled
 
-interaction.separateBusses.enabled=Input busses are separated
-interaction.separateBusses.disabled=Input busses are not separated
+interaction.separateBusses.enabled=Input buses are separated
+interaction.separateBusses.disabled=Input buses are not separated
 
 # Added 29/11/21
 

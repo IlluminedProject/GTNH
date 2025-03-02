@@ -214,7 +214,7 @@ serverutilities.notifications.restart_timer=Restart Timer
 serverutilities.notifications.restart_timer.desc=Notifies when server is about to restart
 serverutilities.notifications.cleanup=Cleanup
 serverutilities.notifications.cleanup.desc=Notifies when entity cleanup is about to start or finish
-serverutilities.notifications.player_afk=Player AFK
+serverutilities.notifications.player_afk=Игрок AFK
 serverutilities.notifications.player_afk.desc=Notifies when a player goes AFK
 
 
@@ -283,7 +283,7 @@ player_config.serverutilities.show_team_prefix.info=§rДобавить [%s] в 
 
 player_config.vanish=Vanish Settings
 player_config.vanish.interaction=Interaction
-player_config.vanish.chat=Chat
+player_config.vanish.chat=Чат
 player_config.vanish.damageother=Damage Others
 player_config.vanish.collision=Collision
 player_config.vanish.sendconnectionmsg=Send connection message
@@ -506,7 +506,7 @@ commands.vanish.send_connection_msg=Send connection message on vanish
 commands.vanish.container_read_only=Container read-only
 commands.vanish.item_dropping=Item dropping while vanished
 commands.pregen.start.usage_server=/pregen start <x> <y> <radius>
-commands.pregen.start.usage_client=/pregen start <x> <y> <radius> or /pregen <radius>
+commands.pregen.start.usage_client=/pregen start <x> <y> <radius> или /pregen <radius>
 commands.pregen.stop.usage=/pregen stop
 commands.pregen.progress.usage=/pregen progress
 
@@ -551,7 +551,6 @@ serverutilities.lang.homes.set=Дом '%s' установлен!
 serverutilities.lang.homes.del=Дом '%s' удален!
 serverutilities.lang.homes.not_set=Неизвестный дом: '%s'!
 serverutilities.lang.homes.cooldown=Вы можете использовать дом только в %s!
-serverutilities.lang.homes.cross_dim=Вы не можете телепортироваться в другое измерение!
 serverutilities.lang.homes.limit=Вы не можете установить больше домашних мест!
 serverutilities.lang.homes.spectator=Сначала выйдите из режима зрителя!
 
@@ -592,9 +591,19 @@ cmd.backup_size=Текущий размер мира: %s, общий разме�
 serverutilities.gui.backup.title=Восстановление резервной копии (%s)
 serverutilities.gui.backup.button=Резервное копирование
 serverutilities.gui.backup.restore=Восстановить
+serverutilities.gui.backup.restore_global=Restore (with global data)
 serverutilities.gui.backup.error=Произошла ошибка при восстановлении резервной копии!
 serverutilities.gui.backup.delete_confirm=Вы уверены, что хотите §c§lудалить§r эту резервную копию?
 serverutilities.gui.backup.restore_confirm=Вы уверены, что хотите §a§lвосстановить§r эту резервную копию?
+serverutilities.gui.backup.restore_global_confirm=Are you sure you want to §a§lrestore (global)§r this backup?
+serverutilities.gui.backup.restore_confirm_desc=This will also restore global world related data. The previous data will be moved into ".minecraft/backups_before_restore"
+serverutilities.gui.backup.restore_global_confirm_desc=This will also restore global world related data, and will overwrite global settings with those included in the backup. The previous data will be moved into ".minecraft/backups_before_restore"
+
+# Pause When Empty
+cmd.pause_when_empty_updated=Server property 'pause-when-empty-seconds' set to %d
+cmd.pause_when_empty_oneshot='pause-when-empty-seconds' temporarily set to %d until next resume. Set to -1 to disable one shot
+commands.pause_when_empty.set.usage=/pause_when_empty set <seconds> (0 для отключения)
+commands.pause_when_empty.oneshot.usage=/pause_when_empty oneshot <seconds> (old value is applied on the next resume; 0 to disable pausing; -1 to disable the oneshot)
 
 # Gui
 ## Buttons

@@ -100,7 +100,9 @@ achievement.item.dysonSwarmModule.desc=Pickup this item to see the recipe in NEI
 
 
 # Items
+item.SpaceElevatorParts.name=Space Elevator Component
 item.nanotubeSpool.name=ナノチューブのスプール
+item.MiningDrone.name=Mining Drone
 item.MiningDroneLV.name=採掘ドローン MK-I
 item.MiningDroneMV.name=採掘ドローン MK-II
 item.MiningDroneHV.name=採掘ドローン MK-III
@@ -115,6 +117,7 @@ item.MiningDroneUIV.name=採掘ドローン MK-XI
 item.MiningDroneUMV.name=採掘ドローン MK-XII
 item.MiningDroneUXV.name=採掘ドローン MK-XIII
 item.MiningDroneMAX.name=採掘ドローン MK-XIV
+item.DysonSwarmParts.name=Dyson Swarm Component
 item.dysonSwarmModule.name=Dyson Swarm Module
 item.TaHfCNanofibers.name=Tantalum Hafnium Carbide Nanofibers
 item.NtNanofibers.name=Neutronium Nanofibers
@@ -123,6 +126,7 @@ item.TaHfNanoparticles.name=Tantalum Hafnium Carbide Nanoparticles
 item.NtNanoparticles.name=Neutronium Nanoparticles
 
 # Blocks
+gt.blockcasingsSE.name=Space Elevator Part
 gt.blockcasings.ig.0.name=宇宙エレベーターのベース外装
 gt.blockcasings.ig.0.desc0=宇宙エレベーターを支える強度
 gt.blockcasings.ig.0.desc1=月へ！
@@ -132,9 +136,11 @@ gt.blockcasings.ig.1.desc1=十分な強度があることを願う
 gt.blockcasings.ig.2.name=宇宙エレベーターの内部構造
 gt.blockcasings.ig.2.desc0=宇宙エレベーターの構造を強化
 gt.blockcasings.ig.2.desc1=見た目も素敵！
+tile.SpaceElevatorCable.name=Space Elevator Cable
 gt.blockcasings.ig.cable.name=宇宙エレベーターのケーブル
 gt.blockcasings.ig.cable.desc0=カウンターウェイトをベース構造に接続
 gt.blockcasings.ig.cable.desc1=これが壊れたら悲しいですね
+gt.blockcasingsSEMotor.name=Space Elevator Motor
 gt.blockcasings.ig.motor.t1.name=宇宙エレベーターのモーター MK-I
 gt.blockcasings.ig.motor.t2.name=宇宙エレベーターのモーター MK-II
 gt.blockcasings.ig.motor.t3.name=宇宙エレベーターのモーター MK-III
@@ -147,6 +153,7 @@ gt.blockcasings.ig.motor.t3.desc1=ズーーーム
 gt.blockcasings.ig.motor.t4.desc1=アイ・アム・スピード
 gt.blockcasings.ig.motor.t5.desc1=カチャウ
 gt.blockcasings.ig.motor.desc2=宇宙エレベーターのモジュールスロットを%s解放
+tile.DysonSwarmPart.name=Dyson Swarm Part
 tile.DysonSwarmReceiverCasing.name=Dyson Swarm Energy Receiver Base Casing
 tile.DysonSwarmReceiverDish.name=Dyson Swarm Energy Receiver Dish Block
 tile.DysonSwarmDeploymentUnitCasing.name=Dyson Swarm Module Deployment Unit Base Casing
@@ -162,6 +169,7 @@ tile.GasSiphonCasing.name=Planetary Siphon Casing
 # GUI
 GT5U.gui.text.no_space_station=§7Not on a space station
 GT5U.gui.text.invalid_depth=§7Invalid depth
+GT5U.gui.text.siphoning=§aExtracting from the planet
 GT5U.gui.text.missing_project=§7Missing §b%s §7 at §b%s
 GT5U.gui.text.no_plasma=§7Not enough plasma
 GT5U.gui.text.invalid_overdrive=§7Invalid overdrive settings
@@ -270,6 +278,7 @@ gt.blockmachines.multimachine.project.ig.miner.t3.desc1=This definitely violates
 gt.blockmachines.multimachine.project.ig.miner.desc3=Requires a plasma to operate (825L Helium / 550L Bismuth / 375L Radon / 250L Technetium / 150L Plutonium 241).
 gt.blockmachines.multimachine.project.ig.miner.desc4=Higher tier plasmas increases the chances of mining bigger asteroids, and improves mining operation time.
 gt.blockmachines.multimachine.project.ig.miner.desc5=Needs to be fed with computation to work.
+gt.blockmachines.multimachine.project.ig.miner.desc5.1=Mining Drones must be placed in a regular input bus (neither linked nor stocking bus).
 gt.blockmachines.multimachine.project.ig.miner.t1.desc5=Runs at UV with up to 2 parallels
 gt.blockmachines.multimachine.project.ig.miner.t2.desc5=Runs at UHV with up to 4 parallels
 gt.blockmachines.multimachine.project.ig.miner.t3.desc5=Runs at UEV with up to 8 parallels

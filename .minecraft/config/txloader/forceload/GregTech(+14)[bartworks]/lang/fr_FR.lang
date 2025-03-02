@@ -183,6 +183,10 @@ tooltip.tile.radhatch.10.name=Remaining: %s s / %s s
 tooltip.tile.acidgen.0.name=An Acid Generator
 tooltip.tile.acidgen.1.name=Creates Power from Chemical Energy Potentials.
 
+tooltip.bw.structure.glass=Glass
+tooltip.bw.structure.radio_hatch=Radio Hatch
+tooltip.bw.structure.tier_glass=%s+ Tier Glass
+
 # RecipeMap
 bw.recipe.biolab=Bio Lab
 bw.recipe.BacteriaVat=Bacterial Vat
@@ -201,7 +205,7 @@ nei.biovat.output.tooltip=Outputs up to 1,001x amount, depending on the amount o
 tile.diode.name=Cable Diode
 tile.energydistributor.name=Energy Distributor
 tile.acidgenerator.name=Acid Generator
-tile.bw.mbf.name=Mega Blast Furnace
+tile.bw.mbf.name=Mega Electric Blast Furnace
 tile.bw.mvf.name=Mega Vacuum Freezer
 tile.biolab.name=Bio Lab
 tile.biovat.name=Bacterial Vat

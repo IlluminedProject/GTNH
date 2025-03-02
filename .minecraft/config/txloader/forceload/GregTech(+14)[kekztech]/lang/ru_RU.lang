@@ -14,8 +14,8 @@ mbdesc.addInputBus.InputBus=Входной люк/и
 mbdesc.addInputHatch.InputHatch=Входной шлюз/ы
 mbdesc.addOutputBus.OutputBus=Выходной люк/и
 mbdesc.addOutputHatch.OutputHatch=Выходной шлюз/ы
-mbdesc.signAndFinalize.Hold=Держать
-mbdesc.signAndFinalize.todisplay=для отображения структурных рекомендаций
+mbdesc.signAndFinalize.Hold=Удерживайте
+mbdesc.signAndFinalize.todisplay=чтобы отобразить рекомендации по структуре
 mbdesc.signAndFinalize.createdby=Создано
 
 # -------- Fuel Cell: Structure Blocks
@@ -23,6 +23,7 @@ tile.kekztech_gdcceramicelectrolyteunit_block.name=Керамический эл
 tile.kekztech_yszceramicelectrolyteunit_block.name=Керамический электролитный блок YSZ
 
 # -------- Fuel Cell: Crafting Components
+item.kekztech_crafting_item.name=Крафтовый компонент
 item.kekztech_crafting_item.9.name=YSZ Керамическая пыль
 item.kekztech_crafting_item.10.name=GDC Керамическая пыль
 item.kekztech_crafting_item.11.name=Иттриевая пыль
@@ -32,6 +33,7 @@ item.kekztech_crafting_item.14.name=YSZ Керамическая пластин�
 item.kekztech_crafting_item.15.name=GDC Керамическая пластина
 
 # -------- TFFT: Structure Blocks
+tile.kekztech_tfftstoragefield_block.name=T.F.F.T Корпус/Блок хранения жидкостей
 tile.kekztech_tfftstoragefield_block.0.name=T.F.F.T Корпус
 tile.kekztech_tfftstoragefield_block.1.name=T.F.F.T Блок хранения жидкостей T1
 tile.kekztech_tfftstoragefield_block.2.name=T.F.F.T Блок хранения жидкостей T2
@@ -50,6 +52,7 @@ tile.kekztech_tfftstoragefield_block.hint.3=Подсказка 3 точки: EV+
 tile.kekztech_tfftstoragefield_block.hint.4=Подсказка 4 точки: EV+ тировое стекло
 
 # -------- Lapotronic Super Capacitor: Structure Blocks
+tile.kekztech_lapotronicenergyunit_block.name=Лазуротроновый корпус/конденсатор
 tile.kekztech_lapotronicenergyunit_block.0.name=Лазуротроновый корпус суперконденсатора
 tile.kekztech_lapotronicenergyunit_block.1.name=Лазуротроновый конденсатор (IV)
 tile.kekztech_lapotronicenergyunit_block.2.name=Лазуротроновый конденсатор (LuV)
@@ -64,6 +67,7 @@ tile.kekztech_lapotronicenergyunit_block.10.name=UMV Конденсатор
 tile.kekztech_lapotronicenergyunit_block.desc=Часть лазуротронового суперконденсатора
 
 # -------- Thaumium Reinforced Jar: Block
+tile.kekztech_thaumiumreinforcedjar_block.name=Укреплённая банка из таум-металла
 tile.kekztech_thaumiumreinforcedjar_block.0.name=Укреплённая банка из таум-металла
 tile.kekztech_thaumiumreinforcedjar_block.3.name=Укреплённая пустотная банка из таум-металла
 
@@ -77,6 +81,7 @@ kekztech.research_page.THAUMIUMREINFORCEDJAR.0=Вы слышали, как ва�
 kekztech.research_page.THAUMIUMREINFORCEDJAR.1=Сжатие такого количества эссенции в таком маленьком пространстве вызывает некоторую нестабильность. Подбирать усиленные банки, вероятно, плохая идея...<BR><BR>Вы представляете, что вы могли бы получить еще больше из своих банок, если бы у вас был какой-то материал, который тверже алмаза или любого другого магического металла, который вы видели до сих пор.
 
 # -------- Ichor Jar: Block
+tile.kekztech_ichorjar_block.name=Ихоровая банка
 tile.kekztech_ichorjar_block.0.name=Ихоровая банка
 tile.kekztech_ichorjar_block.3.name=Ихоровая пустотная банка
 
@@ -108,3 +113,5 @@ achievement.tile.kekztech_lapotronicenergyunit_block.10=UMV Конденсато
 # -------- GUI
 gui.kekztech_lapotronicenergyunit.wireless=Беспроводной режим
 gui.kekztech_lapotronicenergyunit.wireless_rebalance=Беспроводной ребаланс (Одноразовое использование)
+gui.kekztech_lapotronicenergyunit.warning.header=Предупреждение!
+gui.kekztech_lapotronicenergyunit.warning.text=Обязательно внимательно прочтите и перед активацией беспроводного режима внимательно изучите tooltip, это может потенциально привести к поломке вашей базы. Это предупреждение больше не появится.

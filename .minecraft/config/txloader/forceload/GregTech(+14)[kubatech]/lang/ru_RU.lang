@@ -13,7 +13,7 @@ kubatech.commandhandler.invalid=§cНедопустимое использова
 kubatech.commandhandler.cant_find=§cНе удается найти параметр команды %s
 kubatech.commandhandler.generic_help=§cВы также можете использовать "/kubatech help" для получения возможных команд
 kubatech.commandhandler.usage=<option>
-kubatech.command.help.possible_commands=Возможные команды: 
+kubatech.command.help.possible_commands=Возможные команды:
 kubatech.command.help.usage=- Показывает все возможные команды
 kubatech.command.config.invalid_option=§cНеверный вариант ! Возможные варианты: перезагрузить
 kubatech.command.config.success=§aКонфигурация успешно перезагружена!
@@ -37,16 +37,22 @@ GT5U.gui.text.EIG_seedOverflow=Внутри слишком много семян
 GT5U.gui.text.EIG_missingwater=Нет воды!
 GT5U.gui.text.EIG_ic2glass=Недостаточный тир стекла!
 
+#Waila
+kubatech.waila.eec.mob_type=Вид существа: %s
+kubatech.waila.eec.no_mob=Нет
+
 #Blocks
 kubablock.tea_acceptor.name=§4§lПриёмщик чая
 kubablock.tea_storage.name=§4§lРасширенное хранилище чая
 
 #DEFC Casings
-defc.casing.tip=Draconic Evolution Fusion Crafter Casing, Tier %d
+defc.casing.name=Термоядерный корпус
+defc.casing.tip=Корпус Draconic Evolution термоядерный крафтера, тир %d
 
 #Items
+item.kubaitems.name=Чай/Чайный лист
 kubaitem.fromcollection=Этот предмет из
-kubaitem.notyours=It looks like that item is not yours
+kubaitem.notyours=Похоже, этот предмет не ваш
 kubaitem.defc_schematic_t1.name=Схема: ядро дракона
 kubaitem.defc_schematic_t1.tip=Эту схему можно найти в Подземельях Плутона
 kubaitem.defc_schematic_t2.name=Схема: ядро виверны
@@ -131,3 +137,12 @@ tc.research_category.KUBATECH=§lКамелия китайская
 tc.research_name.KT_UltimateTea=%s §6§lЧай
 tc.research_text.KT_UltimateTea=§4§lЧистая сила
 KT.research.ultimatetea=Вы нашли способ преобразовать весь этот чай в чистую энергию, создав %s §6§lЧай
+
+#Tooltip
+kubatech.tooltip.tea=Чай
+kubatech.tooltip.tea_acceptor.0=Accepts Tea items and adds them to your network
+kubatech.tooltip.tea_acceptor.1=Может принимать до 10 стаков за тик
+kubatech.tooltip.tea_storage.0=Extends Tea Storage by %s
+kubatech.tooltip.tea_ingredient.0=This is Tea ingredient
+
+kubatech.tooltip.structure.flowers=Цветы

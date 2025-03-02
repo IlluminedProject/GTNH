@@ -34,7 +34,7 @@ GT5U.gui.text.MegaApiary_slotoverflow=내부에 너무 많은 벌이 존재합�
 GT5U.gui.text.MegaApiary_noflowers=꽃이 존재하지 않습니다!
 GT5U.gui.text.EIG_slotoverflow=내부에 너무 많은 작물이 있습니다!
 GT5U.gui.text.EIG_missingwater=물이 공급돼지 않습니다!
-GT5U.gui.text.EIG_ic2glass=유리의 등급이 낮습니다!
+GT5U.gui.text.EIG_ic2glass=유리의 티어가 낮습니다!
 
 #Blocks
 kubablock.tea_acceptor.name=§4§l차 수용기
@@ -70,7 +70,7 @@ kubaitem.teaingredient.pu-erh_tea_leaf.name=Pu-erh Tea Leaf
 kubaitem.teaingredient.white_tea_leaf.name=White Tea Leaf
 kubaitem.teaingredient.yellow_tea_leaf.name=Yellow Tea Leaf
 kubaitem.teaingredient.tea_leaf_dehydrated.name=Dehydrated Tea Leaf
-kubaitem.teaingredient.steamed_tea_leaf.name=Steamed Tea Leaf
+kubaitem.teaingredient.steamed_tea_leaf.name=찐 찻잎
 kubaitem.teaingredient.rolled_tea_leaf.name=Rolled Tea Leaf
 kubaitem.teaingredient.oxidized_tea_leaf.name=Oxidized Tea Leaf
 kubaitem.teaingredient.fermented_tea_leaf.name=Fermented Tea Leaf

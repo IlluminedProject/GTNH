@@ -9,7 +9,7 @@ tc.aspect.desidia=怠惰、無精、遅延
 tc.aspect.luxuria=色欲、願望、過剰
 #
 # Items
-item.NetherShard.name=Shard
+item.NetherShard.name=結晶片
 item.NetherShard.wrath.name=憤怒の結晶片
 item.NetherShard.envy.name=嫉妬の結晶片
 item.NetherShard.gluttony.name=貪食の結晶片
@@ -22,8 +22,8 @@ item.NetherShard.despair.name=絶望の結晶片
 item.SkullAxe.name=頭蓋落としの斧
 item.ArcaneCake.name=魔導ケーキ
 item.TaintShovel.name=浄化のシャベル
-item.TaintPickaxe.name=歪曲のつるはし
-item.MorphPickaxe.name=変化のつるはし
+item.TaintPickaxe.name=歪曲のツルハシ
+item.MorphPickaxe.name=変化のツルハシ
 item.MorphSword.name=変化の剣
 item.MorphShovel.name=変化のシャベル
 item.MorphAxe.name=変化の斧
@@ -69,7 +69,7 @@ item.Wand.vinteum.cap=ヴィンテウム鋼留めの
 item.Wand.manasteel.cap=マナスチール留めの
 item.Wand.elementium.cap=エレメンチウム留めの
 item.Wand.terrasteel.cap=テラスチールでナーフされた
-item.WandCores.name=Wand Core
+item.WandCores.name=杖身
 item.WandCores.tainted.name=汚染された杖身
 item.WandCores.infernal.name=地獄の杖身
 item.WandCores.soul.name=エルドリッチの杖身
@@ -84,7 +84,7 @@ item.WandCores.witchwood_staff.name=ウィッチウッドの上級杖身
 item.WandCores.dreamwood.name=ドリームウッドの杖身
 item.WandCores.dreamwood_inert.name=沈黙するドリームウッドの杖身
 item.WandCores.dreamwood_staff.name=ドリームウッドの上級杖身
-item.WandCaps.name=Wand Cap
+item.WandCaps.name=石突
 item.WandCaps.alchemical.name=錬金加工された石突
 item.WandCaps.vinteum.name=ヴィンテウムの石突
 item.WandCaps.soul.name=エンダーの石突
@@ -162,14 +162,14 @@ forbidden.research_text.NETHERSHARDS=お行儀悪く行こう。
 forbidden.research_page.NETHERSHARDS.1=ネザーには奇妙なエネルギーが渦巻いている。時に、特定の共鳴的な事象が起こると、そのエネルギーは結晶片へと固化することが知られている。
 forbidden.research_page.NETHERSHARDS.2=これらの結晶片にはさまざまな悪徳が染み込んでおり、不徳な魔導師にとっては多くの使い道がある。<BR>ネザーの結晶片にはには7つの種類があり、それぞれが異なる "大罪 "に同調する。<BR><BR><IMG>forbidden:textures/misc/research.png:0:0:111:16:1</IMG><BR>
 forbidden.research_page.NETHERSHARDS.2b=これらの結晶片にはさまざまな悪徳が染み込んでおり、不徳な魔導師にとっては多くの使い道がある。<BR>ネザーの結晶片にはには6つの種類があり、それぞれが異なる "大罪 "に同調する。<BR><BR><IMG>forbidden:textures/misc/research.png:0:16:95:16:1</IMG><BR>
-forbidden.research_page.NETHERSHARDS.3=憤怒の結晶片は、暴力行為の周囲で結晶化する。物理的な力が過剰であるほど、憤怒の結晶片は出現しやすくなる。<BR><BR>怠惰の結晶片は、努力しないで資源を集めるために、身代わりや事故を利用すると凝結する。<BR><BR>嫉妬の結晶片は、それを欲する者がそれを持つものから奪い取る。<BR><BR>傲慢の結晶片は、真に偉大な力を持つ生物が小さく切り刻まれると出現する。<BR><BR>貪食の結晶片は、何者かがごちそうを食べると結晶化する。<BR><BR>貪欲の結晶片は、エンチャントが利益を生み出すために使われると現れる。
+forbidden.research_page.NETHERSHARDS.3=憤怒の結晶片は、暴力行為の周囲で結晶化する。憤怒の結晶片は、物理的な力が過剰であるほど出現しやすくなる。<BR><BR>怠惰の結晶片は、努力しないで資源を集めるために、代行や事故を利用すると凝結する。<BR><BR>嫉妬の結晶片は、それを欲する者がそれを持つものから奪い取って入手する。<BR><BR>傲慢の結晶片は、真に偉大な力を持つ生物が切り刻まれると出現する。<BR><BR>貪食の結晶片は、何者かがごちそうを食べると結晶化する。<BR><BR>貪欲の結晶片は、エンチャントが利益を生み出すと現れる。
 #
 forbidden.research_name.SKULLAXE=頭蓋落としの斧
 forbidden.research_text.SKULLAXE=首をはねよ!
-forbidden.research_page.SKULLAXE.1=何とも腸が煮え返るようなモンスターがいる。スケルトン！いつもカチャカチャと音を立て、こちらを練習台にしてくる。あるいはクリーパー！我が物顔で物を吹き飛ばしに忍び寄ってくる！奴らの気障な頭を全て切り落として、杭に刺してやりたいものだ。<BR><BR>幸運なことに、それを可能にするアイテムを発見した。頭蓋落としの斧は、倒したモンスターの首を切り落とすことができる。他の人間にも効くかもしれない！ただ残念なことに、この斧は注入の影響で血に飢えているため、つまらない植物を効率的に切り裂くことはできない。
+forbidden.research_page.SKULLAXE.1=何とも血が煮え返るようなモンスターがいる。スケルトン！いつもカチャカチャと音を立て、こちらを射撃の練習台にしてくる。あるいはクリーパー！我が物顔で物を吹き飛ばしに忍び寄ってくる！奴らの気障な頭を全て切り落として、杭に刺してやりたいものだ。<BR><BR>幸運なことに、それを可能にするアイテムを発見した。頭蓋落としの斧は、倒したモンスターの首を切り落とすことができる。他の人間にも効くかもしれない！ただ残念なことに、この斧は注入の影響で血に飢えているため、つまらない植物を効率的に切り裂くことはできない。
 #
 forbidden.research_name.RINGFOOD=暴食の指輪
-forbidden.research_text.RINGFOOD=チーズパフは壊血病を予防するんだろ？
+forbidden.research_text.RINGFOOD=チーズパフは壊血病予防になるんだろ？
 forbidden.research_page.RINGFOOD.1=人々に叱られ続ける。一日中クッキーを食べているわけにはいかないとか、もしくは「栄養学上そうはいかない 」などと言われる。ああ、こういう否定ばかりの奴らにはもううんざりだ。<BR><BR>暴食の指輪は、指にはめている間、ほとんどの食べ物の満腹度を高める。<BR><BR>(副作用として、吐き気、頭痛、けいれん、めまい、糖尿病、またホメオパシーへの突然の興味などがあるかもしれない。)
 #
 forbidden.research_name.ARCANECAKE=魔導ケーキ
@@ -185,9 +185,9 @@ forbidden.research_text.TAINTSHOVEL=熱いナイフで、マジでグロいバ�
 forbidden.research_page.TAINTSHOVEL.1=汚染を取り除く最も簡単な方法は、物理的に取り除くことである場合もある。<BR><BR>魔導金属のシャベルをシルバーウッドと秩序の結晶片で強化することで、汚染に対抗しうる道具を生み出した。 浄化のシャベルは、通常の土を掘るのと同じように、ぐちゃぐちゃに汚染された地を効率的に掘ることができる。<BR><BR>このシャベルを手に持って右クリックすると、耐久力を消費して、狭い範囲の液体フラックスやフラックスガスを浄化することができる。もう丸石で注入の失敗を片付ける必要はない！
 forbidden.research_page.TAINTSHOVEL.2=シャベルで汚染を掘ると、放出される歪んだエネルギーが結晶化して汚染の結晶片になることがある。 この結晶片は他の汚染されたアイテムとは異なり、その結晶パターンゆえに持ち運べるほど安定している。
 #
-forbidden.research_name.TAINTPICK=歪曲のつるはし
+forbidden.research_name.TAINTPICK=歪曲のツルハシ
 forbidden.research_text.TAINTPICK=黒曜石バスター
-forbidden.research_page.TAINTPICK.1=魔導金属のツルハシに汚染を注入することで、硬い素材を自在に削り取るツールを生み出せる。<BR><BR>歪曲のつるはしは硬いものに汚染を伝播させ、その強度を弱める。このツルハシは対象が硬ければ硬いほど、より効果的にその対象を破壊することができる。残念なことに、柔らかいものを採掘する際には、汚染の影響は逆効果となり、ただ素手でブロックを破壊するよりも非効率的になる。
+forbidden.research_page.TAINTPICK.1=魔導金属のツルハシに汚染を注入することで、硬い素材を自在に削り取るツールを生み出せる。<BR><BR>歪曲のツルハシは硬いものに汚染を伝播させ、その強度を弱める。このツルハシは対象が硬ければ硬いほど、より効果的にその対象を破壊することができる。残念なことに、柔らかいものを採掘する際には、汚染の影響は逆効果となり、ただ素手でブロックを破壊するよりも非効率的になる。
 #
 forbidden.research_name.ROD_tainted=汚染された杖身
 forbidden.research_text.ROD_tainted=ぐにゃぐにゃのVis貯蔵庫
@@ -195,7 +195,7 @@ forbidden.research_page.ROD_tainted.1=それを活用する方法を知ってい
 #
 forbidden.research_name.TAINTTREE=汚染された木
 forbidden.research_text.TAINTTREE=フラックスの根は醜い実を結ぶ
-forbidden.research_page.TAINTTREE.1=魔法の実験でできた病的でねじ曲がった廃液は、それ自体が奇妙な命を持ちうる。ほとんどの植物は汚染された地で生き残ることができないが、それが可能な植物を育てる方法を見つけた。苗木を汚染に浸すことで、汚染された地で成長できる木を生み出せる。<BR><BR>この木は繊維状の汚染に耐性を持った木材にも加工することができ、汚染の拡大を防ぐ安全な建造物を建てることができる。<BR><BR>この木には実もなるようだが、それを食べるのはお勧めしない...。
+forbidden.research_page.TAINTTREE.1=魔法の実験でできた病的でねじ曲がった廃液は、それ自体が奇妙な命を持ちうる。ほとんどの植物は汚染された地で生き残ることができないが、それが可能な植物を育てる方法を見つけた。苗木を汚染に浸すことで、汚染された地で成長できる木を生み出せる。<BR><BR>この木は繊維状の汚染に耐性を持った木材にも加工することができ、汚染の拡大を防ぐ安全な建造物を建てることができる。<BR><BR>この木には実もなるようだが、食べるのはお勧めしない...。
 #
 forbidden.research_name.TAINTSTONE=汚染された石
 forbidden.research_text.TAINTSTONE=汚染に立ち向かいし石
@@ -235,121 +235,121 @@ forbidden.research_name.ROD_livingwood=リビングウッドの杖身
 forbidden.research_text.ROD_livingwood=植物のVis貯蔵庫
 forbidden.research_page.ROD_livingwood.1=リビングウッドはマナを操る素晴らしい能力を持っている。適切な試薬と組み合わせれば、マナをVisに変換することも可能だ。<BR><BR>リビングウッドの杖は、インベントリにあるマナ貯蔵アイテムから素早くマナを引き出して、自身にVisを充填する。<BR><BR>注入の儀式の過程で、残念ながらリビングウッドは燃え尽きてしまう。一度注入したら、杖身を再び目覚めさせるために、マナプールでマナを補給しなければならない。
 #
-forbidden.research_name.ROD_dreamwood_staff=Dreamwood Staff
-forbidden.research_text.ROD_dreamwood_staff=Sweet dreams are made of these
-forbidden.research_page.ROD_dreamwood_staff.1=Livingwood is a useful material, but it can't seem to withstand the amount of arcane power needed to make a staff. The elves' dreamwood seems to be up to task, however.<BR><BR>Staves made of dreamwood hold significantly more vis than the equivalent wand and are able to apply more potent power when using foci.<BR><BR>As with livingwood, dreamwood rods must be infused in a mana pool to fully awaken.
+forbidden.research_name.ROD_dreamwood_staff=ドリームウッドの上級杖
+forbidden.research_text.ROD_dreamwood_staff=良い夢のもと
+forbidden.research_page.ROD_dreamwood_staff.1=リビングウッドは便利な素材だが、上級杖を作るのに必要な量の神秘の力には耐えられないようだ。しかし、エルフのドリームウッドなら十分耐えられるだろう。<BR><BR>ドリームウッドで作られた上級杖は、同素材の杖よりもはるかに多くのVisを保持し、杖星を使用する際にはより強大な力を発揮することができる。<BR><BR>リビングウッドと同様、ドリームウッドの棒を完全に覚醒させるにはマナプールで注入しなければならない。
 #
-forbidden.research_name.CAP_alchemical=Alchemical Caps
-forbidden.research_text.CAP_alchemical=When Thaumium isn't bloody enough
-forbidden.research_page.CAP_alchemical.1=You've developed a wand cap that merges Thaumaturgy and Alchemical Wizardry.  Alchemical Caps are very effective at channeling Aqua, only using 80% of the normal vis cost.  For everything else, they offer only a 90% rate.<BR><BR>If combined with a Bloody Wand Core, Alchemical Caps discount the amount of LP consumed by the wand, costing only 900 LP per vis.  The caps also cause all attacks from a blood wand to inflict Weakness.
+forbidden.research_name.CAP_alchemical=錬金加工された石突
+forbidden.research_text.CAP_alchemical=魔導金属では血の気が不十分なら
+forbidden.research_page.CAP_alchemical.1=魔導学と錬金術的魔術を融合させた石突を開発した。 錬金加工された石突はアクアのVisを流すのに非常に適しており、通常のVisコストの80％しか使わない。 それ以外のVisでは90％しか使わない。<BR><BR>血の染み込んだ杖身と組み合わせると、錬金加工された石突は杖が消費するLPを減らし、1Visあたり900LPしか消費しなくなる。 また、石突は血の染み込んだ杖からの攻撃全てに弱体化の効果を与える。
 #
-forbidden.research_name.CAP_vinteum=Vinteum Caps
-forbidden.research_text.CAP_vinteum=Magical wand caps
-forbidden.research_page.CAP_vinteum.1=By infusing a Thaumium cap with Vinteum, you create a cap that, when combined with a Witchwood Wand Core, lowers its mana cost to only 80 per point of vis.<BR><BR>The Thaumium cap seems to meld well with Vinteum, offering the same 90% vis rate.
+forbidden.research_name.CAP_vinteum=ヴィンテウムの石突
+forbidden.research_text.CAP_vinteum=魔術的な石突
+forbidden.research_page.CAP_vinteum.1=魔導金属の石突にヴィンテウムを注入することで、ウィッチウッドの杖身と組み合わせたときに1Visあたりのマナ消費量を80にまで下げる石突を作ることができる。<BR><BR>魔導金属の石突はヴィンテウムとうまく融合するようで、Vis効率は変わらず90％である。
 #
-forbidden.research_name.CAP_soul=Ender Caps
-forbidden.research_text.CAP_soul=Protection for your soul
-forbidden.research_page.CAP_soul.1=You've created a wand cap that can safely channel the destructive energy of The End.  Ender Caps have an 80% vis rate on Perditio, but only 90% for other aspects.<BR><BR>When combined with an Eldritch Wand Core, Ender Caps also reduce the amount of corruption your soul suffers from channeling vis out of the End.
+forbidden.research_name.CAP_soul=エンダーの石突
+forbidden.research_text.CAP_soul=魂の保護
+forbidden.research_page.CAP_soul.1=エンドの破壊的エネルギーを安全に流せる石突を作成した。 エンダーの石突はパーディシオに関してはVis効率80％を有するが、他の相については90％にとどまる。<BR><BR>またエルドリッチの杖身と組み合わせると、エンダーの石突はエンドからVisを流す際に魂に生じる堕落を低減させることができる。
 #
-forbidden.research_name.CAP_manasteel=Manasteel Caps
-forbidden.research_text.CAP_manasteel=The secret of mana
-forbidden.research_page.CAP_manasteel.1=Manasteel has very useful properties when it comes to mana manipulation. When crafted into a wand cap, it offers a 90% vis rate. If combined with a wand that can consume mana, it also makes the mana conversion process more efficient.<BR><BR>In order to be used in the creation of a wand, the Inert Manasteel Caps must be infused in a Mana Pool.
+forbidden.research_name.CAP_manasteel=マナスチールの石突
+forbidden.research_text.CAP_manasteel=マナの秘密
+forbidden.research_page.CAP_manasteel.1=マナスチールはマナの操作に関して非常に有用な特性を持っている。石突に加工すると、90％のVis効率を発揮する。マナを消費できる杖身と組み合わせれば、マナの変換プロセスもより効率的になる。<BR><BR>杖不活性の作成に使用するには、不活性なマナスチールの石突をマナプールで注入する必要がある。
 #
-forbidden.research_name.CAP_elementium=Elementium Caps
-forbidden.research_text.CAP_elementium=Eco Friendly Wand Caps
-forbidden.research_page.CAP_elementium.1=Alfheim seems to be a world steeped in magical power, and Elementium is no exception. When crafted into a wand cap and treated with the right materials, Elementium Caps have an exceptional ability to channel vis. When combined with a wand or staff that uses mana, they'll also reduce the mana conversion rate.<BR><BR>Elementium's pretty pink color is just icing on the cake.
+forbidden.research_name.CAP_elementium=エレメンチウムの石突
+forbidden.research_text.CAP_elementium=環境にやさしい石突
+forbidden.research_page.CAP_elementium.1=アルフヘイムは魔法の力に満ちた世界であり、エレメンチウムも例外ではない。石突に加工され、適切な材料で処理されたエレメンチウムの石突は、Visを流すのに卓越した能力を持つ。マナを使用する杖や上級杖と組み合わせれば、マナの変換効率を上げることもできる。<BR><BR>エレメンチウムのかわいいピンク色は、まさにケーキの上のアイシングだ。
 #
-forbidden.research_name.CAP_terrasteel=Terrasteel Caps
-forbidden.research_text.CAP_terrasteel=Completion!
-forbidden.research_page.CAP_terrasteel.1=Sweet Baby Haruhi, this was a terrible idea. What were you thinking?<BR><BR>Terrasteel's oversaturation of mana gives it many of the qualities of the earth it's named after: Strength, durability, density, and... extreme resistance to energy. Terrasteel's sheer inability to channel vis causes most vis to just dissipate harmlessly against it instead of being focused out of the wand.<BR><BR>Apparently just making caps out of every material under the sun isn't a great idea.
+forbidden.research_name.CAP_terrasteel=テラスチールの石突
+forbidden.research_text.CAP_terrasteel=完成!
+forbidden.research_page.CAP_terrasteel.1=なあハルヒ、こいつは酷いアイディアだぞ。何を考えてるんだ?<BR><BR>テラスチールにはマナが過剰に蓄積されているため、その名の由来である大地の性質が多く備わっている。強度、耐久性、密度、そして...エネルギーに対する極度の抵抗力。テラスチールは全くVisを流すことができないため、ほとんどのVisは杖から放出されることなく、テラスチールに対して無駄に散ってしまう。<BR><BR>どうやら、あらゆる素材で片っ端から石突を作るのは良いアイデアとは言えないようだ。
 #
-forbidden.research_name.TRANSEMERALD=Emerald Transmutation
-forbidden.research_text.TRANSEMERALD=Transformation of valuables into emerald
-forbidden.research_page.TRANSEMERALD.1=You have discovered a way to multiply emeralds by steeping emerald fragments in lucrum harvested from other substances.
+forbidden.research_name.TRANSEMERALD=エメラルドへの変成
+forbidden.research_text.TRANSEMERALD=錬「エメラルド」術
+forbidden.research_page.TRANSEMERALD.1=エメラルドの欠片に他の物質から抽出したlucrumの相を加えることで、エメラルドを増やせることを発見した。
 #
-forbidden.research_name.BLACKFLOWER=Umbral Rose
-forbidden.research_text.BLACKFLOWER=Save the squid!
-forbidden.research_page.BLACKFLOWER.1=There's no sight more pathetic than a soggy Thaumaturge.  For all your great and miraculous powers, you still have to go jump in the nearest lake and hunt for squids every time you want to refill your inkwell.<BR><BR>You're done squid hunting.  By infusing a rose with tenebrae and victus, you create a flower that spreads like a weed and whose petals can be crushed for ink.
+forbidden.research_name.BLACKFLOWER=影のバラ
+forbidden.research_text.BLACKFLOWER=イカを保護しろ!
+forbidden.research_page.BLACKFLOWER.1=ずぶ濡れの魔導師ほど哀れな光景はない。 偉大で奇跡的な力を持ってもなお、インクを補充したい時には毎度近くの湖に飛び込んでイカを狩らなければならない。<BR><BR>イカ狩りは終わりだ。 バラにtenebraeとvictusを注入すれば、雑草のように広がり、花びらを砕いてインクにできる花を生み出せる。
 #
-forbidden.research_name.WRATHCAGE=Wrath Cage
-forbidden.research_text.WRATHCAGE=Neverending battle
-forbidden.research_page.WRATHCAGE.1=Sometimes, it's not enough to just kill something. Sure, slaying a single monster may be rather cathartic, but imagine just mowing down a crowd of the obnoxious little jerks.<BR><BR>To that end, you've discovered a way to recreate the monster spawners found in the ancient ruins. Unlike the original monster spawners, the Wrath Cage responds to redstone controls instead of the presence of human beings and can run much faster than the ancient devices.
-forbidden.research_page.WRATHCAGE.2=However, you haven't been able to duplicate the original method of infinite creation. For every creature spawned, the Wrath Cage requires a bit of essentia piped into its internal reserves. The device will accept different types of essentia depending on the creature it is attuned to. Alternatively, piping Ira into the cage can serve as a fuel. The cage can also accept Desidia for some reason.<BR><BR>Right-clicking the Wrath Cage with a Diabolist Fork will cycle the cage between the different fuel types, changing which essentia it applies suction to.
-forbidden.research_page.WRATHCAGE.3=To attune a wrath cage to a specific creature, right click on it with an imprinted crystal.  Slaying a compatible creature with a Diabolist Fork while carrying a blank imprinting crystal will attune the crystal to that monster.
+forbidden.research_name.WRATHCAGE=憤怒の檻
+forbidden.research_text.WRATHCAGE=終わらない戦い
+forbidden.research_page.WRATHCAGE.1=時に、ただ何かを殺すだけでは物足りないと感じることもある。確かにモンスターを1体倒すだけでもカタルシスは得られるかもしれないが、不愉快な奴の群れをなぎ倒す様を想像してみてほしい。<BR><BR>そこで、古代の遺跡で発見したモンスタースポナーを再び作る方法を発見した。元のモンスタースポナーとは異なり、憤怒の檻はプレイヤーの存在ではなくレッドストーン信号に反応し、古代の装置よりもはるかに速く稼働させることができる。
+forbidden.research_page.WRATHCAGE.2=しかし、元々あった無限生産性は再現できていない。憤怒の檻が生物を産み出す度に、その内部バッファにエッセンシアを少量送り込む必要がある。この装置は同調した生物の種類に応じて異なる種類のエッセンシアを受け取るようになっている。または、iraを燃料として使用することもできる。またこの檻はなぜかdesidiaも受け取ることができる。<BR><BR>悪魔のフォークで憤怒の檻を右クリックすると、檻の燃料の種類を切り替え、吸引するエッセンシアを変えることができる。
+forbidden.research_page.WRATHCAGE.3=憤怒の檻を特定の生物に同調させるには、刻印水晶を持ってその生物を右クリックする。 空白の刻印水晶を持った状態で悪魔のフォークを使って対応した生物を倒すと、水晶がそのモンスターに同調する。
 #
-forbidden.research_name.FORK=Diabolist Fork
-forbidden.research_text.FORK=Arcane tinkering tool
-forbidden.research_page.FORK.1=You've created a tool to help you tinker with various infernal contraptions. The quartz prongs on the Diabolist Fork allow it to attune itself to arcane energies.<BR><BR>Along with being used to tune devices, the fork also makes for a functional weapon.<BR><BR>More information should appear in the following pages as you uncover more research.
-forbidden.research_page.FORK.wc=If the Diabolist Fork is used to slay a compatible creature with a Blank Imprinting Crystal in your inventory, it will imprint on the crystal.  The Imprinted Crystal can then be used to attune a Wrath Cage to that monster.<BR><BR>The fork can also be used to adjust which essentia type a Wrath Cage is using for fuel. Simply right click on the Wrath Cage with the Diabolist Fork to cycle between the three different fuel types.
+forbidden.research_name.FORK=悪魔のフォーク
+forbidden.research_text.FORK=神秘の鍛冶道具
+forbidden.research_page.FORK.1=様々な地獄の仕掛けを細工するための道具を作った。悪魔のフォークについた石英の突起は、自身を神秘のエネルギーに同調させることができる。<BR><BR>このフォークは装置の調整に使えるだけでなく、武器としても機能する。<BR><BR>より詳しい情報は、さらに研究を進めれば次のページに現れるだろう。
+forbidden.research_page.FORK.wc=インベントリ内にある空白の刻印水晶に対応した生物を悪魔のフォークで倒すと、その生物は水晶に刻印される。 刻印水晶は憤怒の檻をそのモンスターに同調させるのに使用する。<BR><BR>また、このフォークを使って憤怒の檻がどのエッセンシアを燃料として使うかを調整することもできる。悪魔のフォークを持って憤怒の檻を右クリックすると、3種類の燃料を切り替えることができる。
 #
-forbidden.research_name.MORPHTOOLS=Chameleon Tools
-forbidden.research_text.MORPHTOOLS=There's an enchantment for that...
-forbidden.research_page.MORPHTOOLS.1=Chameleon Tools are like three tools in one. When first enchanted, right-clicking while sneaking with the tool in your hand changes it to a blank new enchanting slate, allowing you to enchant it with a completely different set of enchantments. Each tool can hold up to three separate enchantment sets which can be alternated between by right-clicking while sneaking.<BR><BR>The tools have no innate way to remove enchantments once fully enchanted, so make each enchantment count!
+forbidden.research_name.MORPHTOOLS=変化のツール
+forbidden.research_text.MORPHTOOLS=そのためのエンチャントがある...
+forbidden.research_page.MORPHTOOLS.1=変化のツールは、3つのツールが1つになったようなものだ。最初にエンチャントするとき、ツールを持ったままスニーク右クリックするとエンチャントの石板が空白の新しいものに変わり、全く別のエンチャントセットでエンチャントできるようになる。1つのツールは最大3つのエンチャントセットを保持することができ、スニーク右クリックで交互に変化させられる。<BR><BR>一度完全にエンチャントされたツールはエンチャントを除去する術を持たないので、それぞれのエンチャントを大切に扱うこと!
 #
-forbidden.research_name.CLUSTER=Enchantment: Fiery Core
-forbidden.research_text.CLUSTER=Chameleon of the Core
-forbidden.research_page.CLUSTER.1=You've discovered an enchantment to allow the Chameleon Pickaxe to imitate the effects of the Pickaxe of the Core.  A Chameleon Pickaxe with the Fiery Core enchantment has a chance of dropping clusters when mining certain ores.  Clusters are a lot purer than raw ore and can be smelted for two of the ore's normal smelting result.  Higher levels of Fiery Core increase the chance of dropping clusters.
+forbidden.research_name.CLUSTER=エンチャント: 火の核
+forbidden.research_text.CLUSTER=地殻の変化
+forbidden.research_page.CLUSTER.1=変化のツルハシが地核のつるはしの効果を模倣できるようになるエンチャントを発見した。火の核のエンチャントが付与された変化のつるはしで特定の鉱石を採掘すると、クラスターをドロップする可能性がある。クラスターは元の鉱石よりも純度が高く、通常の精錬と比べて2倍の成果物を得られる。火の核のレベルが高いほどクラスターをドロップする確率が上昇する。
 #
-forbidden.research_name.IMPACT=Enchantment: Impact
-forbidden.research_text.IMPACT=Someday that wall is gonna fall.
-forbidden.research_page.IMPACT.1=The Shovel of the Earthmover mines larger areas than most tools. With the Impact enchantment, so can your Chameleon Pickaxe and Shovel.<BR><BR>A Chameleon Tool with the Impact enchantment mines a 3 x 3 area of blocks instead of just one, making exploratory mining and flattening areas much easier.
+forbidden.research_name.IMPACT=エンチャント: 衝撃
+forbidden.research_text.IMPACT=あの壁はいつか崩れ去る。
+forbidden.research_page.IMPACT.1=土建のシャベルはたいていの道具よりも広い範囲を採掘できる。衝撃のエンチャントがあれば、変化のツルハシとシャベルも同じことができる。<BR><BR>衝撃のエンチャントを付与した変化のツールは、1つだけでなく3×3のブロックの範囲を採掘し、探索時の採掘や整地がより簡単になる。
 #
-forbidden.research_name.GREEDY=Enchantment: Capitalist
-forbidden.research_text.GREEDY=Unregulated enchanting
-forbidden.research_page.GREEDY.1=You've discovered a weapon enchantment that allows you to profit from taking lives. Every time a Capitalist weapon slays a hostile creature, there's a chance to drop an Emerald Fragment. If a Capitalist Weapon is used to kill a villager, it will instead drop one of the villager's emeralds.
+forbidden.research_name.GREEDY=エンチャント: 成金
+forbidden.research_text.GREEDY=脱法エンチャント
+forbidden.research_page.GREEDY.1=命を奪うことで恩恵を得られる武器用のエンチャントを発見した。成金エンチャント付きの武器で敵対的生物を倒すたびに、エメラルドの欠片をドロップする可能性がある。成金付きの武器で村人を殺すと、代わりに村人が持っていたエメラルドを1つドロップする。
 #
-forbidden.research_name.CONSUMING=Enchantment: Consuming
-forbidden.research_text.CONSUMING=Garbage Disposal
-forbidden.research_page.CONSUMING.1=Sick of having to empty your pack of worthless junk, you've devised an enchantment that will automatically destroy common, unwanted materials.  Any Cobblestone, Dirt, Gravel, or Netherrack mined by a Consuming tool will be destroyed instead of falling to the ground.
+forbidden.research_name.CONSUMING=エンチャント: 消費
+forbidden.research_text.CONSUMING=ゴミ処理
+forbidden.research_page.CONSUMING.1=無価値なガラクタを捨ててスペースを確保するのにうんざりし、ありふれた、不要な素材を自動的に破棄するエンチャントを編み出した。 消費エンチャント付きのツールで採掘した丸石、土、砂利、ネザーラックは地面に落ちる代わりに破棄される。
 #
-forbidden.research_name.WRATH=Enchantment: Wrath
-forbidden.research_text.WRATH=When every problem is a nail, all you want is a bigger hammer.
-forbidden.research_page.WRATH.1=Ugh. You need more excessively violent weapons to kill things with. Enchanting is a good start, but there's only so much Sharpness you can squeeze into a typical sword before it starts to liquefy and sprout daisies instead. Your weapons just aren't killing things hard enough.<BR><BR>To amend this, you've created a special enchantment to force even more violence and death into a weapon. The Wrath enchantment increases the offensive power of a weapon, but is still compatible with Sharpness, Bane of Arthropods, and Smite.
+forbidden.research_name.WRATH=エンチャント: 激怒
+forbidden.research_text.WRATH=すべての問題が釘であるなら、求めるのはより大きなハンマーだけだ。
+forbidden.research_page.WRATH.1=うおっ。もっと過度に暴力的な武器が必要だ。エンチャントはいい手始めだが、典型的な剣が溶けて代わりにフランスギクが生え始める前に詰め込めるダメージ増加エンチャントは限られている。その武器では、十分な殺傷力を発揮できないのだ。<BR><BR>これを改善するために、武器にさらなる暴力と死を強制する特別なエンチャントを生み出した。激怒のエンチャントは武器の攻撃力を増加させ、ダメージ増加、虫特攻、アンデッド特攻と両立する。
 #
-forbidden.research_name.EDUCATIONAL=Enchantment: Educational
-forbidden.research_text.EDUCATIONAL=You will LEARN!
-forbidden.research_page.EDUCATIONAL.1=You've created an enchantment to infuse a weapon with the very essence of knowledge and learning. Hammering such learning into monsters' heads will result in them dropping more experience than normal, depending on the level of enchantment.
+forbidden.research_name.EDUCATIONAL=エンチャント: 教育的
+forbidden.research_text.EDUCATIONAL=学ぼう!
+forbidden.research_page.EDUCATIONAL.1=武器に知識と学習の真髄を注入するエンチャントを生み出した。そのような知識をモンスターの頭に叩き込むと、エンチャントのレベルに応じて、通常よりも多くの経験値を落とすようになる。
 #
-forbidden.research_name.CORRUPTING=Enchantment: Corrupting
-forbidden.research_text.CORRUPTING=A bad influence on shards
-forbidden.research_page.CORRUPTING.1=The Nether is great and all, but it's also kind of a... Hell Hole.<BR><BR>The Corrupting enchant allows you to harvest Nether Shards without having to be in the Nether.  A pickaxe enchanted with Corrupting will randomly corrupt harvested elemental shards, changing them into nether shards. The shards only seem susceptible while they are encased in infused stone, so corrupting a shard cluster will have no effect.
+forbidden.research_name.CORRUPTING=エンチャント: 堕落
+forbidden.research_text.CORRUPTING=結晶片への悪影響
+forbidden.research_page.CORRUPTING.1=ネザーは素晴らしいが、それはまたある種の... 地獄の穴だ。<BR><BR>堕落のエンチャントがあれば、ネザーにいなくてもネザーの結晶片を入手できるようになる。 堕落のエンチャントを付与したツルハシはランダムに根源相の結晶片を堕落させ、ネザーの結晶片に変える。結晶片は石に包まれている間のみ影響を受けやすいようで、結晶株を腐敗させようとしても効果はない。
 #
-forbidden.research_name.VOIDTOUCHED=Enchantment: Voidtouched
-forbidden.research_text.VOIDTOUCHED=Colour Out of Space
-forbidden.research_page.VOIDTOUCHED.1=Voidmetal's ability to flow back into place after being damaged is fascinating. You sure wish your Chameleon Tools had the same properties...<BR><BR>The Voidtouched enchant gives a Chameleon Tool the same regenerating quality as Void Tools.<BR><BR>Chameleon Tools affected by the enchantment appear to be made of living scaled flesh which morphs back into shape when hurt. Just looking at it is disturbing for your sanity.
+forbidden.research_name.VOIDTOUCHED=エンチャント: 虚無再生
+forbidden.research_text.VOIDTOUCHED=宇宙からの色
+forbidden.research_page.VOIDTOUCHED.1=ダメージを受けても元に戻る虚無鋼の能力は魅力的だ。変化のツールにも同じ性質があればいいのだが...。<BR><BR>虚無再生のエンチャントによって、変化のツールは虚無鋼のツールと同じ再生能力を得る。<BR><BR>このエンチャントの影響を受けた変化のツールは、生きた鱗状の肉でできているように見え、傷つけられると変形して元の形に戻る。見ているだけで正気を失いそうだ。
 #
-forbidden.research_name.TAINTBASICS=Tainted Lands
-forbidden.research_text.TAINTBASICS=Deep Purple
-forbidden.research_page.TAINTBASICS.1=Sometimes, Thaumaturgy goes horribly wrong. Miracles become twisted calamities and the very landscape twists into hideous forms. Tainted Lands are places infected by the sick runoff of magical workings, flux. Local flora and fauna become warped and mutated into forms hostile to normal life and the very ground of a tainted land infects those who tread upon its pulsing fibres.
-forbidden.research_page.TAINTBASICS.2=Tainted Lands can be found naturally in the world, but can also form when a careless Thaumaturge allows flux goo to stagnate for too long. They are recognizable by their telltale purple fibres and bright violet stalks. Left alone, the tainted land will gradually extend its tendrils outwards, infecting more and more of the surrounding land. Dirt becomes thick, pulpy Tainted Soil while trees and other natural materials are slowly covered in fibres and converted into structurally unsound crust which can collapse or melt into flux goo at any moment.
+forbidden.research_name.TAINTBASICS=汚染された地
+forbidden.research_text.TAINTBASICS=ディープパープル
+forbidden.research_page.TAINTBASICS.1=時として、魔導学は恐ろしく失敗することもある。奇跡は歪んだ災難となり、風景は醜悪な姿へと変貌する。汚染された地は、魔法の作用における病的な流出物、すなわちフラックスに感染した場所である。その地の動植物は歪み、通常の生命に敵対的な形態へと変異する。そして汚染された地の地面そのものが、その脈打つ繊維を踏む者に感染するのだ。
+forbidden.research_page.TAINTBASICS.2=汚染された地は自然にも存在するが、不注意な魔導師が液体フラックスを長く滞留させた場合にも形成される。紫色の繊維と鮮やかな紫色の茎が特徴だ。放置しておくと、汚染された地は徐々にその蔓を伸ばし、周囲の土地をどんどん感染させていく。土は肉厚で紫色の"汚染された土壌"となる。樹木やその他の自然物は徐々に繊維に覆われ、構造的に不安定な地殻へと変化し、いつ崩壊するか、融解して液体フラックスになるかわからない状態になる。
 #
-forbidden.research_name.SCHOOLS=Schools of Magic
-forbidden.research_text.SCHOOLS=There's more than one path to power...
-forbidden.research_page.SCHOOLS.1=Many Thaumaturges scoff at the idea of dabbling in other forms of magic. Who needs anything other than the pure, miraculous power of Thaumaturgy?<BR><BR>Less judgmental Thaumaturges tell a different story, however. The other magical arts have a lot to offer a budding mage if you know where to look...
+forbidden.research_name.SCHOOLS=魔法の流派
+forbidden.research_text.SCHOOLS=力へ通ずる道は一つではない...
+forbidden.research_page.SCHOOLS.1=多くの魔導師は、他の形式の魔法をかじるという考えを小馬鹿にする。魔導学の純粋で奇跡的な力以外のものを誰が必要とするだろうか、と。<BR><BR>しかし、あまり批判的でない魔導師は異なることを言う。見るべきところさえ分かれば、他の魔法は新進の魔導師に多くのものを与えてくれるのだ、と...。
 #
-forbidden.research_name.BLOODMAGIC=Blood Magic
-forbidden.research_text.BLOODMAGIC=With great sacrifice comes great power
-forbidden.research_page.BLOODMAGIC.1=Blood Magi, or "Alchemical Wizards" as some prefer to call themselves, are a strange, unsavory lot. Building strange ziggurats where they practice their bloody rites, Blood Magi use life energy to imbue items with magical power, or even craft spells.<BR><BR>A more unscrupulous Thaumaturge dabbling in blood magic may be able to get ahead in their studies, but at what cost?
+forbidden.research_name.BLOODMAGIC=血魔術 - Blood Magic
+forbidden.research_text.BLOODMAGIC=大いなる犠牲には大いなる力が伴う
+forbidden.research_page.BLOODMAGIC.1=血魔術師、または"錬金術的魔術師"と呼ばれることを好む者もいるが、は奇妙で不道徳な連中だ。血魔術師は血の儀式を行うため奇妙なジッグラトを建設し、生命エネルギーを使ってアイテムに魔力を吹き込んだり、呪文を作ったりする。<BR><BR>血魔術に手を出した不謹慎な魔導師は研究を進めることができるかもしれないが、その代償は？
 #
-forbidden.research_name.BOTANY=Botany
-forbidden.research_text.BOTANY=Power sleeps in the earth...
-forbidden.research_page.BOTANY.1=Some mad alchemists say that flowers are the universal language with which the universe was sang into being.<BR><BR>Whether this is true or not, Botanists have discovered a way to harness the energy of flowers and other plant life to accomplish great feats of magic. Some Thaumaturges might scoff at such "filthy hedge wizardry," but there is a lot of power sleeping beneath the earth for those willing to take it.
+forbidden.research_name.BOTANY=魔法植物学 - Botany
+forbidden.research_text.BOTANY=大地に眠りし力
+forbidden.research_page.BOTANY.1=狂った錬金術師たちの中には、花は宇宙の誕生に際して歌われた万能の言語だと言う者もいる。<BR><BR>それが真実かどうかは別として、魔法植物学者たちは、花やその他の植物のエネルギーを利用して偉大な魔法を行使する方法を発見した。このような "薄汚い生け垣の魔術 "を嘲笑する魔導師もいるかもしれないが、それを手に入れようとする者にとって、大地の下は膨大な力が眠っている場なのだ。
 #
-forbidden.research_name.BLOODWELL=Bloody Scrivener's Tools
-forbidden.research_text.BLOODWELL="I'll complete this research if it kills me!"
-forbidden.research_page.BLOODWELL.1=There's nothing more frustrating than having to pause your research to refill your inkwell. Sometimes, you're just so desperate to complete a research you'd rather use your own blood as ink than stop to go find a refill.<BR><BR>The Bloody Scrivener's Tools will refill using Life Points from their owner's network, at a rate of 25 LP per point. This ability requires human warmth to activate, requiring you to remove the tools from the research table, but without having to actually leave the research area.
+forbidden.research_name.BLOODWELL=血の筆記具
+forbidden.research_text.BLOODWELL=この研究は死んでもやり遂げる!
+forbidden.research_page.BLOODWELL.1=インクを補充するために研究の中断を余儀なくされることほど苛立たしいことはない。どうしても研究を完成させたいとき、インク補充のために中断するくらいなら、自分の血をインクとして使ったほうがマシなこともある。<BR><BR>血の筆記具は、持ち主のネットワークからLPを使い、耐久値1ポイントにつき25LPの割合で中身を補充する。この能力の発動には人間の温もりが必要で、研究テーブルから筆記具を取り出す必要があるが、研究エリアから離れる必要はない。
 #
-forbidden.research_name.ELDRITCHORB=Eldritch Blood Orb
-forbidden.research_text.ELDRITCHORB=Orb of Bel-Shamharoth
-forbidden.research_page.ELDRITCHORB.1=Strange whispers speak of power and dark energy in the spaces between the stars where even gods dare not gaze. Whether or not the whispers are telling the truth, it turns out that you can fit a lot of things in those spaces.<BR><BR>By infusing a blood orb with the essence of the void and arcane geometries, you create an orb capable of storing vast amounts of life energy. 80,000,000 LP, to be exact. Storing life energy in a space not bound by Euclidean geometry can't possibly go wrong!
+forbidden.research_name.ELDRITCHORB=エルドリッチのブラッドオーブ
+forbidden.research_text.ELDRITCHORB=ベル・シャムハロスのオーブ
+forbidden.research_page.ELDRITCHORB.1=奇妙な囁きは、神々でさえ見つめる勇気のない星間に存在する力と闇のエネルギーについて語る。その囁きが真実かどうかは別として、その空間には多くのものを収められることがわかった。<BR><BR>ブラッドオーブに虚空のエッセンスと神秘の幾何学模様を注入することで、膨大な量の生命エネルギーを蓄えられるオーブが作成できる。正確には、80,000,000LPだ。ユークリッド幾何学に縛られない空間に生命エネルギーを蓄えることが、うまくいかないはずがない！
 #
-forbidden.research_name.BLOODRAPIER=Rapier of the Strix
-forbidden.research_text.BLOODRAPIER=Destroyer of Blood Magic
-forbidden.research_page.BLOODRAPIER.1=There's nothing more dangerous than a Blood Magus that is gorged on life essence. As long as they have enough life energy, there's very little that can pierce their defenses.<BR><BR>Until now.<BR><BR>The Rapier of the Strix, upon striking someone, drinks LP directly from their Soul Network and seals it so that they can't regain any more LP for a while. It may not do very much physical damage, but it packs a metaphysical punch against Blood Magi.
+forbidden.research_name.BLOODRAPIER=ストリックスのレイピア
+forbidden.research_text.BLOODRAPIER=Blood Magicの破壊者
+forbidden.research_page.BLOODRAPIER.1=ライフエッセンスに溢れた血魔術師ほど危険なものはない。生命エネルギーが十分にある限り、彼らの防御を突破できるものはほとんどない。<BR><BR>今までは。<BR><BR>ストリックスのレイピアは、誰かを殴ると、その人のソウルネットワークからLPを直接吸い上げ、しばらくLPを回復できないように封印する。物理的なダメージは少ないが、血魔術師に対して形而上学的な打撃を与える。
 #
-forbidden.research_name.CRYSTALWELL=Crystal Scribing Tools
-forbidden.research_text.CRYSTALWELL=Arcane Research Grant
-forbidden.research_page.CRYSTALWELL.1=Combining elemental shards with your inkwell results in some interesting effects. The Crystal Scribing Tools seem to absorb knowledge as you use them to write. Once the well is empty of ink, you can absorb this knowledge for a small burst of research points by holding the tools in your hand and right clicking. Unfortunately, this burns the tool out and turns it back into a mundane Scribing Tool again.
+forbidden.research_name.CRYSTALWELL=結晶の筆記具
+forbidden.research_text.CRYSTALWELL=神秘の研究補助金
+forbidden.research_page.CRYSTALWELL.1=元素の結晶片とインク壺を組み合わせると、面白い効果が得られる。結晶の筆記具を使って文字を書くと、そこに知識を吸収されるようだ。インクがなくなったら、筆記具を手に持って右クリックすることで、この知識を吸収して研究ポイントを得ることができる。残念なことに、これによって筆記具は力を使い果たし、再び平凡な筆記具に戻ってしまう。
 forbidden.research_page.CRYSTALWELL.1b=Research can get boring and tedious sometimes. There's only so many hours you can spend taking apart bits of cobblestone in the sad hope of finding esoteric insights before you start considering a change in careers.<BR><BR>Thankfully, you've devised a way to expedite the process. The Crystal Scribing Tools contain a small pool of esoteric knowledge which will slowly be transferred into your mind as you carry them around.<BR><BR>Your chakras are going to be SO aligned!
 #
 forbidden.research_name.PRIMEWELL=Primal Scribing Tools

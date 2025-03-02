@@ -1,5 +1,6 @@
 #
 # Items
+item.avaritia_resource.name=Предмет
 item.avaritia_resource.diamond_lattice.name=Алмазная решётка
 item.avaritia_resource.crystal_matrix_ingot.name=Слиток кристаллической матрицы
 item.avaritia_resource.neutron_pile.name=Маленькая кучка космического нейтрония
@@ -10,6 +11,7 @@ item.avaritia_resource.infinity_ingot.name=Слиток бесконечност
 item.avaritia_resource.record_fragment.name=Осколок пластинки
 item.avaritia_resource.starfuel.name=Звездное топливо
 item.avaritia_resource.neutronium_gear.name=Нейтрониевая шестерня
+item.avaritia_singularity.name=Сингулярность
 item.singularity_iron.name=Сингулярность из железа
 item.singularity_gold.name=Сингулярность из золота
 item.singularity_lapis.name=Сингулярность из лазурита
@@ -51,6 +53,7 @@ item.extremely_primordial_pearl.name=Первозданная жемчужина
 # Blocks
 tile.compressed_workbench.name=Сжатый верстак
 tile.very_compressed_workbench.name=Дважды сжатый верстак
+tile.avaritia_resource.name=Предметные блоки
 tile.block_crystal_matrix.name=Кристаллическая матрица
 tile.block_neutronium.name=Блок нейтрония
 tile.block_infinity.name=Блок бесконечности
@@ -128,7 +131,7 @@ tile.avaritia.flower.asgardandelion.lore=Полито слёзами Vazkii! :c
 avaritia.lexicon.asgardandelion=Асгард одуванчик
 avaritia.lexicon.asgardandelion.0=Ходят слухе о цветке, который способен наделить своего владельца бесконечной маной. Если бы существовал такой цветок, он наверняка бы стоил несмертных богатсв.<BR>&oДо сих пор не ссылался.&r
 avaritia.lexicon.infinitato=Картошка Бесконечности
-avaritia.lexicon.infinitato.0=Исследуя эффект наполнения вещей свойствами бесконечности, вы нашли новые интересные инструменты: Картошка Бесконечности - не исключение.<BR>Нечто большее, чем его родословная, и наделённый вниманием к &1Крошечной картофелине&0 и &1Катализатору бесконечности&0, &1Картошка Бесконечности&0 верит, что ты всегда сможешь сделать всё, что угодно.
+avaritia.lexicon.infinitato.0=Исследуя эффект наполнения вещей свойствами бесконечности, вы нашли новые интересные инструменты: Картошка Бесконечности - не исключение.<BR>Нечто большее, чем его родословная, и наделённый вниманием к &1Крошечной картофелине&0 и &1Катализатору бесконечности&0, &1Картошка Бесконечности&0 верит, что ты всегда сможешь сделать всё что угодно.
 avaritia.lexicon.infinitato.1=Поверь мне, &oэто подойдет.&r
 avaritia.flower.soarleander.name=Парящая земля
 tile.botania:flower.soarleander.name=Парящая земля

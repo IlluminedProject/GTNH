@@ -6,6 +6,8 @@ wailaharvestability.toolclass.chisel=Dłuto
 wailaharvestability.toolclass.scoop=Siatka na pszczoły
 wailaharvestability.toolclass.crowbar=Łom
 wailaharvestability.toolclass.sword=Miecz
+wailaharvestability.toolclass.wrench=Wrench
+wailaharvestability.toolclass.cutter=Wire Cutter
 
 # tooltips
 wailaharvestability.effectivetool=Efektywne narzędzie :

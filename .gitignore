@@ -57,5 +57,7 @@
 .minecraft/config/enderio/EnderIO.cfg
 .minecraft/config/adventurebackpack.cfg
 .minecraft/config/matter-manipulator.cfg
+.minecraft/config/bogosorter/
+.minecraft/config/cofh/
 
 *.disabled

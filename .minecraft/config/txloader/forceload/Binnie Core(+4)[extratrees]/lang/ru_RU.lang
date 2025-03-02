@@ -1,6 +1,8 @@
 ##################################################
 ## Machines
 
+tile.machine.name=Механизм
+
 extratrees.machine.kitchen.bar=Бар
 extratrees.machine.kitchen.bottleRack=Стойка для бутылок
 
@@ -143,7 +145,7 @@ extratrees.block.planks.logwood.desc=Кампешевое дерево явля�
 extratrees.block.planks.iroko.desc=Эта привлекательная темная древесина годится для красивой притолки.|Лесоруб
 extratrees.block.planks.locust.desc=Робиния ложноакациевая (англ. "Саранча") совершенно не связана с нашествием саранчи.|Лесоруб
 extratrees.block.planks.eucalyptus.desc=Розоватое дерево, чаще превращается в древесную массу.|Лесоруб
-extratrees.block.planks.purpleheart.desc=Амарант (англ. "Пурпурное Сердце") так назван благодаря глубоко-фиолетовому оттенку.|Лесоруб
+extratrees.block.planks.purpleheart.desc=Амарант (англ. "Пурпурное сердце") так назван благодаря глубоко-фиолетовому оттенку.|Лесоруб
 extratrees.block.planks.ash.desc=Должен поймать их всех!|Ash Ketchum
 extratrees.block.planks.holly.desc=Белейшее дерево доступно, но необходимо избегать его заостренных листьев, чтобы добраться до него.|Лесоруб
 extratrees.block.planks.olive.desc=Древесина, как и плоды оливы имеют привлекательный зелёный цвет.|Лесоруб
@@ -159,6 +161,7 @@ extratrees.block.tooltip.twoMaterials=Из %s и %s
 extratrees.block.door.name=Дверь из %1$s
 
 < %1$s is name of wood used for door, %2$s is type of door >
+tile.door.name=Деревянная дверь
 extratrees.block.door.name.adv=%2$s дверь из %1$s
 extratrees.block.door.type.standard=
 extratrees.block.door.type.solid=Плотный
@@ -166,19 +169,24 @@ extratrees.block.door.type.double=Разделенная
 extratrees.block.door.type.full=Плотная
 
 < %1$s is name of the wood>
+tile.planks.name=Деревянная доска
 extratrees.block.plank.name=Доски из %1$s
 extratrees.block.log.name=Древесина %1$s
+tile.slabs.name=Деревянная плита
 extratrees.block.woodslab.name=Плита из %1$s
+tile.stairs.name=Лестница
 extratrees.block.woodstairs.name=Ступени из %1$s
 extratrees.block.woodfence.name=Забор из %1$s
 extratrees.block.woodgate.name=Калитка из %1$s
 
 < %1$s is the adjective for the fence type, %2$s is the name of the wood >
+tile.multifence.name=Забор
 extratrees.block.multifence.name=%1$s ворота из %2$s
 < %3$s is the name of the second wood >
 extratrees.block.multifence.name2=%2$s забор из %1$s и $3$s
 
 < %1$s is name of the design >
+tile.carpentry.name=Деревянная панель/плитка
 extratrees.block.woodentile.name=Деревянный блок, дизайн %1$s
 extratrees.block.woodenpanel.name=Деревянная панель, дизайн %1$s
 extratrees.block.stainedglass.name=Витражное стекло, дизайн %1$s
@@ -312,14 +320,18 @@ extratrees.genetics.unknown=<Неизвестно>
 extratrees.genetics.discoveredBy=Изучено игроком %s 
 extratrees.genetics.complexity=Сложность: %d 
 
-extratrees.item.carpentryHammer=Мастерский молоток плотника
-extratrees.item.masterCarpentryHammer=Молоток плотника
+item.hammer.name=Молоток плотника
+extratrees.item.carpentryHammer=Молоток плотника
+item.durableHammer.name=Мастерский молоток плотника
+extratrees.item.masterCarpentryHammer=Мастерский молоток плотника
+item.misc.name=Предмет
 extratrees.item.sawdust=Опилки
 extratrees.item.bark=Кора
 extratrees.item.provenGear=Проверенная шестерня
 extratrees.item.woodWax=Полироль
 extratrees.item.glassFitting=Стеклянные фитинги
 
+item.food.name=Фрукты
 for.extratrees.item.food.apple=Яблоко
 for.extratrees.item.food.crabapple=Яблоко-дичка
 for.extratrees.item.food.orange=Апельсин
@@ -383,10 +395,12 @@ for.extratrees.item.food.mango=Манго
 for.extratrees.item.food.starfruit=Карамбола
 for.extratrees.item.food.candlenut=Лумбанг
 
+item.database.name=База данных лесовода
 extratrees.item.database=База данных лесовода
 extratrees.item.masterDatabase=База данных лесовода-мастера
 extratrees.item.database.tooltip=Sengir-в-банке
 
+item.databaseMoth.name=База данных бабочковеда
 extratrees.item.mothDatabase=База данных бабочковеда
 extratrees.item.mothMasterDatabase=База данных бабочковеда-мастера
 extratrees.item.mothDatabase.tooltip=Эмпиум Binnie о чешуекрылых

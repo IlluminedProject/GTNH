@@ -11,6 +11,7 @@ item.universalSingularities.vanilla.emerald.name=Сингулярность из
 //Vanilla
 
 //General
+item.avaritia_singularity.name=Сингулярность
 item.universalSingularities.general.aluminum.name=Сингулярность из алюминия
 item.universalSingularities.general.brass.name=Сингулярность из латуни
 item.universalSingularities.general.bronze.name=Сингулярность из бронзы
@@ -45,6 +46,7 @@ item.universalSingularities.general.desh.name=Сингулярность из д
 item.universalSingularities.general.meteoricIron.name=Сингулярность из метеоритного железа
 item.universalSingularities.general.europium.name=Сингулярность из европия
 item.universalSingularities.general.gangue.name=Сингулярность из пустой породы
+item.universalSingularities.general.roseGold.name=Сингулярность из розового золота
 //General
 
 //Big Reactors
@@ -135,6 +137,6 @@ item.universalSingularities.tinkersConstruct.manyullyn.name=Сингулярно
 //Tinkers' Construct
 
 /*Removed
- * item.universalSingularities.general.salt.name=Сингулярность из соли
+ * item.universalSingularities.general.salt.name=Сингулярность из каменной соли
  * item.universalSingularities.extraTiC.red_aurum.name=RedAurum Сингулярность
  */

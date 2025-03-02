@@ -6,6 +6,8 @@ wailaharvestability.toolclass.chisel=Chisel
 wailaharvestability.toolclass.scoop=Scoop
 wailaharvestability.toolclass.crowbar=Pied de Biche
 wailaharvestability.toolclass.sword=Épée
+wailaharvestability.toolclass.wrench=Wrench
+wailaharvestability.toolclass.cutter=Wire Cutter
 
 # tooltips
 wailaharvestability.effectivetool=Effective Tool : 

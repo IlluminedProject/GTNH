@@ -161,7 +161,7 @@ subtitle.item.bottle.empty=Пузырёк опустошен
 subtitle.item.bottle.fill=Пузырёк напоняется
 subtitle.item.hoe.till=Вспахивание мотыгой
 subtitle.item.elytra.flying=Звук полета на элитрах
-subtitle.item.armor.equip_generic=Звук надевания кожанной брони
+subtitle.item.armor.equip_generic=Звук надевания кожаной брони
 subtitle.item.armor.equip_iron=Звук надевания железной брони
 subtitle.item.armor.equip_gold=Звук надевания золотой брони
 subtitle.item.armor.equip_chain=Звук надевания кольчужной брони
@@ -1873,7 +1873,7 @@ tile.etfuturum.fiskheroes.eternium_deepslate.name=Наполненный эте�
 tile.etfuturum.dbc.deepslate_warenai_ore.name=Глубинная варенайская руда
 tile.etfuturum.dbc.deepslate_jjay_ore.name=Глубинная джей-джей руда
 tile.etfuturum.dbc.deepslate_dlog_ore.name=Глубинная длогская руда
-tile.etfuturum.dbc.deepslate_lehnori_ore.name=Глубинная ленорская Руда
+tile.etfuturum.dbc.deepslate_lehnori_ore.name=Глубинная ленорская руда
 
 tile.etfuturum.dragonquest.deepslate_bakudanisi_ore.name=Глубинная каменно-бомбовая руда
 tile.etfuturum.dragonquest.deepslate_hikarinoisi_ore.name=Глубинная сияющая руда

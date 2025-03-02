@@ -6,6 +6,8 @@ wailaharvestability.toolclass.chisel=Cincel
 wailaharvestability.toolclass.scoop=Cazamariposas
 wailaharvestability.toolclass.crowbar=Palanca
 wailaharvestability.toolclass.sword=Espada
+wailaharvestability.toolclass.wrench=Wrench
+wailaharvestability.toolclass.cutter=Wire Cutter
 
 # tooltips
 wailaharvestability.effectivetool=Herramienta Efectiva:

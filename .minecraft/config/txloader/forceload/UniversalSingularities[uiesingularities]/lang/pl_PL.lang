@@ -11,6 +11,7 @@ item.universalSingularities.vanilla.emerald.name=Emerald Singularity
 //Vanilla
 
 //General
+item.avaritia_singularity.name=Singularity
 item.universalSingularities.general.aluminum.name=Aluminum Singularity
 item.universalSingularities.general.brass.name=Brass Singularity
 item.universalSingularities.general.bronze.name=Bronze Singularity
@@ -45,6 +46,7 @@ item.universalSingularities.general.desh.name=Desh Singularity
 item.universalSingularities.general.meteoricIron.name=Meteoric Iron Singularity
 item.universalSingularities.general.europium.name=Europium Singularity
 item.universalSingularities.general.gangue.name=Gangue Singularity
+item.universalSingularities.general.roseGold.name=Rose Gold Singularity
 //General
 
 //Big Reactors
