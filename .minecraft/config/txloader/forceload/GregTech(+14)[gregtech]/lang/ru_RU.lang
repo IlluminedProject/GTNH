@@ -115,8 +115,8 @@ GT5U.infinite_spray_can.color.Gray=Серый
 GT5U.infinite_spray_can.color.Pink=Розовый
 GT5U.infinite_spray_can.color.Lime=Лаймовый
 GT5U.infinite_spray_can.color.Yellow=Жёлтый
-GT5U.infinite_spray_can.color.Light Blue=Светло-синий
-GT5U.infinite_spray_can.color.Magenta=Сиреневый
+GT5U.infinite_spray_can.color.Light Blue=Голубой
+GT5U.infinite_spray_can.color.Magenta=Пурпурный
 GT5U.infinite_spray_can.color.Orange=Оранжевый
 GT5U.infinite_spray_can.color.White=Белый
 GT5U.infinite_spray_can.color.INVALID COLOR=НЕПРАВИЛЬНЫЙ ЦВЕТ
@@ -411,7 +411,7 @@ GT5U.machines.digitaltank.voidoverflow.tooltip.1=§7Удаляет все изл
 GT5U.machines.digitaltank.voidfull.tooltip=Режим утилизации
 GT5U.machines.digitaltank.voidfull.tooltip.1=§7Удаляет все жидкости, попадающие в резервуар
 GT5U.machines.digitaltank.inputfromoutput.tooltip=Ввод жидкости со стороны выхода
-GT5U.machines.select_circuit=Выберите режим машины
+GT5U.machines.select_circuit=Настроить схему
 GT5U.machines.select_circuit.tooltip=Слот призрачной схемы
 GT5U.machines.select_circuit.tooltip.configuration=§aConfiguration: §f%s§r
 GT5U.machines.select_circuit.tooltip.configuration.none=None
@@ -738,6 +738,8 @@ GT5U.gui.too_many_hatches=Too many %ses (max %s)
 GT5U.gui.text.power_panel=Power Control Panel
 GT5U.gui.text.too_uncertain=Too Uncertain.
 GT5U.gui.text.invalid_parameters=Неверные параметры.
+GT5U.gui.text.enabled=§aEnabled§f
+GT5U.gui.text.disabled=§cDisabled§f
 
 
 GT5U.gui.config.client=Клиент
@@ -811,7 +813,7 @@ gt.behaviour.paintspray.infinite.tooltip.switch=ЛКМ: Изменить цве�
 gt.behaviour.paintspray.infinite.tooltip.pick=Средний щелчок по блоку: копирование цвета в банку спрея
 gt.behaviour.paintspray.infinite.tooltip.lock=Shift+Средний щелчок: блокировать или разблокировать банку спрея
 gt.behaviour.paintspray.infinite.tooltip.gui=Средний щелчок: Открыть GUI выбора цвета
-gt.behaviour.paintspray.infinite.tooltip.prevent_shake=%s-Средний щелчок: Разрешить/запретить действие ЛКМ
+gt.behaviour.paintspray.infinite.tooltip.prevent_shake=%s+Средний щелчок: Разрешить/запретить действие ЛКМ
 gt.behaviour.paintspray.infinite.tooltip.ctrl_pc=Ctrl
 gt.behaviour.paintspray.infinite.tooltip.ctrl_mac=Команда
 
@@ -1003,8 +1005,8 @@ GT5U.waila.drone_downlink.connectionCount=Connection Count:
 GT5U.waila.drone_downlink.droneLevel=Уровень дрона:
 GT5U.waila.producing=Производит:
 GT5U.waila.producing.andmore=  And %d More...
-GT5U.waila.generating.on=Generating Energy
-GT5U.waila.generating.off=Not Generating
+GT5U.waila.generating.on=Генерирование энергии
+GT5U.waila.generating.off=Не генерируется
 GT5U.waila.status.insufficient_energy=Статус: Недостаточно энергии
 GT5U.waila.status.obstructed_steam_vent=Статус: Засорен выход пара
 GT5U.waila.machine.working_disabled=Working Disabled
@@ -2040,6 +2042,9 @@ GTPP.tooltip.block.mining_level=Уровень добычи: %d
 GTPP.tooltip.block.contains=Содержит:
 GTPP.tooltip.meta_special.quantum_stability=Provides quantum stability
 GTPP.tooltip.meta_special.quantum_modulation=Provides quantum modulation
+GTPP.tooltip.meta_food.unless_starving=I wouldn't eat this unless I was starving
+GTPP.tooltip.meta_food.better_cooked=Doesn't look any better cooked
+GTPP.tooltip.meta_food.warm_touch=Warm to the touch
 
 # GTPP structure hints
 GTPP.tooltip.structure.anvil=Anvil
@@ -2079,6 +2084,9 @@ GT5U.tooltip.fluid.temperature=Temperature: %s K
 GT5U.tooltip.fluid.stat=State: %s
 GT5U.tooltip.fluid.stat.gas=Gas
 GT5U.tooltip.fluid.stat.liquid=Liquid
+
+GT5U.tooltip.comb.ban_forestry=Forestry can't process it
+GT5U.tooltip.mega_apiary.only_producer=Will only be produced in mega Apiary
 
 # Achievements
 
