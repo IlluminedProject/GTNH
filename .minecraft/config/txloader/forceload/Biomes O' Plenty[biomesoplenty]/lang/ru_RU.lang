@@ -209,8 +209,8 @@ tile.bones.bones_medium_side_2.name=Средний сегмент кости
 
 tile.grave.name=Могильная плита
 
-tile.stoneDoubleSlab.mudbrickSlab.name=Плита из кирпичей грязи
-tile.stoneSingleSlab.mudbrickSlab.name=Плита из кирпичей грязи
+tile.stoneDoubleSlab.mudbrickSlab.name=Плита из глиняного кирпича
+tile.stoneSingleSlab.mudbrickSlab.name=Плита из глиняного кирпича
 
 tile.planks.sacredoakPlank.name=Доски из священного дуба
 tile.planks.cherryPlank.name=Доски из вишнёвого дерева
@@ -502,7 +502,7 @@ achievement.bop.achPhantom.desc=Похититель душ...
 achievement.bop.achPromised=Двигаемся вверх!
 achievement.bop.achPromised.desc=Добро пожаловать в "Землю Обетованную"!
 achievement.bop.achCelestial=Синее небо
-achievement.bop.achCelestial.desc=Я тот, кто...блоки...
+achievement.bop.achCelestial.desc=Я тот, кто... блоки...
 achievement.bop.achAmbrosia=Напиток богов
 achievement.bop.achAmbrosia.desc=Утолите жажду, друзья мои.
 

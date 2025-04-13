@@ -82,7 +82,7 @@ entity.Thaumcraft.EldritchGolem.name=%s древний голем
 entity.Thaumcraft.EldritchOrb.name=Древняя сфера
 entity.Thaumcraft.CultistKnight.name=Багровый рыцарь
 entity.Thaumcraft.CultistCleric.name=Багровый маг
-entity.Thaumcraft.CultistLeader.name=Претор %s  %d
+entity.Thaumcraft.CultistLeader.name=Претор %s %d
 entity.Thaumcraft.CultistPortal.name=Багровый портал
 entity.Thaumcraft.EldritchCrab.name=Древний краб
 entity.Thaumcraft.InhabitedZombie.name=Волочащаяся оболочка
@@ -1694,7 +1694,7 @@ tc.research_page.ELDRITCHMINOR.1=Вы это ясно осознали. Где �
 #
 tc.research_name.ELDRITCHMAJOR=Откровение древности
 tc.research_text.ELDRITCHMAJOR=Я вижу край бесконечности
-tc.research_page.ELDRITCHMAJOR.1=Завеса поднята - дверь в моей голове открыта.<BR>Когда я смотрю - я вижу удивление. Нет, не удивление. §mЧто я вижу, это§r<BR>§oЧто я вижу, это.... Я вижу... Вижу.. Я вижу... жу.. Я§r<IMG>thaumcraft:textures/misc/eldritchajor1.png:0:255:255:255:.5</IMG>
+tc.research_page.ELDRITCHMAJOR.1=Завеса поднята - дверь в моей голове открыта.<BR>Когда я смотрю - я вижу удивление. Нет, не удивление. §mЧто я вижу, это§r<BR>§oЧто я вижу, это... Я вижу... Вижу.. Я вижу... жу.. Я§r<IMG>thaumcraft:textures/misc/eldritchajor1.png:0:255:255:255:.5</IMG>
 tc.research_page.ELDRITCHMAJOR.2=<IMG>thaumcraft:textures/misc/eldritchajor2.png:0:255:255:255:.5</IMG><BR><BR>Кто это написал?
 #
 tc.research_name.VOIDMETAL=Пустотный металл

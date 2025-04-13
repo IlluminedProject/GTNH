@@ -37,6 +37,50 @@ GT5U.gui.text.EIG_seedOverflow=Внутри слишком много семян
 GT5U.gui.text.EIG_missingwater=Нет воды!
 GT5U.gui.text.EIG_ic2glass=Недостаточный тир стекла!
 
+# info data
+## general
+kubatech.infodata.running_mode=Работает в режиме:
+
+## Extreme Entity Crusher
+kubatech.infodata.eec.current_mob=Текущий моб: §e%s
+kubatech.infodata.eec.current_mob.none=Текущий моб: §eНет
+kubatech.infodata.eec.animations.enabled=Анимация: §eВключена
+kubatech.infodata.eec.animations.disabled=Анимация: §eОтключена
+kubatech.infodata.eec.produce_infernal_drops.allowed=Is allowed to produce infernal drops: §eYes
+kubatech.infodata.eec.produce_infernal_drops.not_allowed=Is not allowed to produce infernal drops: §eNo
+kubatech.infodata.eec.void_damaged.yes=Void all damaged and enchanted items: §eYes
+kubatech.infodata.eec.void_damaged.no=Void all damaged and enchanted items: §eNo
+kubatech.infodata.eec.in_ritual_mode.yes=Находится в режим ритуала: §eДа
+kubatech.infodata.eec.in_ritual_mode.no=Находится в режим ритуала: §eНет
+kubatech.infodata.eec.connected_to_ritual.yes=Связан с ритуалом: §aДа
+kubatech.infodata.eec.connected_to_ritual.no=Связан с ритуалом: §aНет
+kubatech.infodata.eec.inserted_weapon.yes=Inserted weapon: §eYes
+kubatech.infodata.eec.inserted_weapon.no=Inserted weapon: §eNo
+kubatech.infodata.eec.weapon.damage=Weapon attack damage: §e%f
+kubatech.infodata.eec.weapon.looting_level=Weapon looting level: §e%d
+kubatech.infodata.eec.total_damage=Total attack damage: §e%f
+
+## Exreme Industrial Greenhouse
+kubatech.infodata.eig.running_mode.setup_mode.input=Setup mode (input)
+kubatech.infodata.eig.running_mode.setup_mode.output=Setup mode (output)
+kubatech.infodata.eig.uses.water=Uses %dL/operation of water
+kubatech.infodata.eig.uses.weedex=Использует %dЛ/секунду Анти-сорняка 9000
+kubatech.infodata.eig.max_slots=Макс. слотов:
+kubatech.infodata.eig.used_slots=Используется слотов:
+kubatech.infodata.bucket.humidity=Влажность:
+kubatech.infodata.bucket.humidity.on=Вкл.
+kubatech.infodata.bucket.humidity.off=Выкл.
+kubatech.infodata.eig.too_many_types=There are too many seed types inside to run!
+kubatech.infodata.eig.too_many_seeds=There are too many seeds inside to run!
+
+## Mega Industrial Apiary
+kubatech.infodata.mia.running_mode.input=Входной режим
+kubatech.infodata.mia.running_mode.output=Выходной режим
+kubatech.infodata.mia.running_mode.operating.normal=Режим работы (НОРМАЛЬНЫЙ)
+kubatech.infodata.mia.running_mode.operating.swarmer=Режим работы (РОЕНИЕ)
+kubatech.infodata.mia.running_mode.bee_storage=Bee storage (%s/%s):
+
+
 #Waila
 kubatech.waila.eec.mob_type=Вид существа: %s
 kubatech.waila.eec.no_mob=Нет
@@ -69,7 +113,7 @@ kubaitem.tea.oolong_tea.name=Чай улун
 kubaitem.tea.peppermint_tea.name=Мятный чай
 kubaitem.tea.pu-erh_tea.name=Чай Пуэр
 kubaitem.tea.white_tea.name=Белый чай
-kubaitem.tea.yellow_tea.name=Желтый чай
+kubaitem.tea.yellow_tea.name=Жёлтый чай
 kubaitem.teaingredient.black_tea_leaf.name=Лист чёрного чая
 kubaitem.teaingredient.green_tea_leaf.name=Лист зеленого чая
 kubaitem.teaingredient.oolong_tea_leaf.name=Лист чая Улун
@@ -98,7 +142,7 @@ kubaitem.teacollection.peppermint_tea.name=§a§lМятный чай от куб
 kubaitem.teacollection.pu-erh_tea.name=§4§lЧай Пуэр от Кубы
 kubaitem.teacollection.red_tea.name=§c§lЧай каркаде от Кубы
 kubaitem.teacollection.white_tea.name=§e§lБелый чай от Кубы
-kubaitem.teacollection.yellow_tea.name=§6§lЖелтый чай от Кубы
+kubaitem.teacollection.yellow_tea.name=§6§lЖёлтый чай от Кубы
 kubaitem.teacollection.ultimate_tea.name=%s §6§lчай от§6§lКубы
 
 kubaitem.tea_acceptor_research_note.name=Записки исследования по Приёмщику чая
@@ -115,7 +159,7 @@ achievement.teacollection.peppermint_tea=§a§lМятный чай от кубы
 achievement.teacollection.pu-erh_tea=§4§lЧай Пуэр от Кубы
 achievement.teacollection.red_tea=§c§lЧай каркаде от Кубы
 achievement.teacollection.white_tea=§e§lБелый чай от Кубы
-achievement.teacollection.yellow_tea=§6§lЖелтый чай от Кубы
+achievement.teacollection.yellow_tea=§6§lЖёлтый чай от Кубы
 achievement.teacollection.ultimate_tea=§4§l§k??????
 
 achievement.teacollection.black_tea.desc=§6Самый распространённый и популярный вид чая
@@ -140,9 +184,9 @@ KT.research.ultimatetea=Вы нашли способ преобразовать 
 
 #Tooltip
 kubatech.tooltip.tea=Чай
-kubatech.tooltip.tea_acceptor.0=Accepts Tea items and adds them to your network
+kubatech.tooltip.tea_acceptor.0=Принимает предметы "Чай" и добавляет их в вашу сеть
 kubatech.tooltip.tea_acceptor.1=Может принимать до 10 стаков за тик
-kubatech.tooltip.tea_storage.0=Extends Tea Storage by %s
-kubatech.tooltip.tea_ingredient.0=This is Tea ingredient
+kubatech.tooltip.tea_storage.0=Расширяет хранилище чая на %s
+kubatech.tooltip.tea_ingredient.0=Это ингредиент чая
 
 kubatech.tooltip.structure.flowers=Цветы

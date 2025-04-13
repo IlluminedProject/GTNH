@@ -59,5 +59,9 @@
 .minecraft/config/matter-manipulator.cfg
 .minecraft/config/bogosorter/
 .minecraft/config/cofh/
+.minecraft/config/draconicevolution/resources/
+.minecraft/config/enderio/*_Core.*
+.minecraft/config/mixingasm
+.minecraft/config/SpiceOfLife/example-food-group.json
 
 *.disabled

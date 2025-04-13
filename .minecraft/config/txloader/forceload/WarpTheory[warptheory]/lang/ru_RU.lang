@@ -33,15 +33,15 @@ entity.WarpTheory.phantom.name=Фантом
 # << tooltips >>
 tooltip.warptheory.cleanserminor=Чего-то не хватает...
 tooltip.warptheory.cleanser=Хрустящий
-tooltip.warptheory.amulet=Очищает искривление
+tooltip.warptheory.amulet=Очищает искажение
 tooltip.warptheory.something=Возможно, съедобно...
-tooltip.warptheory.paper=Реагирует на варп
+tooltip.warptheory.paper=Реагирует на искажение
 tooltip.warptheory.portableshower=Смывай с себя грязь
 
 # << portable shower >>
 tc.research_name.warptheory.portableshower=Портативный душ
 tc.research_text.warptheory.portableshower=Более приземленный способ очистить свой разум
-research.warptheory.portableshower=Вы поняли, что даже в своей любимой броне всё ещё чувствуете себя не в своей тарелке. После долгих размышлений и поисков решения, во время работы над вашим спа вас вдруг осенило: «Почему бы просто не купаться постоянно, чтобы всегда чувствовать свежесть?». Итак, вы создали этот простой амулет, который создаёт волшебную воду для спа, используя природную эссенцию и немного вис из окружающей среды.
+research.warptheory.portableshower=Вы поняли, что даже в своей любимой броне всё ещё чувствуете себя не в своей тарелке. После долгих размышлений и поисков решения, во время работы над вашим спа вас вдруг осенило: "Почему бы просто не купаться постоянно, чтобы всегда чувствовать свежесть?". Итак, вы создали этот простой амулет, который создаёт волшебную воду для спа, используя природную эссенцию и немного вис из окружающей среды.
 
 # << hunk of something >>
 tc.research_name.warptheory.something=Кусок мяса

@@ -903,6 +903,7 @@ tconstruct.nei.castingbasin=Bacia de Fundição
 tconstruct.nei.castingtable=Mesa de Fundição
 tconstruct.nei.dryingrack=Cabide de Secagem
 tconstruct.nei.melting=Fundição
+tconstruct.nei.dryingrack.duration=%d ticks (%d secs)
 
 gui.smeltery.fuel=Combustível
 gui.smeltery.emerald=Esmeralda: 
@@ -1051,6 +1052,11 @@ tool.javelin=Lança
 
 # Customization of default tool names based on tool and material
 #tool.shovel.wood=Wooden Shovel
+
+tool.nameformat=%s %s
+# Customization of the format for default tool names
+# %s %s -> Iron Pickaxe
+# %2$s of %1$s -> Pickaxe of Iron
 
 tool.kingslimeprefix=Slime Rei
 # Specific localization like materials

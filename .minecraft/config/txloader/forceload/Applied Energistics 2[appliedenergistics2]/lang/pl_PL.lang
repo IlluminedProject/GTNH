@@ -5,6 +5,7 @@ tile.appliedenergistics2.BlockCharger.name=Ładowarka
 tile.appliedenergistics2.BlockChest.name=Skrzynia ME
 tile.appliedenergistics2.BlockCondenser.name=Kondensator Materii
 tile.appliedenergistics2.BlockController.name=Kontroler ME
+tile.appliedenergistics2.BlockCreativeEnergyController.name=ME Self Powered Controller
 tile.appliedenergistics2.BlockCrank.name=Drewniana Korba
 tile.appliedenergistics2.BlockCreativeEnergyCell.name=Kreatywne Ogniwo Energetyczne
 tile.appliedenergistics2.BlockDenseEnergyCell.name=Gęste Ogniwo Energetyczne
@@ -66,6 +67,9 @@ tile.appliedenergistics2.BlockMolecularAssembler.name=Asembler Molekularny
 tile.appliedenergistics2.BlockPatternOptimizationMatrix.name=Macierz Optymalizacji Wzorców
 tile.appliedenergistics2.BlockSingularityCraftingStorage.name=Magazyn Wytwarzania Osobliwości
 tile.appliedenergistics2.BlockPaint.name=Farba
+tile.appliedenergistics2.BlockWirelessConnector.name=Wireless Connector
+tile.appliedenergistics2.BlockWirelessHub.name=Wireless Hub
+tile.appliedenergistics2.BlockGrower.name=Crystal Growth Chamber
 
 # Stairs
 tile.appliedenergistics2.ChiseledQuartzStairBlock.name=Dłutowane Schody Kwarcu Certus
@@ -126,10 +130,12 @@ chat.appliedenergistics2.FBOUnsupported=FBO OpenGL nie są obsługiwane, nie mo�
 chat.appliedenergistics2.PriorityInvalidTarget=Cel nie ma priorytetu
 chat.appliedenergistics2.PriorityReadout=Aktualny priorytet to %d
 chat.appliedenergistics2.PriorityConfigured=Zaktualizowano priorytet do %d
-chat.appliedenergistics2.DriveLocked=Cyfrowe Osobliwości dysku zostały zablokowane dla bieżącego elementu
-chat.appliedenergistics2.ChestLocked=Cyfrowa Osobliwość dysku w skrzyni była powiązana z aktualnie znajdującym się w niej przedmiotem
+chat.appliedenergistics2.DriveLockingToggled=Cells in drive were partitioned/unpartitioned
+chat.appliedenergistics2.ChestLockingToggled=Cell in chest was partitioned/unpartitioned
 chat.appliedenergistics2.FinishCraftingRemind=Zadanie tworzenia %s * %s zostało zakończone, trwało to łącznie %s.
 chat.appliedenergistics2.CraftingCantExtract=Nie można wyodrębnić wymaganej ilości składnika z magazynu: %d / %d | %S
+chat.appliedenergistics2.MachineInOtherDim=%d located in dimension: %d and cant be highlighted
+chat.appliedenergistics2.MachineHighlighted=The %d is now highlighted at %d, %d, %d
 
 # Creative Tabs
 itemGroup.appliedenergistics2=Applied Energistics 2
@@ -234,6 +240,11 @@ gui.appliedenergistics2.CraftingPattern=Wzorzec Wytwarzania
 gui.appliedenergistics2.MolecularAssembler=Asembler Molekularny
 gui.appliedenergistics2.ProcessingPattern=Zaawansowany Wzorzec
 gui.appliedenergistics2.Crafts=Wytwarza
+gui.appliedenergistics2.HoldShift=Hold [LSHIFT] to show Ingredients
+gui.appliedenergistics2.Result=Result
+gui.appliedenergistics2.Results=Results
+gui.appliedenergistics2.Ingredients=Ingredients
+gui.appliedenergistics2.Ingredient=Ingredient
 gui.appliedenergistics2.And=i
 gui.appliedenergistics2.Creates=Tworzy
 gui.appliedenergistics2.With=z
@@ -358,6 +369,9 @@ gui.color.appliedenergistics2.CraftConfirmMissingItem=1AFF0000
 gui.color.appliedenergistics2.CraftingCPUActive=5A45A021
 gui.color.appliedenergistics2.CraftingCPUScheduled=FF787878
 gui.color.appliedenergistics2.InterfaceTerminalMatch=2A00FF00
+gui.color.appliedenergistics2.ProcessBarStartColor=FFE60A00
+gui.color.appliedenergistics2.ProcessBarMiddleColor=FFE6E600
+gui.color.appliedenergistics2.ProcessBarEndColor=FF0AE600
 
 # GUI Tooltips
 gui.tooltips.appliedenergistics2.Stash=Przechowaj Przedmioty
@@ -565,6 +579,16 @@ gui.tooltips.appliedenergistics2.CellRestrictionHint=Konfiguracja Ograniczenia K
 
 gui.tooltips.appliedenergistics2.SearchGotoNext=Find next
 gui.tooltips.appliedenergistics2.SearchGotoPrev=Find prev
+
+gui.tooltips.appliedenergistics2.CPUAllowMode=Crafting requests limitation
+gui.tooltips.appliedenergistics2.CPUAllowAllDesc=Allow all crafting requests
+gui.tooltips.appliedenergistics2.CPUOnlyAllowPlayerDesc=Only allow crafting requests from player
+gui.tooltips.appliedenergistics2.CPUOnlyAllowNonPlayerDesc=Only allow crafting requests from non-player
+
+gui.tooltips.appliedenergistics2.PinsSection=Pins Section
+gui.tooltips.appliedenergistics2.PinsSectionActive=Pins Section Enabled
+gui.tooltips.appliedenergistics2.PinsSectionDisabled=Pins Section Disabled
+
 # Units
 gui.appliedenergistics2.units.appliedenergstics=AE
 gui.appliedenergistics2.units.ic2=Jednostki Energii
@@ -610,6 +634,11 @@ waila.appliedenergistics2.CraftingLockedByLackOfRedstoneSignal=Zablokowany przez
 waila.appliedenergistics2.CraftingLockedByRedstoneSignal=Zablokowany przez sygnał redstone
 waila.appliedenergistics2.CraftingLockedUntilPulse=Oczekiwanie na impuls redstone do odblokowania
 waila.appliedenergistics2.CraftingLockedUntilResult=Oczekiwanie na wyniki aby odblokować
+waila.appliedenergistics2.wireless.connected=Connected to %s,%s,%s
+waila.appliedenergistics2.wireless.notconnected=Not Connected
+waila.appliedenergistics2.wireless.channels=Channels: %s
+waila.appliedenergistics2.wireless.power=Power Used: %s AE/t
+waila.appliedenergistics2.wireless.name=Name: %s
 
 # Items
 item.appliedenergistics2.ItemBasicStorageCell.1k.name=Dysk ME 1k
@@ -794,6 +823,16 @@ item.appliedenergistics2.ToolBiometricCard.name=Karta Biometryczna
 
 item.appliedenergistics2.ToolDebugCard.name=Karta Debugowania.Dev
 item.appliedenergistics2.ToolReplicatorCard.name=Karta Replikowania.Dev
+
+item.appliedenergistics2.ToolNetworkVisualiser.name=Network Visualisation Tool
+item.appliedenergistics2.ToolNetworkVisualiser.bound=Visualising network at %s, %s, %s
+item.appliedenergistics2.ToolNetworkVisualiser.mode=Mode:
+item.appliedenergistics2.ToolNetworkVisualiser.set=Mode changed to %s
+item.appliedenergistics2.ToolNetworkVisualiser.mode.full=Show Everything
+item.appliedenergistics2.ToolNetworkVisualiser.mode.nodes=Show Nodes
+item.appliedenergistics2.ToolNetworkVisualiser.mode.channels=Show Channels
+item.appliedenergistics2.ToolNetworkVisualiser.mode.nonum=Show Channels and Nodes
+item.appliedenergistics2.ToolNetworkVisualiser.mode.p2p=Show P2P Links
 
 # Commands
 commands.ae2.usage=Polecenia dostarczane przez Applied Energistics 2 - użyj /ae2 list, aby wyświetlić listę, oraz /ae2 help _____, aby uzyskać pomoc dotyczącą polecenia.

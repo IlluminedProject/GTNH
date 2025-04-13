@@ -5,6 +5,7 @@ tile.appliedenergistics2.BlockCharger.name=Зарядник
 tile.appliedenergistics2.BlockChest.name=МЭ сундук
 tile.appliedenergistics2.BlockCondenser.name=Конденсатор материи
 tile.appliedenergistics2.BlockController.name=МЭ контроллер
+tile.appliedenergistics2.BlockCreativeEnergyController.name=МЭ контроллер с автономным питанием
 tile.appliedenergistics2.BlockCrank.name=Деревянная рукоятка
 tile.appliedenergistics2.BlockCreativeEnergyCell.name=Творческая энергетическая ячейка
 tile.appliedenergistics2.BlockDenseEnergyCell.name=Плотная энергетическая ячейка
@@ -66,6 +67,9 @@ tile.appliedenergistics2.BlockMolecularAssembler.name=Молекулярный �
 tile.appliedenergistics2.BlockPatternOptimizationMatrix.name=Матрица оптимизации шаблонов
 tile.appliedenergistics2.BlockSingularityCraftingStorage.name=Сингулярное хранилище создания
 tile.appliedenergistics2.BlockPaint.name=Краска
+tile.appliedenergistics2.BlockWirelessConnector.name=Беспроводной соединитель
+tile.appliedenergistics2.BlockWirelessHub.name=Беспроводной хаб
+tile.appliedenergistics2.BlockGrower.name=Камера для выращивания кристаллов
 
 # Stairs
 tile.appliedenergistics2.ChiseledQuartzStairBlock.name=Ступеньки из резного истинного кварца
@@ -126,10 +130,12 @@ chat.appliedenergistics2.FBOUnsupported=OpenGL FBO не поддерживают
 chat.appliedenergistics2.PriorityInvalidTarget=Цель не имеет приоритета
 chat.appliedenergistics2.PriorityReadout=Текущий приоритет: %d
 chat.appliedenergistics2.PriorityConfigured=Приоритет обновлен до %d
-chat.appliedenergistics2.DriveLocked=Ячейки цифровой сингулярности в накопителе были заблокированы на текущий предмет на них
-chat.appliedenergistics2.ChestLocked=Ячейка цифровой сингулярности в сундуке была заблокирована на текущем предмете, находящемся на ней
+chat.appliedenergistics2.DriveLockingToggled=Ячейки в накопителе были размечены/не размечены
+chat.appliedenergistics2.ChestLockingToggled=Ячейка в сундуке была размечена/не размечена
 chat.appliedenergistics2.FinishCraftingRemind=Создание %s * %s завершено за %s.
 chat.appliedenergistics2.CraftingCantExtract=Невозможно извлечь необходимое количество ингредиента из хранилища: %d / %d | %s
+chat.appliedenergistics2.MachineInOtherDim=%d расположен в измерении: %d и не может быть подсвечен
+chat.appliedenergistics2.MachineHighlighted=%d сейчас подсвечен и находится: %d, %d, %d
 
 # Creative Tabs
 itemGroup.appliedenergistics2=Applied Energistics 2
@@ -234,6 +240,11 @@ gui.appliedenergistics2.CraftingPattern=Создание шаблонов
 gui.appliedenergistics2.MolecularAssembler=Молекулярный сборщик
 gui.appliedenergistics2.ProcessingPattern=Обработка шаблона
 gui.appliedenergistics2.Crafts=Создаёт
+gui.appliedenergistics2.HoldShift=Удерживайте [LSHIFT], чтобы показать ингредиенты
+gui.appliedenergistics2.Result=Результат
+gui.appliedenergistics2.Results=Результаты
+gui.appliedenergistics2.Ingredients=Ингредиенты
+gui.appliedenergistics2.Ingredient=Ингредиент
 gui.appliedenergistics2.And=и
 gui.appliedenergistics2.Creates=Делает
 gui.appliedenergistics2.With=из
@@ -358,6 +369,9 @@ gui.color.appliedenergistics2.CraftConfirmMissingItem=1AFF0000
 gui.color.appliedenergistics2.CraftingCPUActive=5A45A021
 gui.color.appliedenergistics2.CraftingCPUScheduled=FF787878
 gui.color.appliedenergistics2.InterfaceTerminalMatch=2A00FF00
+gui.color.appliedenergistics2.ProcessBarStartColor=FFE60A00
+gui.color.appliedenergistics2.ProcessBarMiddleColor=FFE6E600
+gui.color.appliedenergistics2.ProcessBarEndColor=FF0AE600
 
 # GUI Tooltips
 gui.tooltips.appliedenergistics2.Stash=Хранить предметы
@@ -489,7 +503,7 @@ gui.tooltips.appliedenergistics2.SaveSearchStringNo=Нет
 gui.tooltips.appliedenergistics2.DoublePattern=Удвоить шаблон
 gui.tooltips.appliedenergistics2.DoublePatternHint=Удвоит размеры стака входных и выходных предметов в шаблоне, если это возможно. С зажатым shift результат будет x8, ПКМ же разделит вместо этого. Нажмите среднюю кнопку мыши, чтобы вписать множитель.
 gui.tooltips.appliedenergistics2.DoublePatterns=Двойной шаблон
-gui.tooltips.appliedenergistics2.DoublePatternsHint=Удвоит размеры стака входных и выходных предметов в шаблоне, если это возможно. С зажатым shift результат будет x8, ПКМ же разделит вместо этого. Нажмите среднюю кнопку мыши, чтобы вписать множитель.
+gui.tooltips.appliedenergistics2.DoublePatternsHint=Удвоит размеры стака входных и выходных предметов в шаблоне, если это возможно. С зажатым shift результат будет x8, ПКМ же разделит вместо этого.
 gui.tooltips.appliedenergistics2.CraftingStatus=Статус создания
 gui.tooltips.appliedenergistics2.CraftingStatusDesc=Открывает окно статуса создания
 gui.tooltips.appliedenergistics2.ToggleMolecularAssemblers=Переключить отображение только интерфейсов создания
@@ -565,6 +579,16 @@ gui.tooltips.appliedenergistics2.CellRestrictionHint=Настройка огра
 
 gui.tooltips.appliedenergistics2.SearchGotoNext=Find next
 gui.tooltips.appliedenergistics2.SearchGotoPrev=Find prev
+
+gui.tooltips.appliedenergistics2.CPUAllowMode=Ограничение запросов на создание
+gui.tooltips.appliedenergistics2.CPUAllowAllDesc=Разрешить все запросы на создание
+gui.tooltips.appliedenergistics2.CPUOnlyAllowPlayerDesc=Разрешить только запросы на создание предметов от игрока
+gui.tooltips.appliedenergistics2.CPUOnlyAllowNonPlayerDesc=Разрешить запросы на создание предметов только от неигроков
+
+gui.tooltips.appliedenergistics2.PinsSection=Pins Section
+gui.tooltips.appliedenergistics2.PinsSectionActive=Pins Section Enabled
+gui.tooltips.appliedenergistics2.PinsSectionDisabled=Pins Section Disabled
+
 # Units
 gui.appliedenergistics2.units.appliedenergstics=AE
 gui.appliedenergistics2.units.ic2=EU
@@ -577,7 +601,7 @@ gui.appliedenergistics2.White=Белый
 gui.appliedenergistics2.Orange=Оранжевый
 gui.appliedenergistics2.Magenta=Пурпурный
 gui.appliedenergistics2.LightBlue=Голубой
-gui.appliedenergistics2.Yellow=Желтый
+gui.appliedenergistics2.Yellow=Жёлтый
 gui.appliedenergistics2.Lime=Лаймовый
 gui.appliedenergistics2.Pink=Розовый
 gui.appliedenergistics2.Gray=Серый
@@ -610,6 +634,11 @@ waila.appliedenergistics2.CraftingLockedByLackOfRedstoneSignal=Заблокир�
 waila.appliedenergistics2.CraftingLockedByRedstoneSignal=Заблокировано сигналом красного камня
 waila.appliedenergistics2.CraftingLockedUntilPulse=Ожидает импульс красного камня для разблокировки
 waila.appliedenergistics2.CraftingLockedUntilResult=Ожидает результатов создания для разблокировки
+waila.appliedenergistics2.wireless.connected=Подключено к %s,%s,%s
+waila.appliedenergistics2.wireless.notconnected=Не подключен
+waila.appliedenergistics2.wireless.channels=Количество каналов: %s
+waila.appliedenergistics2.wireless.power=Энергии используется: %s AE/t
+waila.appliedenergistics2.wireless.name=Название: %s
 
 # Items
 item.appliedenergistics2.ItemBasicStorageCell.1k.name=1К МЭ ячейка хранения
@@ -748,7 +777,7 @@ item.appliedenergistics2.ItemPart.Interface.name=МЭ интерфейс
 item.appliedenergistics2.ItemPart.LevelEmitter.name=МЭ излучатель уровня
 item.appliedenergistics2.ItemPart.P2PTunnel.name=P2P туннель
 item.appliedenergistics2.ItemPart.PatternTerminal.name=МЭ терминал шаблонов
-item.appliedenergistics2.ItemPart.PatternTerminalEx.name=МЭ терминал шаблона производства
+item.appliedenergistics2.ItemPart.PatternTerminalEx.name=МЭ терминал шаблонов обработки
 item.appliedenergistics2.ItemPart.QuartzFiber.name=Кварцевое волокно
 item.appliedenergistics2.ItemPart.PartCreativeEnergy.name=Творческой якорь энергии
 item.appliedenergistics2.ItemPart.StorageBus.name=МЭ шина хранения
@@ -794,6 +823,16 @@ item.appliedenergistics2.ToolBiometricCard.name=Биометрическая к�
 
 item.appliedenergistics2.ToolDebugCard.name=Разраб.отладочная карта
 item.appliedenergistics2.ToolReplicatorCard.name=Разраб.карта-репликатор
+
+item.appliedenergistics2.ToolNetworkVisualiser.name=Устройство визуализации Сети
+item.appliedenergistics2.ToolNetworkVisualiser.bound=Визуализируем сеть, находящуюся на %s,%s,%s
+item.appliedenergistics2.ToolNetworkVisualiser.mode=Режим:
+item.appliedenergistics2.ToolNetworkVisualiser.set=Режим изменен на %s
+item.appliedenergistics2.ToolNetworkVisualiser.mode.full=Показать всё
+item.appliedenergistics2.ToolNetworkVisualiser.mode.nodes=Показать узлы
+item.appliedenergistics2.ToolNetworkVisualiser.mode.channels=Показать каналы
+item.appliedenergistics2.ToolNetworkVisualiser.mode.nonum=Показать каналы и узлы
+item.appliedenergistics2.ToolNetworkVisualiser.mode.p2p=Показывать P2P-Соединения
 
 # Commands
 commands.ae2.usage=Команды предоставляемые Applied Energistics 2 - используйте /ae2 list для списка и /ae2 help _____ для помощи с командой.

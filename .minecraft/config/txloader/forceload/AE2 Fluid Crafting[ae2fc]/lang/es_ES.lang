@@ -75,6 +75,7 @@ tile.oc_pattern_editor.name=Editor de patrón OC
 tile.level_maintainer.name=Mantenimiento de nivel ME
 tile.fluid_buffer.name=Filtro de Fluidos ME
 tile.walrus.name=Morsa
+tile.super_stoker.name=Super Stoker
 tile.fluid_auto_filler.name=Autorrellenador de fluidos ME
 tile.certus_quartz_tank.name=Tanque de Cuarzo de Certus - %s
 tile.certus_quartz_tank_empty.name=Tanque de Cuarzo de Certus
@@ -163,6 +164,18 @@ ae2fc.tooltip.not_fill_pattern.hint=Deshabilitado
 ae2fc.tooltip.open_configuration=Abrir configuración
 ae2fc.tooltip.block_highlight=Resaltar Bloque
 
+ae2fc.tooltip.magnet_card.off=Magnet Card
+ae2fc.tooltip.magnet_card.off.hint=Off
+ae2fc.tooltip.magnet_card.inv=Magnet Card
+ae2fc.tooltip.magnet_card.inv.hint=Pickup to Inventory
+ae2fc.tooltip.magnet_card.me=Magnet Card
+ae2fc.tooltip.magnet_card.me.hint=Pickup to ME
+ae2fc.tooltip.magnet_card.filter=Magnet Filter
+ae2fc.tooltip.restock.on=Toggle Restock
+ae2fc.tooltip.restock.on.hint=Enable
+ae2fc.tooltip.restock.off=Toggle Restock
+ae2fc.tooltip.restock.off.hint=Disable
+
 ae2fc.gui.part_fluid_pattern_terminal=Terminal de Patrones de Fluidos
 ae2fc.gui.part_fluid_pattern_terminal_ex=Terminal de Patrones de Procesamiento de Fluidos
 ae2fc.gui.part_level_terminal=Terminal Niveladora
@@ -187,6 +200,13 @@ ae2fc.gui.part_fluid_terminal=Terminal de Fluidos ME
 ae2fc.gui.part_fluid_storage_bus=Bus de Almacenamiento de Fluidos ME
 ae2fc.gui.fluid_auto_filler=Autorrellenador de fluidos ME
 
+ae2fc.gui.magnet=Magnet Filter
+ae2fc.gui.magnet.nbt=Ignore NBT Data
+ae2fc.gui.magnet.meta=Ignore Meta Data
+ae2fc.gui.magnet.ore=Use Ore Dictionary
+ae2fc.gui.magnet.whitelist=Whitelisting
+ae2fc.gui.magnet.blacklist=BlackListing
+
 ae2fc.gui.color.StateNone=00000000
 ae2fc.gui.color.StateIdle=FF55FF55
 ae2fc.gui.color.StateCraft=FFFFFF55
@@ -195,7 +215,8 @@ ae2fc.gui.color.StateError=FFFF5555
 
 error.unknown=Desconocido
 
-key.OpenTerminal=Terminal Inalámbrico de Fabricación Abierto
+ae2fc.key.OpenTerminal=Open Wireless Universal Terminal
+ae2fc.key.Restock=Toggle Restock
 
 itemGroup.ae2fc=Crafteo de fluidos para el AE2
 

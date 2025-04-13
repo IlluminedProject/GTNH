@@ -5,6 +5,7 @@ tile.appliedenergistics2.BlockCharger.name=Cargador
 tile.appliedenergistics2.BlockChest.name=Cofre ME
 tile.appliedenergistics2.BlockCondenser.name=Condensador de Materia
 tile.appliedenergistics2.BlockController.name=Controlador ME
+tile.appliedenergistics2.BlockCreativeEnergyController.name=ME Self Powered Controller
 tile.appliedenergistics2.BlockCrank.name=Manivela de Madera
 tile.appliedenergistics2.BlockCreativeEnergyCell.name=Celda de Energía Creativa
 tile.appliedenergistics2.BlockDenseEnergyCell.name=Celda de Energía Densa
@@ -66,6 +67,9 @@ tile.appliedenergistics2.BlockMolecularAssembler.name=Ensamblador molecular
 tile.appliedenergistics2.BlockPatternOptimizationMatrix.name=Matriz de Optimización de Patrones
 tile.appliedenergistics2.BlockSingularityCraftingStorage.name=Singularity Crafting Storage
 tile.appliedenergistics2.BlockPaint.name=Paint
+tile.appliedenergistics2.BlockWirelessConnector.name=Wireless Connector
+tile.appliedenergistics2.BlockWirelessHub.name=Wireless Hub
+tile.appliedenergistics2.BlockGrower.name=Crystal Growth Chamber
 
 # Stairs
 tile.appliedenergistics2.ChiseledQuartzStairBlock.name=Escaleras de Cuarzo de Certus cinceladas
@@ -126,10 +130,12 @@ chat.appliedenergistics2.FBOUnsupported=No se admiten FBO OpenGL, no se puede ex
 chat.appliedenergistics2.PriorityInvalidTarget=El objetivo no tiene prioridad
 chat.appliedenergistics2.PriorityReadout=La prioridad actual es %d
 chat.appliedenergistics2.PriorityConfigured=Prioridad actualizada a %d
-chat.appliedenergistics2.DriveLocked=Bloqueado las células de Singularidad Digital a los objetos que contienen.
-chat.appliedenergistics2.ChestLocked=Bloqueado la célula de Singularidad Digital al objetos que contiene.
+chat.appliedenergistics2.DriveLockingToggled=Cells in drive were partitioned/unpartitioned
+chat.appliedenergistics2.ChestLockingToggled=Cell in chest was partitioned/unpartitioned
 chat.appliedenergistics2.FinishCraftingRemind=Tarea para fabricar %s × %s terminado; ha tardado %s
 chat.appliedenergistics2.CraftingCantExtract=Can't extract required amount of ingredient from storage: %d / %d | %s
+chat.appliedenergistics2.MachineInOtherDim=%d located in dimension: %d and cant be highlighted
+chat.appliedenergistics2.MachineHighlighted=The %d is now highlighted at %d, %d, %d
 
 # Creative Tabs
 itemGroup.appliedenergistics2=Applied Energistics 2
@@ -234,6 +240,11 @@ gui.appliedenergistics2.CraftingPattern=Patrón de Elaboración
 gui.appliedenergistics2.MolecularAssembler=Ensamblador molecular
 gui.appliedenergistics2.ProcessingPattern=Patrón de Procesamiento
 gui.appliedenergistics2.Crafts=Elaboraciones
+gui.appliedenergistics2.HoldShift=Hold [LSHIFT] to show Ingredients
+gui.appliedenergistics2.Result=Result
+gui.appliedenergistics2.Results=Results
+gui.appliedenergistics2.Ingredients=Ingredients
+gui.appliedenergistics2.Ingredient=Ingredient
 gui.appliedenergistics2.And=y
 gui.appliedenergistics2.Creates=Crea
 gui.appliedenergistics2.With=con
@@ -358,6 +369,9 @@ gui.color.appliedenergistics2.CraftConfirmMissingItem=1AFF0000
 gui.color.appliedenergistics2.CraftingCPUActive=5A45A021
 gui.color.appliedenergistics2.CraftingCPUScheduled=FF787878
 gui.color.appliedenergistics2.InterfaceTerminalMatch=2A00FF00
+gui.color.appliedenergistics2.ProcessBarStartColor=FFE60A00
+gui.color.appliedenergistics2.ProcessBarMiddleColor=FFE6E600
+gui.color.appliedenergistics2.ProcessBarEndColor=FF0AE600
 
 # GUI Tooltips
 gui.tooltips.appliedenergistics2.Stash=Almacenar objetos
@@ -565,6 +579,16 @@ gui.tooltips.appliedenergistics2.CellRestrictionHint=Setup Cell Restriction
 
 gui.tooltips.appliedenergistics2.SearchGotoNext=Find next
 gui.tooltips.appliedenergistics2.SearchGotoPrev=Find prev
+
+gui.tooltips.appliedenergistics2.CPUAllowMode=Crafting requests limitation
+gui.tooltips.appliedenergistics2.CPUAllowAllDesc=Allow all crafting requests
+gui.tooltips.appliedenergistics2.CPUOnlyAllowPlayerDesc=Only allow crafting requests from player
+gui.tooltips.appliedenergistics2.CPUOnlyAllowNonPlayerDesc=Only allow crafting requests from non-player
+
+gui.tooltips.appliedenergistics2.PinsSection=Pins Section
+gui.tooltips.appliedenergistics2.PinsSectionActive=Pins Section Enabled
+gui.tooltips.appliedenergistics2.PinsSectionDisabled=Pins Section Disabled
+
 # Units
 gui.appliedenergistics2.units.appliedenergstics=AE
 gui.appliedenergistics2.units.ic2=Unidades de Energía
@@ -610,6 +634,11 @@ waila.appliedenergistics2.CraftingLockedByLackOfRedstoneSignal=Bloqueado por no 
 waila.appliedenergistics2.CraftingLockedByRedstoneSignal=Bloqueado por la señal de redstone
 waila.appliedenergistics2.CraftingLockedUntilPulse=Esperando un pulso de redstone para desbloquear
 waila.appliedenergistics2.CraftingLockedUntilResult=Esperando a los resultados para desbloquear
+waila.appliedenergistics2.wireless.connected=Connected to %s,%s,%s
+waila.appliedenergistics2.wireless.notconnected=Not Connected
+waila.appliedenergistics2.wireless.channels=Channels: %s
+waila.appliedenergistics2.wireless.power=Power Used: %s AE/t
+waila.appliedenergistics2.wireless.name=Name: %s
 
 # Items
 item.appliedenergistics2.ItemBasicStorageCell.1k.name=Célula de Almacenamiento ME de 1k
@@ -794,6 +823,16 @@ item.appliedenergistics2.ToolBiometricCard.name=Tarjeta Biométrica
 
 item.appliedenergistics2.ToolDebugCard.name=Dev.DebugCard
 item.appliedenergistics2.ToolReplicatorCard.name=Dev.ReplicatorCard
+
+item.appliedenergistics2.ToolNetworkVisualiser.name=Network Visualisation Tool
+item.appliedenergistics2.ToolNetworkVisualiser.bound=Visualising network at %s, %s, %s
+item.appliedenergistics2.ToolNetworkVisualiser.mode=Mode:
+item.appliedenergistics2.ToolNetworkVisualiser.set=Mode changed to %s
+item.appliedenergistics2.ToolNetworkVisualiser.mode.full=Show Everything
+item.appliedenergistics2.ToolNetworkVisualiser.mode.nodes=Show Nodes
+item.appliedenergistics2.ToolNetworkVisualiser.mode.channels=Show Channels
+item.appliedenergistics2.ToolNetworkVisualiser.mode.nonum=Show Channels and Nodes
+item.appliedenergistics2.ToolNetworkVisualiser.mode.p2p=Show P2P Links
 
 # Commands
 commands.ae2.usage=Comandos de Applied Energistics 2. Usa "/ae2 list" para listarlos, y "/ae2 help" para ver la ayuda de un comando.

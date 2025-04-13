@@ -157,7 +157,7 @@ extrabees.item.tungstenDust=Вольфрамовые гранулы
 extrabees.item.radioactiveDust=Радиоактивные осколки
 extrabees.item.coalDust=Угольная пыль
 extrabees.item.dyeRed=Красный краситель
-extrabees.item.dyeYellow=Желтый краситель
+extrabees.item.dyeYellow=Жёлтый краситель
 extrabees.item.dyeBlue=Синий краситель
 extrabees.item.dyeGreen=Зеленый краситель
 extrabees.item.dyeWhite=Белый краситель
@@ -516,7 +516,7 @@ extrabees.gui.database.tab.species.genome.required=Обязательно
 extrabees.gui.database.tab.species.products=Продукция
 extrabees.gui.database.tab.species.products.everyHours=Каждые %s ч.
 extrabees.gui.database.tab.species.products.everyMins=Каждые %s м.
-extrabees.gui.database.tab.species.products.everySecs=Каждые %s с.
+extrabees.gui.database.tab.species.products.everySecs=Каждые %s сек.
 
 extrabees.gui.database.tab.species.climate=Климат
 extrabees.gui.database.tab.species.biomes=Биомы

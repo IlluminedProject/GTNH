@@ -134,6 +134,8 @@ serverutilities.world.forced_spawn_dimension_time=Forced Spawn Dimension Time
 serverutilities.world.forced_spawn_dimension_weather=Forced Spawn Dimension Weather
 serverutilities.world.disable_player_suffocation_damage=Disable Player Suffocation Damage
 serverutilities.world.show_playtime=Show Playtime in Top-Left Corner
+serverutilities.world.players_sleeping=§f%s§6 is now sleeping. %s/%s (%s%%)
+serverutiltiies.world.skip_night=§6Wakey, wakey, rise and shine... Good Morning everyone!
 
 serverutilities.world.logging=Логирование
 serverutilities.world.logging.include_creative_players=Включить творческих игроков
@@ -266,7 +268,7 @@ permission.serverutilities.chunkloader.decay=Chunkload decay timer. Loaded chunk
 permission.default_op_rank=Default rank for players with OP or singleplayer with cheat enabled.
 permission.default_player_rank=Default rank for players
 permission.parent=Ранг чьи разрешения будут унаследованы
-permission.power=Deprecated, see priority.
+permission.power=Устарело, см. приоритет.
 permission.priority=Determines which ranks permissions will be prioritized if a player has multiple ranks. Higher = prioritized first.
 
 # Player Settings
@@ -483,8 +485,8 @@ commands.dump_chunkloaders.usage=/dump_chunkloaders
 commands.dump_permissions.usage=/dump_permissions
 commands.vanish.usage=/vanish
 commands.vanish.toggle.usage=/vanish toggle <on|off>
-commands.vanish.fakequit.usage=/vanish fakequit - Send a fake disconnect message
-commands.vanish.fakejoin.usage=/vanish fakejoin - Send a fake connection message
+commands.vanish.fakequit.usage=/vanish fakequit - Отправить поддельное сообщение об отключении
+commands.vanish.fakejoin.usage=/vanish fakejoin - Отправить поддельное сообщение о подключении
 commands.vanish.interact.usage=/vanish interact
 commands.vanish.chat.usage=/vanish chat
 commands.vanish.chat.desc=Toggles chatting while vanished
@@ -741,7 +743,7 @@ click_action.gui=Открыть графический интерфейс
 
 # Aurora
 aurora=Server Utilities Aurora
-aurora.port=Port
+aurora.port=Порт
 
 # JourneyMap
 serverutilities.jm.own_team=Ваша команда

@@ -5,6 +5,7 @@ tile.appliedenergistics2.BlockCharger.name=チャージ機
 tile.appliedenergistics2.BlockChest.name=MEチェスト
 tile.appliedenergistics2.BlockCondenser.name=マターコンデンサー
 tile.appliedenergistics2.BlockController.name=MEコントローラー
+tile.appliedenergistics2.BlockCreativeEnergyController.name=ME Self Powered Controller
 tile.appliedenergistics2.BlockCrank.name=木製クランク
 tile.appliedenergistics2.BlockCreativeEnergyCell.name=クリエイティブエネルギーセル
 tile.appliedenergistics2.BlockDenseEnergyCell.name=高密度エネルギーセル
@@ -66,6 +67,9 @@ tile.appliedenergistics2.BlockMolecularAssembler.name=分子アセンブラー
 tile.appliedenergistics2.BlockPatternOptimizationMatrix.name=Pattern Optimization Matrix
 tile.appliedenergistics2.BlockSingularityCraftingStorage.name=Singularity Crafting Storage
 tile.appliedenergistics2.BlockPaint.name=Paint
+tile.appliedenergistics2.BlockWirelessConnector.name=Wireless Connector
+tile.appliedenergistics2.BlockWirelessHub.name=Wireless Hub
+tile.appliedenergistics2.BlockGrower.name=Crystal Growth Chamber
 
 # Stairs
 tile.appliedenergistics2.ChiseledQuartzStairBlock.name=模様入りのケルタスクォーツの階段
@@ -126,10 +130,12 @@ chat.appliedenergistics2.FBOUnsupported=OpenGL FBOがサポートされていな
 chat.appliedenergistics2.PriorityInvalidTarget=Target has no priority
 chat.appliedenergistics2.PriorityReadout=Current priority is %d
 chat.appliedenergistics2.PriorityConfigured=Updated priority to %d
-chat.appliedenergistics2.DriveLocked=Digital Singularity cells in drive were locked to the current item on them
-chat.appliedenergistics2.ChestLocked=Digital Singularity cell in chest was locked to the current item on it
+chat.appliedenergistics2.DriveLockingToggled=Cells in drive were partitioned/unpartitioned
+chat.appliedenergistics2.ChestLockingToggled=Cell in chest was partitioned/unpartitioned
 chat.appliedenergistics2.FinishCraftingRemind=Crafting of %s * %s finished in %s.
 chat.appliedenergistics2.CraftingCantExtract=Can't extract required amount of ingredient from storage: %d / %d | %s
+chat.appliedenergistics2.MachineInOtherDim=%d located in dimension: %d and cant be highlighted
+chat.appliedenergistics2.MachineHighlighted=The %d is now highlighted at %d, %d, %d
 
 # Creative Tabs
 itemGroup.appliedenergistics2=Applied Energistics 2
@@ -234,6 +240,11 @@ gui.appliedenergistics2.CraftingPattern=クラフトパターン
 gui.appliedenergistics2.MolecularAssembler=分子アセンブラー
 gui.appliedenergistics2.ProcessingPattern=加工パターン
 gui.appliedenergistics2.Crafts=クラフト
+gui.appliedenergistics2.HoldShift=Hold [LSHIFT] to show Ingredients
+gui.appliedenergistics2.Result=Result
+gui.appliedenergistics2.Results=Results
+gui.appliedenergistics2.Ingredients=Ingredients
+gui.appliedenergistics2.Ingredient=Ingredient
 gui.appliedenergistics2.And=と
 gui.appliedenergistics2.Creates=作成
 gui.appliedenergistics2.With=と
@@ -358,6 +369,9 @@ gui.color.appliedenergistics2.CraftConfirmMissingItem=1AFF0000
 gui.color.appliedenergistics2.CraftingCPUActive=5A45A021
 gui.color.appliedenergistics2.CraftingCPUScheduled=FF787878
 gui.color.appliedenergistics2.InterfaceTerminalMatch=2A00FF00
+gui.color.appliedenergistics2.ProcessBarStartColor=FFE60A00
+gui.color.appliedenergistics2.ProcessBarMiddleColor=FFE6E600
+gui.color.appliedenergistics2.ProcessBarEndColor=FF0AE600
 
 # GUI Tooltips
 gui.tooltips.appliedenergistics2.Stash=アイテムを保持する
@@ -565,6 +579,16 @@ gui.tooltips.appliedenergistics2.CellRestrictionHint=Setup Cell Restriction
 
 gui.tooltips.appliedenergistics2.SearchGotoNext=Find next
 gui.tooltips.appliedenergistics2.SearchGotoPrev=Find prev
+
+gui.tooltips.appliedenergistics2.CPUAllowMode=Crafting requests limitation
+gui.tooltips.appliedenergistics2.CPUAllowAllDesc=Allow all crafting requests
+gui.tooltips.appliedenergistics2.CPUOnlyAllowPlayerDesc=Only allow crafting requests from player
+gui.tooltips.appliedenergistics2.CPUOnlyAllowNonPlayerDesc=Only allow crafting requests from non-player
+
+gui.tooltips.appliedenergistics2.PinsSection=Pins Section
+gui.tooltips.appliedenergistics2.PinsSectionActive=Pins Section Enabled
+gui.tooltips.appliedenergistics2.PinsSectionDisabled=Pins Section Disabled
+
 # Units
 gui.appliedenergistics2.units.appliedenergstics=AE
 gui.appliedenergistics2.units.ic2=EU
@@ -610,6 +634,11 @@ waila.appliedenergistics2.CraftingLockedByLackOfRedstoneSignal=Locked by lack of
 waila.appliedenergistics2.CraftingLockedByRedstoneSignal=Locked by redstone signal
 waila.appliedenergistics2.CraftingLockedUntilPulse=Waiting for redstone pulse to unlock
 waila.appliedenergistics2.CraftingLockedUntilResult=Waiting for results to unlock
+waila.appliedenergistics2.wireless.connected=Connected to %s,%s,%s
+waila.appliedenergistics2.wireless.notconnected=Not Connected
+waila.appliedenergistics2.wireless.channels=Channels: %s
+waila.appliedenergistics2.wireless.power=Power Used: %s AE/t
+waila.appliedenergistics2.wireless.name=Name: %s
 
 # Items
 item.appliedenergistics2.ItemBasicStorageCell.1k.name=1k MEストレージセル
@@ -794,6 +823,16 @@ item.appliedenergistics2.ToolBiometricCard.name=Biometric Card
 
 item.appliedenergistics2.ToolDebugCard.name=Dev.DebugCard
 item.appliedenergistics2.ToolReplicatorCard.name=Dev.ReplicatorCard
+
+item.appliedenergistics2.ToolNetworkVisualiser.name=Network Visualisation Tool
+item.appliedenergistics2.ToolNetworkVisualiser.bound=Visualising network at %s, %s, %s
+item.appliedenergistics2.ToolNetworkVisualiser.mode=Mode:
+item.appliedenergistics2.ToolNetworkVisualiser.set=Mode changed to %s
+item.appliedenergistics2.ToolNetworkVisualiser.mode.full=Show Everything
+item.appliedenergistics2.ToolNetworkVisualiser.mode.nodes=Show Nodes
+item.appliedenergistics2.ToolNetworkVisualiser.mode.channels=Show Channels
+item.appliedenergistics2.ToolNetworkVisualiser.mode.nonum=Show Channels and Nodes
+item.appliedenergistics2.ToolNetworkVisualiser.mode.p2p=Show P2P Links
 
 # Commands
 commands.ae2.usage=Commands provided by Applied Energistics 2 - use /ae2 list for a list, and /ae2 help _____ for help with a command.

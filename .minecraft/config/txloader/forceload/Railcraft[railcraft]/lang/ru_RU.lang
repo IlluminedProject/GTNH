@@ -192,7 +192,7 @@ item.railcraft.firestone.refined.tip.charged=Наполнен энергией,\
 item.railcraft.firestone.refined.tip.empty=Его энергия контролируется,\n он мог бы быть полезным,\n если бы Вы могли зарядить его...
 
 item.railcraft.fluid.creosote.bottle.name=Бутылка креозотового масла
-item.railcraft.fluid.creosote.bucket.name=Ведро креозотового масла
+item.railcraft.fluid.creosote.bucket.name=Ведро креозота
 item.railcraft.fluid.creosote.can.name=Банка креозотового масла
 item.railcraft.fluid.creosote.cell.name=Капсула креозотового масла
 item.railcraft.fluid.creosote.refactory.name=Огнеупорная капсула креозотового масла
@@ -288,7 +288,7 @@ item.railcraft.tool.surveyor.tip=Соединяет сигналы в сигна
 item.railcraft.tool.whistle.tuner.name=Настройщик свистка
 
 
-item.railcraft.upgrade.lapotron.name=Lapotron Loader Upgrade
+item.railcraft.upgrade.lapotron.name=Лазуротроновое улучшение энергоёмкости
 
 item.synthetic=Синтетика
 
@@ -332,7 +332,7 @@ railcraft.gates.trigger.temp.warm=Котёл тёплый
 railcraft.gates.trigger.work=Работает
 
 railcraft.gui.anchor.fuel.remaining=@.2f часов
-railcraft.gui.anchor.fuel=Жемчужины Края
+railcraft.gui.anchor.fuel=Жемчуг Эндера
 railcraft.gui.anchor.pair.fail.alignment=%1$s не на одной линии с %2$s
 railcraft.gui.anchor.pair.fail.distance=%1$s слишком далеко, чтобы соединиться с %2$s
 railcraft.gui.anchor.pair.fail.dimension=%1$s в другом измерении
@@ -995,7 +995,7 @@ tile.railcraft.signal.distant.dual.tip=Displays aspects of linked Controllers\n�
 tile.railcraft.signal.distant.name=Удалённый сигналоприёмный блок
 tile.railcraft.signal.distant.tip=Displays aspect of linked Controller\n§o§9Aerial Linkages: 1x Receiver\n§o§cRelevant Tools:\n§o§c- Signal Tuner
 tile.railcraft.signal.switch.lever.name=Стрелочный рычаг
-tile.railcraft.signal.switch.lever.tip=Controls adjacent Switch Tracks\n§o§9Manual Operation
+tile.railcraft.signal.switch.lever.tip=Органы управления, примыкающие к Стрелочному пути\n§o§9Ручное управление
 tile.railcraft.signal.switch.motor.name=Стрелочный электромотор
 tile.railcraft.signal.switch.motor.tip=Controls adjacent Switch Tracks\n§o§9Aerial Linkages: 1x Receiver\n§o§9Redstone Linkage: Listen\n§o§cRelevant Tools:\n§o§c- Signal Tuner
 tile.railcraft.signal.switch.routing.name=Маршрутный стрелочный электромотор

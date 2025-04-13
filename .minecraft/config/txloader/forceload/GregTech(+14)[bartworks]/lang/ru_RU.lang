@@ -75,7 +75,7 @@ tile.BWHeatedWaterPump.0.name=Простой водяной насос Стир�
 item.BWrawtube.name=Удлиненная стеклянная лампа
 item.BWmotor.name=Простой двигатель Стирлинга
 item.BWstove.name=Простая печь с подогревом
-gt.blockmachines.creativeScanner.desc.1=Завершает Cканирование мгновенно. Не требует питания.
+gt.blockmachines.creativeScanner.desc.1=Завершает Сканирование мгновенно. Не требует питания.
 
 itemGroup.BioTab=BartWorks Биоинженерия
 filled.item.petriDish.name=Чашка Петри с культурой
@@ -140,6 +140,14 @@ tooltip.bw.tier.name=Тир:
 tooltip.bw.empty.name=Пусто
 tooltip.bw.mb_via.name=%s§7 через §2BartWorks
 
+tooltip.bw.high_temp_gas_cooled_reactor.material=Материал для высокотемпературного газоохлаждаемого реактора
+
+tooltip.bw.item.circuit.tagged=a circuit
+tooltip.bw.item.circuit.tagged.imprint=An imprint for: %s
+tooltip.bw.item.circuit.tagged.sliced=A sliced %s
+tooltip.bw.item.circuit.imprint=An imprint for a Circuit
+tooltip.bw.item.circuit.sliced=A sliced Circuit
+
 tooltip.teslastaff.0.name=Никаких гарантий!
 tooltip.labmodule.0.name=Модуль используемый для изменения Режима работы Биолаборатории
 tooltip.labparts.0.name=Пустая стерилизованная чашка Петри.
@@ -160,7 +168,7 @@ tooltip.tile.mbf.1.name=Загрязнения в секунду
 tooltip.tile.windmill.0.name=Примитивная дробилка питается от кинетической энергии.;Размеры(ШxВxД)): 7x12x7;Слой 1: 7x7 Кирпичи, углы воздух, контроллер спереди по центру.;Слой 2-5 Обожжёная глина, углы воздух, может содержать одну дверь,;Полый, стена должна содержать не меньше одного раздатчика;Слой 6: 5x5 Деревянные доски. Углы заполнены, полый.;Слой 7: 7x7 Деревянные доски. Углы заполнены, полый.;Слой 8: 7x7 Деревянные доски. Углы воздух, полый.;в центре спереди должно быть примитивный кинетический ротор;Слой 9: 7x7 Деревянные доски. Углы воздух, полый.;Слой 10: 5x5 Деревянные доски. Углы заполнены, полый.;Слой 11: 3x3 Деревянные доски. Углы заполнены, полый.;Слой 12: 1x1 Деревянные доски.;Для работы требуется ротор ветряной мельницы в роторе;Предметы вводятся в контроллер;Выводится предметы появятся в раздатчике;В регионах с большим количеством ветра (например, ветряные мельницы IC2) это происходит быстрее.
 tooltip.tile.lesu.0.name=Блок-контроллер GT2-стиль L.E.S.U.; Размер: ЛЮБОЙ
 tooltip.tile.lesu.1.name=Хранение в LESU корпусе:
-tooltip.tile.lesu.2.name=Output EU: LESU Casings amount;Input EU: Next Voltage Tier to Output EU;Input/Output Amps can be configured via 4 Circuits in GUI;Output Side has a dot on it.
+tooltip.tile.lesu.2.name=Вывод EU: Количество LESU корпусов;Ввод EU: Следующий тир вольтажа на выходе EU;Входной/Выходной ампераж можно настроить через 4 схему в GUI;На стороне выхода есть точка.
 tooltip.tile.lesu.3.name=Разрешен только один Контроллер, никакого разделения стен!
 tooltip.tile.tiereddsc.0.name=Вольтаж:
 tooltip.tile.tiereddsc.1.name=Ампераж IN:
@@ -231,8 +239,33 @@ solarsystem.Ross128System=Система Ross128
 
 itemGroup.bw.MetaItems.0=BartWorks Circuit Overhaul предметы
 
+# info data
 BW.infoData.BioVat.expectedProduction=Ожидаемое производство
 BW.infoData.BioVat.production=Производство
+
+BW.infoData.htr.helium_level=Уровень гелия: %sЛ / %sЛ
+BW.infoData.htr.problems=Проблемы: %s
+
+BW.infoData.htgr.mode=Режим: %s
+BW.infoData.htgr.mode.emptying=Emptying
+BW.infoData.htgr.mode.normal=Normal
+BW.infoData.htgr.progress=Прогресс: %sс / %sс
+BW.infoData.htgr.fuel_type=Тип топлива: %s
+BW.infoData.htgr.fuel_type.none=NONE
+BW.infoData.htgr.fuel_type.triso=TRISO (%s)
+BW.infoData.htgr.fuel_amount=Количество топлива: %s шт.
+BW.infoData.htgr.coolant=Хладагент: %sЛ/с
+
+BW.infoData.thtr.progress=Прогресс: %sсек / %sсек
+BW.infoData.thtr.triso_pebbles=Пеллеты TRISO: %sшт. / %sшт.
+BW.infoData.thtr.coolant=Хладагент/t: %sЛ/t
+
+BW.infoData.wind_mill.progress=Progress: %d Grindings of %d needed Grindings
+BW.infoData.wind_mill.grind_power=GrindPower: %dKU/t
+
+BW.infoData.mega_vacuum_freezer.tier=Тир: %d
+BW.infoData.mega_vacuum_freezer.subspace_cooling.active=Subspace cooling: §aActive (%s)
+BW.infoData.mega_vacuum_freezer.subspace_cooling.inactive=Subspace cooling: §cInactive
 
 BW.NEI.display.radhatch.0=Зиверт: %s Sv
 BW.NEI.display.radhatch.1=Масса: %s кг

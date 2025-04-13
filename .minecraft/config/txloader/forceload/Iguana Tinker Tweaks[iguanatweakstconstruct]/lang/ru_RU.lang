@@ -257,18 +257,23 @@ item.iguana.tcon.clayBucket.Slime.name=Глиняное ведро жидкой 
 item.iguana.tcon.clayBucket.PigIron.name=Глиняное ведро расплавленного свиного железа
 item.iguana.tcon.clayBucket.Glue.name=Глиняное ведро липкого клея
 
+item.iguana.tcon.clayBucket.creosote.name=Глиняное ведро креозота
+item.iguana.tcon.clayBucket.oil.name=Глиняное ведро нефти
+item.iguana.tcon.clayBucket.poison.name=Глиняное ведро яда
+item.iguana.tcon.clayBucket.blood.name=Глиняное ведро крови
+
 item.iguana.tcon.sawArdite.name=Ардитовая пила
 item.iguana.tcon.sawCobalt.name=Кобальтовая пила
 item.iguana.tcon.sawManyullyn.name=Мануллиновая пила
 
-item.iguana.tcon.skull.enderman.name=Голова странника Края
+item.iguana.tcon.skull.enderman.name=Голова эндермена
 item.iguana.tcon.skull.pigman.name=Голова свинозомби
 item.iguana.tcon.skull.blaze.name=Голова ифрита
 item.iguana.tcon.skull.blizz.name=Голова бурана
 
 item.iguana.tcon.wearable.bucketHoley.name=Дырявое ведро
 item.iguana.tcon.wearable.clayBucketCracked.name=Треснувшее глиняное ведро
-item.iguana.tcon.wearable.endermanJaw.name=Челюсть странника Края
+item.iguana.tcon.wearable.endermanJaw.name=Челюсть эндермена
 item.iguana.tcon.wearable.bathat.name=Шапка летучей мыши
 
 item.iguana.tcon.rubberChicken.name=Резиновая курица

@@ -59,7 +59,7 @@ gui.chat.update.download=Нажмите здесь, чтобы загрузит�
 subtitle.game.tnt.primed=Зажигание динамита
 subtitle.game.player.swim=Игрок плавает
 subtitle.game.player.swim.splash=Игрок плескается
-subtitle.entity.player.splash.high_speed=Громкий всплеск
+subtitle.entity.player.splash.high_speed=Огромный всплеск
 subtitle.game.potion.smash=Пузырёк разбился
 
 subtitle.game.neutral.hurt=Звук получения урона
@@ -70,6 +70,11 @@ subtitle.game.hostile.hurt=Звук получения урона
 subtitle.game.hostile.swim=Кто-то плавает
 subtitle.game.hostile.swim.splash=Всплеск
 
+subtitle.game.player.die=Игрок умирает
+subtitle.game.player.hurt=Игрок получает урон
+
+subtitle.portal.portal=Портал шумит
+
 subtitle.fireworks.launch=Запуск фейерверка
 subtitle.fireworks.blast=Взрыв фейерверка
 subtitle.fireworks.blast_far=Взрыв фейерверка (далеко)
@@ -78,21 +83,32 @@ subtitle.fireworks.largeblast_far=Взрыв фейерверка (большо�
 subtitle.fireworks.twinkle=Потрескивание фейерверка
 subtitle.fireworks.twinkle_far=Потрескивание фейерверка (далеко)
 
-subtitle.fire.fire=Звук огня
-subtitle.fire.ignite=Огонь разгорается
+subtitle.fire.fire=Потрескивание огня
+subtitle.fire.ignite=Огонь загорается
 
 subtitle.entity.player.attack.weak=Слабая атака
 subtitle.entity.player.attack.strong=Сильная атака
 subtitle.entity.player.attack.crit=Критическая атака
 subtitle.entity.player.attack.knockback=Отбрасывающая атака
 
-subtitle.entity.fishing_bobber.throw=Бросание рыболовного поплавка
-subtitle.entity.fishing_bobber.retrieve=Возвращение рыболовного поплавка
+subtitle.entity.player.hurt_on_fire=Player burns
+subtitle.entity.player.hurt_drown=Игрок тонет
+subtitle.entity.player.hurt_freeze=Player freezes
+subtitle.entity.player.hurt_sweet_berry_bush=Сладкий ягодный куст травмирует игрока
 
-subtitle.entity.item_frame.add_item=Заполнение рамки
-subtitle.entity.item_frame.remove_item=Опустошение рамки
+subtitle.entity.fishing_bobber.throw=Забрасывание лески
+subtitle.entity.fishing_bobber.retrieve=Сматывание лески
+
+subtitle.entity.item_frame.add_item=Заполнение предметной рамки
+subtitle.entity.item_frame.remove_item=Опустошение предметной рамки
 subtitle.entity.item_frame.rotate_item=Поворот предмета в рамке
 
+subtitle.entity.bee.loop=Пчела жужжит
+subtitle.entity.bee.hurt=Пчела получает урон
+subtitle.entity.bee.death=Пчела умирает
+subtitle.entity.bee.sting=Пчела жалит
+subtitle.entity.bee.pollinate=Пчела радостно жужжит
+subtitle.entity.bee.loop_aggressive=Пчела сердито жужжит
 subtitle.entity.rabbit.ambient=Кролик пищит
 subtitle.entity.rabbit.death=Кролик погибает
 subtitle.entity.rabbit.hurt=Кролик получает урон
@@ -103,11 +119,11 @@ subtitle.entity.husk.death=Кадавр погибает
 subtitle.entity.stray.ambient=Зимогор гремит
 subtitle.entity.stray.hurt=Зимогор получает урон
 subtitle.entity.stray.death=Зимогор погибает
-subtitle.entity.shulker.ambient=Звуки шалкера
+subtitle.entity.shulker.ambient=Шалкер таится
 subtitle.entity.shulker.hurt=Шалкер получает урон
 subtitle.entity.shulker.hurt_closed=Стук по панцирю
-subtitle.entity.shulker.open=Панцирь шалкера открывается
-subtitle.entity.shulker.close=Панцирь шалкера закрывается
+subtitle.entity.shulker.open=Шалкер открывается
+subtitle.entity.shulker.close=Шалкер закрывается
 subtitle.entity.shulker.teleport=Шалкер телепортируется
 subtitle.entity.shulker.death=Шалкер погибает
 subtitle.entity.zombie_villager.ambient=Зомби-житель стонет
@@ -120,16 +136,27 @@ subtitle.entity.witch.death=Ведьма погибает
 subtitle.entity.squid.ambient=Спрут плавает
 subtitle.entity.squid.hurt=Спрут получает урон
 subtitle.entity.squid.death=Спрут погибает
+subtitle.entity.fox.ambient=Лиса пищит
+subtitle.entity.fox.screech=Лиса визжит
+subtitle.entity.fox.sleep=Лиса храпит
+subtitle.entity.fox.aggro=Лиса злится
+subtitle.entity.fox.bite=Лиса кусается
+subtitle.entity.fox.death=Лиса умирает
+subtitle.entity.fox.eat=Лиса ест
+subtitle.entity.fox.hurt=Fox hurts
+subtitle.entity.fox.sniff=Лиса нюхает
+subtitle.entity.fox.spit=Лиса плюет
 
-subtitle.entity.boat.paddle_water=Звук весла по воде
-subtitle.entity.boat.paddle_land=Звук весла по земле
+subtitle.entity.boat.paddle_water=Весла шлепают по воде
+subtitle.entity.boat.paddle_land=Весла ударяются о землю
 
-subtitle.random.fizz=Что-то потухло
+subtitle.random.fizz=Что-то шипит
 subtitle.random.drink=Глотание
 subtitle.random.eat=Чавканье
 subtitle.random.explode=Взрыв
 subtitle.random.pop=Поднятие предмета
 subtitle.random.orb=Получен опыт
+subtitle.random.levelup=Leveled up
 subtitle.random.bow=Выстрел
 subtitle.random.bowhit=Попадание стрелы
 subtitle.random.click=Щелчок
@@ -138,12 +165,13 @@ subtitle.random.chest.close=Сундук закрывается
 subtitle.random.anvil_land=Звук наковальни
 subtitle.random.burp=Отрыжка
 
-subtitle.dig.grass=Блок размещен или сломан
-subtitle.dig.stone=Блок размещен или сломан
-subtitle.dig.wood=Блок размещен или сломан
-subtitle.dig.cloth=Блок размещен или сломан
-subtitle.dig.glass=Блок размещен или сломан
-subtitle.dig.gravel=Блок размещен или сломан
+subtitle.dig.grass=Земля размещена или уничтожена
+subtitle.dig.stone=Камень размещен или уничтожен
+subtitle.dig.wood=Дерево размещено или уничтожено
+subtitle.dig.cloth=Блок установлен или уничтожен
+subtitle.dig.glass=Стекло размещено или уничтожено
+subtitle.dig.gravel=Гравий размещен или уничтожен
+subtitle.dig.sand=Песок размещен или уничтожен
 
 subtitle.fall.small=Кто-то споткнулся
 subtitle.fall.big=Что-то упало
@@ -157,6 +185,8 @@ subtitle.liquid.lavapop=Бурление лавы
 
 subtitle.item.bucket.empty=Ведро опустошено
 subtitle.item.bucket.fill=Ведро напоняется
+subtitle.item.bucket.empty_lava=Ведро опустошается
+subtitle.item.bucket.fill_lava=Ведро наполняется
 subtitle.item.bottle.empty=Пузырёк опустошен
 subtitle.item.bottle.fill=Пузырёк напоняется
 subtitle.item.hoe.till=Вспахивание мотыгой
@@ -168,6 +198,7 @@ subtitle.item.armor.equip_chain=Звук надевания кольчужной
 subtitle.item.armor.equip_diamond=Звук надевания алмазной брони
 subtitle.item.armor.equip_netherite=Звук надевания незеритовой брони
 subtitle.item.armor.equip_elytra=Звук надевания элитр
+subtitle.item.bone_meal.use=Костная мука хрустит
 
 subtitle.records.13=Играет пластинка "13"
 subtitle.records.cat=Играет пластинка "cat"
@@ -182,30 +213,47 @@ subtitle.records.ward=Играет пластинка "ward"
 subtitle.records.11=Играет пластинка "11"
 subtitle.records.wait=Играет пластинка "wait"
 
-subtitle.block.destroyed=Блок размещен или сломан
-subtitle.block.placed=Блок размещен
-subtitle.block.wooden_door.close=Закрытие деревянной двери
-subtitle.block.wooden_door.open=Открытие деревянной двери
-subtitle.block.iron_door.close=Закрытие железной двери
-subtitle.block.iron_door.open=Открытие железной двери
+subtitle.ambient.nether_wastes.mood=Адские звуки
+
+subtitle.block.destroyed=Блок установлен или уничтожен
+subtitle.block.placed=Блок установлен или уничтожен
+subtitle.block.wooden_door.close=Деревянная дверь закрывается
+subtitle.block.wooden_door.open=Деревянная дверь открывается
+subtitle.block.iron_door.close=Железная дверь закрывается
+subtitle.block.iron_door.open=Железная дверь открывается
 subtitle.block.beacon.deactivate=Звук маяка
-subtitle.block.wooden_trapdoor.close=Закрытие деревянного люка
-subtitle.block.wooden_trapdoor.open=Открытие деревянного люка
-subtitle.block.iron_trapdoor.close=Закрытие железного люка
-subtitle.block.iron_trapdoor.open=Открытие железного люка
-subtitle.block.wooden_pressure_plate.click_on=Щелчок деревянной нажимной пластины
-subtitle.block.wooden_pressure_plate.click_off=Щелчок деревянной нажимной пластины
-subtitle.block.metal_pressure_plate.click_on=Щелчок металической нажимной пластины
-subtitle.block.metal_pressure_plate.click_off=Щелчок металической нажимной пластины
+subtitle.block.wooden_trapdoor.close=Деревянный люк закрывается
+subtitle.block.wooden_trapdoor.open=Деревянный люк открывается
+subtitle.block.iron_trapdoor.close=Железный люк закрывается
+subtitle.block.iron_trapdoor.open=Железный люк открывается
+subtitle.block.wooden_pressure_plate.click_on=Щелчки деревянной прижимной пластины
+subtitle.block.wooden_pressure_plate.click_off=Щелчки деревянной прижимной пластины
+subtitle.block.metal_pressure_plate.click_on=Щелчки металлической нажимной пластины
+subtitle.block.metal_pressure_plate.click_off=Щелчки металлической нажимной пластины
 subtitle.block.ender_chest.open=Сундук Эндера открывается
 subtitle.block.ender_chest.close=Сундук Эндера закрывается
-subtitle.block.furnace.fire_crackle=Печь разгорается
+subtitle.block.furnace.fire_crackle=Потрескивание огня
 subtitle.block.blastfurnace.fire_crackle=Плавильная печь разгорается
 subtitle.block.smoker.smoke=Коптильня коптит
 subtitle.block.fence_gate.close=Калитка закрывается
 subtitle.block.fence_gate.open=Калитка открывается
 subtitle.block.shulker_box.open=Шалкеровый ящик открывается
 subtitle.block.shulker_box.close=Шалкеровый ящик закрывается
+subtitle.block.beehive.enter=Пчела входит в улей
+subtitle.block.beehive.exit=Пчела покидает улей
+subtitle.block.beehive.drip=Honey drips
+subtitle.block.beehive.work=Пчелы работают
+subtitle.block.beehive.shear=Улей стриженный
+subtitle.block.honey_block.slide=Скольжение вниз по блоку меда
+subtitle.block.brewing_stand.brew=Brewing Stand bubbles
+subtitle.block.composter.fill=Компостер заполнен
+subtitle.block.composter.fill_success=Уровень компоста повышается
+subtitle.block.composter.ready=Компостер полон
+subtitle.block.composter.empty=Компостер опорожнен
+subtitle.block.enchantment_table.use=Стол зачарований используется
+subtitle.block.smithing_table.use=Кузнечный стол используется
+subtitle.block.sweet_berry_bush.pick_berries=Сладкие ягоды собраны
+subtitle.block.sponge.absorb=Губка впитывает воду
 
 subtitle.mob.hurt=%s получает урон
 subtitle.mob.death=%s погибает
@@ -216,7 +264,7 @@ subtitle.mob.bat.takeoff=Летучая мышь взлетает
 subtitle.mob.chicken.say=Курица кудахчет
 subtitle.mob.cow.say=Корова мычит
 subtitle.mob.cat.hitt=Кот получает урон
-subtitle.mob.cat.purr=Кот мурчит
+subtitle.mob.cat.purr=Кот мурлычет
 subtitle.mob.cat.purreow=Кот мяукает и мурчит
 subtitle.mob.cat.meow=Кот мяукает
 subtitle.mob.pig.say=Свинья хрюкает
@@ -226,7 +274,7 @@ subtitle.mob.silverfish.hit=Чешуйница получает урон
 subtitle.mob.silverfish.kill=Чешуйница погибает
 subtitle.mob.slime.big=Слизень прыгает
 subtitle.mob.slime.small=Слизень хлюпает
-subtitle.mob.blaze.breathe=Дыхание ифрита
+subtitle.mob.blaze.breathe=Ифрит дышит
 subtitle.mob.blaze.hit=Ифрит получает урон
 subtitle.mob.creeper.say=Крипер шипит
 subtitle.creeper.primed=Крипер взрывается
@@ -242,37 +290,37 @@ subtitle.mob.ghast.moan=Гаст плачет
 subtitle.mob.ghast.scream=Гаст кричит
 subtitle.mob.ghast.charge=Гаст стреляет
 subtitle.mob.ghast.fireball=Звук полета огненного шара
-subtitle.mob.zombieepig.zpig=Свинозомби рычит
-subtitle.mob.zombieepig.zpighurt=Свинозомби получает урон
-subtitle.mob.zombieepig.zpigangry=Свинозомби рычит сердито
-subtitle.mob.zombieepig.zpigdeath=Свинозомби умирает
+subtitle.mob.zombiepig.zpig=Свинозомби рычит
+subtitle.mob.zombiepig.zpighurt=Свинозомби получает урон
+subtitle.mob.zombiepig.zpigangry=Свинозомби рычит сердито
+subtitle.mob.zombiepig.zpigdeath=Свинозомби умирает
 subtitle.mob.endermen.idle=Эндермен урчит
-subtitle.mob.endermen.portal=Эндермен телепортировался
+subtitle.mob.endermen.portal=Эндермен телепортируется
 subtitle.mob.endermen.hit=Эндермен получает урон
-subtitle.mob.endermen.death=Эндермен погибает
+subtitle.mob.endermen.death=Эндермен умирает
 subtitle.mob.magmacube.big=Адский слизень прыгает
 subtitle.mob.magmacube.small=Адский слизень хлюпает
 subtitle.mob.wolf.bark=Волк лает
 subtitle.mob.wolf.panting=Волк дышит
 subtitle.mob.wolf.shake=Волк отряхивается
 subtitle.mob.horse.idle=Лошадь ржет
-subtitle.mob.horse.angry=Лошадь злиться
+subtitle.mob.horse.angry=Лошадь сердито ржет
 subtitle.mob.horse.hit=Лошадь получает урон
 subtitle.mob.horse.death=Лошадь погибает
 subtitle.mob.horse.eat=Лошадь ест
 subtitle.mob.horse.gallop=Лошадь скачет
 subtitle.mob.horse.jump=Лошадь прыгает
 subtitle.mob.horse.land=Лошадь приземляется
-subtitle.mob.horse.breathe=Дыхание лошади
+subtitle.mob.horse.breathe=Лошадь дышит
 subtitle.mob.horse.wood=Лошадь ускоряется
 subtitle.mob.horse.soft=Лошадь гуляет
 subtitle.mob.horse.leather=Надевание седла
 
-subtitle.tile.piston.out=Поршень движется
-subtitle.tile.piston.in=Поршень движется
+subtitle.tile.piston.out=Поршень движется наружу
+subtitle.tile.piston.in=Поршень движется внутрь
 
 subtitle.weather.rain=Идет дождь
-subtitle.ambient.weather.thunder=Гром
+subtitle.ambient.weather.thunder=Гром ударяет
 
 # Entities
 entity.etfuturum.endermite.name=Чешуйница Края
@@ -294,6 +342,7 @@ entity.etfuturum.guardian.name=Страж
 entity.etfuturum.elder_guardian.name=Древний страж
 entity.etfuturum.polar_bear.name=Белый медведь
 entity.etfuturum.bee.name=Пчела
+entity.etfuturum.fox.name=Лиса
 
 # Items
 item.etfuturum.mutton.name=Сырая баранина
@@ -1666,6 +1715,17 @@ efr.elytra.betterfps.warn3=§cПолет элитр отключен.
 
 # Mod support blocks
 
+tile.etfuturum.iron_barrel.name=Железная бочка
+tile.etfuturum.gold_barrel.name=Золотая бочка
+tile.etfuturum.diamond_barrel.name=Алмазная бочка
+tile.etfuturum.copper_barrel.name=Медная бочка
+tile.etfuturum.silver_barrel.name=Серебряная бочка
+tile.etfuturum.obsidian_barrel.name=Обсидиановая бочка
+tile.etfuturum.netherite_barrel.name=Незеритовая бочка
+tile.etfuturum.steel_barrel.name=Стальная бочка
+tile.etfuturum.darksteel_barrel.name=Бочка из тёмной стали
+
+
 tile.etfuturum.iron_shulker_box.name=Железный шалкеровый ящик
 tile.etfuturum.white_iron_shulker_box.name=Белый железный шалкеровый ящик
 tile.etfuturum.orange_iron_shulker_box.name=Оранжевый железный шалкеровый ящик
@@ -1905,6 +1965,18 @@ item.shulker_copper_iron_upgrade.name=Улучшение медного шалк
 item.shulker_copper_silver_upgrade.name=Улучшение медного шалкерового ящика до серебряного шалкерового ящика
 item.shulker_silver_gold_upgrade.name=Улучшение серебряного шалкерового ящика до золотого шалкерового ящика
 
+item.barrel_vanilla_iron_upgrade.name=Улучшение бочки до железной бочки
+item.barrel_vanilla_copper_upgrade.name=Улучшение бочки до медной бочки
+item.barrel_iron_gold_upgrade.name=Улучшение железной до золотой бочки
+item.barrel_gold_diamond_upgrade.name=Улучшение золотой до алмазной бочки
+item.barrel_diamond_obsidian_upgrade.name=Улучшение алмазной до обсидиановой бочки
+item.barrel_copper_iron_upgrade.name=Улучшение медной до железной бочки
+item.barrel_copper_silver_upgrade.name=Улучшение медной до серебряной бочки
+item.barrel_silver_gold_upgrade.name=Улучшение серебряной до золотой бочки
+item.barrel_steel_gold_upgrade.name=Улучшение стальной до золотой бочки
+item.barrel_obsidian_netherite_upgrade.name=Улучшение обсидиановой до незеритовой бочки
+item.barrel_obsidian_darksteel_upgrade.name=Улучшение незеритовой до бочки из тёмной стали
+
 item.etfuturum.raw_aluminum.name=Необработанный алюминий
 item.etfuturum.raw_tin.name=Необработанное олово
 item.etfuturum.raw_silver.name=Необработанное серебро
@@ -1921,3 +1993,7 @@ item.etfuturum.raw_magnesium.name=Необработанный магний
 item.etfuturum.raw_boron.name=Необработанный бор
 
 item.etfuturum.simpleores.raw_adamantium.name=Необработанный адамантий
+
+
+
+# PATRIOTS IN CONTROL  😎 🇺🇸 🦅 #

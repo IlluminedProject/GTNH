@@ -5,22 +5,22 @@ gtnhlanth.recipe.tc=Приёмник элементарных частиц
 gtnhlanth.recipe.sc=Источник элементарных частиц
 
 gtnhlanth.tt.beaminfo=Используйте §bпортативный сканер §7для получения информации о входе/выходе этого мультиблока.
-gtnhlanth.tt.blueprint=Следуйте§9Structure§2Lib §7 голограммному проектору для постройки структуры.
-gtnhlanth.tt.pc=§6Partially consumed: §7Takes damage in the process
+gtnhlanth.tt.blueprint=Следуйте §9Structure§2Lib §7голограммному проектору для постройки структуры.
+gtnhlanth.tt.pc=§6Частично расходуется: §7Получает урон в процессе работы
 
 gtnhlanth.tt.hintdot=Блок подсказка с точкой %s
 
-GT5U.gui.text.gtnhlanth.nocoolant=No coolant present in machine!
-GT5U.gui.text.gtnhlanth.inscoolant=Insufficient coolant in machine!
-GT5U.gui.text.gtnhlanth.noaccel=Particle type can't be accelerated!
-GT5U.gui.text.gtnhlanth.low_input_eut=Input EU/t too low to produce  photons!
-GT5U.gui.text.gtnhlanth.scerror=Math error, broken recipe?
+GT5U.gui.text.gtnhlanth.nocoolant=В механизме отсутствует хладагент!
+GT5U.gui.text.gtnhlanth.inscoolant=Недостаточно хладагента в механизме!
+GT5U.gui.text.gtnhlanth.noaccel=Тип частиц не может быть ускорен!
+GT5U.gui.text.gtnhlanth.low_input_eut=Входной EU/t слишком мал для создания фотонов!
+GT5U.gui.text.gtnhlanth.scerror=Математическая ошибка, неверный рецепт?
 
 # NEI
 value.disstank=Соотношение: %s:1
 
 DissolutionTank.hint.0=Точка 1: Чистый корпус из нержавеющей стали
-DissolutionTank.hint.1=24x Боросиликатное стекло
+DissolutionTank.hint.1=24x Укрепленное боросиликатное стекло из титана
 DissolutionTank.hint.2=9х Жаропрочный корпус
 DissolutionTank.hint.3=Входной люк, Выходной люк, Входной шлюз, Выходной шлюз
 DissolutionTank.hint.4=Энерговвод, Люк техобслуживания
@@ -41,12 +41,12 @@ SourceChamber.hint.5=Точка 3: Люк техобслуживания, Эне
 SourceChamber.hint.6=Точка 4: Выходной шлюз установки для литографии
 
 LINAC.hint.0=325-1285x Экранированный корпус ускорителя
-LINAC.hint.1=148-852x Coolant Delivery Casing
+LINAC.hint.1=148-852x Корпус подачи хладагента
 LINAC.hint.2=127-703x Экранированное стекло ускорителя
 LINAC.hint.3=56-312x Блок сверхпроводящей катушки
 LINAC.hint.4=156-732x Электродный корпус
 LINAC.hint.5=47x Вентиляционный корпус
-LINAC.hint.6=48x Боросиликатное стекло (LuV+)
+LINAC.hint.6=48x Любое тировое стекло (LuV+)
 LINAC.hint.7=Точка 1: Энерговвод, Люк техобслуживания
 LINAC.hint.8=Точка 2: Входной шлюз, Выходной шлюз
 LINAC.hint.9=Точка 3: Входной шлюз установки для литографии
@@ -55,8 +55,8 @@ LINAC.hint.10=Точка 4: Выходной шлюз установки для 
 Synchrotron.hint.0=676x Экранированный корпус ускорителя
 Synchrotron.hint.1=90x Блок сверхпроводящей катушки
 Synchrotron.hint.2=64x Ниобиевый полый корпус
-Synchrotron.hint.3=28x Coolant Delivery Casing
-Synchrotron.hint.4=16x Боросиликатное стекло (LuV+)
+Synchrotron.hint.3=28x Корпус подачи хладагента
+Synchrotron.hint.4=16x Любое тировое стекло (LuV+)
 Synchrotron.hint.5=4x Корпус антенны
 Synchrotron.hint.6=Точка 1: Входной шлюз установки для литографии
 Synchrotron.hint.7=Точка 2: Выходной шлюз установки для литографии
@@ -67,7 +67,7 @@ Synchrotron.hint.11=Точка 6: Энерговвод
 
 TargetChamber.hint.0=28x Экранированный корпус ускорителя
 TargetChamber.hint.1=34x Экранированное стекло ускорителя
-TargetChamber.hint.2=16x Боросиликатное стекло (любое)
+TargetChamber.hint.2=16x Любое тировое стекло
 TargetChamber.hint.3=29x Вентиляционный корпус
 TargetChamber.hint.4=4x Корпус фокуса манипулятора
 TargetChamber.hint.5=4x Корпус целевого приемника
@@ -116,7 +116,7 @@ fluid.Diluted Acetone=Разбавленный ацетон
 
 tile.casing.shielded_accelerator_glass.name=Экранированное стекло ускорителя
 casing.electrode.name=Электродный корпус
-casing.coolant_delivery.name=Coolant Delivery Casing
+casing.coolant_delivery.name=Корпус подачи хладагента
 casing.antenna_t1.name=Корпус антенны (T1)
 casing.antenna_t2.name=Корпус антенны (T2)
 casing.niobium_cavity.name=Ниобиевый полый корпус
@@ -166,3 +166,8 @@ particle.alpha=Альфа частица
 particle.neutron=Нейтрон
 particle.proton=Протон
 GT5U.gui.text.dissolution_ratio=§7Неверное соотношение исходных жидкостей
+
+tooltip.gtnhlanth.particle.rest_mass=Rest Mass: %f MeV
+tooltip.gtnhlanth.particle.charge=Заряд: %s e
+tooltip.gtnhlanth.photomask.desc_spectrum=Подходит для %s-го сегмента электромагнитного спектра и ниже
+tooltip.gtnhlanth.photomask.max_uses=Макс. использований: %d

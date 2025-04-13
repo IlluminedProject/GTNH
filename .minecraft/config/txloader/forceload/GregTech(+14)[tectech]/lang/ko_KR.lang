@@ -71,6 +71,7 @@ item.em.parametrizerMemoryCard.desc.0=Stores Parameters
 item.em.parametrizerMemoryCard.desc.1=Use on Multiblock Controller to configure it
 item.em.parametrizerMemoryCard.desc.2=Use on Multiblock Controller to store parameters
 item.em.parametrizerMemoryCard.desc.3=Sneak right click to lock/unlock
+item.em.parametrizerMemoryCard.desc.copied_controller=Copied from: %s at %s
 item.em.parametrizerMemoryCard.copyMessage=Configuration copied to the card
 item.em.parametrizerMemoryCard.pasteMessage=Configuration pasted from the card
 item.em.parametrizerMemoryCard.controllerMismatch=Can't paste configuration from %s to %s!
@@ -634,6 +635,8 @@ gt.blockcasingsTT.14.desc.1=Meh...
 gt.blockcasingsTT.15.name=Debug Sides
 gt.blockcasingsTT.15.desc.0=Lazy man way of determining sides.
 gt.blockcasingsTT.15.desc.1=0, 1, 2, 3, 4, 5, 6?!
+gt.blockcasingsTT.default.desc.0=Damn son where did you get that!?
+gt.blockcasingsTT.default.desc.1=From outer space... I guess...
 
 gt.blockcasingsBA0.name=Primary Tesla Windings
 gt.blockcasingsBA0.0.name=Redstone Alloy Primary Tesla Windings
@@ -1002,7 +1005,7 @@ fog.upgrade.lore.26=As additional rings are placed closer to the star at the cen
 fog.upgrade.lore.27=A huge development in the capabilities of the Forge has been achieved with the use of large quantities of graviton shards – the ability to indefinitely feed the star with stellar fuel. While this has diminishing returns, the star can exist indefinitely despite the extremely accelerated energy expenditure from endless material processing.
 fog.upgrade.lore.28=The usage of graviton shards in electrical systems to create localised miniature energy wormholes has allowed for such efficient power transfer that effectively unlimited electricity may be utilized by the Forge. More power means faster processing, quicker material movement, and better utilization of graviton shard related upgrades.
 fog.upgrade.lore.29=The final external structural upgrade to the Forge requires the most advanced understanding of graviton shards and their applications in extreme environments. With this, the last 4 module slots of the Forge of the Gods are available to construct, ascending your operation to unseen heights of technological mastery.
-fog.upgrade.lore.30=With total mastery of the Forge of the Gods achieved, it is possible to begin a new universe-spanning initiative. It is now possible to quantize and extract graviton shards for use outside the Forge in powerful new technological endeavours; produce the most exotic plasmas beyond merely periodic elements; and most importantly, begin to understand the immense power of magmatter, a form of matter made entirely of magnetic monopoles with density and stability billions of times that of conventional bosonic matter. It is with this development you realise that the completion of the Forge was not the end goal, but merely a stepping stone to universal transcendence.
+fog.upgrade.lore.30=신들의 재련소에 대한 완전한 통제와 기술적 숙련을 이룸으로써, 이제 새로운 우주적 규모의 프로젝트를 시작할 수 있는 발판을 마련하게 되었습니다. 마침내 재련소 외부에서 사용할 수 있는 중력자 조각을 양자화 하여 외부로 추출할 수 있게되었습니다. 이는 기존 주기율표에서 존재하는 원소들을 넘어선 가장 극단적이면서 이국적인 플라즈마를 생산하는 새로운 기술적 노력을 가능하게 합니다. 그리고 가장 중요한것은, 전통적인 보손기반 물질보다 밀도와 안정성이 수십억배 높은 단극자(Monopole)형태로 이루어진 물질인 마그매터(Magmatter)의 엄청난 힘을 이해하기 시작할 수 있다는점 입니다. 이 위대한 진보 덕에 재련소의 완성이 최종목표가 아니라 우주적 초월체로 다가서는 발판의 시작점에 불과했음을 깨닫게 됩니다.
 
 fog.upgrade.text.0=Unlocks the base functionality of the Forge of the Gods, meaning 8 module slots, 1 ring, the Helioflare Power Forge module, 2 billion EU/t processing voltage and 15,000K heat bonus cap.
 fog.upgrade.text.1=Unlocks a recipe time reduction multiplier based on the current heat the multi is running at. This bonus is calculated via following formula: Multiplier = 1 / (Heat^0.01)
@@ -1051,7 +1054,7 @@ fog.button.magmattermode.tooltip.03=Magmatter Mode locked, missing upgrade
 fog.button.battery.tooltip.01=Toggle Battery Charging
 fog.button.battery.tooltip.02=Right click to open configuration menu (if unlocked)
 fog.button.voltageconfig.tooltip.01=Open voltage config
-fog.button.voltageconfig.tooltip.02=Voltage config locked, missing upgrade
+fog.button.voltageconfig.tooltip.02=Voltage config locked, requires The Boundless Flow (upgrade)
 fog.button.structurecheck.tooltip=Refresh module connection status
 fog.button.milestones.tooltip=Milestone Overview
 fog.button.materialrequirements.tooltip=Upgrade needs additional materials
@@ -1481,6 +1484,8 @@ tt.keyphrase.Computation_Available=Computation Available
 tt.keyphrase.Computation_Remaining=Computation Remaining
 tt.keyphrase.AL_Recipe_Providing=Providing §6%s§7 Assembly Line Recipes
 tt.keyphrase.AL_Recipe_Receiving=Receiving §6%s§7 Assembly Line Recipes
+tt.keyphrase.Computation_Receiving=Receiving §6%s§7 Computation per Second
+tt.keyphrase.Computation_Transmitting=Transmitting §6%s§7 Computation per Second
 tt.keyphrase.AL_Recipe_Transmitting=Transmitting §6%s§7 Assembly Line Recipes
 tt.keyphrase.AL_Recipe_Header=§7Assembly Line Recipes:
 tt.keyphrase.AL_Recipe_Desc=§7- §a%s§7
@@ -1903,3 +1908,61 @@ GT5U.gui.config.general.debug=Debug
 GT5U.gui.config.general.features=Features
 GT5U.gui.config.general.teslatweaks=Tesla Tweaks
 GT5U.gui.config.general.visual=Visual
+
+tt.eoh.fancy_names.crude=Crude
+tt.eoh.fancy_names.primitive=Primitive
+tt.eoh.fancy_names.stable=Stable
+tt.eoh.fancy_names.Advanced=Advanced
+tt.eoh.fancy_names.superb=Superb
+tt.eoh.fancy_names.exotic=Exotic
+tt.eoh.fancy_names.perfect=Perfect
+tt.eoh.fancy_names.tipler=Tipler
+tt.eoh.fancy_names.gallifreyan=Gallifreyan
+tt.eoh.fancy_names.unknown=Unknown
+
+# Info data
+
+tt.infodata.multi.energy_hatches=Energy Hatches: %s EU / %s EU
+tt.infodata.multi.currently_generates=Currently generates: %s EU/t at %s A
+tt.infodata.multi.computation=Computation: %s / %s
+tt.infodata.multi.max_parallel=Max Parallel: %s
+tt.infodata.multi.multiplier.recipe_time=Recipe time multiplier: %s
+tt.infodata.multi.multiplier.energy=Energy multiplier: %s
+tt.infodata.multi.divisor.recipe_time.non_perfect_oc=Recipe time divisor per non-perfect OC: %s
+tt.infodata.multi.currently_using=Currently using: %s EU/t
+tt.infodata.multi.capacity.heat=Heat Capacity: %s
+tt.infodata.multi.capacity.heat.effective=Effective Heat Capacity: %s
+
+## Eye of Harmony
+tt.infodata.eoh.control_block_statistics=Control Block Statistics
+tt.infodata.eoh.spacetime_compression.grade=Spacetime Compression Field Grade: %s (%s)
+tt.infodata.eoh.spacetime_compression.grade.none=Spacetime Compression Field Grade: None
+tt.infodata.eoh.time_dilation.grade=Time Dilation Field Grade: %s (%s)
+tt.infodata.eoh.time_dilation.grade.none=Time Dilation Field Grade: None
+tt.infodata.eoh.stabilisation_grade=Stabilisation Field Grade: %s (%s)
+tt.infodata.eoh.stabilisation_grade.none=Stabilisation Field Grade: None
+tt.infodata.eoh.internal_storage=Internal Storage
+tt.infodata.eoh.astral_array_fabricators=Astral Array Fabricators
+tt.infodata.eoh.other_stats=Other Stats
+tt.infodata.eoh.success_chance=Recipe Success Chance: %s
+tt.infodata.eoh.recipe_yield=Recipe Yield: %s
+tt.infodata.eoh.effective_astral_array_fabricators=Effective Astral Array Fabricators: %s
+tt.infodata.eoh.total_parallel=Total Parallel: %s
+tt.infodata.eoh.eu_output=EU Output: %s EU
+tt.infodata.eoh.eu_input=EU Input: %s EU
+tt.infodata.eoh.avg_output=Average %s Output: %s L, %s L/s
+tt.infodata.eoh.estimated_eu=Estimated EU/t: %s EU/t
+
+## Quantum Computer
+tt.infodata.qc.wireless_mode.enabled=Wireless mode: §aenabled
+tt.infodata.qc.wireless_mode.disabled=Wireless mode: §cdisabled
+tt.infodata.qc.total_wireless_computation=Total wireless computation available: %s
+
+## Forge of gods
+tt.infodata.fog.rings=Number of Rings: %s
+tt.infodata.fog.upgrades.unlocked=Total Upgrades Unlocked: %s
+tt.infodata.fog.connected=Connected Modules: %s
+
+## Base factory pipe
+tt.infodata.pipe.active=Active.
+tt.infodata.pipe.inactive=Not active.
