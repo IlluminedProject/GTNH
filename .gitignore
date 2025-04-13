@@ -64,4 +64,8 @@
 .minecraft/config/mixingasm
 .minecraft/config/SpiceOfLife/example-food-group.json
 
+.minecraft/resourcepacks/GTNH-Faithful-Textures-master/.github
+.minecraft/resourcepacks/GTNH-Faithful-Textures-master/.scripts
+.minecraft/resourcepacks/GTNH-Faithful-Textures-master/.work
+
 *.disabled
