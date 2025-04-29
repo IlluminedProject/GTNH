@@ -6,6 +6,7 @@
 !12788076.png
 *.bak
 
+!minecraft
 !.minecraft
 .minecraft/*
 !.minecraft/config
