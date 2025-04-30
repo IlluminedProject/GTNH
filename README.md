@@ -2,7 +2,7 @@ Repo containing GT:NH binaries to allow autoupdating modpack for my players.
 
 Installing:
 1. Install git
-2. Import [GTNH.zip](https://github.com/user-attachments/files/19967430/GTNH.zip) in Prism Launcher
+2. Import [GTNH.zip](https://github.com/user-attachments/files/19978842/GTNH.zip) in Prism Launcher
 
 Update script: 
 ```cmd
