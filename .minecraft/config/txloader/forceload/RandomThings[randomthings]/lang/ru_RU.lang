@@ -69,7 +69,7 @@ item.creativeChestGenerator.name=Творческий генератор сун�
 item.ingredient.name=Ингредиент
 item.playerCore.name=Сердце игрока
 item.obsidianStick.name=Обсидиановая палка
-item.enderFragment.name=Фрагмент Края
+item.enderFragment.name=Фрагмент Эндера
 item.ectoplasm.name=Эктоплазма
 item.spectreIron.name=Призрачное железо
 item.transformationCore.name=Ядро трансформации
@@ -114,7 +114,7 @@ text.miscellaneous.setBonus=Бонус комплекта:
 text.miscellaneous.opOnly=Только для Операторов
 text.miscellaneous.creativeOnly=Только для творческого режима
 text.miscellaneous.category=Категория: %s
-text.miscellaneous.shiftCategory=Shift-ПКМ, чтобы изменить категорию
+text.miscellaneous.shiftCategory=Shift+ПКМ, чтобы изменить категорию
 text.miscellaneous.save=Сохранить
 text.miscellaneous.charges=Заряжает: %d
 
@@ -133,7 +133,7 @@ text.miscellaneous.useOreDict=Использовать словарь руд
 text.miscellaneous.ignoreMetadata=Игнорировать метаданные
 text.miscellaneous.useMetadata=Использовать метаданные
 
-text.miscellaneous.noTarget=Цель не выбрана (Shift-ПКМ по блоку)
+text.miscellaneous.noTarget=Цель не выбрана (Shift+ПКМ по блоку)
 text.miscellaneous.target.x=Координата-X: %d
 text.miscellaneous.target.y=Координата-Y: %d
 text.miscellaneous.target.z=Координата-Z: %d

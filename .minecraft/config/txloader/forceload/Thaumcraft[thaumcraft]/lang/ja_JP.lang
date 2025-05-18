@@ -1543,7 +1543,7 @@ tc.research_page.CENTRIFUGE.3=さらに、通常の導管のように各面の�
 #
 tc.research_name.TRAVELTRUNK=旅行かばん
 tc.research_text.TRAVELTRUNK=モバイルラゲッジ
-tc.research_page.TRAVELTRUNK.1=ゴーレム術研究の延長上で、魔導師の外出に便利なお供が生み出された。旅行かばんだ。<BR>この木製のチェストは、主人の後を嬉しそうに飛び回り、拾ったものの収納に便利な空間をいつでも提供してくれる。<BR>旅行かばんは頑丈で、かなりの衝撃にも耐えることができる。火への耐性も高く、落下でも壊れない。<BR>このかばんは、隔たれたディメンションであっても、どこへでも主人の後をついてくる。旅行かばんを動かさないようにしたい場合、インターフェース内の便利なボタンを押すと、現在の位置に留まるようになる。
+tc.research_page.TRAVELTRUNK.1=ゴーレム術研究の延長上で、魔導師の外出に便利なお供が生み出された。旅行かばんだ。<BR>この木製のチェストは、主人の後を嬉しそうに飛び回り、拾ったものの収納に便利な空間をいつでも提供してくれる。<BR>旅行かばんは頑丈で、かなりの衝撃にも耐えることができる。耐火性も高く、落下でも壊れない。<BR>このかばんは、隔たれたディメンションであっても、どこへでも主人の後をついてくる。旅行かばんを動かさないようにしたい場合、インターフェース内の便利なボタンを押すと、現在の位置に留まるようになる。
 tc.research_page.TRAVELTRUNK.2=旅行かばんは時間経過でゆっくりと自己回復するが、食べ物を与えて回復を早めることもできる。<BR>通常のゴーレムのように、旅行かばんはゴーレム術師の鐘で左クリックして拾得することができる。するとかばんのインベントリ内にあったすべてのアイテムがドロップする。Shift左クリックすると、通常の損失確率でアップグレードもドロップする。<BR>アップグレードは通常のゴーレムのように1つ取りつけ可能で、かばんに固有の能力を与える。関連するアップグレードの詳細については以降のページに記述する。
 tc.research_page.TRAVELTRUNK.UAI=      §n風のアップグレード§r<BR>このアップグレードを装着すると、旅行かばんが素早く移動するようになる。
 tc.research_page.TRAVELTRUNK.UEA=     §n地のアップグレード§r<BR>このアップグレードを装着すると、旅行かばんのインベントリが1行増え、より多くのアイテムを運べるようになる。
@@ -1554,95 +1554,95 @@ tc.research_page.TRAVELTRUNK.UEN=    §n無秩序のアップグレード§r<BR>
 #
 tc.research_name.LAMPGROWTH=成長のランプ
 tc.research_text.LAMPGROWTH=成長促進
-tc.research_page.LAMPGROWTH.1=成長のランプは、その素材となる神秘のランプとは異なり、Herbaのエッセンシアが供給されていないとあまり光を発しない。エッセンシアが供給されると、ランプの光が最も明るく照らすところで育つ植物は、通常よりもはるかに早く成長する。<BR>ランプを直接エッセンシア配管に接続することで、ランプにエッセンシアを供給することができる。
+tc.research_page.LAMPGROWTH.1=成長のランプは、その素材となる神秘のランプとは異なり、Herbaのエッセンシアが供給されていないとあまり光を発しない。エッセンシアが供給されると、ランプの光に照らされた植物が通常よりもはるかに早く成長するようになる。<BR>ランプを直接エッセンシア配管に接続することで、ランプにエッセンシアを供給することができる。
 #
 tc.research_name.LAMPFERTILITY=繁殖のランプ
 tc.research_text.LAMPFERTILITY=ライトでいい雰囲気に
 tc.research_page.LAMPFERTILITY.1=このランプの優しいピンクの光を浴びた生物は、たちまちロマンチックなムードに包まれる。可能であれば、彼らはつがいとなる同族を探すだろう。<BR>このランプは、同種の生物がすでに8匹以上いる場合は効果を発揮しない。<BR>このランプを機能させるにはVictusのエッセンシアが必要で、ランプを直接エッセンシア配管に接続することで補給できる。
 #
 tc.research_name.JARVOID=虚無の瓶
-tc.research_text.JARVOID=Too much essentia? Impossible!
-tc.research_page.JARVOID.1=Void jars function much the same as normal warded jars with one important difference - even when full they are still able to accept essentia, but the excess essentia is simply lost. This allows you to always have some essentia of that type available, but get rid of any excess that may build up.<BR>Like normal jars, void jars can accept labels, but their suction with a label is less than that of a normal labeled jar (about halfway between unlabeled and labeled jar).
+tc.research_text.JARVOID=エッセンシア過剰だと? ありえん!
+tc.research_page.JARVOID.1=虚無の瓶は通常の保護瓶とほぼ同じ働きをするが、ひとつ重要な違いがある。満杯になってもエッセンシアを受け付け、余分なエッセンシアはそのまま消失するのだ。これによって、その種類のエッセンシアを常に使えるようにしつつ、余分なエッセンシアを処分することができる。<BR>通常の瓶と同様、虚無の瓶もラベルを貼ることができるが、ラベルを貼った状態での陰圧は通常のラベル付き保護瓶よりも低い(ラベルのない保護瓶とラベル付き保護瓶の中間程度)。
 #
 tc.research_name.TUBEFILTER=高度なエッセンシア管
-tc.research_text.TUBEFILTER=What you want, where you want it
-tc.research_page.TUBEFILTER.1=§nFiltered essentia tubes§r work like normal tubes, except it is possible to mark them with labels. When marked they will restrict essentia flow through them to what they have been marked with.<BR>Shift-clicking on them with an empty hand will remove the label.
-tc.research_page.TUBEFILTER.2=§nRestricted essentia tubes§r work like normal tubes, except they halve the any suction passing through them.<LINE>§nDirectional essentia tubes§r only accept suction from one direction. The blue markings indicate the direction from which suction will be accepted.
+tc.research_text.TUBEFILTER=お望みのものを、お望みの場所に
+tc.research_page.TUBEFILTER.1=§nフィルター付きエッセンシア管§rは通常のエッセンシア管と同様に機能するが、ラベルで印をつけることができる。印のついたエッセンシア管は、指定したエッセンシアだけが流れるように制限される。<BR>素手でShiftクリックするとラベルが剥がれる。
+tc.research_page.TUBEFILTER.2=§n流量制限エッセンシア管§r は通常のエッセンシア管と同様に機能するが、通過時に陰圧を半減させる。<LINE>§n指向性エッセンシア管§r は一方向からの陰圧しか受け付けない。青い印が陰圧を受け付ける方向を示す。
 #
 tc.research_name.MIRRORESSENTIA=エッセンシアの鏡
 tc.research_text.MIRRORESSENTIA=エッセンシアを必要な場所に
-tc.research_page.MIRRORESSENTIA.1=Magical mirrors are very useful for transporting items over long distances, but what if that same principle can be applied to essentia? You think you have discovered a way to do just that.<BR>Essentia mirrors, like their name implies, can transport essentia in the same way that magic mirrors transport items. There are a few important limitations however.<BR>You cannot pipe essentia directly into the mirrors - they are only able to transport essentia that has been drawn from a source towards something like an Infusion Matrix.    
-tc.research_page.MIRRORESSENTIA.2=In effect the mirrors allow these things to draw essentia from sources via the mirror. 
+tc.research_page.MIRRORESSENTIA.1=魔法の鏡はアイテムを長距離輸送するのに非常に便利だが、同じ原理をエッセンシアに応用できるとしたらどうだろうか？その方法を発見したようだ。<BR>エッセンシアの鏡はその名の通り、魔法の鏡がアイテムを転送するのと同じ方法でエッセンシアを転送することができる。ただし、重要な制限がいくつかある。<BR>鏡に直接導管を接続してエッセンシアを送ることはできない。鏡が転送できるのは、注入のマトリクスのようなものに向かって引き出されるエッセンシアだけである。
+tc.research_page.MIRRORESSENTIA.2=この鏡は実質的に、そういった対象が鏡を通してエッセンシアを引き出せるようにしているということだ。
 #
 tc.research_name.BONEBOW=骨の弓
-tc.research_text.BONEBOW=Sticks and stones...
-tc.research_page.BONEBOW.1=You have discovered a way of crafting a bow from bone and infusing it with entropic energy.<BR>The resulting weapon is capable of firing much faster than a normal bow and arrows launched from it travels faster and hit harder.
+tc.research_text.BONEBOW=棒と石は...
+tc.research_page.BONEBOW.1=骨から弓をクラフトし、エントロピーの力を注入する方法を発見した。<BR>できあがった武器は通常の弓よりもはるかに速く矢を射ることができ、そこから放たれた矢はより速く飛び、より強い威力を発揮する。
 #
 tc.research_name.PRIMALARROW=根源相の矢
-tc.research_text.PRIMALARROW=Arrows with an elemental bite
-tc.research_page.PRIMALARROW.1=These arrows are each infused with a specific type of primal energy which gives them interesting and destructive properties<BR>§nAir Arrow§r<BR>These arrows crackle with energy. They inflict similar damage to normal arrows, but the magical energy bypasses any kind of armor protection.<BR>§nFire Arrow§r<BR>These arrows inflict pure fire damage and set their targets alight.
-tc.research_page.PRIMALARROW.2=§nWater Arrow§r<BR>These arrows inflict normal damage, but chills your target to the bone, reducing their movement speed.<BR>§nEarth Arrow§r<BR>These arrows have no special property beyond packing a lot more punch than normal arrows.<BR>§nOrder Arrow§r<BR>This arrow does a little less damage than normal, but it bypasses armor and leaves your enemy weakened.<BR>§nEntropy Arrow§r<BR>This arrow does slightly less damage than normal, 
-tc.research_page.PRIMALARROW.3=but inflicts a withering effect on whatever it hits.<LINE>Primal arrows cannot be picked up from the ground and the Infinity enchantment has only a 1 in 3 chance of preventing a primal arrow from being consumed.
+tc.research_text.PRIMALARROW=矢に元素をひとつまみ
+tc.research_page.PRIMALARROW.1=これらの矢には各種根源の力が注入されており、それが興味深く破壊的な特性を与えている。<BR>§n空気の矢§r<BR>この矢は注入された力によってバチバチと弾けている。通常の矢と同じようなダメージを与えるが、その魔力によってあらゆる防具を貫通する。<BR>§n火の矢§r<BR>この矢は純粋な炎ダメージを与え、標的を炎上させる。
+tc.research_page.PRIMALARROW.2=§n水の矢§r<BR>この矢は通常のダメージを与えるが、標的を骨の髄まで凍らせ、移動速度を低下させる。<BR>§n大地の矢§r<BR>この矢に特別な特性はないが、通常の矢よりもパンチ力がある。<BR>§n秩序の矢§r<BR>この矢は通常より少しダメージ量が小さいが、防具を貫通して敵を弱体化させる。<BR>§n無秩序の矢§r<BR>この矢は通常より少しダメージ量が小さいが、
+tc.research_page.PRIMALARROW.3=命中したものにウィザーの効果を与える。<LINE>根源相の矢は地面から拾うことができず、無限エンチャントによって原始の矢が消費されなくなる確率は3回に1回しかない。
 #
 tc.research_name.THAUMATORIUM=錬金術の自動化
 tc.research_text.THAUMATORIUM=誰でも錬金術師
-tc.research_page.THAUMATORIUM.1=Up to now alchemy has been somewhat of a hit and miss affair - miscounted aspects, degrading essentia and ingredients that require manual labor to mix. This is finally a thing of the past.<BR>The Thaumatorium is a marvelous invention that allows a thaumaturge to select which formula to use and what catalysts to add. It then automatically draws essentia from available sources using tubes. As long as there is a supply of catalyst it produces the required object perfectly, every time.<BR>The crucible that forms its base does not require water, but a heat source is still needed.
-tc.research_page.THAUMATORIUM.2=When you access this device you will see several slots. The top-left slot is where you place the catalyst. Once you have done this you will be able to choose which recipe you wish to craft with that catalyst from a list of possibilities in the top right slot.<BR>The bottom bar shows the essentia required in the order they will be required. It will also display progress bars once the machine is in operation.<BR>The created object is ejected out the front of the device or into an inventory placed in front of the ejection port.
-tc.research_page.THAUMATORIUM.3=Normally a Thaumatorium can only have one active formula, but by attaching a Mnemonic Matrix to its side you can increase the number of formulas it can keep track.<BR>Each matrix increases the number of formulas by 2. 
+tc.research_page.THAUMATORIUM.1=今までの錬金術は、相の数え間違い、エッセンシアの劣化、材料を混ぜるのに手作業が必要など、当たり外れのあるものだった。これはついに過去のものとなった。<BR>ソーマトリウムは、魔導師が使用する配合と入れる触媒を選択できるようにする、素晴らしい発明である。あとは導管を使えば、利用可能なエッセンシア源から自動的にエッセンシアを吸い上げる。触媒の供給さえあれば、いつでも完璧に必要なものを作り出すことができる。<BR>ベースとなるるつぼに水は必要ないが、熱源は必要である。
+tc.research_page.THAUMATORIUM.2=この装置にアクセスすると、いくつかのスロットが確認できる。左上のスロットに触媒を入れる。触媒を入れると、右上のスロットに表示される候補の一覧から、その触媒を使って作りたいレシピを選ぶことができる。<BR>下のバーには必要なエッセンシアが順番に表示される。また、装置が稼働すると進捗バーが表示される。<BR>生成された物体は、装置の前面から排出されるか、排出口の前に設置されたインベントリに入れられる。
+tc.research_page.THAUMATORIUM.3=通常、ソーマトリウムは1種類の配合しか有効化できないが、記憶のマトリクスを側面に取り付けることで、保持できる配合の数を増やすことができる。<BR>マトリックス1つにつき配合の数は2つ増える。
 #
 tc.research_name.RUNICARMOR=魔導障壁
-tc.research_text.RUNICARMOR=Shields up!
-tc.research_page.RUNICARMOR.1=Your research into protective magics have led you to discover Runic Shielding. This is not armor in the traditional sense, but a collection of charms, rings and similar protective baubles worn with your everyday clothes.<BR>These devices create a barrier of magical energy that wards out most types of damage. The shielding has a pool of hit points from which damage is subtracted first, protecting the wearer from all harm. Once this pool is depleted the wearer starts taking damage as normal.
-tc.research_page.RUNICARMOR.2=The pool replenishes over time and requires §2Terra§0 and §eAer§0 vis to replenish its charge which it draws from carried wands.<BR>The armor offers no protection from damage suffered due to drowning, starvation or similar environmental hazards.<BR>Due to its nature the armor cannot be enchanted by normal means, but you are sure there are ways to improve its effectiveness - you just need to discover them.
+tc.research_text.RUNICARMOR=シールド展開！
+tc.research_page.RUNICARMOR.1=防御魔法を研究していると、魔導障壁を発見した。これは従来の意味での防具ではなく、普段着の上に身につけるお守りや指輪、それに類する装飾品の集合である。<BR>これらの装備は、ほとんどの種類のダメージを防ぐ魔法エネルギーの障壁を作り出す。障壁にはHPの累積値があり、そこからまずダメージが差し引かれ、着用者をあらゆる危害から守る。この累積値が尽きると、着用者は普段通りダメージを受けだす。
+tc.research_page.RUNICARMOR.2=この累積値は、持っている杖から吸い上げられた§2Terra§0と§eAer§0のVisによって時間とともに補充される。<BR>この障壁には、溺死、飢餓、またはそれと同様の環境によるダメージからの保護効果はない。<BR>障壁はその性質上、通常の方法ではエンチャントできないが、効果を高める方法はきっとあるはずだ。それを発見しなければ。
 #
-tc.research_name.RUNICAUGMENTATION=Runic Shielding Augmentation
-tc.research_text.RUNICAUGMENTATION=Shields to maximum!
-tc.research_page.RUNICAUGMENTATION.1=Rings, amulets and girdles with runic shielding is all good and well, but surely you can apply this protective enchantment to other things?<BR>Of course you can! By utilizing the magic of Thaumaturgy(c) (patent pending), you are able to add runic shielding to most magically stable pieces of armor.<BR>'Magically stable' items are those crafted from thaumium, enchanted fabric or similarly magical materials.<BR>Only a single charge of runic shielding is added to the item, but you can enchant an item multiple times. This is expensive and
-tc.research_page.RUNICAUGMENTATION.2=the amount of ingredients and essentia required will increase with each level. The Salis Mundus required will equal the level of shielding you want, and the essentia cost will increase exponentially.<BR>You can enchant existing runic items like Rings of Shielding as well, however the cost is calculated based on their existing runic charge making it an exceptionally expensive process.
+tc.research_name.RUNICAUGMENTATION=魔導障壁の増強
+tc.research_text.RUNICAUGMENTATION=シールド最大！
+tc.research_page.RUNICAUGMENTATION.1=指輪やお守り、腰帯に魔導障壁を施すのはいいが、この防護魔法を他のものにも応用できないだろうか？<BR>もちろんできる！Thaumaturgy(c)(特許出願中)の魔法を使えば、魔術的に安定している防具のほとんどに魔導障壁を施すことができる。<BR>"魔術的に安定している"アイテムとは、魔導金属や魔力の込められた布、あるいはそれに類する魔術的素材で作られたものを指す。<BR>一度に充填できる魔導障壁は1のみだが、複数回充填することもできる。この魔法は割高で、必要な材料とエッセンシアの量は
+tc.research_page.RUNICAUGMENTATION.2=レベルが上がるごとに増加する。必要なサリス・ムンドゥスの数は魔導障壁のレベルに等しく、エッセンシアのコストは指数関数的に増加する。<BR>加護の指輪のような既存の魔導障壁付きアイテムを充填することもできるが、そのコストは既存の魔導障壁の充填量に基づいて計算されるため、非常に高コストな作業となる。
 #
 tc.research_name.RUNICCHARGED=充填された加護の指輪
-tc.research_text.RUNICCHARGED=Charge for the Charge Ring!
-tc.research_page.RUNICCHARGED.1=This is a specialized version of the Ring of Shielding.<BR>It has slightly less charge than the ring it is based on, but increases the recharge time of runic shielding by 25%.<BR>You can wear more than one of these rings, effectively halving the normal recharge time.
+tc.research_text.RUNICCHARGED=充填の指輪を充填！
+tc.research_page.RUNICCHARGED.1=これは加護の指輪の特殊強化版である。<BR>ベースとなった指輪よりわずかに充填量が少ないが、魔導障壁の再充填速度を25%増加させる。<BR>この指輪は複数つけることが可能で、充填時間を通常の半分にすることができる。
 #
 tc.research_name.RUNICHEALING=再生する加護の指輪
-tc.research_text.RUNICHEALING=Go ahead, I can take it.
-tc.research_page.RUNICHEALING.1=This is a specialized version of the Ring of Shielding.<BR>It has slightly less charge than the ring it is based on, but when your runic shielding is breached it will release a pulse of regenerative energy that will last for a few seconds.<BR>This effect cannot trigger more than once every 20 seconds.
+tc.research_text.RUNICHEALING=先に行け、こちらは持ち堪えられる。
+tc.research_page.RUNICHEALING.1=これは加護の指輪の特殊強化版である。<BR>ベースとなった指輪よりわずかに充填量が少ないが、魔導障壁が破られると、数秒間持続する再生効果の波動を放つ。<BR>この効果は20秒に1回しか発動しない。
 #
 tc.research_name.RUNICKINETIC=動的な加護の腰帯
-tc.research_text.RUNICKINETIC=Hehe, you're going to regret that.
-tc.research_page.RUNICKINETIC.1=This is a specialized version of the Girdle of Shielding.<BR>It has slightly less charge than the girdle it is based on, but when your shielding is breached a detonation of kinetic energy will be released damaging and shoving back anything nearby.<BR>This effect cannot trigger more than once every 20 seconds.
+tc.research_text.RUNICKINETIC=へへっ、後悔するぜ。
+tc.research_page.RUNICKINETIC.1=これは加護の腰帯の特殊強化版である。<BR>ベースとなった腰帯よりわずかに充填量が少ないが、魔導障壁が破られると、爆発的な運動エネルギーが放出され、付近の相手にダメージを与え、押し返す。<BR>この効果は20秒に1回しか発動しない。
 #
 tc.research_name.RUNICEMERGENCY=緊急加護の魔除け
-tc.research_text.RUNICEMERGENCY=You can't get me that easily.
-tc.research_page.RUNICEMERGENCY.1=This is a specialized version of the Amulet of Shielding.<BR>It has slightly less charge than the amulet it is based on, but when your shielding is breached this upgrade will instantly add 8 charge to your shielding amount.<BR>This effect cannot trigger more than once a minute.
+tc.research_text.RUNICEMERGENCY=そう簡単には捕まらないよ。
+tc.research_page.RUNICEMERGENCY.1=これは加護の魔除けの特殊強化版である。<BR>ベースとなった魔除けよりわずかに充填量が少ないが、魔導障壁が破られると、このアップグレードは即座に魔導障壁を8追加する。<BR>この効果は1分に1回しか発動しない。
 #
-tc.research_name.WARDEDARCANA=Warded Arcana
-tc.research_text.WARDEDARCANA=Controlling access
-tc.research_page.WARDEDARCANA.1=Some experimentation has led to an interesting discovery - the ability to imprint memories in inanimate objects. Your first attempt at using the discovery is doors, pressure plates and other blocks that remember who placed them.<BR>The door can only be removed with a wand by the person who placed it. Additionally the door will refuse to open for anyone but its owner. The owner can also craft iron or gold keys that will grant others access to this door.<BR>By crafting an iron key and clicking on the door, you will link the key to that door. 
-tc.research_page.WARDEDARCANA.2=You can then give the key to another person and they will be able to use it on the door to gain permanent permission to open it. They will still not be able to break the door, or grant anyone else access. For that you need the gold key.<BR>The gold key serves much the same function as the iron key, except they can also grant other people iron key access to that door. Only the original owner of the door can hand out gold key access. They are also not able to remove the door with a wand. Only the original owner will be able to do that.
-tc.research_page.WARDEDARCANA.3=This pressure plate has a few novel features.<BR>Firstly it has 3 settings that can be toggled by right-clicking on it: It can trigger on everything (like a wooden pressure plate), just you, or everything except you.<BR>Secondly, like all other warded items only you can remove it.<BR>Lastly it can be linked to other players with the use of keys. These pressure plates can be used to open arcane doors as long as someone with access to the plate has access to the door as well.
-tc.research_page.WARDEDARCANA.4=Warded glass is a simple cosmetic block, but like other warded objects it cannot be broken except by the person who placed it.<BR>Keys cannot be used to give other users access.
+tc.research_name.WARDEDARCANA=保護の神秘学
+tc.research_text.WARDEDARCANA=アクセス管理
+tc.research_page.WARDEDARCANA.1=何度かの実験により興味深い発見をした。無生物に記憶を刻み込む能力だ。この発見の最初の応用は、誰が置いたかを記憶するドアや感圧板などのブロックだ。<BR>このドアは、設置した人が杖を使うことによってのみ撤去することができる。さらに、このドアは持ち主以外には開けられない。また、持ち主は鉄または金の鍵をクラフトすることができる。<BR>鉄の鍵をクラフトしてドアをクリックすると、その鍵とドアがリンクする。
+tc.research_page.WARDEDARCANA.2=その鍵を渡された人は、ドアに鍵を使用することで、そのドアへの永久的なアクセス権を得ることができる。その場合でも、ドアを壊したり、他の人にアクセス権を与えることはできない。それには金の鍵が必要となる。<BR>金の鍵は鉄の鍵とほぼ同じ役割を果たすが、他の人に鉄の鍵相当のアクセス権を与えることもできる。金の鍵のアクセス権を配布できるのは、そのドアの本来の持ち主だけである。また、杖でドアを撤去することもできない。それができるのは元の持ち主だけである。
+tc.research_page.WARDEDARCANA.3=この感圧板にはいくつか独自の機能がある。<BR>まず、右クリックで切り替えられる3つの設定を備えている。(木製の感圧板のように)すべてのものに反応する、自分だけに反応する、または自分以外のすべてに反応する、この3つだ。<BR>次に、他の保護アイテムと同様に、これを撤去できるのは自分だけである。<BR>そして最後に、鍵を使用することで他のプレイヤーとリンクさせることが可能である。この感圧板は、感圧板のアクセス権を持つ人がドアへのアクセス権も持っている場合に限り神秘の扉を開ける、といったことに使用できる。
+tc.research_page.WARDEDARCANA.4=保護ガラスはシンプルな装飾ブロックだが、他の保護ブロックと同様に、それを設置した本人以外は壊すことができない。<BR>鍵を使って他のユーザーにアクセス権を与えることはできない。
 #
-tc.research_name.VISAMULET=Vis Storage
-tc.research_text.VISAMULET=Waste not, Want not
-tc.research_page.VISAMULET.1=Most of the time a single wand is more than enough for any thaumaturge, but there are occasions that the vis it stores just isn't enough. Carrying more than one wand would solve this, but experimentation has shown that there is another way.<BR>By crafting an amulet capable of storing vis, you will be able to recharge wands and other items in the field while it is being worn.<BR>Your success has been mixed however. You can only recharge wands while holding them in your own hand and even then the recharge rate is slow. 
-tc.research_page.VISAMULET.2=However the amulet is able to act as a good power source for other things like the Repair enchant or runic shielding.<BR>The amulet can only be recharged in a wand pedestal or from nearby vis relays.
+tc.research_name.VISAMULET=Vis貯蔵
+tc.research_text.VISAMULET=無駄がなければ不足なし
+tc.research_page.VISAMULET.1=たいていの場合、どんな魔術師でも杖を1本持っていればそれで十分だが、保持するVisがどうしても足りなくなる場合もある。複数の杖を持ち歩けばこの問題は解決するが、実験の結果、別の方法があることが判明した。<BR>Visの保持が可能な魔除けをクラフトすれば、それを身につけている間は杖などのアイテムを充填することができる。<BR>しかし、成功は部分的だ。充填は自分の手で杖を持っている時にしか行えず、そのうえ充填速度は遅い。
+tc.research_page.VISAMULET.2=しかし、この魔除けは自己修復エンチャントや魔導障壁などの用途において優れた供給源として機能する。<BR>この魔除けは、杖充填台や付近のVis中継器からのみ充填可能である。
 #
 tc.research_name.NODESTABILIZER=節安定器
 tc.research_text.NODESTABILIZER=オーラ節セラピー
-tc.research_page.NODESTABILIZER.1=This handy device has several beneficial effects if placed below a node.<BR>Firstly it prevents the node from draining vis from other nodes, or being drained in turn. Secondly it prevents unstable nodes from losing their vis and it has a tiny chance of eventually removing the unstable condition completely. Lastly it has a very, very small chance of turning fading nodes into pale nodes.<BR>This requires power however and the Node Stabilizer draws this from the node itself. It does not draw enough to reduce the vis of the node, but it does halve its normal recharge rate.
-tc.research_page.NODESTABILIZER.2=Applying a redstone signal will switch the stabilizer off.
+tc.research_page.NODESTABILIZER.1=この便利な装置は、オーラ節の下に設置することでいくつかの有益な効果を発揮する。<BR>まず、そのオーラ節が他のオーラ節からVisを吸収したり、逆に吸収されることを防ぐ。次に、不安定なオーラ節がVisを失うのを防ぎ、不安定な状態を完全に解消する可能性もわずかながら存在する。最後に、非常に、非常に低確率で衰微のオーラ節を幽々のオーラ節に変化させる。<BR>ただし、この装置にはエネルギーが必要であり、節安定器はオーラ節自体からそのエネルギーを吸収する。吸収量はオーラ節のVisを減少させるほどではないが、オーラ節の回復速度を通常の半分にしてしまう。
+tc.research_page.NODESTABILIZER.2=レッドストーン信号を入力すると、安定器はオフに切り替わる。
 #
 tc.research_name.NODESTABILIZERADV=上級節安定器
 tc.research_text.NODESTABILIZERADV=選択的安定化
-tc.research_page.NODESTABILIZERADV.1=Advanced Node Stabilizers perform all the functions of the lesser versions with a few major differences.<BR>Firstly they still prevent lesser nodes from having their vis drained, but it does allow stabilized nodes to drain the vis from lesser ones.<BR>Secondly it has a higher chance to improve unstable and fading nodes.<BR>Unfortunately this costs a lot more power from the stabilized node - still not enough to drain vis from it, but even the brightest node will have its recharge rate almost completely negated.
+tc.research_page.NODESTABILIZERADV.1=上級節安定器は、通常版の機能をすべて備えるが、大きな違いが数点ある。<BR>まず、オーラ節のVisが吸収されるのを防ぎつつ、安定化したオーラ節がより小さなオーラ節からVisを吸収できるようになる。<BR>次に、不安定なオーラ節や消えかけたオーラ節を改善させる確率が高くなっている。<BR>残念なことに、この装置は安定化するオーラ節から大量のエネルギーを消費し、依然Visを減少させるほどではないが、最も強い輝きをもつオーラ節でさえ、その回復速度がほぼ完全に打ち消されてしまう。
 #
 tc.research_name.GOLEMFETTER=ゴーレム拘束ブロック
-tc.research_text.GOLEMFETTER=Making them behave
-tc.research_page.GOLEMFETTER.1=This simple device allows a golemancer to bring their golems to a temporary halt.<BR>If this block is activated with a redstone signal any golem that passes over it will come to complete standstill and cease its current task.<BR>Once this block is deactivated the golem will once again go about its business.
+tc.research_text.GOLEMFETTER=ゴーレムをお行儀良く
+tc.research_page.GOLEMFETTER.1=このシンプルな装置は、ゴーレム術師がゴーレムを一時的に停止させることを可能にする。<BR>このブロックがレッドストーン信号で有効化されると、上を通過するゴーレムは完全に動きを止め、現在の作業を中断する。<BR>このブロックが無効化されると、ゴーレムはその作業を再開する。
 #
-tc.research_name.VISPOWER=Harnessing Vis
-tc.research_text.VISPOWER=Power to the People
+tc.research_name.VISPOWER=Visの活用
+tc.research_text.VISPOWER=パワー・トゥ・ザ・ピープル
 tc.research_page.VISPOWER.1=Without vis nodes thaumaturges would not even be able to perform the simplest of tasks, but the nodes themselves have several limitations that make their use impractical for extensive operations. Foremost amongst these limitations is the fact that they are easily depleted and it takes quite some time for them to once again gather energy from mystical source they are connected to.<BR>You think you may have found a way around that limitation. In effect nodes are tiny gateways to a mysterious font of mystical energy around which the energy slowly accumulates in the form of Vis. The gateway is so small that only a tiny
 tc.research_page.VISPOWER.2=amount of energy leaks into our reality. By levering open this doorway you can cause vis to pour forth in a torrent.<BR>This is even more dangerous than it sounds however and careful steps must be taken during the entire process.<BR>Firstly the node needs to be stabilized during the entire process. Once that is done you need to craft and place a §lNode Transducer§r above the node. When you apply a redstone signal to the transducer the node will begin converting to an energized node and quickly lose its stored vis in the process.<BR>The process takes some time, but when it is done the node will
 tc.research_page.VISPOWER.3=change into an energized node. Caution should be taken to keep both the stabilizer and transducer active from now on.<LINE>Energized nodes no longer store or recharge vis, nor can vis be drawn from them with a wand or other means. Instead they produce a steady supply of §lCV§r (centi-vis, or a hundredth of a vis) each tick. This energy can be tapped by placing vis relays near the energized node.<BR>Each relay acts as a conduit for CV and any number of relays can be placed within 8 blocks of an energized node. Relays also transfer energy to each other allowing you to create a network that transports vis to
@@ -1650,7 +1650,7 @@ tc.research_page.VISPOWER.4=anything that needs it, like the Infernal Furnace.<B
 tc.research_page.VISPOWER.5=The amount of energy a node produces per tick is finite so attaching too many devices to a single source might exceed the amount of CV it can produce.<LINE>It is possible to turn an energized node back into a normal node. Simply cut the redstone signal to the transducer and it slowly turn it back into a normal node. Caution should be taken however since the node will be completely drained of vis and thus runs the risk of being damaged.
 #
 tc.research_name.VISCHARGERELAY=Vis充填中継器
-tc.research_text.VISCHARGERELAY=Arcane Crafting Simplified
+tc.research_text.VISCHARGERELAY=神秘のクラフトをシンプルに
 tc.research_page.VISCHARGERELAY.1=An annoyance for any thaumaturge that performs regular arcane crafting is to constantly keep his wand charged.<BR>Now that you have found a way to draw vis directly from nodes you are able to craft a Vis Charging Relay. This functions like a normal relay, but is designed to be placed on top of an arcane crafting table. It will draw vis from the relay and recharge wands placed in the table.<BR>The only drawback is that it recharges much slower than it would from a wand recharging pedestal or doing it by hand. 
 #
 tc.research_name.WARP=歪み、フラックスなどの悪しきものについて
@@ -1660,134 +1660,134 @@ tc.research_page.WARP.2=often finds himself on a slippery slope.<BR>Warp usually
 tc.research_page.WARP.3=§nFlux§r<BR>If Warp is the mental manifestation of magic gone wrong, then Flux is its physical manifestation.<BR>Flux can manifest in three ways: a liquid, a gas and a physical malady. The first two manifestations are considered annoyances by most thaumaturges and is often the result of wasteful use of magic. It is not particularly hard to clean up, but coming into contact with it often causes the third manifestation: Flux Flu<BR>Flux Flu is not particularly dangerous, but while a thaumaturge is suffering from it he finds it difficult to focus vis which often leads to increased vis usage to get something done.
 #
 tc.research_name.BATHSALTS=清めの入浴剤
-tc.research_text.BATHSALTS=Stress relief for the mind
+tc.research_text.BATHSALTS=ストレス解消
 tc.research_page.BATHSALTS.1=Warp is a danger for even the most careful of thaumaturges. For those that have done a bit too much dabbling Warp effects are probably more than just an annoyance. Purifying Bath Salts help with that.<BR>Simply tossing these salts into water will turn the water into a silvery, purifying liquid that sooths away the stresses of the day and brings temporary relief from the effects of Warp. It should be noted however the more warp a thaumaturge suffers from, the shorter the duration of this protection.<BR>The salts are quite fragile and will soon dissolve if tossed around haphazardly. 
 #
 tc.research_name.LIQUIDDEATH=死の液体
-tc.research_text.LIQUIDDEATH=For external use only
+tc.research_text.LIQUIDDEATH=外部使用専用
 tc.research_page.LIQUIDDEATH.1=This liquid is so dangerously toxic that virtually nothing can prevent it from dissolving flesh, bone and even harder substances. Nothing alive or that even displays the semblance of life can survive it.<BR>Apart from obvious practical applications, this vile substance has another interesting property: Any essentia a dissolved creature possessed form into crystals that can be harvested.<BR>I will leave it to the reader's imagination what uses those crystals can be put to. 
 #
 tc.research_name.ARMORFORTRESS=魔導金属の砦装備
-tc.research_text.ARMORFORTRESS=Nothing is getting in
+tc.research_text.ARMORFORTRESS=入り込む余地なし
 tc.research_page.ARMORFORTRESS.1=Thaumium armor has many things to recommend it, but its basic construction leaves it inferior to diamond armor. By improving the construction process and complexity you have found a way to create armor of exceptional craftsmanship, durability and strength.<BR>Each individual piece of Thaumium Fortress armor has the same protective properties as diamond armor, but has greater durability and offers additional protection against magic and fire.<BR>The biggest benefit however is that the individual armor pieces is designed and constructed to be worn together: Each additional
 tc.research_page.ARMORFORTRESS.2=piece of this armor worn increases the overall protection offered by all other pieces and improves its visual appeal.<BR>As with most objects constructed from thaumium, the armor is easy to enchant.
 #
-tc.research_name.HELMGOGGLES=Helm of Revealing
+tc.research_name.HELMGOGGLES=洞察のヘルメット
 tc.research_text.HELMGOGGLES=魔導金属の砦兜用アップグレード
 tc.research_page.HELMGOGGLES.1=Usually a thaumaturge needs to choose between protection and utility when out and about. Not anymore!<BR>This modifies a Thaumium Fortress Helm to give you all the functionality of Goggles of Revealing. It does however not give the vis discount the goggles usually do.<BR>A helm can have this upgrade along with faceplates. 
 #
-tc.research_name.MASKGRINNINGDEVIL=Grinning Devil Faceplate
+tc.research_name.MASKGRINNINGDEVIL=嗤う悪魔の面頬
 tc.research_text.MASKGRINNINGDEVIL=魔導金属の砦兜用アップグレード
 tc.research_page.MASKGRINNINGDEVIL.1=This mask is designed to be added to an existing Thaumium Fortress helm.<BR>When worn, this mask has an interesting damping effect on those suffering from Warp event. While it does not reduce the number of events, it does reduce their severity somewhat.<BR>It seems laughing in the face of danger does have its rewards. 
 #
-tc.research_name.MASKANGRYGHOST=Angry Ghost Faceplate
+tc.research_name.MASKANGRYGHOST=怒れる亡霊の面頬
 tc.research_text.MASKANGRYGHOST=魔導金属の砦兜用アップグレード
 tc.research_page.MASKANGRYGHOST.1=This mask is designed to be added to an existing Thaumium Fortress helm.<BR>When you are struck in combat while wearing this grim mask the creature striking you has a chance to suffer a Withering effect.<BR>Serves them right.
 #
-tc.research_name.MASKSIPPINGFIEND=Sipping Fiend Faceplate
+tc.research_name.MASKSIPPINGFIEND=啜る悪霊の面頬
 tc.research_text.MASKSIPPINGFIEND=魔導金属の砦兜用アップグレード
 tc.research_page.MASKSIPPINGFIEND.1=This mask is designed to be added to an existing Thaumium Fortress helm.<BR>When you strike a creature in combat while wearing this mask, you sometimes steal a small portion of their life force to strengthen your own.<BR>The fact that you do this by supping on their blood doesn't seem to bother you nearly as much as it should. You wonder if you should be worried about that.
 #
-tc.research_name.ELDRITCHMINOR=Eldritch Epiphany
-tc.research_text.ELDRITCHMINOR=First steps into the unknown
+tc.research_name.ELDRITCHMINOR=エルドリッチの閃き
+tc.research_text.ELDRITCHMINOR=未知への第一歩
 tc.research_page.ELDRITCHMINOR.1=It has suddenly become clear to you. Where others see chaos, you occasionally catch a glimpse of a pattern... a very strange and disturbing pattern. Something stirs in the darkest corners of the universe.<BR>You have tried to explain it to others, but received only strange looks in return. No matter, you will show them someday.<BR>You will show them all.
 #
-tc.research_name.ELDRITCHMAJOR=Eldritch Revelation
-tc.research_text.ELDRITCHMAJOR=I have seen beyond the bounds of infinity
+tc.research_name.ELDRITCHMAJOR=エルドリッチの啓示
+tc.research_text.ELDRITCHMAJOR=無限の彼方を見てきた
 tc.research_page.ELDRITCHMAJOR.1=A veil has been lifted - a door opened in my mind.<BR> When I look through I see wonders. No, not wonders. §mWhat I see is§r<BR>§oWhat I see is I see i see I sEee i§r<IMG>thaumcraft:textures/misc/eldritchajor1.png:0:255:255:255:.5</IMG>
 tc.research_page.ELDRITCHMAJOR.2=<IMG>thaumcraft:textures/misc/eldritchajor2.png:0:255:255:255:.5</IMG><BR><BR>Who wrote this?
 #
 tc.research_name.VOIDMETAL=虚無鋼
-tc.research_text.VOIDMETAL=Strange, it should feel cold...
+tc.research_text.VOIDMETAL=妙だ、冷たく感じるはずなのに...
 tc.research_page.VOIDMETAL.1=By infusing magic into metal you had managed to create Thaumium. It was a worthy discovery, but the time has come to leave thaumium to amateurs and dabblers.<BR>A strange and half-remembered dream has given you the urge to try something... different. What if you infuse metal with more than just magic, but with the very essence where magic is drawn from: Darkness and the Void that dwells between the stars.<BR>The resulting metal is disturbingly slick and warm to the touch. It is almost as soft as gold making it easy to work, but
 tc.research_page.VOIDMETAL.2=when struck it becomes as hard as thaumium and sometimes even harder. More impressively all but the most devastating damage soon repairs itself as the metal slowly flows back into place.<BR>The only downside is that it isn't as easy to enchant as thaumium, but still compares favorably to mundane materials like iron.<BR>You have discovered that care must be taken when handling the metal - being harmed by it seems to temporarily sap your strength.
 #
 tc.research_name.ARMORVOIDFORTRESS=虚無の魔導師のローブ
-tc.research_text.ARMORVOIDFORTRESS=Otherworldly Style
+tc.research_text.ARMORVOIDFORTRESS=異世界スタイル
 tc.research_page.ARMORVOIDFORTRESS.1=A truly enlightened thaumaturge realizes that he need not choose between utility and defense.<BR>By augmenting existing void armor with the proper enchantments and combining them with thaumaturge's robes he will be able to create a set of armored robes that not only offers physical protection and mental focus, but mystical protection as well.<BR>The robes will also retain all the properties of void armor while the hood will offer all the benefits of the goggles used in its crafting.<BR>This armor can be dyed.
 #
 tc.research_name.CAP_void=虚無鋼の石突
-tc.research_text.CAP_void=Power from beyond
+tc.research_text.CAP_void=彼方からの力
 tc.research_page.CAP_void.1=Crafting wand caps from Void metal seems counterintuitive since it seems to be highly resistant to magic, but counterintuitive is where you live now.<BR>Your gamble paid off. The metal itself may be resistant to magic, but it channels with surprising ease. The magic does seem §ostrange§r somehow, but it is probably just your imagination.
 #
 tc.research_name.ARCANESPA=神秘のスパ
-tc.research_text.ARCANESPA=Relaxing in style
+tc.research_text.ARCANESPA=スタイリッシュにリラックス
 tc.research_page.ARCANESPA.1=Pouring bath salts into water is a bit of a chore, but luckily one easily solved with a bit of magic.<BR>You have created a handy machine that when filled with water and bath salts will automatically mix them and pump the liquid into an area above it. The liquid will fill a 5x5 area above the location where the machine is placed.<BR>Additionally, you have found that it can be used to pump nearly any liquid you can fill it with. You can fill it with automation, or by clicking on the block with the appropriate container. Applying a redstone signal will disable it.  
 #
 tc.research_name.SANESOAP=禊ぎの石鹸
-tc.research_text.SANESOAP=Getting rid of dirty thoughts
+tc.research_text.SANESOAP=穢れた思考を払拭
 tc.research_page.SANESOAP.1=Cleaning the body is easy enough, but once warp becomes a nuisance you need something that can clean the mind as well.<BR>This soap cleans the flesh, but the effects it has on your psyche is what truly makes it special. When used it has a small chance of reducing non-permanent warp and will remove all temporary warp.<BR>Using it while under the effects of a Warp Ward or while standing in Purifying Fluid will increase your odds.  
 #
 tc.research_name.SANITYCHECK=正気度チェック
-tc.research_text.SANITYCHECK=Introspection for the brave
+tc.research_text.SANITYCHECK=勇敢なる者のための内省
 tc.research_page.SANITYCHECK.1=Things have become busy in your mind lately. It is probably best that you have a look inside there and make sure everything is still all right.<BR>This tool will allow you to check the effects of warp on your psyche and how much it is effecting you.<BR>Of course you cannot allow a tool like this to fall into the hands of your enemies so you have taken great pains to obfuscate the information it provides. You might have gone too far though - you are having a hard time deciphering it yourself.  
 #
 tc.research_name.CRIMSON=紅の教団について
-tc.research_text.CRIMSON=A Cautionary Tale
+tc.research_text.CRIMSON=警告の物語
 tc.research_page.CRIMSON.1=Much of this book is written in a spidery and unintelligible script, but what you do understand offers some strange insights into the goals of the Crimson Cult.<BR>Their origins are shrouded in mystery, but it seems their goal is the perfection of a ritual they refer to as "Apertis Oculis" - Opening the Eye. What it does is unclear, but you doubt it is anything good.<BR>Interestingly enough, you think thaumaturgy might offer the missing pieces they have so long sought. Obviously only a madman would pursue this line of study...
 #
-tc.research_name.OCULUS=Opening the Eye
-tc.research_text.OCULUS=I will show them, I will show them all!
+tc.research_name.OCULUS=開眼
+tc.research_text.OCULUS=見せてやろう、すべてを見せてやろうとも！
 tc.research_page.OCULUS.1=It was all so simple - you are amazed the Crimson Cultists have never discovered this.<BR>To perform the ritual you simply need to place four Eldritch Eyes on the specially marked keystone found at one of the strange altars where you first discovered the cult. The sinister node above the keystone must remain intact.<BR>Once this is done it is a simple matter of infusing a large amount of primal vis into the keystone with a wand - 100 units of each should be sufficient.
 tc.research_page.OCULUS.2=If you have done everything right the ritual should be complete and the so called "Eye" would be opened.<BR>Of course you have no idea what that means. No matter, only fools fear the unknown! 
 #
-tc.research_name.ESSENTIARESERVOIR=Advanced Essentia Storage 
-tc.research_text.ESSENTIARESERVOIR=Don't bump it
+tc.research_name.ESSENTIARESERVOIR=高度なエッセンシア保管
+tc.research_text.ESSENTIARESERVOIR=ぶつけないように
 tc.research_page.ESSENTIARESERVOIR.1=Most types of essentia are fairly volatile and care must be taken in its storage - that is why most thaumaturges use warded jars. You, however, are not most thaumaturges.<BR>Using the wonderful new substance called void metal, you have discovered a way to greatly improve the storage of essentia. Essentia reservoirs are capable of storing up to 256 essentia in any combination.<BR>Potentially disastrous mixing of the different essentia types is prevented by having dynamically reshaping compartments crafted from the new metal.
 tc.research_page.ESSENTIARESERVOIR.2=Like jars, the reservoirs can only be accessed from one side, though you can choose how they are orientated. Unfortunately they cannot be emptied or filled by hand so you need to rely on tubes or golems for that.<BR>Picking up a reservoir while filled is, um, inadvisable.<BR>You were so pleased with this discovery that you showed it off to some of your fellow thaumaturges. Strangely, most of them dived for cover even after you assured them the constant sound of metal under incredible stress is perfectly normal.
 #
-tc.research_name.ESSENTIACRYSTAL=Essentia Crystallization 
-tc.research_text.ESSENTIACRYSTAL=Hard currency or liquid assets?
+tc.research_name.ESSENTIACRYSTAL=エッセンシアの結晶化
+tc.research_text.ESSENTIACRYSTAL=ハードカレンシーか流動資産か？
 tc.research_page.ESSENTIACRYSTAL.1=You have nearly mastered the art of turning concrete objects into liquid essentia, so doing the reverse is a simple matter.<BR>The essentia crystallizer draws in liquid essentia from a pipe network and slowly converts it into small shards of crystalline essentia. Crystalline essentia is safe to handle and very stable.<BR>The Crystallizer either ejects the crystals into the world or into a container. It can be disabled with a redstone signal.<BR>Supplying it with terra vis will greatly increase its speed.
 #
-tc.research_name.BANNERS=Banners 
-tc.research_text.BANNERS=Caution: For decorative purposes only
+tc.research_name.BANNERS=旗
+tc.research_text.BANNERS=注意:  装飾専用
 tc.research_page.BANNERS.1=Sometimes a thaumaturge doesn't need to create something that shakes the very foundations of reality - sometimes he just wants something pleasing to the eye.<BR>You have developed a simple enchantment that allows you to apply thaumaturgical symbols to banners. You do so by simply clicking with a phial of essentia on a banner you crafted and the symbol will be emblazoned on it. Shift-clicking on the banner will remove the symbol.
 #
 tc.research_name.BOTTLETAINT=瓶詰め汚染
-tc.research_text.BOTTLETAINT=Why would you want this?
+tc.research_text.BOTTLETAINT=なぜこんなものを欲しがるのですか？
 tc.research_page.BOTTLETAINT.1=Cleaning Taint is one thing, but ever considered spreading it?<BR>By concentrating and collecting the essence of taint into a bottle it is simply a matter of dropping it somewhere to create a patch of taint. It is up to you to decide why you would want to do this. 
 #
 tc.research_name.FOCALMANIPULATION=杖星加工器
-tc.research_text.FOCALMANIPULATION=Wand foci remade
+tc.research_text.FOCALMANIPULATION=杖星のリメイク
 tc.research_page.FOCALMANIPULATION.1=Wand foci are capable of amazing feats, but they aren't very flexible. A single focus is seldom capable of performing more than a single function.<BR>You have discovered a way to upgrade basic foci to alter the way they manipulate magic. You simply need to place a focus in a Focal Manipulator and choose the upgrade you wish to apply to it. You also need to provide it with vis from relays and spend experience points to get the process started, but after that it is a simple matter of waiting.<BR>Each focus can be upgraded up to five times, 
 tc.research_page.FOCALMANIPULATION.2=but each rank is doubles the cost.<BR>While some upgrades can be applied multiple times or at any rank, many foci have upgrades that can only be applied at certain ranks or only if certain requisite upgrades had been taken at lower ranks. Experimentation is encouraged.<BR>Upgrades are permanent - you are not aware of any method to remove unwanted upgrades so care must be taken when choosing them.  
 #
-tc.research_name.VAMPBAT=Tier 5 Upgrade: Vampire Bats 
-tc.research_text.VAMPBAT=Vicious little bloodsuckers  
+tc.research_name.VAMPBAT=Tier 5 アップグレード: 吸血コウモリ
+tc.research_text.VAMPBAT=悪辣で小さな吸血鬼たち
 #
 tc.research_name.PRIMPEARL=始原の真珠
-tc.research_text.PRIMPEARL=What came before
+tc.research_text.PRIMPEARL=それ以前にあったもの
 tc.research_page.PRIMPEARL.1=For the first time you find yourself with a puzzle that you do not think can be solved.<BR>This object contains pure primal aspects, but they possess properties unlike what you consider normal, everyday primal aspects. You have a few theories why this could be:<BR>Firstly this "pearl" could be the remnants of primal matter that was created at the dawn of reality - elementary magic that existed before it mingled and merged into compound aspects.<BR>Alternatively it could be primal matter from a place that does not conform to the known rules of
 tc.research_page.PRIMPEARL.2=magic as you have come to understand it. You are not sure which explanation is more worrying.<BR>Either way, the pearl is a potent artifact containing vast magical power and nearly unlimited potential.<BR>It is time you start putting it to use.
 #
-tc.research_name.PRIMNODE=Primordial Node Manipulation 
-tc.research_text.PRIMNODE=Just rub them together and see what happens
+tc.research_name.PRIMNODE=始原のノード節操作
+tc.research_text.PRIMNODE=とにかく擦り合わせたら何が起こるか見てみよう
 tc.research_page.PRIMNODE.1=You have developed a bit of a wild theory that might be worth exploring. Why not bring a primordial pearl into contact with an aura node?<BR>Sure, bringing two such sources of raw magical energy into contact with each other might be catastrophic, but their interaction could also be highly... interesting.<BR>While anyone can do this, you are sure that completing this research has slightly improved your chances of getting a good result. Very slightly.
 #
 tc.research_name.ADVALCHEMYFURNACE=改良型錬金かまど
-tc.research_text.ADVALCHEMYFURNACE=Essentia Creation Simplified
+tc.research_text.ADVALCHEMYFURNACE=エッセンシア生産をシンプルに
 tc.research_page.ADVALCHEMYFURNACE.1=The standard alchemical furnace is fairly slow and requires fuel to operate. While neither of those are particularly difficult obstacles to you, the fact that it is unable to process large sources of essentia is something that can not be ignored. Unfortunately the instability of the essentia slurry it creates makes it dangerous to gather too much of it in one location.<BR>With the discovery of Primordial Pearls you have found a solution to that problem - The Advanced Alchemical Furnace.<BR>Using alchemical constructs that have been strengthened with void   
 tc.research_page.ADVALCHEMYFURNACE.2=metal and exposed to a primordial pearl's strange energies much more slurry can be processed at once and at much greater speeds. The pearl is not consumed during the crafting process.<BR>Instead of fuel, heat is generated by ignis vis and instead of relying on heat alone perditio vis breaks down objects almost instantly. Lastly aqua vis keeps everything running smoothly and prevents the slurry from settling and causing problems.<BR>The machine requires a considerable amount of heat to function and requires a constant supply of ignis vis even when not operating. Perditio and aqua vis is only used when the machine is smelting.
 #
 tc.research_name.FLUXSCRUB=フラックス洗浄装置
-tc.research_text.FLUXSCRUB=A boon for the messy thaumaturge
+tc.research_text.FLUXSCRUB=だらしない魔導師にとっての恩恵
 tc.research_page.FLUXSCRUB.1=Even the most skilled thaumaturge occasionally leaves a mess in the form of flux. It is a nuisance everyone has to deal with, but this machine removes the drudgery involved.<BR>The flux scrubber, when powered with aer vis, will slowly remove any form of flux within 16 blocks of where it is placed. What is more, it is able to reclaim a small portion of the magic that makes up the flux in the form of praecantatio essentia.<BR>It's internal buffer is very small and it will continue operating even when full, so it must be emptied if you wish to reclaim all the essentia.
 #
-tc.research_name.ENTEROUTER=The Outer Lands 
-tc.research_text.ENTEROUTER=We are not in Kansas anymore
+tc.research_name.ENTEROUTER=外なる地
+tc.research_text.ENTEROUTER=ここはもうカンザスじゃない
 tc.research_page.ENTEROUTER.1=You are not quite sure what you were expecting when you stepped through the Oculus, but this strange structure of crumbling stone and twisted passageways was not it.<BR>Something is not quite right here - this structure was not designed for any practical purpose you can discern... unless that purpose was for it to be a deadly maze.<BR>Strange energies abound and your magic seems to act strangely in this alien environment. Even the other denizens you encounter seem out of place here.
 #
-tc.research_name.OUTERREV=Revelations in the Outer Lands 
-tc.research_text.OUTERREV=Things are not what they seem
+tc.research_name.OUTERREV=外なる地での啓示
+tc.research_text.OUTERREV=物事は見かけ通りとは限らない
 tc.research_page.OUTERREV.1=Your suspicions have been confirmed. This is not the home of the race you have come to call the Eldritch. This place is something else entirely and you do not believe it exists in what you understand as being "reality" - it is as much a mental construct as a physical one, but what mind can contain this?<BR>You have been able to decipher only a small number of the symbols, but you are sure this place is a trap - a place to test visitors and weed out the weak. For what purpose you are not sure.
 #
 tc.research_name.SINSTONE=不吉な磁石
-tc.research_text.SINSTONE=Do you dare follow it?
+tc.research_text.SINSTONE=ついて行く勇気はあるか？
 tc.research_page.SINSTONE.1=You have made an interesting discovery during your study of nodes. Different kinds of nodes emit varying types of radiant energy, but none are quite as distinct as that of Sinister nodes.<BR>The energy emitted by Sinister nodes is quite unique and simple to track. By infusing a piece of flint you think you can create a simple scrying device that will light up whenever it is pointed towards such a node.<BR>The range is limited, but it is a worthwhile invention since you have often found Sinister nodes in the most interesting of places.
 #
 tc.research_name.PRIMALCRUSHER=根源の砕棒
-tc.research_text.PRIMALCRUSHER=Breaking all the things
+tc.research_text.PRIMALCRUSHER=すべてのものを破壊
 tc.research_page.PRIMALCRUSHER.1=The theory behind infusion crafting is simple - infuse a single object with essentia and the properties of other objects. There are limits however, but it seems with the discovery of the primordial pearl these limits are becoming less and less.<BR>As an experiment you tried infusing the properties of completely different objects into the pearl with suprising success. The Primal Crusher is the first practical application of this discovery.<BR>By combining a Shovel of the Earthmover and a Pickaxe of the Core with their void metal counterparts you created a
 tc.research_page.PRIMALCRUSHER.2=tool of unrivaled destructive capabilities that has most of the features of its component pieces.<BR>The Primal Crusher can mine through earth and stone with equal ease and does so in a 3x3 area. Like the Pickaxe of the Core it occasionally mines native clusters instead of raw ore.<BR>It repairs itself over time, has high enchantability and serves as a relatively good weapon in a pinch.<BR>Unfortunately it seems purely destructive in nature and has lost the construction and detection abilities of its parent tools.
 

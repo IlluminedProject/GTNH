@@ -63,14 +63,14 @@
     },
     
 	{"level": 4, "type": "REWARD", "each": true, "quantity": 1, "loot": [
-		{"data": {"name": "adventurebackpack:copterPack", "meta": 0}, "weight": 10},
+		{"data": {"name": "adventurebackpack:copterPack", "meta": 0, "nbt" : "{wearableData:{}}"}, "weight": 10},
 		{"data": {"name": "Avaritia:Cosmic_Meatballs", "meta": 0}, "weight": 10},
 		{"data": {"name": "Backpack:backpack", "meta": 100}, "weight": 10},
 		{"data": {"name": "BinnieCore:storage", "meta": 5}, "weight": 10},
 		{"data": {"name": "Thaumcraft:WandCasting", "meta": 36}, "weight": 10},
 		{"data": {"name": "JABBA:moverDiamond", "meta": 0}, "weight": 10},
 		{"data": {"name": "TConstruct:creativeModifier", "meta": 0}, "weight": 10},
-		{"data": {"name": "gregtech:gt.detrav.metatool.01", "meta": 2}, "weight": 10},
+		{"data": {"name": "gregtech:gt.detrav.metatool.01", "meta": 2, "nbt" : "{GT.ToolStats:{SecondaryMaterial:\"Steel\",PrimaryMaterial:\"SteelMagnetic\",Mode:0b,MaxDamage:1300L}}"}, "weight": 10},
 		{"data": {"name": "DraconicEvolution:magnet", "meta": 0}, "weight": 10}
       ]
     }

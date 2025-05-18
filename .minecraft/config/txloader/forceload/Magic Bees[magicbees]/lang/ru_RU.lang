@@ -10,16 +10,16 @@ magicbees.versioning.clickDownload=Нажмите, чтобы открыть с�
 magicbees.config.category.general=Общие
 magicbees.config.category.general.tooltip=Общие настройки мода
 magicbees.config.category.debug=Отладка
-magicbees.config.category.debug.tooltip=Options to enable debugging and/or informational messages
+magicbees.config.category.debug.tooltip=Параметры включения отладки и/или информационных сообщений
 magicbees.config.category.modules=Модули
-magicbees.config.category.modules.tooltip=Options to enable or disable integration
+magicbees.config.category.modules.tooltip=Настройки для включения или выключения интеграций
 magicbees.config.category.botania=Botania
 magicbees.config.category.botania.tooltip=Botania integration options
 
 # -- Mysterious Magnet levels
 misc.level=Уровень %s
-misc.magnetActive=%s - активирован
-misc.magnetInactive=%s - деактивирован
+misc.magnetActive=%s - Активен
+misc.magnetInactive=%s - Неактивен
 
 #Items
 item.magicbees:jellyBabies.name=Горсть маленького желе
@@ -97,7 +97,7 @@ drop.endearing=Покоряющая капля
 #Pollens
 item.pollen.name=Пыльца
 pollen.unusual=Необычная пыльца
-pollen.phased=Поэтапная пыльца
+pollen.phased=Фазовая пыльца
 
 #Nuggets
 item.beeNugget.name=Самородок
