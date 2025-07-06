@@ -441,11 +441,6 @@ item.itemWirelessLightInverted.tooltip.detailed.line2=энергии.
 item.itemWirelessLightInverted.tooltip.detailed.line3=Отключается по сигналу красного камня.
 item.itemWirelessLightInverted.tooltip.detailed.line4=Может получать энергию от беспроводных зарядников.
 
-tile.blockCapacitorBank.name=Блок конденсаторов (Устаревший)
-tile.blockCapacitorBank.creative.name=Творческий блок конденсаторов (Устаревший)
-tile.blockCapacitorBank.tooltip.detailed.line1=Переделайте в новый блок, положив
-tile.blockCapacitorBank.tooltip.detailed.line2=в сетку создания.
-tile.blockCapacitorBank.tooltipPrefix=Содержит
 
 tile.blockCapBank.name=Блок конденсаторов
 tile.blockCapBank.creative.name=Творческий блок конденсаторов
@@ -1104,16 +1099,16 @@ enderio.gui.machine.side.west=Запад
 enderio.gui.machine.side.east=Восток
 enderio.gui.machine.side.up=Верх
 enderio.gui.machine.side.down=Низ
-enderio.gui.machine.weather.control=Control Mode
-enderio.gui.machine.weather.redstone=Launch on Redstone Signal
-enderio.gui.machine.weather.manual=Launch Manually
-enderio.gui.machine.weather.run=Launch
+enderio.gui.machine.weather.control=Режим управления
+enderio.gui.machine.weather.redstone=Запуск по сигналу красного камня
+enderio.gui.machine.weather.manual=Запустить вручную
+enderio.gui.machine.weather.run=Запуск
 
 
 #Power Monitor
 enderio.gui.powerMonitor.engineControl=Управление двигателем
 enderio.gui.powerMonitor.emit=Подавать сигнал
-enderio.gui.powerMonitor.engineSection1=Выдает сигнал, когда хранилище заполнено
+enderio.gui.powerMonitor.engineSection1=Выдаёт сигнал, когда хранилище заполнено
 enderio.gui.powerMonitor.engineSection2=менее
 enderio.gui.powerMonitor.engineSection3=чем на %.
 enderio.gui.powerMonitor.engineSection4= Остановиться, если хранилище заполнено более

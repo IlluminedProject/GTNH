@@ -160,6 +160,8 @@ botaniamisc.keyCategory=Botania
 #LOKI
 botaniamisc.toggleLoki=Ring of Loki Switch Key
 botaniamisc.ringOfLokiClear=Clear Ring of Loki Selection
+botaniamisc.ringOfLokiSaveSchematic=Save Ring of Loki Schematic
+botaniamisc.ringOfLokiOpenUI=Open Ring of Loki Schematic GUI
 botaniamisc.lokiOn=On
 botaniamisc.lokiOff=Off
 botaniamisc.breaking=Rotura
@@ -172,6 +174,12 @@ botaniamisc.lokiCurrent=Actual
 botaniamisc.lokiState=Anillo
 botaniamisc.lokiMirror=Current mirror:
 botaniamisc.insufficient_mana=Insuficiente mana!
+botaniamisc.schematic_saved=Schematic successfully saved!
+
+#LOKI UI
+botaniamisc.saved_schematics=Saved Schematics
+botaniamisc.select_schematic=Select a Schematic!
+botaniamisc.selected_schematic=Currently selected schematic:
 
 # NEI INTEGRATION
 botania.nei.brewery=Fermentador botánico
@@ -199,7 +207,7 @@ botania.nei.quickInfo:item.bone~0=Vas a tener un mal tiempo
 botania.nei.quickInfo:item.lexicon~0=Qué esperabas exactamente?
 botania.nei.quickInfo:item.terrasteel~4=You can get Terrasteel by tossing the right materials on a Terrestrial Agglomeration Plate
 botania.nei.quickInfo:item.enderAirBottle~15=You can get this by right clicking with a Glass Bottle while in the End
-primus
+
 # BUILDCRAFT INTEGRATION
 botania.triggers.manaDetector=Pulso de maná
 botania.triggers.manaEmpty=Vacío de maná

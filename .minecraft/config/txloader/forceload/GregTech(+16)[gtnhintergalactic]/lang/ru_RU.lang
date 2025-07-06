@@ -1,7 +1,7 @@
 # English (US)
 
 
-# NOTE:
+# NOTE: 
 # Providing additional lore translations doesn't require any code changes, they are detected automatically. If you have
 # fewer variations in your lang file than the default lang file (en_US, this file), provide blank translations to avoid
 # the game falling back to the default translations. Adding more variations than provided by default is possible.
@@ -206,7 +206,7 @@ gt.blockmachines.multimachine.ig.dyson.type=Рой Дайсона
 gt.blockmachines.multimachine.ig.dyson.desc1=Поместите Модули роя Дайсона во входную люк(и), чтобы отправить их к следующей звезде.
 gt.blockmachines.multimachine.ig.dyson.desc2=Выдаёт %s*f EU/t на модуль до 10 000, где f - коэффициент, зависящий от измерения.
 gt.blockmachines.multimachine.ig.dyson.desc3=Каждую секунду n из m Модули роя Дайсона уничтожаются в соответствии со следующей формулой:
-gt.blockmachines.multimachine.ig.dyson.desc4=Каждый час, n из m модули уничтожаются по формуле: n = m * (2 * 0.066) / (exp(-0.00005* (m - 1))+exp(3.0E-5 * cps)), где cps - это вычисление в секунду.
+gt.blockmachines.multimachine.ig.dyson.desc4=Каждый час, n из m модули уничтожаются по формуле: n = m * (2 * %s) / (exp(-0.00005* (m - 1))+exp(3.0E-5 * cps)), где cps - это вычисление в секунду.
 gt.blockmachines.multimachine.ig.dyson.desc5=Требует %sЛ/ч %s.
 gt.blockmachines.multimachine.ig.dyson.desc6=Щелкните ПКМ с помощью вантуза, чтобы извлечь как можно больше модулей в свой инвентарь.
 gt.blockmachines.multimachine.ig.dyson.desc7=Подкравшись, вы сбросите остальные на землю.
@@ -220,7 +220,7 @@ gt.blockmachines.multimachine.ig.dyson.lore4=Изобретено свободн
 gt.blockmachines.multimachine.ig.elevator.name=Космический лифт
 gt.blockmachines.multimachine.ig.elevator.desc2=Может быть оснащёно до 12 модулей космического лифта
 gt.blockmachines.multimachine.ig.elevator.desc3=Тир мотора ограничивает уровень модуля и количество возможных модулей
-gt.blockmachines.multimachine.ig.elevator.desc4=Каждый модуль имеет свое собственное пространство для ввода-вывода, за исключением энергии
+gt.blockmachines.multimachine.ig.elevator.desc4=Каждый модуль имеет своё собственное пространство для ввода-вывода, за исключением энергии
 gt.blockmachines.multimachine.ig.elevator.desc5=Энергия поступает на этот контроллер и распределяется
 gt.blockmachines.multimachine.ig.elevator.desc6=Начиная с MK-III Моторов, структура может быть расширена до 24 модулей
 gt.blockmachines.multimachine.ig.elevator.desc7=Отключение этого контроллера также приостанавливает работу всех модулей
@@ -396,7 +396,6 @@ ig.sp.upgrade.reinforcedstructure=Улучшение 'Усиленная кон�
 ig.sp.upgrade.reinforcedstructure.description=Эта улучшение усиливает конструкцию, чтобы выдержать удары любых быстро движущихся астероидов, и защищает дроны от аварий.
 
 # Asteroids
-ig.asteroid=Астериод
 ig.asteroid.coalAsteroid=Уголь
 ig.asteroid.saltAsteroid=Соль
 ig.asteroid.ironAsteroid=Железо

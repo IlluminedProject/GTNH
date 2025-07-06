@@ -33,17 +33,16 @@
     },
 	{"level": 2, "type": "REWARD", "each": true, "quantity": 1, "loot": [
 		{"data": {"name": "adventurebackpack:adventureBackpack", "meta": 24}, "weight": 10},
-		{"data": {"name": "BuildCraft|Factory:mover", "meta": 0}, "weight": 10},
 		{"data": {"name": "etfuturum:totem_of_undying", "meta": 0}, "weight": 10},
 		{"data": {"name": "IronChest:BlockIronChest", "meta": 2}, "weight": 10},
 		{"data": {"name": "gregtech:gt.metaitem.01", "meta": 32727}, "weight": 10},
 		{"data": {"name": "TConstruct:materials", "meta": 8}, "weight": 10},
 		{"data": {"name": "malisisdoors:door_factory", "meta": 0}, "weight": 10},
 		{"data": {"name": "OpenBlocks:guide", "meta": 0}, "weight": 10},
-		{"data": {"name": "ExtraTrees:gt.machine", "meta": 1}, "weight": 3},
-		{"data": {"name": "ExtraTrees:gt.machine", "meta": 2}, "weight": 3},
-		{"data": {"name": "ExtraTrees:gt.machine", "meta": 3}, "weight": 2},
-		{"data": {"name": "ExtraTrees:gt.machine", "meta": 4}, "weight": 2}
+		{"data": {"name": "ExtraTrees:machine", "meta": 1}, "weight": 3},
+		{"data": {"name": "ExtraTrees:machine", "meta": 2}, "weight": 3},
+		{"data": {"name": "ExtraTrees:machine", "meta": 3}, "weight": 2},
+		{"data": {"name": "ExtraTrees:machine", "meta": 4}, "weight": 2}
       ]
     },
 	{"level": 3, "type": "REWARD", "each": true, "quantity": 1, "loot": [

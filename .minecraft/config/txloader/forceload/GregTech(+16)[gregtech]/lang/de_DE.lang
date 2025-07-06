@@ -99,7 +99,6 @@ gt.tileentity.eup_amount=Amperage: §e%d§7
 gt.tileentity.eup_store=Capacity: §9%d§7 EU
 gt.tileentity.has_muffler=has Muffler Upgrade
 gt.tileentity.has_steam_upgrade=has Steam Upgrade
-gt.tileentity.steamtanks=%d Steam Tank Upgrades
 gt.tileentity.colored=Colored (%s%s§7)
 
 item.gt.advancedsensorcard.name=GregTech Advanced Sensor Card
@@ -197,23 +196,23 @@ gt.interact.desc.mb.incomplete=Incomplete Structure.
 gt.interact.desc.mb.locking_on=Single recipe locking enabled. Will lock to next recipe.
 gt.interact.desc.mb.locking_off=Single recipe locking disabled.
 gt.interact.desc.mb.mode=§fRunning mode: §6%s
-gt.interact.desc.o=Export
-gt.interact.desc.i=Import
-gt.interact.desc.o_c=Export (conditional)
-gt.interact.desc.i_c=Import (conditional)
-gt.interact.desc.o_c_i=Export (invert cond)
-gt.interact.desc.i_c_i=Import (invert cond)
-gt.interact.desc.i2o_c=Export allow Input (conditional)
-gt.interact.desc.o2i_c=Import allow Output (conditional)
-gt.interact.desc.i2o_c_i=Export allow Input (invert cond)
-gt.interact.desc.o2i_c_i=Import allow Output (invert cond)
+gt.interact.desc.export=Export
+gt.interact.desc.import=Import
+gt.interact.desc.export_cond=Export (conditional)
+gt.interact.desc.import_cond=Import (conditional)
+gt.interact.desc.export_invert_cond=Export (invert cond)
+gt.interact.desc.import_invert_cond=Import (invert cond)
+gt.interact.desc.export_allow_cond=Export allow Input (conditional)
+gt.interact.desc.import_allow_cond=Import allow Output (conditional)
+gt.interact.desc.export_allow_invert_cond=Export allow Input (invert cond)
+gt.interact.desc.import_allow_invert_cond=Import allow Output (invert cond)
 gt.interact.desc.no_fluid=Keep Fluids Away
-gt.interact.desc.no_fluid_c=Keep Fluids Away (conditional)
-gt.interact.desc.no_fluid_c_i=Keep Fluids Away (invert cond)
-gt.interact.desc.i2o=Export allow Input
-gt.interact.desc.o2i=Import allow Output
-gt.interact.desc.i2o_on=Input from Output Side allowed
-gt.interact.desc.i2o_off=Input from Output Side forbidden
+gt.interact.desc.no_fluid_cond=Keep Fluids Away (conditional)
+gt.interact.desc.no_fluid_invert_cond=Keep Fluids Away (invert cond)
+gt.interact.desc.export_allow=Export allow Input
+gt.interact.desc.import_allow=Import allow Output
+gt.interact.desc.input_from_output_on=Input from Output Side allowed
+gt.interact.desc.input_from_output_off=Input from Output Side forbidden
 gt.interact.desc.public=Public
 gt.interact.desc.private=Private
 gt.interact.desc.set_perm=Public/Private
@@ -246,8 +245,8 @@ gt.interact.desc.need_maint_rotor_lo=Emit if rotor needs maintenance low accurac
 gt.interact.desc.need_maint_rotor_hi=Emit if rotor needs maintenance high accuracy mod
 gt.interact.desc.issue=1 Issue
 gt.interact.desc.issues=%s Issues
-gt.interact.desc.issue_rotor_low=Rotor < 20%
-gt.interact.desc.issue_rotor_dead=Rotor ≈ 0%
+gt.interact.desc.issue_rotor_low=Rotor < 20%%
+gt.interact.desc.issue_rotor_dead=Rotor ≈ 0%%
 
 # GT++ items
 item.GTPP.air_intake_hatch.name=Air Intake Hatch
@@ -727,6 +726,9 @@ GT5U.power_goggles_config.text_ok_tooltip=Affects Text color when EU change is 0
 GT5U.power_goggles_config.text_good=Good Text Color
 GT5U.power_goggles_config.text_good_tooltip=Affects Text and Power Chart color when EU change is positive
 
+GT5U.maglevHarness.tooltip=Grants creative flight while in range of a MagLev Pylon
+GT5U.maglevHarness.pylons=§cYOU MUST CONSTRUCT ADDITIONAL PYLONS!
+
 GT5U.autoplace.error.no_hatch=§cSuggested to place hatch §4%s§c but none was found
 GT5U.autoplace.error.no_mte.id=§cSuggested to place machine with meta ID §4%s§c but none was found
 GT5U.autoplace.error.no_mte.class_name=§cSuggested to place machine with class name §4%d§c but none was found
@@ -783,13 +785,13 @@ GT5U.MBTT.Structure.SeeStructure2=Hologram Projector on the Controller!
 GT5U.MBTT.Structure.MinGlassForLaser=-tier glass required for §9Tec§1Tech§7 Laser Hatches.
 GT5U.MBTT.Structure.GlassEnergyLimit=Energy Hatch limited by Glass tier
 GT5U.MBTT.Structure.GlassEnergyLimitTier=-tier Glass unlocks all.
+GT5U.MBTT.Structure.NoTierSkips=This machine can only run recipes matching its average energy hatch tier.
+GT5U.MBTT.Structure.MaxTierSkips=This machine can run recipes at most %d tiers above its average energy hatch tier.
+GT5U.MBTT.Structure.UnlimitedTierSkips=This machine can run recipes regardless of tier, if given enough energy.
 GT5U.MBTT.HatchInfo=Any %s
 GT5U.MBTT.HatchDots= (dots: %s)
 GT5U.MBTT.BoroGlassAny=Borosilicate Glass (any, mixed)
 GT5U.MBTT.BoroGlassTiered=Borosilicate Glass (any)
-GT5U.MBTT.AlchemyCasingAny=Alchemically Resistant/Inert/Immune Casing
-GT5U.MBTT.AlchemicalConstructAny=Alchemical Construct
-GT5U.MBTT.SuperChest=Super/Quantum Chest
 GT5U.MBTT.ConfigMenu=Configuration Menu
 
 GT5U.MBTT.PCB.Tier=PCB Factory Tier
@@ -817,6 +819,10 @@ GT5U.MBTT.PCB.Tooltip.3=Allows for overclocking. Requires 10 L/s of distilled wa
 GT5U.MBTT.PCB.Tooltip.4=Enables perfect overclocking by allowing nanites to work with extreme speed and efficiency. Uses 10 L/s of Super Coolant.
 GT5U.MBTT.PCB.Tooltip.5=Set the trace size. Smaller traces allow material savings but take longer to fabricate. Larger traces waste material but are fast. 50-200 μm.
 GT5U.MBTT.PCB.Tooltip.6=Can't change configuration when running!
+
+GT5U.MBTT.AlchemyCasingAny=Alchemically Resistant/Inert/Immune Casing
+GT5U.MBTT.AlchemicalConstructAny=Alchemical Construct
+GT5U.MBTT.SuperChest=Super/Quantum Chest
 
 GT5U.MBTT.subchannel=Uses sub channel §6%s§r§7 for §6%s
 
@@ -859,10 +865,10 @@ GT5U.tpm.parallelwindow=Open Parallel Configuration Window
 
 GT5U.ECCF.pressure=Current pressure
 GT5U.ECCF.temperature=Current temperature
-GT5U.ECCF.pressure.threshold=Pressure threshold
-GT5U.ECCF.temperature.threshold=Temperature threshold
-GT5U.ECCF.pressure.required=Pressure required
-GT5U.ECCF.temperature.required=Temperature required
+GT5U.ECCF.pressure_threshold=Pressure threshold
+GT5U.ECCF.temperature_threshold=Temperature threshold
+GT5U.ECCF.pressure_required=Pressure required
+GT5U.ECCF.temperature_required=Temperature required
 
 GT5U.EBF.heat=Heat capacity
 GT5U.coil.None=None
@@ -1040,6 +1046,7 @@ gt.recipe.purificationplantquarkextractor=Baryonic Perfection
 gt.recipe.quantumcomputer=QC Components
 gt.recipe.eccf=Environmentally Controlled Chemical Facility
 
+
 # Recipe categories
 gt.recipe.category.arc_furnace_recycling=Arc Furnace Recycling
 gt.recipe.category.plasma_arc_furnace_recycling=Plasma Arc Furnace Recycling
@@ -1050,6 +1057,7 @@ gt.recipe.category.alloy_smelter_molding=Alloy Smelter Molding
 gt.recipe.category.forge_hammer_recycling=Forge Hammer Recycling
 gt.recipe.category.tic_part_extruding=TiC Part Extruding
 gt.recipe.category.tic_bolt_molding=TiC Bolt Molding
+gt.recipe.category.planets=Planet Conditions
 
 GT5U.machines.tier=Tier
 GT5U.machines.workarea=Work Area
@@ -1063,6 +1071,7 @@ GT5U.machines.chunks=Chunks
 GT5U.machines.miner=Miner
 GT5U.machines.powersource.power=power
 GT5U.machines.powersource.steam=steam
+GT5U.machines.steam.amount=%1$s/%2$sL Steam
 GT5U.machines.pump=Pump
 GT5U.machines.separatebus=Input buses are separated
 GT5U.machines.pumpareaset=Pumping area set to
@@ -1156,9 +1165,6 @@ GT5U.GTPP_MULTI_INDUSTRIAL_PLATE_PRESS.mode.0=Bending
 GT5U.GTPP_MULTI_INDUSTRIAL_PLATE_PRESS.mode.1=Forming Press
 GT5U.INDUSTRIAL_ELECTROMAGNETIC_SEPARATOR.mode.0=Separator
 GT5U.INDUSTRIAL_ELECTROMAGNETIC_SEPARATOR.mode.1=Polarizer
-GT5U.GTPP_MULTI_INDUSTRIAL_MULTI_MACHINE.mode.0=Metal
-GT5U.GTPP_MULTI_INDUSTRIAL_MULTI_MACHINE.mode.1=Fluid
-GT5U.GTPP_MULTI_INDUSTRIAL_MULTI_MACHINE.mode.2=Misc
 GT5U.MULTI_CANNER.mode.0=Canner
 GT5U.MULTI_CANNER.mode.1=Fluid Canner
 GT5U.BLACKHOLE.mode.0=Compressor
@@ -1278,7 +1284,6 @@ GT5U.machines.betterjukebox.shuffle.tooltip=Shuffle mode (play random discs inst
 GT5U.machines.betterjukebox.headphonesbound=Headphones bound to jukebox
 GT5U.machines.betterjukebox.headphonesunbound=Shift-click on an electric jukebox to bind headphones
 GT5U.machines.computation_hatch.computation=Computation
-GT5U.machines.computation_hatch.weightedComputation=Computation Weight
 GT5U.machines.laser_hatch.amperage=Amperage
 GT5U.machines.hatch_output.lockfluid.label=Locked Fluid
 GT5U.machines.hatch_output.lockfluid.empty=None
@@ -1312,10 +1317,12 @@ channels.gregtech.stabilisation=Decides the tier of Stabilisation Field Generato
 channels.gregtech.time_dilation=Decides the tier of Time Dilation Field Generator. Starts at §6Crude Time Dilation Field Generator§r at value 1 and ends at §6Gallifreyan Time Dilation Field Generator§r at value 9.
 channels.gregtech.gt_no_hatch=When set, disable automatic hatch placement
 channels.gregtech.field=Decides the tier of T.F.F.T. Storage Field.
-channels.gregtech.heat_pipe=Decides the tier of §6ECCF heating module§r. Starts at value 1 and ends at value 4.
-channels.gregtech.cool_pipe=Decides the tier of §6ECCF cooling module§r. Starts at value 1 and ends at value 4.
-channels.gregtech.vacuum_pipe=Decides the tier of §6ECCF compressor module§r. Starts at value 1 and ends at value 4.
-channels.gregtech.compress_pipe=Decides the tier of §6ECCF vacuum pump module§r. Starts at value 1 and ends at value 4.
+channels.gregtech.eccf_heater=Decides the tier of §6ECCF heating module§r. Starts at value 1 and ends at value 4.
+channels.gregtech.eccf_freezer=Decides the tier of §6ECCF freezing module§r. Starts at value 1 and ends at value 4.
+channels.gregtech.eccf_vacuum=Decides the tier of §6ECCF compressor module§r. Starts at value 1 and ends at value 4.
+channels.gregtech.eccf_compress=Decides the tier of §6ECCF vacuum pump module§r. Starts at value 1 and ends at value 4.
+channels.gregtech.eccf_parallel_left=Decides the tier of §6ECCF parallel module§r. Starts at value 1 and ends at value 3.
+channels.gregtech.eccf_parallel_right=Decides the tier of §6ECCF parallel module§r. Starts at value 1 and ends at value 3.
 
 GT5U.gui.select.current=Current:
 GT5U.gui.button.liquid_filling_OFF=§7Liquid Filling: §4OFF
@@ -1427,6 +1434,8 @@ GT5U.gui.text.drill_chunks_left=Drilling chunk: §a%s / %s
 GT5U.gui.text.drill_current_vein=Current Vein: §a%s
 GT5U.gui.text.drill_offline_reason=Drill Offline: %s
 GT5U.gui.text.drill_offline_generic=Drill Offline
+GT5U.gui.text.drill_extracting_ores=Extracting Ores
+GT5U.gui.text.drill_extracting_ores_failed=Extraction Failed
 GT5U.gui.text.stocking_bus_fail_extraction=§4Failed to extract expected amount of items from stocking bus. This can be caused by attaching multiple storage buses to the same inventory.
 GT5U.gui.text.stocking_hatch_fail_extraction=§4Failed to extract expected amount of fluids from stocking hatch. This can be caused by attaching multiple storage fluid buses to the same tank.
 GT5U.gui.text.drone_noDrone=§4Can't find any drone in inputBuses!
@@ -1466,8 +1475,13 @@ GT5U.gui.text.enabled=§aEnabled§f
 GT5U.gui.text.disabled=§cDisabled§f
 GT5U.gui.text.lma_craftingfx=Show Crafting Effects
 GT5U.gui.text.repair_tip=Click with Tool to repair.
-GT5U.gui.text.conditions.out.of.range=§4Out of recipe conditions
+GT5U.gui.text.conditions_range=§4Conditions outside recipe range
+GT5U.gui.text.apiary_missing_flowers=Missing flowers: %s
 GT5U.gui.text.item.amount=Item Amount
+GT5U.gui.text.microwave_energy_transmitter.x=Target X
+GT5U.gui.text.microwave_energy_transmitter.y=Target Y
+GT5U.gui.text.microwave_energy_transmitter.z=Target Z
+GT5U.gui.text.microwave_energy_transmitter.d=Target Dim
 GT5U.gui.text.contents=§7Contents:§r
 GT5U.gui.text.content-entry=§7%s:§9 %s§r
 GT5U.gui.text.decay-rate=§7Decay Rate:§9 %s§7%s
@@ -1486,7 +1500,6 @@ GT5U.gui.text.beta-plus=Beta Plus Decay
 GT5U.gui.config.client=Client
 GT5U.gui.config.client.color_modulation=Color Modulation
 GT5U.gui.config.client.color_modulation.cable_insulation=Cable Insulation
-GT5U.gui.config.client.color_modulation.construction_foam=Construction Foam
 GT5U.gui.config.client.color_modulation.machine_metal=Machine Metal (Default GUI Color)
 GT5U.gui.config.client.interface=Interface
 GT5U.gui.config.client.preference=Preference
@@ -1513,6 +1526,113 @@ GT5U.gui.config.machine_stats.cleanroom=Cleanroom
 GT5U.gui.config.worldgen=Worldgen
 GT5U.gui.config.worldgen.end_asteroids=End Asteroids
 GT5U.gui.config.worldgen.general=General
+
+GT5U.gui.text.cannot_change_when_running=Can't change configuration when running!
+
+GT5U.gui.tooltip.purification_plant.debug_mode=Toggle debug mode.
+GT5U.gui.text.purification_plant.hit_to_start=Hit with Soft Mallet to start.
+
+GT5U.gui.tooltip.redstone_circuit.toggle_output=Toggle EU Output
+GT5U.gui.tooltip.redstone_circuit.toggle_active=Toggle Active State
+GT5U.gui.tooltip.redstone_circuit.change=Change Redstone Circuit
+
+GT5U.gui.tooltip.redstone_receiver.analog=ANALOG Mode\nOnly use this mode with ONE transmitter in total,\nno logic involved
+GT5U.gui.tooltip.hatch.crafting_input_me.place_manual_items=Place manual items
+GT5U.gui.tooltip.hatch.crafting_input_me.export=Return all internally stored items back to AE
+GT5U.gui.text.fluid_limiter.threshold=Percent threshold
+GT5U.gui.text.volumetric_flask.capacity=Capacity
+GT5U.gui.text.volumetric_flask.confirm=Confirm
+
+GT5U.gui.text.wireless_maintenance_detector.extra.no_issues=No Issues
+GT5U.gui.text.wireless_maintenance_detector.extra.ge1_issues=>= 1 Issue
+GT5U.gui.text.wireless_maintenance_detector.extra.ge2_issues=>= 2 Issues
+GT5U.gui.text.wireless_maintenance_detector.extra.ge3_issues=>= 3 Issues
+GT5U.gui.text.wireless_maintenance_detector.extra.ge4_issues=>= 4 Issues
+GT5U.gui.text.wireless_maintenance_detector.extra.ge5_issues=>= 5 Issues
+GT5U.gui.text.wireless_maintenance_detector.extra.rotor_lt20=Rotor < 20%
+GT5U.gui.text.wireless_maintenance_detector.extra.rotor_0=Rotor ≈ 0%
+
+GT5U.gui.text.fusion_computer.hit_to_start=Hit with Soft Mallet to (re-)start the Machine if it doesn't start.
+GT5U.gui.text.fusion_computer.running_perfectly=Running perfectly.
+
+GT5U.gui.text.large_fluid_extractor.not_enough_casings=Not enough casings: need %d, but\nhave %d.
+GT5U.gui.text.wormhole_generator.missing_entangled_singularity=§7Missing Entangled Singularity§f
+GT5U.gui.text.wormhole_generator.status.no_destination=§7Wormhole status: §cNo destination§f
+GT5U.gui.text.wormhole_generator.status.decaying=§7Wormhole status: §6Decaying§f
+GT5U.gui.text.wormhole_generator.status.active=§7Wormhole status: §bActive§f
+GT5U.gui.text.wormhole_generator.status.inactive=§7Wormhole status: Inactive§f
+GT5U.gui.text.wormhole_generator.diameter=§7Wormhole diameter: §b%,d§7 Å§f
+GT5U.gui.text.wormhole_generator.max_io=§7Max I/O per hatch: §b%,d§7 EU/t§f
+GT5U.gui.text.wormhole_generator.max_io.large=§7Max I/O per hatch: §b%3.3e§7 EU/t§f
+
+GT5U.gui.text.status.active=Active
+GT5U.gui.text.status.online=Online
+GT5U.gui.text.status.disabled=Disabled
+GT5U.gui.text.status.incomplete=Incomplete Structure
+GT5U.gui.text.x=X: %s
+GT5U.gui.text.y=Y: %s
+GT5U.gui.text.z=Z: %s
+GT5U.gui.text.dim=Dim: %s
+GT5U.gui.text.dim.valid=Dim Valid: Yes
+GT5U.gui.text.dim.invalid=Dim Valid: No
+
+GT5U.gui.title.unknown=Unknown
+GT5U.gui.text.item_amount=Item Amount
+
+GT5U.gui.circuit.generic.data_display.off=OFF
+GT5U.gui.circuit.generic.data_display.on=ON
+GT5U.gui.circuit.data_description.delay=Delay
+GT5U.gui.circuit.data_description.length=Length
+GT5U.gui.circuit.data_description.rs_on=RS => ON
+GT5U.gui.circuit.data_description.rs_off=RS => OFF
+
+GT5U.gui.circuit.basic.name=Basic Logic
+GT5U.gui.circuit.basic.description=Regular Logic Gates
+GT5U.gui.circuit.data_description.or=OR
+GT5U.gui.circuit.data_description.nor=NOR
+GT5U.gui.circuit.data_description.xor=XOR
+GT5U.gui.circuit.data_description.xnor=XNOR
+GT5U.gui.circuit.data_description.and=AND
+GT5U.gui.circuit.data_description.nand=NAND
+GT5U.gui.circuit.data_description.invert=INVERT
+GT5U.gui.circuit.data_description.bit_or=BIT_OR
+GT5U.gui.circuit.data_description.bit_nor=BIT_NOR
+GT5U.gui.circuit.data_description.bit_xor=BIT_XOR
+GT5U.gui.circuit.data_description.bit_xnor=BIT_XNOR
+GT5U.gui.circuit.data_description.bit_and=BIT_AND
+GT5U.gui.circuit.data_description.bit_nand=BIT_NAND
+GT5U.gui.circuit.data_description.bit_invert=BIT_INVERT
+GT5U.gui.circuit.bit_and.name=Hardcode Bit-AND
+GT5U.gui.circuit.bit_and.description=( signal & this ) != 0
+GT5U.gui.circuit.bit_and.data_description=Bit %d:
+GT5U.gui.circuit.combination_lock.name=Combination Lock
+GT5U.gui.circuit.combination_lock.description=Checks Combinations
+GT5U.gui.circuit.combination_lock.data_description=Power %d
+GT5U.gui.circuit.equals.name=Equals
+GT5U.gui.circuit.equals.description=signal == this
+GT5U.gui.circuit.equals.data_description.signal=Signal
+GT5U.gui.circuit.equals.data_description.equal=Equal
+GT5U.gui.circuit.equals.data_description.unequal=Unequal
+GT5U.gui.circuit.pulser.name=Pulser
+GT5U.gui.circuit.pulser.description=Limits & Lengthens
+GT5U.gui.circuit.pulser.data_description.rs_out=RS Out
+GT5U.gui.circuit.pulser.data_display.highest=HIGHEST
+GT5U.gui.circuit.pulser.data_display.lowest=LOWEST
+GT5U.gui.circuit.randomizer.name=Randomizer
+GT5U.gui.circuit.randomizer.description=Randomizes Redstone
+GT5U.gui.circuit.randomizer.data_description.status=Status
+GT5U.gui.circuit.redstone_meter.name=Redstone Meter
+GT5U.gui.circuit.redstone_meter.description=Checks Boundaries
+GT5U.gui.circuit.redstone_meter.data_description.lower=Lower
+GT5U.gui.circuit.redstone_meter.data_description.upper=Upper
+GT5U.gui.circuit.redstone_meter.data_description.invert=Invert:
+GT5U.gui.circuit.redstone_meter.data_description.rs_out=RS Out:
+GT5U.gui.circuit.repeater.name=Repeater
+GT5U.gui.circuit.repeater.description=Delays RS-Signal
+GT5U.gui.circuit.timer.name=Timer
+GT5U.gui.circuit.timer.description=Pulses Redstone
+GT5U.gui.circuit.timer.data_description.pulses=Pulses
+GT5U.gui.circuit.timer.data_description.time=Time
 
 # Note to translators: this translation entry is supposed to be a number indicating how many taunts you define here
 # Game will randomly display one of them
@@ -1543,22 +1663,22 @@ GT5U.item.pipe.empty=Empty
 GT5U.item.pipe.swap=Pipe Swapped:
 
 gt.behaviour.paintspray.infinite.gui.header=Select a Color
-gt.behaviour.paintspray.infinite.gui.lock_error=§eSpray can is §clocked§e! §bCtrl middle-click to unlock.
+gt.behaviour.paintspray.infinite.gui.lock_error=§eSpray can is §clocked§e! §bSneak + MMB to unlock.
 gt.behaviour.paintspray.infinite.gui.solvent=Solvent
 gt.behaviour.paintspray.infinite.gui.shake_toggle=Allow/disallow color iteration
 
 gt.behaviour.paintspray.infinite.tooltip.infinite=Infinite uses
 gt.behaviour.paintspray.infinite.tooltip.more_info=Hold SHIFT for more information
 gt.behaviour.paintspray.infinite.tooltip.locked=Locked
-gt.behaviour.paintspray.infinite.tooltip.preventing_shake=Left click action disabled
+gt.behaviour.paintspray.infinite.tooltip.preventing_shake=LMB action disabled
 
-gt.behaviour.paintspray.infinite.tooltip.switch=Left Click: Change color (sneak to reverse direction)
-gt.behaviour.paintspray.infinite.tooltip.pick=Middle Click block: Copy color to spray can
-gt.behaviour.paintspray.infinite.tooltip.lock=%s Middle Click: Lock or unlock spray can
-gt.behaviour.paintspray.infinite.tooltip.gui=Middle Click: Open color choice GUI
-gt.behaviour.paintspray.infinite.tooltip.prevent_shake=Shift Middle Click: Allow/prevent left click action
-gt.behaviour.paintspray.infinite.tooltip.ctrl_pc=Ctrl
-gt.behaviour.paintspray.infinite.tooltip.ctrl_mac=Command
+gt.behaviour.paintspray.infinite.tooltip.switch=LMB: Cycle color (Sneak to reverse direction)
+gt.behaviour.paintspray.infinite.tooltip.pick=MMB: On a Surface block to Copy color to spray can
+gt.behaviour.paintspray.infinite.tooltip.lock=Sneak + MMB: Lock or unlock spray can
+gt.behaviour.paintspray.infinite.tooltip.gui=MMB: Open color choice GUI
+gt.behaviour.paintspray.infinite.tooltip.prevent_shake=%s + MMB: Toggle Color Cycle Lock
+GTPacketInfiniteSpraycan.Action.TOGGLE_SHAKE_LOCK=Infinite Spray Can : Color Cycle Lock
+
 
 gt.behaviour.trowel.tooltip1=Places a random block from your hotbar
 gt.behaviour.trowel.tooltip2=§o"Don't forget to bring a trowel!"§r -§cQuerns§r
@@ -1633,19 +1753,20 @@ GT5U.nei.nuclear.breeder.neutron_reflecting=Neutron reflecting Breeder
 GT5U.nei.nuclear.breeder.heat_neutral=Heat neutral Breeder
 GT5U.nei.nuclear.breeder.reactor_hull_heat=Every %d reactor hull heat\nincrease speed by %d00%%
 GT5U.nei.nuclear.breeder.required_pulse=Required pulses: %d
-GT5U.nei.temperature=Temperature: %s K
-GT5U.nei.pressure=Pressure: %s
-
+GT5U.nei.temperature=Temperature: %s - %s K
+GT5U.nei.pressure=Pressure: %s - %s
+GT5U.nei.temperature_delta=Temperature change: %s K/s
+GT5U.nei.pressure_delta=Pressure change: %s Pa/s
+GT5U.nei.bare_temperature=Temperature
+GT5U.nei.bare_pressure=Pressure
+GT5U.nei.bare_tier=Tier
+GT5U.nei.bare_name=Name
 
 GT5U.config.colormodulation=Color Modulator
 GT5U.config.colormodulation.cable_insulation=Cable Insulation
 GT5U.config.colormodulation.cable_insulation.B=Blue
 GT5U.config.colormodulation.cable_insulation.G=Green
 GT5U.config.colormodulation.cable_insulation.R=Red
-GT5U.config.colormodulation.construction_foam=Construction Foam
-GT5U.config.colormodulation.construction_foam.B=Blue
-GT5U.config.colormodulation.construction_foam.G=Green
-GT5U.config.colormodulation.construction_foam.R=Red
 GT5U.config.colormodulation.machine_metal=Machine Metal (Default GUI color)
 GT5U.config.colormodulation.machine_metal.B=Blue
 GT5U.config.colormodulation.machine_metal.G=Green
@@ -1926,8 +2047,6 @@ achievement.highpowersmelt=High Power Smelter
 achievement.highpowersmelt.desc=Craft a Multi Furnace
 achievement.oilplant=Oil Plant
 achievement.oilplant.desc=Start up a Distillation Tower
-achievement.factory=Factory
-achievement.factory.desc=Craft a Processing Array
 achievement.upgradeebf=Upgrade your EBF
 achievement.upgradeebf.desc=Craft a MV Energy Hatch
 achievement.maintainance=Maintenance
@@ -2658,6 +2777,7 @@ gt.time.second.plural=seconds
 
 #Tool modes
 gt.wrench.mode.1=Line Mode
+gt.wrench.mode.2=Precise Mode
 
 # Tooltip for vajra
 gt.vajra.tooltip.flavor=Your friendly instant block breaker
@@ -2807,6 +2927,10 @@ GTPP.tooltip.meta_food.unless_starving=I wouldn't eat this unless I was starving
 GTPP.tooltip.meta_food.better_cooked=Doesn't look any better cooked
 GTPP.tooltip.meta_food.warm_touch=Warm to the touch
 GTPP.tooltip.dust-decay-hint=Only decays in a %s or a %s
+
+tooltip.blockECCFTemp=§6Temperature loss: %d%%
+tooltip.blockECCFPressure=§6Pressure loss: %d%%
+tooltip.blockECCFParallel=§6Parallel multiplier: %d
 
 # GTPP structure hints
 GTPP.tooltip.structure.anvil=Anvil

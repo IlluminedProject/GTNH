@@ -31,7 +31,7 @@ gtnop.gui.nei.chanceDrops=Добыча
 gtnop.gui.nei.ieVeinComponent=Компоненты жилы
 gtnop.gui.nei.fromMod=Из мода
 
-gtnop.gui.nei.seeAll=Смотреть все
+gtnop.gui.nei.seeAll=См. всё
 gtnop.gui.nei.vein= 
 gtnop.gui.nei.oreOthers=Другая руда
 gtnop.nei.genPosition=Позиция
@@ -40,7 +40,7 @@ gtnop.nei.genPositionInfo=В центре каждого чанка
 
 # world names
 gtnop.world.Overworld=Обычный мир
-gtnop.world.Nether=Нижний мир
+gtnop.world.Nether=Ад
 gtnop.world.TheEnd=Энд
 gtnop.world.Twilight=Сумеречный лес
 gtnop.world.EndAsteroid=Далёкие астероиды Энда
@@ -93,7 +93,7 @@ gtnop.ore.null.name=Нет
 
 
 # vein types
-gtnop.ore.vein.name=Жила 
+gtnop.ore.vein.name=Жила
 gtnop.ore.asteroid.name=Астериод
 gtnop.ore.custom.name=Другие
 

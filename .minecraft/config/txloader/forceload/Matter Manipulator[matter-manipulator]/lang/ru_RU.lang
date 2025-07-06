@@ -29,8 +29,20 @@ item.metaitem.19.name=Корпус манипулятора материи MKIII
 item.metaitem.20.name=Сборка линз манипулятора материи MKIII
 item.metaitem.21.name=МЭ DownLink манипулятора материи
 item.metaitem.22.name=Квантовый DownLink манипулятора материи
+item.metaitem.23.name=Пустое улучшение манипулятора
+item.metaitem.24.name=Улучшение манипулятора 'энергетический туннель'
+item.metaitem.24.desc=Позволяет Манипулятору материи MKIII черпать энергию из приёмника лазера или из мультиамперного энерговвода на Квантовом Uplink
+item.metaitem.25.name=Улучшение манипулятора 'экскаватор'
+item.metaitem.25.desc=Позволяет Прототипу манипулятора материи удалять блоки
+item.metaitem.26.name=Улучшение манипулятора 'вспомогательный телепорт'
+item.metaitem.26.desc=Удваивает скорость размещения манипулятора
+item.metaitem.27.name=Улучшение манипулятора 'адаптивный жгут проводов'
+item.metaitem.27.desc=Снижает потребление энергии манипулятора на 50%
+
+mm.upgrade.hint=Для установки этого улучшения используйте один из следующих манипуляторов 
 
 mm.tooltip.voltage=%s / %s EU - Вольтаж: %s
+mm.tooltip.installed_upgrades=Установлено улучшений:
 
 mm.structure.hatch-info=Любой %s корпус
 mm.structure.hatch-dots= (точки %s)
@@ -48,3 +60,6 @@ interaction=Взаимодействие
 rendering=Отображение
 debug=Отладка
 building=Строительство
+
+# NEI
+mm.recipe.upgrades=Manipulator Upgrades
