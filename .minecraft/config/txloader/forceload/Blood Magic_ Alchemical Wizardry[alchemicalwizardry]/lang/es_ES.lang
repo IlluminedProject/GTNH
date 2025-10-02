@@ -269,7 +269,7 @@ bm.string.drain=Drain
 bm.string.tier=Nivel
 bm.string.crafting.orb.shaped=Shaped Orb Crafting
 bm.string.crafting.orb.shapeless=Shapeless Orb Crafting
-bm.string.ritualDiviner=Radius: %s
+bm.string.ritualDiviner=Ritual: %s
 text.recipe.altar=Blood Altar
 text.recipe.altar.tier=Tier: %s
 text.recipe.altar.bloodRequired=LP: %s
@@ -461,6 +461,7 @@ tooltip.divinationsigil.desc1=Peer into the soul to
 tooltip.divinationsigil.desc2=get the current essence
 tooltip.energybazooka.desc=Boom.
 tooltip.energybattery.desc=Stores raw Life Essence
+tooltip.energybattery.capacity=Capacity: %,d LP
 tooltip.energyblast.desc1=Used to fire devastating
 tooltip.energyblast.desc2=projectiles.
 tooltip.enhancedtelepfocus.desc=A focus further enhanced in an altar
@@ -508,7 +509,7 @@ tooltip.sacrificialdagger.desc2=Just a prick of the
 tooltip.sacrificialdagger.desc3=finger will suffice...
 tooltip.sanguinearmor.desc1=A pair of goggles imbued with power
 tooltip.sanguinearmor.desc2=Robes imbued with forbidden power
-tooltip.sanguinearmor.visdisc=Vis discount:
+tooltip.sanguinearmor.visdisc=Vis discount: %d%%
 tooltip.scribetool.desc=The writing is on the wall...
 tooltip.seersigil.desc=When seeing all is not enough
 tooltip.sigilofelementalaffinity.desc1=Perfect for a fire-breathing fish
@@ -578,6 +579,7 @@ message.tanksegmenter.nowhas=Tank now has
 message.tanksegmenter.setto=Tank Segmenter now set to:
 message.tanksegmenter.tankssetto=tank(s) set to:
 message.routerfocus.limit=Focus' Item Limit set to:
+message.warn.spiritWorld=Teleporting to Witchery's Spirit World causes problems and is temporarily disabled.
 
 #Achievements
 achievement.alchemicalwizardry:firstPrick=Your First Prick!
@@ -628,6 +630,25 @@ achievement.alchemicalwizardry:demons=Demon Hunter
 achievement.alchemicalwizardry:demons.desc=Kill a demon summoned by the Convocation of the Damned
 achievement.alchemicalwizardry:trancsendentOrb=OVERPOWERED
 achievement.alchemicalwizardry:trancsendentOrb.desc=Pick up a Transcendent Blood Orb
+
+#Buff
+bm.buff.drowning=Drowning
+bm.buff.boost=Boost
+bm.buff.whirlwind=Whirlwind
+bm.buff.inhibit=Inhibit
+bm.buff.flight=Flight
+bm.buff.reciprocation=Reciprocation
+bm.buff.flame_cloak=Flame Cloak
+bm.buff.ice_cloak=Ice Cloak
+bm.buff.heavy_heart=Heavy Heart
+bm.buff.fire_fuse=Fire Fuse
+bm.buff.planar_binding=Planar Binding
+bm.buff.soul_fray=Soul Fray
+bm.buff.soul_harden=Soul Harden
+bm.buff.deafness=Deafness
+bm.buff.feather_fall=Feather Fall
+bm.buff.demon_cloak=Demon Cloaking
+bm.buff.amphibian=Amphibian
 
 #G-API Downloading
 bm.versioning.getGAPI=["[BM] You don't have Guide-API installed! Install it to get it to unlock the book! [",{"text":"Download","color":"red","hoverEvent":{"action":"show_text","value":{"text":"Click this to auto-magically download the latest version","color":"red"}},"clickEvent":{"action":"run_command","value":"/bloodmagic-download-g-api"}},"]"]

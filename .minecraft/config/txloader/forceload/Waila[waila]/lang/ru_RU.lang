@@ -20,6 +20,7 @@ choice.toggledmaintained=Переключ./Нажатая клав.
 choice.showliquids=Жидкости
 choice.shifttoggledblock=Приседание показывает блоки
 choice.shifttoggledents=Приседание показывает сущностей
+choice.showicon=Показывать/Скрывать иконки
 screen.button.configureaspect=Настроить внешний вид...
 
 enchant.title.name=Название
@@ -30,6 +31,7 @@ enchant.label.enchantability=Зачарование
 
 waila.keybind.wailaconfig=[Waila] Меню настроек
 waila.keybind.wailadisplay=[Waila] Показать/Скрыть
+waila.keybind.showadvanced=[Waila] Развернуть Tooltip
 waila.keybind.liquid=[Waila] Показать жидкости
 waila.keybind.recipe=[Waila] Показать рецепт
 waila.keybind.usage=[Waila] Показать применение
@@ -37,6 +39,8 @@ waila.keybind.testing=[Waila] Тестировать
 
 client.msg.norecipe=Рецептов не найдено.
 client.msg.nousage=Применений не найдено.
+
+hud.msg.holdkeymoreinfo=Зажмите %s для подробной информации
 
 hud.msg.none=<Ничего>
 hud.msg.empty=<Пусто>

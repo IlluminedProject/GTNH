@@ -1,10 +1,10 @@
 # RecipeMaps
-gtnhlanth.recipe.digester=Дигестер
+gtnhlanth.recipe.digester=Дигестор
 gtnhlanth.recipe.disstank=Реактор-разбавитель
 gtnhlanth.recipe.tc=Приёмник элементарных частиц
 gtnhlanth.recipe.sc=Источник элементарных частиц
 
-gtnhlanth.tt.beaminfo=Используйте §bпортативный сканер §7для получения информации о входе/выходе этого мультиблока.
+gtnhlanth.tt.beaminfo=Используйте §bпортативный сканер §7для получения информации о входе/выходе этого мультиблока
 gtnhlanth.tt.blueprint=Чтобы увидеть структуру, используйте §9 Structure§1Lib §r§fголограммный проектор на контроллере!
 gtnhlanth.tt.pc=§6Частично расходуется: §7Получает урон в процессе работы
 
@@ -20,7 +20,7 @@ GT5U.gui.text.gtnhlanth.scerror=Математическая ошибка, не�
 value.disstank=Соотношение: %s:1
 
 DissolutionTank.hint.0=Точка 1: Чистый корпус из нержавеющей стали
-DissolutionTank.hint.1=24x Укрепленное боросиликатное стекло из титана
+DissolutionTank.hint.1=24x Укреплённое боросиликатное стекло из титана
 DissolutionTank.hint.2=9х Жаропрочный корпус
 DissolutionTank.hint.3=Входной люк, Выходной люк, Входной шлюз, Выходной шлюз
 DissolutionTank.hint.4=Энерговвод, Люк техобслуживания
@@ -147,7 +147,7 @@ beamline.amount=Количество
 beamline.rate=Скорость
 
 beamline.temperature=Температура
-beamline.coolusage=Потребляется хладогента
+beamline.coolusage=Потребляется хладагента
 
 beamline.out_pre=Мультиблочный выход установки для литографии
 

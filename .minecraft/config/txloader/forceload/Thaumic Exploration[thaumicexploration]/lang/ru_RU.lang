@@ -26,7 +26,7 @@ item.thaumicexploration:enhancedBootsRunic.name=Улучшеные руниче�
 
 item.thaumicexploration:dreamcatcher.name=Ловец снов
 item.thaumicexploration:ringTaint.name=Заражённое кольцо
-item.thaumicexploration:talismanFood.name=Талисман питания
+item.thaumicexploration:talismanFood.name=Талисман насыщения
 item.thaumicexploration:taintBerry.name=Заражённая ягода
 item.thaumicexploration:necroAltar.name=Некромантический пьедестал
 thaumicexploration.bread0=Ты будешь моим другом?
@@ -146,7 +146,7 @@ tile.thaumicexploration:everfullUrn.name=Неисчерпаемая урна
 tile.thaumicexploration:everburnUrn.name=Неугасимая урна
 tile.thaumicexploration:crucibleSouls.name=Печь душ
 tile.thaumicexploration:replicator.name=Таум репликатор
-tile.thaumicexploration:trashJar.name=Забвенная банка
+tile.thaumicexploration:trashJar.name=Банка забвения
 tile.thaumicexploration:soulBrazier.name=Жаровня душ
 tile.boundJar.name=Связанная банка
 tile.boundChest.name=Связанный сундук
@@ -327,8 +327,8 @@ te.text.METEORBOOTS.1=Ваши Ботинки путешественика бы�
 
 --Boots of the Comet
 te.name.COMETBOOTS=Ботинки кометы
-te.tag.COMETBOOTS=Лед лед детка
-te.text.COMETBOOTS.1=Сапоги путешественника быстрые, но вы думаете, что их можно улучшить. Наполнив ботинки силой Aqua и Gelum, вы создали пару обуви быструю, словно комета.<BR><BR>Эти ботинки позволяют владельцу бегать со скоростью кометы. Даже вода не может вас остановить и даже замедлить, ведь при ношении Сапог кометы, она будет временно обращаться в лед под вашими ногами.
+te.tag.COMETBOOTS=Лёд лёд детка
+te.text.COMETBOOTS.1=Сапоги путешественника быстрые, но вы думаете, что их можно улучшить. Наполнив ботинки силой Aqua и Gelum, вы создали пару обуви быструю, словно комета.<BR><BR>Эти ботинки позволяют владельцу бегать со скоростью кометы. Даже вода не может вас остановить и даже замедлить, ведь при ношении Сапог кометы, она будет временно обращаться в лёд под вашими ногами.
 
 --Runic Boots
 te.name.RUNICBOOTS=Элементные рунические ботинки

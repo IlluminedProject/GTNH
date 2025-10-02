@@ -1,3 +1,4 @@
+tile.structurelib.blockhint.name=提示
 tile.structurelib.blockhint.0.name=提示方块：1号
 tile.structurelib.blockhint.1.name=提示方块：2号
 tile.structurelib.blockhint.2.name=提示方块：3号
@@ -29,12 +30,20 @@ item.structurelib.constructableTrigger.desc.4=堆叠数量影响等级/模式/�
 item.structurelib.constructableTrigger.desc.5=按住 §l[LSHIFT]§r 以显示信道数据
 item.structurelib.constructableTrigger.desc.lshift.0=包含%d个子信道.
 item.structurelib.constructableTrigger.too_fast=请等待 %d 毫秒，再进行下一次自动构造...
+item.structurelib.constructableTrigger.gui.title=子频道
 item.structurelib.constructableTrigger.gui.key=信道名:
 item.structurelib.constructableTrigger.gui.value=值:
 item.structurelib.constructableTrigger.gui.add=添加
 item.structurelib.constructableTrigger.gui.set=替换
-item.structurelib.constructableTrigger.gui.unset=删除
-item.structurelib.constructableTrigger.gui.wipe=§4全部清空
+item.structurelib.constructableTrigger.gui.unset=移除
+item.structurelib.constructableTrigger.gui.wipe=§4清空
+item.structurelib.constructableTrigger.gui.channels.from=§rMod：§9§o%s
+item.structurelib.constructableTrigger.gui.info=许多多方块结构支持一定程度的变化。可以使用子信道来指定变体。\n子信道的键由小写字符组成，值取正整数。最常使用的一些子信道可通过输入提示自动补全。\n你还可以从NEI中拖拽并放置物品来设置对应的子信道值。这些物品均有“§o对应子信道值X（子信道：Y）§r”的tooltip。
+
+channels.structurelib.show_errors=设置的话，将突出显示多方块结构中一定是错误的部分
+
+structurelib.tooltip.channelvalue=§7对应子信道值§6%d§r§7（子信道：§6%s§r§7）
+structurelib.tooltip.indicator_dnd=拖到GUI中，为此通道选择此值
 
 structurelib.autoplace.built_stat=已放置 %s 个方块
 structurelib.autoplace.complete=§a此多方块机器已构造完成!

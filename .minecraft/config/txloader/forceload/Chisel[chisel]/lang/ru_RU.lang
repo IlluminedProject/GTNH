@@ -1090,6 +1090,26 @@ tile.chisel.jungle_planks.name=Тропическая древесина
 tile.chisel.dark_oak_planks.name=Древесина тёмного дуба
 tile.chisel.acacia_planks.name=Древесина акации
 
+#BOP Wood
+tile.chisel.sacredoak_planks.name=Доски из священного дуба
+tile.chisel.cherry_planks.name=Доски из вишнёвого дерева
+tile.chisel.dark_planks.name=Доски из тёмного дерева
+tile.chisel.fir_planks.name=Пихтовые доски
+tile.chisel.ethereal_planks.name=Доски из эфирной древесины
+tile.chisel.magic_planks.name=Доски из магической древесины
+tile.chisel.mangrove_planks.name=Доски из мангрового дерева
+tile.chisel.palm_planks.name=Доски из пальмы
+tile.chisel.redwood_planks.name=Доски из красного дерева
+tile.chisel.willow_planks.name=Доски из ивы
+tile.chisel.pine_planks.name=Сосновые доски
+tile.chisel.hellbark_planks.name=Доски из адского дерева
+tile.chisel.jacaranda_planks.name=Доски из жакаранды
+tile.chisel.mahogany_planks.name=Доски из махагониевой древесины
+
+#Thaumcraft Wood
+tile.chisel.greatwood_planks.name=Доски из великого дерева
+tile.chisel.silverwood_planks.name=Доски из серебряного дерева
+
 #Iron Fence
 tile.chisel.iron_bars.name=Железные прутья
 tile.iron_bars.1.desc=Железные прутья без рамки
@@ -1520,6 +1540,278 @@ tile.dark-oak.planks.7.desc=Жалюзи из доски тёмного дуба
 tile.dark-oak.planks.12.desc=Строительные леса из тёмного дуба
 tile.dark-oak.planks.14.desc=Беспорядочные доски из тёмного дуба
 tile.dark-oak.planks.15.desc=Беспорядочные вертикальные доски из тёмного дуба
+
+#Sacred Oak
+tile.sacredoak.planks.1.desc=Гладкие доски из священного дуба
+tile.sacredoak.planks.2.desc=Короткие доски из священного дуба
+tile.sacredoak.planks.6.desc=Изысканная композиция досок из священного дуба
+tile.sacredoak.planks.8.desc=Панель из священного дуба
+tile.sacredoak.planks.9.desc=Двойная плита из священного дуба
+tile.sacredoak.planks.10.desc=Ящик из священного дуба
+tile.sacredoak.planks.11.desc=Изысканный ящик из священного дуба
+tile.sacredoak.planks.13.desc=Большие длинные доски из священного дуба
+tile.sacredoak.planks.3.desc=Вертикальные доски из священного дуба
+tile.sacredoak.planks.4.desc=Вертикальные неровные доски из священного дуба
+tile.sacredoak.planks.5.desc=Паркет из священного дуба
+tile.sacredoak.planks.7.desc=Жалюзи из досок из священного дуба
+tile.sacredoak.planks.12.desc=Строительные леса из священного дуба
+tile.sacredoak.planks.14.desc=Беспорядочные доски из священного дуба
+tile.sacredoak.planks.15.desc=Беспорядочные вертикальные доски из священного дуба
+
+#Cherry
+tile.cherry.planks.1.desc=Гладкие доски из вишнёвого дерева
+tile.cherry.planks.2.desc=Короткие доски из вишнёвого дерева
+tile.cherry.planks.6.desc=Изысканная композиция досок из вишнёвого дерева
+tile.cherry.planks.8.desc=Панель из вишнёвого дерева
+tile.cherry.planks.9.desc=Двойная плита из вишнёвого дерева
+tile.cherry.planks.10.desc=Ящик из вишнёвого дерева
+tile.cherry.planks.11.desc=Изысканный ящик из вишнёвого дерева
+tile.cherry.planks.13.desc=Большие длинные доски из вишнёвого дерева
+tile.cherry.planks.3.desc=Вертикальные доски из вишнёвого дерева
+tile.cherry.planks.4.desc=Вертикальные неровные доски из вишнёвого дерева
+tile.cherry.planks.5.desc=Паркет из вишнёвого дерева
+tile.cherry.planks.7.desc=Жалюзи из досок из вишнёвого дерева
+tile.cherry.planks.12.desc=Строительные леса из вишнёвого дерева
+tile.cherry.planks.14.desc=Беспорядочные доски из вишнёвого дерева
+tile.cherry.planks.15.desc=Беспорядочные вертикальные доски из вишнёвого дерева
+
+#Dark
+tile.dark.planks.1.desc=Гладкие доски из тёмного дерева
+tile.dark.planks.2.desc=Короткие доски из тёмного дерева
+tile.dark.planks.6.desc=Изысканная композиция досок из тёмного дерева
+tile.dark.planks.8.desc=Панель из тёмного дерева
+tile.dark.planks.9.desc=Двойная плита из тёмного дерева
+tile.dark.planks.10.desc=Ящик из тёмного дерева
+tile.dark.planks.11.desc=Изысканный ящик из тёмного дерева
+tile.dark.planks.13.desc=Большие длинные доски из тёмного дерева
+tile.dark.planks.3.desc=Вертикальные доски из тёмного дерева
+tile.dark.planks.4.desc=Вертикальные неровные доски из тёмного дерева
+tile.dark.planks.5.desc=Паркет из тёмного дерева
+tile.dark.planks.7.desc=Жалюзи из досок из тёмного дерева
+tile.dark.planks.12.desc=Строительные леса из тёмного дерева
+tile.dark.planks.14.desc=Беспорядочные доски из тёмного дерева
+tile.dark.planks.15.desc=Беспорядочные вертикальные доски из тёмного дерева
+
+#Fir
+tile.fir.planks.1.desc=Гладкие пихтовые доски
+tile.fir.planks.2.desc=Короткие пихтовые доски
+tile.fir.planks.6.desc=Изысканная композиция пихтовых досок
+tile.fir.planks.8.desc=Панель из пихты
+tile.fir.planks.9.desc=Двойная плита из пихты
+tile.fir.planks.10.desc=Ящик из пихты
+tile.fir.planks.11.desc=Изысканный ящик из пихты
+tile.fir.planks.13.desc=Большие длинные пихтовые доски
+tile.fir.planks.3.desc=Вертикальные пихтовые доски
+tile.fir.planks.4.desc=Вертикальные неровные пихтовые доски
+tile.fir.planks.5.desc=Паркет из пихты
+tile.fir.planks.7.desc=Жалюзи из пихтовых досок
+tile.fir.planks.12.desc=Строительные леса из пихты
+tile.fir.planks.14.desc=Беспорядочные пихтовые доски
+tile.fir.planks.15.desc=Беспорядочные вертикальные пихтовые доски
+
+#Ethereal
+tile.ethereal.planks.1.desc=Гладкие доски из эфирной древесины
+tile.ethereal.planks.2.desc=Короткие доски из эфирной древесины
+tile.ethereal.planks.6.desc=Изысканная композиция из досок из эфирной древесины
+tile.ethereal.planks.8.desc=Панель из эфирной древесины
+tile.ethereal.planks.9.desc=Двойная плита из эфирной древесины
+tile.ethereal.planks.10.desc=Ящик из эфирной древесины
+tile.ethereal.planks.11.desc=Изысканный ящик из эфирной древесины
+tile.ethereal.planks.13.desc=Большие длинные доски из эфирной древесины
+tile.ethereal.planks.3.desc=Вертикальные доски из эфирной древесины
+tile.ethereal.planks.4.desc=Вертикальные неровные доски из эфирной древесины
+tile.ethereal.planks.5.desc=Паркет из эфирной древесины
+tile.ethereal.planks.7.desc=Жалюзи из досок из эфирной древесины
+tile.ethereal.planks.12.desc=Строительные леса из эфирной древесины
+tile.ethereal.planks.14.desc=Беспорядочные доски из эфирной древесины
+tile.ethereal.planks.15.desc=Беспорядочные вертикальные доски из эфирной древесины
+
+#Magic
+tile.magic.planks.1.desc=Гладкие доски из магической древесины
+tile.magic.planks.2.desc=Короткие доски из магической древесины
+tile.magic.planks.6.desc=Изысканная композиция из досок из магической древесины
+tile.magic.planks.8.desc=Панель из магической древесины
+tile.magic.planks.9.desc=Двойная плита из магической древесины
+tile.magic.planks.10.desc=Ящик из магической древесины
+tile.magic.planks.11.desc=Изысканный ящик из магической древесины
+tile.magic.planks.13.desc=Большие длинные доски из магической древесины
+tile.magic.planks.3.desc=Вертикальные доски из магической древесины
+tile.magic.planks.4.desc=Вертикальные неровные доски из магической древесины
+tile.magic.planks.5.desc=Паркет из магической древесины
+tile.magic.planks.7.desc=Жалюзи из досок из магической древесины
+tile.magic.planks.12.desc=Строительные леса из магической древесины
+tile.magic.planks.14.desc=Беспорядочные доски из магической древесины
+tile.magic.planks.15.desc=Беспорядочные вертикальные доски из магической древесины
+
+#Mangrove
+tile.mangrove.planks.1.desc=Гладкие доски из мангрового дерева
+tile.mangrove.planks.2.desc=Короткие доски из мангрового дерева
+tile.mangrove.planks.6.desc=Изысканная композиция из досок из мангрового дерева
+tile.mangrove.planks.8.desc=Панель из мангрового дерева
+tile.mangrove.planks.9.desc=Двойная плита из мангрового дерева
+tile.mangrove.planks.10.desc=Ящик из мангрового дерева
+tile.mangrove.planks.11.desc=Изысканный ящик из мангрового дерева
+tile.mangrove.planks.13.desc=Большие длинные доски из мангрового дерева
+tile.mangrove.planks.3.desc=Вертикальные доски из мангрового дерева
+tile.mangrove.planks.4.desc=Вертикальные неровные доски из мангрового дерева
+tile.mangrove.planks.5.desc=Паркет из мангрового дерева
+tile.mangrove.planks.7.desc=Жалюзи из досок из мангрового дерева
+tile.mangrove.planks.12.desc=Строительные леса из мангрового дерева
+tile.mangrove.planks.14.desc=Беспорядочные доски из мангрового дерева
+tile.mangrove.planks.15.desc=Беспорядочные вертикальные доски из мангрового дерева
+
+#Palm
+tile.palm.planks.1.desc=Гладкие доски из пальмы
+tile.palm.planks.2.desc=Короткие доски из пальмы
+tile.palm.planks.6.desc=Изысканная композиция из досок из пальмы
+tile.palm.planks.8.desc=Панель из пальмы
+tile.palm.planks.9.desc=Двойная плита из пальмы
+tile.palm.planks.10.desc=Ящик из пальмы
+tile.palm.planks.11.desc=Изысканный ящик из пальмы
+tile.palm.planks.13.desc=Большие длинные доски из пальмы
+tile.palm.planks.3.desc=Вертикальные доски из пальмы
+tile.palm.planks.4.desc=Вертикальные неровные доски из пальмы
+tile.palm.planks.5.desc=Паркет из пальмы
+tile.palm.planks.7.desc=Жалюзи из досок из пальмы
+tile.palm.planks.12.desc=Строительные леса из пальмы
+tile.palm.planks.14.desc=Беспорядочные доски из пальмы
+tile.palm.planks.15.desc=Беспорядочные вертикальные доски из пальмы
+
+#Redwood
+tile.redwood.planks.1.desc=Гладкие доски из красного дерева
+tile.redwood.planks.2.desc=Короткие доски из красного дерева
+tile.redwood.planks.6.desc=Изысканная композиция из досок из красного дерева
+tile.redwood.planks.8.desc=Панель из красного дерева
+tile.redwood.planks.9.desc=Двойная плита из красного дерева
+tile.redwood.planks.10.desc=Ящик из красного дерева
+tile.redwood.planks.11.desc=Изысканный ящик из красного дерева
+tile.redwood.planks.13.desc=Большие длинные доски из красного дерева
+tile.redwood.planks.3.desc=Вертикальные доски из красного дерева
+tile.redwood.planks.4.desc=Вертикальные неровные доски из красного дерева
+tile.redwood.planks.5.desc=Паркет из красного дерева
+tile.redwood.planks.7.desc=Жалюзи из досок из красного дерева
+tile.redwood.planks.12.desc=Строительные леса из красного дерева
+tile.redwood.planks.14.desc=Беспорядочные доски из красного дерева
+tile.redwood.planks.15.desc=Беспорядочные вертикальные доски из красного дерева
+
+#Willow
+tile.willow.planks.1.desc=Гладкие доски из ивы
+tile.willow.planks.2.desc=Короткие доски из ивы
+tile.willow.planks.6.desc=Изысканная композиция из досок из ивы
+tile.willow.planks.8.desc=Панель из ивы
+tile.willow.planks.9.desc=Двойная плита из ивы
+tile.willow.planks.10.desc=Ящик из ивы
+tile.willow.planks.11.desc=Изысканный ящик из ивы
+tile.willow.planks.13.desc=Большие длинные доски из ивы
+tile.willow.planks.3.desc=Вертикальные доски из ивы
+tile.willow.planks.4.desc=Вертикальные неровные доски из ивы
+tile.willow.planks.5.desc=Паркет из ивы
+tile.willow.planks.7.desc=Жалюзи из досок из ивы
+tile.willow.planks.12.desc=Строительные леса из ивы
+tile.willow.planks.14.desc=Беспорядочные доски из ивы
+tile.willow.planks.15.desc=Беспорядочные вертикальные доски из ивы
+
+#Pine
+tile.pine.planks.1.desc=Гладкие сосновые доски
+tile.pine.planks.2.desc=Короткие сосновые доски
+tile.pine.planks.6.desc=Изысканная композиция из сосновых досок
+tile.pine.planks.8.desc=Панель из сосны
+tile.pine.planks.9.desc=Двойная плита из сосны
+tile.pine.planks.10.desc=Ящик из сосны
+tile.pine.planks.11.desc=Изысканный ящик из сосны
+tile.pine.planks.13.desc=Большие длинные сосновые доски
+tile.pine.planks.3.desc=Вертикальные сосновые доски
+tile.pine.planks.4.desc=Вертикальные неровные сосновые доски
+tile.pine.planks.5.desc=Паркет из сосны
+tile.pine.planks.7.desc=Жалюзи из сосновых досок
+tile.pine.planks.12.desc=Строительные леса из сосны
+tile.pine.planks.14.desc=Беспорядочные сосновые доски
+tile.pine.planks.15.desc=Беспорядочные вертикальные сосновые доски
+
+#Hellbark
+tile.hellbark.planks.1.desc=Гладкие доски из адского дерева
+tile.hellbark.planks.2.desc=Короткие доски из адского дерева
+tile.hellbark.planks.6.desc=Изысканная композиция из досок из адского дерева
+tile.hellbark.planks.8.desc=Панель из адского дерева
+tile.hellbark.planks.9.desc=Двойная плита из адского дерева
+tile.hellbark.planks.10.desc=Ящик из адского дерева
+tile.hellbark.planks.11.desc=Изысканный ящик из адского дерева
+tile.hellbark.planks.13.desc=Большие длинные доски из адского дерева
+tile.hellbark.planks.3.desc=Вертикальные доски из адского дерева
+tile.hellbark.planks.4.desc=Вертикальные неровные доски из адского дерева
+tile.hellbark.planks.5.desc=Паркет из адского дерева
+tile.hellbark.planks.7.desc=Жалюзи из досок из адского дерева
+tile.hellbark.planks.12.desc=Строительные леса из адского дерева
+tile.hellbark.planks.14.desc=Беспорядочные доски из адского дерева
+tile.hellbark.planks.15.desc=Беспорядочные вертикальные доски из адского дерева
+
+#Jacaranda
+tile.jacaranda.planks.1.desc=Гладкие доски из жакаранды
+tile.jacaranda.planks.2.desc=Короткие доски из жакаранды
+tile.jacaranda.planks.6.desc=Изысканная композиция из досок из жакаранды
+tile.jacaranda.planks.8.desc=Панель из жакаранды
+tile.jacaranda.planks.9.desc=Двойная плита из жакаранды
+tile.jacaranda.planks.10.desc=Ящик из жакаранды
+tile.jacaranda.planks.11.desc=Изысканный ящик из жакаранды
+tile.jacaranda.planks.13.desc=Большие длинные доски из жакаранды
+tile.jacaranda.planks.3.desc=Вертикальные доски из жакаранды
+tile.jacaranda.planks.4.desc=Вертикальные неровные доски из жакаранды
+tile.jacaranda.planks.5.desc=Паркет из жакаранды
+tile.jacaranda.planks.7.desc=Жалюзи из досок из жакаранды
+tile.jacaranda.planks.12.desc=Строительные леса из жакаранды
+tile.jacaranda.planks.14.desc=Беспорядочные доски из жакаранды
+tile.jacaranda.planks.15.desc=Беспорядочные вертикальные доски из жакаранды
+
+#Mahogany
+tile.mahogany.planks.1.desc=Гладкие доски из махагониевой древесины
+tile.mahogany.planks.2.desc=Короткие доски из махагониевой древесины
+tile.mahogany.planks.6.desc=Изысканная композиция из досок из махагониевой древесины
+tile.mahogany.planks.8.desc=Панель из махагониевой древесины
+tile.mahogany.planks.9.desc=Двойная плита из махагониевой древесины
+tile.mahogany.planks.10.desc=Ящик из махагониевой древесины
+tile.mahogany.planks.11.desc=Изысканный ящик из махагониевой древесины
+tile.mahogany.planks.13.desc=Большие длинные доски из махагониевой древесины
+tile.mahogany.planks.3.desc=Вертикальные доски из махагониевой древесины
+tile.mahogany.planks.4.desc=Вертикальные неровные доски из махагониевой древесины
+tile.mahogany.planks.5.desc=Паркет из махагониевой древесины
+tile.mahogany.planks.7.desc=Жалюзи из досок из махагониевой древесины
+tile.mahogany.planks.12.desc=Строительные леса из махагониевой древесины
+tile.mahogany.planks.14.desc=Беспорядочные доски из махагониевой древесины
+tile.mahogany.planks.15.desc=Беспорядочные вертикальные доски из махагониевой древесины
+
+#Greatwood
+tile.greatwood.planks.1.desc=Гладкие доски из великого дерева
+tile.greatwood.planks.2.desc=Короткие доски из великого дерева
+tile.greatwood.planks.6.desc=Изысканная композиция из досок великого дерева
+tile.greatwood.planks.8.desc=Панель из великого дерева
+tile.greatwood.planks.9.desc=Двойная плита из великого дерева
+tile.greatwood.planks.10.desc=Ящик из великого дерева
+tile.greatwood.planks.11.desc=Изысканный ящик из великого дерева
+tile.greatwood.planks.13.desc=Большие длинные доски из великого дерева
+tile.greatwood.planks.3.desc=Вертикальные доски из великого дерева
+tile.greatwood.planks.4.desc=Вертикальные неровные доски из великого дерева
+tile.greatwood.planks.5.desc=Паркет из великого дерева
+tile.greatwood.planks.7.desc=Жалюзи из досок великого дерева
+tile.greatwood.planks.12.desc=Строительные леса из великого дерева
+tile.greatwood.planks.14.desc=Беспорядочные доски из великого дерева
+tile.greatwood.planks.15.desc=Беспорядочные вертикальные доски из великого дерева
+
+#Silverwood
+tile.silverwood.planks.1.desc=Гладкие доски из серебряного дерева
+tile.silverwood.planks.2.desc=Короткие доски из серебряного дерева
+tile.silverwood.planks.6.desc=Изысканная композиция из досок серебряного дерева
+tile.silverwood.planks.8.desc=Панель из серебряного дерева
+tile.silverwood.planks.9.desc=Двойная плита из серебряного дерева
+tile.silverwood.planks.10.desc=Ящик из серебряного дерева
+tile.silverwood.planks.11.desc=Изысканный ящик из серебряного дерева
+tile.silverwood.planks.13.desc=Большие длинные доски из серебряного дерева
+tile.silverwood.planks.3.desc=Вертикальные доски из серебряного дерева
+tile.silverwood.planks.4.desc=Вертикальные неровные доски из серебряного дерева
+tile.silverwood.planks.5.desc=Паркет из серебряного дерева
+tile.silverwood.planks.7.desc=Жалюзи из досок серебряного дерева
+tile.silverwood.planks.12.desc=Строительные леса из серебряного дерева
+tile.silverwood.planks.14.desc=Беспорядочные доски из серебряного дерева
+tile.silverwood.planks.15.desc=Беспорядочные вертикальные доски из серебряного дерева
 
 #Stained Glass
 white.bubble.desc=Белое пузырчатое стекло

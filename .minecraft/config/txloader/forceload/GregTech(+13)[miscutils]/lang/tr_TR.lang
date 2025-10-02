@@ -2871,7 +2871,7 @@ tile.playerDoorGlass.name=Glass Auto-Door
 tile.playerDoorCactus.name=Cactus Auto-Door
 tile.playerDoorIce.name=Ice Auto-Door
 tile.playerDoorIron.name=Iron Auto-Door
-tile.playerDoorWood.name=Wooden Auto-Door
+tile.playerDoorWood.name=Tahta Otomatik-Kapı
 
 //Added 4/2/19
 
@@ -2901,7 +2901,7 @@ item.cyclohexane.name=Cyclohexane Cell
 item.cyclohexanone.name=Cyclohexanone Cell
 item.nitrobenzene.name=Nitrobenzene Cell
 item.ender.name=Cell of Liquid Ender
-item.xpjuice.name=Cell of Liquid Xp
+item.xpjuice.name=Sıvı TP Hücresi
 item.itemBombUnf.name=Throwable Bomb (unf)
 item.itemBombCasing.name=Bomb Casing
 item.gtpp.throwable.bomb.name=Throwable Bomb
@@ -3131,8 +3131,8 @@ gtpp.nei.decayables=Decayables Chest
 entity.batKing.name=Bat King
 item.itemCellCarbyne.name=Carbyne Cell
 item.itemCellHydrogenCyanide.name=Cell of Hydrogen Cyanide
-item.itemCactusCharcoal.name=Cactus Charcoal
-item.itemCactusCoke.name=Cactus Coke
+item.itemCactusCharcoal.name=Kaktüs Kömürü
+item.itemCactusCoke.name=Kok Kaktüs
 item.itemSugarCharcoal.name=Sugar Charcoal
 item.itemSugarCoke.name=Sugar Coke
 item.LiquidHydrogen.name=Liquid Hydrogen Cell [LOH]
@@ -3248,7 +3248,7 @@ item.itemCellCarbonDioxide.name=Carbon Dioxide Cell
 item.CarbonMonoxide.name=Carbon Monoxide Cell
 item.itemCellCarbonMonoxide.name=Carbon Monoxide Cell
 item.acetone.name=Acetone Cell
-item.saltwater.name=Salt Water Cell
+item.saltwater.name=Tuzlu Su Hücresi
 item.BasicAgrichemItem.22.name=Mold (Pellet)
 item.BasicAgrichemItem.23.name=Clean Aluminium Mix
 

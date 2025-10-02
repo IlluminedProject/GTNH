@@ -19,7 +19,7 @@ item.enderio.itemEnderface.name=エンダーフェイス
 
 #Conduits
 enderio.blockConduitBundle=導管束
-tile.blockConduitFacade.name=Conduit Facade
+tile.blockConduitFacade.name=導管用外装
 enderio.blockConduitFacade=導管用外装
 item.enderio.itemConduitFacade.name=導管用外装
 item.enderio.itemConduitFacade.hardened.name=導管用強化外装
@@ -30,12 +30,12 @@ item.enderio.itemConduitFacade.tooltip.detailed.line3=レンチや導管を装�
 item.enderio.itemConduitFacade.tooltip.detailed.line4=見えなくなります
 item.enderio.itemConduitFacade.hardened.tooltip=強化：破壊や爆発に耐えます
 
-item.itemPowerConduit.name=Energy Conduit
+item.itemPowerConduit.name=エネルギー導管
 enderio.itemPowerConduit.name=エネルギー導管
 enderio.itemPowerConduitEnhanced.name=強化エネルギー導管
 enderio.itemPowerConduitEnder.name=エンダーエネルギー導管
 
-item.itemPowerConduitEndergy.name=Energy Conduit
+item.itemPowerConduitEndergy.name=エネルギー導管
 enderio.itemPowerConduitEndergyCrude.name=粘土混合体製エネルギー導管
 enderio.itemPowerConduitEndergyIron.name=鉄製エネルギー導管
 enderio.itemPowerConduitEndergyAluminum.name=アルミニウム製エネルギー導管
@@ -49,12 +49,12 @@ enderio.itemPowerConduitEndergyCrystallinePinkSlime.name=結晶質ピンクス�
 enderio.itemPowerConduitEndergyMelodic.name=メロディー合金製エネルギー導管
 enderio.itemPowerConduitEndergyStellar.name=星合金製エネルギー導管
 
-item.itemRedstoneConduit.name=Redstone Conduit
+item.itemRedstoneConduit.name=レッドストーン導管
 enderio.itemRedstoneConduit.name=レッドストーン導管
 enderio.itemRedstoneConduitSwitch.name=導管スイッチ
 enderio.itemRedstoneConduitInsulated.name=絶縁レッドストーン導管
 
-item.itemLiquidConduit.name=Fluid Conduit
+item.itemLiquidConduit.name=液体導管
 enderio.itemLiquidConduit.name=液体導管
 enderio.itemLiquidConduitAdvanced.name=加圧液体導管
 enderio.itemLiquidConduitEnder.name=エンダー液体導管
@@ -76,13 +76,13 @@ enderio.itemLiquidConduitEnder.tooltip.detailed.line1=液体を瞬時に転送�
 enderio.itemLiquidConduitEnder.tooltip.detailed.line2=複数の液体を1つの導管で
 enderio.itemLiquidConduitEnder.tooltip.detailed.line3=輸送できる
 
-item.itemItemConduit.name=Item Conduit
+item.itemItemConduit.name=アイテム導管
 enderio.itemItemConduit.name=アイテム導管
 
-item.itemBasicFilterUpgrade.name=Item Filter
+item.itemBasicFilterUpgrade.name=アイテムフィルター
 enderio.filterUpgradeBasic.name=基本アイテムフィルター
 enderio.filterUpgradeAdvanced.name=強化アイテムフィルター
-item.itemBigFilterUpgrade.name=Big Item Filter
+item.itemBigFilterUpgrade.name=大容量アイテムフィルター
 enderio.filterUpgradeBig.name=大容量アイテムフィルター
 enderio.filterUpgradeBigAdvanced.name=大容量強化アイテムフィルター
 enderio.itemConduitFilterUpgrade=アイテム導管のアップグレード
@@ -127,7 +127,7 @@ item.itemExtractSpeedDowngrade.tooltip.basic.line1=アイテム導管のダウ�
 item.itemExtractSpeedDowngrade.tooltip.detailed.line1=このアイテム1つで
 item.itemExtractSpeedDowngrade.tooltip.detailed.line2=輸送速度を1にする
 
-item.itemFunctionUpgrade.name=Remote Awareness Upgrade
+item.itemFunctionUpgrade.name=遠隔認識アップグレード
 item.itemInventoryPanelUpgrade.name=遠隔認識アップグレード
 item.itemInventoryPanelUpgrade.tooltip.basic.line1=インベントリパネルで遠隔認識できるようにする
 item.itemInventoryPanelUpgrade.tooltip.detailed.line1=アイテム導管の機能的アップグレード
@@ -143,13 +143,13 @@ enderio.itemGasConduit.tooltip.maxExtract=最大搬出量 :
 enderio.itemGasConduit.tooltip.maxIo=最大輸送量 :
 enderio.itemGasConduit.tooltip.detailed.line1=Mekanismと互換性のある気体を輸送する
 
-item.itemMEConduit.name=ME Conduit
+item.itemMEConduit.name=ME導管
 enderio.itemMEConduit.name=ME導管
 enderio.itemMEConduitDense.name=高密度ME導管
 enderio.itemMEConduit.channelsUsed={0,number} of {1,number} Channels
 
-item.itemOCConduit.name=Network Conduit (OC)
-enderio.itemOCConduit.name=Network Conduit (OC)
+item.itemOCConduit.name=ネットワーク導管 (OC)
+enderio.itemOCConduit.name=ネットワーク導管 (OC)
 
 #Entity
 entity.witherSkeleton.name=ウィザースケルトン
@@ -637,8 +637,8 @@ tile.blockExperienceObelisk.tooltip.detailed.line3=排出できる
 
 tile.blockWeatherObelisk.name=天候のオベリスク
 tile.blockWeatherObelisk.tooltip.detailed.line1=現在の天候を変更する
-tile.blockWeatherObelisk.tooltip.detailed.line2=大量の電気と天候ごとに異なる
-tile.blockWeatherObelisk.tooltip.detailed.line3=アイテムを消費する
+tile.blockWeatherObelisk.tooltip.detailed.line2=ロケット花火と以下の液体のうち
+tile.blockWeatherObelisk.tooltip.detailed.line3=1種類を消費する:
 tile.blockWeatherObelisk.tooltip.detailed.line4=Liquid Sunshine: Sun
 tile.blockWeatherObelisk.tooltip.detailed.line5=Cloud Seed: Rain
 tile.blockWeatherObelisk.tooltip.detailed.line6=Concentrated Cloud Seed: Thunder
@@ -777,6 +777,7 @@ enderio.itemCoordSelector.chat.setDimension=ディメンションを設定: %s%s
 #Painter
 tile.blockPainter.name=塗装機
 enderio.blockPainter.paintedWith=塗装ブロック :
+enderio.blockPainter.paintedWith.none=§onothing§r
 tile.blockPaintedFence.name=塗装したフェンス
 tile.blockPaintedFenceGate.name=塗装したフェンスゲート
 tile.blockPaintedWall.name=塗装した塀

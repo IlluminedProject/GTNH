@@ -19,7 +19,7 @@ inventory.knapsack=ナップザック
 
 nei.options.keys.gui.tinkers_belt=旅人のベルトの切り替え
 
-tile.ToolStation.name=Tool Station
+tile.ToolStation.name=ツール組立台
 ToolStation.Crafter.name=ツール組立台
 ToolStation.Parts.name=部品作成台
 ToolStation.PatternChest.name=パターンチェスト
@@ -30,7 +30,7 @@ tile.FurnaceSlab.name=かまどのハーフブロック
 tile.ToolForge.name=ツール鍛冶台
 tile.TinkerTable.name=鋳掛屋の作業机
 tile.Armor.DryingRack.name=物干し竿
-tile.TConstruct.Soil.name=Soil
+tile.TConstruct.Soil.name=土壌
 CraftedSoil.Slime.name=べとつく泥
 CraftedSoil.Grout.name=グラウト
 CraftedSoil.BlueSlime.name=べとつく泥
@@ -41,7 +41,7 @@ tile.slime.channel.name=スライムチャネル
 tile.slime.pad.name=バウンスパッド
 tile.blood.channel.name=血液チャネル
 
-tile.tconstruct.stoneore.name=Ore
+tile.tconstruct.stoneore.name=鉱石
 MetalOre.NetherSlag.name=ネザーラックの鉱滓
 MetalOre.Cobalt.name=コバルト鉱石
 MetalOre.Ardite.name=アーダイト鉱石
@@ -50,8 +50,8 @@ MetalOre.Tin.name=錫鉱石
 MetalOre.Aluminum.name=アルミニウム鉱石
 MetalOre.Slag.name=鉱滓
 
-tile.ore.berries.one.name=Oreberry Bush
-tile.ore.berries.two.name=Oreberry Bush
+tile.ore.berries.one.name=鉱石ベリーの茂み
+tile.ore.berries.two.name=鉱石ベリーの茂み
 block.oreberry.iron.name=鉄の鉱石ベリーの茂み
 block.oreberry.gold.name=金の鉱石ベリーの茂み
 block.oreberry.copper.name=銅の鉱石ベリーの茂み
@@ -59,7 +59,7 @@ block.oreberry.tin.name=錫の鉱石ベリーの茂み
 block.oreberry.aluminum.name=アルミニウムの鉱石ベリーの茂み
 block.oreberry.essence.name=エッセンスベリーの茂み
 
-tile.tconstruct.gravelore.name=Gravel Ore
+tile.tconstruct.gravelore.name=砂利鉱石
 block.ore.gravel.iron.name=鉄砂利鉱石
 block.ore.gravel.gold.name=金砂利鉱石
 block.ore.gravel.copper.name=銅砂利鉱石
@@ -67,7 +67,7 @@ block.ore.gravel.tin.name=錫砂利鉱石
 block.ore.gravel.aluminum.name=アルミニウム砂利鉱石
 block.ore.gravel.cobalt.name=コバルト砂利鉱石
 
-tile.SpeedBlock.name=Brownstone
+tile.SpeedBlock.name=ブラウンストーン
 block.brownstone.rough.name=粗いブラウンストーン
 block.brownstone.rough.road.name=粗いブラウンストーンの道
 block.brownstone.smooth.name=ブラウンストーン
@@ -76,7 +76,7 @@ block.brownstone.smooth.road.name=ブラウンストーンの道
 block.brownstone.smooth.fancy.name=おしゃれなブラウンストーンタイル
 block.brownstone.smooth.chiseled.name=模様入りのブラウンストーン
 
-tile.SpeedSlab.name=Brownstone Slab
+tile.SpeedSlab.name=ブラウンストーンのハーフブロック
 block.brownstone.rough.slab.name=粗いブラウンストーンのハーフブロック
 block.brownstone.rough.road.slab.name=粗いブラウンストーンの道のハーフブロック
 block.brownstone.smooth.slab.name=ブラウンストーンのハーフブロック
@@ -85,8 +85,8 @@ block.brownstone.smooth.road.slab.name=ブラウンストーンの道のハー�
 block.brownstone.smooth.fancy.slab.name=おしゃれなブラウンストーンタイルのハーフブロック
 block.brownstone.smooth.chiseled.slab.name=模様入りのブラウンストーンのハーフブロック
 
-tile.Decoration.Brick.name=Brick
-tile.Decoration.BrickMetal.name=Metal Brick
+tile.Decoration.Brick.name=レンガ
+tile.Decoration.BrickMetal.name=金属レンガ
 block.brick.obsidian.name=黒曜石レンガ
 block.brick.sandstone.name=砂岩レンガ
 block.brick.netherrack.name=ネザーラックレンガ
@@ -106,7 +106,7 @@ block.brick.ardite.name=アーダイトレンガ
 block.brick.cobalt.name=コバルトレンガ
 block.brick.manyullyn.name=マニュリンレンガ
 
-tile.Decoration.BrickFancy.name=Fancy Brick
+tile.Decoration.BrickFancy.name=おしゃれなレンガ
 block.fancybrick.obsidian.name=おしゃれな黒曜石レンガ
 block.fancybrick.sandstone.name=おしゃれな砂岩レンガ
 block.fancybrick.netherrack.name=おしゃれなネザーラックレンガ
@@ -128,7 +128,7 @@ block.fancybrick.ardite.name=おしゃれなアーダイトレンガ
 block.fancybrick.cobalt.name=おしゃれなコバルトレンガ
 block.fancybrick.manyullyn.name=おしゃれなマニュリンレンガ
 
-tile.rail.wood.name=Wooden Rail
+tile.rail.wood.name=木製レール
 
 tile.cloth.white.slab.name=羊毛のハーフブロック
 tile.cloth.orange.slab.name=橙色の羊毛のハーフブロック
@@ -152,7 +152,7 @@ tile.liquid.glue.name=にかわ
 
 tile.Frypan.name=フライパン
 
-item.oreberry.name=Oreberry
+item.oreberry.name=鉱石ベリー
 item.oreberry.iron.name=鉄の鉱石ベリー
 item.oreberry.gold.name=金の鉱石ベリー
 item.oreberry.copper.name=銅の鉱石ベリー
@@ -165,7 +165,7 @@ item.tconstruct.titleicon.name=スポーン
 
 tile.tconstruct.meatblock.name=骨付きハム
 
-item.InfiTool.name=Tool / Weapon
+item.InfiTool.name=ツール / 武器
 item.InfiTool.Pickaxe.name=ツルハシ
 item.InfiTool.Shovel.name=シャベル
 item.InfiTool.Axe.name=ハチェット
@@ -219,7 +219,7 @@ item.tconstruct.PotionLauncher.name=ポーションランチャー
 
 item.tool.randomarrow=ランダムストリーマー
 
-item.tconstruct.Pattern.name=Pattern
+item.tconstruct.Pattern.name=木型
 item.tconstruct.Pattern.blank_pattern.name=空白の木型
 item.tconstruct.Pattern.rod.name=持ち手の木型
 item.tconstruct.Pattern.pickaxe.name=ツルハシヘッドの木型
@@ -252,7 +252,7 @@ item.tconstruct.Pattern.crossbowbody.name=クロスボウボディの木型
 item.tconstruct.Pattern.bowlimb.name=弓幹の木型
 
 item.tconstruct.Pattern.blank_cast.name=空白の鋳型
-item.tconstruct.MetalPattern.name=Cast
+item.tconstruct.MetalPattern.name=鋳型
 item.tconstruct.MetalPattern.rod.name=持ち手の鋳型
 item.tconstruct.MetalPattern.pickaxe.name=ツルハシヘッドの鋳型
 item.tconstruct.MetalPattern.shovel.name=シャベルヘッドの鋳型
@@ -287,7 +287,7 @@ item.tconstruct.MetalPattern.crossbowbody.name=クロスボウボディの鋳型
 item.tconstruct.MetalPattern.bowlimb.name=弓幹の鋳型
 item.tconstruct.GearPattern.name=歯車の鋳型
 
-item.tconstruct.ClayPattern.name=Clay Cast
+item.tconstruct.ClayPattern.name=粘土鋳型
 item.tconstruct.ClayPattern.rod.name=持ち手の粘土鋳型
 item.tconstruct.ClayPattern.pickaxe.name=ツルハシヘッドの粘土鋳型
 item.tconstruct.ClayPattern.shovel.name=シャベルヘッドの粘土鋳型
@@ -321,7 +321,7 @@ item.tconstruct.ClayPattern.crossbowlimb.name=クロスボウリムの粘土鋳�
 item.tconstruct.ClayPattern.crossbowbody.name=クロスボウボディの粘土鋳型
 item.tconstruct.ClayPattern.bowlimb.name=弓幹の粘土鋳型
 
-item.tconstruct.Materials.name=Material
+item.tconstruct.Materials.name=素材
 item.tconstruct.Materials.PaperStack.name=紙束
 item.tconstruct.Materials.SlimeCrystal.name=スライムクリスタル
 item.tconstruct.Materials.SearedBrick.name=焼成レンガ
@@ -383,7 +383,7 @@ item.tconstruct.travelboots.name=旅人のブーツ
 item.tconstruct.travelgloves.name=旅人のグローブ
 item.tconstruct.travelbelt.name=旅人のベルト
 
-item.tconstruct.jerky.name=Jerky
+item.tconstruct.jerky.name=ジャーキー
 item.tconstruct.jerky.beef.name=ビーフジャーキー
 item.tconstruct.jerky.pig.name=ベーコンジャーキー
 item.tconstruct.jerky.chicken.name=チキンジャーキー
@@ -396,7 +396,7 @@ item.tconstruct.jerky.blood.name=凝固したブラッドドロップ
 beginnertool.pickaxe=初心者のツルハシ
 beginnertool.hatchet=初心者のハチェット
 
-tile.Smeltery.name=Smeltery Block
+tile.Smeltery.name=乾式製錬炉ブロック
 Smeltery.Controller.name=乾式製錬炉制御器
 Smeltery.Drain.name=製錬炉排液口
 Smeltery.Brick.name=焼成レンガ
@@ -424,7 +424,7 @@ tile.trap.barricade.birch.name=シラカバのバリケード
 tile.trap.barricade.jungle.name=ジャングルのバリケード
 tile.explosive.slime.name=SDX
 
-tile.tconstruct.metalblock.name=Block
+tile.tconstruct.metalblock.name=ブロック
 StorageMetals.Cobalt.name=コバルトブロック
 StorageMetals.Ardite.name=アーダイトブロック
 StorageMetals.Manyullyn.name=マニュリンブロック
@@ -439,10 +439,10 @@ StorageMetals.Ender.name=凝固エンダーブロック
 
 tile.decoration.stonetorch.name=石の松明
 tile.decoration.stoneladder.name=石のはしご
-tile.CraftingSlab.name=Crafting Station
+tile.CraftingSlab.name=改良作業台
 tile.CraftingStation.name=改良作業台
 
-tile.GlassBlock.name=Glass
+tile.GlassBlock.name=ガラス
 block.glass.pure.name=クリアガラス
 block.glass.soul.name=ソウルガラス
 block.glass.soul.pure.name=クリアソウルガラス
@@ -451,7 +451,7 @@ block.glass.pure.pane.name=クリアガラス板
 block.glass.soul.pane.name=ソウルガラス板
 block.glass.soul.pane.pure.name=クリアソウルガラス板
 
-tile.GlassBlock.StainedClear.name=Stained Glass
+tile.GlassBlock.StainedClear.name=色付きガラス
 block.stainedglass.white.name=白色のクリアガラス
 block.stainedglass.orange.name=橙色のクリアガラス
 block.stainedglass.magenta.name=赤紫色のクリアガラス
@@ -469,7 +469,7 @@ block.stainedglass.green.name=緑色のクリアガラス
 block.stainedglass.red.name=赤色のクリアガラス
 block.stainedglass.black.name=黒色のクリアガラス
 
-tile.tconstruct.glasspanestained.name=Stained Pane
+tile.tconstruct.glasspanestained.name=色付きガラス板
 block.stainedglass.white.pane.name=白色のクリアガラス板
 block.stainedglass.orange.pane.name=橙色のクリアガラス板
 block.stainedglass.magenta.pane.name=赤紫色のクリアガラス板
@@ -487,7 +487,7 @@ block.stainedglass.green.pane.name=緑色のクリアガラス板
 block.stainedglass.red.pane.name=赤色のクリアガラス板
 block.stainedglass.black.pane.name=黒色のクリアガラス板
 
-tile.SearedSlab.name=Seared Slab
+tile.SearedSlab.name=焼成レンガのハーフブロック
 block.searedstone.slab.brick.name=焼成レンガのハーフブロック
 block.searedstone.slab.stone.name=焼成石のハーフブロック
 block.searedstone.slab.cobble.name=焼成石の丸石のハーフブロック
@@ -506,21 +506,21 @@ block.soil.slab.graveyardsoil.name=墓所の土のハーフブロック
 block.soil.slab.consecratedsoil.name=聖なる土のハーフブロック
 
 block.slime.soil.blue.name=ブルースライム土
-tile.slime.leaves.name=Slimy Leaves
+tile.slime.leaves.name=べとつく葉
 block.slime.leaves.blue.name=べとつく葉
-tile.slime.sapling.name=Slimy Sapling
+tile.slime.sapling.name=べとつく苗木
 block.slime.sapling.bluegreen.name=べとつく苗木
-tile.slime.grass.name=Slimy Grass
+tile.slime.grass.name=べとつく草ブロック
 block.slime.grass.blue.name=べとつく草ブロック
 block.slime.grass.dirt.name=べとつく草ブロック
-tile.slime.grass.tall.name=Slimy Grass
+tile.slime.grass.tall.name=べとつく草ブロック
 block.slime.tallgrass.name=べとつく草
-tile.slime.gel.name=Congealed Slime
+tile.slime.gel.name=凝固したスライム
 block.slime.congealed.blue.name=凝固したブルースライム
 block.slime.congealed.green.name=凝固したスライム
 block.slime.congealed.purple.name=凝固したパープルスライム
 
-item.tconstruct.storage.name=Knapsack
+item.tconstruct.storage.name=ナップザック
 item.tconstruct.storage.knapsack.name=ナップザック
 item.tconstruct.blankpattern.pattern.name=空白の木型
 item.tconstruct.blankpattern.cast.name=空白の鋳型
@@ -535,14 +535,14 @@ item.tconstruct.Fletching.slime.name=スライムの矢羽根
 item.tconstruct.Fletching.blueslime.name=ブルースライムの矢羽根
 item.tconstruct.Fletching.slimeleaf.name=べとつく葉の矢羽根
 
-item.tconstruct.manual.name=Manual
+item.tconstruct.manual.name=説明書
 item.tconstruct.manual.beginner.name=素材とあなた vol.1
 item.tconstruct.manual.toolstation.name=素材とあなた vol.2
 item.tconstruct.manual.smeltery.name=製錬の心得
 item.tconstruct.manual.diary.name=鋳掛屋の日記
 item.tconstruct.manual.weaponry.name=鋳掛屋の武器図鑑
 
-item.tconstruct.bucket.name=Bucket
+item.tconstruct.bucket.name=バケツ
 item.tconstruct.bucket.Iron.name=溶融鉄入りバケツ
 item.tconstruct.bucket.Gold.name=溶融金入りバケツ
 item.tconstruct.bucket.Copper.name=溶融銅入りバケツ
@@ -637,13 +637,13 @@ LiquidMetal.Invar.name=溶融インバー
 LiquidMetal.Electrum.name=溶融エレクトラム
 LiquidMetal.Ender.name=液体エンダー
 
-item.tconstruct.apple.diamond.name=Jeweled Apple
+item.tconstruct.apple.diamond.name=宝石のリンゴ
 item.food.apple.diamond.name=宝石のリンゴ
-item.tconstruct.strangefood.name=Strange Food
+item.tconstruct.strangefood.name=奇妙な食料
 item.tconstruct.strangefood.edibleslime.name=ブルースライムボール
 item.tconstruct.strangefood.edibleblood.name=凝固した血液
 item.tconstruct.strangefood.bacon.name=ベーコン
-item.tconstruct.canister.name=Heart Canister
+item.tconstruct.canister.name=ハートの器
 item.tconstruct.canister.empty.name=空の器
 item.tconstruct.canister.miniheart.red.name=小さな赤色のハート
 item.tconstruct.canister.red.name=赤色のハートの器
@@ -654,7 +654,7 @@ item.tconstruct.canister.green.name=緑色のハートの器
 item.tconstruct.glove.name=土掴みの手袋
 item.tconstruct.modifier.creative.name=クリエイティブツール修飾子
 
-tile.SearedBlock.name=Seared Block
+tile.SearedBlock.name=焼成ブロック
 SearedBlock.Table.name=鋳造台
 SearedBlock.Faucet.name=鋳造蛇口
 SearedBlock.Basin.name=鋳造鉢
@@ -713,37 +713,37 @@ toolpart.BowLimb=%%materialの弓幹
 toolpart.Bolt=%%materialのボルトの芯
 toolpart.Shaft=%%materialのシャフト
 
-item.tconstruct.ArrowHead.name=Arrowhead
-item.tconstruct.AxeHead.name=Axe Head
-item.tconstruct.Binding.name=Binding
-item.tconstruct.Bolt.name=Bolt
-item.tconstruct.BowLimb.name=Bow Limb
-item.tconstruct.Bowstring.name=Bowstring
-item.tconstruct.ChiselHead.name=Chisel Head
-item.tconstruct.Crossbar.name=Crossbar
-item.tconstruct.CrossbowBody.name=Crossbow Body
-item.tconstruct.CrossbowLimb.name=Crossbow Limb
-item.tconstruct.ExcavatorHead.name=Excavator Head
-item.tconstruct.Fletching.name=Fletching
-item.tconstruct.FrypanHead.name=Pan
-item.tconstruct.FullGuard.name=Full Guard
-item.tconstruct.HammerHead.name=Hammer Head
-item.tconstruct.KnifeBlade.name=Knife Blade
-item.tconstruct.LargeGuard.name=Wide Guard
-item.tconstruct.LargePlate.name=Large Plate
-item.tconstruct.LargeSwordBlade.name=Large Sword Blade
-item.tconstruct.LumberAxeHead.name=Broad Axe Head
-item.tconstruct.MediumGuard.name=Hand Guard
-item.tconstruct.PickaxeHead.name=Pickaxe Head
-item.tconstruct.ScytheHead.name=Scythe Head
-item.tconstruct.ShovelHead.name=Shovel Head
-item.tconstruct.Shuriken.name=Shuriken
-item.tconstruct.SignHead.name=Sign Head
-item.tconstruct.SwordBlade.name=Sword Blade
-item.tconstruct.ToolRod.name=Tool Rod
-item.tconstruct.ToolShard.name=Shard
-item.tconstruct.ToughBinding.name=Tough Binding
-item.tconstruct.ToughRod.name=Tough Rod
+item.tconstruct.ArrowHead.name=矢じり
+item.tconstruct.AxeHead.name=斧刃
+item.tconstruct.Binding.name=締め具
+item.tconstruct.Bolt.name=ボルト
+item.tconstruct.BowLimb.name=弓幹
+item.tconstruct.Bowstring.name=弓弦
+item.tconstruct.ChiselHead.name=ノミ刃
+item.tconstruct.Crossbar.name=十字鍔
+item.tconstruct.CrossbowBody.name=クロスボウボディ
+item.tconstruct.CrossbowLimb.name=クロスボウリム
+item.tconstruct.ExcavatorHead.name=エクスカベーターヘッド
+item.tconstruct.Fletching.name=矢羽根
+item.tconstruct.FrypanHead.name=鍋
+item.tconstruct.FullGuard.name=護拳
+item.tconstruct.HammerHead.name=ハンマーヘッド
+item.tconstruct.KnifeBlade.name=ナイフ刃
+item.tconstruct.LargeGuard.name=大鍔
+item.tconstruct.LargePlate.name=大きなプレート
+item.tconstruct.LargeSwordBlade.name=大きな刀身
+item.tconstruct.LumberAxeHead.name=大きな斧刃
+item.tconstruct.MediumGuard.name=鍔
+item.tconstruct.PickaxeHead.name=ツルハシヘッド
+item.tconstruct.ScytheHead.name=鎌刃
+item.tconstruct.ShovelHead.name=シャベルヘッド
+item.tconstruct.Shuriken.name=手裏剣
+item.tconstruct.SignHead.name=看板
+item.tconstruct.SwordBlade.name=刀身
+item.tconstruct.ToolRod.name=持ち手
+item.tconstruct.ToolShard.name=欠片
+item.tconstruct.ToughBinding.name=強化締め具
+item.tconstruct.ToughRod.name=強化持ち手
 
 # Now with translations of specific material and part combinations:
 #toolpart.ToolRod.wood=Wooden Tool Rod
@@ -903,7 +903,7 @@ tconstruct.nei.castingbasin=鋳造鉢
 tconstruct.nei.castingtable=鋳造台
 tconstruct.nei.dryingrack=物干し竿
 tconstruct.nei.melting=乾式製錬炉 (溶融)
-tconstruct.nei.dryingrack.duration=%d ticks (%d secs)
+tconstruct.nei.dryingrack.duration=%d ticks (%d 秒)
 
 gui.smeltery.fuel=燃料
 gui.smeltery.emerald=エメラルド: 
@@ -1088,7 +1088,7 @@ manual.page.modifier3=鋳掛屋の作業机
 manual.page.casting1=素材
 manual.page.tool1=必要なパーツ
 
-item.tconstruct.glassArrows.name=Glass Arrows
+item.tconstruct.glassArrows.name=ガラスの矢
 tool.glassarrows=ガラスの矢
 tool.glassarrows.lore=伝説のガラス職人が作った
 tool.boneana.lore=作成当時は良い発明のように思えた
@@ -1190,7 +1190,7 @@ modifier.tooltip.Triple-Jump=3段ジャンプ
 modifier.tooltip.ThaumicVision=奇跡的な洞察
 modifier.tooltip.Water-Walking=水上歩行
 
-tile.LavaTank.name=Seared Tank
+tile.LavaTank.name=焼成タンク
 option.tcon.searedtank=焼成タンクの情報を表示
 option.tcon.castingchannel=鋳造チャネルの情報を表示
 option.tcon.basin=鋳造鉢の情報を表示
@@ -1200,8 +1200,9 @@ option.tcon.smeltery=乾式製錬炉の状態を表示
 fluid.molten.unstableIngots=溶融不安定なインゴット
 fluid.molten.bedrockiumIngots=溶融ベッドロッキウムインゴット
 
-item.iguana.tcon.clayBucket.Quartz.name=溶融ネザークォーツ入り粘土バケツ
-
 #mobsinfo compat
-tconstruct.mobsinfocompat.tinkers_construct_beheading=Each level of beheading on your weapon gives additional %.2f%%
-tconstruct.mobsinfocompat.tinkers_construct_beheading_1=If you are using a Cleaver, it gives another %.2f%%
+tconstruct.mobsinfocompat.tinkers_construct_beheading=§7《§r首刈り§7／Beheading》§rのレベルごとに%.2f%%増加します
+tconstruct.mobsinfocompat.tinkers_construct_beheading_1=§7《§rクリーバー§7／Cleaver》§rを使用している場合、更に%.2f%%加算されます
+
+#Baubles compat (Baubles Expanded already has the relevant localizations)
+baubletype.any=&a指輪&7スロットに装備可能

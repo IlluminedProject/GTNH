@@ -15,7 +15,7 @@ thaumicenergistics.block.essentia.cell.workbench.name=Верстак для яч
 thaumicenergistics.block.arcane.assembler.name=Магический сборщик
 thaumicenergistics.block.knowledge.inscriber.name=Высекатель знаний
 thaumicenergistics.block.essentia.vibration.chamber.name=[WIP]Вибрационная камера эссенции
-thaumicenergistics.block.distillation.encoder.name=Дистилляционный кодировщик шаблонов
+thaumicenergistics.block.distillation.encoder.name=Кодировщик шаблонов дистилляции
 
 #Cable parts
 thaumicenergistics.item.aeparts.name=Шина/Терминал/Интерфейс/Монитор эссенции
@@ -26,34 +26,34 @@ thaumicenergistics.aeparts.essentia.StorageBus.name=Шина хранения э
 thaumicenergistics.aeparts.essentia.terminal.name=Терминал эссенции
 thaumicenergistics.aeparts.arcane.crafting.terminal.name=Магический терминал создания
 thaumicenergistics.aeparts.vis.interface.name=Интерфейс Вис-реле
-thaumicenergistics.aeparts.vis.interface_creative.name=Креативный интерфейс Вис-реле
+thaumicenergistics.aeparts.vis.interface_creative.name=Творческий интерфейс Вис-реле
 thaumicenergistics.aeparts.essentia.storage.monitor.name=Монитор хранения эссенции
 thaumicenergistics.aeparts.essentia.conversion.monitor.name=Монитор преобразования эссенции
 
 #Items
 item.itemCraftingAspect.name=Аспект
 thaumicenergistics.item.essentia.cell.name=МЭ ячейка хранения эссенции
-thaumicenergistics.item.essentia.cell.1k.name=1К МЭ ячейка хранения эссенции
-thaumicenergistics.item.essentia.cell.4k.name=4К МЭ ячейка хранения эссенции
-thaumicenergistics.item.essentia.cell.16k.name=16К МЭ ячейка хранения эссенции
-thaumicenergistics.item.essentia.cell.64k.name=64К МЭ ячейка хранения эссенции
-thaumicenergistics.item.essentia.cell.256k.name=256К МЭ ячейка хранения эссенции
-thaumicenergistics.item.essentia.cell.1024k.name=1024К МЭ ячейка хранения эссенции
-thaumicenergistics.item.essentia.cell.4096k.name=4096К МЭ ячейка хранения эссенции
-thaumicenergistics.item.essentia.cell.16384k.name=16384К МЭ ячейка хранения эссенции
+thaumicenergistics.item.essentia.cell.1k.name=§61К§r МЭ ячейка хранения эссенции
+thaumicenergistics.item.essentia.cell.4k.name=§e4К§r МЭ ячейка хранения эссенции
+thaumicenergistics.item.essentia.cell.16k.name=§a16К§r МЭ ячейка хранения эссенции
+thaumicenergistics.item.essentia.cell.64k.name=§b64К§r МЭ ячейка хранения эссенции
+thaumicenergistics.item.essentia.cell.256k.name=§9256К§r МЭ ячейка хранения эссенции
+thaumicenergistics.item.essentia.cell.1024k.name=§d1024К§r МЭ ячейка хранения эссенции
+thaumicenergistics.item.essentia.cell.4096k.name=§c4096К§r МЭ ячейка хранения эссенции
+thaumicenergistics.item.essentia.cell.16384k.name=§516384К§r МЭ ячейка хранения эссенции
 thaumicenergistics.item.essentia.cell.quantum.name=МЭ квантовая ячейка хранения эссенции
 thaumicenergistics.item.essentia.cell.singularity.name=МЭ сингулярная ячейка хранения эссенции
-thaumicenergistics.item.essentia.cell.creative.name=МЭ творческая ячейка хранения эссенции
+thaumicenergistics.item.essentia.cell.creative.name=Таумометрическая МЭ ячейка хранения эссенции
 thaumicenergistics.item.storage.casing.name=МЭ корпус ячейки хранения эссенции
 thaumicenergistics.item.storage.component.name=МЭ компонент хранения эссенции
-thaumicenergistics.item.storage.component.1k.name=1К МЭ компонент хранения эссенции
-thaumicenergistics.item.storage.component.4k.name=4К МЭ компонент хранения эссенции
-thaumicenergistics.item.storage.component.16k.name=16К МЭ компонент хранения эссенции
-thaumicenergistics.item.storage.component.64k.name=64К МЭ компонент хранения эссенции
-thaumicenergistics.item.storage.component.256k.name=256К МЭ компонент хранения эссенции
-thaumicenergistics.item.storage.component.1024k.name=1024К МЭ компонент хранения эссенции
-thaumicenergistics.item.storage.component.4096k.name=4096К МЭ компонент хранения эссенции
-thaumicenergistics.item.storage.component.16384k.name=16384К МЭ компонент хранения эссенции
+thaumicenergistics.item.storage.component.1k.name=§61К§r МЭ компонент хранения эссенции
+thaumicenergistics.item.storage.component.4k.name=§e4К§r МЭ компонент хранения эссенции
+thaumicenergistics.item.storage.component.16k.name=§a16К§r МЭ компонент хранения эссенции
+thaumicenergistics.item.storage.component.64k.name=§b64К§r МЭ компонент хранения эссенции
+thaumicenergistics.item.storage.component.256k.name=§9256К§r МЭ компонент хранения эссенции
+thaumicenergistics.item.storage.component.1024k.name=§d1024К§r МЭ компонент хранения эссенции
+thaumicenergistics.item.storage.component.4096k.name=§c4096К§r МЭ компонент хранения эссенции
+thaumicenergistics.item.storage.component.16384k.name=§516384К§r МЭ компонент хранения эссенции
 thaumicenergistics.item.material.name=Материал
 thaumicenergistics.item.material.diffusion.core.name=Ядро диффузии
 thaumicenergistics.item.material.coalescence.core.name=Ядро слияния
@@ -68,8 +68,8 @@ thaumicenergistics.item.cell.microscope.name=Микроскоп для ячее�
 #Tooltips
 thaumicenergistics.tooltip.itemstack.details=Зажмите §eCTRL§f для подробностей
 thaumicenergistics.tooltip.essentia.cell.contains=Содержит
-thaumicenergistics.tooltip.essentia.cell.bytes=%s из %s байт использовано.
-thaumicenergistics.tooltip.essentia.cell.types=%s из %s типов эссенции накоплено.
+thaumicenergistics.tooltip.essentia.cell.bytes=Байт использовано.
+thaumicenergistics.tooltip.essentia.cell.types=типов эссенции накоплено.
 thaumicenergistics.tooltip.button.void=Разрешить уничтожение?
 thaumicenergistics.tooltip.button.void.disabled=Не уничтожать эссенцию
 thaumicenergistics.tooltip.button.void.allowed=Уничтожать эссенцию, если банка заполнена
@@ -112,7 +112,7 @@ thaumicenergistics.research_page.TERESEARCH.1=Как учёный и знато�
 # Research conversion cores
 tc.research_name.thaumicenergistics.TECORES=Цифросенция
 tc.research_text.thaumicenergistics.TECORES=Цифровая эссенция.
-thaumicenergistics.research_page.TECORES.1=Обнаружив как перегонять эссенцию, Вы решили, что возможно сможете хранить её в цифром виде.<BR>Изучив §lЯдро формирования§r и §lЯдро истребления§r, Вы понимаете, что после некоторых незначительных изменений они смогут служить в качестве средства для преобразования эссенции в цифровый формат и из него.<BR>Однако, из-за коррозионной природы некоторых типов эссенций вокруг схемы требуется слой ртути для предотвращения разрушения.
+thaumicenergistics.research_page.TECORES.1=Обнаружив как перегонять эссенцию, Вы решили, что возможно сможете хранить её в цифром виде.<BR>Изучив §lЯдро формирования§r и §lЯдро уничтожения§r, Вы понимаете, что после некоторых незначительных изменений они смогут служить в качестве средства для преобразования эссенции в цифровый формат и из него.<BR>Однако, из-за коррозионной природы некоторых типов эссенций вокруг схемы требуется слой ртути для предотвращения разрушения.
 thaumicenergistics.research_page.TECORES.2=§lЯдро диффузии§r<BR>Из-за относительно высокой летучести и огромной энергии в дистиллированной эссенции её сначала нужно рассеить, а потом перевести в цифровую форму. Скорее всего потребуется какая-нибудь буферная камера для хранения рассеянной эссенции.<LINE>§lЯдро слияния§r<BR>Сжимает и связывает повторно материализованную рассеянную эссенцию обратно в её необработанную форму. Вероятно, буферная камера также потребуется.
 
 # Research storage
@@ -138,7 +138,7 @@ tc.research_text.thaumicenergistics.TEESSTERM=Зная, сколько у Вас
 thaumicenergistics.research_page.TEESSTERM.1=§lТерминал эссенции§r и §lБеспроводной терминал эссенции§r позволяют Вам просматривать количество накопленной эссенции в сети и предоставляют возможность заполнять и опустошать контейнеры эссенции в терминале.<BR>§lИзлучатель уровня эссенции§r выдает сигнал красного камня, когда уровень эссенции в сети падает ниже или поднимается выше определенного количества.
 thaumicenergistics.research_page.TEESSTERM.2=§lМонитор хранения эссенции§r и §lМонитор преобразования эссенции§r позволит вам увидеть, сколько аспектов находится в сети с первого взгляда. Монитор преобразования также позволяет наполнять и извлекать эссенции из сети.<BR>Нажатие ПКМ с гаечным ключем будет блокировать/разблокировать монитор.<BR>Нажатие ПКМ по разблокированному монитору с биркой или заполненой банкой или пузырьком установит отображаемый аспект, а нажатие ПКМ пустой рукой очистит аспект.<BR>Нажатие ПКМ по заблокированному монитору преобразования запретит установку отображаемого аспекта, позволяя наполнять им банки или пузырьки, а SHIFT+ПКМ опустошать их.<BR>Двойное нажатие SHIFT+ПКМ опустошит все эссенции из вашего инвентаря.
 thaumicenergistics.research_page.TEESSTERM.3=§lИзлучатель уровня эссенции§r подает сигнал красного камня, когда уровень эссенции в сети падает ниже или поднимается выше установленного значения.
-thaumicenergistics.research_page.TEESSTERM.4=The §lEssentia Storage Monitor§r & §lEssentia Conversion Monitor§r allow you to see how much of an aspect is in the network at a glance. The conversion monitor also allows you to insert and extract essentia from the network.<BR>Right-clicking with a wrench will lock/unlock the monitor.<BR>Right-clicking an unlocked monitor with a label or filled jar or phial will set the displayed aspect, and right-clicking with an empty hand will clear aspect.<BR>Right-clicking a locked conversion monitor will fill jar or phial and Shift-Right-Clicking will empty them.<BR>Shift-Double-Right-Click will empty all essentia from your inventory.
+thaumicenergistics.research_page.TEESSTERM.4=§lМонитор хранения эссенции§r и §lМонитор преобразования эссенции§r позволяют вам мгновенно узнать, сколько того или иного аспекта находится в сети. Монитор преобразования также позволяет вводить и извлекать эссенцию из сети.<BR>ПКМ с гаечным ключом - заблокировать/разблокировать монитор.<BR>ПКМ по разблокированному монитору с ярлыком, заполненной банкой или пузырьком - установить отображаемый аспект, ПКМ с пустой рукой - сбросить аспект.<BR>ПКМ по заблокированному монитору преобразования заполнит банку или пузырёк, Shift+ПКМ - опустошит их.<BR>Shift+двойной ПКМ - удалит всю эссенцию из вашего инвентаря.
 
 # Research Essentia Provider
 tc.research_name.thaumicenergistics.TEESSPROV=Поставщик эссенции
@@ -152,13 +152,13 @@ thaumicenergistics.research_page.TEINFPROV.1=После изучения про�
 
 # Research Advanced Infusion Provider
 tc.research_name.thaumicenergistics.TEADVINFPROV=Улучшенный поставщик наполнения
-tc.research_text.thaumicenergistics.TEADVINFPROV=Easiest Infusion.
-thaumicenergistics.research_page.TEADVINFPROV.1=As you continue to optimize your ME network autocrafting, you've been stumped by infusion recipes countless times.<BR>Now you have a new idea, why not leave the task of preparing essentia to your ME network?<BR>So you've developed a new infusion provider that incorporates the functionality of the Interceptor and automatically orders the missing essentia. It can also bind multiple infusion matrices in 25*25*11 area. All you need to do is just put it down among those matrices, that's it. Right-click allows him to search the area for matrix and rebind it.
+tc.research_text.thaumicenergistics.TEADVINFPROV=Самая простая инфузия.
+thaumicenergistics.research_page.TEADVINFPROV.1=Продолжая оптимизировать автокрафтинг в вашей МЭ-сети, вы бесчисленное количество раз сталкивались с проблемами рецептов инфузии.<BR>Теперь у вас появилась новая идея - почему бы не поручить подготовку эссенции самой МЭ-сети?<BR>Вы разработали новый поставщик инфузии, сочетающий в себе функциональность Перехватчика и автоматически заказывающий недостающую эссенцию. Он также может привязывать несколько матриц инфузии в области 25×25×11. Всё, что нужно - просто разместить его среди этих матриц, и всё. ПКМ позволяет ему просканировать область в поисках матриц и перепривязать их.
 
 # Research Vis Interface
 tc.research_name.thaumicenergistics.TEVISINT=Интерфейс Вис-реле
 tc.research_text.thaumicenergistics.TEVISINT=Цифровое использование Вис
-thaumicenergistics.research_page.TEVISINT.1=После обнаружения энергетической системы Вис, Вы начали искать способы соединения Вашей цифровой системы с системой Вис.<BR>После наблюдения затем как Вис течёт по сети §lВис-реле§r, Вы решили, что можно сделать цифровое устройство для обуздания Вис. Благодаря использованию возможности точка-точка цифровой сети, Вис может быть извлечён, туннелирован, и использован Вашими цифровыми устройствами.<BR>Извлечение Вис из сети или его накопление потребует больших исследований.
+thaumicenergistics.research_page.TEVISINT.1=После обнаружения энергетической системы вис, вы начали искать способы соединения вашей цифровой системы с системой вис.<BR>После наблюдения затем как вис течёт по сети §lвис-реле§r, вы решили, что можно сделать цифровое устройство для обуздания вис. Благодаря использованию возможности точка-точка цифровой сети, вис может быть извлечён, туннелирован, и использован вашими цифровыми устройствами.<BR>Извлечение вис из сети или его накопление потребует больших исследований.
 thaumicenergistics.research_page.TEVISINT.2=Чтобы использовать §lИнтерфейс Вис-реле§r, присоедините его к цифровой сети и поставьте Вис-реле на него. Основа реле должна быть напротив интерфейса.<BR>Для того, чтобы устройство получало Вис, оно должно быть соединено с интерфейсом. Чтобы присоединить другие устройства к интерфейсу, Вам потребуется §lКарта памяти§r. Каждое устройство может быть соединено только с одним интерфейсом.<BR>Shift+ПКМ по интерфейсу картой памяти, затем ПКМ по устройству, чтобы создать соединение.<BR>Нажатие ПКМ по любому устройству пустой картой памяти удалит соединение.
 thaumicenergistics.research_page.TEVISINT.3=§lСоединения§r<LINE>§lИнтерфейс Вис-реле§r. Создает P2P вис-туннель.<BR>§lМагический терминал создания§r. Заряжает желз в М.Т.С.<BR>§lМагический сборщик§r. Заполняет хранилище Вис, используется в создании.
 
@@ -199,9 +199,9 @@ thaumicenergistics.research_page.TEFOCUSWRENCH.1=Этот набалдашник
 # Research Essentia Vibration Chamber
 tc.research_name.thaumicenergistics.TEESSVIBCMBR=Вибрационная камера эссенции
 tc.research_text.thaumicenergistics.TEESSVIBCMBR=Сеть с питанием от эссенции
-thaumicenergistics.research_page.TEESSVIBCMBR.1=Получение электроэнергии для вашей сети до этого момента зависело от сжигания предметов в §lВибрационной камере§r. Это вот-вот изменится!<BR>Вы создали простое устройство, которое высвобождает энергию эссенции для подпитки вибрационной камеры. Используя дистиллированную эссенцию §lIgnis или Potentia§r, вы можете генерировать больше энергии, чем просто сжигание предмета.<BR>Имейте в виду, что у неё такое же поведение регулирования, как и у исходной камеры: она сводит к минимуму потери энергии, замедляя реакцию, если сеть полностью заряжен, но пока есть эссенция, которую можно использовать, он будет её использовать.
-thaumicenergistics.research_page.TEESSVIBCMBR.2=§l§nОперация§r<BR>Разбивая предмет, например уголь, на Ignis или Potentia, из эссенции можно получить гораздо больше энергии. Ваши предварительные оценки показывают рост примерно на 350% при переработке угольной эссенции по сравнению с угольной эссенцией сжигание угля напрямую. Потенция эссенции кажется гораздо более мощной, чем Ignis.<BR>§lE.V.C.§r будет регулярно менять запрашиваемую эссенцию, когда она пуста. Когда эссенция сохраняется, она будет запрашивать только больше сохраненной эссенции.
-thaumicenergistics.research_page.TEESSVIBCMBR.3=Открытие графического интерфейса показывает, сколько и какого типа эссенции хранится. Что сейчас обрабатывается и оставшееся время. А также текущий уровень производства энергии.<LINE>§l§nNotes§r<BR>§lE.V.C.§r можно поместить в §lТерминал эссенции§r, чтобы быстро заполнить или опустошить хранящуюся эссенцию.<BR>§lШина экспорта эссенции§r, §lПоставщик эссенции§r и трубы эссенции можно использовать для поддержания §lE.V.C.§r заполненным.
+thaumicenergistics.research_page.TEESSVIBCMBR.1=Получение электроэнергии для вашей сети до этого момента зависело от сжигания предметов в §lВибрационной камере§r. Это вот-вот изменится!<BR>Вы создали простое устройство, которое высвобождает энергию эссенции для подпитки вибрационной камеры. Используя дистиллированную эссенцию §lIgnis или Potentia§r, вы можете генерировать больше энергии, чем просто сжигание предмета.<BR>Имейте в виду, что у неё такое же поведение регулирования, как и у исходной камеры: она сводит к минимуму потери энергии, замедляя реакцию, если сеть полностью заряжен, но пока есть эссенция, которую можно использовать, она будет её использовать.
+thaumicenergistics.research_page.TEESSVIBCMBR.2=§l§nОперация§r<BR>Разбивая предмет, например уголь, на Ignis или Potentia, из эссенции можно получить гораздо больше энергии. Ваши предварительные оценки показывают рост примерно на 350% при переработке угольной эссенции по сравнению с угольной эссенцией сжигание угля напрямую. Potentia эссенция кажется гораздо более мощной, чем Ignis.<BR>§lE.V.C.§r будет регулярно менять запрашиваемую эссенцию, когда она пуста. Когда эссенция сохраняется, она будет запрашивать только больше сохраненной эссенции.
+thaumicenergistics.research_page.TEESSVIBCMBR.3=Открытие графического интерфейса показывает сколько и какого типа эссенции хранится, что сейчас обрабатывается и оставшееся время, а также текущий уровень производства энергии.<LINE>§l§nNotes§r<BR>§lE.V.C.§r можно поместить в §lТерминал эссенции§r, чтобы быстро заполнить или опустошить хранящуюся эссенцию.<BR>§lШина экспорта эссенции§r, §lПоставщик эссенции§r и трубы эссенции можно использовать для поддержания §lE.V.C.§r заполненным.
 
 # Research Distillation Pattern Encoder
 tc.research_name.thaumicenergistics.TEDISTILLATIONPATTERNENCODER=Дистилляционый кодировщик шаблонов
@@ -224,4 +224,4 @@ thaumicenergistics.research_page.TEGOLEMWIFIBACKPACK.ADVANCEDGOLEM=§nУлучш
 # Research Cell Microscope
 tc.research_name.thaumicenergistics.TECELLMICROSCOPE=Микроскопия ячеек
 tc.research_text.thaumicenergistics.TECELLMICROSCOPE=Воздушные кварки и Терра-кварки
-thaumicenergistics.research_page.TECELLMICROSCOPE.1=Благодаря тщательному изучению и экспериментам вы разработали микроскопическое сканирующее устройство, которое может создавать детальное изображение энергии, содержащейся в ячейке хранения. Это сложная задача, требующая, чтобы во время процесса камера находилась на земле.<LINE>Все содержимое будет сканироваться так, как будто на неё смотрят через §lТаумометр§r.
+thaumicenergistics.research_page.TECELLMICROSCOPE.1=Благодаря тщательному изучению и экспериментам вы разработали микроскопическое сканирующее устройство, которое может создавать детальное изображение энергии, содержащейся в ячейке хранения. Это сложная задача, требующая чтобы во время процесса камера находилась на земле.<LINE>Все содержимое будет сканироваться так, как будто на неё смотрят через §lТаумометр§r.

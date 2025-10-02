@@ -19,10 +19,10 @@ item.enderio.itemEnderface.name=Лицо Края
 
 #Conduits
 enderio.blockConduitBundle=Связка кондуит
-tile.blockConduitFacade.name=Фасад для кондуит
-enderio.blockConduitFacade=Фасад для кондуит
-item.enderio.itemConduitFacade.name=Фасад для кондуит
-item.enderio.itemConduitFacade.hardened.name=Прочный фасад для кондуит
+tile.blockConduitFacade.name=Фасад для кондуитов
+enderio.blockConduitFacade=Фасад для кондуитов
+item.enderio.itemConduitFacade.name=Фасад для кондуитов
+item.enderio.itemConduitFacade.hardened.name=Прочный фасад для кондуитов
 enderio.item.itemConduitFacade.tooltip.notpainted=Не покрашен
 item.enderio.itemConduitFacade.tooltip.detailed.line1=Окрашивается в покрасочном механизме
 item.enderio.itemConduitFacade.tooltip.detailed.line2=ПКМ по кондуиту, чтобы поставить
@@ -158,7 +158,7 @@ entity.witherSkeleton.name=Скелет-иссушитель
 enderio.itemMaterial.name=Материалы
 item.itemMaterial.name=Материалы
 enderio.silicon.name=Кремний
-enderio.conduitBinder.name=Связующий элемент кондуит
+enderio.conduitBinder.name=Связующий элемент кондуитов
 enderio.binderComposite.name=Составной связующий элемент
 enderio.phasedIronNugget.name=Пульсирующий железный самородок
 tile.blockDarkIronBars.name=Прутья из тёмной стали
@@ -202,13 +202,13 @@ fluid.liquid_sunshine=Жидкий солнечный свет
 tile.fluid.liquid_sunshine.name=Солнечный свет
 item.bucketLiquid_sunshine.name=Ведро жидкого солнечного света
 
-fluid.cloud_seed=Облако семян
-tile.fluid.cloud_seed.name=Облако семян
-item.bucketCloud_seed.name=Ведро с облаком семян
+fluid.cloud_seed=Семя облака
+tile.fluid.cloud_seed.name=Семя облака
+item.bucketCloud_seed.name=Ведро с семенем облака
 
-fluid.cloud_seed_concentrated=Концентрированное облако семян
-tile.fluid.cloud_seed_concentrated.name=Концентрированное облако семян
-item.bucketCloud_seed_concentrated.name=Ведро с концентрированным облаком семян
+fluid.cloud_seed_concentrated=Концентрированное семя облака
+tile.fluid.cloud_seed_concentrated.name=Концентрированное семя облака
+item.bucketCloud_seed_concentrated.name=Ведро с концентрированным семенем облака
 
 fluid.ender_distillation=Роса пустоты
 tile.fluid.ender_distillation.name=Роса пустоты
@@ -508,7 +508,7 @@ tile.blockPowerMonitor.tooltip.detailed.line1=Показывает сведен�
 tile.blockPowerMonitor.tooltip.detailed.line2=и хранилище
 tile.blockPowerMonitor.tooltip.detailed.line3=Может быть использован для излучения красного камня
 tile.blockPowerMonitor.tooltip.detailed.line4=на основе хранимой энергии
-tile.blockPowerMonitor.tooltip.detailed.line5=Должен быть присоединён к Ender IO
+tile.blockPowerMonitor.tooltip.detailed.line5=Должен быть присоединён к EnderIO
 tile.blockPowerMonitor.tooltip.detailed.line6=кондуиту
 
 tile.blockVat.name=Чан
@@ -637,11 +637,11 @@ tile.blockExperienceObelisk.tooltip.detailed.line3=присоединённым 
 
 tile.blockWeatherObelisk.name=Погодный обелиск
 tile.blockWeatherObelisk.tooltip.detailed.line1=Изменяет текущую погоду
-tile.blockWeatherObelisk.tooltip.detailed.line2=Требует много энергии и
-tile.blockWeatherObelisk.tooltip.detailed.line3=предмет в качестве катализатора
+tile.blockWeatherObelisk.tooltip.detailed.line2=Требует фейерверк и 1000 Л
+tile.blockWeatherObelisk.tooltip.detailed.line3=одна из следующих жидкостей:
 tile.blockWeatherObelisk.tooltip.detailed.line4=Жидкий солнечный свет: Солнце
-tile.blockWeatherObelisk.tooltip.detailed.line5=Облако семян: Дождь
-tile.blockWeatherObelisk.tooltip.detailed.line6=Концентрированное облако семян: Шторм
+tile.blockWeatherObelisk.tooltip.detailed.line5=Семя облака: Дождь
+tile.blockWeatherObelisk.tooltip.detailed.line6=Концентрированное семя облака: Шторм
 
 tile.blockBuffer.name=Буфер
 tile.blockBuffer.item.name=Предметный буфер
@@ -811,7 +811,7 @@ item.itemMagnet.tooltip.detailed.line2=Shift+ПКМ, чтобы включить
 item.itemMagnet.tooltip.detailed.line3=Должен быть запитан, активен и в
 item.itemMagnet.tooltip.detailed.line4=панели быстрого доступа(или в слоте Baubles) для функционирования
 
-item.enderio.itemConduitProbe.name=Зонд для кондуит
+item.enderio.itemConduitProbe.name=Зонд для кондуитов
 item.enderio.itemConduitProbe.tooltip.detailed.line1=ПКМ по кондуиту, чтобы отобразить
 item.enderio.itemConduitProbe.tooltip.detailed.line2=детали о её сети
 item.enderio.itemConduitProbe.tooltip.detailed.line3=Shift+ПКМ по трубе, чтобы
@@ -839,7 +839,7 @@ skullZombieElectrode.name=Зомби-электрод
 skullZombieController.name=Зомби-контроллер
 skullZombieFrankenstien.name=Зомби Фрэнк
 skullEnderResonator.name=Резонатор Края 
-skullSentientEnder.name=Разумный Край
+skullSentientEnder.name=Разумный край
 skullSkeletalContractor.name=Скелетный подрядчик
 skullGuardianDiode.name=Диод охраны
 
@@ -1078,7 +1078,7 @@ enderio.gui.machine.ioMode.overlay.tooltip.visible.line2=на настройки
 enderio.gui.machine.ioMode.none=Нет
 enderio.gui.machine.ioMode.pull=Тянуть
 enderio.gui.machine.ioMode.push=Толкать
-enderio.gui.machine.ioMode.disabled=Отключен
+enderio.gui.machine.ioMode.disabled=Отключён
 enderio.gui.machine.ioMode.pullPush=Толкать/Тянуть
 enderio.gui.machine.ioMode.pullPush.colored=%sТолкать %s/ %sТянуть
 enderio.gui.machine.ioMode=Режим: %s
@@ -1239,7 +1239,7 @@ enderio.gui.item_filter.match_meta=Соблюдать метаданные
 enderio.gui.item_filter.ignore_meta=Игнорировать метаданные
 enderio.gui.item_filter.sticky_enabled=Включён "липкий" режим
 enderio.gui.item_filter.sticky_enabled2=Выбранные предметы будут отправляться только на этот или другие липкие выходы
-enderio.gui.item_filter.sticky_disabled=Отключен "липкий" режим
+enderio.gui.item_filter.sticky_disabled=Отключён "липкий" режим
 enderio.gui.item_filter.ore_dic_enabled=Использовать словарь руд
 enderio.gui.item_filter.ore_dic_disabled=Игнорировать словарь руд
 enderio.gui.item_filter.match_nbt=Соблюдать NBT
@@ -1298,7 +1298,7 @@ enderio.gui.conduit.ioMode=Режим
 enderio.gui.conduit.ioMode.inOut=Вход / Выход
 enderio.gui.conduit.ioMode.input=Извлекать
 enderio.gui.conduit.ioMode.output=Помещать
-enderio.gui.conduit.ioMode.disabled=Отключен
+enderio.gui.conduit.ioMode.disabled=Отключён
 enderio.gui.conduit.ioMode.notSet=По-умолчанию
 tile.blockConduitBundle.name=Коннектор для труб
 
@@ -1368,7 +1368,7 @@ enchantment.enderio.soulBound=Печать души
 description.enchantment.enderio.soulBound=Предотвращает потерю предмета из инвентаря после смерти
 
 #Configuration
-enderio.config.title=Конфигурация Ender IO
+enderio.config.title=Конфигурация EnderIO
 
 enderio.config.power=Настройки энергии
 enderio.config.power.tooltip=Так много значений для изменения...

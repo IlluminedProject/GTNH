@@ -461,6 +461,7 @@ tooltip.divinationsigil.desc1=Vislumbre dentro de sua alma
 tooltip.divinationsigil.desc2=para visualizar a quantia atual de essência.
 tooltip.energybazooka.desc=Boom.
 tooltip.energybattery.desc=Armazenada Essentia Vital Bruta.
+tooltip.energybattery.capacity=Capacity: %,d LP
 tooltip.energyblast.desc1=Usada para disparar
 tooltip.energyblast.desc2=projeteis devastadores.
 tooltip.enhancedtelepfocus.desc=Um foco aprimorado ainda mais em um altar
@@ -578,6 +579,7 @@ message.tanksegmenter.nowhas=Tanque contém agora
 message.tanksegmenter.setto=Segmentador de Tanque definido para:
 message.tanksegmenter.tankssetto=tanque(s) definido(s) para:
 message.routerfocus.limit=Limite de item do foco definido para:
+message.warn.spiritWorld=Teleporting to Witchery's Spirit World causes problems and is temporarily disabled.
 
 #Achievements
 achievement.alchemicalwizardry:firstPrick=Sua Primeira Picada!
@@ -628,6 +630,25 @@ achievement.alchemicalwizardry:demons=Caçador de Demônios
 achievement.alchemicalwizardry:demons.desc=Mate um demônio
 achievement.alchemicalwizardry:trancsendentOrb=OP!
 achievement.alchemicalwizardry:trancsendentOrb.desc=Obtenha uma Orbe Sangrenta Transcendental
+
+#Buff
+bm.buff.drowning=Drowning
+bm.buff.boost=Boost
+bm.buff.whirlwind=Whirlwind
+bm.buff.inhibit=Inhibit
+bm.buff.flight=Flight
+bm.buff.reciprocation=Reciprocation
+bm.buff.flame_cloak=Flame Cloak
+bm.buff.ice_cloak=Ice Cloak
+bm.buff.heavy_heart=Heavy Heart
+bm.buff.fire_fuse=Fire Fuse
+bm.buff.planar_binding=Planar Binding
+bm.buff.soul_fray=Soul Fray
+bm.buff.soul_harden=Soul Harden
+bm.buff.deafness=Deafness
+bm.buff.feather_fall=Feather Fall
+bm.buff.demon_cloak=Demon Cloaking
+bm.buff.amphibian=Amphibian
 
 #G-API Downloading
 bm.versioning.getGAPI=["[BM] Você não possui o Guide-API instalado! Instale-o para liberar o livro! [",{"text":"Download","color":"red","hoverEvent":{"action":"show_text","value":{"text":"Clique aqui para automagicamente baixar a última versão","color":"red"}},"clickEvent":{"action":"run_command","value":"/bloodmagic-download-g-api"}},"]"]

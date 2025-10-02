@@ -109,7 +109,7 @@ entity.Railcraft.cart.track.remover.name=Убиратель путей
 entity.Railcraft.cart.undercutter.name=Врубовая машина
 entity.Railcraft.cart.work.name=Вагонетка с верстаком
 
-fluid.creosote=Креозотовое масло
+fluid.creosote=Креозот
 fluid.steam=Пар
 
 item.nomobspawnsonthisblock.tip=Монстры не могут появляться на этом блоке
@@ -191,12 +191,12 @@ item.railcraft.firestone.refined.name=Очищенный огненный кам
 item.railcraft.firestone.refined.tip.charged=Наполнен энергией,\n Вам нужно только приложить\n свою волю на то,\n чтобы выпустить тепло...
 item.railcraft.firestone.refined.tip.empty=Его энергия контролируется,\n он мог бы быть полезным,\n если бы Вы могли зарядить его...
 
-item.railcraft.fluid.creosote.bottle.name=Бутылка креозотового масла
+item.railcraft.fluid.creosote.bottle.name=Бутылка креозота
 item.railcraft.fluid.creosote.bucket.name=Ведро креозота
-item.railcraft.fluid.creosote.can.name=Банка креозотового масла
-item.railcraft.fluid.creosote.cell.name=Капсула креозотового масла
-item.railcraft.fluid.creosote.refactory.name=Огнеупорная капсула креозотового масла
-item.railcraft.fluid.creosote.wax.name=Восковая капсула креозотового масла
+item.railcraft.fluid.creosote.can.name=Банка креозота
+item.railcraft.fluid.creosote.cell.name=Капсула креозота
+item.railcraft.fluid.creosote.refactory.name=Восковая капсула креозота
+item.railcraft.fluid.creosote.wax.name=Восковая капсула креозота
 item.railcraft.fluid.steam.bottle.name=Бутылка пара
 
 item.railcraft.fuel.coke.name=Коксовый уголь
@@ -742,7 +742,7 @@ tile.railcraft.detector.villager.name=Детектор - Деревенский 
 
 tile.railcraft.firestone.recharge.name=Заряжающийся огненный камень
 
-tile.railcraft.fluid.creosote.name=Креозотовое масло
+tile.railcraft.fluid.creosote.name=Креозот
 tile.railcraft.fluid.steam.name=Пар
 
 tile.railcraft.frame.name=Опорный каркас для шунтирующего провода
@@ -781,19 +781,19 @@ tile.railcraft.machine.beta.boiler.firebox.liquid.tip=Мульти-блок: П�
 tile.railcraft.machine.beta.boiler.firebox.solid.name=Твёрдотопливная камера сгорания
 tile.railcraft.machine.beta.boiler.firebox.solid.tip=Мульти-блок: Переменный размер, нижний слой\n Размеры: 1x1, 2x2, 3x3
 tile.railcraft.machine.beta.boiler.tank.pressure.high.name=Котёл высокого давления
-tile.railcraft.machine.beta.boiler.tank.pressure.high.tip=Мульти-блок: Переменный размер, над топкой\n Размеры: 1x1x1, 2x2x2, 2x3x2,\n 3x2x3, 3x3x3, 3x4x3\n Производит 40Л пара за тик
+tile.railcraft.machine.beta.boiler.tank.pressure.high.tip=Мульти-блок: Переменный размер, над топкой\n Размеры: 1x1x1, 2x2x2, 2x3x2,\n 3x2x3, 3x3x3, 3x4x3\n Производит до 800Л пара в секунду
 tile.railcraft.machine.beta.boiler.tank.pressure.low.name=Котёл низкого давления
-tile.railcraft.machine.beta.boiler.tank.pressure.low.tip=Мульти-блок: Переменный размер, над топкой\n Размеры: 1x1x1, 2x2x2, 2x3x2,\n 3x2x3, 3x3x3, 3x4x3\n Производит 10Л пара за тик
+tile.railcraft.machine.beta.boiler.tank.pressure.low.tip=Мульти-блок: Переменный размер, над топкой\n Размеры: 1x1x1, 2x2x2, 2x3x2,\n 3x2x3, 3x3x3, 3x4x3\n Производит до 200Л пара в секунду
 tile.railcraft.machine.beta.chest.metals.name=Сундук для металлов
 tile.railcraft.machine.beta.chest.metals.tip=Конденсирует металлы в блоки
 tile.railcraft.machine.beta.chest.void.name=Пустотный сундук
 tile.railcraft.machine.beta.chest.void.tip=Удаление предметов
 tile.railcraft.machine.beta.engine.steam.high.name=Промышленный паровой двигатель
-tile.railcraft.machine.beta.engine.steam.high.tip=Производит 80 RF/т\n Использует 40Л пара за тик
+tile.railcraft.machine.beta.engine.steam.high.tip=Производит 80 RF/т\n Использует 800Л пара в секунду
 tile.railcraft.machine.beta.engine.steam.hobby.name=Любительский паровой двигатель
-tile.railcraft.machine.beta.engine.steam.hobby.tip=Производит 20 RF/т\n Использует 10Л пара за тик
+tile.railcraft.machine.beta.engine.steam.hobby.tip=Производит 20 RF/т\n Использует 200Л пара в секунду
 tile.railcraft.machine.beta.engine.steam.low.name=Коммерческий паровой двигатель
-tile.railcraft.machine.beta.engine.steam.low.tip=Производит 40 RF/т\n Использует 20Л пара за тик
+tile.railcraft.machine.beta.engine.steam.low.tip=Производит 40 RF/т\n Использует 400Л пара в секунду
 tile.railcraft.machine.beta.tank.iron.gauge.name=Водомерное стекло железного резервуара
 tile.railcraft.machine.beta.tank.iron.gauge.tip=Мульти-блок: Переменный размер, полый\n Высоты: 4, 5, 6, 7, 8\n Диаметры: 3, 5, 7, 9
 tile.railcraft.machine.beta.tank.iron.valve.name=Клапан железного резервуара

@@ -172,7 +172,7 @@ enderio.blastResistant=폭발 저항
 enderio.lightEmitter=빛을 발합니다.
 enderio.lightBlocker=Blocks Light
 enderio.tooltip.isBeaconBase=신호기에 사용 가능
-enderio.dustWheat.name=Flour
+enderio.dustWheat.name=밀가루
 
 enderio.itemEnderios.name="Enderios"
 enderio.itemEnderios.tooltip.common.line1=Part of a balanced breakfast!
@@ -777,6 +777,7 @@ enderio.itemCoordSelector.chat.setDimension=Set Dimension: %s%s
 #Painter
 tile.blockPainter.name=채색기
 enderio.blockPainter.paintedWith=채색된 블럭:
+enderio.blockPainter.paintedWith.none=§onothing§r
 tile.blockPaintedFence.name=채색된 울타리
 tile.blockPaintedFenceGate.name=채색된 울타리 문
 tile.blockPaintedWall.name=채색된 담장

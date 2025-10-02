@@ -777,6 +777,7 @@ enderio.itemCoordSelector.chat.setDimension=Establecer Dimensión: %s%s
 #Painter
 tile.blockPainter.name=Máquina de Pintar
 enderio.blockPainter.paintedWith=Pintado con:
+enderio.blockPainter.paintedWith.none=§onothing§r
 tile.blockPaintedFence.name=Valla Pintada
 tile.blockPaintedFenceGate.name=Puerta de Valla Pintada
 tile.blockPaintedWall.name=Muro Pintado
@@ -1422,7 +1423,7 @@ enderio.keybind.nightvision=Visión Nocturna
 enderio.keybind.soundlocator=Localizador de Sonidos
 enderio.keybind.speed=Velocidad
 enderio.keybind.jump=Salto
-enderio.keybind.stepassist=Assistente de Pasos
+enderio.keybind.stepassist=Asistente de Pasos
 enderio.keybind.yetawrenchmode=Modo de Llave Inglesa Yeta
 enderio.keybind.magnet=Activar/Desactivar Electroimán
 enderio.keybind.staffoftravelingtp=Travel Staff Blink

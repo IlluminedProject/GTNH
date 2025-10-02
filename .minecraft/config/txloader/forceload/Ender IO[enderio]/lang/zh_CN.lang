@@ -36,7 +36,7 @@ enderio.itemPowerConduitEnhanced.name=强化能量导管
 enderio.itemPowerConduitEnder.name=末影能量导管
 
 item.itemPowerConduitEndergy.name=能量导管
-enderio.itemPowerConduitEndergyCrude.name=复合粘土能量导管
+enderio.itemPowerConduitEndergyCrude.name=复合黏土能量导管
 enderio.itemPowerConduitEndergyIron.name=铁制能量导管
 enderio.itemPowerConduitEndergyAluminum.name=铝制能量导管
 enderio.itemPowerConduitEndergyGold.name=金制能量导管
@@ -88,7 +88,7 @@ enderio.filterUpgradeBigAdvanced.name=高级大型物品过滤器
 enderio.itemConduitFilterUpgrade=物品导管升级
 enderio.itemConduitFilterUpgrade.configured=已配置
 enderio.itemConduitFilterUpgrade.clearConfigMethod=放到合成格里面清除
-enderio.itemConduitFilterUpgrade.clearConfigWarning=这会清除所有存储的数据!
+enderio.itemConduitFilterUpgrade.clearConfigWarning=这会清除所有存储的数据！
 
 item.itemExistingItemFilter.name=现有物品过滤器
 item.itemExistingItemFilter.tooltip.basic.line1=给物品导管使用的升级
@@ -132,8 +132,8 @@ item.itemInventoryPanelUpgrade.name=远程接入升级
 item.itemInventoryPanelUpgrade.tooltip.basic.line1=存储控制面板远程接入升级
 item.itemInventoryPanelUpgrade.tooltip.detailed.line1=给物品导管使用的功能升级
 item.itemInventoryPanelUpgrade.tooltip.detailed.line2=允许存储控制面板接入该网
-item.itemInventoryPanelUpgrade.tooltip.detailed.line3=络, 使其能够显示存储容器
-item.itemInventoryPanelUpgrade.tooltip.detailed.line4=中的物品并进行抽取, 无视
+item.itemInventoryPanelUpgrade.tooltip.detailed.line3=络，使其能够显示存储容器
+item.itemInventoryPanelUpgrade.tooltip.detailed.line4=中的物品并进行抽取，无视
 item.itemInventoryPanelUpgrade.tooltip.detailed.line5=物品管道的模式.
 item.itemInventoryPanelUpgrade.tooltip.detailed.line6=(无需将管道设为抽取)
 
@@ -146,8 +146,7 @@ enderio.itemGasConduit.tooltip.detailed.line1=传送和通用机械兼容的气�
 item.itemMEConduit.name=ME导管
 enderio.itemMEConduit.name=ME导管
 enderio.itemMEConduitDense.name=致密ME导管
-enderio.itemMEConduitDenseUltra.name=超密ME导管
-enderio.itemMEConduit.channelsUsed=第{0,number}频道, 共{1,number}频道
+enderio.itemMEConduit.channelsUsed=第{0,number}频道，共{1,number}频道
 
 item.itemOCConduit.name=网络导管(OC)
 enderio.itemOCConduit.name=网络导管(OC)
@@ -159,8 +158,8 @@ entity.witherSkeleton.name=凋灵骷髅
 enderio.itemMaterial.name=材料
 item.itemMaterial.name=材料
 enderio.silicon.name=硅
-enderio.conduitBinder.name=导管粘合剂
-enderio.binderComposite.name=粘合胚料
+enderio.conduitBinder.name=导管黏合剂
+enderio.binderComposite.name=黏合胚料
 enderio.phasedIronNugget.name=脉冲铁粒
 tile.blockDarkIronBars.name=玄钢栅栏
 tile.blockSoulariumBars.name=魂金栅栏
@@ -176,8 +175,8 @@ enderio.tooltip.isBeaconBase=可用于当作信标底座
 enderio.dustWheat.name=面粉
 
 enderio.itemEnderios.name="末影麦片"
-enderio.itemEnderios.tooltip.common.line1=健康早餐的一部分!
-enderio.itemEnderios.tooltip.detailed.line1=其实并不健康. 含有253g糖, 53g脂肪
+enderio.itemEnderios.tooltip.common.line1=健康早餐的一部分！
+enderio.itemEnderios.tooltip.detailed.line1=其实并不健康。含有253g糖，53g脂肪
 enderio.itemEnderios.tooltip.detailed.line2=还有394g末影粉.
 enderio.itemEnderios.tooltip.detailed.line3=末影粉的副作用包括:恶心,头晕,混乱
 enderio.itemEnderios.tooltip.detailed.line4=以及随机传送.
@@ -293,7 +292,7 @@ enderio.endSteel.name=末影钢锭
 enderio.endSteelNugget.name=末影钢粒
 
 item.itemAlloyEndergy.name=合金
-enderio.crudeSteel.name=复合粘土
+enderio.crudeSteel.name=复合黏土
 enderio.crystallineAlloy.name=晶化合金
 enderio.melodicAlloy.name=旋律合金
 enderio.stellarAlloy.name=恒星合金
@@ -302,7 +301,7 @@ enderio.energeticSilver.name=充能银
 enderio.vividAlloy.name=生动合金
 
 item.itemGrindingBallEndergy.name=磨球
-enderio.crudeSteelGrindingBall.name=复合粘土磨球
+enderio.crudeSteelGrindingBall.name=复合黏土磨球
 enderio.crystallineAlloyGrindingBall.name=晶化合金磨球
 enderio.melodicAlloyGrindingBall.name=旋律合金磨球
 enderio.stellarAlloyGrindingBall.name=恒星合金磨球
@@ -341,7 +340,7 @@ tile.enderio.soularium.name=魂金块
 tile.enderio.endSteel.name=末影钢块
 
 tile.blockIngotStorageEndergy.name=合金块
-tile.enderio.crudeSteel.name=复合粘土块
+tile.enderio.crudeSteel.name=复合黏土块
 tile.enderio.crystallineAlloy.name=晶化合金块
 tile.enderio.melodicAlloy.name=旋律合金块
 tile.enderio.stellarAlloy.name=恒星合金块
@@ -377,7 +376,7 @@ enderio.totemicCapacitor.name=不死图腾电容
 enderio.machine.tooltip.upgrade=机器升级
 enderio.machine.tooltip.upgrade.tooltip.detailed.line1=增加机器能量存储与
 enderio.machine.tooltip.upgrade.tooltip.detailed.line2=速度/范围
-enderio.machine.tooltip.clearConfig=这会清除所有存储的数据!
+enderio.machine.tooltip.clearConfig=这会清除所有存储的数据！
 
 #Machines
 tile.blockStirlingGenerator.name=斯特林发电机
@@ -403,13 +402,13 @@ tile.blockAlloySmelter.tooltip.detailed.line5=增加速度与能量存储
 tile.blockSolarPanel.name=光伏板
 tile.blockSolarPanel.advanced.name=高级光伏板
 tile.blockSolarPanel.vibrant.name=脉冲光伏板
-tile.blockSolarPanel.tooltip.common.line1=太阳能!
+tile.blockSolarPanel.tooltip.common.line1=太阳能！
 tile.blockSolarPanel.tooltip.detailed.line1=白天产生能量
 tile.blockSolarPanel.tooltip.detailed.line2=顶部必须
 tile.blockSolarPanel.tooltip.detailed.line3=直面天空
 enderio.maxSolorProduction=最大输出
 enderio.tooltip.efficiency=效率
-enderio.tooltip.sunlightBlocked=天空被挡住了!
+enderio.tooltip.sunlightBlocked=天空被挡住了！
 
 tile.blockElectricLight.name=电灯
 item.itemElectricLight.name=电灯
@@ -442,11 +441,6 @@ item.itemWirelessLightInverted.tooltip.detailed.line2=照亮大片区域.
 item.itemWirelessLightInverted.tooltip.detailed.line3=有红石信号时熄灭
 item.itemWirelessLightInverted.tooltip.detailed.line4=可从无线充能器接收能量.
 
-tile.blockCapacitorBank.name=电容储能库
-tile.blockCapacitorBank.creative.name=创造模式电容储能库
-tile.blockCapacitorBank.tooltip.detailed.line1=多方块能量存储.
-tile.blockCapacitorBank.tooltip.detailed.line2=可以给使用RF能量的物品充能.
-tile.blockCapacitorBank.tooltipPrefix=包含
 
 tile.blockCapBank.name=电容库
 tile.blockCapBank.creative.name=创造模式电容库
@@ -521,9 +515,9 @@ tile.blockVat.name=酿液桶
 tile.blockVat.tooltip.detailed.line1=用于生产末影接口中的流体
 
 tile.blockEnchanter.name=附魔器
-tile.blockEnchanter.tooltip.detailed.line1=使用XP让物品与
-tile.blockEnchanter.tooltip.detailed.line2=来制作附魔书
-tile.blockEnchanter.tooltip.detailed.line3=附魔书创造!
+tile.blockEnchanter.tooltip.detailed.line1=使用XP将物品和
+tile.blockEnchanter.tooltip.detailed.line2=书与笔结合来制
+tile.blockEnchanter.tooltip.detailed.line3=作附魔书
 
 tile.blockCombustionGenerator.name=燃烧发电机
 tile.blockCombustionGenerator.tooltip.detailed.line1=燃烧流体燃料产生能量
@@ -564,7 +558,7 @@ tile.blockSliceAndSplice.tooltip.detailed.line2=各种有用的装置
 tile.blockFarmStation.name=种植站
 tile.blockFarmStation.tooltip.detailed.line1=种植与收割作物
 tile.blockFarmStation.tooltip.detailed.line2=需要能量与
-tile.blockFarmStation.tooltip.detailed.line3=合适的工具 (锄, 斧)
+tile.blockFarmStation.tooltip.detailed.line3=合适的工具（锄、斧）
 tile.blockFarmStation.tooltip.detailed.line4=工具上的抢夺 / 时运
 tile.blockFarmStation.tooltip.detailed.line5=效果在收割时仍然有效
 tile.blockFarmStation.tooltip.detailed.line6=使用电容器升级可
@@ -643,8 +637,11 @@ tile.blockExperienceObelisk.tooltip.detailed.line3=至相邻的储罐中
 
 tile.blockWeatherObelisk.name=气象方尖碑
 tile.blockWeatherObelisk.tooltip.detailed.line1=改变当前天气
-tile.blockWeatherObelisk.tooltip.detailed.line2=需要大量能量
-tile.blockWeatherObelisk.tooltip.detailed.line3=和催化物品
+tile.blockWeatherObelisk.tooltip.detailed.line2=需要一个烟花火箭和 1000L 
+tile.blockWeatherObelisk.tooltip.detailed.line3=下列流体中的一种
+tile.blockWeatherObelisk.tooltip.detailed.line4=液态阳光：晴天
+tile.blockWeatherObelisk.tooltip.detailed.line5=云之精华：雨天
+tile.blockWeatherObelisk.tooltip.detailed.line6=浓缩云之精华：雷暴天
 
 tile.blockBuffer.name=缓冲
 tile.blockBuffer.item.name=物品缓存器
@@ -665,7 +662,7 @@ enderio.gui.inventorypanel.info.filter=<按名称搜索>
 enderio.gui.inventorypanel.info.offline=<离线>
 enderio.gui.inventorypanel.tooltip.return.line1=物品返还区
 enderio.gui.inventorypanel.tooltip.return.line2=放置在这里的物品能够被
-enderio.gui.inventorypanel.tooltip.return.line3=物品管道抽取, 但不会被
+enderio.gui.inventorypanel.tooltip.return.line3=物品管道抽取，但不会被
 enderio.gui.inventorypanel.tooltip.return.line4=用于合成
 enderio.gui.inventorypanel.tooltip.return.line5=点击将其切换为存储区
 enderio.gui.inventorypanel.tooltip.storage.line1=物品存储区
@@ -686,7 +683,7 @@ enderio.gui.inventorypanel.tooltip.sort.count_down.line1=按物品耐久排序
 enderio.gui.inventorypanel.tooltip.sort.count_down.line2=耐久从高到低排序
 enderio.gui.inventorypanel.tooltip.sort.count_up.line1=按物品耐久排序
 enderio.gui.inventorypanel.tooltip.sort.count_up.line2=耐久从低到高排序
-enderio.gui.inventorypanel.tooltip.refill.line1=重新填充物品栏
+enderio.gui.inventorypanel.tooltip.refill.line1=补充合成栏
 enderio.gui.inventorypanel.tooltip.refill.line2=普通点击放置一次
 enderio.gui.inventorypanel.tooltip.refill.line3=合成所需要的物品
 enderio.gui.inventorypanel.tooltip.refill.line4=而Shift点击会尝试
@@ -735,7 +732,7 @@ tile.blockDarkSteelLadder.tooltip.common.line1=比普通的梯子更易攀爬
 #Travel
 tile.blockTravelAnchor.name=旅行锚
 tile.blockTravelAnchor.tooltip.detailed.line1=允许在锚点之间传送
-tile.blockTravelAnchor.tooltip.detailed.line2=站在一个锚上, 看着
+tile.blockTravelAnchor.tooltip.detailed.line2=站在一个锚上，看着
 tile.blockTravelAnchor.tooltip.detailed.line3=另外一个,然后跳跃即可传送
 tile.blockTravelAnchor.tooltip.detailed.line4=也可以使用旅行权杖
 tile.blockTravelAnchor.tooltip.detailed.line5=来使用旅行锚
@@ -748,7 +745,7 @@ tile.blockTelePad.name=传送台
 tile.blockTelePad.tooltip.detailed.line1=使用能量传送生物
 tile.blockTelePad.tooltip.detailed.line2=到指定维度的特定位置.
 tile.blockTelePad.tooltip.detailed.line3=必须摆成 3x1x3 多方块结构.
-enderio.gui.telepad.teleport=传送!
+enderio.gui.telepad.teleport=传送！
 
 item.itemTravelStaff.name=旅行权杖
 item.itemTravelStaff.tooltip.detailed.line1=手持旅行权杖时,可以透视
@@ -780,6 +777,7 @@ enderio.itemCoordSelector.chat.setDimension=设置维度: %s%s
 #Painter
 tile.blockPainter.name=喷涂机
 enderio.blockPainter.paintedWith=喷涂:
+enderio.blockPainter.paintedWith.none=§o无§r
 tile.blockPaintedFence.name=喷涂栅栏
 tile.blockPaintedFenceGate.name=喷涂门
 tile.blockPaintedWall.name=喷涂墙
@@ -787,14 +785,14 @@ tile.blockPaintedStair.name=喷涂楼梯
 tile.blockPaintedSlab.name=喷涂台阶
 tile.blockPaintedSlabDouble.name=喷涂台阶
 tile.blockPaintedDoubleSlab.name=喷涂台阶
-tile.blockPaintedGlowstone.name=喷涂萤石
+tile.blockPaintedGlowstone.name=喷涂荧石
 tile.blockPaintedCarpet.name=喷涂地毯
 enderio.painter.tooltip.wasPainted=§o你认为这是干嘛用的?
 
 tile.blockPainter.tooltip.detailed.line1=用于喷涂:
-tile.blockPainter.tooltip.detailed.line2=导管框架, 楼梯, 栅栏,
-tile.blockPainter.tooltip.detailed.line3=门, 台阶, 圆石墙,
-tile.blockPainter.tooltip.detailed.line4=玻璃框, 萤石, 地毯
+tile.blockPainter.tooltip.detailed.line2=导管框架、楼梯、栅栏、
+tile.blockPainter.tooltip.detailed.line3=门、台阶、圆石墙、
+tile.blockPainter.tooltip.detailed.line4=玻璃框、荧石、地毯
 tile.blockPainter.tooltip.detailed.line5=玄钢压力板
 tile.blockPainter.tooltip.detailed.line6=旅行锚
 
@@ -811,7 +809,7 @@ item.itemYetaWrench.tooltip.detailed.line7='Y'键可渲染单种类型导管
 item.itemMagnet.name=电磁铁
 item.itemMagnet.tooltip.detailed.line1=吸引附近的物品
 item.itemMagnet.tooltip.detailed.line2=Shift+右击启用/禁用
-item.itemMagnet.tooltip.detailed.line3=必须被充能, 激活
+item.itemMagnet.tooltip.detailed.line3=必须被充能，激活
 item.itemMagnet.tooltip.detailed.line4=并放在快捷栏才能起效
 
 item.enderio.itemConduitProbe.name=导管探测器
@@ -975,6 +973,9 @@ enderio.darksteel.upgrade.gogglesOfRevealing.tooltip.detailed.line1=Vis减免: 5
 enderio.darksteel.upgrade.gogglesOfRevealing.enabled=魔法已经显现出来
 enderio.darksteel.upgrade.gogglesOfRevealing.disabled=魔法隐藏在了普通视野当中
 
+enderio.darksteel.upgrade.trackmansGoggles.name=铁路工护目镜
+enderio.darksteel.upgrade.trackmansGoggles.tooltip.detailed.line1=显示基础设施与锚光环
+
 enderio.darksteel.upgrade.naturalistEye.name=自然之眼
 enderio.darksteel.upgrade.naturalistEye.tooltip.detailed.line1=显示已授粉的树叶
 
@@ -1099,6 +1100,10 @@ enderio.gui.machine.side.west=西
 enderio.gui.machine.side.east=东
 enderio.gui.machine.side.up=上
 enderio.gui.machine.side.down=下
+enderio.gui.machine.weather.control=控制模式
+enderio.gui.machine.weather.redstone=红石信号触发
+enderio.gui.machine.weather.manual=手动触发
+enderio.gui.machine.weather.run=触发
 
 
 #Power Monitor
@@ -1115,12 +1120,12 @@ enderio.gui.powerMonitor.monHeading2=储能库储量
 enderio.gui.powerMonitor.monHeading3=机器缓冲
 enderio.gui.powerMonitor.monHeading4=5秒平均输出
 enderio.gui.powerMonitor.monHeading5=5秒平均输入
-enderio.gui.powerMonitor.noNetworkError=无管道网络连接. 能量监控器需连接于一个管道网路以读取数据.
+enderio.gui.powerMonitor.noNetworkError=无管道网络连接。能量监控器需连接于一个管道网路以读取数据。
 
 #MJ Reader
 enderio.gui.mjReader.networkHeading=能量网
 enderio.gui.mjReader.conduitBuffer=内部缓冲
-enderio.gui.mjReader.requestRange=每刻请求范围
+enderio.gui.mjReader.requestRange=每 tick 请求范围
 enderio.gui.mjReader.currentRequest=当前请求
 enderio.gui.mjReader.itemHeading=物品导管
 enderio.gui.mjReader.itemNoConnections=没有外部连接
@@ -1196,7 +1201,7 @@ enderio.gui.travelAccessable.protected=被保护
 enderio.gui.travelAccessable.unauthorised=你没有访问该方块的权限.
 enderio.gui.travelAccessable.enterCode=需要访问密码
 enderio.gui.travelAccessable.ok=已授权
-enderio.gui.travelAccessable.skipLocked=跳过锁定锚, 使用定向传送.
+enderio.gui.travelAccessable.skipLocked=跳过锁定锚，使用定向传送。
 enderio.gui.travelAccessable.skipObstructed=跳过不通畅锚.
 enderio.gui.travelAccessable.skipPrivate=跳过私有锚.
 enderio.gui.travelAccessable.tooltip.visible=可见性
@@ -1205,7 +1210,7 @@ enderio.gui.travelAccessable.tooltip.visible.desc2=用作电梯时比较实用.
 
 enderio.gui.telepad.configure.travel=旅行设置
 enderio.gui.telepad.configure.telepad=传送台设置
-enderio.gui.telepad.blocked=传送锁定!
+enderio.gui.telepad.blocked=传送被阻止！
 
 #Spawn Gurad [sic]
 enderio.gui.spawnGurad.showRange=显示范围
@@ -1233,9 +1238,9 @@ enderio.gui.item_filter.whitelist=白名单
 enderio.gui.item_filter.blacklist=黑名单
 enderio.gui.item_filter.match_meta=匹配Meta数据
 enderio.gui.item_filter.ignore_meta=忽略Meta数据
-enderio.gui.item_filter.sticky_enabled=启用粘滞模式
-enderio.gui.item_filter.sticky_enabled2=选中的物品只会被送往粘滞输出端
-enderio.gui.item_filter.sticky_disabled=禁用粘滞模式
+enderio.gui.item_filter.sticky_enabled=启用黏滞模式
+enderio.gui.item_filter.sticky_enabled2=选中的物品只会被送往黏滞输出端
+enderio.gui.item_filter.sticky_disabled=禁用黏滞模式
 enderio.gui.item_filter.ore_dic_enabled=启用矿物辞典
 enderio.gui.item_filter.ore_dic_disabled=禁用矿物辞典
 enderio.gui.item_filter.match_nbt=匹配NBT
@@ -1314,8 +1319,8 @@ enderio.gui.conduit.item.whitelist.tooltip.1=阻止所有物品通过
 enderio.gui.conduit.item.blacklist=黑名单
 enderio.gui.conduit.item.blacklist.tooltip.0=当没有标记任何物品时，
 enderio.gui.conduit.item.blacklist.tooltip.1=允许所有物品通过
-enderio.gui.conduit.item.stickyEnabled=粘滞模式开启.选定的物品只会被传送到这个或别的粘滞输出.
-enderio.gui.conduit.item.stickyDisbaled=粘滞模式关闭
+enderio.gui.conduit.item.stickyEnabled=黏滞模式开启.选定的物品只会被传送到这个或别的黏滞输出.
+enderio.gui.conduit.item.stickyDisbaled=黏滞模式关闭
 enderio.gui.conduit.item.ignoreNBT=忽略NBT数据
 enderio.gui.conduit.item.matchNBT=匹配NBT数据
 enderio.gui.conduit.item.oreDicEnabled=开启矿石检索
@@ -1370,7 +1375,7 @@ enderio.config.power=能量设置
 enderio.config.power.tooltip=太多数字要修改了...
 
 enderio.config.recipe=配方设置
-enderio.config.recipe.tooltip=配置所有东西!
+enderio.config.recipe.tooltip=配置所有东西！
 
 enderio.config.item=物品授权
 enderio.config.item.tooltip=如果你不喜欢我的一些惊奇的物品 :(
@@ -1379,19 +1384,19 @@ enderio.config.efficiency=效率设置
 enderio.config.efficiency.tooltip=这些数字上限是多少?
 
 enderio.config.personal=个人设置
-enderio.config.personal.tooltip=我绝不会告诉任何人, 我发誓.
+enderio.config.personal.tooltip=我绝不会告诉任何人，我发誓。
 
 enderio.config.anchor=锚设置
-enderio.config.anchor.tooltip=船锚一边去!
+enderio.config.anchor.tooltip=锚一边去！
 
 enderio.config.staff=权杖设置
 enderio.config.staff.tooltip=小心点,传送时别撞到脸.
 
 enderio.config.darksteel=玄钢
-enderio.config.darksteel.tooltip=这不是一般的钢铁, 这是§o深色§r§e 钢铁.
+enderio.config.darksteel.tooltip=这不是一般的钢铁，这是§o深色§r§e钢铁。
 
 enderio.config.farm=种植设置
-enderio.config.farm.tooltip="公社万岁!"
+enderio.config.farm.tooltip=“公社万岁！”
 
 enderio.config.aesthetic=外观设置
 enderio.config.aesthetic.tooltip=哦,啊哼,漂亮.
@@ -1403,7 +1408,7 @@ enderio.config.magnet=电磁铁设置
 enderio.config.magnet.tooltip=它们怎么运作?
 
 enderio.config.fluid=流体设置
-enderio.config.fluid.tooltip=纯净的液态能量!
+enderio.config.fluid.tooltip=纯净的液态能量！
 
 enderio.config.spawner=电动刷怪笼设置
 enderio.config.spawner.tooltip=我已经想不出什么有趣的提示文本了.
@@ -1413,6 +1418,7 @@ enderio.category.darksteelarmor=玄钢护甲
 enderio.category.tools=末影接口 - 工具
 enderio.keybind.glidertoggle=滑翔开关
 enderio.keybind.gogglesofrevealing=揭示护目镜
+enderio.keybind.trackmansgoggles=铁路工护目镜
 enderio.keybind.nightvision=夜视
 enderio.keybind.soundlocator=声波定位
 enderio.keybind.speed=速度

@@ -31,6 +31,8 @@
 .minecraft/config/IguanaTinkerTweaks/restrictions.cfg
 .minecraft/config/InvTweaks.cfg
 .minecraft/config/NEI/client.cfg
+.minecraft/config/NEI/handlers.patch
+.minecraft/config/NEI/informationpages.cfg
 .minecraft/config/WirelessRedstone.cfg
 .minecraft/config/WitchingGadgets.cfg
 .minecraft/config/angelica-modules.cfg
@@ -64,6 +66,7 @@
 .minecraft/config/enderio/*_Core.*
 .minecraft/config/mixingasm
 .minecraft/config/SpiceOfLife/example-food-group.json
+.minecraft/config/gtnhlibEarly.properties
 
 .minecraft/resourcepacks/GTNH-Faithful-Textures-master/.github
 .minecraft/resourcepacks/GTNH-Faithful-Textures-master/.scripts
