@@ -215,14 +215,29 @@ gt.interact.desc.input_from_output_on=Вход со стороны выхода 
 gt.interact.desc.input_from_output_off=Вход со стороны выхода запрещен
 gt.interact.desc.public=Публичный
 gt.interact.desc.private=Приватный
-gt.interact.desc.set_perm=Публ./Приватный
-gt.interact.desc.set_io=Экспорт/Импорт
-gt.interact.desc.channel=Канал
-gt.interact.desc.freq=Частота
-gt.interact.desc.freq_format=Частота: %s
+gt.interact.desc.privfreq=Использовать приватную частоту
+gt.interact.desc.gatemode=Гейт режим
+gt.interact.desc.andgate=И гейт
+gt.interact.desc.nandgate=И-НЕ гейт
+gt.interact.desc.orgate=ИЛИ гейт
+gt.interact.desc.norgate=ИЛИ-НЕ гейт
+gt.interact.desc.analogmode=Аналоговый режим
+gt.interact.desc.recipeprogress=Прогресс рецепта
+gt.interact.desc.machineidle=Механизм простаивает
+gt.interact.desc.fluidthreshold=Порог жидкости
+gt.interact.desc.itemthreshold=Порог предмета
+gt.interact.desc.item_slot=Предмет в слоте
+gt.interact.desc.any_slot=-1 is Any Slot
+gt.interact.desc.set_perm=§8Публ./Приватный
+gt.interact.desc.set_io=§8Экспорт/Импорт
+gt.interact.desc.channel=§8Канал
+gt.interact.desc.freq=§8Частота
+gt.interact.desc.freq_format=Частота: %s Владелец: %s
 gt.interact.desc.freq_perm=Frequency: %s, Transmission: %s
-gt.interact.desc.normal=Обычный
-gt.interact.desc.inverted=Инвертированный
+gt.interact.desc.normal=§8Обычный
+gt.interact.desc.normal.tooltip=Обычный
+gt.interact.desc.inverted=§8Инвертированный
+gt.interact.desc.inverted.tooltip=Инвертированный
 gt.interact.desc.inverted_b=(Инвертированный)
 gt.interact.desc.ready=Готов к работе
 gt.interact.desc.not_ready=Не готов к работе
@@ -805,14 +820,15 @@ GT5U.MBTT.Tiers.ItemPipe=Предметный полый корпус
 GT5U.MBTT.Tiers.FluidPipe=Полый корпус
 GT5U.MBTT.Tiers.Solenoid=Соленоид
 GT5U.MBTT.Tiers.Turbine=Сумма турбины
+GT5U.MBTT.Tiers.Glass=Стекло
 GT5U.MBTT.Steam.Speed=На %s быстрее, чем при использовании одноблочных паровых машин того же давления
 GT5U.MBTT.Steam.Eff=Расход пара составляет %s от обычно требуемого расхода
 GT5U.MBTT.Structure.Complex=Эта структура слишком комплексная!
 GT5U.MBTT.Structure.SeeStructure1=Чтобы увидеть структуру, используйте
 GT5U.MBTT.Structure.SeeStructure2=голограммный проект на контроллере!
-GT5U.MBTT.Structure.MinGlassForLaser=-стекло требуется для §9Tec§1Tech§7 лазеров
-GT5U.MBTT.Structure.GlassEnergyLimit=Энерговвод ограничен тиром стекла
-GT5U.MBTT.Structure.GlassEnergyLimitTier=-стекло разблокирует всё
+GT5U.MBTT.Structure.MinGlassForLaser=-тировое §fстекло§7 требуется для §9Tec§1Tech§7 лазеров
+GT5U.MBTT.Structure.GlassEnergyLimit=Энерговвод ограничен тиром §fстекла§7
+GT5U.MBTT.Structure.GlassEnergyLimitTier=-тир разблокирует всё
 GT5U.MBTT.Structure.NoTierSkips=Этот механизм может выполнять только те рецепты, которые соответствуют ее среднему тиру энерговвода
 GT5U.MBTT.Structure.MaxTierSkips=Этот механизм может выполнять рецепты на %d тиров выше своего среднего тира энерговвода
 GT5U.MBTT.Structure.UnlimitedTierSkips=Этот механизм может выполнять рецепты независимо от тира, если ей дать достаточно энергии
@@ -1126,6 +1142,10 @@ GT5U.machines.select_circuit.tooltip.configuration.none=Нет
 GT5U.machines.select_circuit.tooltip.1=§7ЛКМ/ПКМ/прокрутка для перемещения по списку
 GT5U.machines.select_circuit.tooltip.2=§7Shift+ЛКМ, чтобы открыть интерфейс
 GT5U.machines.select_circuit.tooltip.3=§7Shift+ПКМ чтобы очистить
+GT5U.machines.select_mold.tooltip=Слот призрачной схемы
+GT5U.machines.select_mold.tooltip.1=§7ЛКМ/ПКМ/прокрутка для перемещения по списку
+GT5U.machines.select_mold.tooltip.2=§7Shift+ЛКМ, чтобы открыть GUI
+GT5U.machines.select_mold=Настроить форму
 GT5U.machines.extra_tooltips_toggle.tooltip=Дополнительная информация
 GT5U.machines.fluid_transfer.tooltip=Авто-вывод жидкости
 GT5U.machines.fluid_transfer.tooltip.extended=§6Отвёртка:§7 ПКМ по механизму чтобы
@@ -1274,7 +1294,6 @@ GT5U.machines.stocking_bus.auto_pull.tooltip.2=ПКМ изменить допо�
 GT5U.machines.stocking_bus.min_stack_size=Мин. размер стака
 GT5U.machines.stocking_bus.refresh_time=Время обновления слота (тиков)
 GT5U.machines.stocking_bus.force_check=Проверка рецепта на изменение
-GT5U.machines.stocking_bus.hatch_warning=Для применения требуется новая проверка структуры (перезапуск/замена контроллера)
 GT5U.machines.stocking_bus.auto_pull_toggle.enabled=Включить авто-подачу предметов
 GT5U.machines.stocking_bus.auto_pull_toggle.disabled=Отключить авто-подачу предметов
 GT5U.machines.stocking_hatch.auto_pull.tooltip.1=Нажмите для включения автоматического извлечения жидкости из МЭ
@@ -1347,7 +1366,7 @@ channels.gregtech.time_dilation=Определяет тир Генератора
 channels.gregtech.gt_no_hatch=When set, disable automatic hatch placement
 channels.gregtech.field=Определяет тир T.F.F.T блока хранения жидкостей.
 
-GT5U.gui.select.current=Состояние:
+GT5U.gui.select.current=§8Состояние:
 GT5U.gui.button.liquid_filling_OFF=§7Жидкое наполнение: §4ОТКЛ.
 GT5U.gui.button.liquid_filling_ON=§7Жидкое наполнение: §aВКЛ.
 GT5U.gui.button.power_switch=Выключатель питания
@@ -1389,7 +1408,7 @@ GT5U.gui.button.drone_showLocalName=Показать локализованно�
 GT5U.gui.button.toggle_output_slot_lock=Toggle output slot
 GT5U.gui.button.power_panel=Открыть панель энергии
 GT5U.gui.button.turbinemenu=Open Chamber Controller
-GT5U.gui.button.machineinfo=Display Machine Information
+GT5U.gui.button.machineinfo=Отображение информации о механизме
 GT5U.gui.button.max_parallel=Всегда использовать максимум
 GT5U.gui.text.rangedvalue=Радиус: %s-%s
 GT5U.gui.text.lockedvalue=Заблокировано: %s
@@ -1526,6 +1545,14 @@ GT5U.gui.text.beta-minus=β- распад
 GT5U.gui.text.beta-plus=β+ распад
 GT5U.gui.text.invalidfluidsup=Invalid Fluid Supplied
 
+
+GT5U.gui.hoverable.runningfine=Running Fine.
+GT5U.gui.hoverable.incomplete=Structure incomplete.
+GT5U.gui.hoverable.powerloss=Lost Power.
+GT5U.gui.hoverable.norepair=Machine too damaged.
+GT5U.gui.hoverable.manualshutdown=Manual shutdown (get it?).
+GT5U.gui.hoverable.error=ERROR! REPORT ME!
+
 GT5U.gui.config.client=Клиент
 GT5U.gui.config.client.color_modulation=Модуляция цвета
 GT5U.gui.config.client.color_modulation.cable_insulation=Изоляция кабеля
@@ -1569,18 +1596,18 @@ GT5U.gui.tooltip.redstone_circuit.change=Change Redstone Circuit
 GT5U.gui.tooltip.redstone_receiver.analog=ANALOG Mode\nOnly use this mode with ONE transmitter in total,\nno logic involved
 GT5U.gui.tooltip.hatch.crafting_input_me.place_manual_items=Place manual items
 GT5U.gui.tooltip.hatch.crafting_input_me.export=Return all internally stored items back to AE
-GT5U.gui.text.fluid_limiter.threshold=Процентный порог
+GT5U.gui.text.fluid_limiter.threshold=§8Процентный порог
 GT5U.gui.text.volumetric_flask.capacity=Ёмкость
 GT5U.gui.text.volumetric_flask.confirm=Подтвердить
 
-GT5U.gui.text.wireless_maintenance_detector.extra.no_issues=Нет проблем
-GT5U.gui.text.wireless_maintenance_detector.extra.ge1_issues=>= 1 проблема
-GT5U.gui.text.wireless_maintenance_detector.extra.ge2_issues=>= 2 проблемы
-GT5U.gui.text.wireless_maintenance_detector.extra.ge3_issues=>= 3 проблемы
-GT5U.gui.text.wireless_maintenance_detector.extra.ge4_issues=>= 4 проблемы
-GT5U.gui.text.wireless_maintenance_detector.extra.ge5_issues=>= 5 проблем
-GT5U.gui.text.wireless_maintenance_detector.extra.rotor_lt20=Ротор < 20%
-GT5U.gui.text.wireless_maintenance_detector.extra.rotor_0=Ротор ≈ 0%
+GT5U.gui.text.wireless_maintenance_detector.extra.no_issues=§8Нет проблем
+GT5U.gui.text.wireless_maintenance_detector.extra.ge1_issues=§8>= 1 проблема
+GT5U.gui.text.wireless_maintenance_detector.extra.ge2_issues=§8>= 2 проблемы
+GT5U.gui.text.wireless_maintenance_detector.extra.ge3_issues=§8>= 3 проблемы
+GT5U.gui.text.wireless_maintenance_detector.extra.ge4_issues=§8>= 4 проблемы
+GT5U.gui.text.wireless_maintenance_detector.extra.ge5_issues=§8>= 5 проблем
+GT5U.gui.text.wireless_maintenance_detector.extra.rotor_lt20=§8Ротор < 20%
+GT5U.gui.text.wireless_maintenance_detector.extra.rotor_0=§8Ротор ≈ 0%
 
 GT5U.gui.text.fusion_computer.hit_to_start=Ударь киянкой для (пере)запуска механизма если он не запускается.
 GT5U.gui.text.fusion_computer.running_perfectly=Неполадок не обнаружено.
@@ -1740,6 +1767,8 @@ gt.behaviour.paintspray.infinite.tooltip.pick=Средний щелчок: по 
 gt.behaviour.paintspray.infinite.tooltip.lock=Shift+Средний щелчок: блокировать или разблокировать баллончик
 gt.behaviour.paintspray.infinite.tooltip.gui=Средний щелчок: Открыть GUI выбора цвета
 gt.behaviour.paintspray.infinite.tooltip.prevent_shake=%s+Средний щелчок: Переключить блокировку изменения цвета
+gt.behaviour.paintspray.infinite.tooltip.author_byline=§o"Попробуйте использовать это в левой руке!"§r -§cQuerns§r
+
 GTPacketInfiniteSpraycan.Action.TOGGLE_SHAKE_LOCK=Бесконечный баллончик: Заблокировано изменения цвета
 
 
@@ -1778,7 +1807,7 @@ GT5U.multiblock.problems=Проблемы
 GT5U.multiblock.mei=Предел подачи энергии
 GT5U.multiblock.maxtier=Макс. тир
 GT5U.multiblock.usage=Сейчас используется
-GT5U.multiblock.parallelism=Макс параллель
+GT5U.multiblock.parallelism=Макс. параллель
 GT5U.multiblock.curparallelism=Текущая параллель
 GT5U.multiblock.euModifier=EU Модификатор
 GT5U.multiblock.speed=Скорость
@@ -1885,6 +1914,151 @@ GT5U.interface.coverTabs.redstone.south=юг
 GT5U.interface.coverTabs.redstone.west=запад
 GT5U.interface.coverTabs.redstone.east=восток
 GT5U.interface.coverTabs.redstone.unknown=<unknown>
+
+## Redstone Receiver
+GT5U.gui.tooltip.redstone_receiver.GateMode=§8Гейт режим
+GT5U.gui.tooltip.redstone_receiver.AND_Gate=И гейт
+GT5U.gui.tooltip.redstone_receiver.NAND_Gate=И-НЕ гейт
+GT5U.gui.tooltip.redstone_receiver.OR_Gate=ИЛИ гейт
+GT5U.gui.tooltip.redstone_receiver.NOR_Gate=ИЛИ-НЕ гейт
+
+## Arm
+gt.interact.desc.arm.any=Любой
+gt.interact.desc.arm.Internal_Slot=§8Внутренний слот#
+gt.interact.desc.arm.Adjacent_Slot=§8Соседний слот#
+
+## Machine Controller Cover
+gt.interact.desc.MachContr.EnRedstone=§8Включение по редстоуну
+gt.interact.desc.MachContr.DisRedstone=§8Отключение по редстоуну
+gt.interact.desc.MachContr.DisMachine=§8Отключить механизм
+gt.interact.desc.MachContr.SafeMode=§8Безопасный режим
+
+## Conveyor
+gt.interact.desc.conveyor.AlwaysOn=Всегда вкл.
+gt.interact.desc.conveyor.MachProcState=Use Machine Processing State
+gt.interact.desc.conveyor.InvertedMachProcState=Use Inverted Machine Processing State
+gt.interact.desc.conveyor.AllowIn=Разрешить ввод
+gt.interact.desc.conveyor.AllowOut=Разрешить вывод
+gt.interact.desc.conveyor.BlockIn=Блокир. ввод
+gt.interact.desc.conveyor.BlockOut=Блокир. вывод
+gt.interact.desc.conveyor.ExpImp=§8Экспорт/Импорт
+gt.interact.desc.conveyor.Conditional=§8Условный
+gt.interact.desc.conveyor.InputBlock=§8Блок. ввода
+gt.interact.desc.conveyor.OutputBlock=§8Блок. вывода
+
+## DoesWorkUI
+gt.interact.desc.MachineEnabled=§8Механизм включён
+gt.interact.desc.MachineIdle=§8Механизм простаивает
+gt.interact.desc.RecipeProgress=§8Прогресс рецепта
+
+## EU MEter
+gt.interact.desc.EnergyTHR=§8Порог энергии
+
+## Facade
+gt.interact.desc.facade.Redstone=§8Сигнал красного камня
+gt.interact.desc.facade.Energy=§8Энергия
+gt.interact.desc.facade.Fluids=§8Жидкости
+gt.interact.desc.facade.Items=§8Предметы
+
+## FluidFilter
+gt.interact.desc.FluidFilter.FilterInput=Разрешить ввод
+gt.interact.desc.FluidFilter.FilterOutput=Разрешить вывод
+gt.interact.desc.FluidFilter.BlockOutput=Блокир. вывод
+gt.interact.desc.FluidFilter.AllowOutput=Разрешить вывод
+gt.interact.desc.FluidFilter.WhitelistFluid=Белый список жидкости
+gt.interact.desc.FluidFilter.BlacklistFluid=Чёрный список жидкости
+gt.interact.desc.FluidFilter.Direction=§8Направление фильтра
+gt.interact.desc.FluidFilter.Type=§8Тип фильтра
+gt.interact.desc.FluidFilter.BlockFlow=§8Блокировать поток
+gt.interact.desc.FluidFilter.Empty=§8Фильтр пустой
+
+## Fluid Regulator
+gt.interact.desc.fluid_regulator.AlwaysOn=Всегда вкл.
+gt.interact.desc.fluid_regulator.MachProcState=Use Machine Processing State
+gt.interact.desc.fluid_regulator.InvertedMachProcState=Use Inverted Machine Processing State
+
+gt.interact.desc.fluid_regulator.ExpImp=§8Экспорт/Импорт
+gt.interact.desc.fluid_regulator.Conditional=§8Условный
+gt.interact.desc.fluid_regulator.L=§8 Л
+gt.interact.desc.fluid_regulator.Ticks=§8 тиков
+gt.interact.desc.fluid_regulator.Average=Average:
+gt.interact.desc.fluid_regulator.L_Sec=Л/сек
+
+## Item Filter
+gt.interact.desc.Item_Filter.Whitelist_Mode=Режим белого списка
+gt.interact.desc.Item_Filter.Blacklist_Mode=Режим чёрного списка
+gt.interact.desc.Item_Filter.Filter=§8Фильтр
+gt.interact.desc.Item_Filter.CheckMode=§8Режим проверки
+
+## Item Meter
+gt.interact.desc.Item_Meter.All=Всё
+gt.interact.desc.Item_Meter.DetectSlot=§8Обнаружить слот #
+gt.interact.desc.Item_Meter.ItemTHR=§8Порог предмета
+
+## Liquid Meter (Fluid meter)
+gt.interact.desc.Fluid_Meter.FluidTHR=§8Порог жидкости
+
+## Player Detector
+gt.interact.desc.Player_Detector.Emit_Player_Close=Излучать, если любой игрок находится рядом
+gt.interact.desc.Player_Detector.Emit_Player_No_Close=Излучать, если другой игрок находится рядом
+gt.interact.desc.Player_Detector.Emit_You_Close=Излучать, если вы вблизи
+gt.interact.desc.Player_Detector.Any_Player=§8Любой игрок
+gt.interact.desc.Player_Detector.Other_Players=§8Другие игроки
+gt.interact.desc.Player_Detector.Only_Owner=§8Только создатель
+
+## Pump
+gt.interact.desc.Pump.AlwaysOn=Всегда вкл.
+gt.interact.desc.Pump.MachProcState=Use Machine Processing State
+gt.interact.desc.Pump.InvertedMachProcState=Use Inverted Machine Processing State
+gt.interact.desc.Pump.AllowIn=Разрешить ввод
+gt.interact.desc.Pump.AllowOut=Разрешить вывод
+gt.interact.desc.Pump.BlockIn=Блокир. ввод
+gt.interact.desc.Pump.BlockOut=Блокир. вывод
+gt.interact.desc.Pump.ExpImp=§8Экспорт/Импорт
+gt.interact.desc.Pump.Conditional=§8Условный
+gt.interact.desc.Pump.InputBlock=§8Блок. ввода
+gt.interact.desc.Pump.OutputBlock=§8Блок. вывода
+
+## RedstoneWirelessBase
+gt.interact.desc.RedstoneWirelessBase.Use_Private_Freq=§8Использовать приватную частоту
+
+## Shutter
+gt.interact.desc.Shutter.Open_Enabled=§8Открыть, если работа включена
+gt.interact.desc.Shutter.Open_Disabled=§8Открыть, если работа отключена
+gt.interact.desc.Shutter.OutAllow=§8Разрешен только вывод
+gt.interact.desc.Shutter.InAllow=§8Разрешен только ввод
+
+## Wireless Activity
+
+gt.interact.desc.Wireless_Activity.Enabled=§8Механизм включён
+gt.interact.desc.Wireless_Activity.Idle=§8Механизм простаивает
+gt.interact.desc.Wireless_Activity.Recipe_Progress=§8Прогресс рецепта
+
+gt.interact.tooltip.Wireless_Activity.Recipe_Progress=Прогресс рецепта
+gt.interact.tooltip.Wireless_Activity.Idle=Механизм простаивает
+gt.interact.tooltip.Wireless_Activity.Enabled=Механизм включён
+
+## Wireless Fluid Detector
+gt.interact.desc.Wireless_Fluid_Detector.FluidTHR=§8Порог жидкости
+
+## Wireless Item Detector
+gt.interact.desc.Item_Item_Detector.All=Всё
+gt.interact.desc.Item_Item_Detector.ItemTHR=§8Порог предмета
+gt.interact.desc.Item_Item_Detector.DetectSlot=§8Обнаружить слот #
+
+## Energy Detector
+gt.interact.desc.Energy_Detector.universal=§8Универсальный
+gt.interact.desc.Energy_Detector.universal.tooltip=§fУниверсальное хранилище
+gt.interact.desc.Energy_Detector.electricity=§8Вход EU
+gt.interact.desc.Energy_Detector.electricity.tooltip=§fЭлектро-хранилище
+gt.interact.desc.Energy_Detector.steam=§8Пар
+gt.interact.desc.Energy_Detector.steam.tooltip=§fХранилище пара
+gt.interact.desc.Energy_Detector.average_in=§8Ср. ввод
+gt.interact.desc.Energy_Detector.average_in.tooltip=§fСредний электро-вход
+gt.interact.desc.Energy_Detector.average_out=§8Средний ввод
+gt.interact.desc.Energy_Detector.average_out.tooltip=§fСредний электро-выход
+gt.interact.desc.Energy_Detector.eu_stored=§8EU хранится
+gt.interact.desc.Energy_Detector.eu_stored.tooltip=§fЭлектро-хранилище(с аккумуляторами)
 
 # NEI Display
 GT5U.nei.display.steam_variant.bronze=Бронза
@@ -2845,8 +3019,8 @@ gt.cover.info.button.tick_rate.3=Удерживайте Ctrl, чтобы рег�
 gt.cover.info.button.bounds_notification.minimum=§7 (минимум)§r
 gt.cover.info.button.bounds_notification.maximum=§7 (максимум)§r
 gt.cover.wirelessdetector.redstone.tooltip=Changes this covers Redstone output behavior
-gt.cover.wirelessdetector.redstone.0=Только беспроводной сигнал
-gt.cover.wirelessdetector.redstone.1=Беспроводной сигнал и прямой сигнал красного камня
+gt.cover.wirelessdetector.redstone.0=§8Только беспроводной сигнал
+gt.cover.wirelessdetector.redstone.1=§8Беспроводной сигнал и прямой сигнал красного камня
 gt.time.tick.singular=тик
 gt.time.tick.plural=тиков
 gt.time.second.singular=секунд
@@ -2885,14 +3059,14 @@ GT5U.gui.text.no_tools=§7Отсутствует применимые инстр
 
 # Cover Overflow Valve
 GTPP.chat.text.cover_overflow_valve_overflow_point=Overflow Point: %d L
-GTPP.gui.text.cover_overflow_valve_overflow_point=Overflow Point
-GTPP.gui.text.cover_overflow_valve_voiding_rate=Voiding Rate
-GTPP.gui.text.cover_overflow_valve_allow_fluid_input=Разрешить ввод жидкости
-GTPP.gui.text.cover_overflow_valve_block_fluid_input=Блокировать ввод жидкости
-GTPP.gui.text.cover_overflow_valve_allow_fluid_output=Разрешить вывод жидкости
-GTPP.gui.text.cover_overflow_valve_block_fluid_output=Блокировать вывод жидкости
-GTPP.gui.text.cover_overflow_valve_liter=Л
-GTPP.gui.text.cover_overflow_valve_l_per_update=Л/обновление
+GTPP.gui.text.cover_overflow_valve_overflow_point=§8Overflow Point
+GTPP.gui.text.cover_overflow_valve_voiding_rate=§8Voiding Rate
+GTPP.gui.text.cover_overflow_valve_allow_fluid_input=§8Разрешить ввод жидкости
+GTPP.gui.text.cover_overflow_valve_block_fluid_input=§8Блокировать ввод жидкости
+GTPP.gui.text.cover_overflow_valve_allow_fluid_output=§8Разрешить вывод жидкости
+GTPP.gui.text.cover_overflow_valve_block_fluid_output=§8Блокировать вывод жидкости
+GTPP.gui.text.cover_overflow_valve_liter=§8Л
+GTPP.gui.text.cover_overflow_valve_l_per_update=§8Л/обновление
 
 GTPP.EBF.heat=Теплоёмкость
 
@@ -3474,3 +3648,6 @@ item.gt.depletedRodNaquadria4.name=Счетверённый топливный �
 
 # Entities
 entity.gregtech.PowderBarrelPrimed.name=Зажжённая пороховая бочка
+
+#mui1
+mui.button.close=x

@@ -1,10 +1,18 @@
 key.categories.bogosorter=Inventory Bogo Sorter
 key.sort_config=ソート設定を開く
-key.sort=インベントリのソート
+key.sort_nogui=Sort Inventory Outside GUIs
+key.sort_gui=Sort Inventory In GUIs
 key.dropoff=自動収納
 key.dropoff.tooltip1=付近のインベントリに自動収納
 key.dropoff.tooltip2=Ctrl + ドラッグで移動
 key.tooltip.keybind=キー割り当て
+key.bogosorter.controls_button=A Shortcuts Settings
+key.bogosorter.move_all_same=Move All Same
+key.bogosorter.move_all=Move All
+key.bogosorter.move_single=Move Single
+key.bogosorter.move_single_empty=Move Single To Empty Slot
+key.bogosorter.throw_all_same=Throw All Same
+key.bogosorter.throw_all=Throw All
 
 bogosort.gui.title=ソート設定
 bogosort.gui.tab.general.name=一般
@@ -33,7 +41,7 @@ bogosort.gui.usageticker_enable=Enable Usage Ticker
 bogosort.gui.usageticker_mainhand=Enable Usage Ticker Mainhand
 bogosort.gui.usageticker_offhand=Enable Usage Ticker Offhand
 bogosort.gui.usageticker_armor=Enable Usage Ticker Armor
-
+bogosort.gui.usageticker_arrow=Enable Usage Ticker Arrows
 
 
 bogosort.command.config_relaod.success=ソート設定を再読み込みしました
@@ -109,11 +117,16 @@ bogosorter.config.usage_ticker.enable=Enable usage ticker
 bogosorter.config.usage_ticker.mainhand=Show main hand usage
 bogosorter.config.usage_ticker.offhand=Show off hand usage
 bogosorter.config.usage_ticker.armor=Show armor usage
+bogosorter.config.usage_ticker.arrow=Arrow Settings
+bogosorter.config.usage_ticker.arrow.enable=Enable arrow usage
+bogosorter.config.usage_ticker.arrow.arrowItems=Item arrows
+bogosorter.config.usage_ticker.arrow.bowItems=Item bows
 
 bogosorter.config.sort.sound=ソートボタンのクリック音
 bogosorter.config.hotbarsort.enable=ホットバーのソートを有効化
 bogosorter.config.hotbarswap.enable=ホットバーの入れ替えを有効化
-bogosorter.config.autorefill.enable=自動補充を有効化
+bogosorter.config.autorefill.enable=自動補充を有効化 (クライアント側の変更)
+bogosorter.config.autorefill.enable_server=Enable auto-refill (Server Toggle)
 bogosorter.config.autorefill.damage_threshold=自動補充のダメージしきい値
 bogosorter.config.preventSplit=スタック不可能なアイテムの分離を防止
 bogosorter.config.button.color=ソートボタンの色

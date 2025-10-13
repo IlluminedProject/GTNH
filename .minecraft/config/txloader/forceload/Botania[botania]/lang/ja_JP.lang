@@ -1991,7 +1991,7 @@ botania.category.misc=その他
 
 # LOCALIIZATIONS WITHOUT MODID
 item.aesirRing.name=アース神族の指輪
-item.ancientWill.name=Will
+item.ancientWill.name=意思
 item.auraRing.name=オーラの指輪
 item.auraRingGreater.name=オーラの上位指輪
 item.autocraftingHalo.name=大量生産のヘイロー
@@ -3002,12 +3002,12 @@ botania.page.nightshade0=&1ナイトシェイド&0は、&1デイブ ルーム&0�
 botania.page.nightshade1=&oその日の影&r
 
 # -- ENDOFLAME
-botania.entry.endoflame=Endoflame
-botania.tagline.endoflame=Mana from fuel
-botania.page.endoflame0=While the &1Daybloom&0 is all well and good, a botanist requires more effective means of generating &4Mana&0.<br>The &1Endoflame&0 does that exactly, it will absorb any combustible items or blocks dropped on the nearby vicinity (albeit only one at a time) and burn through them to passively generate mana while the fuel lasts.
-botania.page.endoflame1=There's a few small caveats though, the &1Endoflame&0 will not burn anything that returns a byproduct, an example are &1Lava Buckets&0, that have empty &1Buckets&0 as a byproduct.<br>Furthermore, the flower can only hold fuel equivalent to that of four times a &1Block of Coal&0. If any individual fuel with longer burn time than that is used, it won't be put to full efficiency.
-botania.page.endoflame3=As the &1Endoflame&0 is often a botanist's first foray into proper automatable &4Active Generating Flora&0, it would be best to not leave it to manual usage forever. As the flower requires dropped items, an &1Open Crate&0 (which you can find in the &4Natural Apparatus&0) section, and some sort of limiting mechanism (a timer or pressure plate) would be ideal for it.
-botania.page.endoflame2=&oNot nitor&r.
+botania.entry.endoflame=エンドフレイム
+botania.tagline.endoflame=燃料からマナを得る
+botania.page.endoflame0=&1デイブルーム&0も悪くはあり ませんが、ボタニストには もっと効率的な&4マナ&0生成手 段が必要です。<br>&1エンドフレイム&0がまだにそ れです。付近にドロップさ れた燃料を吸収し（ただし 1度に1つだけです）、それ を燃焼させてマナを生成し ます。
+botania.page.endoflame1=ただし、いくつか注意点が あります。&1エンドフレイム&0 は副産物のあるアイテムは 燃やすません。例えば、空 の&1バケツ&0が副産物となる&1溶 岩入りバケツ&0などです。<br>さらに、&1石炭ブロック&0の4倍 の燃料までしか保持できず、 それ以上の燃焼時間のアイ テムは最大の効率を得るこ とができません。
+botania.page.endoflame3=&1エンドフレイム&0は、ボタニ ストにとって最初の自動化 可能な&4能動的な生成花&0にな るので、いつまでも手動で 使い続けるのはおすすめし ません。この花にはドロッ プアイテムが必要なので、 &1開いた木箱&0（&4自然の装置&0を 参照）と、何らかの制御機 構（タイマーや感圧板）が 理想的です。
+botania.page.endoflame2=&oニトロではない&r
 
 # -- HYDROANGEAS
 botania.entry.hydroangeas=ハイドロエンジア
@@ -3017,36 +3017,36 @@ botania.page.hydroangeas2=単純な&1ハイドロエンジア&0システム
 botania.page.hydroangeas1=&oどこかの超次元から？&r
 
 # -- THERMALILY
-botania.entry.thermalily=Thermalily
-botania.tagline.thermalily=Mana from lava
-botania.page.thermalily0=The &1Thermalily&0 acts as a &1Lava&0 counterpart to the &1Hydroangeas&0. As expected, the flower will absorb &1Lava&0 around it, in the same height as it, to create &4Mana&0.<br>After absorbing the &1Lava&0, the flower will produce &4Mana&0 for around 45 seconds. After it stops, it needs a bit of time, around 5 minutes, to cool down, before it can absorb more &1Lava&0.
-botania.page.thermalily2=The amount of &4Mana&0 the &1Thermalily&0 produces during its active period is extremely high, serving as a very functional flower for when a quick boost is needed.<br>During the "cooldown" period, if the flower were to absorb any &4Lava&0, it instead consumes it, generating no &4Mana&0 and having to wait 5 minutes from there to start over.
-botania.page.thermalily3=While placing &1Lava&0 in the world is definitely possible via &1Dispensers&0, automatically gathering it and carrying it from the &4Nether&0 or deep underground is another story entirely.<br>As such, the &1Thermalily&0 is clasified as a "semi-automatable" flower.
-botania.page.thermalily1=&o0108 Style&r.
+botania.entry.thermalily=サーマリリィ
+botania.tagline.thermalily=溶岩からマナを得る
+botania.page.thermalily0=&1サーマリリィ&0は、&ハイドロ エンジア&0の&1溶岩&0版です。つ まり、同じ高さにある周囲 の&1溶岩&0を吸って&4マナ&0を生み 出します。<br>&1溶岩&0を生成した後、45秒か けて&4マナ&0を生成します。そ の後、5分のクールタイム を挟んで再度&1溶岩&0を吸収で きるようになります。
+botania.page.thermalily2=稼働中の&1サーマリリィ&0が生 成する&4マナ&0の量は非常に 多く、急に多量の&4マナ&0が必 要になったときにとても有 用な花です。<br>クールタイム中に&4溶岩&0を吸 収した場合、&4マナ&0は生成さ れず、残りクールタイムが 5分に戻ります。
+botania.page.thermalily3=&1溶岩&0を設置するには&1ディス ペンサー&0を使えばできます が、自動で回収して&4ネザー&0 や地下深くから運んでくる のは別の話です。<br>なので、&1サーマリリィ&0は"半 自動化可能"な花に分類さ れます。
+botania.page.thermalily1=&o0108 Style&r
 
 # -- ROSA ARCANA
-botania.entry.arcanerose=Rosa Arcana
-botania.tagline.arcanerose=Mana from experience
-botania.page.arcanerose0=&4Experience Points&0 are a form of magic of sorts. The &1Rosa Arcana&0 can tap into it and absorb the experience of players on the ground around it, turning it into &1Mana&0.<br>What the flower can not do, however, is absorb raw experience orbs from the floor. They must first be gathered by a player.
-botania.page.arcanerose1=&oWhen this card is Summoned, toss a coin&r.
+botania.entry.arcanerose=ローザアルカナ
+botania.tagline.arcanerose=経験からマナを得る
+botania.page.arcanerose0=&4経験値&0は魔法のようなもの です。&1ローザアルカナ&0は、 周囲のプレイヤーから経験 値を吸収し、それを&4マナ&0に 変換します。<br>ただし、経験値オーブを直 接吸収することはできませ ん。プレイヤーが回収する 必要があります。
+botania.page.arcanerose1=&oこのカードが召喚されたとき、コインを1枚投げる&r
 
 # -- MUNCHDEW
-botania.entry.munchdew=Munchdew
-botania.tagline.munchdew=Mana from leaves
-botania.page.munchdew0=Generating the form of natural energy that is &4Mana&0 should be a pretty good process when done via other living materials. By using the &1Munchdew&0, any &1Leaves&0 near the flower will get munched up and converted into &4Mana&0.<br>It's to note that, though, no saplings or any other items will be dropped from the leaves.
-botania.page.munchdew1=This flower outputs a hefty amount of mana per tree eaten.<br>However, after if finishes eating all the available leaves, when left without any, it'll take a break from doing so and will only be able to eat again after a bit over a minute.
-botania.page.munchdew2=&oYou pay for dinner, Shibazaki&r.
+botania.entry.munchdew=マンチデュー
+botania.tagline.munchdew=葉からマナを得る
+botania.page.munchdew0=&4マナ&0という形の自然エネル ギーを生きている素材から 生成するのは、かなりよい 手段でしょう。&1マンチデュー&0 を使用すると、付近にある &1葉&0を喰らい&4マナ&0に変換しま す。<br>ただし、葉から苗木などの アイテムがドロップしない ことには注意してください。
+botania.page.munchdew1=この花は、木を喰らうたび にかなりのマナを生み出し ます。<br>ただし、葉を食べ終えて残 りがなくなると、1分経過 するまで食べることができ なくなります。
+botania.page.munchdew2=&o夕食はあなたのおごりね、シバザキ&r
 
 # -- ENTROPINNYUM
-botania.entry.entropinnyum=Entropinnyum
-botania.tagline.entropinnyum=Mana from TNT
-botania.page.entropinnyum0=In order to generate a blast of &4Mana&0, one might in fact, require a blast nearby. Igniting a block of &1TNT&0 in the near an &1Entropinnyum&0, if it doesn't fall in water, will have the latter absorb all the entropy generated by the blast into itself, creating a large amount of &4Mana&0 and nullifying any possible damage. Lastly, to absorb the explosion, the flower must not have any &4Mana&0 stored in it or the process will fail.
-botania.page.entropinnyum1=&oCool guys don't look at explosions&r.
+botania.entry.entropinnyum=エントロピニウム
+botania.tagline.entropinnyum=TNTからマナを得る
+botania.page.entropinnyum0=&4マナ&0を爆発的に生み出すに は、実際に爆発が必要なの かもしれません。&1エントロ ピニウム&0の近くで&1TNT&0が着 火された場合、それが水に 落ちなければ、爆発による エントロピーを吸収し、大 量の&4マナ&0を生成するととも に爆発によるダメージを無 効化します。最後に、花に &4マナ&0が残っている場合は爆 発を吸収できず、失敗しま す。
+botania.page.entropinnyum1=&oクールガイは爆発なんて見やしない&r
 
 # -- KEKIMURUS
-botania.entry.kekimurus=Kekimurus
-botania.tagline.kekimurus=Mana from cake
-botania.page.kekimurus0=&1Cake&0 is delicious, everyone loves it, flowers included.<br>The &1Kekimurus&0 is one of these &1Cake&0 aficionados, and will eat any it spots nearby, using its enriching nutrients to create &4Mana&0.
+botania.entry.kekimurus=ケキムラス
+botania.tagline.kekimurus=ケーキからマナを得る
+botania.page.kekimurus0=&1ケーキ&0は美味しいです。み んな好きです。それは花も です。<br>&1ケキムラス&0は&1ケーキ&0が大好 きで、近くにあると食べて 栄養素から&4マナ&0を生み出し ます。
 botania.page.kekimurus1=&otop kek&r
 
 # -- GOURMARYLLIS
@@ -3058,10 +3058,10 @@ botania.page.gourmaryllis2=The amount of &4Mana&0 created also makes use of this
 botania.page.gourmaryllis3=&oA hot pot for our new residents&r.
 
 # -- NARSLIMMUS
-botania.entry.narslimmus=Narslimmus
-botania.tagline.narslimmus=Mana from slime
-botania.page.narslimmus0=There's some sort of unbeknownst power in the universe that creates &1Slimes&0 at seemingly random spots. &4Slime Chunks&0, they call it. The &1Narslimmus&0 is a flower that has the ability to tap into that energy. If placed down near a &1Slime&0 created by that power, it'll destroy it, collecting all the &4Mana&0 generated by the entropy. The larger the &1Slime&0, the more &4Mana&0 is created. It also makes a bit of a sticky mess.
-botania.page.narslimmus1=&oStick around, would ye&r? 
+botania.entry.narslimmus=ナースライムス
+botania.tagline.narslimmus=スライムからマナを得る
+botania.page.narslimmus0=宇宙にはランダムな場所に &1スライム&0を生み出す、&4スラ イムチャンク&0と呼ばれる未 知の力がどうやら存在する ようです。&1ナースライムス&0 は、そのエネルギーを利用 できる花です。花の近くに &4スライムチャンク&0によって 生み出された&1スライム&0がい る場合、それを破壊し、発 生したエントロピーから&4マ ナ&0を生成します。&1スライム&0 が大きければ大きいほど、 より多い&4マナ&0を生み出しま す。ついでにベトベトしま す。
+botania.page.narslimmus1=&oもう少しいてくれないか？&r
 
 # -- SPECTROLUS
 botania.entry.spectrolus=Spectrolus
@@ -3097,10 +3097,10 @@ botania.page.dandelifeon9=Creating &1Cellular Blocks&0
 
 # - NATURAL APPARATUS
 # -- MANA PYLON
-botania.entry.pylon=Mana Pylon
-botania.tagline.pylon=Enchantment booster
-botania.page.pylon0=A &1Mana Pylon&0 is a structure that can pull energies from the earth and use them to power enchanting processes.<br>For one, setting one adjacent to an &1Enchanting Table&0 as if it was a &1Bookshelf&0 will drastically increase the power it can convey, just 2 of these are enough for it to reach &4Level 30&0.
-botania.page.pylon1=&oYou must construct additional pylons!&r
+botania.entry.pylon=マナのパイロン
+botania.tagline.pylon=エンチャントをブースト
+botania.page.pylon0=&1マナのパイロン&0は、大地か らエネルギーを引き出して エンチャント処理に使用す る構造物です。<br>これを&1本棚&0のように&1エンチャ ントテーブル&0の周囲に設置 すると伝達できる力が劇的 に増加し、たった2つで&4レ ベル30&0に到達します。
+botania.page.pylon1=&o追加のパイロンが必要です！&r
 
 # -- MANA ENCHANTING
 botania.entry.manaEnchanting=Enchanting with Mana
@@ -3115,40 +3115,40 @@ botania.page.manaEnchanting8=When enough &4Mana&0 is gathered, the enchanting pr
 botania.page.manaEnchanting9=During the enchanting process, the item can not be removed, but it can after the process has been completed.<br>Note that if at any point, any component of the construct is removed, it'll revert to its original &1Lapis Lazuli Block&0 form.
 
 # -- SPREADER TURNTABLE
-botania.entry.turntable=Spreader Turntable
-botania.tagline.turntable=Spin spreaders around
-botania.page.turntable0=The &1Spreader Turntable&0, as its name implies, can turn &1Mana Spreaders&0 around and around. Placing a spreader above the turntable will rotate it, given that a redstone signal isn't applied.<br>To change the speed of the turntable, right click with a &1Wand of the Forest&0, shift-right clicking will invert the movement.
-botania.page.turntable1=You spin me right round
+botania.entry.turntable=射出装置の回転台
+botania.tagline.turntable=射出装置をまわす
+botania.page.turntable0=&1射出装置の回転台&0は、名前 の通り&1マナ射出装置&0をぐる ぐるまわすことができます。 回転台の上に射出装置を設 置すると、レッドストーン 信号を受け取っていない間 は回転します。<br>&1森の杖&0で右クリックすると、 回転台の速度が変更されま す。Shift右クリックする と、回転方向が反転します。
+botania.page.turntable1=ユー・スピン・ミー・ラウンド
 
 # -- ALCHEMISING WITH MANA
-botania.entry.manaAlchemy=Alchemising with Mana
-botania.tagline.manaAlchemy=Turn A into B. Exchange may or may not be equivalent
-botania.page.manaAlchemy0=&4Mana&0 is an extremely volatile substance, to a point that its complete properties and abilities are unknown.<br>One of them is known, though, by attaching an &1Alchemy Catalyst&0, created with a mixture of otherworldly materials to the bottom of a &1Mana Pool&0, it enables the pool to perform &4Alchemy&0.
-botania.page.manaAlchemy1=Creating the &1Catalyst&0
-botania.page.manaAlchemy2=&1Rotten Flesh&0 to &1Leather&0
-botania.page.manaAlchemy3=Various types of &1Wood&0
-botania.page.manaAlchemy4=Various types of &1Saplings&0
-botania.page.manaAlchemy5=Breaking down &1Glowstone Blocks&0
-botania.page.manaAlchemy6=Breaking down &1Quartz Blocks&0
-botania.page.manaAlchemy7=Creating &1Chiseled Stone Bricks&0
-botania.page.manaAlchemy8=Further freezing &1Snow&0 into &1Ice&0
-botania.page.manaAlchemy9=Converting between &1Vines&0 and &1Lilypads&0
-botania.page.manaAlchemy10=Various breeds of &1Fish&0
-botania.page.manaAlchemy11=Transmuting &1Seeds&0 and &1Crops&0
-botania.page.manaAlchemy12=Purifying &1Poisonous Potatoes&0
-botania.page.manaAlchemy13=Conjuring &1Nether Wart&0
-botania.page.manaAlchemy14=Converting between &1Gunpowder&0 and &1Flint&0
-botania.page.manaAlchemy15=Making &1Name Tags&0
-botania.page.manaAlchemy16=Splitting &1Wool&0 into &1String&0
-botania.page.manaAlchemy17=Converting between &1Slimeballs&0 and &1Cactus&0
-botania.page.manaAlchemy18=Creating &1Ender Pearls&0
-botania.page.manaAlchemy19=Converting between &1Glowstone&0 and &1Redstone&0
-botania.page.manaAlchemy20=Breaking &1Cobblestone&0 into &1Sand&0
-botania.page.manaAlchemy21=Breaking &1Hardened Clay&0 into &1Red Sand&0
-botania.page.manaAlchemy22=Breaking down &1Clay&0 and &1Bricks&0
-botania.page.manaAlchemy23=Making &1Coarse Dirt&0
-botania.page.manaAlchemy24=Transmuting &1Tall Grass&0 types
-botania.page.manaAlchemy25=Transmuting mundane flowers
+botania.entry.manaAlchemy=マナと錬金術
+botania.tagline.manaAlchemy=AをBにする。交換は等価の場合とそうでない場合がある
+botania.page.manaAlchemy0=&4マナ&0は極めて不安定な物質 であり、その性質と能力は 完全には解明されていませ ん。<br>ただし、異界の素材で作ら れた&1錬金術の触媒&0を&1マナプ ール&0の下に置くことで&4錬金 術&0を行えるようになること は知られています。
+botania.page.manaAlchemy1=&1触媒&0のクラフト
+botania.page.manaAlchemy2=&1腐った肉&0から&1革&0への変換
+botania.page.manaAlchemy3=&1原木&0の種類の変換
+botania.page.manaAlchemy4=&1苗木&0の種類の変換
+botania.page.manaAlchemy5=&1グロウストーンブロック&0の分解
+botania.page.manaAlchemy6=&1クォーツブロック&0の分解
+botania.page.manaAlchemy7=&1模様入りの石レンガ&0の作成
+botania.page.manaAlchemy8=&1雪&0から&1氷&0への凍結
+botania.page.manaAlchemy9=&1ツタ&0と&1スイレンの葉&0の変換
+botania.page.manaAlchemy10=&1魚&0の種類の変換
+botania.page.manaAlchemy11=&1種&0と&1作物&0の変換
+botania.page.manaAlchemy12=&1青くなったジャガイモ&0の浄化
+botania.page.manaAlchemy13=&1ネザーウォート&0への変換
+botania.page.manaAlchemy14=&1火薬&0と&1火打石&0の変換
+botania.page.manaAlchemy15=&1名札&0の作成
+botania.page.manaAlchemy16=&1羊毛&0から&1糸&0への分解
+botania.page.manaAlchemy17=&1スライムボール&0と&1サボテン&0の変換
+botania.page.manaAlchemy18=&1エンダーパール&0の作成
+botania.page.manaAlchemy19=&1グロウストーン&0と&1レッドストーン&0の変換
+botania.page.manaAlchemy20=&1丸石&0から&1砂&0への破壊
+botania.page.manaAlchemy21=&1テラコッタ&0から&1赤い砂&0への破壊
+botania.page.manaAlchemy22=&1粘土&0と&1レンガ&0の分解
+botania.page.manaAlchemy23=&1粗い土&0の作成
+botania.page.manaAlchemy24=&1草&0の種類の変換
+botania.page.manaAlchemy25=普通の花の変換
 
 # -- BOTANICAL BREWERY
 botania.entry.brewery=植物の醸造台
@@ -3243,33 +3243,33 @@ botania.page.forestDrum1=It's to note that the drum does not store mana, hence, 
 botania.page.forestDrum2=But if you close your eyes...
 
 # -- ABSTRUSE PLATFORM
-botania.entry.platform=Abstruse Platform
-botania.tagline.platform=Disguisable platform you can fall down in
-botania.page.platform0=By laying &1Livingwood&0 on a very specific format it's possible to create a platform of sorts, that only has a physical body for whoever is on top of it and isn't sneaking. For anyone else, it's like it's not there. &4Mana Bursts&0 will always travel through it without any trouble.<br>It's also possible to camouflage this block as any other simple block by simply right clicking it.
-botania.page.platform2=Right clicking a platform with a block in it with a &1Wand of the Forest&0 will change all connected platforms with no block set to them to the block on the one clicked. Shift-right clicking removes all blocks.
-botania.page.platform1=It would be Ethereal but the name was taken
+botania.entry.platform=難解なプラットフォーム
+botania.tagline.platform=落下する偽装可能なブロック
+botania.page.platform0=&1リビングウッド&0を特定の形 で形成すると、上に乗って いてスニークしていない者 に対してのみ実体を持つプ ラットフォームが作れます。 他の者に対しては実体を持 たず、&4マナバースト&0も通り 抜けます。<br>ブロックを持って右クリッ クすることで、そのブロッ クに偽装できます。
+botania.page.platform2=偽装されたプラットフォー ムを&1森の杖&0で右クリックす ると、繋がっているプラッ トフォームも同じブロック で偽装させます。Shift右 クリックですべての偽装を 解除します。
+botania.page.platform1=&7《&0天上&7／Ethereal》&0という 名前を使いたかったが、す でに使われていた
 
 # -- CONJURING WITH MANA
-botania.entry.manaConjuration=Conjuring with Mana
-botania.tagline.manaConjuration=Duplicate your resources with mana
-botania.page.manaConjuration0=Similar to the ability to &4Alchemise with Mana&0, a catalyst also exists for &4Conjuration&0, the magic of materializing resources from magical energy only. The mechanism works in a similar way to the &1Alchemy Catalyst&0 where one tosses an item into the pool with the catalyst below.
-botania.page.manaConjuration1=Creating the catalyst
-botania.page.manaConjuration2=Conjuring &1Redstone&0
-botania.page.manaConjuration3=Conjuring &1Glowstone&0
-botania.page.manaConjuration4=Conjuring &1Quartz&0
-botania.page.manaConjuration5=Conjuring &1Coal&0
-botania.page.manaConjuration6=Conjuring &1Snow&0
-botania.page.manaConjuration7=Conjuring &1Netherrack&0
-botania.page.manaConjuration8=Conjuring &1Soul Sand&0
-botania.page.manaConjuration9=Conjuring &1Gravel&0
-botania.page.manaConjuration10=Conjuring &1Leaves&0
-botania.page.manaConjuration11=Conjuring &1Grass&0
+botania.entry.manaConjuration=マナと呪術
+botania.tagline.manaConjuration=マナを使って素材を複製
+botania.page.manaConjuration0=&4マナ&0には&4錬金術&0以外にも、 魔法のエネルギーから物質 を実体化する魔法である&4呪 術&0の触媒も存在します。こ れは&1錬金術の触媒&0と同様の 仕組みで動作し、プールの 下に触媒を設置してアイテ ムを投げ入れます。
+botania.page.manaConjuration1=触媒のクラフト
+botania.page.manaConjuration2=&1レッドストーン&0の複製
+botania.page.manaConjuration3=&1グロウストーン&0の複製
+botania.page.manaConjuration4=&1クォーツ&0の複製
+botania.page.manaConjuration5=&1石炭&0の複製
+botania.page.manaConjuration6=&1雪&0の複製
+botania.page.manaConjuration7=&1ネザーラック&0の複製
+botania.page.manaConjuration8=&1ソウルサンド&0の複製
+botania.page.manaConjuration9=&1砂利&0の複製
+botania.page.manaConjuration10=&1葉&0の複製
+botania.page.manaConjuration11=&1草&0の複製
 
 # -- SPECTRAL PLATFORM
-botania.entry.spectralPlatform=Spectral Platform
-botania.tagline.spectralPlatform=Disguisable platform with no solid body
-botania.page.spectralPlatform0=The &1Spectral Platform&0 isn't more than an &1Abstruse Platform&0 with no physical body whatsoever. Whereas the &1Abstruse Platform&0 would have a physical body in some cases, the &1Spectral Platform&0 lets anything go through it, regardless of their position.
-botania.page.spectralPlatform1=This reminds me of a Puzzle
+botania.entry.spectralPlatform=おばけプラットフォーム
+botania.tagline.spectralPlatform=実体を持たない偽装可能なブロック
+botania.page.spectralPlatform0=&1おばけプラットフォーム&0は、 実体を持たない&1難解なプラッ トフォーム&0に過ぎません。 &1難解なプラットフォーム&0は 場合によっては実体を持ち ますが、&1おばけプラットフォ ーム&0はいつでも実体を持ち ません。
+botania.page.spectralPlatform1=まるでパズルみたい
 
 # -- DRUM OF THE GATHERING
 botania.entry.gatherDrum=Drum of the Gathering
@@ -3327,23 +3327,23 @@ botania.page.manaBomb0=Putting together some &1TNT&0 and a &1Gaia Spirit&0 creat
 botania.page.manaBomb1=Prepare to face the mighty...
 
 # -- TERU TERU BOZU
-botania.entry.teruTeruBozu=Teru Teru Bozu
-botania.tagline.teruTeruBozu=Weather control and cuteness overload
-botania.page.teruTeruBozu0=&1Teru Teru Bozu&0 are known as amulets that can ward away bad weather. Simply creating one of these and placing it in the world will decrease the amount of time that &1Rain&0 or &1Snowstorms&0 will last. During bad weather, right clicking one with a &1Sunflower&0 or tossing said flower at it will have the sun come back. Attaching a &1Redstone Comparator&0 to one of these allows for it to detect bad weather.
-botania.page.teruTeruBozu1=Too spoopy
+botania.entry.teruTeruBozu=てるてる坊主
+botania.tagline.teruTeruBozu=天候制御と可愛さ爆発
+botania.page.teruTeruBozu0=&1てるてる坊主&0は、悪天候を 追い払うお守りとして知ら れています。これを作成し 設置するだけで、&1雨&0や71雷雨&0 の時間を短くすることがで きます。悪天候の間、&1ヒマ ワリ&0を持って右クリックす るか投げつけることで、太 陽が戻ってきます。&1レッド ストーンコンパレーター&0を 使用すると、悪天候を検知 できます。
+botania.page.teruTeruBozu1=怖すぎ
 
 # -- LIVINGWOOD AVATAR
-botania.entry.avatar=Livingwood Avatar
-botania.tagline.avatar=Rod effects in a block
-botania.page.avatar0=Carving some &1Livingwood&0 and combining it with a &1Mana Diamond&0 heart creates an apparatus known as the &1Livingwood Avatar&0. By itself, this block doesn't do anything, aside from looking reasonably pretty.<br>However, giving it a &4Rod&0 can enable it to cast varied magic, depending on which one is given. At the cost of &4Mana&0, from a spreader, of course.
-botania.page.avatar1=Not all &4Rods&0 fit this criteria. Any that do, however, will have an explanation of what they can do when given to a &1Livingwood Avatar&0 on their entry.<br>A few examples of some rods that will work are the &1Rod of the Skies&0, &1Rod of the Hells&0 and &1Rod of the Plentiful Mantle&0.
-botania.page.avatar2=But is it an anime?
+botania.entry.avatar=リビングウッドのアバター
+botania.tagline.avatar=杖の効果を行使するブロック
+botania.page.avatar0=&1リビングウッド&0を彫って&1マ ナダイヤモンド&0の心臓をは め込むことで、&1リビングウッ ドのアバター&0という装置が 作れます。この状態では見 た目がかわいい以外に特に 機能はありません。<br>ただし、&4杖&0を持たせること で対応する魔法を唱えられ るようになります。もちろ ん、コストの&4マナ&0は射出装 置から与えます。
+botania.page.avatar1=すべての&4杖&0を使用できるわ けではありません。使用で きる杖は&1リビングウッドの アバター&0に持たせたときの 効果が辞典に記載されてい ます。<br>例えば、&1空の杖&0、&1地獄の杖&0、 &1豊かな地脈の杖&0が使用でき ます。
+botania.page.avatar2=それってアニメ？
 
 # -- FEL PUMPKIN
-botania.entry.felPumpkin=Fel Pumpkin
-botania.tagline.felPumpkin=A pumpkin that can spawn blazes
-botania.page.felPumpkin0=A &1Fel Pumpkin&0 is a demented infusion of a &1Pumpkin&0 with the fel spirits of slain monsters. This vile pumpkin can be placed atop two &1Iron Bars&0, in a similar fashion to a &1Snow Golem&0, to spawn a &1Blaze&0.<br>&1Blazes&0 spawned with this method drop a fairly reasonable amount of &1Blaze Powder&0 instead of a small serving of &1Blaze Rods&0.
-botania.page.felPumpkin1=Nerfing warlocks again
+botania.entry.felPumpkin=フェル・パンプキン
+botania.tagline.felPumpkin=ブレイズを召喚できるカボチャ
+botania.page.felPumpkin0=&1フェル・パンプキン&0は、倒 したモンスターのフェル・ スピリットを&1カボチャ&0に注 入したものです。この卑し いカボチャは、&1スノウゴー レム&0のように&1鉄格子&02つの 上に置くことで&1ブレイズ&0を スポーンさせれます。<br>これによりスポーンした&1ブ レイズ&0は、少量の&1ブレイズ ロッド&0ではなくそこそこの 量の&1ブレイズパウダー&0をド ロップします。
+botania.page.felPumpkin1=ウォーロックが再び弱体化されます
 
 # - MYSTICAL INSTRUMENTS
 # -- MANA BLASTER
@@ -3862,42 +3862,42 @@ botania.page.bIntro1=The &4Baubles Screen&0
 botania.page.bIntro2=It's to note that, if &4Thaumcraft&0 or any other mod that uses the baubles system is installed, this inventory will be shared between the various mods. 
 
 # -- COSMETIC BAUBLES
-botania.entry.cosmeticBaubles=Cosmetic Baubles
-botania.tagline.cosmeticBaubles=Accessories that don't provide power
-botania.page.cosmeticBaubles0=A large selection of &1Cosmetic Baubles&0 is available to change or add style to any baubles a player has equipped. These can both be worn by themselves, on the amulet slot, or crafted alongside another &4Bauble&0 in a crafting grid to change the look of the bauble to the new &4Cosmetic Override&0. Removing &4Cosmetic Overrides&0 can be done through putting the bauble back in the crafting grid.
-botania.page.cosmeticBaubles1=Creating these is done through an interesting method, weaving a specific color of petal around some &1Mana Infused String&0 creates an item. The type of item created doesn't seem to have anything to do with the color.<br>How this works really isn't too well known, it's like the person that came up with this didn't bother to use better materials or something, who knows.
-botania.page.cosmeticBaubles2=They're cool
-botania.page.cosmeticBaubles3=My desires are... unconventional
-botania.page.cosmeticBaubles4=How unpleasant
-botania.page.cosmeticBaubles5=It's cold in Kalos
-botania.page.cosmeticBaubles6=Do they reveal anything?
-botania.page.cosmeticBaubles7=Shut up Alexander and the Trajan
-botania.page.cosmeticBaubles8=The eye has to be hidden
-botania.page.cosmeticBaubles9=Not for bean sprouts
-botania.page.cosmeticBaubles10=The best color
-botania.page.cosmeticBaubles11=Tilting the umbrella too much
-botania.page.cosmeticBaubles12=The Neighbours' Club
-botania.page.cosmeticBaubles13=Nyaa
-botania.page.cosmeticBaubles14=Don't get too ahead of yourself
-botania.page.cosmeticBaubles15=Evil up!
-botania.page.cosmeticBaubles16=Nudistoooooooooo
-botania.page.cosmeticBaubles17=(insert reference here)
-botania.page.cosmeticBaubles18=Lurk moar
-botania.page.cosmeticBaubles19=I need your time
-botania.page.cosmeticBaubles20=So rare
-botania.page.cosmeticBaubles21=Oh hey, Loki
-botania.page.cosmeticBaubles22=Challenge up!
-botania.page.cosmeticBaubles23=Representing!
-botania.page.cosmeticBaubles24=Reminds me of a puzzle
-botania.page.cosmeticBaubles25=You've met with a terrible fate, haven't you?
-botania.page.cosmeticBaubles26=Thanks for the gold stranger
-botania.page.cosmeticBaubles27=Woah, colors
-botania.page.cosmeticBaubles28=Who the hell do you think I am?
-botania.page.cosmeticBaubles29=Nothing suspicious here, nope
-botania.page.cosmeticBaubles30=I can fly with these
-botania.page.cosmeticBaubles31=Not actually part of spain
-botania.page.cosmeticBaubles32=Now you too can believe
-botania.page.cosmeticBaubles33=Get on the treadmill, angbadang
+botania.entry.cosmeticBaubles=見た目アクセサリー
+botania.tagline.cosmeticBaubles=力を与えないアクセサリー
+botania.page.cosmeticBaubles0=プレイヤーの装備するアク セサリーの見た目を追加し たり変更したりできる、豊 富な種類の&1見た目アクセサ リー&0が用意されています。 これは直接アミュレットス ロットに装備することもで きますが、他の&4アクセサリー&0 とクラフトすることで&4見た 目の上書き&0をすることもで きます。アクセサリーを単 体クラフトすることで、&4見 た目の上書き&0を解除するこ とができます。
+botania.page.cosmeticBaubles1=これらは特定の色の花びら を&1マナが染み込んだ糸&0で織 り込むという不思議な方法 で作成できます。できるア イテムと色に関連はないで す。<br>これがどう機能するかはよ くわかっていません。これ を考えた人がもっといい素 材を使うことを思いつかな かったようですが、真相は わかりません。
+botania.page.cosmeticBaubles2=クールだね
+botania.page.cosmeticBaubles3=私の欲望は...型破りだ
+botania.page.cosmeticBaubles4=不愉快です
+botania.page.cosmeticBaubles5=カロスは寒い
+botania.page.cosmeticBaubles6=何を明らかにするのですか？
+botania.page.cosmeticBaubles7=黙れ、アレキサンダーとトラヤヌス
+botania.page.cosmeticBaubles8=邪眼を封印せねば
+botania.page.cosmeticBaubles9=もやしのためではない
+botania.page.cosmeticBaubles10=最高の色だ
+botania.page.cosmeticBaubles11=傘を傾けすぎる
+botania.page.cosmeticBaubles12=隣人部
+botania.page.cosmeticBaubles13=にゃーん
+botania.page.cosmeticBaubles14=もう何も恐くない
+botania.page.cosmeticBaubles15=悪ポイントが上がった！
+botania.page.cosmeticBaubles16=戦維喪失！
+botania.page.cosmeticBaubles17=（ここに参照を挿入）
+botania.page.cosmeticBaubles18=半年ROMれ
+botania.page.cosmeticBaubles19=あなたの時間がほしい
+botania.page.cosmeticBaubles20=とてもレア
+botania.page.cosmeticBaubles21=やぁ、ロキ
+botania.page.cosmeticBaubles22=困難に立ち向かえ！
+botania.page.cosmeticBaubles23=私が代表だ！
+botania.page.cosmeticBaubles24=まるでパズルみたい
+botania.page.cosmeticBaubles25=ひどい目にあったのですか？
+botania.page.cosmeticBaubles26=ゴールドをありがとう、見知らぬ人
+botania.page.cosmeticBaubles27=わぁ、色だ
+botania.page.cosmeticBaubles28=俺を誰だと思っていやがる！
+botania.page.cosmeticBaubles29=これで怪しくないでしょう？
+botania.page.cosmeticBaubles30=これで飛べる
+botania.page.cosmeticBaubles31=実際にはスペインの一部ではない
+botania.page.cosmeticBaubles32=これで信じられる
+botania.page.cosmeticBaubles33=ルームランナーに乗れ、angbadang
 
 # -- TINY PLANET
 botania.entry.tinyPlanet=Tiny Planet
@@ -4035,10 +4035,10 @@ botania.page.swapRing0=Switching tools is a pain. People often find themselves s
 botania.page.swapRing1=Use the right tools
 
 # -- PLANESTRIDER'S SASH
-botania.entry.speedUpBelt=Planestrider's Sash
-botania.tagline.speedUpBelt=Speeds you up the more you walk
-botania.page.speedUpBelt0=The &1Planestrider's Sash&0 works as an alternative to the &1Soujourner's Sash&0.<br>Unlike the aforementioned item, the &1Planestider's Sash&0 will not give the wearer a speed boost by default. However, when they walk, the sash will get more and more charged, enabling the wearer to go much faster than any other sash. Case one would stop, this bonus is reset.
-botania.page.speedUpBelt1=If you go slow you're a Planeswalker
+botania.entry.speedUpBelt=次元旅行者の肩帯
+botania.tagline.speedUpBelt=歩くほどに速くなる
+botania.page.speedUpBelt0=&1次元旅行者の肩帯&0は、&1旅人 の肩帯&0の代替品として機能 します。<br>&1旅人の肩帯&0とは異なり、&1次 元旅行者の肩帯&0はデフォル トで着用者に速度上昇を与 えません。ただし、歩くこ とでチャージされて最終的 に他の肩帯よりも速くなり ます。停止すると効果はリ セットされます。
+botania.page.speedUpBelt1=ゆっくり歩くならプレインズウォーカーだ
 
 # -- BAUBLE CASE
 botania.entry.baubleBox=Bauble Case

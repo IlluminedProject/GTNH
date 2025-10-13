@@ -2732,7 +2732,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMAg.desc=당신이 잘 알고 있는 단
 betterquesting.quest.JkWQZxq_TECWjHhjywrZZA.name=§a§l한 개의 해치에 네 가지 유체!
 betterquesting.quest.JkWQZxq_TECWjHhjywrZZA.desc=이제 EV 티어에 도달했으므로, 4배 입력 해치를 사용할 수 있게 되었습니다. 이 해치들은 한 개의 해치에 네 가지 다른 유체를 보유할 수 있어 당신의 멀티블록에서 소중한 자리를 절약할 수 있습니다.%n%n당신의 EBF에 설치하기에 완벽합니다.%n
 
-# Quest: EV Field Generators
+# Quest: EV Field Generator
 betterquesting.quest.Jna1jgAySNSs8nS0YMXpLw.name=§a§lEV 장 생성기
 betterquesting.quest.Jna1jgAySNSs8nS0YMXpLw.desc=장 생성기를 사용하면 첫 양자 상자나 양자 탱크를 만들 수 있습니다. 하지만 처음 두 개는 T2 로켓을 위해 사용해야 합니다.
 
@@ -2748,6 +2748,10 @@ betterquesting.quest.kQL8JceoSMSLDU_2AFjoqw.desc=음, 아마도 퀘스트 이름
 ## Quest Line: Tier 5 - IV
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAABw.name=티어 5 - IV
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAABw.desc=IV 티어는 백금족을 포함한 여러 복잡한 화학 공정과 조립 라인을 만드는 것에 중점을 두고 있습니다. 두 가지 모두 상당히 어려우나 필수적입니다.%n%n공식 통계 기준으로, 해당 티어가 플레이어 폐사 비율이 최고로 높습니다. 행운을 빕니다.
+
+# Quest: IV Field Generator
+betterquesting.quest.6ENNFc4RS3u2sQFL5fnz1A.name=§b§lIV Field Generator
+betterquesting.quest.6ENNFc4RS3u2sQFL5fnz1A.desc=Oh look, the latest and greatest field generator! I wonder what you'll end up using these for... maybe a Tree Growth Simulator? Maybe a new Matter Manipulator?
 
 # Quest: Tier 5 (IV)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA1Q.name=§b§l티어 5 (IV)
@@ -5310,6 +5314,10 @@ betterquesting.quest.iWmU5h_ZSPqAcObmxgW5bw.desc=매번 로켓을 이용하여 �
 # Quest: Teleporter
 betterquesting.quest.tJdwTeS6TOOFACQhNuUvEw.name=텔레포터
 betterquesting.quest.tJdwTeS6TOOFACQhNuUvEw.desc=IndustrialCraft2 텔레포터는 2개의 연결된 텔레포터 간의 순간이동을 가능하게 합니다.%n단, 거대한 전력 요구량으로 인해 바로 옆에 에너지 저장 블록이 필요합니다.%n%n%n§3필요한 에너지는 텔레포터 간의 거리와 인벤토리에 있는 아이템의 양에 따라 결정됩니다.%n공식 위키에 따르면 텔레포터는 약간의 버그가 있습니다.
+
+# Quest: Spare Battery
+betterquesting.quest.vv296Z3mSUqkQEaiJqQcOw.name=Spare Battery
+betterquesting.quest.vv296Z3mSUqkQEaiJqQcOw.desc=The Electric Jetpack may be useful for flight, but it doesn't seem to last very long. %n%nIf only there was an integrated upgradable battery pack you could keep on your player to extend it's range...%n%nOh wait, there is!%n%nThe §5§lCharge Pack§r can be used as a battery pack for charging items both in your hotbar and armor equip to your person. Simply place it in the belt bauble slot and it should be fully functional! The HV one should serve you nicely for now.%n%n[note]You can upgrade the Charge Pack as you unlock items that require higher voltages for charging. The Charge Pack will charge anything of-tier or lower- but not higher.[/note]
 
 
 ## Quest Line: ...Without Dying
@@ -14813,6 +14821,10 @@ betterquesting.quest._zwtTNh-SG6B4wp221XPcQ.desc=The MKIII is the final upgrade 
 betterquesting.quest.a-g__0y_SGyed_E6IkIrsg.name=§6§lCreative Flight With MagLev
 betterquesting.quest.a-g__0y_SGyed_E6IkIrsg.desc=Getting annoyed trying to reach pipes and conduits around your base? Look no further than the §5§lMagLev Harness§r!%n%nWith the MagLev, you can have creative flight whenever you are within range of a MagLev Pylon and have the Harness equip.%n%nThis will work even when unpowered, however the range of the Pylon gets doubled when it's given §21A§r of it's corresponding tier of power. The MagLev will only draw power while you are in-range, not passively. A Harness can only be tethered to one Pylon at a time, but a Pylon can attach to any number of Harnesses. Will only consume 1A §nregardless§r of how many Harnesses are tethered to the Pylon§r.%n%n[note]Check the tooltip to see the range of your chosen Pylon, the MV one has a maximum range of 16 (33 x 33 x 33) when powered![/note]
 
+# Quest: Powerfail Notifications
+betterquesting.quest.a59175-ZS16kxwUW_BCuEQ.name=§6§lPowerfail Notifications
+betterquesting.quest.a59175-ZS16kxwUW_BCuEQ.desc=Congratuations on your first EBF!%n%nThroughout your GTNH gameplay you will end up creating hundreds of multiblocks, and will very likely run into a multitude of power failures at some point. %n%nFortunately, we have a dedicated system for helping you stay informed of exactly when and where these power failures occur §3(though the 'why' portion is up to you to figure out!)§r.%n%nWhen a multiblock powerfails, you will receive a notification in §5chat§r, in addition to a visible icon on §5screen§r, and an icon visible on your §5map§r. %n%n§lYou can clear these notifications by§r:%n- Clicking into the multiblock that has powerfailed%n- Deleting the notification in JourneyMap%n- Typing §4/powerfails clear§r%n%nFor those playing §2multiplayer§r, anyone who is on your §2team§r will receive the §2same notifications§r. §2§nOne person§r clearing a notification should clear it for§2 §nall players§r.%n%n[note]This feature uses the same team system as wireless EU. Use </gt §4global_energy_join§r §1[User Joining] [User to Join]§r> to team up.[/note]%n%nAll of these features can be turned off in the gregtech config. If you want the on screen icon to disappear use §4§l/powerfails hide§r. For all in-game options use §4§l/powerfails help§r.
+
 # Quest: Absolute Purity
 betterquesting.quest.bNVzOxCORxuo_lhAh13r0A.name=절대적 순수함
 betterquesting.quest.bNVzOxCORxuo_lhAh13r0A.desc=절대적인 바리온의 완벽함! 이 멀티블럭 구조물은 아원자 수준에서조차 완벽하게 순수한 물을 생성할 수 있게 해줍니다. 8등급 정제수(Grade 8 Purified Water)에는 단 하나의 쿼크조차 제자리를 벗어나 있지 않습니다.%n%n이러한 순수성 덕분에 훨씬 더 진보된 공정들이 가능해집니다. 우선 광학 부울의 제작 시간이 단축되고 광학 칩의 생산량이 증가하는 것부터 시작됩니다.%n%n컨트롤러 툴팁 설명을 보면 이전의 탈기 장치보다 훨씬 덜 위협적으로 보이겠지만, 이 공정을 자동화하는 것은 결코 쉬운 도전이 아닐 것입니다. 즐겁게 퍼즐을 풀어보시길 바랍니다!
@@ -14831,7 +14843,7 @@ betterquesting.quest.hEsmeH74S4aOOrROI1AHxQ.desc=지금까지 만든 여러 증�
 
 # Quest: NEI Next Level Recipe Search
 betterquesting.quest.hmQlN9vLSEOyCnCSOOXz7Q.name=§2§lNEI Next Level Recipe Search
-betterquesting.quest.hmQlN9vLSEOyCnCSOOXz7Q.desc=NEI recipe search got improved even further!%n%nSelect a search mode extended+ to try it out!%n%nHere backticks `` are used around the search queries. You don't need them when searching.%n%nBy default the search works like in the extended mode, searching in §lany§r of the inputs and outputs of a recipe. So if you search a recipe by `§1-§rdust`, it would return all the recipes where there's at least one item that doesn't have §o"dust"§r.%n%nLet's say you want to search only in §linputs§r. Put §a<§r before your search query to do that! For example `§a<§riron` returns all the recipes with §o"iron"§r in one of the §linputs§r, `§a<§rsteel§5@gregtech§r` returns the recipes with at least one item from mods, containing §9Gregtech§r in their name, with §o"steel"§r.%n%nBut then, if you search by `§a<§1-§rdust` it still returns the recipes with §o"dust"§r on the left. Why is that? Because §a<§r searches among §lany§r items. So if there's one item that doesn't have §o"dust"§r, then it would still match the recipe, even if the rest of the inputs are dusts.%n%nTo solve this use §a<&§r instead. Like this: `§a<&§1-§rdust`. It returns §lall§r the recipes without §o"dust"§r among the inputs! §a<&§r sets a §lstrict§r condition on §lall§r inputs, unlike §a<§r that sets a condition on §lany§r input.%n%nTo filter the §loutputs§r use §a>§r and §a>&§r. They work the same way, but allow you to filter the §loutputs§r of a recipe. So `§a>§rgold` gives you the recipes with at least one §loutput§r with §o"gold"§r. And `§a>&§rgold` gives you the recipes with §o"gold"§r in every outputted item.%n%nWant to combine multiple conditions? Sure, just put them one after another in any order. E.g. you could search for `§a<§riron§a>§rsteel`, `§a<&§r §1-§b$dust§r §a<§r cell`, `§a>&§1-§rdust cell`.%n%nOr even for `dust§a>§rcell`. Here the non-prefixed part works like default, searching among §lany§r items from the inputs or outputs. So this query returns the recipes with §o"dust"§r in one of the inputs or outputs and §o"cell"§r in one of the outputs.%n%nIn some recipes you might have items that don't belong to inputs or outputs. In order to filter them use `§a^§r` and `§a^&§r` respectively.%n%nYou could add spaces for readability too, because (unless you have space mode on) spaces could be used anywhere while in extended+ mode.
+betterquesting.quest.hmQlN9vLSEOyCnCSOOXz7Q.desc=NEI recipe search has been improved even further!%n%nAs you might already know, §orecipe§r search works §lONLY§r inside the §orecipe§r search field just like in other search modes. This is the small field that replaces the §orecipe§r page number, when you click on the magnifying glass on the left from that number when viewing recipes. Extended+ does §lNOT§r give you the ability to search §orecipes§r in the big main search field below.%n%nSelect the search mode "extended+" to try it out!%n%nHere backticks `` are used around the search queries, but you don't need them when searching.%n%nBy default the search works like in the extended mode, searching in §lany§r of the inputs and outputs of a recipe. So if you search a recipe by `§1-§rdust`, it will return all recipes where there's at least one item that doesn't have §o"dust"§r.%n%nLet's say you want to search only in §linputs§r. Put §a<§r before your search query to do that. For example: `§a<§riron` returns all the recipes with §o"iron"§r in one of the §linputs§r, `§a<§rsteel§5@gregtech§r` returns the recipes with at least one item from any mod containing §9Gregtech§r in their name, using §o"steel"§r.%n%nBut then, if you search by `§a<§1-§rdust` it still returns the recipes with §o"dust"§r on the left. Why is that? Because §a<§r searches among §lall§r items. So if there's one item that doesn't have §o"dust"§r, then it would still match the recipe, even if the rest of the inputs are dusts.%n%nTo solve this, use §a<&§r instead. Like this: `§a<&§1-§rdust`. It returns §lall§r the recipes without §o"dust"§r among the inputs! §a<&§r sets a §lstrict§r condition on §lall§r inputs, unlike §a<§r that sets a condition on §lany§r input.%n%nTo filter the §loutputs§r use §a>§r and §a>&§r. They work the same way, but allow you to filter the §loutputs§r of a recipe. So `§a>§rgold` gives you the recipes with at least one §loutput§r with §o"gold"§r. And `§a>&§rgold` gives you the recipes with §o"gold"§r in every outputted item.%n%nWant to combine multiple conditions? Sure, just put them one after another in any order. E.g. you could search for `§a<§riron§a>§rsteel`, `§a<&§r §1-§b$dust§r §a<§r cell`, `§a>&§1-§rdust cell`.%n%nOr even for `dust§a>§rcell`. Here the non-prefixed part works like default, searching among §lall§r items from the inputs and outputs. So this query returns the recipes with §o"dust"§r in one of the inputs or outputs and §o"cell"§r in one of the outputs.%n%nIn some recipes you might have items that don't belong to inputs or outputs. In order to filter them use `§a^§r` and `§a^&§r` respectively.%n%nYou can add spaces for readability too, because (unless you have space mode on) spaces can be used anywhere while in extended+ mode.
 
 # Quest: Never Hungry Again
 betterquesting.quest.hvukogcPRX-hht60vc0Zgw.name=Never Hungry Again
@@ -14879,6 +14891,10 @@ betterquesting.quest.xdiDnTdpTgW6POwCuDlPgg.desc=4차원을 건드린 후, 드�
 # Quest: Trigger: Nano Boots of the Traveller Skip
 betterquesting.quest.5RrDJZBfTligyX8_wR-EDA.name=Trigger: Nano Boots of the Traveller Skip
 betterquesting.quest.5RrDJZBfTligyX8_wR-EDA.desc=
+
+# Quest: Trigger: Nightvision Goggle Skip
+betterquesting.quest.5bnuPY-USBW37JbkO5VzOw.name=Trigger: Nightvision Goggle Skip
+betterquesting.quest.5bnuPY-USBW37JbkO5VzOw.desc=Skip is here for those who get the goggles in a lootbag
 
 # Quest: Trigger: Hafnium Skip
 betterquesting.quest.5pXaevjTR-atLo3tdEZMEw.name=Trigger: Hafnium Skip

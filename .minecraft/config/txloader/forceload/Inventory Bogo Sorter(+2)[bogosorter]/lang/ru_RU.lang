@@ -1,10 +1,18 @@
 key.categories.bogosorter=Inventory Bogo Sorter
 key.sort_config=Открыть конфигурацию сортировки
-key.sort=Сортировать инвентарь
+key.sort_nogui=Sort Inventory Outside GUIs
+key.sort_gui=Sort Inventory In GUIs
 key.dropoff=Сбросить
 key.dropoff.tooltip1=Сбросить в ближайшие хранилища
 key.dropoff.tooltip2=CTRL + зажать для перемещения
 key.tooltip.keybind=Сочетание клавиш
+key.bogosorter.controls_button=A Shortcuts Settings
+key.bogosorter.move_all_same=Move All Same
+key.bogosorter.move_all=Move All
+key.bogosorter.move_single=Move Single
+key.bogosorter.move_single_empty=Move Single To Empty Slot
+key.bogosorter.throw_all_same=Throw All Same
+key.bogosorter.throw_all=Throw All
 
 bogosort.gui.title=Конфигурация сортировки
 bogosort.gui.tab.general.name=Общие
@@ -33,7 +41,7 @@ bogosort.gui.usageticker_enable=Включить тикер использова
 bogosort.gui.usageticker_mainhand=Включить тикер использования основной руки
 bogosort.gui.usageticker_offhand=Включить тикер использования неосновной руки
 bogosort.gui.usageticker_armor=Включить тикер использования брони
-
+bogosort.gui.usageticker_arrow=Enable Usage Ticker Arrows
 
 
 bogosort.command.config_relaod.success=Перезагружен конфиг сортировки
@@ -109,12 +117,17 @@ bogosorter.config.usage_ticker.enable=Enable usage ticker
 bogosorter.config.usage_ticker.mainhand=Show main hand usage
 bogosorter.config.usage_ticker.offhand=Show off hand usage
 bogosorter.config.usage_ticker.armor=Show armor usage
+bogosorter.config.usage_ticker.arrow=Arrow Settings
+bogosorter.config.usage_ticker.arrow.enable=Enable arrow usage
+bogosorter.config.usage_ticker.arrow.arrowItems=Item arrows
+bogosorter.config.usage_ticker.arrow.bowItems=Item bows
 
 bogosorter.config.sort.sound=Sort button click sound
 bogosorter.config.hotbarsort.enable=Enable hotbar sort
 bogosorter.config.hotbarswap.enable=Enable hotbar swap
-bogosorter.config.autorefill.enable=Enable auto-refill
-bogosorter.config.autorefill.damage_threshold=Auto-refill damage threshold
+bogosorter.config.autorefill.enable=Enable auto-refill (Client Toggle)
+bogosorter.config.autorefill.enable_server=Enable auto-refill (Server Toggle)
+bogosorter.config.autorefill.damage_threshold=Порог урона автопополнения
 bogosorter.config.preventSplit=Prevent Split for Unstackable Items
 bogosorter.config.button.color=Sort button color
 bogosorter.config.button.enable=Enable sort button
