@@ -47,7 +47,16 @@ item.universalSingularities.general.meteoricIron.name=Сингулярность
 item.universalSingularities.general.europium.name=Сингулярность из европия
 item.universalSingularities.general.gangue.name=Сингулярность из пустой породы
 item.universalSingularities.general.roseGold.name=Сингулярность из розового золота
-//General
+
+//Rubber
+item.universalSingularities.rubber.rubber.name=Сингулярность из резины
+item.universalSingularities.rubber.styrenebutadiene.name=Сингулярность из бутадиен-стирольной резины
+item.universalSingularities.rubber.silicone.name=Сингулярность из силиконовой резины
+item.universalSingularities.rubber.polyphenylene.name=Сингулярность из полифенилен-сульфида
+item.universalSingularities.rubber.pvc.name=Сингулярность из поливинилхлорида
+item.universalSingularities.rubber.elastic.name=Эластичная сингулярность
+
+
 
 //Big Reactors
 item.universalSingularities.bigReactors.blutonium.name=Сингулярность из блутония
@@ -135,6 +144,7 @@ item.universalSingularities.tinkersConstruct.glue.name=Сингулярност�
 item.universalSingularities.tinkersConstruct.manyullyn.name=Сингулярность из мануллина
 //item.universalSingularities.tinkersConstruct.pigIron.name=Сингулярность из свиного чугуна
 //Tinkers' Construct
+
 
 /*Removed
  * item.universalSingularities.general.salt.name=Сингулярность из каменной соли

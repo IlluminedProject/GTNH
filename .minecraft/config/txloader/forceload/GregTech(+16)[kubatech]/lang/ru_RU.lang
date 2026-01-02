@@ -2,6 +2,7 @@
 
 #RecipeMaps
 kubatech.defusioncrafter=Draconic Evolution термоядерный крафтер
+kubatech.htgrrecipes=Высокотемпературный газовый реактор
 
 #NEI
 kubatech.defusioncrafter.tier=Тир корпуса: %s
@@ -148,6 +149,16 @@ kubatech.infodata.mia.running_mode.operating.normal=Режим работы (Н�
 kubatech.infodata.mia.running_mode.operating.swarmer=Режим работы (РОЕНИЕ)
 kubatech.infodata.mia.running_mode.bee_storage=Хранилище пчел (%s/%s):
 
+#HTGR
+kubatech.infodata.htgr.stored_fuel=Хранящееся топливо:
+kubatech.infodata.htgr.stored_fuel_entry=§f- §b%s §fx §6%s
+kubatech.infodata.htgr.burned_fuel=Сгоревшее топливо:
+kubatech.infodata.htgr.burned_fuel_entry=§f- §b%s §fx §6%s%% to output
+kubatech.infodata.htgr.helium_supply=Поставка гелия: §6%sЛ
+kubatech.infodata.htgr.coolant_per_tick=Хладагента за тик: §6%sЛ
+kubatech.infodata.htgr.water_per_tick=Воды за тик: §6%sЛ
+kubatech.infodata.htgr.fuel_supply=Уровень заполнения %s из %s
+
 #Waila
 kubatech.waila.eec.mob_type=Вид существа: %s
 kubatech.waila.eec.no_mob=Нет
@@ -171,6 +182,12 @@ kubaitem.defc_schematic_t1.tip=Эту схему можно найти в Под
 kubaitem.defc_schematic_t2.name=Схема: ядро виверны
 kubaitem.defc_schematic_t3.name=Схема: пробуждённое ядро
 kubaitem.defc_schematic_t4.name=Схема: ядро хаоса
+
+item.htgr_item.0.name=TRISO топливная смесь (%s)
+item.htgr_item.1.name=Незавершённое BISO топливо (%s)
+item.htgr_item.2.name=Незавершённое TRISO топливо (%s)
+item.htgr_item.3.name=TRISO топливо (%s)
+item.htgr_item.4.name=Сгоревшее TRISO топливо (%s)
 
 #Tea
 kubaitem.tea.black_tea.name=Черный чай
@@ -259,3 +276,5 @@ kubatech.tooltip.tea_storage.0=Расширяет хранилище чая на
 kubatech.tooltip.tea_ingredient.0=Это ингредиент чая
 
 kubatech.tooltip.structure.flowers=Цветы
+
+kubatech.tooltip.htgr_material=Материал для высокотемпературного газоохлаждаемого реактора

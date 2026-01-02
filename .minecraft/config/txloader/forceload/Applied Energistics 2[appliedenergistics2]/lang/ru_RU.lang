@@ -230,6 +230,9 @@ gui.appliedenergistics2.IOBuses=МЭ шина импорта\экспорта
 gui.appliedenergistics2.Stores=Хранит
 gui.appliedenergistics2.BytesUsed=Байт использовано
 gui.appliedenergistics2.TimeUsed=Затраченное время
+gui.appliedenergistics2.CraftName=Craft Name
+gui.appliedenergistics2.Remains=Remains
+gui.appliedenergistics2.Progress=Прогресс
 gui.appliedenergistics2.Types=типов
 gui.appliedenergistics2.Blank=Чистый
 gui.appliedenergistics2.Unlinked=Не связанный
@@ -275,8 +278,8 @@ gui.appliedenergistics2.Empty=Пустой
 gui.appliedenergistics2.Stored=Хранится
 gui.appliedenergistics2.AddToBookmark=Закладка
 gui.appliedenergistics2.Cancel=Отмена
-gui.appliedenergistics2.Suspend=Suspend
-gui.appliedenergistics2.Resume=Resume
+gui.appliedenergistics2.Suspend=Подозрительный
+gui.appliedenergistics2.Resume=Возобновить
 gui.appliedenergistics2.ETAFormat=HH:mm:ss
 gui.appliedenergistics2.SwitchCraftingSimulationDisplayMode=Переключить режим отображения (Список/Дерево)
 gui.appliedenergistics2.Crafting=Создание
@@ -340,8 +343,15 @@ gui.appliedenergistics2.HoldShiftClick_HIGHLIGHT_INTERFACE=Нажмите Shift+
 gui.appliedenergistics2.Nothing=Ничего
 gui.appliedenergistics2.VoidCellTooltip=Удаляет §4всё§7, что помещено в неё
 gui.appliedenergistics2.CellView=Ячейка отображения
+gui.appliedenergistics2.Inputs=Вход
+gui.appliedenergistics2.Outputs=Вывод
+gui.appliedenergistics2.EncodedPattern=Закодированный шаблон
 gui.appliedenergistics2.Deprecated=Устарело, скоро будет удалено!
 gui.appliedenergistics2.ViewCellToggleKey=ПКМ для переключения
+gui.appliedenergistics2.CPUAllowMode=Принять запрос
+gui.appliedenergistics2.CPUAllowAll=Все
+gui.appliedenergistics2.CPUOnlyAllowNonPlayer=Только от не-игрока
+gui.appliedenergistics2.CPUOnlyAllowPlayer=Только от игрока
 
 gui.appliedenergistics2.NetworkBytesDetails=Подробности о сетевых байтах
 gui.appliedenergistics2.Items=Предметы
@@ -396,6 +406,8 @@ gui.tooltips.appliedenergistics2.Encode=Закодировать шаблон
 gui.tooltips.appliedenergistics2.EncodeDescription=Запишите введённый шаблон на текущий закодированный шаблон, или на доступный чистый шаблон. Удерживай Shift, чтобы сразу перенести его в инвентарь. Удерживай Shift+Ctrl, чтобы закодировать весь стак.
 
 gui.tooltips.appliedenergistics2.FuzzyMode=Нечёткое сравнение
+gui.tooltips.appliedenergistics2.FZPercent_1=Разделять урон с 1%
+gui.tooltips.appliedenergistics2.FZPercent_10=Разделять урон с 10%
 gui.tooltips.appliedenergistics2.FZPercent_25=Разделять урон с 25%
 gui.tooltips.appliedenergistics2.FZPercent_50=Разделять урон с 50%
 gui.tooltips.appliedenergistics2.FZPercent_75=Разделять урон с 75%
@@ -487,7 +499,7 @@ gui.tooltips.appliedenergistics2.ReportInaccessibleItemsNo=Нет: Только 
 gui.tooltips.appliedenergistics2.TypeFilter=Фильтр типов
 gui.tooltips.appliedenergistics2.TypeFilterShowAll=Показать всё
 gui.tooltips.appliedenergistics2.TypeFilterShowItemsOnly=Показать только предметы
-gui.tooltips.appliedenergistics2.TypeFilterShowFluidsOnly=Показать только капли
+gui.tooltips.appliedenergistics2.TypeFilterShowFluidsOnly=Показать только жидкости
 
 gui.tooltips.appliedenergistics2.BlockPlacement=Размещение блоков
 gui.tooltips.appliedenergistics2.BlockPlacementYes=Блоки будут размещаться в виде блоков.
@@ -498,8 +510,8 @@ gui.tooltips.appliedenergistics2.SchedulingModeDefault=Экспортирова�
 gui.tooltips.appliedenergistics2.SchedulingModeRoundRobin=Экспортировать, используя режим поочередного распределения.
 gui.tooltips.appliedenergistics2.SchedulingModeRandom=Экспортировать предметы в случайном порядке.
 
-gui.tooltips.appliedenergistics2.ItemsStored=Хранящиеся предметы: %s
-gui.tooltips.appliedenergistics2.ItemCount=Количество предметов: %s
+gui.tooltips.appliedenergistics2.ItemsStored=Хранится: %s
+gui.tooltips.appliedenergistics2.ItemCount=Количество: %s
 gui.tooltips.appliedenergistics2.ItemsRequestable=Запрашиваемые предметы: %s
 gui.tooltips.appliedenergistics2.P2PFrequency=Частота: %s
 gui.tooltips.appliedenergistics2.OreFilterHint=Фильтрует предметы с помощью имен Ore Dictionary
@@ -593,8 +605,8 @@ gui.tooltips.appliedenergistics2.CPUAllowAllDesc=Разрешить все за�
 gui.tooltips.appliedenergistics2.CPUOnlyAllowPlayerDesc=Разрешить только запросы на создание предметов от игрока
 gui.tooltips.appliedenergistics2.CPUOnlyAllowNonPlayerDesc=Разрешить запросы на создание предметов только от неигроков
 
-gui.tooltips.appliedenergistics2.Suspend=Click to stop this CPU from sending out crafts
-gui.tooltips.appliedenergistics2.Resume=Click to make this CPU send out crafts again
+gui.tooltips.appliedenergistics2.Suspend=Нажмите чтобы остановить этот ЦП от отправки крафтов
+gui.tooltips.appliedenergistics2.Resume=Нажмите чтобы этот ЦП отправлял крафты снова
 
 gui.tooltips.appliedenergistics2.PinsSection=Секция закрепленных предметов
 gui.tooltips.appliedenergistics2.PinsSectionActive=Секция закрепленных предметов включена
@@ -657,6 +669,17 @@ waila.appliedenergistics2.CraftingLockedByLackOfRedstoneSignal=Заблокир�
 waila.appliedenergistics2.CraftingLockedByRedstoneSignal=Заблокировано сигналом красного камня
 waila.appliedenergistics2.CraftingLockedUntilPulse=Ожидает импульс красного камня для разблокировки
 waila.appliedenergistics2.CraftingLockedUntilResult=Ожидает результатов создания для разблокировки
+waila.appliedenergistics2.CoordinateX=X
+waila.appliedenergistics2.CoordinateY=Y
+waila.appliedenergistics2.CoordinateZ=Z
+waila.appliedenergistics2.Dimension=Измерение
+waila.appliedenergistics2.Id=id
+waila.appliedenergistics2.ConnectedTo=Соединено с
+waila.appliedenergistics2.Disconnected=Отключено
+waila.appliedenergistics2.Singularity=Сингулярность
+
+# Baubles Extended
+slot.Terminal=§aТерминал§7
 
 # Items
 item.appliedenergistics2.ItemBasicStorageCell.1k.name=§61К§r МЭ ячейка хранения
@@ -687,7 +710,7 @@ item.appliedenergistics2.ItemPart.InvalidType.name=Отключенный пре
 item.appliedenergistics2.ItemMaterial.InvalidType.name=Этот предмет отключён.
 
 item.appliedenergistics2.ItemMaterial.name=МЭ компонент
-item.appliedenergistics2.ItemPart.name=МЭ кабель и/или шина 
+item.appliedenergistics2.ItemPart.name=МЭ кабель и/или шина
 
 item.appliedenergistics2.ItemMaterial.BlankPattern.name=Пустой шаблон
 item.appliedenergistics2.ItemMaterial.FormationCore.name=Ядро формирования
@@ -921,3 +944,4 @@ stat.ae2.TurnedCranks=Сломано рукояток
 key.appliedenergistics2.category=Applied Energistics 2
 key.toggle_focus.desc=Переключить фокус на окно поиска
 key.search_connected_inventories.desc=Поиск предмета в сетевых инвентарях
+key.control_operation.desc=Control operation

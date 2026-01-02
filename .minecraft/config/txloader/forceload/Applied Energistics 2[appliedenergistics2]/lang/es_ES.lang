@@ -230,6 +230,9 @@ gui.appliedenergistics2.IOBuses=Bus de Importación/Exportación ME
 gui.appliedenergistics2.Stores=Almacena
 gui.appliedenergistics2.BytesUsed=Bytes utilizados
 gui.appliedenergistics2.TimeUsed=Tiempo empleado 
+gui.appliedenergistics2.CraftName=Craft Name
+gui.appliedenergistics2.Remains=Remains
+gui.appliedenergistics2.Progress=Progress
 gui.appliedenergistics2.Types=Tipos
 gui.appliedenergistics2.Blank=En blanco
 gui.appliedenergistics2.Unlinked=Desvinculado
@@ -340,8 +343,15 @@ gui.appliedenergistics2.HoldShiftClick_HIGHLIGHT_INTERFACE=Mantén Shift y haz c
 gui.appliedenergistics2.Nothing=Nada
 gui.appliedenergistics2.VoidCellTooltip=Elimina §4todo§7 almacenado dentro
 gui.appliedenergistics2.CellView=Vista de celda
+gui.appliedenergistics2.Inputs=Inputs
+gui.appliedenergistics2.Outputs=Outputs
+gui.appliedenergistics2.EncodedPattern=Encoded Pattern
 gui.appliedenergistics2.Deprecated=Despreciado, ¡será eliminado pronto!
 gui.appliedenergistics2.ViewCellToggleKey=Click derecho para alternar
+gui.appliedenergistics2.CPUAllowMode=Accept request
+gui.appliedenergistics2.CPUAllowAll=All
+gui.appliedenergistics2.CPUOnlyAllowNonPlayer=Only from non-player
+gui.appliedenergistics2.CPUOnlyAllowPlayer=Only from player
 
 gui.appliedenergistics2.NetworkBytesDetails=Detalles de bytes de red
 gui.appliedenergistics2.Items=Objetos
@@ -396,6 +406,8 @@ gui.tooltips.appliedenergistics2.Encode=Codificar patrón
 gui.tooltips.appliedenergistics2.EncodeDescription=Codificar la receta en el patrón actual, o en un patrón en blanco disponible.
 
 gui.tooltips.appliedenergistics2.FuzzyMode=Comparación difusa
+gui.tooltips.appliedenergistics2.FZPercent_1=Split Damage at 1%
+gui.tooltips.appliedenergistics2.FZPercent_10=Split Damage at 10%
 gui.tooltips.appliedenergistics2.FZPercent_25=Daño dividido al 25%
 gui.tooltips.appliedenergistics2.FZPercent_50=Daño dividido al 50%
 gui.tooltips.appliedenergistics2.FZPercent_75=Daño dividido al 75%
@@ -657,6 +669,17 @@ waila.appliedenergistics2.CraftingLockedByLackOfRedstoneSignal=Bloqueado por no 
 waila.appliedenergistics2.CraftingLockedByRedstoneSignal=Bloqueado por la señal de redstone
 waila.appliedenergistics2.CraftingLockedUntilPulse=Esperando un pulso de redstone para desbloquear
 waila.appliedenergistics2.CraftingLockedUntilResult=Esperando a los resultados para desbloquear
+waila.appliedenergistics2.CoordinateX=X
+waila.appliedenergistics2.CoordinateY=Y
+waila.appliedenergistics2.CoordinateZ=Z
+waila.appliedenergistics2.Dimension=Dimension
+waila.appliedenergistics2.Id=id
+waila.appliedenergistics2.ConnectedTo=Connected to
+waila.appliedenergistics2.Disconnected=Disconnected
+waila.appliedenergistics2.Singularity=Singularity
+
+# Baubles Extended
+slot.Terminal=§aTerminal§7
 
 # Items
 item.appliedenergistics2.ItemBasicStorageCell.1k.name=§61k§r Celda de Almacenamiento ME 
@@ -921,3 +944,4 @@ stat.ae2.TurnedCranks=Vueltas a la Manivela
 key.appliedenergistics2.category=Applied Energistics 2
 key.toggle_focus.desc=Escribir en la caja de búsqueda
 key.search_connected_inventories.desc=Buscar objeto en la red de inventarios 
+key.control_operation.desc=Control operation

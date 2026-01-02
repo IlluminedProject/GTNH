@@ -174,7 +174,7 @@ wg.gui.noFeathersToMigrate=У вас нет предметов, необходи
 wg.desc.noGlide=Планирование отключено
 wg.desc.glide=Планирование включено
 wg.desc.enableCloak=§7Включите или отключите, нажав §a%s1§7.
-wg.desc.cycleArmor=§7Cycle this item by Holding §a%s1§7 and pressing §a%s2§7.
+wg.desc.cycleArmor=§7Заменяйте этот предмет держа §a%s1§7 и нажимая §a%s2§7.
 
 wg.gui.visSize=Ёмкость Вис
 wg.gui.shiftForAspectList=§7Удерживать §aShift§7 для списка аспектов§r
@@ -246,7 +246,7 @@ tc.research_category.WITCHGADG=Witching Gadgets
 
 #WGPOTIONS
 witchinggadgets_research_name.WGPOTIONS=Статусные эффекты
-witchinggadgets_research_text.WGPOTIONS=[WG] Молоко - не всегда вариант! 
+witchinggadgets_research_text.WGPOTIONS=[WG] Молоко - не всегда вариант!
 witchinggadgets_research_page.WGPOTIONS.1=Углубляясь в тайну, вы можете столкнуться с определенными недугами. Это список известных:<BR><IMG>witchinggadgets:textures/gui/potioneffects.png:18:198:18:18:1</IMG>§nСопротивление отталкиванию:§r  Дает атакованному шанс сопротивляться отбрасыванию с вероятностью 33% за уровень.<IMG>witchinggadgets:textures/gui/potioneffects.png:36:198:18:18:1</IMG>§nРастворение:§r  Больные покрыты жидкостью, похожей на "Жидкую смерть", которая со временем повреждает их. Если они поддаются этому, они отбрасывают кристаллизованные аспекты.
 witchinggadgets_research_page.WGPOTIONS.2=<IMG>witchinggadgets:textures/gui/potioneffects.png:54:198:18:18:1</IMG>§nПепельное пальто:§r  Пораженный покрыт магическим пеплом, усиливающим силу пламени. Весь урон от огня умножается в зависимости от силы эффекта.
 #
@@ -309,7 +309,7 @@ witchinggadgets_research_page.HUNGERBAG.1=Сочетание портативн�
 #
 witchinggadgets_research_name.VOIDBAG=Связанная с Бездной сумка
 witchinggadgets_research_text.VOIDBAG=[WG] Сверхмассивная чёрная дыра
-witchinggadgets_research_page.VOIDBAG.1=Разве вы не ненавидите собирать весь этот бесполезный булыжник? Разве не было бы лучше, если бы он просто исчез? Ну вот и ваше решение! Сумка из магической ткани, наполненная энергией пустоты, которая разрушает физическую материю всех вещей, помещенных в нее, и освобождает магические энергии этого предмета.<BR>Как с этим работать: откройте его и приведите примеры элементов, которые вы хотели бы в него включить. Затем, когда этот предмет подбирается (работает только с подбираемыми в мире предметами, а не с предметами, добавленными в ваш инвентарь другими способами), они будут уничтожены, и случайный первичный аспект, содержащийся в них, будет передан вам как вис, заряжая ваш палочка. 
+witchinggadgets_research_page.VOIDBAG.1=Разве вы не ненавидите собирать весь этот бесполезный булыжник? Разве не было бы лучше, если бы он просто исчез? Ну вот и ваше решение! Сумка из магической ткани, наполненная энергией пустоты, которая разрушает физическую материю всех вещей, помещенных в нее, и освобождает магические энергии этого предмета.<BR>Как с этим работать: откройте его и приведите примеры элементов, которые вы хотели бы в него включить. Затем, когда этот предмет подбирается (работает только с подбираемыми в мире предметами, а не с предметами, добавленными в ваш инвентарь другими способами), они будут уничтожены, и случайный первичный аспект, содержащийся в них, будет передан вам как вис, заряжая ваш палочка.
 #
 
 
@@ -333,7 +333,7 @@ witchinggadgets_research_page.WGBAUBLES.3=§lНаручи берсерка:§r<B
 witchinggadgets_research_page.WGBAUBLES.4=§lНаручи неуклонного прогресса:§r<BR>Эти наручи, разработанные дворфскими волшебниками, созданы, чтобы дать вам возможность рыть яму в стабильном темпе, не прерываясь. Для этого они динамически реагируют на условия работы, увеличивая скорость копания, когда пользователь погружается в воду, летает в воздухе или при столкновении с очень упругими материалами.<BR>Они также увеличивают скорость, с которой вы поднимаетесь по лестнице, когда вам в конце концов нужно убежать от того, что вы разбудили в темноте внизу.
 witchinggadgets_research_page.WGBAUBLES.5=§lБрелок Серафима:§r<BR>Полет - это способность, о которой мечтают многие. Это довольно продвинутая форма магии, которая позволяет пользователям летать, но небольшой прыжок в воздухе - в ваших возможностях.<BR>Эти брелок порождают мощные волшебные крылья, которые позволяют вам совершить второй прыжок в воздухе.
 witchinggadgets_research_page.WGBAUBLES.6=§lКольцо снайпера:§r<BR>Некоторые существа тьмы слишком сильны, чтобы сражаться с ними в рукопашном бою, поэтому убрать их на расстоянии кажется более целесообразным. С кольцом Снайпера эта задача значительно упрощается.<BR>Пока вы носите кольцо, вы сможете двигаться быстрее, натягивая лук. Подкрадывание со сбитой стрелой позволит вам сфокусироваться на цели, находящейся на расстоянии.
-witchinggadgets_research_page.WGBAUBLES.7=§lКольцо жадной монеты:§r<BR>Хорошо быть удачливым! Но никогда не бывает достаточно удачи. Вы придумали способ повысить свою удачу, вставив золотую монету в кольцо и зарядив её магией.<BR>§oНошение кольца увеличит ваше состояние и добычу на два уровня.<BR>Зачарованные книги, из которых изготавливается монета, могут нести любые чары.§r 
+witchinggadgets_research_page.WGBAUBLES.7=§lКольцо жадной монеты:§r<BR>Хорошо быть удачливым! Но никогда не бывает достаточно удачи. Вы придумали способ повысить свою удачу, вставив золотую монету в кольцо и зарядив её магией.<BR>§oНошение кольца увеличит ваше состояние и добычу на два уровня.<BR>Зачарованные книги, из которых изготавливается монета, могут нести любые чары.§r
 witchinggadgets_research_page.WGBAUBLES.8=§lСчастливая золотая монета:§r<BR>Зачарованная счастливая монета, готовая к использованию.§r
 
 #
@@ -492,13 +492,13 @@ witchinggadgets_research_page.GEMCUTTING.7.noMirrors=§e§lAer: §r§0Энерг
 #
 witchinggadgets_research_name.GEMCUT_TABLE=Плоская огранка
 witchinggadgets_research_text.GEMCUT_TABLE=[WG] Побрякушки
-witchinggadgets_research_page.GEMCUT_TABLE.1=<IMG>witchinggadgets:textures/gui/research/gemcuts.png:80:0:80:80:1</IMG>The table cut is
+witchinggadgets_research_page.GEMCUT_TABLE.1=<IMG>witchinggadgets:textures/gui/research/gemcuts.png:80:0:80:80:1</IMG>В столе для огранки
 witchinggadgets_research_name.GEMCUT_STEP=Ступенчатая огранка
 witchinggadgets_research_text.GEMCUT_STEP=[WG] Shwing
-witchinggadgets_research_page.GEMCUT_STEP.1=<IMG>witchinggadgets:textures/gui/research/gemcuts.png:160:0:80:80:1</IMG>The table cut is
+witchinggadgets_research_page.GEMCUT_STEP.1=<IMG>witchinggadgets:textures/gui/research/gemcuts.png:160:0:80:80:1</IMG>В столе для огранки
 witchinggadgets_research_name.GEMCUT_ROSE=Огранка роза
 witchinggadgets_research_text.GEMCUT_ROSE=[WG] Блеск
-witchinggadgets_research_page.GEMCUT_ROSE.1=<IMG>witchinggadgets:textures/gui/research/gemcuts.png:0:80:80:80:1</IMG>The table cut is
+witchinggadgets_research_page.GEMCUT_ROSE.1=<IMG>witchinggadgets:textures/gui/research/gemcuts.png:0:80:80:80:1</IMG>В столе для огранки
 witchinggadgets_research_name.GEMCUT_OVAL=Овальная огранка
 witchinggadgets_research_text.GEMCUT_OVAL=[WG] Проблеск
 witchinggadgets_research_page.GEMCUT_OVAL.1=<IMG>witchinggadgets:textures/gui/research/gemcuts.png:80:80:80:80:1</IMG>Овальная огранка - совершенство огранки драгоценных камней. Он используется при создании безделушек, но также может быть прикреплен к большинству доспехов и инструментов, придавая им эффект гнезда. Список см. на следующих страницах.
@@ -521,7 +521,7 @@ witchinggadgets_research_page.PRIMORDIALGLOVE.2=Следует отметить,
 witchinggadgets_research_name.PRIMORDIALGEARSET=Первобытное откровение
 witchinggadgets_research_text.PRIMORDIALGEARSET=[WG] Война со сверхъестественным!
 witchinggadgets_research_page.PRIMORDIALGEARSET.1=Как вспышка молнии, каракули, прежде не узнаваемые, кажутся кристально чистыми. Вы восстановили страницы, посвященные исконному кузнечному делу, искусству высокоэнергетической инфузии. С его помощью вы будете создавать части снаряжения, которые немного превосходят ваши нынешние. Его дизайн ясно указывает на то, что эти предметы не предназначались для путешествующих Тауматургов. Это подготовка к неизбежному конфликту с созданиями Пустоты. И что лучше для борьбы с ними, чем металл, созданный их знаниями?<BR>Вы должны слепить предметы из полных блоков пустотного металла, предметы первобытной силы, чтобы защитить и вооружить вас.
-witchinggadgets_research_page.PRIMORDIALGEARSET.2=Но это не все! Руны и гнезда на указанном снаряжении будут идеальными для усиления процессов, ещё более укрепляя их потенциал. Каждая часть наполнена элементальными способностями, которые значительно увеличивают их потенциал!
+witchinggadgets_research_page.PRIMORDIALGEARSET.2=Но это не всё! Руны и гнезда на указанном снаряжении будут идеальными для усиления процессов, ещё более укрепляя их потенциал. Каждая часть наполнена элементальными способностями, которые значительно увеличивают их потенциал!
 
 #PRIMORDIALWEAPONRY
 witchinggadgets_research_name.PRIMORDIALWEAPONRY=Первобытное оружие
@@ -548,7 +548,7 @@ witchinggadgets_research_page.PRIMORDIALGREATAXE.1=Изначальный бол
 witchinggadgets_research_name.PRIMORDIALARMOR=Первобытная броня
 witchinggadgets_research_text.PRIMORDIALARMOR=[WG] Двуногий танк
 witchinggadgets_research_page.PRIMORDIALARMOR.1=Первобытная броня улучшает вашу защиту от врагов. Он сам по себе блокирует довольно много урона, но он также восприимчив к руническим улучшениям, позволяя вам усилить его ещё больше. В дополнение к этому, он имеет различные эффекты, основанные на его изначальной близости, между которыми ты можешь переключаться. §o(Горячая клавиша по умолчанию: Shift+ПКМ)§r<BR>Как и Боевой таум-доспех, он также может быть оснащен Очками откровения и соответствующими масками.
-witchinggadgets_research_page.PRIMORDIALARMOR.2=§l§n     Первобытное сходство:     §r<BR>§nAer:§r Любой снаряд, выпущенный в вас, улавливается порывом воздуха и отбрасывается обратно в стрелка. §nTerra:§r Повышенная защита от атак, которые обычно пробивают вашу броню.                        §nIgnis:§r Урон, который вы получаете от огня и взрывов, значительно снижается, и при необходимости вы будете потушены.     §nAqua:§r Излечиваются от легких недугов, таких как (заразный) яд, слепота, увядание и тошнота. Не работает с эффектами деформации.                       §nOrdo:§r Снижена серьезность и длительность всех статусных эффектов, связанных с искажением.                    §nPerditio:§r Большинство ударов по пользователю можно отомстить, поражая нападающего слепотой и медлительностью. 
+witchinggadgets_research_page.PRIMORDIALARMOR.2=§l§n     Первобытное сходство:     §r<BR>§nAer:§r Любой снаряд, выпущенный в вас, улавливается порывом воздуха и отбрасывается обратно в стрелка. §nTerra:§r Повышенная защита от атак, которые обычно пробивают вашу броню.                        §nIgnis:§r Урон, который вы получаете от огня и взрывов, значительно снижается, и при необходимости вы будете потушены.     §nAqua:§r Излечиваются от легких недугов, таких как (заразный) яд, слепота, увядание и тошнота. Не работает с эффектами деформации.                       §nOrdo:§r Снижена серьезность и длительность всех статусных эффектов, связанных с искажением.                    §nPerditio:§r Большинство ударов по пользователю можно отомстить, поражая нападающего слепотой и медлительностью.
 #witchinggadgets_research_name.PRIMORDIALHELMET=Primordial Helm
 #witchinggadgets_research_text.PRIMORDIALHELMET=[WG] 
 #witchinggadgets_research_page.PRIMORDIALHELMET.1=
@@ -591,7 +591,7 @@ witchinggadgets_research_name.TERRAFORMFOCUS_MUSHROOM=Фокус Земли: Г�
 witchinggadgets_research_text.TERRAFORMFOCUS_MUSHROOM=[WG] Moooo-shroom!
 witchinggadgets_research_page.TERRAFORMFOCUS_MUSHROOM.1=Цвета могут быть нечеткими, а коровы выглядят забавно, но с гарантированной защитой от монстров Грибные острова делают идеальное место для отдыха.<BR>...<BR>И теперь вы можете привнести это ощущение к своему порогу, просто снабдив этот фокус §aLimus§0 эссенцией
 witchinggadgets_research_name.TERRAFORMFOCUS_TAINT=Фокус Земли: Зараженные земли
-witchinggadgets_research_text.TERRAFORMFOCUS_TAINT=[WG] Забери мои слезы, и это ещё не все!
+witchinggadgets_research_text.TERRAFORMFOCUS_TAINT=[WG] Забери мои слезы, и это ещё не всё!
 witchinggadgets_research_page.TERRAFORMFOCUS_TAINT.1=Вот и все. К этому моменту вы в значительной степени квалифицируетесь как сумасшедший. Создание искусственно испорченной земли? И не только с каким-то запечатленным заражением, но и с полномасштабным терраформированием?<BR>...<BR>О, вы делаете это в исследовательских целях? Тогда это нормально. Просто добавьте в этот фокус немного §5Vitium§0 эссенции и сойдите с ума.
 witchinggadgets_research_name.TERRAFORMFOCUS_END=Фокус терроформирования: Край
 witchinggadgets_research_text.TERRAFORMFOCUS_END=[WG] К черту Пустоту
@@ -680,7 +680,7 @@ witchinggadgets_research_text.ANGELIC_BOOTS=[WG] Пернатые ступени
 witchinggadgets_research_page.ANGELIC_BOOTS.1=Благодаря магии этих ботинок вы двигаетесь с более высокой скоростью и не получаете повреждений при падении.<BR>Кроме того, вам дается способность ходить по поверхности любой жидкости. Сюда входят вода и лава. Если вы присядете, вы утонете.
 #
 witchinggadgets_research_name.THAUMICAPPLICATOR=
-witchinggadgets_research_text.THAUMICAPPLICATOR=[WG] 
+witchinggadgets_research_text.THAUMICAPPLICATOR=[WG]
 witchinggadgets_research_page.THAUMICAPPLICATOR.1=
 #
 

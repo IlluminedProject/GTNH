@@ -507,7 +507,7 @@
 					"name:8": "betterquesting",
 					"quest:10": {
 						"questIDHigh:4": 0,
-						"questIDLow:4": 1013
+						"questIDLow:4": 2736
 					}
 				}
 			],
@@ -839,48 +839,6 @@
 			]
 		},
 		{
-			"category:8": "raw",
-			"cooldown:3": 0,
-			"id:10": {
-				"tradeGroupIDHigh:4": -7651212176927670027,
-				"tradeGroupIDLow:4": -8474466748179230466
-			},
-			"maxTrades:3": -1,
-			"requirements:9": [
-				{
-					"name:8": "betterquesting",
-					"quest:10": {
-						"questIDHigh:4": 0,
-						"questIDLow:4": 88
-					}
-				}
-			],
-			"trades:9": [
-				{
-					"displayItem:10": {
-						"Count:3": 1,
-						"Damage:2": 0,
-						"OreDict:8": "",
-						"id:8": "vendingmachine:placeholder"
-					},
-					"fromCurrency:9": [
-						{
-							"type:8": "technician",
-							"value:3": 500
-						}
-					],
-					"toItems:9": [
-						{
-							"Count:3": 1,
-							"Damage:2": 2817,
-							"OreDict:8": "",
-							"id:8": "gregtech:gt.metaitem.01"
-						}
-					]
-				}
-			]
-		},
-		{
 			"category:8": "bees",
 			"cooldown:3": 1200,
 			"id:10": {
@@ -1098,7 +1056,7 @@
 							"value:3": 250
 						}
 					],
-					"fromItems:9": [
+					"nonConsumedItems:9": [
 						{
 							"Count:3": 1,
 							"Damage:3": 3,
@@ -1284,7 +1242,7 @@
 					"fromCurrency:9": [
 						{
 							"type:8": "darkWizard",
-							"value:3": 500
+							"value:3": 50
 						}
 					],
 					"toItems:9": [
@@ -1379,7 +1337,7 @@
 							"value:3": 100
 						}
 					],
-					"fromItems:9": [
+					"nonConsumedItems:9": [
 						{
 							"Count:3": 1,
 							"Damage:2": 0,
@@ -1587,7 +1545,7 @@
 					"name:8": "betterquesting",
 					"quest:10": {
 						"questIDHigh:4": 0,
-						"questIDLow:4": 1297
+						"questIDLow:4": 400
 					}
 				}
 			],
@@ -1605,7 +1563,7 @@
 							"value:3": 500
 						}
 					],
-					"fromItems:9": [
+					"nonConsumedItems:9": [
 						{
 							"Count:3": 1,
 							"Damage:3": 0,
@@ -1743,7 +1701,7 @@
 							"value:3": 4
 						}
 					],
-					"fromItems:9": [
+					"nonConsumedItems:9": [
 						{
 							"Count:3": 1,
 							"Damage:3": 1,
@@ -1967,7 +1925,7 @@
 							"value:3": 150
 						}
 					],
-					"fromItems:9": [
+					"nonConsumedItems:9": [
 						{
 							"Count:3": 1,
 							"Damage:3": 1,
@@ -2348,7 +2306,7 @@
 					"name:8": "betterquesting",
 					"quest:10": {
 						"questIDHigh:4": 0,
-						"questIDLow:4": 986
+						"questIDLow:4": 400
 					}
 				}
 			],
@@ -2646,7 +2604,7 @@
 							"value:3": 100
 						}
 					],
-					"fromItems:9": [
+					"nonConsumedItems:9": [
 						{
 							"Count:3": 1,
 							"Damage:3": 0,
@@ -3501,7 +3459,7 @@
 							"value:3": 10
 						}
 					],
-					"fromItems:9": [
+					"nonConsumedItems:9": [
 						{
 							"Count:3": 1,
 							"Damage:3": 2,
@@ -3778,7 +3736,7 @@
 					"name:8": "betterquesting",
 					"quest:10": {
 						"questIDHigh:4": 0,
-						"questIDLow:4": 1013
+						"questIDLow:4": 2736
 					}
 				},
 				{
@@ -3948,7 +3906,7 @@
 							"value:3": 25
 						}
 					],
-					"fromItems:9": [
+					"nonConsumedItems:9": [
 						{
 							"Count:3": 1,
 							"Damage:3": 0,
@@ -4002,7 +3960,7 @@
 							"value:3": 500
 						}
 					],
-					"fromItems:9": [
+					"nonConsumedItems:9": [
 						{
 							"Count:3": 1,
 							"Damage:3": 0,
@@ -6362,7 +6320,14 @@
 					"name:8": "betterquesting",
 					"quest:10": {
 						"questIDHigh:4": 0,
-						"questIDLow:4": 230
+						"questIDLow:4": 88
+					}
+				},
+				{
+					"name:8": "betterquesting",
+					"quest:10": {
+						"questIDHigh:4": 0,
+						"questIDLow:4": 241
 					}
 				},
 				{
@@ -7283,7 +7248,7 @@
 							"value:3": 70
 						}
 					],
-					"fromItems:9": [
+					"nonConsumedItems:9": [
 						{
 							"Count:3": 1,
 							"Damage:3": 8,

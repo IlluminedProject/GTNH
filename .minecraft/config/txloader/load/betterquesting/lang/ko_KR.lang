@@ -131,7 +131,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALOg.desc=마인크래프트는 청크로
 
 # Quest: Permanent Offhand!
 betterquesting.quest.U7JoxM0mRaWx0MYriD2LtQ.name=§9§lPermanent Offhand!
-betterquesting.quest.U7JoxM0mRaWx0MYriD2LtQ.desc=With the release of version 2.8 of GTNH, the modern offhand slot has been backported and is available for every player. %n%nWith this, we say goodbye to the Battlegear slots of before. The three slots on either side of your hotbar, default key "G", are no longer!%n%nThis feature also works with any item that opens a GUI, like a backpack for example. This makes inventory management easier and helps with certain tedious tasks.%n%nDefault Keybind to swap between mainhand and offhand: §9F§r%n%n[warn]Any items that were in the Battlegear slots should return to your inventory or dropped on the ground if your inventory is full.[/warn]%n%n[note]You can also toggle various Torch Tweaks in Backhand's mod client configs. They are disabled by default, but you may find them useful if you love holding torches in your offhand.[/note]
+betterquesting.quest.U7JoxM0mRaWx0MYriD2LtQ.desc=The modern offhand slot has been backported.%n%nThis feature also works with any item that opens a GUI, like a backpack for example. This makes inventory management easier and helps with certain tedious tasks.%n%nDefault Keybind to swap between mainhand and offhand: §9F§r%n%n[note]You can also toggle various Torch Tweaks in Backhand's mod client configs. They are disabled by default, but you may find them useful if you love holding torches in your offhand.[/note]
 
 
 ## Quest Line: Tips and Tricks
@@ -164,8 +164,8 @@ betterquesting.quest.4g20EVdxSWyOUMhZXkcIWQ.name=§2§l다 필요해요! -2-
 betterquesting.quest.4g20EVdxSWyOUMhZXkcIWQ.desc=더 많은 배낭이 있습니다: 코인 수집가, 사움 마법사, 트랙맨...
 
 # Quest: A Better Furnace!
-betterquesting.quest.5EdKBIyDTYa7xhnSCUZmiQ.name=A Better Furnace!
-betterquesting.quest.5EdKBIyDTYa7xhnSCUZmiQ.desc=Build a Blast Furnace!%n%nEnjoy faster smelting for your metals!
+betterquesting.quest.5EdKBIyDTYa7xhnSCUZmiQ.name=§a§lA Better Furnace!
+betterquesting.quest.5EdKBIyDTYa7xhnSCUZmiQ.desc=Build a Blast Furnace!%n%nEnjoy faster smelting for your metals!%n%n[warn]Will not process all items that a regular furnace will. Check NEI for more detail.[/warn]
 
 # Quest: Ready, Set, Go!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAADw.name=§2§l준비하고, 시작하세요!
@@ -442,6 +442,14 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKsQ.desc=음식 좋아하시죠? 더 좋
 # Quest: Loot Games
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALPA.name=§2§l전리품 게임
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALPA.desc=지표면에서 깊지 않은 곳에 있는 숨겨진 전리품 게임방을 찾으셨군요. 전리품 게임은 미니게임을 해서 달달한 보상을 챙길 수 있는 컨텐츠입니다. 색깔 기억하기 게임은 가장 잘했던 라운드를 기준으로 보상이 지급되므로, 다른 라운드는 그냥 전부 실패해서 빠르게 보상만 가지고 갈 수 있습니다. 전리품 게임 블럭을 부술 경우, 게임의 부정을 저지른 것으로 판명되어, 게임이 여러분을 죽이러 들겁니다. 그리고 만약 지뢰찾기 게임에서 실패한 경우, 폭발이 일어납니다. 퇴로를 꼭 확보하시길 바랍니다. 또한, 전리품 게임방 안에 물이나 기름이 흐르는 경우, "부정행위"로 여겨져서 여러분을 죽입니다. 이상하죠? 버그라 그렇습니다..
+
+# Quest: Coins! Coins! Coins!
+betterquesting.quest.McmojGJJS3m8fS6c4olJmQ.name=§a§lCoins! Coins! Coins!
+betterquesting.quest.McmojGJJS3m8fS6c4olJmQ.desc=Finally, a use for all of these coins!%n%nThe §5§lVending Machine§r is a unique multiblock that allows you to exchange coins for valuable resources. You will progressively unlock new trades as you complete quests. Quests that unlock Vending Machine trades upon completion will show this information under the section labeled "§lAssociated Vending Machine Exchanges§r".%n%nAlternatively you can click "§2U§r" on the Vending Machine in NEI to see all available trades and what quests they are unlocked by. If an item can be traded for it will show up when clicking "§2R§r" under the Vending Machine tab.%n%nYou can put your coins directly into the input and they will appear in the internal storage. Additional inputs §3(including non-consumable)§r should be placed here as well. There is also a button for ejecting the coins if you need to reclaim them. %n%n[warn]Be aware, some trades have much longer timeout periods between claims![/warn]%n%n
+
+# Quest: Automated Coke Oven
+betterquesting.quest.XABK1llCToa6KKcF5Z69GA.name=§a§lAutomated Coke Oven
+betterquesting.quest.XABK1llCToa6KKcF5Z69GA.desc=Now that you're able to create bronze pipes, you can finally create the Coke Oven Hatch! This hatch allows you to finally automate the Coke Oven.%n%nEach hatch can be switched between: Item Input, Item Output, & Fluid Output by right-clicking it with a screwdriver. From there, you can use pipes to transport the items or fluid to wherever it needs to go.%n%nMake two using the bronze pipes you just crafted and you can have a third for free. %n%n[note]This hatch will auto-output.[/note]
 
 # Quest: The power of prospecting!
 betterquesting.quest.bMKIeFhNQluRks9YzpqEGQ.name=§6§l탐사의 힘!
@@ -1237,6 +1245,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEQg.desc=펌프는 오일과 물을 빨�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEQw.name=§5§l반짝거리는 다이아몬드 탱크
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEQw.desc=절단기를 만든 후에는 다이아몬드 판으로 크고 아름다운 64,000L 단일 블록 탱크를 만들 수 있습니다.
 
+# Quest: Firestone Ore/Dust
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE_w.name=§6§l화염석 광석/가루
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE_w.desc=화염석 광석은 필러 등의 BC 기계를 만드는 데 사용되며, 그 외에도 다른 여러 가지 용도로 사용됩니다. 유감스럽게도, 이것은 네더... 바로 용암 바다의 밑바닥에 있습니다! %n%n여기 화염석을 찾는 몇 가지 팁을 알려드립니다: %n%n-화염석은 적어도 깊이 6 이상의 깊은 용암에만 생성됩니다. 네더 암석만 대체하므로, 소울 샌드로 가득한 피요르드에는 없습니다. 용암의 깊이와 그 밑에 무엇이 있는지 확인하는 방법을 생각해 볼 수 있나요?%n-또는, 만약 머리를 용암 위의 정확한 높이에, 그리고 정확한 각도에 유지한다면, 용암 아래를 볼 수 있을 것입니다 - 분명히 호버링하는 제트팩이 있어야만 합니다, 그렇죠?%n-...또는 cursor가 JM map 위에 있을 때 바이옴을 찾아보세요. Hell은 네더 암석이 있는 기본 바이옴입니다.%n%nGT 광부들로 화염석을 채굴할 수 있습니다, 만약 수평 범위 내에 놓일 경우입니다. 화염석 광석과 그 제품들은 주변에 임의로 불을 일으키므로, 빠르게 백팩 안에 넣어두세요!
+
 # Quest: Ardite and Cobalt
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEaw.name=§5§l아르다이트와 코발트
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEaw.desc=시간이 있다면 네더에서 코발트와 아르다이트를 찾아볼 수 있습니다.%n%n황혼숲에서만 발견되는 특별한 나무로 코발트와 아르다이트를 캘 수 있다고 하네요. 물론 다른 재료로도 가능합니다. %n%n 코발트와 아르다이트로 도구를 만들기 위해서는, 전기 용광로가 필요합니다.
@@ -1938,10 +1950,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJaQ.desc=희토류 처리는 무시되�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJbg.name=§6§l너무 많은 아이템? 그럴 수 없어!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJbg.desc=아이템이 너무 많아 고민이라구요? 이걸 서랍에 장착하세요, 최대 용량 이상의 아이템을 넣으면 자동으로 소멸합니다! 그런데 솔직히 말해서 이것은 서랍 컨트롤러와 함께 사용하면 더 유용해요.
 
-# Quest: Hangover From All That Glue?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKsA.name=§6§l접착제 때문에 숙취가 있나요?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKsA.desc=표면 장착 장치는 더 고급 회로 부품입니다. 이들은 EV 티어+ 회로 라인에 필요하며, 올바른 재료를 가지고 있다면 기본 버전보다 제작 비용이 저렴합니다. MV 조립기와 일부 녹은 폴리에틸렌이 필요합니다. 현재로서는 저항기만이 아마 쉽게 만들 수 있는 유일한 부품일 것입니다.
-
 # Quest: Make a better Distillery
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_Q.name=§6§l더 좋은 증류기를 만드세요
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_Q.desc=메탄올과 에탄올을 더 빠르게 생산하려면, MV 증류기를 제작하세요.
@@ -2091,7 +2099,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAD8w.desc=보크사이트 광맥에는 �
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD9A.name=§9§l루타일
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD9A.desc=이제부터 일부 부산물로 Rutile을 얻었나요? 아니면 Ilmenite로 EBF를 진행했나요?%n%nRutile, Chlorine과 Carbon은 Titaniumtetrachloride와 일부 CO를 만듭니다. 필요하다면 이것을 Carbon으로 재활용하거나 버릴 수 있습니다.%n%nTiCl4를 Magnesium과 HV EBF에서 결합하면 Hot Titanium 주괴와 Magnesiumchloride가 생성됩니다. 이것도 Sodium을 사용하여 모든 Magnesium과 Chlorine을 되돌리기 위해 재활용할 수 있습니다.
 
-# Quest: SMD Circuit Components
+# Quest: SMD Diodes
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD9Q.name=§9§lSMD 회로 부품
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD9Q.desc=표면 장착 장치(Surface-mount devices, SMD)는 더 고급 회로 부품입니다. 다음 단계의 회로부터 필요하며, 기본 콘덴서, 트랜지스터, 다이오드, 저항보다 제작 비용이 저렴합니다. 신뢰할 수 있는 폴리에틸렌 설정을 가지게 되면, SMD 부품을 사용하여 많은 자원을 절약할 수 있습니다.%n%n보유한 갈륨의 양을 확인하세요. HV macerator나 벌이 안정적인 공급을 제공하기 전까지는 SMD 다이오드와 트랜지스터를 사용하는 것이 가치가 없을 수도 있습니다. 또한 IC2 작물을 통해 아연, 스팔레라이트, 박사이트를 4배로 키우는 것을 검토해 보세요.%n
 
@@ -2371,6 +2379,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKBg.desc=바이오 랩은 다기능 바�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKBw.name=§9§l배양접시, 섭취용이 아닙니다
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKBw.desc=문화를 담기 위해선 배양접시가 필요합니다. 붕규산 유리, 스티렌 또는 PTFE로 만들 수 있습니다.%n%n배양접시는 문화가 성장할 수 있도록 멸균해야 합니다. 이에 대한 멸균은 에탄올, 메탄올, 암모니아 혹은 염소를 사용할 수 있습니다.
 
+# Quest: Hangover From All That Glue?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKsA.name=§6§l접착제 때문에 숙취가 있나요?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKsA.desc=표면 장착 장치는 더 고급 회로 부품입니다. 이들은 EV 티어+ 회로 라인에 필요하며, 올바른 재료를 가지고 있다면 기본 버전보다 제작 비용이 저렴합니다. MV 조립기와 일부 녹은 폴리에틸렌이 필요합니다. 현재로서는 저항기만이 아마 쉽게 만들 수 있는 유일한 부품일 것입니다.
+
 # Quest: Better Magnetic Rods
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALZQ.name=§9§l더 나은 자기성 막대
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALZQ.desc=이 티어에는 필요하지 않지만, EV 모터를 위해서는 자성 네오디뮴 막대가 필요하므로, EV를 시작하기 전에 이것을 반드시 제작하십시오.
@@ -2409,7 +2421,7 @@ betterquesting.quest.07lxVb9wQWSSoZRcvIswZQ.name=레드스톤 스니퍼
 betterquesting.quest.07lxVb9wQWSSoZRcvIswZQ.desc=레드스톤 송신기가 어디에 있는지 궁금한 적이 있나요? 아니면 라벨이 붙었으면 좋겠다고 생각하셨나요? 팀원이 송신기를 내려놓고 말하지 않아서 어떤 개인 주파수를 썼는지 궁금하신가요? %n%n이제, 이 모든 것을 해결할 수 있는 방법이 있습니다.%n%n6레드스톤 스니퍼를 소개합니다!%n%n일반 무선 레드스톤의 경우, 스니퍼가 현재 사용 중인 모든 주파수를 나열하고 해당 주파수가 개인인지 알려주며 라벨을 붙일 수 있는 옵션을 제공해줍니다. 고급 무선 커버의 경우, 스니퍼는 다른 차원을 포함해 현재 해당 커버의 위치를 추가로 알려주며, 해당 커버를 강조 표시하거나 텔레포트할 수 있는 옵션도 제공합니다.
 
 # Quest: Raw Carbon Fiber
-betterquesting.quest.0fzaxas8R8OJzvYvqX5d9w.name=§a§lRaw Carbon Fiber
+betterquesting.quest.0fzaxas8R8OJzvYvqX5d9w.name=§8§lRaw Carbon Fiber
 betterquesting.quest.0fzaxas8R8OJzvYvqX5d9w.desc=Alternatively, you can use Raw Carbon Fiber for your Reinforced Circuit Boards.%n%n[note]You can use Epoxid to get a better yield on it![/note]
 
 # Quest: Pulverize the Planet
@@ -2750,7 +2762,7 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAABw.name=티어 5 - IV
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAABw.desc=IV 티어는 백금족을 포함한 여러 복잡한 화학 공정과 조립 라인을 만드는 것에 중점을 두고 있습니다. 두 가지 모두 상당히 어려우나 필수적입니다.%n%n공식 통계 기준으로, 해당 티어가 플레이어 폐사 비율이 최고로 높습니다. 행운을 빕니다.
 
 # Quest: IV Field Generator
-betterquesting.quest.6ENNFc4RS3u2sQFL5fnz1A.name=§b§lIV Field Generator
+betterquesting.quest.6ENNFc4RS3u2sQFL5fnz1A.name=§9§lIV Field Generator
 betterquesting.quest.6ENNFc4RS3u2sQFL5fnz1A.desc=Oh look, the latest and greatest field generator! I wonder what you'll end up using these for... maybe a Tree Growth Simulator? Maybe a new Matter Manipulator?
 
 # Quest: Tier 5 (IV)
@@ -3279,24 +3291,24 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAACA.name=티어 6 - LuV
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAACA.desc=이 지점까지 왔다면 자신있게 가슴을 피고 당당하게 자랑하셔도 됩니다!%n%n당신은 중후반부의 진입점인 LuV 티어에 왔습니다. 엔드게임 까지는 아직도 먼 길이 남아 있지만, 당신은 이제 GTNH와 그에 포함된 대부분의 모드에 대한 전문가입니다. 축하드리며, 자신을 자랑스러워하십시오. %n%n하지만, 여전히 해야할 일과 배워야할 것들은 산더미같이 쌓여있습니다. 더 나은 회로를 위해 회로 조립 라인을 만들기 시작하고, 핵융합로를 이용해 대량의 전력을 뽑아내세요.
 
 # Quest: Netherite Scrap Seed
-betterquesting.quest.01C00SMsRUyKUD2zJht8tA.name=§c§lNetherite Scrap Seed
+betterquesting.quest.01C00SMsRUyKUD2zJht8tA.name=§d§lNetherite Scrap Seed
 betterquesting.quest.01C00SMsRUyKUD2zJht8tA.desc=Finally, we can start putting some of that Netherite Scrap to use!%n%nCombine the Hot Neterite Scrap and some Rich Nether Waste in an §5§lAutoclave§r for a §2§l10%%§r chance at getting a §4Netherite Scrap Seed§r. %n%nNotably, as mentioned before, the Netherite Scrap gets recycled during this recipe so it only really costs Rich Nether Waste to create. Given the low probability, you want the recipe to be running as often as possible.
 
 # Quest: Dense Netherite Plate
-betterquesting.quest.4v3YtOxvT8aWIwy7NEJNhw.name=§c§lDense Netherite Plate
+betterquesting.quest.4v3YtOxvT8aWIwy7NEJNhw.name=§d§lDense Netherite Plate
 betterquesting.quest.4v3YtOxvT8aWIwy7NEJNhw.desc=Once you've managed to aquire 36 of these Intensely Bonded Netherite Nanoparticles you can finally create your very first Netherite material: The §4§lDense Netherite Plate§r.%n%nYou will need one of these for the §3§lMk1 Fusion Reactor§r, which is required to create the rest of the Netherite materials.
 
 # Quest: Nefarious Production
-betterquesting.quest.7YjYGaWnQ4uXqUOfMA0C9Q.name=§c§lNefarious Production
+betterquesting.quest.7YjYGaWnQ4uXqUOfMA0C9Q.name=§d§lNefarious Production
 betterquesting.quest.7YjYGaWnQ4uXqUOfMA0C9Q.desc=Now that you're producing Nether Semifluid§r, you can run it through a §5§lDistillation Tower§r to start extracting the nefarious products. You will need the §4Heavy Hellish Mud§r later in the line, and you'll need the §4Nefarious Gas§r for the next step.%n%n[note]Don't neglect the byproducts! There are a lot of useful bonus resources to be collected.[/note]
 
 # Quest: Hot Netherite Scrap
-betterquesting.quest.8zpQos1hR1CbwmWldvxSpg.name=§c§lHot Netherite Scrap
+betterquesting.quest.8zpQos1hR1CbwmWldvxSpg.name=§d§lHot Netherite Scrap
 betterquesting.quest.8zpQos1hR1CbwmWldvxSpg.desc=Heating up the Netherite Scrap is a rather quick and cheap process; simply throwing it in the §5§lChemical Bath§r with a little lava ought to do the trick! %n%nBear in mind though, you will be re-heating this scrap many times over so it's definitely recommended to have a substantial supply of lava to be able to pull from. 
 
 # Quest: Netherite Materials
-betterquesting.quest.9dt9i3MYRa-NB6KROtAYFA.name=§c§lNetherite Materials
-betterquesting.quest.9dt9i3MYRa-NB6KROtAYFA.desc=Now that you've completed the Netherite line and successfully set up your Mk1 Fusion Reactor, you finally have access to §5§lBoron Plasma§r, which is necessary for creating all of the different §4§lNetherite materials§r. %n%nThese will be important for the rest of the game and are used often in a variety of items and materials, so it's important to make upgrades to your line both in terms of power and recipe usage as you continue to progress through the tiers.%n%n[note]UHV power and the QFT are the biggest milestones in terms of recipe upgrades for the line.[/note]
+betterquesting.quest.9dt9i3MYRa-NB6KROtAYFA.name=§d§lNetherite Materials
+betterquesting.quest.9dt9i3MYRa-NB6KROtAYFA.desc=Now that you've completed the Netherite line and successfully set up your Mk1 Fusion Reactor, you finally have access to §5§lBoron Plasma§r, which is necessary for creating all of the different §4§lNetherite materials§r. %n%nThese will be important for the rest of the game and are used often in a variety of items and materials, so it's important to make upgrades to your line both in terms of power and recipe usage as you continue to progress through the tiers.%n%n[note]UHV power and the QFT are the biggest milestones in terms of recipe upgrades for the line.[/note]%n%n[warn]You must use a High-Current Industrial (Plasma) Arc Furnace, a regular one isn't powerful enough.[/warn]
 
 # Quest: Automated Mining
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAyQ.name=§c§l자동 채광
@@ -3535,35 +3547,35 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEw.name=§l§c§l태양 융합
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEw.desc=핵융합을 통해 헬륨 플라즈마와 녹은 발광석을 융합하면 대량의 선나리움을 빠르게 얻을 수 있습니다.
 
 # Quest: Behold: The Netherite Line
-betterquesting.quest.AlYEP7f4T-KHgH8vicSXdg.name=§c§lBehold: The Netherite Line
+betterquesting.quest.AlYEP7f4T-KHgH8vicSXdg.name=§d§lBehold: The Netherite Line
 betterquesting.quest.AlYEP7f4T-KHgH8vicSXdg.desc=You didn't seriously think you only needed to do the Naquadah line in LuV did you? Well if so; better brace yourself for the Netherite line!%n%nDon't panic, it's a relatively straight-forward line so long as you can wrap your head around minor processing loops and percent based output. Fortunately you have a quest book to guide you through your initial setup.%n%nBe warned- you will need at least §2§lGrade 1 Purified Water§r and§5§l Naquadah Coils§r to make it through this entire line.%n%n§3This questline will start you off with the three primary things you must prepare in order to begin:%n%n§l- Milled Netherrack%n- Nether Air%n- Ancient Debris Collection§r%n%n§3For at least one and likely two of those you will need to journey into the nether, so make sure you're prepared equipment wise!§r%n%n[warn]If you already created the line and do not wish to complete the individual quests, hold one of these three item sets in your hand after completing this quest: [/warn]%n%n§4§l- 1 Dense Netherite Plate%n- 64 Intensely Bonded Netherite Nanoparticles%n- 16 Netherite Ingots 
 
 # Quest: Hellish Metal
-betterquesting.quest.JVZjTR4hRSaeaoXPvBcG9w.name=§c§lHellish Metal
+betterquesting.quest.JVZjTR4hRSaeaoXPvBcG9w.name=§d§lHellish Metal
 betterquesting.quest.JVZjTR4hRSaeaoXPvBcG9w.desc=Regular Netherite Nanoparticles alone don't have enough density to compress into Netherite... they require a strong and somewhat magical binding agent. %n%n§4Hellish Metal§r should be the perfect candidate, you can either fabricate it in the §5§lElectrolyzer§r or §5§lInfuse§r it.%n%n[note]The Infusion recipe is much cheaper, but can only be used by those who have been proactive in their magic infrastructure.[/note]
 
 # Quest: Nefarious Oil
-betterquesting.quest.KGBrxQRsSneYMzNHBll9Bg.name=§c§lNefarious Oil
+betterquesting.quest.KGBrxQRsSneYMzNHBll9Bg.name=§d§lNefarious Oil
 betterquesting.quest.KGBrxQRsSneYMzNHBll9Bg.desc=Using purified water, you can use an §5§lOil Cracker§r to convert the Nefarious Gas from the previous step into §4Nefarious Oil§r.%n%n[note]If you are proactive and setup grade 2 water production, you unlock a recipe that produces much more oil, with much less water, in much less time. §[[/note]
 
 # Quest: Netherite Nanoparticles
-betterquesting.quest.P_nO8frbRM2c-MLKAaJUkw.name=§c§lNetherite Nanoparticles
+betterquesting.quest.P_nO8frbRM2c-MLKAaJUkw.name=§d§lNetherite Nanoparticles
 betterquesting.quest.P_nO8frbRM2c-MLKAaJUkw.desc=§4Netherite Nanoparticles§r can be made from §5§lMacerating§r your newly attained Brittle Netherite Scraps.%n%n[note]Almost seems too easy doesn't it?[/note]
 
 # Quest: Netherite Scrap
-betterquesting.quest.SmLW-ht6TrKSmAUDyDoNqg.name=§c§lNetherite Scrap
+betterquesting.quest.SmLW-ht6TrKSmAUDyDoNqg.name=§d§lNetherite Scrap
 betterquesting.quest.SmLW-ht6TrKSmAUDyDoNqg.desc=Netherite Scrap is an integral part of the Netherite refinement process and fortunately you don't need very much of it. Technically you §nonly need two§r pieces of scrap, as they will constantly cycle from hot to cool while never actually being used up in the process §3(though, having more scrap handy could improve your setup efficiency).§r%n%nYou can obtain Netherite Scrap by either §5smelting§r Ancient Debris or using a §5§lForge Hammer§r on it. Though considering the forge hammer offers a §2§l25%%§r chance at gaining an additional scrap, you would be a little crazy to choose the former.%n%nIf you're wondering where you can find Ancient Debris, try scouring the Nether. It's more likely to spawn lower near the lava, and is found sporadically like small ores are rather than being in large veins like usual GT ores. §3Miners can also collect it!§r%n%n[warn]If you don't feel like leaving home, or are lacking blocks within your nether dimension, there is also a §lmeteor§r that can alleviate your Ancient Debris woes.[/warn]
 
 # Quest: Netherrack Froth
-betterquesting.quest.WNC6mX67QGG5gpjX0YkvDw.name=§c§lNetherrack Froth
+betterquesting.quest.WNC6mX67QGG5gpjX0YkvDw.name=§d§lNetherrack Froth
 betterquesting.quest.WNC6mX67QGG5gpjX0YkvDw.desc=To get §4Netherrack Froth§r, you can combine your milling products with your Nefarious Oil in a §5§lFlotation Cell§r. %n%n[note]It would be wise to make a robust setup for this.[/note]
 
 # Quest: Netherrack Milling
-betterquesting.quest.XDZFjGB9RlWlrW0mHFoL0g.name=§c§lNetherrack Milling
+betterquesting.quest.XDZFjGB9RlWlrW0mHFoL0g.name=§d§lNetherrack Milling
 betterquesting.quest.XDZFjGB9RlWlrW0mHFoL0g.desc=With the Netherite line comes the first mandatory usage of the §5§lIsamill Grinding Machine§r, which you will need to create§4 Milled Netherrack§r. You will require a lot of this so be prudent in keeping up with your netherrack and milling ball production. %n%nFor netherrack, the best methods of production are through the rock breaker using glowstone dust, or through compressing netherrack dust that you may have obtained a stash of through mining.%n%nFor the milling balls, you have two options:%n%n§2§l- Soapstone ->§r§2 Cheaper, 50%% as effective as Alumina%n§3§l- Alumina ->§r§3 More Expensive, 2x as effective as Soapstone
 
 # Quest: Poor Nether Waste
-betterquesting.quest.afDCORKvSI-Vk_Mh2-rnZw.name=§c§lPoor Nether Waste
+betterquesting.quest.afDCORKvSI-Vk_Mh2-rnZw.name=§d§lPoor Nether Waste
 betterquesting.quest.afDCORKvSI-Vk_Mh2-rnZw.desc=Once you've gathered enough froth, it can run through a §5§lVacuum Furnace§r to get a number of useful resources. Most importantly though, this is where we extract §4Poor Nether Waste§r; a quite valuable fluid to the Netherite line.
 
 # Quest: Relentless Glue
@@ -3571,19 +3583,19 @@ betterquesting.quest.eZADH1WASo6NLBUTKjLNGQ.name=§c§l록타이드 401
 betterquesting.quest.eZADH1WASo6NLBUTKjLNGQ.desc=흔히 순간 접착제로 알려진 에틸 시아노아크릴레이트(Ethyl Cyanoacrylate)는 현존하는 최고의 접착제입니다. 하지만 강력한 힘에는... 강력한 복잡성이 따르는 법이죠. 지금 당장은 필요하지 않으며, 아마 다음 몇 티어 동안에도 그럴 것입니다. 하지만 이 접착제는 당신의 조합법들을 더 효율적으로 만들어 줄 것이고, 후반 게임에는 필수적이 될 것입니다.%n%n[note]기술적으로 이 생산 라인은 IV 티어부터 진행 가능하지만, 어디까지나 선택 사항입니다. NEI에서 직접 관련 조합법들을 검색하여 당신의 진정한 라인 설계 실력을 보여주세요![/note]
 
 # Quest: Rich Nether Waste
-betterquesting.quest.nx7KEyhlTc6qYVM1vImkBA.name=§c§lRich Nether Waste
+betterquesting.quest.nx7KEyhlTc6qYVM1vImkBA.name=§d§lRich Nether Waste
 betterquesting.quest.nx7KEyhlTc6qYVM1vImkBA.desc=§nOne§r of the ways you will be using the Poor Nether Waste is to combine it with the Hellish Mud you obtained earlier in the §5§lMixer§r to create §4Rich Nether Waste§r. %n%nWe will be using the Rich Nether Waste for the next step, and it will continue to be valuable for a while, though it does eventually become unecessary to the line when you reach §4§lUHV.
 
 # Quest: Brittle Netherite Scrap
-betterquesting.quest.rlVdurFlSbuoWZAIUG0-aA.name=§c§lBrittle Netherite Scrap
+betterquesting.quest.rlVdurFlSbuoWZAIUG0-aA.name=§d§lBrittle Netherite Scrap
 betterquesting.quest.rlVdurFlSbuoWZAIUG0-aA.desc=You're so close... just a few more steps.%n%nNow that you've attained the Netherite Scrap Seeds, you can combine them with Poor Nether Waste in a §5§lChemical Bath§r for a §2§l50%%§r chance to get 3 §4Brittle Netherite Scraps§r. As a bonus, there's even a §2§l50%%§r chance that you get your Netherite Scrap Seed back to run the recipe over again. %n%n[note]Don't worry, this is the last Netherite recipe based on chance.[/note]
 
 # Quest: Nether Air & Semifluid
-betterquesting.quest.x79CeO4ORDWIbPLtdtp1wQ.name=§c§lNether Air & Semifluid
+betterquesting.quest.x79CeO4ORDWIbPLtdtp1wQ.name=§d§lNether Air & Semifluid
 betterquesting.quest.x79CeO4ORDWIbPLtdtp1wQ.desc=Ever take a deep breath while roaming the nether and start to feel lightheaded or dizzy? Turns out that's from the highly toxic air. There may be no saving our lungs, but at least we can take advantage of this dense air for our own material gain!%n%nIf you haven't already been taking advantage of the Nether Air for it's sulfurous properties, (talking to you, Nitrobenzene lovers) you'll need to take advantage of it now for making §4Nether Semifluid§r.%n%nSetup a §5§lVacuum Freezer§r in the nether and attach an§2§l Air Intake Hatch§r to start collecting the Nether Air. You can move onto the next step once you've started Semifluid production. 
 
 # Quest: Intensely Bonded Netherite Nanoparticles
-betterquesting.quest.zb1nbwNuSFKuSEyW3mVj-Q.name=§c§lIntensely Bonded Netherite Nanoparticles
+betterquesting.quest.zb1nbwNuSFKuSEyW3mVj-Q.name=§d§lIntensely Bonded Netherite Nanoparticles
 betterquesting.quest.zb1nbwNuSFKuSEyW3mVj-Q.desc=At long last... the final ingredient needed before making Netherite materials.%n%nThrough the combination of the Netherite Nanoparticles and Hellish Metal in the §5§lEBF§r, you can create §4Intensely Bonded Netherite Nanoparticles.§r As an added bonus for those who have invested in bees, using the combs from a Netherite Queen, will reward you with §2§l2x§r the product.%n%nThese are not only the primary pre-requisite ingredients for the Dense Netherite Plate that you need for the §3§lFusion Reactor§r, but also the pre-requisite material for making the rest of the Netherite parts after you have created one; so be sure to stockpile and manufacture as many of these nanoparticles as you can. %n%n[note]Keep in mind this recipe does require Naquadah coils![/note]
 
 
@@ -3592,11 +3604,11 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAAHg.name=티어 7 - ZPM
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAHg.desc=축하합니다!%n백금족 라인, 조립 라인, 회로 조립 라인, 그리고 핵융합로를 완성하고 ZPM 티어에 도달했습니다. 이제 후반부에 진입하기 위한 준비를 해야하기 때문에 할 일이 더 많아질겁니다. 행운을 빕니다!
 
 # Quest: Prismatic Naquadah Composite Slurry
-betterquesting.quest.-wpUfFlVT5GytSWoT6QAdg.name=Prismatic Naquadah Composite Slurry
+betterquesting.quest.-wpUfFlVT5GytSWoT6QAdg.name=§b§lPrismatic Naquadah Composite Slurry
 betterquesting.quest.-wpUfFlVT5GytSWoT6QAdg.desc=Why stop at §2Prismatic Naquadah§r? Given it's malleable nature you suspect that it may be advantageous to use it's unique strength to form new, much more durable, foil types.%n%nCombing the §2Prismatic Naquadah§r with your choice of §2binding powder§r in a §5§lMixer§r and you'll create exactly the type of substance you were looking for; A §3Prismatic Naquadah Composite Slurry§r to mold into foil. 
 
 # Quest: Prismatic Acid
-betterquesting.quest.9CIs8MP4TBuyRgn8lDu3Mg.name=Prismatic Acid
+betterquesting.quest.9CIs8MP4TBuyRgn8lDu3Mg.name=§b§lPrismatic Acid
 betterquesting.quest.9CIs8MP4TBuyRgn8lDu3Mg.desc=Almost there I promise!%n%nNow that you have obtained the §2Prismatic Gas§o§r, you must cool it down in a §5§lVacuum Freezer§r with the assistance of §2Liquid Nitrogen§r. This will give you §3Prismatic Acid§r.%n%n[warn]Aside from continuing down this line, you can also use Prismatic Acid in the processing of Gaia blocks later.[/warn]%n
 
 # Quest: Power, So Much Power!
@@ -3796,31 +3808,31 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsw.name=최종 목표
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsw.desc=당신의 도움으로 저는 궁극의 에너지 원처: 합성 포켓 우주에서 에너지를 흡수하는 감쌓인 웜홀을 만들어냈습니다. 그것이 열사멸에 다다를 때까지 말입니다. 이것은 저에게 필요하지 않으니, 당신이 가지십시오. 제 꿈을 실현시켜줘서 감사합니다!
 
 # Quest: Prismarine Recycling Pt. 2
-betterquesting.quest.AQMaWAiIRo6vNTAxqopS_Q.name=Prismarine Recycling Pt. 2
+betterquesting.quest.AQMaWAiIRo6vNTAxqopS_Q.name=§b§lPrismarine Recycling Pt. 2
 betterquesting.quest.AQMaWAiIRo6vNTAxqopS_Q.desc=You'll notice after processing your first Prismarine Precipitates you are left with a second §2Contaminated Prismarine Solution§r. You can also recycle this for added §3Prismarine Solution§o§r and §3Prismarine-Rich Nitrobenzene Solution§r. Again, technically optional, but highly recommended.%n%n[warn]If you didn't setup the recycling for the Contaminated Hydrogen Peroxide then you'll want to now since this recycling actively produces it.[/warn]
 
 # Quest: Prismarine Solution
-betterquesting.quest.J9eklidSTbyHgMgImYT3-g.name=Prismarine Solution
+betterquesting.quest.J9eklidSTbyHgMgImYT3-g.name=§b§lPrismarine Solution
 betterquesting.quest.J9eklidSTbyHgMgImYT3-g.desc=After you've managed to grab some §2Prismarine§r, you must process it with §2Industrial Strength Hydrofluoric Acid§r and §2Hydrogen Peroxide§r in the §5§lDissolution Tank§r. Using these ingredients you can make your very first batch of §3Prismarine Solution§r.%n%n[warn]After you've created your first batch of Industrial Strength HF, it's highly recommended to check the Chemical Plant recipes for further creation of it![/warn]
 
 # Quest: Prismarine!? What Do I Need That For?
-betterquesting.quest.JhZaTiUfTH2AfBcHulTMVA.name=Prismarine!? What Do I Need That For?
+betterquesting.quest.JhZaTiUfTH2AfBcHulTMVA.name=§b§lPrismarine!? What Do I Need That For?
 betterquesting.quest.JhZaTiUfTH2AfBcHulTMVA.desc=§5§lPrismarine§r is an ancient material long rumored to have originated from structures found deep within the ocean. Learning how to create this is extremely important, and may lead to advancements in technology with further exploration into the substrate.%n%nYou can get Prismarine in a few different ways as shown resource-wise by the optional tasks:%n%n§31. Through Botania by transmutating §nNether Quartz§r§3 directly to §nPrismarine§r§3 via an §nAlchemical Catalyst or the Fountain of Alchemy§r%n§r%n§22. Using §nRed Algae Biomass§r§2 and §nCertus Quartz§r §2dust in an §nAutoclave%n§r%n§c3. Using §nRed Algae Biomass§r§c and §nPrismatic Combs§r §cin an §nAutoclave.%n§r%nWhich method you choose is entirely up to you and dependent on what infrastructure you have setup thus-far. Either way you would be wise to make a robust setup as you will be needing a decent amount of Prismarine in the future.%n%n[warn]Hold 16 Naquarite Insulator Foil to skip the Prismarine line Quests.[/warn]
 
 # Quest: Prismatic Gas
-betterquesting.quest.Oh_EQhvBQUqHeVcUyifCXQ.name=Prismatic Gas
+betterquesting.quest.Oh_EQhvBQUqHeVcUyifCXQ.name=§b§lPrismatic Gas
 betterquesting.quest.Oh_EQhvBQUqHeVcUyifCXQ.desc=The §2Prismatic Crystal§r will then be processed in a §5§lVacuum Furnace§r with §2Boron Plasma§r in order to successfully convert it to the highly sought after §3Prismatic Gas§r.
 
 # Quest: Naquarite Universal Insulator Foil
-betterquesting.quest.fVoSLYPcSmKd-gLhBJHK9A.name=Naquarite Universal Insulator Foil
+betterquesting.quest.fVoSLYPcSmKd-gLhBJHK9A.name=§b§lNaquarite Universal Insulator Foil
 betterquesting.quest.fVoSLYPcSmKd-gLhBJHK9A.desc=Finally, you can combine the §2Radiation-Proof Composite Sheet§r with §2Netherite Foil§r and §2Manyullyn§r in the §5§lForming Press§r to create §3Naquarite Universal Insulator Foil§r. This incredibly strong foil can be used to bind ingredients to all of your future coils due to it's unrivaled radiation and heat resistance. 
 
 # Quest: Prismarine Precipitate
-betterquesting.quest.fc7Q6J-BThCf_NbvM0ki2Q.name=Prismarine Precipitate
-betterquesting.quest.fc7Q6J-BThCf_NbvM0ki2Q.desc=After creating the §2Prismarine-Rich Nitrobenzene Solution§r, you'll need to process it using a §5§lChemical Plant§r with §2Strontium Hydroxide§r. Once processed, you can successfully obtain your first §3Prismarine Precipitate§r.%n%n[warn]The Strontium is completely recyclable within the line, so no need to worry about it's continuous injection.[/warn]
+betterquesting.quest.fc7Q6J-BThCf_NbvM0ki2Q.name=§b§lPrismarine Precipitate
+betterquesting.quest.fc7Q6J-BThCf_NbvM0ki2Q.desc=After creating the §2Prismarine-Rich Nitrobenzene Solution§r, you'll need to process it using a §5§lChemical Plant§r with §2Strontium Hydroxide§r. Once processed, you can successfully obtain your first §3Prismarine Precipitate§r.%n%n[warn]The Strontium is completely recyclable within the line, so no need to worry about it's continuous injection.[/warn]%n%n[note]If you have not gotten Strontium yet, you can obtain it from Strontium Oxide based on Rare Earth 3 or from Spessartine Froth.[/note]
 
 # Quest: Prismarine Recycling
-betterquesting.quest.kWoNH5tTQX2VIFmkui4YKA.name=Prismarine Recycling
+betterquesting.quest.kWoNH5tTQX2VIFmkui4YKA.name=§b§lPrismarine Recycling
 betterquesting.quest.kWoNH5tTQX2VIFmkui4YKA.desc=§2Prismarine-Contaminated Hydrogen Peroxide§r is a byproduct of a couple different recipes in this line, it's best to recycle it for the bonus §3Prismarine Solution§r. Of course, you don't have to, but it would be ill-advised to avoid it.
 
 # Quest: Superdense
@@ -3828,19 +3840,19 @@ betterquesting.quest.sB_lbhZZRnmZNjJiF8-1Hg.name=초고밀도
 betterquesting.quest.sB_lbhZZRnmZNjJiF8-1Hg.desc=당신이 지금 만들고 있는 진보된 기계들은 더 진보된 재료뿐만 아니라, 그것들을 처리하는 더 진보된 방식 또한 요구합니다. ZPM 티어에서는 대형 전기 압축기(Large Electric Compressor)의 업그레이드 버전인 고온 등방 가압 장치(Hot Isostatic Pressurization Unit, HIP Unit)를 건설할 수 있습니다. 이 멀티블록은 극한의 압력 하에서 재료를 극한의 온도로 가열하여, 결함을 최소화한 초고밀도 판(Superdense Plate)을 만들 수 있게 해줍니다.%n%nHIP 장치는 작동 중에 온도가 상승하므로, 반드시 식힐 시간을 주어야 합니다. 만약 최대 열 임계값(Maximum Heat Threshold)에 도달하면, 조합법 처리 속도가 현저히 느려지거나 심지어 입력물을 소멸시킬 수도 있습니다. 더 좋은 코일을 사용하여 과열되기까지 걸리는 시간을 늘리고, 열 센서 해치(Heat Sensor Hatch)를 사용하여 적절하게 자동 제어하세요.%n%n[note]NEI에서 "HIP 장치 필요(Requires HIP Unit)"라고 표시된 압축 관련 조합법들을 수행할 수 있습니다.[/note]
 
 # Quest: Prismatic Naquadah Composite Sheet
-betterquesting.quest.sHI1n7unRWecpNcyBAgUfw.name=Prismatic Naquadah Composite Sheet
+betterquesting.quest.sHI1n7unRWecpNcyBAgUfw.name=§b§lPrismatic Naquadah Composite Sheet
 betterquesting.quest.sHI1n7unRWecpNcyBAgUfw.desc=§5§lDehydrating§r this §2Prismatic Naquqdah Composite Slurry§r over the top of §2Tungsten Carbide§r & §2Lead foil§r creates a completely §3Radiation-Proof Composite Sheet§r. This will prove to be very useful in protecting your environment from radiation emitting structures.
 
 # Quest: Prismatic Crystal
-betterquesting.quest.xQE-vyLyTeCn0SEIHjbkNQ.name=Prismatic Crystal
+betterquesting.quest.xQE-vyLyTeCn0SEIHjbkNQ.name=§b§lPrismatic Crystal
 betterquesting.quest.xQE-vyLyTeCn0SEIHjbkNQ.desc=After finally getting the §2Prismarine Precipitate§r, the logical next step is to crystallize the Prismarine into a §3Prismatic Crystal§r. Using a §2Magneto-Resonance Lens§r we can do this in a §5§lLaser Engraver§r with the assistance of §2Molten Crystalline Alloy§r.
 
 # Quest: Prismarine-Rich Nitrobenzene Solution
-betterquesting.quest.ydavD3O5QcKvxk2wIDtakw.name=Prismarine-Rich Nitrobenzene Solution
+betterquesting.quest.ydavD3O5QcKvxk2wIDtakw.name=§b§lPrismarine-Rich Nitrobenzene Solution
 betterquesting.quest.ydavD3O5QcKvxk2wIDtakw.desc=After you've gotten ahold of some §2Prismarine Solution§r, combine it with §2Nitrobenzene§r in a §5§lChemical Bath§r in order to create a §3rich solution mixture§r. %n%nAdditionally, you will start to receive some §3Prismarine-Contaminated Hydrogen Peroxide§r byproduct.
 
 # Quest: Prismatic Naquadah
-betterquesting.quest.zIDk7MniRMGE9u_1Slo2qg.name=Prismatic Naquadah
+betterquesting.quest.zIDk7MniRMGE9u_1Slo2qg.name=§b§lPrismatic Naquadah
 betterquesting.quest.zIDk7MniRMGE9u_1Slo2qg.desc=Woah, a new metal?%n%nBy combining the forces of your newly created §2Enriched Naquqdah§r and §2Prismatic Acid§r in the §5§lAlloy Blast Smelter§r, you find that a new metal forms; §3Prismatic Naquadah§r. %n%n[warn]This extremely strong, yet shockingly pliant material will be used in quite a few different structures and materials going forth.[/warn]
 
 
@@ -4305,6 +4317,10 @@ betterquesting.quest.msIxGO5gQCWJPmEyp_JhtQ.desc=게임상에서 존재하는 �
 # Quest: Stabilized Baryonic Matter
 betterquesting.quest.n8PKF63sSSi0y8ZBb2RIKQ.name=안정화된 바리온적 물질
 betterquesting.quest.n8PKF63sSSi0y8ZBb2RIKQ.desc=절대 순도 공정을 자동화하고 나면, 매 120초마다 병렬 처리 당 500mb의 속도로 안정화된 바리온적 물질(Stabilized Baryonic Matter)을 서서히 얻을 수 있습니다.
+
+# Quest: Biocatalyzed Propulsion Fluid
+betterquesting.quest.omilMDAFTVWzvZwo0SmnMw.name=§5§l§nBiocatalyzed Propulsion Fluid
+betterquesting.quest.omilMDAFTVWzvZwo0SmnMw.desc=Now with access to Maahes you can finally start making §5§lBiocatalyzed Propulsion Fluid§r. %n%nBPF is a superior fuel for the §9Spinmatron-2737§r, granting an additional §2§l1.25x§r parallels and allowing you to finally have access to §a§lHeavy mode§r dependent recipes.%n%n[note]If you happen to be avoiding rockets; check out the §nLumipod Sapling§r recipe[/note]
 
 # Quest: Wireless Data for Your Assembly Lines!
 betterquesting.quest.pLB6Sb0FSZ65cjWJ_Q4IIg.name=조립 라인을 위한 무선 데이터 전송
@@ -4802,7 +4818,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFAA.desc=럼 제조는 자동화할 수 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFAQ.name=럼
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFAQ.desc=럼. 맛있어!
 
-# Quest: The gathering: Sugar
+# Quest: Sugar: The Gathering
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFAg.name=모이는 장소: 설탕
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFAg.desc=달콤한 것을 좋아한다면 설탕을 많이 쟁여두는 것도 좋은 방법일 수 있어요. 아닐까요?
 
@@ -4843,8 +4859,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBg.name=작물 자동화
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBg.desc=Crop-Matron은 11x11x3 크기의 영역에 있는 작물들을 모니터링하고 필요에 따라 비료, Weed-EX, 물을 자동으로 적용하는 LV 기계입니다. 물은 직접 펌핑으로 공급하거나 IC2 범용 물 셀을 사용할 수 있습니다. 일반 셀은 사용되면 반환되지 않습니다.%n%nCrop-Matron은 방수 기능이 있지만, 전력 공급 장치를 커버처리할 필요가 있습니다(이를 위한 멋진 방법을 찾을 수도 있습니다), 또는 LV 배터리를 사용해도 됩니다. 리튬 이온은 약 2시간 동안 지속됩니다. %n%n갈이한 흙은 물이 가까이 있어야만 충분히 수분을 공급받을 수 있습니다. 왜냐하면 Matron은 작물에만 물을 주고 흙에는 물을 주지 않기 때문입니다. 불편하지 않게 걷기 위해 연꽃잎을 위에 놓아보거나, 대신 Garden Soil을 사용해보십시오.
 
 # Quest: Weed Ex
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBw.name=잡초-제거제
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBw.desc=Weed-EX는 잡초-제거제를 몇 가지 사용하여 빈 작물 블록에 잡초가 자라는 것을 방지하는 데 사용됩니다. 작물 품질에 미치는 손상은 허구이며 실제가 아닙니다. 우리는 코드를 살펴본 이들이 확신하고 있습니다. §o하지만§r 잡초로 간주되는 경우(venomilia Gr 8+, 그 외의 작물 Gr 24+), 상태를 1만큼 잃을 수도 있습니다. 어쩌면요. 그리고 이것은 다시 증가시킬 수도 있습니다. 그리고 너무 많이 적용하지 않는다면, 작물 보호자처럼 효과가 발생하지 않을 수도 있습니다.%n%n사용법:%nWeed-EX를 들고 있을 때 작물에 오른쪽 클릭하여 적용할 수 있습니다. 또한 Crop-Matron에 넣어 자동으로 작물에 적용할 수도 있습니다.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBw.name=잡초 제거제
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBw.desc=잡초 제거제는 빈 작물 블록에 잡초가 자라지 않게 해줍니다. 다만 잡초 제거제가 조금 소모됩니다. 작물 품질이 손상되는 것처럼 보이지만 사실이 아닙니다! 저희가 코드를 직접 확인했으니 믿으셔도 됩니다. §o하지만§r 잡초로 간주하는 경우에는(venomilia Gr 8 이상, 그 외 작물은 Gr 24 이상) 작물이 스탯을 1만큼 잃을 수도 있습니다. 어쩌면요. 물론 다시 올릴 수도 있습니다. 그래도 잡초 제거제를 너무 많이만 주지 않으면 스탯을 잃지 않습니다. 작물 관리기는 그렇게 안 주지만요.%n%n사용법:%n잡초 제거제를 들고 작물을 우클릭하면 적용됩니다. 또한 작물 관리자에 넣어 자동으로 작물에 적용할 수도 있습니다.
 
 # Quest: Reed and Resin
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQA.name=갈대와 레진
@@ -4860,7 +4876,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQg.desc=작물을 물 근처에 심어�
 
 # Quest: Feeling a Little Like a Noob...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQw.name=조금 초보 같은 기분이 드네요...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQw.desc=그러니 저를 레벨업 시킬 수 있도록 정수 열매를 키워 주시겠어요? 덤불에서 얻은 열매를 심거나, 품종 개량도 할 수 있습니다.%n%n보상으로, 제 친구가 만든 이상한 씨앗을 드릴게요. 이것은 분명히 당신을 신발에 착 붙게 만들 것입니다.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQw.desc=그러니 제가 레벨업할 수 있도록 에센스 베리를 키워 주시겠어요? 덤불에서 얻은 열매를 심거나 교배로 얻어도 됩니다.%n%n보상으로 제 친구가 만든 우스꽝스러운 씨앗을 드릴게요. 분명히 긴장을 늦출 수 없을 거예요.
 
 # Quest: Put the Petal to the Metal
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRA.name=꽃잎을 메탈로 바꾸십시오
@@ -4900,7 +4916,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHBQ.desc=거미를 잡아 실을 얻는 
 
 # Quest: The Ground is Crying
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHBg.name=땅이 울고 있습니다
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHBg.desc=염소의 대체 원료가 필요하신가요? 티어스톡(Tearstalks)을 번식시켜 가스트의 눈물을 얻고, 그걸로 소금물을 만드세요.%n%n;-;%n%n네더 와트(Nether warts)로부터 티어스톡(Tearstalks)을 얻을 수 있어야 합니다.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHBg.desc=염소의 다른 공급원이 필요하신가요? 눈물 줄기를 교배해 가스트의 눈물을 얻으면 소금물을 만들 수 있습니다.%n%n;-;%n%n네더 와트에서 눈물 줄기가 나올 겁니다.
 
 # Quest: Blazes Too Hard to Kill?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHBw.name=블레이즈를 처치하기 너무 어려우신가요?
@@ -4916,7 +4932,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHCQ.desc=왜냐하면 달걀을 낳을 �
 
 # Quest: Vegan, But Still Want to Eat Meat?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHCg.name=비건이지만, 여전히 고기를 먹고 싶으신가요?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHCg.desc=동물을 죽이는 대신, 일부 미친 과학적 변형 생물(GMO)을 동물 제품을 생산하게 만들어 보세요. 과학이죠!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHCg.desc=동물을 죽이는 대신, 돌연변이를 일으켜 돌아버린 GMO를 만들고 축산물을 생산해 보세요. 과학이죠!
 
 # Quest: Magic Metal Berry
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHCw.name=마법의 금속 열매
@@ -4932,7 +4948,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDQ.desc=돌 백합은 화강암, 현무
 
 # Quest: Growing some Glowstone
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDg.name=발광석 좀 키우기
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDg.desc=발광석 작물에는 몇 가지 종류가 있습니다 - 발광화, 빛나는 지구 산호, 그리고 발광버섯들이 그것입니다. 네더 와트는 이들의 훌륭한 원천입니다.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDg.desc=발광석 작물에는 몇 가지 종류가 있습니다 - 발광화, 발광 산호, 발광버섯. 네더 와트는 이것들의 훌륭한 원천입니다.
 
 # Quest: Leaves of Steel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDw.name=강철의 잎사귀
@@ -4968,7 +4984,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHgA.desc=많은 식물들이 비슷하�
 
 # Quest: Coal...From Withereed?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHhw.name=위더리드에서 나온 석탄...?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHhw.desc=위더리드는 석탄의 출처이며, 더 중요한 것은 상위 티어로 교배하기 위한 좋은 재료입니다.%n%n완전히 성숙하기 위해서는 석탄 블록을 이 아래에 놓아야 합니다.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHhw.desc=위더리드는 석탄의 원천이자, 상위 티어에 필요한 좋은 종자입니다.%n%n완전히 성장시키려면 아래에 석탄 블록이 필요합니다.
 
 # Quest: Son of Odin One-Eye
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHiA.name=오딘 원아이의 아들
@@ -4980,7 +4996,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHiQ.desc=리액토리아 작물은 리�
 
 # Quest: Ironwood is Better Than Normal Wood
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHig.name=아이언우드는 일반 나무보다 더 좋습니다
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHig.desc=스틸리프랭크스에 필요한 단계일까요? 아마도 아닐 수도 있습니다. 그러나 아이언우드는 요리용 롤러로 멋지게 사용되며, 상당히 괜찮은 센스 블레이드를 만듭니다.%n%n크리퍼위드는 신장뿌리 씨앗을 얻을 수 있는 기회를 상당히 제공합니다.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHig.desc=강철잎류에 꼭 필요한 단계일까요? 아마 아닌 것 같아요. 하지만 아이언우드는 좋은 요리용 롤러와 괜찮은 Sense blade를 만듭니다.%n%n크리퍼 잡초가 라이브루트 씨앗을 줄 확률이 꽤 높습니다.
 
 # Quest: Vegan Leather?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHiw.name=비건 가죽?
@@ -4988,7 +5004,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHiw.desc=만약 소와 말을 우유나 
 
 # Quest: Gunpowder? More Like Dirtpowder!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHjA.name=화약? 아니, 더 정확히는 흙 가루라고 해야겠네요!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHjA.desc=Creeperweed는 귀찮은 폭발을 다루지 않고도 당신의 화약 요구를 충족시킬 수 있습니다. 또한 이것은 상당한 수의 속성을 가지고 있어, 무작위 작물의 좋은 원천이 될 수 있습니다.%n%nCorium은 creeperweed로 번식할 수 있습니다.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHjA.desc=크리퍼 잡초는 폭발로 성가실 일 없이도 여러분의 화약 수요를 충족시켜 줍니다. 또한 상당한 수의 속성을 가지고 있어, 무작위 작물의 좋은 원천이죠.%n%nCorium을 교배해 크리퍼 잡초를 얻을 수 있습니다.
 
 # Quest: Milk of the Earth-Mother
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHjQ.name=지구 어머니의 우유
@@ -5302,6 +5318,10 @@ betterquesting.quest.SxCNz5_RSym0Q-uKaG2JRA.desc=그들의 내구성은 제한�
 # Quest: Planar Gateways
 betterquesting.quest.U6wfKJSxTiyYvcz-f-76EA.name=평면 게이트웨이
 betterquesting.quest.U6wfKJSxTiyYvcz-f-76EA.desc=Thaumic Horizons의 평면 게이트웨이를 통해 주머니 차원으로 여행할 수 있습니다. 여러 개의 게이트웨이(최대 4개)를 주머니 차원에 설치하면 다른 차원으로의 여행까지 가능해집니다!
+
+# Quest: Chaos Locator
+betterquesting.quest._D1VyrEFSICL70afdVd1YQ.name=Chaos Locator
+betterquesting.quest._D1VyrEFSICL70afdVd1YQ.desc=This device is fashioned to greatly accelerate the hunt for chaos shards, by teleporting you straight to them! %n%nSimply enter any number from -1000 to 1000 in the coordinate fields, click the button and you will be teleported directly to a chaos island, even across dimensions. %nHow convenient!%n%n[note]You will still have to fight the chaos guardian though, this isn't a cosmic superweapon.[/note]%n%n
 
 # Quest: Speed up with the Sash
 betterquesting.quest.aXAQD7T1SnGCAu0L4iV64w.name=Sash로 속도를 올리세요
@@ -5883,7 +5903,7 @@ betterquesting.quest.Avz75EgSTdG48xI3HPGUMA.desc=Mining out large chunks of ston
 
 # Quest: Crystal Shulker Box
 betterquesting.quest.DSkXvzhRSKiwFLJywGDMRg.name=§6§lCrystal Shulker Box
-betterquesting.quest.DSkXvzhRSKiwFLJywGDMRg.desc=An enhanced version of the Diamond Shulker that allows you to see the contents within.%n%nHas §n108§r slots.%n%n[note]Can be Dyed![/note]
+betterquesting.quest.DSkXvzhRSKiwFLJywGDMRg.desc=An enhanced version of the Diamond Shulker that allows you to see the contents within.%n%nHas §n108§r slots.%n%n[note]Can be dyed![/note]
 
 # Quest: Obsidian Barrel
 betterquesting.quest.KfgATF33ToiE0aYS4pp04Q.name=§6§lObsidian Barrel
@@ -5895,7 +5915,7 @@ betterquesting.quest.LaLMF5rFQ0SxAZ5o-C-r5Q.desc=[quest]고급 자기부상 철�
 
 # Quest: Obsidian Shulker Box
 betterquesting.quest.MbFXZcovQ1GRxQCeS2PUuw.name=§6§lObsidian Shulker Box
-betterquesting.quest.MbFXZcovQ1GRxQCeS2PUuw.desc=The portable equivalent of the Obsidian Barrel that retains it's explosion-proof qualities.%n%nHas §n108§r slots.%n%n[note]Can be Dyed![/note]
+betterquesting.quest.MbFXZcovQ1GRxQCeS2PUuw.desc=The portable equivalent of the Obsidian Barrel that retains it's explosion-proof qualities.%n%nHas §n108§r slots.%n%n[note]Can be dyed![/note]
 
 # Quest: Manipulator Upgrades
 betterquesting.quest.NKKa001sQ9qXBPAUEV4Vrg.name=Manipulator Upgrades
@@ -5907,7 +5927,7 @@ betterquesting.quest.QMlw6Z67T5-y_qflA7On2Q.desc=다이아몬드 상자와 흑�
 
 # Quest: Iron Shulker Box
 betterquesting.quest.StA9TvxxSi2n2c7wQdCAFA.name=§2§lIron Shulker Box
-betterquesting.quest.StA9TvxxSi2n2c7wQdCAFA.desc=The portable equivalent of the Iron Barrel.%n%nHas §n54§r slots.%n%n[note]Can be Dyed![/note]
+betterquesting.quest.StA9TvxxSi2n2c7wQdCAFA.desc=The portable equivalent of the Iron Barrel.%n%nHas §n54§r slots.%n%n[note]Can be dyed![/note]
 
 # Quest: Constructing Additional Pylons!
 betterquesting.quest.U0LzQUUkRIi-cY3ZpT4uiQ.name=추가 전신주 설치!
@@ -5919,11 +5939,11 @@ betterquesting.quest.VFVruPLHQAeDthuV-s7HGQ.desc=콘크리트. 아니, 잘못했
 
 # Quest: Gold Shulker Box
 betterquesting.quest.YFUK2QflT1G3_WC8XBp2Wg.name=§3§lGold Shulker Box
-betterquesting.quest.YFUK2QflT1G3_WC8XBp2Wg.desc=The portable equivalent of the Gold Barrel.%n%nHas §n81§r slots.%n%n[note]Can be Dyed![/note]
+betterquesting.quest.YFUK2QflT1G3_WC8XBp2Wg.desc=The portable equivalent of the Gold Barrel.%n%nHas §n81§r slots.%n%n[note]Can be dyed![/note]
 
 # Quest: Finally, Some Real Power!
 betterquesting.quest.YxYz1jL6RSWHCxMlTHeJFw.name=Finally, Some Real Power!
-betterquesting.quest.YxYz1jL6RSWHCxMlTHeJFw.desc=The Energy Tunnel Manipulator Upgrade is incredibly useful for the heavy potential Matter Manipulator usage in §4§lUHV+§r. %n%nYou can now link directly with either the §5§lQuantum Link§r or a §5§lLaser Target Hatch§r for much quicker recharging. No need to rely on those slow wireless chargers any longer!
+betterquesting.quest.YxYz1jL6RSWHCxMlTHeJFw.desc=The Energy Tunnel Manipulator Upgrade is incredibly useful for the heavy potential Matter Manipulator usage in UHV+. %n%nYou can now link directly with either the §5§lQuantum Link§r or a §5§lLaser Target Hatch§r for much quicker recharging. No need to rely on those slow wireless chargers any longer!
 
 # Quest: Shulker Upgrades
 betterquesting.quest.Zza5BrD7TduqKby_b3wQsQ.name=§3§lShulker Upgrades
@@ -5931,7 +5951,7 @@ betterquesting.quest.Zza5BrD7TduqKby_b3wQsQ.desc=Shulker boxes in need of an upg
 
 # Quest: Diamond Shulker Box
 betterquesting.quest.aIt1E54yQaSOg4CMz-Xegw.name=§5§lDiamond Shulker Box
-betterquesting.quest.aIt1E54yQaSOg4CMz-Xegw.desc=The portable equivalent of the Diamond Barrel, you'll need to either upgrade your wand or take advantage of the Gold -) Diamond shulker box upgrade.%n%nHas §n108§r slots.%n%n[note]Can be Dyed![/note]
+betterquesting.quest.aIt1E54yQaSOg4CMz-Xegw.desc=The portable equivalent of the Diamond Barrel, you'll need to either upgrade your wand or take advantage of the Gold to Diamond Shulker Box Upgrade.%n%nHas §n108§r slots.%n%n[note]Can be dyed![/note]
 
 # Quest: Dark Steel Barrel
 betterquesting.quest.dNDuychlSiqlrMhfnEKK_w.name=§6§lDark Steel Barrel
@@ -5939,7 +5959,7 @@ betterquesting.quest.dNDuychlSiqlrMhfnEKK_w.desc=The Dark Steel barrel holds 135
 
 # Quest: Copper Shulker Box
 betterquesting.quest.dbax1OsmRpWMg6Pt4tE_ig.name=§2§lCopper Shulker Box
-betterquesting.quest.dbax1OsmRpWMg6Pt4tE_ig.desc=The portable equivalent of the Copper Barrel.%n%nHas §n45§r slots.%n%n[note]Can be Dyed![/note]
+betterquesting.quest.dbax1OsmRpWMg6Pt4tE_ig.desc=The portable equivalent of the Copper Barrel.%n%nHas §n45§r slots.%n%n[note]Can be dyed![/note]
 
 # Quest: Crystal Chest
 betterquesting.quest.e-VLKN-JSRK3V2cmDbm6rw.name=§b수정 상자
@@ -5947,7 +5967,7 @@ betterquesting.quest.e-VLKN-JSRK3V2cmDbm6rw.desc=당신은 안에 무엇이 있�
 
 # Quest: Silver Shulker Box
 betterquesting.quest.nc1Pqje3RIe_Yp6WoPOFzg.name=§3§lSilver Shulker Box
-betterquesting.quest.nc1Pqje3RIe_Yp6WoPOFzg.desc=The portable equivalent of the Silver Barrel.%n%nHas §n72§r slots.%n%n[note]Can be Dyed![/note]
+betterquesting.quest.nc1Pqje3RIe_Yp6WoPOFzg.desc=The portable equivalent of the Silver Barrel.%n%nHas §n72§r slots.%n%n[note]Can be dyed![/note]
 
 # Quest: Draconic Chest
 betterquesting.quest.njQqj1iCTK-64uA4HfSdVw.name=§6§lDraconic Chest
@@ -6407,10 +6427,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADEw.desc=티타늄 대형 보일러는 �
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADFA.name=§6§l더 많은 증기를 원하십니까? 정말로요?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADFA.desc=대형 텅스텐 스틸 보일러는 4가지 중 가장 크고 무서운 보일러입니다. 티타늄 보일러와 같이, 이것은 특정 연료, 주로 고체 초연료,만을 받아들이는 전문 보일러입니다. 그러나 이는 100% 연료 효율성에서 16000 EU/t에 해당하는 과열증기를 생산할 수 있습니다. 좋은 증기 터빈, 특히 오리하루콘 터빈이 있다면 그보다 훨씬 더 많은 전력을 얻을 수 있을 것이며, 대략 24000 EU/t 이상일 것입니다.%n%n당신이 얼마나 많은 이것을 구축하느냐에 따라, 당신은 거대한 양의 터빈들이 필요할 수 있습니다. 그 문제를 해결하려면, 각 터빈에서 최적의 흐름 이상을 조금 고려하거나, 심지어 Loose 모드로 전환하는 것을 고려해 보세요. 물론, 이것은 그 모드에서 최적의 흐름을 매칭할 수 있다면 좋은 선택입니다.
 
-# Quest: Smelt All the Things...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADZg.name=§6§l모든 걸 녹여버릴테다...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADZg.desc=한 번에 최대 9개의 아이템을 제련하는 게 좋아 보인다고요? 약간의 강철로 Railcraft 증기 오븐을 만들 수 있습니다. (2x2x2) %n%n힌트: 모든 화로 레시피는 잘 작동합니다. 나무에서 목탄을 만들 때만 빼고요.
-
 # Quest: Cleanroom
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADrA.name=§6§l클린룸
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADrA.desc=더 발전된(아니면 더 저렴한!) 회로를 만들려면 클린룸이 필요합니다. 클린룸은 3x3x4에서 15x15x15 (가로x세로x높이)만큼의 크기를 가질 수 있습니다. 기반은 정사각형일 필요가 없으며, 중심으로 대칭인 직사각형 모양도 괜찮습니다. 모든 가장자리에 대해 플라스크리트 블록 외에도 상단 중앙에 컨트롤러, 상단 가장자리를 제외한 나머지 부분에 대해 필터 케이싱, 에너지 및 유지보수 해치가 필요합니다. 강화 문으로 출입구를 만들 수 있고, 내부 전력공급을 위해 다이오드가 필요합니다. 문, 기계 동체, 다이오드는 선택사항입니다. 기계 동체는 전력 입력, 아이템 입력, 그리고 아이템 출력에 사용할 수 있습니다. 티어는 아이템 전송에 영향을 주지 않으므로, LV같은 싼 동체를 사용해도 됩니다.%n%n우선 5x5x5 크기로 만들어 봅시다. 수직적으로 확장하는 것은 쉽게 할 수 있습니다. 또는 더 넓고 길게 만들 수 있습니다. X와 Z가 둘 다 홀수에 맞게 맞춰져있는 한 사용할 수 있습니다. 플라스크리트 블록 약 5%%를 강화 유리로 대체하여 외부에서 클린룸 안쪽의 기계를 확인할 수 있습니다. 강화유리 대신 붕규산 유리나 와드 유리를 사용하면 더 많은 부분을 대체 할 수 있습니다.%n%n기계 동체를 사용하여 벽을 통해 재료를 통과시킬 수 있습니다. 기계 동체를 사용하여 1A의 전력을 통과시키거나 다이오드를 사용하여 여러 암페어를 통과시킬 수 있습니다.%n%n기계를 더 높은 전압으로 업그레이드 할 때는 매우 주의해야 합니다. 기계 헐과 다이오드를 반드시 제거하고 새로운 티어로 교체해야 합니다. 그렇지 않으면 대단히 슬픈 일이 벌어질겁니다.%n%n클린룸에 유지보수 문제가 있으면, 클린룸 내부 기계의 레시피 성공 확률이 감소합니다(유지보수 문제당 10%%!). 휴대용 스캐너, 정보 패널, 유지보수감지 커버와 레드스톤 전원등 또는 광역 알람 등을 사용하여 클린룸을 모니터링하세요.%n%n게다가, 문이 열려있거나 청정실이 꺼져있는 시간이 길수록 내부 효율이 감소합니다. 이는 직접적으로 레시피가 무효화(결과물이 증발하는) 되는 것과 연관되어 있습니다. 따라서 문을 최대한 적게 열고 클린룸을 24시간 가동하십시오. 문을 사용하지 않고도 내부에 들어가는 방법으로는 Open Block의 엘리베이터나 EnderIO의 트래블 앵커를 설치하면 됩니다. %n%n클린룸 자체의 에너지 소모량은 LV 기준 40EU/t이며 가동할수록 점점 소모량이 줄어듭니다. 에너지해치의 티어가 높을수록 클린룸 내부의 레시피 성공률 증가속도가 빨라집니다.%n%n몇몇 멀티블럭들은 (LCR, LPF, PA 등) 자체적으로 클린룸 판정을 가지고 있습니다. 이 멀티블럭들은 클린룸 내부에 설치하지 않아도 클린룸 레시피를 사용할 수 있습니다.%n%nAE 무선 연결기나 트랜스벡터 인터페이스를 이용해 벽면의 기계 동체를 통하지 않고 아이템 운송을 편하게 통제 할 수 있습니다.
@@ -6716,7 +6732,7 @@ betterquesting.quest.wgxwGsMBScCIIWzrgyfb8w.desc=이제 티타늄이 생겼으�
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAEQ.name=대량 생산
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAEQ.desc=GT++는 GT에 고속 멀티블록을 포함한 새로운 기능을 추가합니다.
 
-# Quest: A steam-powered whirl!
+# Quest: A Steam-Powered Whirl!
 betterquesting.quest.0rUmaWIPQPaL93q-_pgKXw.name=증기 기반 수레바퀴!
 betterquesting.quest.0rUmaWIPQPaL93q-_pgKXw.desc=증기 시대에서 희귀한 재료들을 어떻게 원심분리할 수 있을까요? 정답은 당연히 증기 원심분리기(Steam Separator)를 건설하는 것입니다! 증기를 이용해 회전력을 생성하는 이 멀티블럭은 다양한 재료를 빠르고 쉽게 분리할 수 있습니다!%n%n[note]이 멀티블럭은 LV 티어까지의 레시피를 처리할 수 있으므로 이 엄청난 녀석을 만들었다면 LV 원심분리기를 반드시 만들 필요가 없습니다. 유체를 출력하는 레시피에는 출력 해치를 사용할 수 있지만, 입력 해치는 허용하지 않습니다.[/note]
 
@@ -6729,10 +6745,10 @@ betterquesting.quest.6glle46JSyuwR6O4x7mLYA.name=틀에 맞추기
 betterquesting.quest.6glle46JSyuwR6O4x7mLYA.desc=액체를 고체로 굳힐 때 마다 주형틀을 갈아 끼우는게 너무 힘들고 느립니다... 다행히도, 유체 성형기(Fluid Shaper) 멀티블럭과 고체화 해치(Solidifier Hatch)를 이용하면 쉽게 해결이 가능합니다. 이 멀티블럭은 양 옆으로 확장할수록 병렬화 배수가 늘어납니다. 느리다고 생각하면 옆으로 쭈욱 늘려보세요!%n%n이 멀티블럭은 단일 기계와 비교하면 동일전압 조건에서 200%% 빠르고 기존 레시피의 80%%의 에너지만 소비하고 기본 2배부터 (추가 확장 수*3)배의 병렬화를 지원합니다.
 
 # Quest: T2 Maceration Stack 
-betterquesting.quest.A4rEQOAXQsaa26Ib_nzkHg.name=T2 Maceration Stack 
+betterquesting.quest.A4rEQOAXQsaa26Ib_nzkHg.name=§9§lT2 Maceration Stack 
 betterquesting.quest.A4rEQOAXQsaa26Ib_nzkHg.desc=Upgrade your Maceration Stack by replacing all the casings with Maceration Stack Casings and then placing the Upgrade Chip into the slot in the controller.%n%nThe Tier 2 Maceration stack has 4x more parallels!
 
-# Quest: Smelt All the Things Stack-Wise...
+# Quest: Smelt All The Things Stack-Wise...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAVQ.name=§6§l모든걸 묶음 단위로 구워 버리세요...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAVQ.desc=이 위대한 발명품으로...! 아이템을 한꺼번에 구워보세요!%n%n멀티 스멜터(Multi Smelter)는 마인크래프트 바닐라 화로와 같은 역할을 하지만 코일의 티어와 공급되는 전력량에 따라 병렬로 아이템을 한꺼번에 구워낼 수 있습니다.%n%n[note]전기 용광로(EBF)와 헷갈리지 마세요![/note]
 
@@ -6740,7 +6756,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAVQ.desc=이 위대한 발명품으로..
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABgg.name=산업용 오함마
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABgg.desc=아직도 증기 포지 해머를 쓰고계신가요? 이제 전기 기반으로 바꿀 때가 되었습니다.%n%n멀티블럭 내부 중앙에 들어간 모루의 재료에 따라 병렬화 배수가 결정됩니다.
 
-# Quest: A volcano for your base.
+# Quest: A Volcano For Your Base.
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABhQ.name=아버님 집에 화산 하나 놔드려야 겠어요
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABhQ.desc=조약돌, 흑요석 생산을 위한 최고의 기계입니다. 이를 응용하면 대규모로 레드스톤을 투입하여 흑요석으로 변환하고 실리콘, 마그네슘, 철, 산소 등 무한 자원을 이뤄낼 수 도 있을겁니다. 제어회로의 번호에 따라 조약돌, 돌, 흑요석 생산을 선택할 수 있습니다.%n%n이 멀티블럭은 단일 기계와 비교하면 동일전압 조건에서 200%% 빠르고 기존 레시피의 75%%의 에너지만 소비하고 (에너지 해치 티어*8)배의 병렬화를 지원합니다.
 
@@ -6756,19 +6772,19 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADbA.desc=복잡한 화학공정을 다�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjQ.name=헐크 스매시!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjQ.desc=대량 파괴! 수많은 광석이 한가득 분쇄됩니다. 채굴한 모든 광석들을 한꺼번에 처리할 수 있도록 산업 분쇄 스택(Industrial Maceration Stack)을 구축하세요. IV에서는 업그레이드 칩과 더 나은 케이싱을 이용하여 성능을 더 향상시킬 수 있습니다.
 
-# Quest: The rocks in the washer...
+# Quest: The Rocks In The Washer...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjg.name=방금 세탁기 돌렸는데 바지에 있던 폰을 빼는걸 까먹었다...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjg.desc=하루 종일 빙글빙글 돌아가며... 광석 세척 플랜트(Ore Washing Plant)는 빠르게 광석과 돌들을 깨끗하게 세척해줍니다. 컨트롤러 GUI나 스크류드라이버를 이용해 일반세척, 단순세척, 화학욕조 총 3가지 모드를 전환이 가능합니다.%n%n[note]빨래 돌리기 전에 주머니 체크 하세요![/note]
 
-# Quest: Dancing in circles
+# Quest: Dancing In Circles
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjw.name=화끈하게 춤춰보자고!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjw.desc=돌고 돌며 달아오르는 열기. 마치 클럽에서 춤추는 느낌입니다. 아니면 열원심분리기 같기도 하네요! 대형 열 정제기(Large Thermal Refinery)를 통해 더 효율적으로 광물을 정제하세요. 머플러 해치는 무조건 아래쪽에만 설치 가능합니다.
 
-# Quest: I think I'm going to be sick
+# Quest: I Think I'm Going to be Sick
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7A.name=스타크씨... 저 속이 이상해요...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7A.desc=산업용 원심분리기(Industrial Centrifuge)는 수천개의 물질들을 한번에 분리할때 유용하게 사용될겁니다.
 
-# Quest: Bask in the currents
+# Quest: Bask In The Currents
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7Q.name=가랏 라이츄, 번개!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7Q.desc=수천만개의 유리나 특수한 물질이 필요하신가요? 기존 아크 화로(Arc Furnace)로는 어림도 없습니다. 좀 더 인상 깊고 강력한게 필요합니다.%n%n고전류 산업 아크 화로(High Current Industrial Arc Furnace)는 산소기반 모드와 플라즈마 모드 2가지를 지원합니다. 그리고 특이하게도, 장착된 에너지 해치의 티어보다 한단계 낮게 동작합니다. 예를 들어 HV 에너지 해치를 장착했다면 MV 티어 레시피까지만 지원합니다.%n%n이 멀티블럭은 단일 기계와 비교하면 동일전압 조건에서 250%% 빠릅니다.%n%n[note]이 멀티블럭은 토륨232를 요구합니다. 구하기가 상당히 까다로울겁니다.[/note]
 
@@ -6776,11 +6792,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7Q.desc=수천만개의 유리나 특�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7g.name=비비고 돌리고
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7g.desc=여러가지 가루를 비비고 섞으면 맛있는 합금가루 비빔밥 한그릇 완성!%n%n이 멀티블럭은 단일 기계와 비교하면 동일전압 조건에서 250%% 빠르고 8배 병렬화를 지원합니다.
 
-# Quest: Play doh for big girls and boys
+# Quest: Play-Doh For Big Girls and Boys
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7w.name=어른이 되어서도 액체괴물 쪼물딱 하고시퍼요
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7w.desc=어렸을적 말랑한 점토나 액체괴물로 여러 모양을 만들며 놀았던 기억이 있을겁니다. 지금 여기서 여러 금속들도 점토나 액체괴물처럼 쉽고 자유롭게 형태를 변형할 수 있다면 얼마나 좋을까요?%n%n이 멀티블럭은 단일 기계와 비교하면 동일전압 조건에서 250%% 빠르고 4배 병렬화를 지원합니다.%n%n케이싱에 여러개의 입력 버스를 장착하고 각 버스마다 다른 틀을 넣어서 한 기계로 여러종류의 레시피들을 처리 하기 수월 할 겁니다.
 
-# Quest: Best thing since sliced bread
+# Quest: Best Thing Since Sliced Bread
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH8A.name=칼각으로 자른 식빵만큼 깔끔한건 없습니다
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH8A.desc=이 기계로 자른 모든 재료들은 너무나도 예쁘게 잘린 나머지 감동할지도 모릅니다. GUI나 스크류드라이버를 통해 일반 절단 모드와 슬라이스 모드 전환이 가능합니다.%n%n이 멀티블럭은 단일 기계와 비교하면 동일전압 조건에서 200%% 빠르고 기존 레시피의 75%%의 에너지만 소비하고 4배의 병렬화를 지원합니다.
 
@@ -6796,15 +6812,15 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAH8w.desc=우리 같이 주괴 식히지 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9A.name=헤파이스토스의 전기 용광로
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9A.desc=볼카누스(Volcanus)는 진보된 형태의 EBF로, 당신이 상상할 수 있는 것보다 더 빠르게 아이템을 구워냅니다. 볼카누스를 가동할려면 전용 해치를 통해 액체 파이로시움을 지속적으로 공급해야 합니다. 그리고 당연히 기존 EBF처럼 코일도 필요합니다.%n%n이 멀티블럭은 단일 기계와 비교하면 동일전압 조건에서 120%% 빠르고 기존 레시피의 90%%의 에너지만 소비하며 8배 병렬화를 지원합니다.%n%n[note]이 멀티블럭은 IV 티어지만 ZPM 티어 회로 2개를 요구합니다.[/note]
 
-# Quest: Spools and spools
+# Quest: Spools and Spools
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9Q.name=온 세상을 선으로 묶고 싶어요
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9Q.desc=지구 한 바퀴를 돌 수 있을 만큼의 전선이 필요하세요? 여기 있습니다.%n%n이 멀티블럭은 단일 기계와 비교하면 동일전압 조건에서 200%% 빠르고 기존 레시피의 75%%의 에너지만 소비하며 4배 병렬화를 지원합니다.
 
-# Quest: Bender more bending
+# Quest: Bender, More Bending!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9g.name=더 많은 판, 더더욱 많은 판때기!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9g.desc=천 단위 이상으로 판이 필요할 때 이 산업 프레스기(Industrial Material Press)가 해결사가 되줄겁니다. 컨트롤러 GUI나 스크류 드라이버를 이용해 판 모드와 성형 프레스 모드 전환이 가능합니다.
 
-# Quest: Bezos would be proud
+# Quest: Bezos Would Be Proud
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9w.name=제프리 베이조스가 자랑스러워할 만한
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9w.desc=아마존 창고 디폿(Amazon Warehousing Depot)은 모든 포장 레시피에 대한 궁극적인 해결책입니다. 작은 가루들을 합치는데 유용하게 사용할겁니다.%n%n이 멀티블럭은 단일 기계와 비교하면 동일전압 조건에서 500%% 빠르고 기존 레시피의 75%%의 에너지만 소비하고 16배의 병렬화를 지원합니다.
 
@@ -6816,11 +6832,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_A.desc=정말 §l어마어마한§r �
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_Q.name=§6§l프로스트펑크
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_Q.desc=이 메가 진공 냉동기(Mega Vacuum Freezer, MVC)는 최대 256개의 아이템을 동시에 냉각 할 수 있습니다. 추후 UEV 티어에서 추가적인 업그레이드를 통해 오버클럭과 속도 효율을 높일 수 있습니다. TecTech의 고암페어 해치와 레이저 해치를 지원합니다.
 
-# Quest: Empty the oceans
+# Quest: Empty The Oceans
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIBQ.name=바다를 비워버리세요
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIBQ.desc=만약 바이오 디젤 때문에 오랫동안 물고기를 얻기 위해 고생했다면, 이제 주하이 낚시 항구(Zhuhai - Fishing Port)를 통해 해결해보세요. 물고기 말고도 다양한 부산물들을 얻을 수 있습니다.
 
-# Quest: Putting all those workers out of jobs
+# Quest: Putting All Those Workers Out of Jobs
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIBg.name=단순 노동직의 종말
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIBg.desc=대규모 자동 조립기(Large Scale Auto-Assembler v1.01)는 아이템들을 빠르게 조립해 줍니다. 이 멀티블록은 ZPM에서 사용 가능합니다. %n%n정밀 조립기(PAA)와 비교했을 때, 더 늦게 등장하며, 병렬화 배수가 훨씬 적고, TecTech의 고암페어/레이저 해치를 지원하지 않지만, 두 개의 에너지 해치를 사용하여 다음 전압의 레시피를 수행할 수 있다는 장점이 있습니다.
 
@@ -6832,15 +6848,15 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJEA.desc=64개의 증류탑을 하나로
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKKQ.name=회로 조립 라인
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKKQ.desc=회로 조립 라인(Circuit Assembly Line, CAL). 회로 대량생산에 특화된 조립 라인 입니다. 초반에는 4대정도 장만해두면 충분할겁니다.%n%nLuV 퀘스트에서 언급된 회로 각인을 얻었다면, 이제 크리스탈 프로세서 시리즈를 위한 CAL을 제작할 수 있습니다. 각 라인당 한가지의 회로로 고정되므로 여러개의 각인이 필요할겁니다.%n%nAL과 비슷한 모양, 작동방식도 거의 똑같지만 자동화는 AL보다 훨씬 쉬울겁니다(왜나면 CAL 하나당 1가지 아이템만 만드니까요.).%n%nCAL은 한 번에 16개의 회로를 만들기 때문에 시간, 전력, 납땜(혹은 인달로이 등)을 절약할 수 있습니다. 대신 레시피가 조금 다르니 NEI를 참고하시길 바랍니다.%n%n[note]입력 해치와 버스 티어를 상위티어의 것으로 교체할 수 있지만, 여전히 재료 순서를 유지해야 합니다. 또한 CAL은 1:1 완벽 오버클럭을 제공합니다.[/note]
 
-# Quest: Cool Guys Don't Look at Explosions
+# Quest: Cool Guys Don't Look At Explosions
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKxQ.name=상남자는 폭발을 보지 않는다
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKxQ.desc=...그대신 폭발을 자동화 합니다.%n%n[note]이 멀티블럭은 IV 티어이지만, 백금족 재료와 ZPM 티어 회로를 요구합니다.[/note]%n%n이 멀티블럭은 레시피 티어에 따라 병렬화 배율이 변합니다.
 
-# Quest: Let me fabricate a new universe...
+# Quest: Let Me Fabricate a New Universe...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKxg.name=이 세상 모든 물질들을 만들어봅시다...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKxg.desc=물질 합성 CPU(Matter Fabrication CPU)는 UU물질과 스크랩을 생산하는데에 특화 되어있습니다. 제작하기 굉장히 까다롭지만 후반부에 늘어나는 UU물질의 수요를 감당할려면 선택지가 없습니다.%n%n[note]이 멀티블럭은 UV티어입니다.[/note]
 
-# Quest: I Want SOLIDS not LIQUIDS!
+# Quest: I Want SOLIDS Not LIQUIDS!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKxw.name=난 고체를 원하는거지 액체를 원하는게 아니라고!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKxw.desc=가끔은 합금을 만들 때, 액체가 아닌 고체의 형태로 필요할 때 가 있습니다. ABS와 비슷하게 합금을 재련하지만 고체형태로 출력합니다.%n%n코일의 티어가 높을수록 속도, 병렬화 배율이 올라갑니다.
 
@@ -6868,7 +6884,7 @@ betterquesting.quest.IlCOpa8bR9WbOjSOPxZIlA.desc=더 크고 더 좋은 발파 �
 betterquesting.quest.Itn1KOiISHSbXzoDd2BB8w.name=핵심 추출기
 betterquesting.quest.Itn1KOiISHSbXzoDd2BB8w.desc=대형 유체 추출기(Large Fluid Extractor)보다 더 빠르게 고체를 액체로 바꾸는 기계는 아직까진 없는것 같습니다. 내부의 가열 코일과 솔레노이드 코일의 티어에 따라 속도와 병렬화 계수가 바뀝니다.%n%n[note]이 멀티블럭은 EV 티어이지만 대량의 텅스텐스틸을 요구합니다.[/note]
 
-# Quest: More steam, more pressure!
+# Quest: More Steam, More Pressure!
 betterquesting.quest.Plg8vg0gS9Ks2Ddc5sIVOg.name=더 많은 증기는 곧 더 많은 압력!
 betterquesting.quest.Plg8vg0gS9Ks2Ddc5sIVOg.desc=증기 시대에 어떻게 물건들을 압축할까요? 그냥 단순하게, 한 곳에 많은 증기를 고압 상태로 만들어 압력을 가하는 것입니다...%n%n이걸 더 크게 만들어 봅시다. 증기 압축기(Steam Squasher)를 사용하면 다른 스팀 멀티블럭과 마찬가지로 훨씬 더 큰 규모의 압축기를 사용할 수 있습니다. 재료를 압축하는 데 시간이 너무 오래 걸린다고 느껴진다면, 이 기계를 만들어 쓰는것이 좋은 해결책이 될 수 있습니다.
 
@@ -6885,7 +6901,7 @@ betterquesting.quest.WEwrzX4ZRkSxJ3M6cBesfA.name=증기 믹서기?
 betterquesting.quest.WEwrzX4ZRkSxJ3M6cBesfA.desc=왜 복잡한 배선과 회로를 사용해 가루를 섞는 데 시간을 낭비할까요? 증기와 피스톤을 사용하면 같은 일을 할 수 있습니다. 스팀 블렌더는 이 스팀 멀티블록 중 가장 큰 모델로, LV 단일 블록 믹서보다 더 많은 병렬 처리가 가능해 혼합 작업을 장시간 처리할 수 있습니다.%n%n[note]이 멀티블록은 LV 등급 이하의 레시피만 처리할 수 있습니다.[/note]
 
 # Quest: Steam Fusing?
-betterquesting.quest.WGhhKERfRTiJXKZEPoRf1Q.name=Steam Fusing?
+betterquesting.quest.WGhhKERfRTiJXKZEPoRf1Q.name=§c§lSteam Fusing?
 betterquesting.quest.WGhhKERfRTiJXKZEPoRf1Q.desc=Singleblock Alloy Smelters not fast enough for you? Look no further than the Steam Fuser. This will make light work of your alloy smelter tasks at a fraction of the steam cost and a much faster speed. %n(Check out the tooltip for more info!)%n%nWhile the NEI requirements show borosilicate glass, you can substitute any HV tier glass in it's place like warded glass, quite clear glass, or fused quartz. If you end up using borosilicate; boron can be obtained from electrolyzing borax.%n%n[note]Will only process up to LV tier recipes[/note]
 
 # Quest: Taking Things Apart
@@ -6900,7 +6916,7 @@ betterquesting.quest.ZIotzqvnRiKu1_1Hb9i1dg.desc=이것은 §6GigaGram§rFab의 
 betterquesting.quest._dFgSThoQTWgM696ykr2Gw.name=고급 오토클레이브
 betterquesting.quest._dFgSThoQTWgM696ykr2Gw.desc=LuV 티어에서는 산업용 오토클레이브(Industrial Autoclave)를 만들 수 있습니다. 이것은 많은 확장 요소를 갖춘 거대한 멀티블록이며 매우 강력합니다. 크리스탈 회로 라인을 위해 크리스탈 칩을 빠르게 처리하려면 반드시 필요할겁니다.%n%n[note]코일, 파이프 케이스, 아이템 파이프 케이스는 모두 이 멀티블럭의 성능을 결정짓습니다. 가지고 있는 가장 좋은 것을 사용하세요![/note].
 
-# Quest: ...with the power of science!
+# Quest: ...With The Power of Science!
 betterquesting.quest.bLAFkZX-RHGRFAz-C93aeQ.name=...과학의 힘으로!
 betterquesting.quest.bLAFkZX-RHGRFAz-C93aeQ.desc=원소 복제기(Elemental Duplicator)는 UU물질을 이용하여 대량으로 원하는 원소를 합성할 수 있습니다. 물질 합성 CPU(Matter Fabricator CPU) 멀티블럭과 함께 쓸것을 권장합니다.%n%n[note]이 멀티블럭은 UV티어입니다.[/note]
 
@@ -6912,13 +6928,17 @@ betterquesting.quest.bkEol9zuRiiCMwMUopFHhg.desc=많은 양의 자석이 필요�
 betterquesting.quest.d5Fxz8ClQQCXy9GN_m9BrA.name=§6§l온세상의 탄화수소를 분해하기
 betterquesting.quest.d5Fxz8ClQQCXy9GN_m9BrA.desc=얼마나 많은 기름이 필요하신가요? 아니면 나콰다 연료나 라독스같은게 많이 필요하나요...?%n메가 오일 크래커(Mega Oil Cracker)는 최대 256배수 병렬화를 지원하고 TecTech의 고암페어 해치와 레이저 해치를 지원합니다.
 
-# Quest: An End to Deforestation
+# Quest: An End To Deforestation
 betterquesting.quest.fLH_QDPRR6mgCK0PL5iWmA.name=삼림 벌채의 종식
 betterquesting.quest.fLH_QDPRR6mgCK0PL5iWmA.desc=목탄을 위한 나무 원목, 기름을 위한 씨앗, 장식을 위한 잎을 더 쉽고 빠르게 수확하는 방법이 없을까요? 나무 생장 시뮬레이터(Tree Growth Simulator)가 좋은 해결책이 될겁니다.%n%n이 멀티블럭은 게임 내에 존재하는 거의 모든 종류의 나무들을 쉽고 빠르게 자동으로 재배 및 벌목이 가능합니다. 기존에 쓰던 다른 모드들의 나무농장과 비교하면 크기도 3x3x3으로 매우 작으며 서버 및 클라이언트에 가해지는 렉이 거의 없습니다.%n%n컨트롤러에 묘목을 넣고 입력 버스에 벌목을 위한 도구를 넣은 후 전력을 공급해주면 묘목에 맞는 원목이 쏟아져 나올겁니다.%n%n어떤 도구를 넣느냐에 따라 출력물이 달라집니다:%n톱(Saw) - 원목%n가지 절단기(Branch Cutter) - 묘목%n가위(Shear) - 잎 블럭%n칼(Knife) - 과일 혹은 열매%n전기톱과 같은 상위 티어의 도구를 넣으면 생산량이 더 올라가고, 여러 종류의 도구를 넣으면 그에 맞게 한꺼번에 수확물들이 동시에 나옵니다. 그러나 도구들의 내구도를 조금씩 소모하기 때문에 새 도구를 보충하거나 충전하는 추가적인 자동화가 요구됩니다.%n%n[note]이 멀티블럭은 IV 티어지만 만들기가 상당히 까다로울겁니다. ZPM 회로 16개와 여러 고급 합금들을 요구합니다.[/note]
 
-# Quest: Can it!
+# Quest: Can It!
 betterquesting.quest.gMRufFtRRRa30LE21boFNQ.name=런천미트 말고 스팸 사오라고 했잖아!
 betterquesting.quest.gMRufFtRRRa30LE21boFNQ.desc=대량으로 통조림을 포장하거나 냉각제를 주입할 일이 있다면 터보캔 프로(TurboCan Pro) 멀티블럭을 고려해보세요.%n이 멀티블럭은 단일블럭 대비 여러가지 보너스가 있고 고체와 액체 모두 지원이 가능합니다.
+
+# Quest: Spinmatron-2737
+betterquesting.quest.p4BZRIJZQKON4zmHeIqcoA.name=§b§lSpinmatron-2737
+betterquesting.quest.p4BZRIJZQKON4zmHeIqcoA.desc=Tired of spamming Centrifuges already? %n%nAlas, with your newfound ZPM technology you can finally fabricate a Centrifuge with some real power; §5§lThe Spinmatron-2737§r!%n%nThe Spinmatron§r comes with a litany of advantages compared to the regular centrifuge multiblock, including a §2§l3x§r Speed boost, a §2§l30%%§r reduction in EU usage, and a malleable number of parallels.%n%nUnlike the generic turbine that comes stock in a normal Centrifuge, the Spinmatron§r graciously allows you to choose the quality of the turbines that go into the machine. You can add between §9§l2-8§r turbines depending on the machine tier, each turbine will increase the parallel amount by [§94 * Turbine Material Tier§r]. §3(You'll want to avoid using smaller, non-huge turbines!)§r%n%nThis efficiency comes at a cost however, and will require [§9Recipe Tier * 10§r] L/s of §5Kerosene§r in order to run. This can optionally be switched out with §5Biocatalyzed Propulsion Fluid§r for a §2§l1.25x§r parallel multiplier once you've reached §4UEV§r.%n%nAdditionally there are three modes that come unique to the Spinmatron:%n%n- §dLight§r -> Gives increased speed in exchange for only being able to process [§9Voltage Tier - 3§r] recipes%n%n- §6Normal§r -> No changes%n%n- §aHeavy§r -> Grants the ability to craft Heavy Mode dependent recipes in exchange for reducing your parallels by §c§l32x§r and consuming §5Biocatalyzed Propulsion Fluid§r.%n%n[note]Checkout the tooltip for more information![/note]%n%n[warn]Use the GUI for adding turbines; don't add them to the rotor assemblies.[/warn]
 
 # Quest: High Voltage Multiblocks
 betterquesting.quest.pKSx6HEUS0WkL6qkwo742g.name=HV 멀티블럭
@@ -6932,7 +6952,7 @@ betterquesting.quest.qDZZLi21TrmdWXwo_KimIw.desc=더 크고,더 빠르고, 더 �
 betterquesting.quest.quLxATDCQFWsrZRuh_gspA.name=증기 기관의 한계돌파
 betterquesting.quest.quLxATDCQFWsrZRuh_gspA.desc=지금쯤이면 단일 블럭 증기 기계들을 꽤 많이 만드셨을 겁니다. 그러나 이 기계들로는 소량의 재료만 가공할 수 있고, 얼마 안가 많은 양의 아이템을 가공해야 할 때가 올 것입니다. 이런 상황에선 멀티블럭이 유용합니다.%n%n멀티블럭은 단일 블럭 기계보다 건설 비용이 훨씬 높지만, 증기 사용량이 적고, 레시피를 병렬로 처리할 수 있어 증기가 충분하다면 한 번의 동작으로 여러 아이템을 동시에 제작할 수 있다는 장점이 있습니다.%n%n하지만 참고해야 할 몇 가지 사항들이 있습니다.%n%n-증기 멀티블럭에는 §4§l매우 특정한§r I/O 블럭이 필요하며, 일부 퀘스트에서 사용됩니다.%n-(8 * 티어) 만큼의 아이템을 동시에 처리합니다, 여기서 티어 1은 청동으로, 티어 2는 강철로 만들어집니다(NEI의 멀티블럭 미리보기에서 티어를 확인할 수 있습니다).%n-다른 멀티블럭과 마찬가지로 작동 중 에너지(이 경우 증기)가 부족하면 처리 중인 아이템이 무효 처리되어 증발합니다.%n-티어와 병렬 처리량은 컨트롤러 블럭을 보고 있으면 WAILA에서 확인할 수 있습니다%n%n[note]이 퀘스트를 시작으로 당신은 GT++ 멀티블럭 여정의 첫 발을 내딛었습니다. 하지만 아직 너무 흥분하지는 마세요. 증기 시대에서는 일부 멀티블럭만 이용할 수 있고, 대부분은 EV 시대부터 더 좋은 멀티블럭들을 본격적으로 만들 수 있습니다.[/note]
 
-# Quest: Steam stomping!
+# Quest: Steam Stomping!
 betterquesting.quest.s6AEHSKiQe2XveT_oDZbZg.name=증기로 짓뭉개기!
 betterquesting.quest.s6AEHSKiQe2XveT_oDZbZg.desc=포지 해머는 이미 꽤 빠르지만, 업그레이드 버전을 만들어서 더 빠르게 만들어보는 건 어떨까요? 증기 포지 해머(Steam Presser)를 사용하면 어떤 재료든 증기의 힘 앞에서 무릎을 꿇을겁니다. 이전보다 훨씬 빠르게 부숴지는 재료들을 감상하세요.%n%n[note]증기 포지 해머는 LV 티어 레시피 까지만 처리할 수 있습니다.[/note]
 
@@ -6948,7 +6968,7 @@ betterquesting.quest.w5O5rPL_Q_GDp8lxWMd0DQ.desc=당신은 이미 여러 증기 
 betterquesting.quest.wGINqtSuSQKLI_Yk7hAdcA.name=크게, 더 크게.
 betterquesting.quest.wGINqtSuSQKLI_Yk7hAdcA.desc=HV 티어에서는 이제 메가 멀티블럭들을 만들 수 있습니다. 이 거인들은 생산량을 전례 없는 수준으로 끌어올릴 수 있지만, 엄청난 대가가 따릅니다. 이 멀티블럭들에게는 두 가지 주요 이점이 있습니다.%n - 기본적으로 256배 병렬화를 제공합니다.%n - TechTech 고암페어/레이저 해치를 사용할 수 있어 초대량의 전력을 취급합니다.%n%n[note]이 멀티블럭을 재대로 사용할려면 최소 16A 이상의 전력을 안정적으로 공급 할 수 있는지 따져봐야합니다.  IV 티어 미만에서 메가 용광로를 건설하기 전에 실제로 이걸 안정적으로 굴릴 수 있을지 진지하게 계산기를 두드려 보세요...[/note]
 
-# Quest: Pressure washing!
+# Quest: Pressure Washing!
 betterquesting.quest.zorY0c3BQuqLJp7ThOLG-g.name=고압 세척!
 betterquesting.quest.zorY0c3BQuqLJp7ThOLG-g.desc=지금까지 수집한 광석을 가공하다 보면 다양한 분쇄된 광석을 발견하게 될 것입니다. 이 파쇄된 광석들은 상당히 더러우므로 특정 부산물을 얻으려면 세척을 해야합니다. 하지만 이 수많은 파쇄된 광석들을 어떻게 씻어낼까요? 증기 세척기(Steam Purifier)를 사용하면 해결됩니다! 증기와 약간의 물만 있으면 불순물을 씻어내고 순식간에 정화된 분쇄 광석을 얻을 수 있습니다.%n%n단일블럭 세척기로 광석이 깨끗해질 때까지 기다리는 데 지쳤다면 이 멀티블럭이 훌룡한 해결사가 될겁니다!%n%n[note]이 멀티블럭에는 기본 세척 모드와 단순 세척 모드 두 가지 모드가 있습니다. 단순 세척모드는 광석을 훨씬 빠르게 세척하지만 부산물을 남기지 않고, 기본 세척 모드는 조금 느린대신 확률적으로 부산물을 남깁니다.%n%n다른 멀티블럭과 마찬가지로 이 모드는 GUI의 각 버튼으로 전환하거나 드라이버로 컨트롤러를 마우스 오른쪽 버튼으로 클릭하여 전환할 수 있습니다. 모든 광석 세척 레시피가 LV이므로 이 멀티블럭은 모든 세척 레시피를 실행할 수 있습니다.[/note]
 
@@ -10026,10 +10046,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKwg.desc=서랍이 참 좋죠? 이제 ME
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKww.name=간단 가이드 - 자동 제작
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKww.desc=AE2의 주요 목적이므로 시작해 봅시다. 제작 스토리지와 분자 조립기를 설치하고, 패턴 터미널을 케이블에 연결하고, ME 인터페이스를 MA에 부착합니다 (다른 쪽에서 전력을 공급받는지 확인하세요). ME 인터페이스 없이 실행할 수 있지만, 그렇게 하면 하나의 레시피만 사용할 수 있습니다. 패턴 터미널에 빈 패턴을 넣고, 제작 테이블의 레시피를 추가한 후 화살표를 클릭하여 패턴에 저장합니다. 이것을 ME 인터페이스에 넣으면 이제 요청한 대로 제작할 수 있습니다. (네트워크 안에 아이템이 있는 경우, 그렇지 않으면 명백히 실패합니다)%n%n처리 패턴(기계, 일반적인 3x3 제작이 아닌 것)에 대해서는 오른쪽 버튼을 클릭하면 됩니다. 모든 입출력을 직접 지정해야 합니다. 가스레인지에 ME 인터페이스를 사용하거나 결과물을 수집하기 위해 ME Import Bus와 결합하여 사용할 수 있습니다. 자동으로 배출하는 기계(예: 멀티 기계)인 경우에는 ME 인터페이스를 사용해 훨씬 빠르게 결과물을 수집할 수 있습니다 (그리고 래그도 더 적게 발생합니다).
 
-# Quest: Short Guide - P2P
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKxA.name=간단한 가이드 - P2P
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKxA.desc=AE2의 더욱 복잡한 부분 중 하나인데, 이 모드를 정말로 이해하려면 이 부분을 이해해야 합니다. 우선, EA를 ME 컨트롤러로 교체하세요. 이제 더 많은 채널을 사용할 수 있습니다. P2P 버스를 한 쪽면에 놓고, 그러한 먼곳에 케이블을 연결하세요. EA나 Quartz Fiber로 케이블에 전력을 공급해야하지만, 일반 케이블로는 안된다는 점 기억하세요. 이것은 이제 별도의 네트워크이며, 그것은 그것을 취소하게 됩니다. 다른 쪽 끝에 두 번째 P2P 버스를 연결하고, 그 후에 적어도 하나의 Dense Cable을 놓아주십시오. 첫 번째 P2P 버스를 쉬프트-오른쪽 클릭한 후, 두 번째를 오른쪽 클릭합니다. 이제 두 버스가 연결되었고, 하위 네트워크에 2개의 채널이 사용되며, 컨트롤러의 한 쪽면에서 전체 32개의 채널을 사용할 수 있습니다. ME 컨트롤러가 없는 각 하위 네트워크에 대해 4개의 면, 또는 128개의 채널을 보낼 수 있습니다. 이 기능의 유용성을 이해하시겠지요, 그렇지 않습니까?%n%nAE2에 대해 이해해야 할 것이 많이 있지만, 기본적인 부분 이상을 알고 싶다면, 실험하거나 퀘스트를 읽거나 비디오를 시청하면 좋습니다.
-
 # Quest: Applied Greg?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALPQ.name=적용 그레그테크?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALPQ.desc=ME 버스는 기술과 다른 기술이 결합된 것입니다. 그래, 뭐 이상한 눈길 안 줬으면 좋겠어요. 이제 이것들을 사용하면 GregTech 멀티블록과 ME 네트워크 간에 아이템을 직접 입/출력할 수 있습니다. 이것들은 §o훨씬§r 덜 렉이 발생하므로, 서버에서 가능한 한 빨리 사용하기 시작해 주세요.%n%n당신이 GT 버스+ME 버스 또는 ME 인터페이스 조합을 띄우면, 두 버스를 새로운 버스로 교체하고 ME 케이블을 직접 연결할 수 있습니다. 다른 옵션과 마찬가지로 이 버스는 1 채널을 사용합니다.%n%n§3몇몇 기계, 즉 고급 조립 라인에서의 사용에 대해, 멀티가 작동하기 위해서는 설정된 아이템이 첫 번째 슬롯에 있어야 합니다.
@@ -10049,6 +10065,10 @@ betterquesting.quest.CbUsVtoETCy-CB3AlgHRjg.desc=The Advanced Wireless Setup Kit
 # Quest: 4096k Essentia Storage Cell
 betterquesting.quest.G5g_5_24RS6sqhmjFEbf8A.name=4096k 에센시아 저장소 셀
 betterquesting.quest.G5g_5_24RS6sqhmjFEbf8A.desc=이들은 8,388,608 유닛의 에센시아를 보유할 수 있습니다.%n%n그리고 48가지 종류를 저장할 수 있습니다.
+
+# Quest: Infinite Water Cell
+betterquesting.quest.GR94tIXOQvC2w5SttlezrQ.name=Infinite Water Cell
+betterquesting.quest.GR94tIXOQvC2w5SttlezrQ.desc=The ME Fluid Infinity Water Storage provides §24.5P§r water directly to your AE system, That's the equivalent of 2.25 million reservoir hatches, all conveniently packaged into one drive. %nMight come in handy...%n%n[note]Have fun making those fluid packets![/note]
 
 # Quest: Get Your Priorities Straight
 betterquesting.quest.Hbq2zJcoQbWK20-2A-kI1Q.name=우선순위 정하기
@@ -10097,6 +10117,10 @@ betterquesting.quest.TP2PEGHQRnGKgKYFziEjrg.desc=[quest]균등 분배, 가짜 �
 # Quest: 256k Essentia Component
 betterquesting.quest.Wh0yn2MOQhS-X_8NiPiZJw.name=256k 에센시아 컴포넌트
 betterquesting.quest.Wh0yn2MOQhS-X_8NiPiZJw.desc=1k와 동일합니다.
+
+# Quest: Vending Uplink Hatch
+betterquesting.quest._Hu6__h5TDazRXcEeZvyUg.name=Vending Uplink Hatch
+betterquesting.quest._Hu6__h5TDazRXcEeZvyUg.desc=Now that you've unlocked ME interfaces you can use this new technology to uplink with your Vending Machine!%n%nThe §5Vending Uplink Hatch§r can replace any of the pipe casing blocks and be connected directly to your AE network for automatically pulling required items.%n%n[note]Will work for both consumable and non-consumable items.[/note]%n[warn]Will not pull coins; those are manual entry only.[/warn]
 
 # Quest: Ultimate Parallelization...
 betterquesting.quest._bEWg1FHSmKu9MNhlbDlwA.name=§6§l최고의 병렬 처리...
@@ -11676,7 +11700,7 @@ betterquesting.quest.NO4JlNzcR_-1gaQi-kb3JA.desc=Shadow Metal is an extremely us
 
 # Quest: Scanning Made Easy
 betterquesting.quest.PKOdH3D6SsG3LQN6-pFF_A.name=Scanning Made Easy
-betterquesting.quest.PKOdH3D6SsG3LQN6-pFF_A.desc=We get it; The early-game of thaumcraft sucks and you don't want to throw every one of your 1000 items on the ground and scan them. That's why we added 2 cool QoL features which makes this tedious task very quick and easy.%n%n1. You don't actually have to throw the item on the ground. You can scan it directly from your inventory! Simply hover it over the item you want to scan, and after a short duration it will be scanned.%n%n2. You've probably accumulated dozens of double chests full of junk that you don't want to sift through and scan, so there's a second feature now: Scanning entire chests! Simply shift right-click while hovering over a chest with your thaumometer and it'll scan EVERY item inside of the chest. Though be beware, this strong feature requires a bit of research. %n[note]To unlock the research, go to your Thaumonomicon, open "Basic Information" (the first tab), and complete this research path: Research -> Research Expertise -> Deconstruction Table -> Container Scanning[/note]
+betterquesting.quest.PKOdH3D6SsG3LQN6-pFF_A.desc=We get it; The early-game of Thaumcraft requires a lot of research and you don't want to throw every one of your 1000 items on the ground and scan them for aspects. That's why we added 2 cool QoL features which makes this tedious task very quick and easy.%n%n1. You don't actually have to throw the item on the ground. You can scan it directly from your inventory! Simply hover your Thaumometer over the item you want to scan, and after a short duration it will be scanned.%n%n2. You've probably accumulated dozens of double chests full of junk that you don't want to sift through and scan, so there's a second feature now: Scanning entire chests! Simply shift right-click while hovering over a chest with your thaumometer and it'll scan EVERY item inside of the chest. Though before you can do so you have to learn a bit more about deconstruction in the Thaumonomicon.%n%n[note]Hint: To unlock the research to scan entire chests, go to your Thaumonomicon, open "Basic Information" (the first tab), and complete this research path: Research -> Research Expertise -> Deconstruction Table -> Container Scanning.[/note]
 
 # Quest: More Health
 betterquesting.quest.TjJv9pSOSaW1kwzoTZ9qRw.name=더 많은 체력!
@@ -11704,7 +11728,7 @@ betterquesting.quest.ad_fPxg-ThqyyuppTrG1gQ.desc=One such improvement is the Adv
 
 # Quest: Understanding Wand Progression
 betterquesting.quest.bfrxXr1iSpGQS8iV95nJeA.name=Understanding Wand Progression
-betterquesting.quest.bfrxXr1iSpGQS8iV95nJeA.desc=More advanced Thaumcraft recipes require larger and larger amounts of vis that your initial wands can't handle. You need to progress bit by bit to increase your capabilities. The progression is two-fold:%n%nFirst, you need to craft more advanced wands, the Greatwood Wand is next. And secondly, you need to improve your crafting discounts. They reduce the vis cost of crafts and thus also let you craft higher vis recipes.%n%nIn your progression you will need to rely on both aspects. Better wands and higher discounts. However, as you progress, there are many different ways on how to proceed. Some ways focus more on discounts, others more on wands. Therefore, the questbook can only give you some general advice.%n%nFor example, when making a new wand type, it is always cheapest to first make it with iron caps and then try to improve it afterwards. However, if you are able to obtain enough discounts you can directly make the wand with gold caps or better, skipping the iron capped wand.%n%nBut before all these options really open up, let us work on that Greatwood Wand!
+betterquesting.quest.bfrxXr1iSpGQS8iV95nJeA.desc=More advanced Thaumcraft recipes require larger and larger amounts of vis that your initial wands can't handle. You need to progress bit by bit to increase your capabilities. The progression is two-fold:%n%nFirst, you need to craft more advanced wands, the Greatwood Wand is next. And secondly, you need to improve your crafting discounts. They reduce the vis cost of crafts and thus also let you craft higher vis recipes.%n%nIn your progression you will need to rely on both aspects. Better wands and higher discounts. However, as you progress, there are many different ways on how to proceed. Some ways focus more on discounts, others more on wands. Therefore, the questbook can only give you some general advice.%n%nFor example, when making a new wand type, it is always cheapest to first make it with iron caps and then try to improve it afterwards. One way you can improve your wand is by swapping the cores & caps for higher tiers as you unlock them §3(see "Substitution" research)§r. However, if you are able to obtain enough discounts you can directly make the wand with gold caps or better, skipping the iron capped wand altogether.%n%nBut before all these options really open up, let us work on that Greatwood Wand!
 
 # Quest: Essentia Storage
 betterquesting.quest.cbv93MoJQESfsccTQMCwUA.name=Essentia Storage
@@ -12217,10 +12241,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFUA.desc=실드 블록 - 폭발 방지 -
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFUQ.name=이게 도대체...?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFUQ.desc=노란색이 도는 빛나는 공을 찾았습니다. 나중에 유용하게 쓰일 수도 있을 것 같습니다.
 
-# Quest: The One Ring
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFUg.name=단 하나의 반지
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFUg.desc=그것을 찾았군요. 강력한 암흑 마법사가 만든 단 한 개의 반지. 이상한 느낌이 당신에게 그것을 착용하라고 말합니다. 또한 반지도 당신에게 속삭이는 것 같습니다...%n%n§4그래, 아마 그건 하지 않는 게 좋습니다. 당신의 엉덩이에 쌓이는 공포와 위더를 좋아하지 않는다면, 당신의 기지를 터뜨리는 것 말이죠.§r%n%n반지는 당신을 §1불가사의하게§r 하고 §1무적§r로 만들지만, 자체적으로 §5왜곡§r을 수집할 뿐만 아니라, 그것을 당신에게도 쌓습니다. 한 시간 후에는 양이 크게 증가하므로, 순수한 눈물이 준비되어 있지 않는 한 그것을 그렇게 오래 착용하지 않으려고 노력하세요. 또한 다른 효과들을 기대하고, 반지도 벗어나고 싶어하지 않을 것입니다.
-
 # Quest: I Don't Want to Set the World on Fire
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFXA.name=완드 포커스 불
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFXA.desc=완드 포커스: 불은 기본 완드 포커스입니다. 완드에 장착하면, 마우스 오른쪽 버튼을 누르고 있으면 짧은 거리의 불꽃을 뿜어낼 수 있습니다. 기본 비스 비용은 초당 이그니스 0.1입니다.%n%n이 포커스는 포커스 조작기에서 업그레이드할 수 있습니다.
@@ -12387,7 +12407,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMng.name=알프하임
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMng.desc=전설은 초록색 에너지로 가득 찬 다른 영역으로 통하는 포털에 대해 이야기합니다.
 
 # Quest: Round One... FIGHT!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMnw.name=라운드 원... 싸움!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMnw.name=제 1라운드...시작!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMnw.desc=4개의 피론을 설치하고 테라스틸 주괴를 비콘에 쉬프트 오른쪽 클릭하여 가이아 가디언을 소환하세요.
 
 # Quest: A Deal With Alfar Industries
@@ -12395,7 +12415,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMoA.name=Alfar 산업과의 거래
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMoA.desc=그래서 엘븐에 관한 소문은 사실이었습니다. 음, §owere§r은 사실이었습니다. 일부는 아직 사실입니다. 그리고 사실이 아닌 것은 과거에 사실이었습니다.%n%n그들이 말하는 것으로 밝혀진 것은, 그들이 §o꿈의 주인§r이라 부르는 신비한 개인과 대화를 나누고 있는 것입니다. 그것은 Alfar 중에서 산업 혁명을 일으켰습니다. 안타깝게도 그것은 그들이 이제 돌고 도는 경방식 공장의 연료를 공급하기 위해 최신 패션의 기계를 받는 것을 고집한다는 것을 의미합니다. 이는 이제 급격히 유행을 벗어난 엘븐 재료에 대한 대가로요.%n%n누군가가 이 사람과 대화를 나누어야 합니다...
 
 # Quest: Round Two... FIGHT!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqQ.name=라운드 투... 싸움!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqQ.name=제 2라운드... 시작!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqQ.desc=이제 가이아 가디언을 처치해서 얻은 새로운 가이아 스피릿으로 가이아 스피릿 주괴를 제작하세요. %n%n4개의 피론을 설치하고 가이아 스피릿 주괴를 비콘에 쉬프트 오른쪽 클릭하여 가이아 가디언의 보다 어려운 버전을 소환하세요.
 
 # Quest: Runes
@@ -13510,719 +13530,6 @@ betterquesting.quest.z6Xaal6yTVi4fqEFCChoGg.name=Time to Kill (Stray)
 betterquesting.quest.z6Xaal6yTVi4fqEFCChoGg.desc=The Stray is a variety of Skeleton you will find in colder biomes. Watch out for their arrows; they can have a slowness effect!
 
 
-## Quest Line: Coins, Coins, Coins
-betterquesting.questline.AAAAAAAAAAAAAAAAAAAAEA.name=코인, 코인, 코인
-betterquesting.questline.AAAAAAAAAAAAAAAAAAAAEA.desc=이 퀘스트들은 코인을 사용할 아이템을 제공해줄 것입니다. 그러니 들어오세요, 유용하거나 멋진 물건들을 코인으로 사보세요.
-
-# Quest: Ethanol
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD0A.name=에탄올
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD0A.desc=에탄올을 원하세요? 구매하세요!
-
-# Quest: Oxygen
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD0Q.name=산소
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD0Q.desc=산소를 원하세요? 구매하세요!
-
-# Quest: Nitrogen
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD0g.name=질소
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD0g.desc=질소가 필요하세요? 사보세요!
-
-# Quest: Hydrogen
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD0w.name=수소
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD0w.desc=수소를 원하세요? 구매하세요!
-
-# Quest: Glue
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD1A.name=접착제
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD1A.desc=접착제를 원하세요? 구매하세요!
-
-# Quest: Lubricant
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD1Q.name=윤활유
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD1Q.desc=윤활유가 필요하세요? 구매하세요!
-
-# Quest: Sulfuric Acid
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD1g.name=황산
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD1g.desc=황산이 필요하세요? 구매하세요!
-
-# Quest: Engineering Processors
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD1w.name=엔지니어링 프로세서
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD1w.desc=엔지니어링 프로세서가 필요하세요? 구입해보세요!
-
-# Quest: Magical Saplings
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD2A.name=마법의 묘목
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD2A.desc=실버우드 묘목은 항상 찾기 힘듭니다. 필요하신가요? 지금 구매하시면 그레이트우드 묘목도 함께 드립니다!
-
-# Quest: Magnetic Steel Rods
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD_g.name=자기성 강철 막대
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD_g.desc=모터를 위한 자기성 강철 막대가 필요하신가요? 사보세요!
-
-# Quest: Aluminium Rods
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD_w.name=알루미늄 막대
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD_w.desc=알루미늄 막대가 필요하신가요? 사보세요!
-
-# Quest: Maple Syrup?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADaA.name=단풍 시럽?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADaA.desc=메이플 나무를 찾기 위해 몇 시간 동안 고생하셨나요? 포레스트 레인저 코인을 사용하여 묘목을 구입하는 것은 어떠신가요?
-
-# Quest: Seed Bags
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADaQ.name=씨앗주머니
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADaQ.desc=특별한 "Pam's HarvestCraft" 씨앗을 찾는 것은 매우 어려울 수 있습니다. 농부 코인을 사용하여 몇몇 씨앗주머니를 구입할 수 있습니다.
-
-# Quest: Witch
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADcA.name=마녀
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADcA.desc=당신은 외로움을 느낍니다. 무엇을 요리하고 있나요?
-
-# Quest: Pigmen
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADcQ.name=선철인
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADcQ.desc=당신은 외로움을 느낍니다. 베이컨 좀 드시겠어요?
-
-# Quest: Blaze
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADcg.name=블레이즈
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADcg.desc=당신은 외로움을 느낍니다. 조금 따뜻해지게 도와드릴게요.
-
-# Quest: Magma Cube
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADcw.name=마그마 큐브
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADcw.desc=당신은 외로움을 느끼며, 통통 뛰고 있습니다.
-
-# Quest: Enderman
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADdA.name=엔더맨
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADdA.desc=당신은 외로움을 느낍니다. 제 눈을 직접 쳐다보지 마세요!
-
-# Quest: Cave Spider
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADdQ.name=동굴 거미
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADdQ.desc=당신은 외로움을 느낍니다. 작은 거미의 노래를 불러드릴게요.
-
-# Quest: Ghast
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADdg.name=가스트
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADdg.desc=당신은 외로움을 느낍니다. 그래도 큰 울음꾼은 아니잖아요?
-
-# Quest: Silverfish
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADeA.name=좀벌레
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADeA.desc=당신은 외로움을 느낍니다. 최대한 귀찮게 굴어드리겠습니다.
-
-# Quest: Garden Bags
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADtQ.name=정원 가방
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADtQ.desc=특별한 "Pam's HarvestCraft" 정원을 찾는 것은 매우 어려울 수 있습니다. 농부 코인을 사용하여 몇몇 정원 가방을 구입할 수 있습니다.%n%n§3참고로 이것은 네더 버전도 포함하고 있습니다.
-
-# Quest: XP Berries
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADtg.name=경험치 열매
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADtg.desc=그리고 몇 개의 경험치 열매를 현금으로.
-
-# Quest: Piston
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADuw.name=피스톤
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADuw.desc=피스톤이 필요하세요? 구매하세요!
-
-# Quest: Bronze Fluid Pipes
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADvA.name=청동 유체 파이프
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADvA.desc=청동 유체 파이프가 필요하세요? 구매하세요!
-
-# Quest: Magnetic Iron Rods
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADvQ.name=자기성 철 막대
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADvQ.desc=모터를 위한 자기성 철 막대가 필요하신가요? 사보세요!
-
-# Quest: Tin Rotors
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADvg.name=주석 로터
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADvg.desc=주석 로터가 필요하세요? 구매하세요!
-
-# Quest: Iron Rods
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADvw.name=철 막대
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADvw.desc=철 막대가 필요하신가요? 사보세요!
-
-# Quest: Brass Rods
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADwA.name=황동 막대
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADwA.desc=황동 막대가 필요하신가요? 사보세요!
-
-# Quest: Certus Quartz
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADwQ.name=세투스 석영
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADwQ.desc=세투스 석영이 필요하세요? 구매하세요!
-
-# Quest: Basic Circuit Boards
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADww.name=기본 회로 보드
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADww.desc=기본 회로 보드가 필요하신가요? 구매하세요!
-
-# Quest: Good Circuit Boards
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADxA.name=좋은 회로 보드
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADxA.desc=좋은 회로 보드가 필요하신가요? 구매하세요!
-
-# Quest: Vacuum Tubes
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADxQ.name=진공관
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADxQ.desc=진공관이 필요하세요? 구매하세요!
-
-# Quest: Resistors
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADxg.name=저항기
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADxg.desc=저항기가 필요하세요? 구매하세요!
-
-# Quest: Diodes
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADxw.name=다이오드
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADxw.desc=다이오드가 필요하세요? 구매하세요!
-
-# Quest: Wafers
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADyA.name=웨이퍼
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADyA.desc=웨이퍼가 필요하세요? 구매하세요!
-
-# Quest: Transistors
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADyQ.name=트랜지스터
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADyQ.desc=트랜지스터가 필요하세요? 구매하세요!
-
-# Quest: RAM
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADyg.name=RAM
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADyg.desc=RAM 웨이퍼가 필요하세요? 구매하세요!
-
-# Quest: Integrated Logic Circuits
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADyw.name=통합 논리 회로
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADyw.desc=통합 논리 회로 웨이퍼가 필요하세요? 구매하세요!
-
-# Quest: Oil
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADzA.name=기름
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADzA.desc=기름이 필요하세요? 구매하세요!
-
-# Quest: Creosote
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADzQ.name=크레오소트
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADzQ.desc=크레오소트가 필요하세요? 구매하세요!
-
-# Quest: Naphtha
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADzg.name=나프타
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADzg.desc=나프타가 필요하세요? 구매하세요!
-
-# Quest: Methane
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADzw.name=메탄
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADzw.desc=메탄이 필요하세요? 구매하세요!
-
-# Quest: Bronze Rotors
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEAA.name=청동 로터
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEAA.desc=청동 로터가 필요하세요? 구매하세요!
-
-# Quest: Steel Fluid Pipes
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEAQ.name=스틸 유체 파이프
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEAQ.desc=강철 유체 파이프가 필요하세요? 구매하세요!
-
-# Quest: Electrum Rods
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEAg.name=일렉트럼 막대
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEAg.desc=일렉트럼 막대가 필요하신가요? 사보세요!
-
-# Quest: Flawless Emeralds
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEAw.name=완벽한 에메랄드
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEAw.desc=완벽한 에메랄드가 필요하세요? 구매하세요!
-
-# Quest: Ender Pearl
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEBA.name=엔더 진주
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEBA.desc=엔더 진주가 필요하세요? 사보세요!
-
-# Quest: Magnetic Neodymium Rods
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEBQ.name=자성 네오디뮴 막대
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEBQ.desc=모터를 위한 자성 네오디뮴 막대가 필요하신가요? 사보세요!
-
-# Quest: Stainless Steel Rods
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEBg.name=스테인리스강 막대
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEBg.desc=스테인리스강 막대가 필요하신가요? 사보세요!
-
-# Quest: Steel rotors
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEBw.name=강철 로터
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEBw.desc=강철 로터가 필요하세요? 구매하세요!
-
-# Quest: Stainless Steel Fluid Pipes
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAECA.name=스테인리스강 유체 파이프
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAECA.desc=스테인리스강 유체 파이프가 필요하세요? 구매하세요!
-
-# Quest: Chrome Rods
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAECQ.name=크롬 막대
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAECQ.desc=크롬 막대가 필요하신가요? 사보세요!
-
-# Quest: Ender Eyes
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAECg.name=엔더 아이
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAECg.desc=엔더 아이가 필요하세요? 사보세요!
-
-# Quest: Plastic Circuit Boards
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEDA.name=플라스틱 회로 보드
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEDA.desc=플라스틱 회로 보드가 필요하신가요? 구매하세요!
-
-# Quest: Central Processing Units
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEDQ.name=중앙 처리 유닛
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEDQ.desc=중앙 처리 유닛 웨이퍼가 필요하세요? 구매하세요!
-
-# Quest: SMD Resistors
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEDg.name=SMD 저항기
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEDg.desc=SMD 저항기가 필요하세요? 구매하세요!
-
-# Quest: SMD Diodes
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEDw.name=SMD 다이오드
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEDw.desc=SMD 다이오드가 필요하세요? 구매하세요!
-
-# Quest: SMD Transistors
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEEA.name=SMD 트랜지스터
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEEA.desc=SMD 트랜지스터가 필요하세요? 구매하세요!
-
-# Quest: SMD Capacitor
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEEQ.name=SMD 커패시터
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEEQ.desc=SMD 커패시터가 필요하세요? 구매하세요!
-
-# Quest: Logic Processors
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEEg.name=논리 프로세서
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEEg.desc=논리 프로세서가 필요하세요? 구매하세요!
-
-# Quest: Chlorine
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEEw.name=염소
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEEw.desc=염소가 필요하세요? 사보세요!
-
-# Quest: Iron (III) Chloride
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEFA.name=염화 철(III)
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEFA.desc=염화 철(III)이 필요하세요? 사보세요!
-
-# Quest: Sodium Persulfate
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEFQ.name=과황산 나트륨
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEFQ.desc=과황산 나트륨이 필요하세요? 구매하세요!
-
-# Quest: Pyrochlore Ore
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEFg.name=파이로클로어 광석
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEFg.desc=오래된 월드 생성 때문에 파이로클로어 광석을 찾지 못하시나요? 광석을 구매하세요.
-
-# Quest: Forest Hive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEFw.name=포레스트 벌집
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEFw.desc=포레스트 벌이 필요하세요? 사보세요!
-
-# Quest: Deep Hive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEGA.name=깊은 벌집
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEGA.desc=조정된 벌이 필요하세요? 사보세요!
-
-# Quest: Ender Hive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEGQ.name=엔더 벌집
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEGQ.desc=엔더 벌이 필요하세요? 사보세요!
-
-# Quest: Bee Houses
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEGg.name=벌집
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEGg.desc=벌집이 필요하세요? 사보세요!
-
-# Quest: Apiary
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEGw.name=양봉장
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEGw.desc=양봉장이 필요하세요? 사보세요!
-
-# Quest: Impregnated Frames
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEHA.name=임프레그네이티드 프레임
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEHA.desc=임프레그네이티드 프레임이 필요하세요? 구매하세요!
-
-# Quest: Infernal Hive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEHQ.name=인퍼널 벌집
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEHQ.desc=인퍼널 벌이 필요하세요? 사보세요!
-
-# Quest: Oblivion Hive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEHg.name=오블리비언 벌집
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEHg.desc=망각의 벌이 필요하세요? 사보세요!
-
-# Quest: Meadow Hive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEIA.name=메도우 벌집
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEIA.desc=목장의 벌이 필요하세요? 사보세요!
-
-# Quest: Modest Hive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEIQ.name=모더스트 벌집
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEIQ.desc=모데스트 벌이 필요하세요? 사보세요!
-
-# Quest: Tropical Hive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEIg.name=열대 벌집
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEIg.desc=열대 벌이 필요하세요? 사보세요!
-
-# Quest: Wintry Hive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEIw.name=겨울 벌집
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEIw.desc=겨울 벌이 필요하세요? 사보세요!
-
-# Quest: Marshy Hive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEJA.name=습지 벌집
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEJA.desc=습지의 벌이 필요하세요? 사보세요!
-
-# Quest: Water Hive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEJQ.name=물 벌집
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEJQ.desc=물 벌이 필요하세요? 사보세요!
-
-# Quest: Rocky Hive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEJg.name=록키 벌집
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEJg.desc=바위 벌이 필요하세요? 사보세요!
-
-# Quest: Nether Hive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEJw.name=네더 벌집
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEJw.desc=신나는 벌이 필요하세요? 사보세요!
-
-# Quest: Curious Hive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEKA.name=호기심 많은 벌집
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEKA.desc=신비로운 벌이 필요하세요? 사보세요!
-
-# Quest: Unusual Hive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEKQ.name=이상한 벌집
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEKQ.desc=특이한 벌이 필요하세요? 사보세요!
-
-# Quest: Resonating Hive
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEKg.name=공명하는 벌집
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEKg.desc=마술사 벌이 필요하세요? 사보세요!
-
-# Quest: Vanilla Saplings
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAELQ.name=바닐라 묘목
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAELQ.desc=당신이 사막에서 스폰되어서 참나무나 자작나무 묘목이 필요한가요? 문제 없습니다! 포레스트 레인저 코인 다섯 개로 원하는 것을 선택하여 구매할 수 있습니다.
-
-# Quest: Naga
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEMQ.name=나가
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEMQ.desc=나가를 소환하세요.%n%n§3Twilight Forest 차원에서만 작동합니다.%n%n나가스톤의 이름이 엉망인 것은, 메타 #을 허용하는 부작용입니다.
-
-# Quest: Lich
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEMg.name=리치
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEMg.desc=리치를 소환하세요.%n%n§3트와일라이트 포레스트 차원에서만 작동합니다.
-
-# Quest: Minoshroom
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEMw.name=미노쉬룸
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEMw.desc=미노쉬룸을 소환하세요.%n%n§3트와일라이트 포레스트 차원에서만 작동합니다.
-
-# Quest: Hydra
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAENA.name=히드라
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAENA.desc=히드라를 소환하세요.%n%n§3트와일라이트 포레스트 차원에서만 작동합니다.
-
-# Quest: Knight Phantom
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAENQ.name=나이트 팬텀
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAENQ.desc=나이트 팬텀을 소환하세요.%n%n§3트와일라이트 포레스트 차원에서만 작동합니다.
-
-# Quest: Ur-Ghast
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAENg.name=어-가스트
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAENg.desc=Ur-Ghast를 소환하세요.%n%n§3트와일라이트 포레스트 차원에서만 작동합니다.
-
-# Quest: Yeti
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAENw.name=예티
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAENw.desc=예티를 소환하세요.%n%n§3트와일라이트 포레스트 차원에서만 작동합니다.
-
-# Quest: Snow Queen
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEOA.name=스노우퀸
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEOA.desc=스노우퀸을 소환하세요.%n%n§3트와일라이트 포레스트 차원에서만 작동합니다.
-
-# Quest: Red Alloy Cables
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEiQ.name=빨간색 합금 전선
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEiQ.desc=절연된 레드 합금 전선이 필요하신가요? 구매하세요!
-
-# Quest: Tin Cables
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEig.name=절연된 주석 전선
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEig.desc=절연된 주석 전선이 필요하신가요? 구매하세요!
-
-# Quest: Copper Wires
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEiw.name=구리 전선
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEiw.desc=구리 전선이 필요하세요? 구매하세요!
-
-# Quest: Rubber Ingots
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEjQ.name=고무 주괴
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEjQ.desc=고무 주괴가 필요하세요? 구매하세요!
-
-# Quest: Bath Salt
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEkQ.name=목욕 염
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEkQ.desc=으, 너무나 더러워 보입니다. 목욕을 가서 하세요.
-
-# Quest: Bath Soap
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEkg.name=목욕 비누
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEkg.desc=으, 너무나 더러워 보입니다. 비누를 가지고 길고 뜨거운 목욕을 하여 불쾌한 왜곡을 좀 없애세요.
-
-# Quest: Damascus Steel Ingots
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEkw.name=다마스커스강 주괴
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEkw.desc=다마스커스강은 매우 내구성이 있고 GT 도구에 유용합니다. 장만해 보세요!
-
-# Quest: Wrought Iron Ingots
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAElQ.name=연철 주괴
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAElQ.desc=연철 주괴가 필요하신가요? 사보세요!
-
-# Quest: Steel Ingots
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAElg.name=강철 주괴
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAElg.desc=강철 주괴가 필요하세요? 구매하세요!
-
-# Quest: Aluminium Ingots
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAElw.name=알루미늄 주괴
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAElw.desc=알루미늄 주괴가 필요하세요? 구매하세요!
-
-# Quest: Stainless Steel Ingots
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEmA.name=스테인리스강 주괴
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEmA.desc=스테인리스강 주괴가 필요하세요? 구매하세요!
-
-# Quest: Aluminum Berries
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEqA.name=알루미늄 광물베리
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEqA.desc=돈으로 알루미늄 광물베리 몇 개.
-
-# Quest: Gold Berries
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEqQ.name=금 광물베리
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEqQ.desc=돈으로 금 광물베리 몇 개.
-
-# Quest: Iron Berries
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEqg.name=철 광물베리
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEqg.desc=돈으로 철 광물베리 몇 개.
-
-# Quest: Copper Berries
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEqw.name=구리 광물베리
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEqw.desc=돈으로 구리 광물베리 몇 개.
-
-# Quest: Tin Berries
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAErA.name=주석 광물베리
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAErA.desc=돈으로 주석 광물베리 몇 개.
-
-# Quest: Light Fuel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEtg.name=경량 연료
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEtg.desc=경량 연료가 필요하세요? 구매하세요!
-
-# Quest: Heavy Fuel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEtw.name=중유
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEtw.desc=중유가 필요하세요? 구매하세요!
-
-# Quest: Can't Find Those Ores?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF8w.name=광석을 찾지 못하시나요?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF8w.desc=기본 광석을 찾는데 어려움이 있나요? 몇 개의 코인을 교환하여 광석 찾기 완드에서 사용할 수 있는 광석 블록을 얻으세요. %n%n또한 똑똑하게 사용한다면, 하나의 광석 블록을 사용하여 다른 광석 블록을 포함하는 광맥을 찾고, 이를 사용하여 또 다른 광맥을 찾을 수 있습니다. 예를 들어, Redstone을 선택한다면, 이를 사용해 Cinnabar을 찾고, 이를 사용하여 Twilight Forest에서 Thaumcraft Aspect Shard 광석을 찾을 수 있습니다. 실험하고 알맞은 조합을 찾아보세요!
-
-# Quest: Vishroom
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFBw.name=비쉬룸
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFBw.desc=마법의 버섯이다!
-
-# Quest: Dragon Essence
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFEQ.name=용의 에센스
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFEQ.desc=용의 에센스가 필요하세요? 구매하세요!
-
-# Quest: Dragon Essence II
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFGw.name=용의 에센스 II
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFGw.desc=용의 에센스가 필요하세요? 구매하세요!
-
-# Quest: Ocean Bees
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFVg.name=바다 벌
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFVg.desc=바다 벌이 필요하세요? 일부 서버들이 바다 생물군계를 생성하지 않기 때문에, 사보세요!
-
-# Quest: Calculation Processors
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFkQ.name=계산 프로세서
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFkQ.desc=계산 프로세서가 필요하세요? 구매하세요!
-
-# Quest: ME Glass Cables
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFng.name=ME 유리 케이블
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFng.desc=ME 유리 케이블이 필요하신가요? 구매하세요!
-
-# Quest: Fluix Crystals
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFrw.name=플루익스 결정
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFrw.desc=플루익스 결정이 필요하세요? 구매하세요!
-
-# Quest: Rubber Rings
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFxw.name=고무 링
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFxw.desc=고무 반지가 필요하세요? 구매하세요!
-
-# Quest: Olive Saplings
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAG9A.name=올리브 나무 묘목
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAG9A.desc=올리브 나무는 오버월드에서 찾을 수 없으니, 코인으로 하나 구입하세요.
-
-# Quest: Annealed Copper Cables
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGSA.name=절연된 열처리된 구리 전선
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGSA.desc=절연된 열처리된 구리 전선이 필요하세요? 구매하세요!
-
-# Quest: Gold Cables
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGSQ.name=절연된 금 전선
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGSQ.desc=절연된 금 전선이 필요하신가요? 구매하세요!
-
-# Quest: Cupronickel 2x Wires
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGSg.name=2x 백동 전선
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGSg.desc=백동 전선이 필요하세요? 구매하세요!
-
-# Quest: Electrum 4x Wires
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGSw.name=4x 일렉트럼 전선
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGSw.desc=일렉트럼 전선이 필요하신가요? 구매하세요!
-
-# Quest: Silver 2x Cables
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGUA.name=2x 절연된 은 전선
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGUA.desc=절연된 은 전선이 필요하신가요? 구매하세요!
-
-# Quest: Copper Cables
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGUg.name=절연된 구리 전선
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGUg.desc=절연된 구리 전선이 필요하세요? 구매하세요!
-
-# Quest: Rubber Sheets
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGUw.name=고무 시트
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGUw.desc=고무 시트가 필요하세요? 구매하세요!
-
-# Quest: Salt for Your Salty Mouth
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGbA.name=당신의 짠내나는 입을 위한 소금
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGbA.desc=모드팩이 너무 허접같다고요? 게임을 범부로 만드는 모든 퀘스트에 지루해하고 있나요? Github에서 뉴비들이 스팀을 너무 강하게 만들었다고 억까 게시글을 쓰고 있나요? 그렇다면, 그런 OP 동전들을 모두 소금으로 바꿀 수 있는 퀘스트가 여기 있습니다.
-
-# Quest: Calcite Getting you Down?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHGA.name=방해석이 문제가 되나요?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHGA.desc=석회석이 있는 청금석 광맥을 찾기가 어렵나요? 고생해서 번 동전과 약간의 돌로 몇 개를 교환해 드릴게요.
-
-# Quest: Need Some Leather?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHQw.name=가죽이 필요하세요?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHQw.desc=코인으로 가죽을 구입하세요.
-
-# Quest: Need Some Wool?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHRA.name=양털이 필요하세요?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHRA.desc=코인으로 양털을 구입하세요.
-
-# Quest: Buy Some Eggs
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHRQ.name=달걀을 구입하세요.
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHRQ.desc=코인으로 달걀을 구입하세요.
-
-# Quest: Clay for Pennies
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHWQ.name=페니로 점토 구매
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHWQ.desc=점토를 찾기 어렵나요? 몇 개의 코인으로 한 묶음을 가져가세요.
-
-# Quest: Tired of Grinding Reeds?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHWg.name=갈대 분쇄에 지친 건가요?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHWg.desc=코인으로 Chad를 몇 개 교환해 드릴 수 있습니다.
-
-# Quest: Glassy Eyed
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHWw.name=유리 눈동자
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHWw.desc=...유리 가루를 만들기 위해 모든 절구를 사용해야 했던 건가요? 아주 싼 가격에 드리겠습니다.
-
-# Quest: Shhh, Don't Tell 0lafe...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHXA.name=쉿, 0lafe에게 말하지 마세요...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHXA.desc=하지만 여기에는 저렴한 통발을 얻을 수 있는 좋은 퀘스트가 있습니다!
-
-# Quest: Wood for Sheep?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHXQ.name=양을 위한 나무?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHXQ.desc=아니요, 고맙습니다! 하지만 코인과 원목을 이용한 작물 지지대는 어떠신가요?
-
-# Quest: Manure for Fertilizer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHXg.name=비료를 위한 거름
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHXg.desc=이런 쓰레기들로 도대체 뭘 할 수 있을까요?
-
-# Quest: Healing Axe 2.0
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHYQ.name=치유의 도끼 2.0
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHYQ.desc=뭐, 도끼를 잃어버렸다고요? Thaumcraft를 약간 이용하면 스스로 만들 수 있습니다. 하지만 당신이 마법을 싫어한다면, 다른 방법이 있습니다.
-
-# Quest: Fluorine
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHZA.name=플루오린
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHZA.desc=플루오린이 필요하세요? 구매하세요!
-
-# Quest: Manganese Ore
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHZw.name=망가니즈 광석
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHZw.desc=초반 게임에서 생성되지 않아 망가니즈 광석을 찾지 못하고, 피롤루슘 작물을 성장시키는 데 어려움을 겪으시나요? 광석을 구매해보세요.
-
-# Quest: Cotton and String
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHjg.name=면과 실
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHjg.desc=농업 코인이 있다면, 목화와 실로 교환해 드릴게요. 무두질한 가죽을 만드는데 적합합니다.
-
-# Quest: Chocolate is Bad For You...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIIA.name=초콜릿은 당신에게 해롭습니다...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIIA.desc=...하지만 생산을 위해서는 확실히 대단합니다! 양봉장치와 벌통에 있는 초콜릿 프레임은 생산을 촉진하지만 수명은 줄게 됩니다. 이는 악독한 양봉가에게 유용하게 사용될 수 있습니다...
-
-# Quest: You Can't Spell Lignite Without Ignite
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIZw.name='갈탄'이라는 단어에는 '점화'가 없을 수 없습니다
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIZw.desc=정말로 신들의 연료입니다!
-
-# Quest: Who Would Use This Garbage??
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIaA.name=누가 이런 쓰레기를 사용하려고 할까요??
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIaA.desc=정말로 멍청이들의 연료입니다!
-
-# Quest: Enderman Head
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ9g.name=엔더맨 머리
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ9g.desc=엔더맨 머리가 필요하세요? 사보세요!
-
-# Quest: Iron Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJKQ.name=철 광석 교환
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJKQ.desc=GT 철 광석 스택을 바닐라 철 광석으로 교환할 수 있습니다.
-
-# Quest: Indium Dust
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJUg.name=인듐 가루
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJUg.desc=인듐이 필요하세요? 구매하세요!
-
-# Quest: Wormwood
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJVA.name=웜우드
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJVA.desc=모드 간의 충돌로 인해, 웜우드를 일반적인 방법으로 만들 수 없습니다. 따라서 코인을 사용하여 몇 개를 구입할 수 있습니다.
-
-# Quest: Horn of the Hunt
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJWA.name=사냥의 뿔
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJWA.desc=혹시 뿔 달린 사냥꾼을 죽이기 전에 어떻게든 잃어버렸나요? 그럼... 어려운 방법을 사용해 다시 소환하거나, 코인을 내고 다른 뿔을 얻을 수 있습니다.
-
-# Quest: Steadfast Bees
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJYA.name=Steadfast 벌
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJYA.desc=일반적으로 Steadfast 드론은 던전 루트 상자에서 발견됩니다. 아직 운이 좋지 않았거나, 이미 다른 이들에게 빼앗겼거나, 서버 관리자가 잔인하게 던전을 비활성화했다면, 여기에서 구매할 수 있습니다.
-
-# Quest: Monastic Bees
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJYQ.name=수도승 벌
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJYQ.desc=일반적으로 스님 드론들은 벌관리인 마을 주민과 거래를 통해 찾을 수 있습니다. 아직 운이 좋지 않았거나, 모든 마을 주민들이 죽었거나, 서버 관리자들이 잔인하게 마을 기능을 비활성화했다면, 여기에서 구매할 수 있습니다.%n%n§3이것은 정말 열심히 찾아보도록 권장하기 위해, 그리고 좀비 마을 주민을 치료하려고 시도하기 위해 비싸게 판매되고 있습니다. 행운을 빕니다!
-
-# Quest: Gold Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJew.name=금 광석 교환
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJew.desc=GT 금 광석 스택을 바닐라 금 광석으로 교환할 수 있습니다.
-
-# Quest: Coal Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJfA.name=석탄 광석 교환
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJfA.desc=GT 석탄 광석 스택을 바닐라 석탄 광석으로 교환할 수 있습니다.
-
-# Quest: Lapis Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJfQ.name=청금석 광석 교환
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJfQ.desc=GT 청금석 광석 스택을 바닐라 청금석 광석으로 교환할 수 있습니다.
-
-# Quest: Diamond Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJfg.name=다이아몬드 광석 교환
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJfg.desc=GT 다이아몬드 광석 스택을 바닐라 다이아몬드 광석으로 교환할 수 있습니다.
-
-# Quest: Redstone Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJfw.name=레드스톤 광석 교환
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJfw.desc=GT 레드스톤 광석 스택을 바닐라 레드스톤 광석으로 교환할 수 있습니다.
-
-# Quest: Netherquartz Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJgA.name=네더석영 광석 교환
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJgA.desc=GT 네더 석영 광석 스택을 바닐라 네더 석영 광석으로 교환할 수 있습니다.
-
-# Quest: Copper Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJgQ.name=구리 광석 교환
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJgQ.desc=GT 구리 광석 스택을 IC2 구리 광석으로 교환할 수 있습니다.
-
-# Quest: Tin Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJgg.name=주석 광석 교환
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJgg.desc=GT 주석 광석 스택을 IC2 주석 광석으로 교환할 수 있습니다.
-
-# Quest: Uranium Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJgw.name=우라늄 광석 교환
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJgw.desc=GT 우라늄 광석 스택을 IC2 우라늄 광석으로 교환할 수 있습니다.
-
-# Quest: Lead Ore exchange
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJhA.name=납 광석 교환
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJhA.desc=GT 납 광석 스택을 IC2 납 광석으로 교환할 수 있습니다.
-
-# Quest: Holo Glasses
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJhg.name=홀로그램 안경
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJhg.desc=뭐요? 이미 Holo Glasses를 잃어버렸다고요? 여기에 대체품이 있습니다. 그럼요, 몇 개의 코인도 드는 건 사실이지만, 다음 번에는 더 조심하세요!
-
-# Quest: Ironically, It's Not Used in AE2 Anymore
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKsg.name=뜻밖에도, 이제 AE2에서는 사용되지 않습니다
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKsg.desc=천령석이 필요한데, 다 뽑혀 버렸나요? 사서 사용하세요!%n%n§3PS: 프레스는 EV에서 제작 가능합니다.
-
-# Quest: Fire is Cool
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKsw.name=불은 멋져요
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKsw.desc=TF에서 불꽃 분출기나 연기 블록을 더 원하십니까? 사보세요!%n%n§3레드스톤으로 조작하는 버전도 만들 수 있습니다!
-
-# Quest: Dragon Warrior
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKtA.name=용의 전사
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKtA.desc=당신의 용의 심장이 어쩌면 공허 속으로 떨어졌나요? 아니면 그냥 더 많이 원하나요? 하나 사보세요!
-
-# Quest: T1 BM Slates
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKtQ.name=T1 BM 슬레이트
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKtQ.desc=드디어, 그 피의 동전들을 사용할 수 있게 되었습니다! 슬레이트를 구입하세요!
-
-# Quest: T2 BM Slates
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKtg.name=T2 BM 슬레이트
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKtg.desc=드디어, 그 피의 동전들을 사용할 수 있게 되었습니다! 슬레이트를 구입하세요!
-
-# Quest: T3 BM Slates
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKtw.name=T3 BM 슬레이트
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKtw.desc=드디어, 그 피의 동전들을 사용할 수 있게 되었습니다! 슬레이트를 구입하세요!
-
-# Quest: Sticky Matter
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALYQ.name=끈끈한 물질
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALYQ.desc=고무나무를 찾을 수 없나요? 물 탱크를 만들 수 없나요? 나무 수액을 얻기 위한 탭을 만드는 것이 귀찮으신가요? 몇 개의 코인으로 끈적한 수지 한 묶음을 구입하세요.
-
-# Quest: Shulker
-betterquesting.quest.C8FHZDizTnax3tt7HvnkBw.name=Shulker
-betterquesting.quest.C8FHZDizTnax3tt7HvnkBw.desc=I would carry out this battle indoors if I were you...
-
-# Quest: Having trouble finding Botania mushrooms?
-betterquesting.quest.ZW-P5BllSP25hEBQTgEBQQ.name=보타니아의 버섯을 찾기가 힘드신가요?
-betterquesting.quest.ZW-P5BllSP25hEBQTgEBQQ.desc=동전 몇 개로 황혼의 숲을 빗질하는 시간을 절약하고 반짝이는 버섯으로 교환해 보세요.
-
-# Quest: Zinc Gravel Ore
-betterquesting.quest.a15LlbgfQAmJqUgrRkvCFg.name=아연 자갈 광석
-betterquesting.quest.a15LlbgfQAmJqUgrRkvCFg.desc=아연 자갈 광석을 찾는 데 어려움을 겪고 계신가요? 제가 당신이 힘들게 모은 코인과 교환해드리겠습니다.
-
-# Quest: More SMD Inductors
-betterquesting.quest.b8oLtR7SS86ItajFCriChw.name=더 많은 SMD 인덕터
-betterquesting.quest.b8oLtR7SS86ItajFCriChw.desc=SMD 인덕터가 필요하세요? 구매하세요!
-
-# Quest: TNT and iTNT
-betterquesting.quest.beN48jZMRCqH2QGlTH7nTg.name=TNT와 iTNT
-betterquesting.quest.beN48jZMRCqH2QGlTH7nTg.desc=TNT 또는 iTNT가 필요하세요? 구매하세요!
-
-# Quest: Blaze Rods
-betterquesting.quest.la9w2qsKRhSIm-9-4cnWwg.name=블레이즈 막대
-betterquesting.quest.la9w2qsKRhSIm-9-4cnWwg.desc=블레이즈 막대가 필요하신가요? 사보세요!
-
-
 ### Quests in multiple quest lines ###
 
 # Quest: Industrial Water Purification
@@ -14234,7 +13541,7 @@ betterquesting.quest.1FFkSYHcQPO_6U185CKBiw.name=방수등급 IP69++
 betterquesting.quest.1FFkSYHcQPO_6U185CKBiw.desc=스페이스타임의 공간 왜곡 효과 덕분에 유체가 전자부품들에 완전히 닿지 않게 제어할 수 있게 되었습니다.%n%n조합 입력 버스(Crafting Input Bus)와 동작방식이 동일하나, 유체가 포함된 패턴들을 수용 할 수 있습니다.
 
 # Quest: Steel Barrel
-betterquesting.quest.25yJ-u9OSG-GiMnQY9vWfQ.name=§3§lSteel Barrel
+betterquesting.quest.25yJ-u9OSG-GiMnQY9vWfQ.name=§c§lSteel Barrel
 betterquesting.quest.25yJ-u9OSG-GiMnQY9vWfQ.desc=The Steel barrel also has 72 slots.
 
 # Quest: Integrated Ore Factory - All in One!
@@ -14242,7 +13549,7 @@ betterquesting.quest.3hN7FykMSJSWSykZiEWvfQ.name=§6§6§6§l통합 광석 정�
 betterquesting.quest.3hN7FykMSJSWSykZiEWvfQ.desc=통합 광석 정제소는 광석 블럭, 갈아낸 광석 가루, 씻어낸 광석 가루 등등 모든 형태의 광물/가루/중간 정제물 들을 한번에 가공해버립니다! %n%n최대 1024 병렬 작업 수행이 가능하며 컨트롤러를 스크류 드라이버로 조정하면 열 원심 분리기나 광물 체 등 가공 형태 변환이 가능합니다. 증류수와 윤활유를 대량으로 공급해야 합니다.
 
 # Quest: Copper Barrel
-betterquesting.quest.9B9CvQD0R8iLv-CBMTYZGQ.name=§2§lCopper Barrel
+betterquesting.quest.9B9CvQD0R8iLv-CBMTYZGQ.name=§c§lCopper Barrel
 betterquesting.quest.9B9CvQD0R8iLv-CBMTYZGQ.desc=The Copper barrel has 45 slots.
 
 # Quest: Main Quests and Secondary Quests
@@ -14385,6 +13692,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADXw.desc=청동 투창은 약간 비싸�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADYA.name=§2§l그런데 그때 닌자가 나타났다
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADYA.desc=뼈 활이 너무 비싸다고 생각하시나요? 그럼 대신에 부싯돌 투척 나이프를 만들어보세요. 부싯돌과 막대기를 사용해 12개의 나이프를 만들 수 있습니다. 내구성과 공격력은 매우 낮지만, 안전한 거리에서 몬스터를 죽이는 데 도움이 될 것입니다.%n%n발사한 나이프를 줍고 싶다면 나이프가 인벤토리에 있어야 합니다. 나이프가 Battlegear 슬롯에 있는 경우에는 줍지 못합니다.
 
+# Quest: Smelt All the Things...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADZg.name=§6§l모든 걸 녹여버릴테다...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADZg.desc=한 번에 최대 9개의 아이템을 제련하는 게 좋아 보인다고요? 약간의 강철로 Railcraft 증기 오븐을 만들 수 있습니다. (2x2x2) %n%n힌트: 모든 화로 레시피는 잘 작동합니다. 나무에서 목탄을 만들 때만 빼고요.
+
 # Quest: Power of the Sun
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADpQ.name=§6§l태양의 힘
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADpQ.desc=이제 재생 가능한 에너지에 투자할 시간입니다. 태양광 패널부터 시작해봅시다. 기본 패널은 단지 초당 1 EU를 출력합니다. 대부분의 GT 기계는 커버로 사용할 수 있으며, 햇빛(맨 위)을 볼 수 있는 한 전력을 제공받을 수 있습니다. 패널을 교체하는 동안 비가 내릴 경우를 대비해 유리 층을 패널 위에 놓는 것을 잊지 마세요. 물론 기계 선체의 측면도 비를 막아야 하겠죠.%n%n§3알루미늄 철 판은 MV Forming Press가 필요합니다.
@@ -14412,10 +13723,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAERw.desc=충분한 금을 찾았다면, 
 # Quest: Moron's Guide to Better Trees
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEWw.name=멍청이를 위한 더 나은 나무 가이드
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEWw.desc=포레스트리의 나무들은 다양한 속성을 가지고 있습니다. 유용한 속성을 가진 나무를 얻게 되면, 그 속성을 다른 종류의 나무에게도 물려주는 것이 가능합니다. 이렇게 하면 원하는 모든 속성을 결합한 궁극의 나무를 얻을 수 있습니다 - 과일의 종류까지요! 만약 기계를 만들 수 있다면 Gendustry를 이용해 유전자를 추출할 수도 있습니다.%n%n§4포레스트리 나무를 교배할 때 나비가 렉을 유발하므로 실내나 지하에서 하십시오.§r%n%n퀘스트를 수행하려면, 순수한 종을 교배해야 하며, 하이브리드는 안됩니다. 좋은 종들을 모두 얻고 난 후에 다양한 종들을 교배하는 것이 좋습니다.%n%n더 빠른 나무 교배를 원한다면 나무를 담아 나비가 못 나가게 하고, 영역과 꽃가루의 속도에 대한 더 좋은 특성을 가진 벌을 교배해 보세요. 만약 여유가 있다면 프레임도 있습니다. 만약 알뷰어리를 만들 수 있다면 체에도 도움이 될 수 있습니다. 벌이나 나비가 없이는 나무끼리는 꽃가루를 주고받지 않습니다. §r%n%n나무는 다음과 같은 특성들을 가지고 있습니다:%n§e묘목/생산성§r: 나무잎이 파괴될 때 묘목을 얻을 확률입니다. 바이오매스 제작이나 다른 용도로 유용합니다. 잘만 나무, 구스베리, 달골피나무가 찾는 것들입니다.%n%n유전자   드롭 확률%n최하    1%%%n하       2.5%%%n중하     3.5%%%n평균     5%%%n높음    10%%%n%n§c성숙/성숙도§r: 묘목이 나무로 성장하는 속도. 바로 나무를 베어내려면 중요합니다. 황금 라즈베리가 가장 빠릅니다.%n%n유전자   시간%n가장 느림   10%n느림        7%n조금 느림    5%n평균        4%n빠름       3%n조금 더 빠름 2 %n가장 빠름   ?%n%n§d높이§r: 나무가 자라는 높이를 조절합니다. 자이언트 세콰이아가 가장 좋은 선택이지만, 조금 §o너무§r 커질 수도 있습니다.%n%n유전자   값%n최소     25%%%n작음    50%%%n조금 작음 75%%%n평균   100%%%n큼      125%%%n더큼    150%%%n가장 큼 175%%%n거대함   BIG%n%n§b너비§r: 나무의 너비입니다. 더 넓은 나무는 더 많은 나무잎과 원목을 가지지만, 성장을 시작하려면 더 많은 묘목이 필요합니다. 모든 묘목은 같은 종과 너비여야 합니다. 북서쪽 모서리의
-
-# Quest: Firestone Ore/Dust
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE_w.name=§6§l화염석 광석/가루
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE_w.desc=화염석 광석은 필러 등의 BC 기계를 만드는 데 사용되며, 그 외에도 다른 여러 가지 용도로 사용됩니다. 유감스럽게도, 이것은 네더... 바로 용암 바다의 밑바닥에 있습니다! %n%n여기 화염석을 찾는 몇 가지 팁을 알려드립니다: %n%n-화염석은 적어도 깊이 6 이상의 깊은 용암에만 생성됩니다. 네더 암석만 대체하므로, 소울 샌드로 가득한 피요르드에는 없습니다. 용암의 깊이와 그 밑에 무엇이 있는지 확인하는 방법을 생각해 볼 수 있나요?%n-또는, 만약 머리를 용암 위의 정확한 높이에, 그리고 정확한 각도에 유지한다면, 용암 아래를 볼 수 있을 것입니다 - 분명히 호버링하는 제트팩이 있어야만 합니다, 그렇죠?%n-...또는 cursor가 JM map 위에 있을 때 바이옴을 찾아보세요. Hell은 네더 암석이 있는 기본 바이옴입니다.%n%nGT 광부들로 화염석을 채굴할 수 있습니다, 만약 수평 범위 내에 놓일 경우입니다. 화염석 광석과 그 제품들은 주변에 임의로 불을 일으키므로, 빠르게 백팩 안에 넣어두세요!
 
 # Quest: Kinetic Power HV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEcQ.name=§9§l기계 동력 HV
@@ -14705,7 +14012,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMRg.desc=오늘은 극한 산업 온실(
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMXQ.name=터빈 당 UV 파워
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMXQ.desc=ZPM 단계에서 충분히 진행하여 ZPM Dynamo Hatches를 만들 수 있게 되면, 각 터빈의 출력을 524,288 EU/t로 늘릴 수 있습니다. 이런 수치에서는 터빈 재료에 의해 제한받는 정도가 크게 줄어들고, 하나의 Fusion Reactor에서 총 전력 출력을 상당히 늘릴 수 있게 됩니다. 적절한 재료를 선택한다면 3개의 Plasma Turbines로 하나의 반응기에서 나오는 전체 Helium Plasma 출력을 커버할 수 있습니다:%n%nLarge High Durability Compound Steel 230%% 202,860 EU/t%nLarge Atomic Separation Catalyst 200%% 399,672 EU/t%nLarge Adamantium 180%% 170,010 EU/t%nLarge Draconium 170%% 214,200 EU/t (내구성 좋음)%nLarge Neutronium 160%% 241,920 EU/t (매우 내구성이 좋음)%n%n어떤 터빈을 사용하느냐에 따라 전력 출력과 최종 효율성이 크게 달라질 수 있습니다. Ichorium과 Neutronium과 같은 일부 터빈들은 거의 영원히 지속되는 반면, 다른 것들은 시간이 지나면 교체해야 하지만 효율성이 높습니다. 터빈 당 더 많은 전력을 얻고자 하거나, 다이나모의 한계에 더 가까이 간다면 플라즈마의 터빈 유입량을 늘릴 수 있지만, 주의하세요! 다이나모의 한계를 초과할 수 없으며, 흐름량을 늘릴수록 효율성을 잃게 됩니다. 효율성 저하는 LuV 페이지에 있는 Plasma Turbine 퀘스트에서 확인할 수 있습니다.%n%n퀘스트를 완료하기 위해 보통의 또는 버퍼된 ZPM 다이나모를 만드세요.
 
-# Quest: High Temperature Super Breeder
+# Quest: High Temperature Gas-cooled Reactor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMbg.name=고온 증식로
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMbg.desc=자갈 원자로에 대해 들어 보신적이 있나요?%n%n이것은 고온-가스 원자로(High Temperature Gas-cooled Reactor, HTGR)이라고 부르며, 자갈 형태의 전용 핵분열 연료와 어느정도의 전력을 소비합니다. 토륨 고온 원자로(Thorium High Temperature Reactor, THTR)와 비교하면 EU/t 출력량은 별로 차이도 안나면서 가격은 훨씬 비싸서 대체 어떤 이득이 있는건가 의문이 들수도 있습니다. 멀티블럭 구조는 THTR과 같은 형태인 12x12x12 블록 크기의 거대한 원자로로, 유로퓸으로 만든 500개 이상의 케이싱이 필요합니다. 이 원자로의 핵심은 전력 생산이 아니라 핵분열 물질의 증식입니다.%n%n원자로 내에 대량의 핵분열 자갈 연료들을 쌓아두고 계속 재고량을 유지하면 반영구적으로 루테튬, 플루토늄 등의 부산물을 얻어 낼 수 있습니다.%n%n만약 이것을 건설하는 것에 망설이신다면, 다음 퀘스트를 확인하여 연료와 출력에 대해 더 알아보세요.%n%n-주의사항-%n%nHTGR은 내부 연료 버퍼를 가지고 있으며, 오직 하나의 입력 버스만 필요합니다(티어는 상관없습니다). 그리고 오직 하나의 출력 버스만 필요합니다 (반응기는 자동으로 모든 64개의 페블을 하나의 볼로 압축하므로, 전체 용량에서 지워질 문제를 피하려면 6개 이상의 슬롯이 필요합니다).%n%n이 원자로는 최소 7만2천개, 최대 72만개의 자갈 연료를 채워 넣을 수 있습니다. 최소 용량으로 운영한다면 레시피 시간이 감소되나, 주기 당 연료 연소량 증가와 같은 보너스를 얻지 못합니다. 반대로, 연료를 꽉꽉 채워넣을수록 모든 아웃풋들이 증가할겁니다.%n%n이 멀티블럭은 작동할 때 LuV 1A를 소비하지만, 동시에 고온 냉각수를 생성합니다. 이것을 이용해 전력을 생성하면, 원자로가 소비하는 것보다 더 많은 전력을 얻을 수 있습니다.%n%nNEI에서 HTGR을 검색하면, 해당 멀티블럭과 관련된 모든 연료 및 아이템을 볼 수 있습니다.
 
@@ -14749,7 +14056,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMyw.desc=오버클럭 없이 가동하�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMzA.name=PCB 팩토리 티어 2
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMzA.desc=나노 포지를 운용할 수 있게 되었으니 나나이트를 이용하여 회로 기판 생산 효율을 더 늘릴 수 있을겁니다. 다만 나나이트를 고정하여 통제하는 물질을 찾아야합니다. 긴 연구 끝에, 인피니티 프레임에 농축된 홀뮴을 코팅하여 나나이트를 고정하는데 성공했습니다. 이제 나나이트 덕분에 더 효율적으로 회로 기판을 뽑아낼 수 있게 되었습니다. %n%n[note]구조물을 티어2로 확장 후, 인풋 버스에 은 나나이트를 넣으면 티어2 레시피 접근, 병렬화 기능을 사용할 수 있습니다. %n%n병렬화 공식: Log2(x), x = 인풋버스에 넣은 은 나나이트 개수 %n%n예시: 나나이트 64개 -> Log2(64) =  6배 병렬화[/note]
 
-# Quest: Thermosink Radiator
+# Quest: Liquid Cooling Tower Tier 2
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMzQ.name=방열 장치 업그레이드
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMzQ.desc=시공간 조작을 통해 절대영도에 근접한 온도를 제어할 수 있는 당신이라면 훨씬 효율이 좋은 냉각장치를 만들수 있을겁니다. 나나이트를 이용해 효율적으로 열을 전도하고 특수 케이싱을 이용해 내부 온도를 일정하게 유지할 수 있습니다.수냉 시스템도 계속 사용해야하지만 기존에 사용하던 증류수는 순식간에 얼어붙어 버릴테니 슈퍼 냉각수가 대신 수냉 시스템을 유지할 수 있을겁니다. %n%n[note]방열 장치는 1:1 무제한 오버클럭을 가능하게 해줍니다. 냉각수는 증류수 대신 슈퍼 냉각수가 들어가며 작동시 초당10L만큼 소모합니다.[/note]%n%n[warn]방열 장치 업그레이드는 티어 2 이하에서 호환이 되지 않습니다.[/warn]
 
@@ -14762,12 +14069,12 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMzw.name=나노 포지 티어 1
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMzw.desc=나노크기의 초소형 로봇들을 만들어 여러 기계에서 활용하면 좋을텐데요. 탄소와 조립라인을 이용하면 가능하겠지만, 상당히 비효율적으로 생산해야합니다. 분명 더 효율적인 방법이 있을겁니다. %n%n나노 포지라면 가능할겁니다. 나노 크기의 두께로 블럭을 절단하여 효율적이고 빠르게 나나이트를 생성할 수 있을겁니다. %n%n§3나노 포지는 초대량의 전력을 요구하는 대형 멀티블럭입니다. 초고전력 공급을 위해 TT 에너지해치 시리즈(레이저 해치 포함)가 호환됩니다. 컨트롤러에 탄소 나나이트를 넣으면 티어 1 레시피 접근이 가능합니다. 티어 3까지 확장할 수 있으며 티어에 따라 구조물이 확장되고 컨트롤러에 들어가는 나나이트의 종류도 달라집니다. %n%n[note]나노 포지 레시피는 공급하는 전압을 따지지 않고 순수 들어오는 "전력량"만 따집니다. NEI레시피에서 표시된 EU/t 만큼 전압에 상관없이 고암페어로 공급하면 됩니다.[/note]
 
 # Quest: Prototype Matter Manipulator
-betterquesting.quest.AVth34rQQ3iuYeQaKrsSQg.name=§9§lPrototype Matter Manipulator
-betterquesting.quest.AVth34rQQ3iuYeQaKrsSQg.desc=The §4§lMatter Manipulator§r is an extremely powerful tool that you can use during your entire playthrough. It is essentially a survival version of world-edit that is custom made for the GTNH player's convenience.%n%nThe §3§lPrototype Matter Manipulator§r is expectedly the least powerful, most rudimentary version. You can only use the §5§lGeometry Mode§r to create and manipulate shapes for use in building. You will §nnot§r be able to remove blocks until you install an upgrade unlocked in §2§lEV§r.%n%nFor the most accurate and detailed information visit: [url]https://github.com/RecursivePineapple/MatterManipulator/blob/master/README.md[/url]%n%n[note]The best way to learn about it is to use it! Experiment with the UI and become familiar with how it works.[/note]%n%n[warn]Checkout the Building Better Bases tab for the complete Manipulator questline.[/warn]
+betterquesting.quest.AVth34rQQ3iuYeQaKrsSQg.name=§5§lPrototype Matter Manipulator
+betterquesting.quest.AVth34rQQ3iuYeQaKrsSQg.desc=The §1§lMatter Manipulator§r is an extremely powerful tool that you can use during your entire playthrough. It is essentially a survival version of world-edit that is custom made for the GTNH player's convenience.%n%nAs you might expect, the §1§lPrototype Matter Manipulator§r is the least powerful, most rudimentary version. You can only use the §5§lGeometry Mode§r to create and manipulate shapes for use in building. You will [warn]not[/warn]§r be able to remove blocks until you install an upgrade unlocked in EV.%n%nYou can find detailed information from the developer on: [url]https://github.com/RecursivePineapple/MatterManipulator/blob/master/README.md[/url]%n%nBut the best way to learn about it is to use it! Experiment with the UI and become familiar with how it works.%n%n[note]Checkout the Building Better Bases tab for the complete Manipulator questline.[/note]
 
 # Quest: Matter Manipulator MKII
-betterquesting.quest.D6AFvlXcQbqDncL9y2HXEw.name=§c§lMatter Manipulator MKII
-betterquesting.quest.D6AFvlXcQbqDncL9y2HXEw.desc=The MKII is the penultimate upgrade in the Matter Manipulator line. This one being much more powerful, storing §210x§r the power, with a range of §2128 Blocks§r, and the ability to place §2256 Blocks/Second§r.%n%nIn addition to all of the MKI features you now unlock §5two powerful new modes§r:%n%n§l- Copy / Paste§r: Copy a selection of blocks and paste it as many times as you'd like. Works best with GT & AE2.%n%n§l- Move§r: Similar to Copy / Paste, but will physically relocate something already built.%n%nHere is a short list of things that are copied / moved with the MM, the more complete list is on the Readme, but this should give you a general idea of how versatile it is.%n§3§lGregTech:§r%n%n- Pipe/Cable connections%n- Machine color%n- Machine front & output directions%n- Basic machine settings (auto outputs, etc)%n- Hatch settings (sorting, stack limiting, etc)%n- Multi machine settings (void protection, batch mode, etc)%n- Multi rotation%n- Covers%n- Strong redstone output%n- Custom names%n- Ghost circuits%n- Bus/hatch item/fluid lock%n- Modes (for machines that use the new mode system)%n- Data stick data%n- TecTech machine input parameters%n- ME output bus/hatch capacity%n§3§lAE2:§r%n%n- Any coloring%n- The orientation%n- The configuration%n- The upgrades%n- Custom names%n- Any stored cells (will also automatically configure cells & install their upgrades)%n- Any patterns (will encode but not decode patterns)%n- Priority Settings%n- P2P Settings%n- OreDict / Regular Filter
+betterquesting.quest.D6AFvlXcQbqDncL9y2HXEw.name=§d§lMatter Manipulator MKII
+betterquesting.quest.D6AFvlXcQbqDncL9y2HXEw.desc=The MKII is the penultimate upgrade in the Matter Manipulator line. It is much more powerful, storing §210x§r the power, with a range of §2128 Blocks§r, and the ability to place §2256 Blocks/Second§r. In addition to all of the MKI features you now unlock §5§ltwo powerful new modes§r:%n%n- §5§lCopy / Paste§r: Copy a selection of blocks and paste it as many times as you'd like. Works best with GT & AE2.%n%n- §5§lMove§r: Similar to Copy / Paste, but will physically relocate something already built.%n%nHere is a short list of things that are copied / moved with the MM, the more complete list is on the Readme, but this should give you a general idea of how versatile it is.%n%n§3§lGregTech:§r%n- Pipe/Cable connections%n- Machine color%n- Machine front & output directions%n- Basic machine settings (auto outputs, etc)%n- Hatch settings (sorting, stack limiting, etc)%n- Multi machine settings (void protection, batch mode, etc)%n- Multi rotation%n- Covers%n- Strong redstone output%n- Custom names%n- Ghost circuits%n- Bus/hatch item/fluid lock%n- Modes (for machines that use the new mode system)%n- Data stick data%n- TecTech machine input parameters%n- ME output bus/hatch capacity%n%n§3§lAE2:§r%n- Any coloring%n- The orientation%n- The configuration%n- The upgrades%n- Custom names%n- Any stored cells (will also automatically configure cells & install their upgrades)%n- Any patterns (will encode but not decode patterns)%n- Priority Settings%n- P2P Settings%n- OreDict / Regular Filter
 
 # Quest: Ozonation
 betterquesting.quest.E9atHD5uR9CC0G1qEeFDmQ.name=§c§l오존 처리
@@ -14775,18 +14082,18 @@ betterquesting.quest.E9atHD5uR9CC0G1qEeFDmQ.desc=웨이퍼 처리 속도를 훨�
 
 # Quest: A Portable Barrel?
 betterquesting.quest.EDtFbLVvQX2Y5mQp84W9bw.name=§2§lA Portable Barrel?
-betterquesting.quest.EDtFbLVvQX2Y5mQp84W9bw.desc=As an upgrade to the barrels, EFR also adds the ever-familiar shulker box! The shulker box allows you to portably tote it's contents. You can find the research for them in the New Horizons tab of the Thaumonomicon.%n%nThese have seven additional tiers much like the barrels and chests that give you additional storage space. %n%nYou can dye any tier by shapelessly crafting them with a dye, and undye them by shapelessly crafting them alone. They §nwill§r retain their inventory. %n%n[note]There are many ways to obtain shulker shells:%n1. Fighting Shulkers in the Twilight Forest Lich & Ghast Queen Towers.%n2. Fighting Shulkers from the eggs in the Coins tab%n3. Manually crafting the shells[/note]
+betterquesting.quest.EDtFbLVvQX2Y5mQp84W9bw.desc=As an upgrade to the barrels, EFR also adds the ever-familiar shulker box! The shulker box allows you to comfortably tote around its contents. You can find the research for them in the New Horizons tab of the Thaumonomicon.%n%nThese have seven additional tiers much like the barrels and chests that give you additional storage space. %n%nYou can dye any tier by shapelessly crafting them with a dye, and undye them by shapelessly crafting them alone. They §nwill§r retain their inventory. %n%n[note]There are many ways to obtain shulker shells:%n1. Fighting Shulkers in the Twilight Forest Lich & Ghast Queen Towers.%n2. Fighting Shulkers from the eggs you get from the Vending Machine.%n3. Manually crafting the shells.[/note]
 
 # Quest: Gold Barrel
-betterquesting.quest.GuylOTxSSraeAtj16fZ9-w.name=§3§lGold Barrel
+betterquesting.quest.GuylOTxSSraeAtj16fZ9-w.name=§c§lGold Barrel
 betterquesting.quest.GuylOTxSSraeAtj16fZ9-w.desc=The Gold barrel has 81 slots.
 
 # Quest: Diamond Barrel
-betterquesting.quest.PjAewUoJTnilPpIT-Ce0tA.name=§5§lDiamond Barrel
+betterquesting.quest.PjAewUoJTnilPpIT-Ce0tA.name=§2§lDiamond Barrel
 betterquesting.quest.PjAewUoJTnilPpIT-Ce0tA.desc=The Diamond barrel has 108 slots.
 
 # Quest: Large Molecular Assembler
-betterquesting.quest.Q10xj-OrTE67wsWuTNCAAQ.name=Large Molecular Assembler
+betterquesting.quest.Q10xj-OrTE67wsWuTNCAAQ.name=§9§lLarge Molecular Assembler
 betterquesting.quest.Q10xj-OrTE67wsWuTNCAAQ.desc=The Large Molecular Assembler is exactly how it sounds; a very quick molecular assembler with a much bigger inventory for crafting patterns. %n%nThis can handle up to 1024 crafts per second at the maximum energy usage making it up to 100x faster than a molecular assembler. Check out the Wiki for specifics: [url]https://wiki.gtnewhorizons.com/wiki/Large_Molecular_Assembler[/url]%n%nThe LMA controller hooks up directly to your main network in order to function, and all recipes must be placed inside input buses attached to the machine in order to be recognized. Will not require an output bus.%n%n[note]Super Buses are highly recommended![/note]%n%n[warn]This machine can absolutely wall-share, but be careful about the placement of your input bus or all machines may not be used.[/warn]
 
 # Quest: Compact Storage
@@ -14798,7 +14105,7 @@ betterquesting.quest.V4jinTYRSueIrEqn90dRzQ.name=§3§l강철 상자?
 betterquesting.quest.V4jinTYRSueIrEqn90dRzQ.desc=강철 상자는 금 상자보다 훨씬 비싸고 크기도 작지만, 일부 조합법에 재료로 들어갑니다.
 
 # Quest: The future is here!
-betterquesting.quest.V9BupH47RI6RWX6vff5dpw.name=§2§lThe future is here!
+betterquesting.quest.V9BupH47RI6RWX6vff5dpw.name=§c§lThe future is here!
 betterquesting.quest.V9BupH47RI6RWX6vff5dpw.desc=EFR adds with it vanilla Barrels (not to be confused with JABBA barrels). These are essentially like chests, but they can be placed next to each other and opened with a block above them. And you can upgrade them! Great for those compact machine setups.
 
 # Quest: The Quest for Holy Water
@@ -14810,12 +14117,12 @@ betterquesting.quest.WqDynhbQQ4GdNMKm0BlbcQ.name=고에너지 레이저 정화
 betterquesting.quest.WqDynhbQQ4GdNMKm0BlbcQ.desc=훨씬 더 순수한 물을 얻기 위해서는, 강력한 레이저를 사용하여 물 분자를 정밀하게 타격하고 불순물을 제거해야 합니다. 물 정제 라인 관련 멀티블록들이 늘 그렇듯이, 이번에도 당신 앞에는 해결해야 할 복잡한 자동화 퍼즐이 놓여 있습니다.
 
 # Quest: Matter Manipulator MKI
-betterquesting.quest.Y4bRCOWFTgyxdTJXWXjFfA.name=§b§lMatter Manipulator MKI
-betterquesting.quest.Y4bRCOWFTgyxdTJXWXjFfA.desc=The MKI is where you really start unlocking the potential of the Matter Manipulator. This new one has a §264 Block§r range and a §264 Block/Second§r speed limit.%n%nUnlike it's prototype predecessor, this now has §53 new modes§r made available to you:%n%n§l- Geometry§r: Places standard blocks in a selected and configurable shape.%n%n§l- Cable§r: Allows you to place AE and GT cables & pipes in lines (and connecting them automatically).%n%n§l- Exchange§r: Allows you to swap large swaths of blocks like the TC Equal Trade Focus.%n%nAdditionally, it can now connect to your §5AE network§r for automatically transferring items and liquids. You can link the tool in your security terminal and use it while within wireless range.%n%nWhen something is placed into the world, the tool will §3pull§r from inventories in this order:%n1 - ME system%n2 - Player's inventory%n3 - Uplink§r%n%nWhen something is removed from the world, the tool will §3push§r into inventories in this order:%n1 - ME system%n2 - Uplink%n3 - Player's inventory%n4 - The Ground (Items Only)%n%n[note]This also comes stock with the ability to remove blocks, so there is no need for another excavation upgrade.[/note]
+betterquesting.quest.Y4bRCOWFTgyxdTJXWXjFfA.name=§9§lMatter Manipulator MKI
+betterquesting.quest.Y4bRCOWFTgyxdTJXWXjFfA.desc=The MKI is where you really start unlocking the potential of the Matter Manipulator. It has a §264 Block§r range and a §264 Block/Second§r speed limit.%n%nUnlike it's prototype predecessor, you now have §5§l3 modes§r available:%n%n- §5§lGeometry§r: Places standard blocks in a selected and configurable shape.%n%n- §5§lCable§r: Allows you to place AE and GT cables & pipes in lines (and connect them automatically).%n%n- §5§lExchange§r: Allows you to swap large swaths of blocks like the TC Equal Trade Focus.%n%nAdditionally, the MKI can connect to your AE network to automatically transfer items and liquids. You can link the tool in your security terminal and use it while within wireless range.%n%nWhen something is placed in the world, the tool will §lpull§r from inventories in this order:%n1 - ME system%n2 - Player's inventory%n3 - Uplink§r%n%nWhen something is removed from the world, the tool will §lpush§r into inventories in this order:%n1 - ME system%n2 - Uplink%n3 - Player's inventory%n4 - The Ground (Items Only)%n%n[note]The MKI also comes with the ability to remove blocks, so there is no need for another excavation upgrade.[/note]
 
 # Quest: Matter Manipulator MKIII
-betterquesting.quest._zwtTNh-SG6B4wp221XPcQ.name=Matter Manipulator MKIII
-betterquesting.quest._zwtTNh-SG6B4wp221XPcQ.desc=The MKIII is the final upgrade in the Matter Manipulator series, and grants you access to it's most heightened capabilities. With §210x§r the EU storage as the MKII, it also boasts an §5§lUnlimited§r block range and can handle placing §21024 Blocks / Second§r.%n%nFeature wise, the MKIII comes with all of the same abilities as the MKII, except now with the ability to use the §3§lQuantum Uplink§r, though you won't be able to build that multiblock until §4§lUV§r.
+betterquesting.quest._zwtTNh-SG6B4wp221XPcQ.name=§b§lMatter Manipulator MKIII
+betterquesting.quest._zwtTNh-SG6B4wp221XPcQ.desc=The MKIII is the final upgrade in the Matter Manipulator series, and grants you access to it's most heightened capabilities. With §210x§r the EU storage as the MKII, it also boasts an §5§lunlimited§r block range and can handle placing §21024 Blocks / Second§r.%n%nThe MKIII comes with all of the features of the MKII, except now with the ability to also use the §5§lQuantum Uplink§r, though you won't be able to build that multiblock until UV.
 
 # Quest: Creative Flight With MagLev
 betterquesting.quest.a-g__0y_SGyed_E6IkIrsg.name=§6§lCreative Flight With MagLev
@@ -14834,7 +14141,7 @@ betterquesting.quest.eon8hLumTS-E7MYJ4TFT3w.name=pH 중화
 betterquesting.quest.eon8hLumTS-E7MYJ4TFT3w.desc=만약 당신의 유로퓸 도핑 웨이퍼(Europium-Doped Wafer)를 상당한 속도 향상과 함께 처리하고 싶다면, 이 기계가 당신을 위한 것입니다. 이 기계에서 얻는 pH 중성수(pH neutral water)를 사용하면 웨이퍼를 두 배 더 빠르게 처리할 수 있습니다.%n%n이것은 물 정제 라인에서 마주하게 될 첫 번째 본격적인 복합 자동화 도전 과제입니다. pH 중화 과정을 어떻게 자동화하여 처리할지는 당신에게 달려 있습니다. 즐겨보세요!%n%n[note]이 멀티블록 구조물은 산 및 염기용 해치를 설치해야 하는 위치에 대해 매우 까다롭습니다. 만약 멀티블록 구조물이 완성되지 않는 이유를 모르겠다면, 아마도 이 해치들을 올바른 위치에 배치하는 것을 잊었을 가능성이 높습니다. 홀로그램 프로젝터를 사용하여 정확한 배치 위치를 확인하세요.[/note]
 
 # Quest: Silver Barrel
-betterquesting.quest.fhzjYvdATJuUQTMUO1pVvA.name=§3§lSilver Barrel
+betterquesting.quest.fhzjYvdATJuUQTMUO1pVvA.name=§c§lSilver Barrel
 betterquesting.quest.fhzjYvdATJuUQTMUO1pVvA.desc=The Silver barrel has 72 slots.
 
 # Quest: Multiblock Revolution
@@ -14842,19 +14149,19 @@ betterquesting.quest.hEsmeH74S4aOOrROI1AHxQ.name=§3§l멀티블럭 혁명
 betterquesting.quest.hEsmeH74S4aOOrROI1AHxQ.desc=지금까지 만든 여러 증기 기계들을 잘 활용하고 있으신가요? 앞으로 더 많은 레시피를 처리해야 할 때가 자주 있을겁니다. 이때가 바로 멀티블럭이 필요한 때입니다. 이제부터 다양한 증기 멀티블럭을 사용할 수 있습니다.%n대량 가공 퀘스트 탭을 살펴보세요!%n%n이 탭에서는 낡고 오래된 싱글블럭 기계들을 대체할 수 있는 매우 강력한 멀티블럭 기계들을 다양하게 소개합니다(그리고 추후 오래된 구세대 멀티블럭을 대체할 새로운 기계들도 소개하죠!). 이러한 새로운 기계 중 다수는 추가적인 메커니즘과 요구 사항을 처리해야 하지만 그만한 가치가 있습니다!%n%n멀티블럭의 세계에 입문할 때 숙지해야 할 몇 가지 용어가 있습니다:%n%n오버클럭(OC):%n기계가 레시피 처리에 필요한 전압보다 더 높은 단계의 전압을 주면 오버클럭이 되어 4배의 EU/t가 필요하지만 2배 빠르게 실행됩니다. 더욱 높은 단계의 전압을 제공할수록 효과는 중첩됩니다! n%n퍼펙트 오버클럭(종종 "오버클럭 시 효율성이 떨어지지 않음"으로 표현됨):%n조건부(또는 무조건) 퍼펙트 오버클럭을 수행하는 기계도 있습니다: 이 경우 기계는 4배의 EU/t를 필요로 하지만 대신 4배 더 빠르게 실행되므로 속도가 증가하면서도 총 EU 사용량은 정비례하게 늘어납니다!%n%n병렬화(종종 "프로세스 x 아이템"으로 표현됨):%n병렬로 작동하는 기계는 마치 여러 대를 실행하는 것처럼, 즉 레시피의 EU/t에 병렬화 수를 곱하여 동일한 레시피를 동시에 여러 개 실행할 수 있습니다. 병렬 처리하는 기계는 오버클럭보다 병렬화 처리를 [warn]우선적으로[/warn] 처리합니다. 참고로 오버클럭보다 병렬 처리가 더 효율적입니다.%n%n[note]멀티블럭으로 작업할 때, 작동 중에 전원 공급이 중단되면 투입한 재료들은 영원히 손실됩니다. 주의하세요![/note]
 
 # Quest: NEI Next Level Recipe Search
-betterquesting.quest.hmQlN9vLSEOyCnCSOOXz7Q.name=§2§lNEI Next Level Recipe Search
-betterquesting.quest.hmQlN9vLSEOyCnCSOOXz7Q.desc=NEI recipe search has been improved even further!%n%nAs you might already know, §orecipe§r search works §lONLY§r inside the §orecipe§r search field just like in other search modes. This is the small field that replaces the §orecipe§r page number, when you click on the magnifying glass on the left from that number when viewing recipes. Extended+ does §lNOT§r give you the ability to search §orecipes§r in the big main search field below.%n%nSelect the search mode "extended+" to try it out!%n%nHere backticks `` are used around the search queries, but you don't need them when searching.%n%nBy default the search works like in the extended mode, searching in §lany§r of the inputs and outputs of a recipe. So if you search a recipe by `§1-§rdust`, it will return all recipes where there's at least one item that doesn't have §o"dust"§r.%n%nLet's say you want to search only in §linputs§r. Put §a<§r before your search query to do that. For example: `§a<§riron` returns all the recipes with §o"iron"§r in one of the §linputs§r, `§a<§rsteel§5@gregtech§r` returns the recipes with at least one item from any mod containing §9Gregtech§r in their name, using §o"steel"§r.%n%nBut then, if you search by `§a<§1-§rdust` it still returns the recipes with §o"dust"§r on the left. Why is that? Because §a<§r searches among §lall§r items. So if there's one item that doesn't have §o"dust"§r, then it would still match the recipe, even if the rest of the inputs are dusts.%n%nTo solve this, use §a<&§r instead. Like this: `§a<&§1-§rdust`. It returns §lall§r the recipes without §o"dust"§r among the inputs! §a<&§r sets a §lstrict§r condition on §lall§r inputs, unlike §a<§r that sets a condition on §lany§r input.%n%nTo filter the §loutputs§r use §a>§r and §a>&§r. They work the same way, but allow you to filter the §loutputs§r of a recipe. So `§a>§rgold` gives you the recipes with at least one §loutput§r with §o"gold"§r. And `§a>&§rgold` gives you the recipes with §o"gold"§r in every outputted item.%n%nWant to combine multiple conditions? Sure, just put them one after another in any order. E.g. you could search for `§a<§riron§a>§rsteel`, `§a<&§r §1-§b$dust§r §a<§r cell`, `§a>&§1-§rdust cell`.%n%nOr even for `dust§a>§rcell`. Here the non-prefixed part works like default, searching among §lall§r items from the inputs and outputs. So this query returns the recipes with §o"dust"§r in one of the inputs or outputs and §o"cell"§r in one of the outputs.%n%nIn some recipes you might have items that don't belong to inputs or outputs. In order to filter them use `§a^§r` and `§a^&§r` respectively.%n%nYou can add spaces for readability too, because (unless you have space mode on) spaces can be used anywhere while in extended+ mode.
+betterquesting.quest.hmQlN9vLSEOyCnCSOOXz7Q.name=§a§lNEI Next Level Recipe Search
+betterquesting.quest.hmQlN9vLSEOyCnCSOOXz7Q.desc=There are even more NEI search options!%n%nIf you are scrolling through recipes, you might have noticed the magnifier symbol on the top, left to the page number. Clicking it opens the §lrecipe search field§r. A search term you enter here will filter all the current recipes to the ones where an input or output matches the term. An easy way to narrow down all screwdriver recipes to just the one from a particular material you want!%n%nIf you use "extended+" search mode the recipe search becomes even more powerful!%n%nHere backticks `` are used around the search queries, but you don't need them when searching.%n%nBy default the search works like in the extended mode, searching in §lany§r of the inputs and outputs of a recipe. So if you search a recipe by `§1-§rdust`, it will return all recipes where there's at least one item that doesn't have §o"dust"§r.%n%nLet's say you want to search only in §linputs§r. Put §a<§r before your search query to do that. For example: `§a<§riron` returns all the recipes with §o"iron"§r in one of the §linputs§r, `§a<§rsteel§5@gregtech§r` returns the recipes with at least one item from any mod containing §9Gregtech§r in their name, using §o"steel"§r.%n%nBut then, if you search by `§a<§1-§rdust` it still returns the recipes with §o"dust"§r on the left. Why is that? Because §a<§r searches among §lall§r items. So if there's one item that doesn't have §o"dust"§r, then it would still match the recipe, even if the rest of the inputs are dusts.%n%nTo solve this, use §a<&§r instead. Like this: `§a<&§1-§rdust`. It returns §lall§r the recipes without §o"dust"§r among the inputs! §a<&§r sets a §lstrict§r condition on §lall§r inputs, unlike §a<§r that sets a condition on §lany§r input.%n%nTo filter the §loutputs§r use §a>§r and §a>&§r. They work the same way, but allow you to filter the §loutputs§r of a recipe. So `§a>§rgold` gives you the recipes with at least one §loutput§r with §o"gold"§r. And `§a>&§rgold` gives you the recipes with §o"gold"§r in every outputted item.%n%nWant to combine multiple conditions? Sure, just put them one after another in any order. E.g. you could search for `§a<§riron§a>§rsteel`, `§a<&§r §1-§b$dust§r §a<§r cell`, `§a>&§1-§rdust cell`.%n%nOr even for `dust§a>§rcell`. Here the non-prefixed part works like default, searching among §lall§r items from the inputs and outputs. So this query returns the recipes with §o"dust"§r in one of the inputs or outputs and §o"cell"§r in one of the outputs.%n%nIn some recipes you might have items that don't belong to inputs or outputs. In order to filter them use `§a^§r` and `§a^&§r` respectively.%n%nYou can add spaces for readability too, because (unless you have space mode on) spaces can be used anywhere while in extended+ mode.
 
 # Quest: Never Hungry Again
-betterquesting.quest.hvukogcPRX-hht60vc0Zgw.name=Never Hungry Again
+betterquesting.quest.hvukogcPRX-hht60vc0Zgw.name=§2§lNever Hungry Again
 betterquesting.quest.hvukogcPRX-hht60vc0Zgw.desc=Congratulations! You have gracefully served your penance; no longer shall you be bound by the woes of hunger. %n%nWith this new trinket (equipable in a baubles slot) you will automatically have your hunger and saturation replenished, so long as the nanobooster stays charged.%n%nAdditionally it will do it's best to keep you healed, though it cannot ward off death completely on its own.%n%n[note]P.S. Upgrading your wireless charger might be a good idea![/note]
 
 # Quest: Quantum Uplink
-betterquesting.quest.jZURYQZlSuitTiiasN4J8A.name=Quantum Uplink
-betterquesting.quest.jZURYQZlSuitTiiasN4J8A.desc=The §5§lQuantum Uplink§r is a multi made specifically for the Matter Manipulator that is unlocked with the aid of §4§lUV§r tech. %n%nThis allows the Matter Manipulator to connect to your ME system over an §2infinite range§r, and §3across dimensions§r. The tool can be linked by placing it into the controller while the uplink is active. The uplink will take a continous 1A of ZPM power to function.%n%nAdditionally, you can now use it to create fake ME patterns upon selecting an area. This will make it quick to order all of the parts needed for Copy & Pasting in an area. %n%n[warn]The Uplink is powerful, but at a cost. Moving all items / fluids from the AE system will cost a small amount of plasma per transfer. %n%nSpecifically: 16k EU of plasma per item / per 1000L of fluid[/warn]
+betterquesting.quest.jZURYQZlSuitTiiasN4J8A.name=§2§l§nQuantum Uplink
+betterquesting.quest.jZURYQZlSuitTiiasN4J8A.desc=The §5§lQuantum Uplink§r is a multi made specifically for the Matter Manipulator that is unlocked with the aid of UV tech. %n%nThis allows the Matter Manipulator to connect to your ME system over an infinite range, and across dimensions. The tool can be linked by placing it into the controller while the uplink is active. The uplink will take a continous 1A of ZPM power to function.%n%nAdditionally, you can now use it to create fake ME patterns upon selecting an area. This will make it quick to order all of the parts needed for Copy & Pasting in an area. %n%n[warn]The Uplink is powerful, but at a cost. Moving all items / fluids from the AE system will cost a small amount of plasma per transfer. %n%nSpecifically: 16k EU of plasma per item / per 1000L of fluid[/warn]
 
 # Quest: NEI Next Level Search
-betterquesting.quest.kR1YVSq2R4WFu9KNM9lCZQ.name=§2§lNEI Next Level Search
+betterquesting.quest.kR1YVSq2R4WFu9KNM9lCZQ.name=§a§lNEI Next Level Search
 betterquesting.quest.kR1YVSq2R4WFu9KNM9lCZQ.desc=NEI search got improved even further!%n%nSelect a search mode extended+ to try it out!%n%nExtended+ works pretty much like extended, but it doesn't support * and ? expanding in the names. Also the following symbols have to be escaped with a `\`: `-` (dash) `<` and `>` (less-than and more-than) `^` (caret) `{` and `}` (curly brackets) `|` (vertical bar) `\` (backslash) ` ` (space) `"` (quote) alongside with the prefixes that you have enabled like §5@§r or §b$§r.%n%nExamples: §5@§oElectro\-Magic§r, §oiron\ ingot§r, §oPB\&J§r.%n%nExtended+ adds some QoL to your everyday search experience and an improved recipe search (next quest). In the following backticks `` are used around the search queries. You don't need them when searching.%n%nWant to search for something without having to put a backslash before every other symbol? Use quotes! You could use a quote inside quotes too, but you would have to escape it. Like this: `§6"§r\"§6"§r`.%n%nUse curly brackets §7{}§r to group conditions. Searching for `§7{§rmytryl§7|§rmanasteel§7}§r hammer head` would show you hammer heads made out of mytryl or manasteel.%n%nSpace is no longer necessary to use. So `§7{§rmytryl§7|§rmanasteel§7}§rhammer` works too!%n%nThere's a space mode support, so if you want your spaces to work literally turn it on!%n%nQuotes no longer require a closing quote. So you could search for `§6"§riron ingot` and it would work! You still do need a quote if you want your quotes to end though.%n%nRegex syntax got simplified (though the old one is still supported). Now instead of `§br/§rsome regex§b/§r` you could search for `§b/§rsome regex` and it would work too! You still do need a slash if you want your regex to end. Regex doesn't require escaping, the same way quotes don't, with the only exception being the `/`. So to find a slash with a regex you would search with `§b/§r\/`.%n%nYou can use quotes or regex after prefix to search with them instead of a plain text. For example, use `§5@§6"§5chest minecarts§r` to search for items from the §9Iron Chest Minecarts§r mod. Or `§5@§b/§5chest minecarts§r` to do the same with a regex.
 
 # Quest: Clarifier
@@ -14862,7 +14169,7 @@ betterquesting.quest.mMCFuGqxQTuuLnJgEldztA.name=§c§l정수기
 betterquesting.quest.mMCFuGqxQTuuLnJgEldztA.desc=물 정제 과정의 첫 번째 단계는 정수기(Clarifier)입니다. 이 기계를 작동하는 것은 간단하며, 필터에 활성탄(Activated Carbon)을 꾸준히 공급하기만 하면 됩니다. 이 기계를 사용하면 1급 정제수를 만들 수 있으며, 이는 나콰다 도핑 부울과 웨이퍼의 처리 속도를 25%% 향상시킬 수 있습니다.
 
 # Quest: Iron Barrel
-betterquesting.quest.ne_onBK6TP2F_ySPabM7Lw.name=§2§lIron Barrel
+betterquesting.quest.ne_onBK6TP2F_ySPabM7Lw.name=§c§lIron Barrel
 betterquesting.quest.ne_onBK6TP2F_ySPabM7Lw.desc=The Iron barrel has 54 slots.
 
 # Quest: Purifying Water With Plasma
@@ -14936,10 +14243,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABxw.desc="신비한 크리스탈"을 찾
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAByA.name=트리거 라이프
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAByA.desc=위더의 죽음 후에 생명의 캔니스터 퀘스트를 발동합니다.
 
-# Quest: Trigger: Ring
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFUw.name=트리거:링
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFUw.desc=설명 없음
-
 # Quest: Trigger: Mjolnir
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFVA.name=트리거:묠니르
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFVA.desc=묠니르를 찾으세요
@@ -14949,8 +14252,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFVQ.name=트리거:볼띵이
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFVQ.desc=LS를 찾으시거나 만드세요
 
 # Quest: Trigger: CtH (unlock)
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAISw.name=트리거:CtH (잠금 해제)
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAISw.desc=하이브리드를 모두 수집하여 트리거를 완성하세요
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAISw.name=Trigger: CtH (unlock)
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAISw.desc=Complete collecting the hybrids to trigger
 
 # Quest: Bees Template
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIbw.name=벌 템플릿
@@ -15023,10 +14326,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALXQ.desc=설명 없음
 # Quest: Trigger: Obtain Sunnarium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMBg.name=트리거: 선나리움 획득하기
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMBg.desc=설명 없음
-
-# Quest: Trigger: SMD Transistor Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMjw.name=트리거: SMD 트랜지스터 스킵
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMjw.desc=설명 없음
 
 # Quest: Tool: Never complete
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrw.name=도구: 절대 완료되지 않음

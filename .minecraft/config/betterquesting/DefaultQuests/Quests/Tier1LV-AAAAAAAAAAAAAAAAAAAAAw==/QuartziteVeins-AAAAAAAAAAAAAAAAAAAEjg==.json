@@ -17,10 +17,10 @@
         "id:8": "minecraft:quartz_ore"
       },
       "isGlobal:1": 0,
-      "isMain:1": 0,
+      "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§5§lQuartzite Veins",
+      "name:8": "§2§lQuartzite Veins",
       "partySingleReward:1": 0,
       "questLogic:8": "AND",
       "repeatTime:3": -1,

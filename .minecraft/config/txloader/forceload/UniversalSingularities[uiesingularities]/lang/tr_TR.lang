@@ -47,7 +47,16 @@ item.universalSingularities.general.meteoricIron.name=Meteorik Demir Tekilliği
 item.universalSingularities.general.europium.name=Öropyum Tekilliği
 item.universalSingularities.general.gangue.name=Gangue Tekilliği
 item.universalSingularities.general.roseGold.name=Gül Altın Tekilliği
-//General
+
+//Rubber
+item.universalSingularities.rubber.rubber.name=Rubber Singularity
+item.universalSingularities.rubber.styrenebutadiene.name=Styrene-Butadiene Rubber Singularity
+item.universalSingularities.rubber.silicone.name=Silicone Rubber Singularity
+item.universalSingularities.rubber.polyphenylene.name=Polyphenylene Sulfide Singularity
+item.universalSingularities.rubber.pvc.name=Polyvinyl Chloride Singularity
+item.universalSingularities.rubber.elastic.name=Elastic Singularity
+
+
 
 //Big Reactors
 item.universalSingularities.bigReactors.blutonium.name=Blutonyum Tekilliği
@@ -135,6 +144,7 @@ item.universalSingularities.tinkersConstruct.glue.name=Yapıştırıcı Tekilli�
 item.universalSingularities.tinkersConstruct.manyullyn.name=Manulin Tekilliği
 //item.universalSingularities.tinkersConstruct.pigIron.name=Dökme Demir Tekilliği
 //Tinkers' Construct
+
 
 /*Removed
  * item.universalSingularities.general.salt.name=Tuz Tekilliği
